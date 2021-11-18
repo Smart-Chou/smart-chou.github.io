@@ -1,0 +1,25 @@
+{
+  "name": "codenoobs",
+  "version": "1.0.0",
+  "description": "一个菜鸟学习编程的记录",
+  "main": "index.js",
+  "repository": "codenoob.top",
+  "author": "ChouCong",
+  "license": "MIT",
+  "keywords": [
+    "vuepress",
+    "personal-blog"
+  ],
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "clean": "vuepress dev blog --no-cache",
+    "build": "vuepress build blog"
+  },
+  "dependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-theme-hope": "1.20.3"
+  },
+  "resolutions": {
+    "vue-router": "3.4.5"
+  }
+}
