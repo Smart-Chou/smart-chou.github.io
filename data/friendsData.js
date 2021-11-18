@@ -7,7 +7,7 @@ export default [
     },
     {
       "name": "苍穹の下",
-      "desc": "SKYのBlog：一个IT打工人&老二刺螈&老游戏佬的博客",
+      "desc": "一个IT打工人&老二刺螈&老游戏佬的博客",
       "link": "https://www.blueskyxn.com/", 
       "avatar": "https://ae01.alicdn.com/kf/U86be0ebc85004924a57b3f81c8091f51Y.jpg",     
     },
@@ -22,12 +22,6 @@ export default [
       "desc": "五年代码，三年BUG",
       "link": "https://networkos.club/",
       "avatar": "https://networkos.club/wp-content/uploads/2021/01/head.jpg",    
-    },
-    {
-      "name": "北熙赤ちゃん",
-      "desc": "恋に色があるとすれば、きっと純白です。",
-      "link": "https://blog.beixibaobao.com",
-      "avatar": "https://blog.beixibaobao.com/wp-content/uploads/2020/03/logo.png",     
     },
     {
       "name": "沐风の秘密基地",
@@ -54,22 +48,10 @@ export default [
       "avatar": "https://irr.ink/logo.jpg",     
     },
     {
-      "name": "竹MC的博客",
-      "desc": "希望帮到你！",
-      "link": "http://bamboomc.top",
-      "avatar": "https://s3.jpg.cm/2021/02/04/BsY7u.jpg",     
-    },
-    {
       "name": "老兄de博客",
       "desc": "只要有光，目标再远，人们都能继续前行。带着希望，向着美好的未来飞翔",
       "link": "https://www.moec.top/",
       "avatar": "https://www.moec.top/wp-content/uploads/2021/01/photo_2020-04-05_08-52-40.jpg",      
-    },
-    {
-      "name": "Wind♡",
-      "desc": "M1namia最可爱了~",
-      "link": "https://minamia.moe/",
-      "avatar": "https://s3.ax1x.com/2021/02/24/yOkoxU.jpg",      
     },
     {
       "name": "抓住这个IDEA",
@@ -88,11 +70,5 @@ export default [
       "desc": "隔在一层层纱后的你，在我心中",
       "link": "https://blog.xiadengma.com",
       "avatar": "https://cdn.jsdelivr.net/gh/XIADENGMA/IMGBED@main/avater/avatar.webp",      
-    },
-    {
-      name: 'w晚风阅览馆',
-      link: 'http://bk.xiat123.cn',
-      avatar: 'http://bk.xiat123.cn/head.jpg',
-      desc: '流年以笑掷,未来诚可期!'
     }
   ]
