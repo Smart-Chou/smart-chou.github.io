@@ -68,7 +68,7 @@ export default {
           font-size 14px
         .btn
           position absolute
-          left 78px
+          left 78.5px
           display inline-block
           background-color $accentColor  
           color #ffffff
@@ -90,7 +90,7 @@ export default {
           .desc            
             font-size 12px
           .btn
-            left 64px
+            left 66px
             border-radius 10px
             font-size 10px
 </style>

@@ -77,8 +77,13 @@ module.exports = config({
     activeHeaderLinks: true,
     
     algolia: {
-      apiKey: "",
-      indexName: "",
+      appId: 'GN0F7Q8LXY',
+			apiKey: 'fdc2c58cffc2dd1614dc4ad7f0d07338',
+			indexName: 'search_one',
+			algoliaOptions: {
+				hitsPerPage: 10,
+				facetFilters: "",
+		  },
     },
 
     backToTop: 666,
