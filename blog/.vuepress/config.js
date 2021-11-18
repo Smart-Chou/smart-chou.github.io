@@ -70,21 +70,10 @@ module.exports = config({
     
     hostname: "https://codenoob.top",
 
-    search: true,
     searchMaxSuggestions: 10,
     searchPlaceholder: "想知道啥，快来搜！",
     breadcrumb: true,
     activeHeaderLinks: true,
-    
-    algolia: {
-      appId: 'GN0F7Q8LXY',
-			apiKey: 'fdc2c58cffc2dd1614dc4ad7f0d07338',
-			indexName: 'search_one',
-			algoliaOptions: {
-				hitsPerPage: 10,
-				facetFilters: "",
-		  },
-    },
 
     backToTop: 666,
     
