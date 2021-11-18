@@ -1,0 +1,9 @@
+
+User-agent: * 
+Disallow: /*?
+
+Sitemap: https://codenoob.top/sitemap.xml
+User-agent:*
+Disallow:
+
+Sitemap: https://codenoob.top/sitemap.xml
