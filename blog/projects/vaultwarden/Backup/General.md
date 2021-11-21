@@ -1,13 +1,13 @@
 ---
 title: 通用(不是docker)
 description: 最值得信赖的开源密码管理器 
-# 当前文章是否为原创
 original: true
 time: 2021-11-20
 category: 项目
 tag:
   - bitwarden
 icon: bitwarden
+article: false
 ---
 ## 备份
 
