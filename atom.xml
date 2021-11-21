@@ -6,7 +6,7 @@
   <author>
     <name>ChouCong</name>
   </author>
-  <updated>2021-11-21T15:23:28.405Z</updated>
+  <updated>2021-11-21T15:46:21.634Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://codenoob.top/atom.xml"/>
   <link rel="alternate" href="https://codenoob.top/"/>
@@ -22,6 +22,50 @@
   <contributor>
     <name>ChouCong</name>
   </contributor>
+  <entry>
+    <title type="html">Home</title>
+    <id>/author.html</id>
+    <link href="https://codenoob.top/author.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="简介"> 简介</h1>
+<div><p>介绍</p>
+<p>我是ChouCOng，热爱编程，乐于分享</p>
+<p>现在的个人博客，读者和作者都越来越少，坚持写自己的东西，是一种总结更是一种锻炼，如果别人能懂得我的转述，我才是真的会了</p>
+<p>感谢你的关注，你可点击<a href="/timeline/">时光机</a>来了解我在做什么，也可以点击<a href="/latest.html">最新文章</a>，查看更多的信息 点击查看本站的<a href="/category/">分类</a>结构更为清晰！</p>
+</div>
+<h2 id="我的bilibili"> 我的bilibili</h2>
+<p>在年疫情期间，我上传了我的第一个视屏，是分享一个使用来编写实时疫情界面的教程，第一次收获了点赞和关注 随后我在每周更新自己想要分享的东西，如果你感兴趣可以来我的个人空间瞧一瞧<a href="https://space.bilibili.com/372366303/" target="_blank" rel="noopener noreferrer">ChouCong的个人空间</a></p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
+<p><img src="/assets/img/qr_weixin.png" alt="公众号二维码，扫一扫有惊喜！" /></p>
+<h2 id="目前技术栈"> 目前技术栈</h2>
+<p>本来花了很多的时间学习相关，但是目前从事前端也比较喜欢，所以说就是都会点，也可以说是全都不会
+</br>
+</br>
+特别喜欢移动端的开发，但是生不逢时没有入行，现在也只是爱好</p>
+<h2 id="未来计划"> 未来计划</h2>
+<ul>
+<li>保持学习算法和数据结构</li>
+<li>做一个自己的开源项目</li>
+<li>更新一些简单的教程</li>
+<li>精彩的生活</li>
+</ul>
+<h2 id="联系我"> 联系我</h2>
+<p>有什么好的意见，或者是想要咨询一些事情可以通过以下找到我</p>
+<ul>
+<li>QQ：<a href="https://qm.qq.com/cgi-bin/qm/qr?k=hH6gqBpGrQ80a0kBI-69N6OWXMIJ7825&amp;noverify=0" target="_blank" rel="noopener noreferrer">3518439599</a></li>
+<li>邮箱：<a href="mailto:ChouCong912@gmial.com">ChouCong912@gmial.com</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-18T06:47:23.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
   <entry>
     <title type="html">Markdown高级技巧</title>
     <id>/basic/markdown-enhance.html</id>
@@ -177,81 +221,6 @@ Note right of C: 没人陪我玩
       <name>ChouCong</name>
     </contributor>
     <published>2020-06-26T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">Home</title>
-    <id>/author.html</id>
-    <link href="https://codenoob.top/author.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="简介"> 简介</h1>
-<div><p>介绍</p>
-<p>我是ChouCOng，热爱编程，乐于分享</p>
-<p>现在的个人博客，读者和作者都越来越少，坚持写自己的东西，是一种总结更是一种锻炼，如果别人能懂得我的转述，我才是真的会了</p>
-<p>感谢你的关注，你可点击<a href="/timeline/">时光机</a>来了解我在做什么，也可以点击<a href="/latest.html">最新文章</a>，查看更多的信息 点击查看本站的<a href="/category/">分类</a>结构更为清晰！</p>
-</div>
-<h2 id="我的bilibili"> 我的bilibili</h2>
-<p>在年疫情期间，我上传了我的第一个视屏，是分享一个使用来编写实时疫情界面的教程，第一次收获了点赞和关注 随后我在每周更新自己想要分享的东西，如果你感兴趣可以来我的个人空间瞧一瞧<a href="https://space.bilibili.com/372366303/" target="_blank" rel="noopener noreferrer">ChouCong的个人空间</a></p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
-<p><img src="/assets/img/qr_weixin.png" alt="公众号二维码，扫一扫有惊喜！" /></p>
-<h2 id="目前技术栈"> 目前技术栈</h2>
-<p>本来花了很多的时间学习相关，但是目前从事前端也比较喜欢，所以说就是都会点，也可以说是全都不会
-</br>
-</br>
-特别喜欢移动端的开发，但是生不逢时没有入行，现在也只是爱好</p>
-<h2 id="未来计划"> 未来计划</h2>
-<ul>
-<li>保持学习算法和数据结构</li>
-<li>做一个自己的开源项目</li>
-<li>更新一些简单的教程</li>
-<li>精彩的生活</li>
-</ul>
-<h2 id="联系我"> 联系我</h2>
-<p>有什么好的意见，或者是想要咨询一些事情可以通过以下找到我</p>
-<ul>
-<li>QQ：<a href="https://qm.qq.com/cgi-bin/qm/qr?k=hH6gqBpGrQ80a0kBI-69N6OWXMIJ7825&amp;noverify=0" target="_blank" rel="noopener noreferrer">3518439599</a></li>
-<li>邮箱：<a href="mailto:ChouCong912@gmial.com">ChouCong912@gmial.com</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-18T06:47:23.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">基础认知</title>
-    <id>/basic/</id>
-    <link href="https://codenoob.top/basic/"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
-<ul>
-<li>
-<p><a href="./tutorial.html">基础认知</a></p>
-</li>
-<li>
-<p><a href="./vuepress.html">VuePress</a></p>
-</li>
-<li>
-<p><a href="./markdown.html">Markdown</a></p>
-</li>
-<li>
-<p><a href="./markdown-enhance.html">Markdown增强</a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="Start"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-06-20T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -846,6 +815,37 @@ Example: <code>:smile:</code> 😄 </br>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">基础认知</title>
+    <id>/basic/</id>
+    <link href="https://codenoob.top/basic/"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
+<ul>
+<li>
+<p><a href="./tutorial.html">基础认知</a></p>
+</li>
+<li>
+<p><a href="./vuepress.html">VuePress</a></p>
+</li>
+<li>
+<p><a href="./markdown.html">Markdown</a></p>
+</li>
+<li>
+<p><a href="./markdown-enhance.html">Markdown增强</a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="Start"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-06-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">初接触指南</title>
     <id>/basic/tutorial.html</id>
     <link href="https://codenoob.top/basic/tutorial.html"/>
@@ -1061,6 +1061,41 @@ npm init vuepress-theme-hope docs
       <name>ChouCong</name>
     </contributor>
     <published>2020-08-22T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
+    <id>/code/loop.html</id>
+    <link href="https://codenoob.top/code/loop.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[SpringBoot实战项目]]></summary>
+    <content type="html"><![CDATA[<div><p>说明</p>
+<p>此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
+</div>
+<h2 id="前言"> 前言</h2>
+<p><a href="https://www.bilibili.com/video/BV1av4y1f7o1" target="_blank" rel="noopener noreferrer">视频教程</a></p>
+<p>观众朋友们大家好啊，我来填坑了，去年的时候我发了一些基础的视频，每次都说后面会出项目视频，但是每次都因为各种各样的原因耽搁了</p>
+<p>最近空闲的时间比较多，所以来把这个坑填了，本次的项目是根据我的所学知识和一些日常工作中的经验制作而成，因为时间的关系，这个项目从零开始，每制作一点就发一个视频，所以说这是一个具有很多不确定因素的计划，我也不是一个专业的培训老师，工作经验有限，希望大家多多担待，中途有错误或者大家有更好的思路可以一起讨论</p>
+<p>先说一下此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
+<p>PC端我们使用springboot、thymeleaf来制作混合页面
+管理端我们使用springboot、vue3（待定）来制作前后端分离项目
+移动端我们使用springboot、uniapp来制作前后端分离项目
+中途不限于使用模板引擎、缓存、权限管理、文件转换、消息队列、爬虫、搜索引擎等技术，这是一个相对完整的项目，并不是单纯的为了组装知识点而拼凑的项目，我们从实际业务出发，尽量给各位观众朋友们带来真实的、能够在工作中复用的知识</p>
+<p>此次的项目耗时是相对比较长的，并且是完全免费的，附带文档和源码，大家的三连就是对我最大的支持！</p>
+<h2 id="源码"> 源码</h2>
+<p><a href="https://github.com/lookroot/loop" target="_blank" rel="noopener noreferrer">GitHub</a>大家自取。</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="编程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-01-21T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -1366,102 +1401,6 @@ npm init vuepress-theme-hope docs
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
-    <id>/code/loop.html</id>
-    <link href="https://codenoob.top/code/loop.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[SpringBoot实战项目]]></summary>
-    <content type="html"><![CDATA[<div><p>说明</p>
-<p>此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
-</div>
-<h2 id="前言"> 前言</h2>
-<p><a href="https://www.bilibili.com/video/BV1av4y1f7o1" target="_blank" rel="noopener noreferrer">视频教程</a></p>
-<p>观众朋友们大家好啊，我来填坑了，去年的时候我发了一些基础的视频，每次都说后面会出项目视频，但是每次都因为各种各样的原因耽搁了</p>
-<p>最近空闲的时间比较多，所以来把这个坑填了，本次的项目是根据我的所学知识和一些日常工作中的经验制作而成，因为时间的关系，这个项目从零开始，每制作一点就发一个视频，所以说这是一个具有很多不确定因素的计划，我也不是一个专业的培训老师，工作经验有限，希望大家多多担待，中途有错误或者大家有更好的思路可以一起讨论</p>
-<p>先说一下此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
-<p>PC端我们使用springboot、thymeleaf来制作混合页面
-管理端我们使用springboot、vue3（待定）来制作前后端分离项目
-移动端我们使用springboot、uniapp来制作前后端分离项目
-中途不限于使用模板引擎、缓存、权限管理、文件转换、消息队列、爬虫、搜索引擎等技术，这是一个相对完整的项目，并不是单纯的为了组装知识点而拼凑的项目，我们从实际业务出发，尽量给各位观众朋友们带来真实的、能够在工作中复用的知识</p>
-<p>此次的项目耗时是相对比较长的，并且是完全免费的，附带文档和源码，大家的三连就是对我最大的支持！</p>
-<h2 id="源码"> 源码</h2>
-<p><a href="https://github.com/lookroot/loop" target="_blank" rel="noopener noreferrer">GitHub</a>大家自取。</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="编程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-01-21T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">PHP还是世界上最好的语言吗</title>
-    <id>/code/php-history.html</id>
-    <link href="https://codenoob.top/code/php-history.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[PHP还是世界上最好的语言吗]]></summary>
-    <content type="html"><![CDATA[<div><p>感慨</p>
-<p>这两年越来越多唱衰php的，而且php的市场也越来越小</p>
-</div>
-<h2 id="梗"> 梗</h2>
-<p>php是世界是最好的语言吗？虽然说这是一个梗，但是事实上在web端曾经可以说的上是最好的语言，那么及时在现在，如果想快速搭建一个动态的网页项目，php也是快速落地的好方案，开发速度快，成熟的生态，大量的案例适合二开</p>
-<p>但是也仅仅是在web端</p>
-<h2 id="发展"> 发展</h2>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225707-955722.png" alt="#" /></p>
-<p>PHP最初是以模板+脚本的形式进行设计，在Java还是使用 system.out.println进行拼接动态网页的时候，php可以直接在页面中编写动态脚本，那么在web发展火热的时候，php也跟着火热起来</p>
-<p>有个段子说，你看在一直打开网页搜索的程序员一定是PHP程序员，其实是有道理的</p>
-<p>PHP能快速发展的一部分原因就是提供了大量的预定义函数，使得新人能够快速上手，好用是一方面，但是确实难记，加上早期的定义不规范，参数和方法名都很混乱，那么使得即使你是一个老手，还得看手册</p>
-<h2 id="变化"> 变化</h2>
-<p>随着后来web的快速发展，慢慢出现了大型的网页应用，移动应用，前后端分离应用</p>
-<p>PHP因为自身特性的原因，性能饱受诟病，在这个过程中</p>
-<p>大型的公司可能有能力解决，比如Facebook的php虚拟机HHVM，但是没有这个实力的公司只能重构，加上Java的后期发展迅速，很多就转向了Java的怀抱</p>
-<h2 id="现代化"> 现代化</h2>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225751-560178.png" alt="#" /></p>
-<p>后来PHP也出现了Laravel这样现代化的适合前后端分离的框架，还有swoole协程，加上php7性能上的提升，composer包的有效管理</p>
-<p>php是完全可以用来开发大型项目的，但是这个时候，大量的PHP开发人员已经流失了</p>
-<h2 id="处境"> 处境</h2>
-<p>那么在现在，仍然在使用PHP的，要吗就是已经有成熟的PHP开发体系的，有大量的遗留项目的大型公司，要吗就是追求速度的初创公司</p>
-<p>大型公司就不提了，被干了几年了大牛牢牢把控住</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225824-706429.png" alt="#" /></p>
-<p>那么在初创公司，其实PHP也是不顺利的，首先现在网页端的流量流失了</p>
-<p>很多公司要招会小程序，会跨平台的人，那么还得会php的能实际开发的人可以算的上是初级全栈了</p>
-<p>初创公司肯定是出不起这个价钱的，而且学php的新人越来越少了，这就行成了老手看不上，新手做不了的局面</p>
-<p>有钱一点目光远一点的初创公司会干脆就招个前端 招个Java后端把项目架构做的好一点，万一就是这个产品成功了还能使用长一点的时间</p>
-<p>剩下的一些初创公司就会选择转向云开发，反正业务也不多，数据量也不大，找个会node的前端就做了</p>
-<p>回到最初这个问题上来，现在还可不可以学习php，当然可以</p>
-<p>特别是要想回三四线城市工作的学历不好的同学，PHP在这些地方非常容易找到工作</p>
-<h2 id="学习的根本"> 学习的根本</h2>
-<p>但是我们剖析一下这个问题，提问可不可以学习php，完全是从就业这个方面来想得，但是认真想一下，学习php我们到底学习了什么东西</p>
-<p>算法和数据结构、面向对象，包括更多使用的Mysql、redis 、mongodb 、nginx，这些东西完完全全是通用的，那么使用php来操作和使用Java来操作无非是语言上的区别</p>
-<p>如果一个程序员一直在因为自己使用的语言会不会淘汰而忧虑，那么可以说你完全没有领悟到学习编程的精髓</p>
-<p>任何语言不过是需求最终落地的具体实现而已，当前场景最适合什么就上什么，我们最终要学会的只是解决问题的思路</p>
-<p>PHP曾经如此繁荣，肯定不会在短时间内就落寞的，很多初创公司使用php快速上线，来验证产品思路也是没毛病的</p>
-<p>php在国内的发展过程中，真的可以说是带活了中国的一大批草根站长走向致富，很多人编程水平并不是很好，但是因为有自己的思路也能实现获利</p>
-<p>反而是一些自认为学了很多新技术，很多新框架的人，每天加着班，却还在嘲笑使用旧技术的人， 才是真的井底之蛙，四川话来说：就是要不得完求了</p>
-<h2 id="道理归道理"> 道理归道理</h2>
-<p>但是对于初入门后端的同学来说，目前php可能不是你最好的入门语言，联合我上面的说法，就是php可以学，但是我不推荐将其作为后端的入门语言</p>
-<p>首先目前在国内前后端的分离趋势中使用php来作为纯后端的占比是非常低的，所以你必须要学一些其他的东西，对于你想深入后端这一领域不太友好</p>
-<p>其次PHP易上手，但是对于一个初学者来说很难体会到纯粹的从零到无这个过程，PHP发展最火热的那段时间，就是因为快速入门的初学者过多，导出代码水平的层次不齐，后期难以维护，这种弱类型的脚本语言对于新人的规范和理解并不是很好</p>
-<p>那么说到最后 我们这些小人物有什么资格去议论一个语言的兴衰呢？这些产物说到底还是资本角逐的结果，我们在这个过程中无非就是充当一个工具的角色</p>
-<p>学编程又何尝不是一个在学习做人的过程呢？</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="编程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-08-04T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">项目是怎么一步一步变复杂的</title>
     <id>/code/project-step.html</id>
     <link href="https://codenoob.top/code/project-step.html"/>
@@ -1530,41 +1469,55 @@ npm init vuepress-theme-hope docs
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">命名和循环</title>
-    <id>/code/python/python-01-name-and-loop.html</id>
-    <link href="https://codenoob.top/code/python/python-01-name-and-loop.html"/>
+    <title type="html">PHP还是世界上最好的语言吗</title>
+    <id>/code/php-history.html</id>
+    <link href="https://codenoob.top/code/php-history.html"/>
     <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Python-01 - 命名和循环]]></summary>
-    <content type="html"><![CDATA[<h3 id="命名规则展开目录"> 命名规则展开目录</h3>
-<p><strong>项目</strong>：以数字加名称表示</p>
-<div><pre><code>01_python基础
-</code></pre>
-<div><span>1</span><br></div></div><p><strong>文件</strong>：不能以数字开头，以字母、数字、下划线组合而成</p>
-<div><pre><code>py_01_python基础<span>.</span>py
-</code></pre>
-<div><span>1</span><br></div></div><h3 id="格式化输出展开目录"> 格式化输出展开目录</h3>
-<p>以  <code>%</code>  表示</p>
-<div><pre><code><span>#字符串</span>
-<span>%</span>s 
-<span>#有符号十进制整数</span>
-<span>%</span>d 
-<span>#浮点数</span>
-<span>%</span>f 
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h3 id="循环展开目录"> 循环展开目录</h3>
-<h4 id="格式展开目录"> 格式展开目录</h4>
-<div><pre><code><span>while</span>条件<span>:</span> 
-    条件满足做的事情<span>1</span>    条件满足做的事情<span>2</span>    <span>.</span><span>.</span><span>.</span>省略<span>.</span><span>.</span><span>.</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><h3 id="break-和-continue展开目录"> break 和 continue展开目录</h3>
-<ul>
-<li><strong>break</strong>: 某一条件满足时，退出循环，不再执行后续代码</li>
-<li><strong>continue</strong>: 某一条件满足时，不执行后续重复代码</li>
-<li>区别:<code>break</code>  退出整个循环，<code>continue</code>  结束本次循环，开始下次循环</li>
-</ul>
-<blockquote>
-<p>如果使用  <code>continue</code>  需要首先确认是否需要对循环计数修改</p>
-</blockquote>
+    <summary type="html"><![CDATA[PHP还是世界上最好的语言吗]]></summary>
+    <content type="html"><![CDATA[<div><p>感慨</p>
+<p>这两年越来越多唱衰php的，而且php的市场也越来越小</p>
+</div>
+<h2 id="梗"> 梗</h2>
+<p>php是世界是最好的语言吗？虽然说这是一个梗，但是事实上在web端曾经可以说的上是最好的语言，那么及时在现在，如果想快速搭建一个动态的网页项目，php也是快速落地的好方案，开发速度快，成熟的生态，大量的案例适合二开</p>
+<p>但是也仅仅是在web端</p>
+<h2 id="发展"> 发展</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225707-955722.png" alt="#" /></p>
+<p>PHP最初是以模板+脚本的形式进行设计，在Java还是使用 system.out.println进行拼接动态网页的时候，php可以直接在页面中编写动态脚本，那么在web发展火热的时候，php也跟着火热起来</p>
+<p>有个段子说，你看在一直打开网页搜索的程序员一定是PHP程序员，其实是有道理的</p>
+<p>PHP能快速发展的一部分原因就是提供了大量的预定义函数，使得新人能够快速上手，好用是一方面，但是确实难记，加上早期的定义不规范，参数和方法名都很混乱，那么使得即使你是一个老手，还得看手册</p>
+<h2 id="变化"> 变化</h2>
+<p>随着后来web的快速发展，慢慢出现了大型的网页应用，移动应用，前后端分离应用</p>
+<p>PHP因为自身特性的原因，性能饱受诟病，在这个过程中</p>
+<p>大型的公司可能有能力解决，比如Facebook的php虚拟机HHVM，但是没有这个实力的公司只能重构，加上Java的后期发展迅速，很多就转向了Java的怀抱</p>
+<h2 id="现代化"> 现代化</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225751-560178.png" alt="#" /></p>
+<p>后来PHP也出现了Laravel这样现代化的适合前后端分离的框架，还有swoole协程，加上php7性能上的提升，composer包的有效管理</p>
+<p>php是完全可以用来开发大型项目的，但是这个时候，大量的PHP开发人员已经流失了</p>
+<h2 id="处境"> 处境</h2>
+<p>那么在现在，仍然在使用PHP的，要吗就是已经有成熟的PHP开发体系的，有大量的遗留项目的大型公司，要吗就是追求速度的初创公司</p>
+<p>大型公司就不提了，被干了几年了大牛牢牢把控住</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225824-706429.png" alt="#" /></p>
+<p>那么在初创公司，其实PHP也是不顺利的，首先现在网页端的流量流失了</p>
+<p>很多公司要招会小程序，会跨平台的人，那么还得会php的能实际开发的人可以算的上是初级全栈了</p>
+<p>初创公司肯定是出不起这个价钱的，而且学php的新人越来越少了，这就行成了老手看不上，新手做不了的局面</p>
+<p>有钱一点目光远一点的初创公司会干脆就招个前端 招个Java后端把项目架构做的好一点，万一就是这个产品成功了还能使用长一点的时间</p>
+<p>剩下的一些初创公司就会选择转向云开发，反正业务也不多，数据量也不大，找个会node的前端就做了</p>
+<p>回到最初这个问题上来，现在还可不可以学习php，当然可以</p>
+<p>特别是要想回三四线城市工作的学历不好的同学，PHP在这些地方非常容易找到工作</p>
+<h2 id="学习的根本"> 学习的根本</h2>
+<p>但是我们剖析一下这个问题，提问可不可以学习php，完全是从就业这个方面来想得，但是认真想一下，学习php我们到底学习了什么东西</p>
+<p>算法和数据结构、面向对象，包括更多使用的Mysql、redis 、mongodb 、nginx，这些东西完完全全是通用的，那么使用php来操作和使用Java来操作无非是语言上的区别</p>
+<p>如果一个程序员一直在因为自己使用的语言会不会淘汰而忧虑，那么可以说你完全没有领悟到学习编程的精髓</p>
+<p>任何语言不过是需求最终落地的具体实现而已，当前场景最适合什么就上什么，我们最终要学会的只是解决问题的思路</p>
+<p>PHP曾经如此繁荣，肯定不会在短时间内就落寞的，很多初创公司使用php快速上线，来验证产品思路也是没毛病的</p>
+<p>php在国内的发展过程中，真的可以说是带活了中国的一大批草根站长走向致富，很多人编程水平并不是很好，但是因为有自己的思路也能实现获利</p>
+<p>反而是一些自认为学了很多新技术，很多新框架的人，每天加着班，却还在嘲笑使用旧技术的人， 才是真的井底之蛙，四川话来说：就是要不得完求了</p>
+<h2 id="道理归道理"> 道理归道理</h2>
+<p>但是对于初入门后端的同学来说，目前php可能不是你最好的入门语言，联合我上面的说法，就是php可以学，但是我不推荐将其作为后端的入门语言</p>
+<p>首先目前在国内前后端的分离趋势中使用php来作为纯后端的占比是非常低的，所以你必须要学一些其他的东西，对于你想深入后端这一领域不太友好</p>
+<p>其次PHP易上手，但是对于一个初学者来说很难体会到纯粹的从零到无这个过程，PHP发展最火热的那段时间，就是因为快速入门的初学者过多，导出代码水平的层次不齐，后期难以维护，这种弱类型的脚本语言对于新人的规范和理解并不是很好</p>
+<p>那么说到最后 我们这些小人物有什么资格去议论一个语言的兴衰呢？这些产物说到底还是资本角逐的结果，我们在这个过程中无非就是充当一个工具的角色</p>
+<p>学编程又何尝不是一个在学习做人的过程呢？</p>
 ]]></content>
     <author>
       <name>ChouCong</name>
@@ -1573,7 +1526,7 @@ npm init vuepress-theme-hope docs
     <contributor>
       <name>ChouCong</name>
     </contributor>
-    <published>2020-08-15T00:00:00.000Z</published>
+    <published>2020-08-04T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -1634,6 +1587,53 @@ npm init vuepress-theme-hope docs
       <name>ChouCong</name>
     </contributor>
     <published>2020-08-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">命名和循环</title>
+    <id>/code/python/python-01-name-and-loop.html</id>
+    <link href="https://codenoob.top/code/python/python-01-name-and-loop.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Python-01 - 命名和循环]]></summary>
+    <content type="html"><![CDATA[<h3 id="命名规则展开目录"> 命名规则展开目录</h3>
+<p><strong>项目</strong>：以数字加名称表示</p>
+<div><pre><code>01_python基础
+</code></pre>
+<div><span>1</span><br></div></div><p><strong>文件</strong>：不能以数字开头，以字母、数字、下划线组合而成</p>
+<div><pre><code>py_01_python基础<span>.</span>py
+</code></pre>
+<div><span>1</span><br></div></div><h3 id="格式化输出展开目录"> 格式化输出展开目录</h3>
+<p>以  <code>%</code>  表示</p>
+<div><pre><code><span>#字符串</span>
+<span>%</span>s 
+<span>#有符号十进制整数</span>
+<span>%</span>d 
+<span>#浮点数</span>
+<span>%</span>f 
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h3 id="循环展开目录"> 循环展开目录</h3>
+<h4 id="格式展开目录"> 格式展开目录</h4>
+<div><pre><code><span>while</span>条件<span>:</span> 
+    条件满足做的事情<span>1</span>    条件满足做的事情<span>2</span>    <span>.</span><span>.</span><span>.</span>省略<span>.</span><span>.</span><span>.</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><h3 id="break-和-continue展开目录"> break 和 continue展开目录</h3>
+<ul>
+<li><strong>break</strong>: 某一条件满足时，退出循环，不再执行后续代码</li>
+<li><strong>continue</strong>: 某一条件满足时，不执行后续重复代码</li>
+<li>区别:<code>break</code>  退出整个循环，<code>continue</code>  结束本次循环，开始下次循环</li>
+</ul>
+<blockquote>
+<p>如果使用  <code>continue</code>  需要首先确认是否需要对循环计数修改</p>
+</blockquote>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="编程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-08-15T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -4452,127 +4452,6 @@ WantedBy=multi-user.target
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">目录列表程序AList使用教程</title>
-    <id>/document/alist-v2.html</id>
-    <link href="https://codenoob.top/document/alist-v2.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[目录列表程序AList使用教程]]></summary>
-    <content type="html"><![CDATA[<h2 id="简介"> 简介</h2>
-<p>AList是一款支持多种存储的目录文件列表程序，后端基于<code>go-fiber</code>，前端使用<code>react</code>。</p>
-<h2 id="项目地址"> 项目地址</h2>
-<ul>
-<li><a href="https://github.com/Xhofe/alist" target="_blank" rel="noopener noreferrer">alist</a></li>
-<li><a href="https://github.com/Xhofe/alist-web" target="_blank" rel="noopener noreferrer">alist-web</a></li>
-</ul>
-<h2 id="预览"> 预览</h2>
-<ul>
-<li><a href="https://alist.nn.ci" target="_blank" rel="noopener noreferrer">稳定版本</a>,即Github Release的最新版本</li>
-<li><a href="https://alist.now.sh" target="_blank" rel="noopener noreferrer">开发版本</a>,随着GitHub提交更新</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/68747470733a2f2f73746f72652e686579746170696d6167652e636f6d2f63646f2d706f7274616c2f666565646261636b2f3230323131312f30332f36393565663737383534613134346539323835313865666465333864623937612e706e67" alt="alist预览图片" /></p>
-<h2 id="部署"> 部署</h2>
-<h3 id="快速开始"> 快速开始</h3>
-<ol>
-<li>打开<a href="https://github.com/Xhofe/alist/releases" target="_blank" rel="noopener noreferrer">AList Release</a>下载要部署的系统对应的文件</li>
-<li>解压下载对文件得到可执行文件：<code>tar -zxvf alist-xxxx.tar.gz</code>（Linux）</li>
-<li>赋予程序执行权限：<code>chmod +x alist-xxxx</code></li>
-<li>运行程序：<code>./alist-xxxx</code></li>
-<li>完成，后台默认密码为<code>alist</code></li>
-</ol>
-<h3 id="守护进程"> 守护进程</h3>
-<p><code>vim /usr/lib/systemd/system/alist.service</code>添加以下内容，其中<code>path_alist</code>为<code>alist</code>所在的路径</p>
-<div><pre><code>[Unit]
-Description=alist
-After=network.target
- 
-[Service]
-Type=simple
-WorkingDirectory=path_alist
-ExecStart=path_alist/alist-xxxx -conf conf.yml
-Restart=on-failure
- 
-[Install]
-WantedBy=multi-user.target
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>然后<code>systemctl daemon-reload</code>重载配置，现在你就可以使用这些命令来管理程序了：</p>
-<ul>
-<li>启动: <code>systemctl start alist</code></li>
-<li>关闭: <code>systemctl stop alist</code></li>
-<li>自启: <code>systemctl enable alist</code></li>
-<li>状态: <code>systemctl status alist</code></li>
-</ul>
-<h3 id="反向代理"> 反向代理</h3>
-<p>程序默认监听5244端口，要实现https访问，需要使用nginx反向代理，在配置文件中加入</p>
-<div><pre><code>  location / {
-      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-      proxy_set_header Host $http_host;
-      proxy_set_header X-Real-IP $remote_addr;
-      proxy_redirect off;
-      proxy_pass http://127.0.0.1:5244;
-  }
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="使用"> 使用</h2>
-<h3 id="添加账号"> 添加账号</h3>
-<h4 id="所有账号的必填项"> 所有账号的必填项</h4>
-<ul>
-<li><code>name</code>（名称）：唯一标识符，也是当有多个账号时展示的路径</li>
-<li><code>index</code>（索引）：当有多个账号时，用于排序，越小越靠前</li>
-<li><code>proxy</code>（带理）：是否允许服务器中转下载</li>
-</ul>
-<h3 id="本地存储"> 本地存储</h3>
-<p>只需填写根目录路径即可，可以是绝对路径，也可以是程序所在的相对路径</p>
-<h3 id="阿里云盘"> 阿里云盘</h3>
-<ul>
-<li><code>refresh_token</code>（刷新令盘）：如何获取<a href="https://media.cooluc.com/decode_token/" target="_blank" rel="noopener noreferrer">参见</a></li>
-<li>根目录<code>file_id</code>：打开阿里云盘官网，点进去你要设置的文件夹时url后面的一串，如<code>https://www.aliyundrive.com/drive/folder/5fe01e1830601baf774e4827a9fb8fb2b5bf7940</code>就是<code>5fe01e1830601baf774e4827a9fb8fb2b5bf7940</code></li>
-<li><code>order_by</code>（排序）：可选值为<code>name</code>，<code>size</code>，<code>updated_at</code>，<code>created_at</code></li>
-<li><code>order_direction</code>（排序方向）：可选<code>ASC</code>（正序），<code>DESC</code>（倒序）</li>
-</ul>
-<h3 id="onedrive"> Onedrive</h3>
-<p><a href="https://tool.nn.ci/onedrive/request" target="_blank" rel="noopener noreferrer">打开</a></p>
-<h4 id="创建应用"> 创建应用</h4>
-<ul>
-<li>在打开的页面，选择所在区域，点击创建应用</li>
-<li>登陆后选择「<code>注册应用程序</code>」，输入「<code>名称</code>」，选择「<code>任何组织目录中的账户和个人</code>」（注意这里不要看位置选择而是看文字，部分人可能是中间那个选项，不要选成单一租户或者其他选项，否则会导致登陆时出现问题），输入重定向 <code>URL</code> 为 <code>https://tool.nn.ci/onedrive/callback</code>，「<code>注册</code>」即可，然后可以得到<code>client_id</code></li>
-<li>注册好应用程序之后，选择「<code>证书和密码</code>」，点击「<code>新客户端密码</code>」，输入一串密码，选择时间为最长的那个，点击「<code>添加</code>」（注：在添加之后输入的密码之后会消失，请记录下来 <code>client_secret</code> 的值）</li>
-</ul>
-<h4 id="获取刷新令牌"> 获取刷新令牌</h4>
-<p>将上一步骤中获得的<code>client_id</code>和<code>client_secret</code>填入<a href="https://tool.nn.ci/onedrive/request" target="_blank" rel="noopener noreferrer">这个页面</a>，点击获取刷新令牌，就可以得到刷新令牌了</p>
-<h4 id="获取sharepoint-site-id-未测试"> 获取<code>Sharepoint site_id</code>（未测试）</h4>
-<p>如果需要挂载<code>Sharepoint</code>，完成上一步后，在显示刷新令牌的界面会出现一个输入站点地址，输入站点地址后点击获取<code>site_id</code>即可。</p>
-<h4 id="添加账号-2"> 添加账号</h4>
-<p>将上述过程中获取得到的值<strong>依次填入</strong>即可。</p>
-<h2 id="元信息-meta-设置"> 元信息（meta）设置</h2>
-<p>此处的<code>path</code>（路径）是访问<code>alist</code>页面时的<code>pathname</code>，如要设置<code>https://alist.nn.ci/本地存储</code>则路径是<code>/本地存储</code></p>
-<h3 id="设置密码"> 设置密码</h3>
-<p>填写密码字段即可</p>
-<h3 id="隐藏文件-文件夹"> 隐藏文件/文件夹</h3>
-<p>填写<code>hide</code>字段，填写要隐藏的文件（夹）名称，以<code>,</code>分隔，比如要隐藏<code>https://alist.nn.ci/本地存储</code>下的<code>README.md</code>和<code>index.tsx</code>文件，则填写<code>README.md</code>,<code>index.tsx</code>即可。</p>
-<h2 id="常见问题"> 常见问题</h2>
-<ul>
-<li>视频播放不了？
-<ul>
-<li>如果是阿里云先自查一下是否使用的是移动端的<code>token</code>。然后检查一下是不是编码不支持，<code>h5</code>不支持<code>h265</code>编码视频，<code>ac3/acc</code>编码音频，<code>Safari</code>不支持的更多，建议使用软件播放。</li>
-</ul>
-</li>
-<li>获取中转链接？
-<ul>
-<li>允许中转之后，复制对应文件直链，将<code>/d</code>改成<code>/p</code>即可。</li>
-</ul>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="文档"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-10-25T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">宝塔面板部署 Bitwarden 密码管理软件</title>
     <id>/document/bitwarden.html</id>
     <link href="https://codenoob.top/document/bitwarden.html"/>
@@ -4729,6 +4608,199 @@ docker run -d --name vaultwarden -e <span>SIGNUPS_ALLOWED</span><span>=</span>fa
       <name>ChouCong</name>
     </contributor>
     <published>2021-10-01T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">目录列表程序AList使用教程</title>
+    <id>/document/alist-v2.html</id>
+    <link href="https://codenoob.top/document/alist-v2.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[目录列表程序AList使用教程]]></summary>
+    <content type="html"><![CDATA[<h2 id="简介"> 简介</h2>
+<p>AList是一款支持多种存储的目录文件列表程序，后端基于<code>go-fiber</code>，前端使用<code>react</code>。</p>
+<h2 id="项目地址"> 项目地址</h2>
+<ul>
+<li><a href="https://github.com/Xhofe/alist" target="_blank" rel="noopener noreferrer">alist</a></li>
+<li><a href="https://github.com/Xhofe/alist-web" target="_blank" rel="noopener noreferrer">alist-web</a></li>
+</ul>
+<h2 id="预览"> 预览</h2>
+<ul>
+<li><a href="https://alist.nn.ci" target="_blank" rel="noopener noreferrer">稳定版本</a>,即Github Release的最新版本</li>
+<li><a href="https://alist.now.sh" target="_blank" rel="noopener noreferrer">开发版本</a>,随着GitHub提交更新</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/68747470733a2f2f73746f72652e686579746170696d6167652e636f6d2f63646f2d706f7274616c2f666565646261636b2f3230323131312f30332f36393565663737383534613134346539323835313865666465333864623937612e706e67" alt="alist预览图片" /></p>
+<h2 id="部署"> 部署</h2>
+<h3 id="快速开始"> 快速开始</h3>
+<ol>
+<li>打开<a href="https://github.com/Xhofe/alist/releases" target="_blank" rel="noopener noreferrer">AList Release</a>下载要部署的系统对应的文件</li>
+<li>解压下载对文件得到可执行文件：<code>tar -zxvf alist-xxxx.tar.gz</code>（Linux）</li>
+<li>赋予程序执行权限：<code>chmod +x alist-xxxx</code></li>
+<li>运行程序：<code>./alist-xxxx</code></li>
+<li>完成，后台默认密码为<code>alist</code></li>
+</ol>
+<h3 id="守护进程"> 守护进程</h3>
+<p><code>vim /usr/lib/systemd/system/alist.service</code>添加以下内容，其中<code>path_alist</code>为<code>alist</code>所在的路径</p>
+<div><pre><code>[Unit]
+Description=alist
+After=network.target
+ 
+[Service]
+Type=simple
+WorkingDirectory=path_alist
+ExecStart=path_alist/alist-xxxx -conf conf.yml
+Restart=on-failure
+ 
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>然后<code>systemctl daemon-reload</code>重载配置，现在你就可以使用这些命令来管理程序了：</p>
+<ul>
+<li>启动: <code>systemctl start alist</code></li>
+<li>关闭: <code>systemctl stop alist</code></li>
+<li>自启: <code>systemctl enable alist</code></li>
+<li>状态: <code>systemctl status alist</code></li>
+</ul>
+<h3 id="反向代理"> 反向代理</h3>
+<p>程序默认监听5244端口，要实现https访问，需要使用nginx反向代理，在配置文件中加入</p>
+<div><pre><code>  location / {
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header Host $http_host;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_redirect off;
+      proxy_pass http://127.0.0.1:5244;
+  }
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="使用"> 使用</h2>
+<h3 id="添加账号"> 添加账号</h3>
+<h4 id="所有账号的必填项"> 所有账号的必填项</h4>
+<ul>
+<li><code>name</code>（名称）：唯一标识符，也是当有多个账号时展示的路径</li>
+<li><code>index</code>（索引）：当有多个账号时，用于排序，越小越靠前</li>
+<li><code>proxy</code>（带理）：是否允许服务器中转下载</li>
+</ul>
+<h3 id="本地存储"> 本地存储</h3>
+<p>只需填写根目录路径即可，可以是绝对路径，也可以是程序所在的相对路径</p>
+<h3 id="阿里云盘"> 阿里云盘</h3>
+<ul>
+<li><code>refresh_token</code>（刷新令盘）：如何获取<a href="https://media.cooluc.com/decode_token/" target="_blank" rel="noopener noreferrer">参见</a></li>
+<li>根目录<code>file_id</code>：打开阿里云盘官网，点进去你要设置的文件夹时url后面的一串，如<code>https://www.aliyundrive.com/drive/folder/5fe01e1830601baf774e4827a9fb8fb2b5bf7940</code>就是<code>5fe01e1830601baf774e4827a9fb8fb2b5bf7940</code></li>
+<li><code>order_by</code>（排序）：可选值为<code>name</code>，<code>size</code>，<code>updated_at</code>，<code>created_at</code></li>
+<li><code>order_direction</code>（排序方向）：可选<code>ASC</code>（正序），<code>DESC</code>（倒序）</li>
+</ul>
+<h3 id="onedrive"> Onedrive</h3>
+<p><a href="https://tool.nn.ci/onedrive/request" target="_blank" rel="noopener noreferrer">打开</a></p>
+<h4 id="创建应用"> 创建应用</h4>
+<ul>
+<li>在打开的页面，选择所在区域，点击创建应用</li>
+<li>登陆后选择「<code>注册应用程序</code>」，输入「<code>名称</code>」，选择「<code>任何组织目录中的账户和个人</code>」（注意这里不要看位置选择而是看文字，部分人可能是中间那个选项，不要选成单一租户或者其他选项，否则会导致登陆时出现问题），输入重定向 <code>URL</code> 为 <code>https://tool.nn.ci/onedrive/callback</code>，「<code>注册</code>」即可，然后可以得到<code>client_id</code></li>
+<li>注册好应用程序之后，选择「<code>证书和密码</code>」，点击「<code>新客户端密码</code>」，输入一串密码，选择时间为最长的那个，点击「<code>添加</code>」（注：在添加之后输入的密码之后会消失，请记录下来 <code>client_secret</code> 的值）</li>
+</ul>
+<h4 id="获取刷新令牌"> 获取刷新令牌</h4>
+<p>将上一步骤中获得的<code>client_id</code>和<code>client_secret</code>填入<a href="https://tool.nn.ci/onedrive/request" target="_blank" rel="noopener noreferrer">这个页面</a>，点击获取刷新令牌，就可以得到刷新令牌了</p>
+<h4 id="获取sharepoint-site-id-未测试"> 获取<code>Sharepoint site_id</code>（未测试）</h4>
+<p>如果需要挂载<code>Sharepoint</code>，完成上一步后，在显示刷新令牌的界面会出现一个输入站点地址，输入站点地址后点击获取<code>site_id</code>即可。</p>
+<h4 id="添加账号-2"> 添加账号</h4>
+<p>将上述过程中获取得到的值<strong>依次填入</strong>即可。</p>
+<h2 id="元信息-meta-设置"> 元信息（meta）设置</h2>
+<p>此处的<code>path</code>（路径）是访问<code>alist</code>页面时的<code>pathname</code>，如要设置<code>https://alist.nn.ci/本地存储</code>则路径是<code>/本地存储</code></p>
+<h3 id="设置密码"> 设置密码</h3>
+<p>填写密码字段即可</p>
+<h3 id="隐藏文件-文件夹"> 隐藏文件/文件夹</h3>
+<p>填写<code>hide</code>字段，填写要隐藏的文件（夹）名称，以<code>,</code>分隔，比如要隐藏<code>https://alist.nn.ci/本地存储</code>下的<code>README.md</code>和<code>index.tsx</code>文件，则填写<code>README.md</code>,<code>index.tsx</code>即可。</p>
+<h2 id="常见问题"> 常见问题</h2>
+<ul>
+<li>视频播放不了？
+<ul>
+<li>如果是阿里云先自查一下是否使用的是移动端的<code>token</code>。然后检查一下是不是编码不支持，<code>h5</code>不支持<code>h265</code>编码视频，<code>ac3/acc</code>编码音频，<code>Safari</code>不支持的更多，建议使用软件播放。</li>
+</ul>
+</li>
+<li>获取中转链接？
+<ul>
+<li>允许中转之后，复制对应文件直链，将<code>/d</code>改成<code>/p</code>即可。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="文档"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-10-25T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">在 Cloudflare 部署 FODI 后端</title>
+    <id>/document/fodi-cloudflare.html</id>
+    <link href="https://codenoob.top/document/fodi-cloudflare.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[在 Cloudflare 部署 FODI 后端]]></summary>
+    <content type="html"><![CDATA[<p>之前写过一个基于<code>腾讯云 SCF</code> 的 OneDrive 列表程序 <a href="/document/fodi.html">FODI</a>，现在腾讯云要收费了，每月至少 8 毛钱，虽然不多，但既然 Cloudflare 仍是免费的，不如移植一下，反正只是改改入口。</p>
+<div><p>突然白屏</p>
+<p><code>refresh_token</code>有效期 3 个月，如突然无法打开，请 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">重设后端代码</a>。<s>计划使用 Github Action 自动更新，还没开始写，请耐心等待。</s> 现已支持自动续期，请展开下方迟到的自动续期查看（如果是初次部署，请阅读完其它部分再看）。
+迟到的自动续期</p>
+</div>
+<details><summary>迟到的自动续期</summary>
+<p>之前，<code>FODI</code> 每过 3 个月要重设后端代码，原因是 <code>Cloudflare Worker</code> 是 <code>Serverless</code> 环境，不支持持久化存储。刚编写 <code>FODI</code> 时，<code>Cloudflare KV</code> 还处于收费状态，如果使用第三方免费存储则担心可用性和延迟问题。</p>
+<p>考虑过使用 <code>CI</code> 定时更新环境变量但一直没有动工，想着整体重构后一并添加。但现在重构意愿不强了，<code>Cloudflare KV</code> 免费服务也已推出一段时间，于是添加几句代码，让它支持 <code>Token 自动续期</code>。</p>
+<h2 id="重设后端代码"> 重设后端代码</h2>
+<p>首先，打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">部署助手</a>，按照页面上方步骤重设 <code>Worker</code> 代码。</p>
+<h2 id="创建-kv-命名空间"> 创建 KV 命名空间</h2>
+<p>保存好代码后，切换到顶部菜单栏的 KV 标签。在 命名空间名称 下方的输入框中输入 FODI_CACHE，随后点击右边蓝色的 <code>添加</code> 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a64a4c6e8fa445dd91353d75ddd3dc04.png" alt="a64a4c6e8fa445dd91353d75ddd3dc04.png" /></p>
+<h2 id="添加-kv-命名空间"> 添加 KV 命名空间</h2>
+<p>在 Worker 中绑定 KV
+转到 FODI Worker 脚本的 <code>设置</code> 页面，点击页面中部 <code>KV 命名空间绑定</code> 项目右侧的 添加绑定 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/bef907bec3404f89875ee85aa657a563.png" alt="添加命名空间绑定" /></p>
+<p>在 <code>变量名称</code> 下方的输入框键入 <code>FODI_CACHE</code>，<code>KV 命名空间</code> 下拉框也选择 <code>FODI_CACHE</code>，最后点击 <code>保存</code>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ece08d93814a415f8436b6596e35810c.png" alt="设定变量名称" /></p>
+<h2 id="添加续期计划任务"> 添加续期计划任务</h2>
+<p>转到设置左边的 <code>触发器</code> 面板，点击页面右边蓝色的 <code>添加 Cron</code> 触发器 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/d39848e511a743368ae9fb188cf216e5.png" alt="添加触发器" /></p>
+<p>切换到 <code>添加 Cron 触发器</code> 项目的 <code>Cron</code> 标签，在 <strong>Cron</strong> 下方输入框键入 <code>0 0 1 * *</code>，最后点击右下方蓝色的 <code>Add Trigger</code> 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/91466f9f4d2a45e9a1452d67397839bd.png" alt="保存触发器" /></p>
+<h2 id="验证-token-是否保存"> 验证 Token 是否保存</h2>
+<p>现在打开你的 FODI 前端等待网页列出文件后，再次进入 <code>KV</code> 面板，点击页面中部 <code>FODI_CACHE</code> 右侧的 查看。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/00deeb5a8d0c4911ba64213850669df3.png" alt="查看 KV" /></p>
+<p>当看到 <code>token_data</code> 时，表明代码工作正常，不出意外，以后都不再需要手动续期。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a928638713ce497d9c55c85102a3dc24.png" alt="token_data" /></p>
+</details>
+<h2 id="演示地址"> 演示地址</h2>
+<ul>
+<li><a href="https://logi.im/fodi.html" target="_blank" rel="noopener noreferrer">主页</a></li>
+<li><a href="https://logi.im/fodi.html?path=/Media/Music/Jay%20Chou/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86" target="_blank" rel="noopener noreferrer">图片/音频/视频</a></li>
+</ul>
+<h2 id="注册-cloudflare-并创建-workers"> 注册 Cloudflare 并创建 Workers</h2>
+<p>打开 <a href="https://dash.cloudflare.com/sign-up" target="_blank" rel="noopener noreferrer">Cloudflare 注册页面</a>，输入 <code>邮箱</code> 和 <code>密码</code> 后点击 <code>Create Account</code>，进入下个页面后直接点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，不要进行其他操作。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/feea00008a220626610f" alt="#" /></p>
+<p>进入主页后，点击靠近右下角的 <code>Workers</code>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb20001f67505de8458" alt="#" /></p>
+<p>此时系统会建议你修改子域名，直接点击 Set up，随后点击弹出对话框中的 Confirm。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ff89000099fb8b529539" alt="#" /></p>
+<p>之后会进入套餐选择页面，页面往下拉，找到 Continue with free，点击它。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb100005abae0d840ab" alt="#" /></p>
+<p>完成上述步骤后，系统会发送确认邮件到你的注册邮箱，请自行登录邮箱，找到相关邮件，点击其中的确认链接，完成确认。</p>
+<h2 id="上传-fodi-后端"> 上传 FODI 后端</h2>
+<p>完成邮箱验证后，再次点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，点击右下角的 <code>Workers</code>。</p>
+<p>现在点击页面中间你刚刚创建的函数，进入代码编辑界面，随后打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">FODI Deployment Helper</a>，按照指引生成并复制代码，粘贴到下图的代码编辑器中。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/febe0000b03f9a04a181" alt="#" /></p>
+<p>填写完毕后，点击页面中下部的 <code>Save and Deploy</code>。</p>
+<h2 id="部署-fodi-前端"> 部署 FODI 前端</h2>
+<p>前端部署方法和老文章相同，见 通过 <a href="/document/fodi.html">Github Pages 部署前端</a> 章节。</p>
+<p>唯一不同的是 <code>SCF 网关地址</code> 要换成 <code>Cloudflare</code> 的，右击下图箭头，选择 复制链接地址 即可获得。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/fe95000135f4d98e2270" alt="#" /></p>
+<p>最后如果这个项目帮到了你，不妨到 <a href="https://github.com/vcheckzen/FODI" target="_blank" rel="noopener noreferrer">Github</a> 为我点颗星。</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="文档"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-02T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -4956,78 +5028,6 @@ iw wlp2s0 <span>link</span>
       <name>ChouCong</name>
     </contributor>
     <published>2021-10-04T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">在 Cloudflare 部署 FODI 后端</title>
-    <id>/document/fodi-cloudflare.html</id>
-    <link href="https://codenoob.top/document/fodi-cloudflare.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[在 Cloudflare 部署 FODI 后端]]></summary>
-    <content type="html"><![CDATA[<p>之前写过一个基于<code>腾讯云 SCF</code> 的 OneDrive 列表程序 <a href="/document/fodi.html">FODI</a>，现在腾讯云要收费了，每月至少 8 毛钱，虽然不多，但既然 Cloudflare 仍是免费的，不如移植一下，反正只是改改入口。</p>
-<div><p>突然白屏</p>
-<p><code>refresh_token</code>有效期 3 个月，如突然无法打开，请 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">重设后端代码</a>。<s>计划使用 Github Action 自动更新，还没开始写，请耐心等待。</s> 现已支持自动续期，请展开下方迟到的自动续期查看（如果是初次部署，请阅读完其它部分再看）。
-迟到的自动续期</p>
-</div>
-<details><summary>迟到的自动续期</summary>
-<p>之前，<code>FODI</code> 每过 3 个月要重设后端代码，原因是 <code>Cloudflare Worker</code> 是 <code>Serverless</code> 环境，不支持持久化存储。刚编写 <code>FODI</code> 时，<code>Cloudflare KV</code> 还处于收费状态，如果使用第三方免费存储则担心可用性和延迟问题。</p>
-<p>考虑过使用 <code>CI</code> 定时更新环境变量但一直没有动工，想着整体重构后一并添加。但现在重构意愿不强了，<code>Cloudflare KV</code> 免费服务也已推出一段时间，于是添加几句代码，让它支持 <code>Token 自动续期</code>。</p>
-<h2 id="重设后端代码"> 重设后端代码</h2>
-<p>首先，打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">部署助手</a>，按照页面上方步骤重设 <code>Worker</code> 代码。</p>
-<h2 id="创建-kv-命名空间"> 创建 KV 命名空间</h2>
-<p>保存好代码后，切换到顶部菜单栏的 KV 标签。在 命名空间名称 下方的输入框中输入 FODI_CACHE，随后点击右边蓝色的 <code>添加</code> 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a64a4c6e8fa445dd91353d75ddd3dc04.png" alt="a64a4c6e8fa445dd91353d75ddd3dc04.png" /></p>
-<h2 id="添加-kv-命名空间"> 添加 KV 命名空间</h2>
-<p>在 Worker 中绑定 KV
-转到 FODI Worker 脚本的 <code>设置</code> 页面，点击页面中部 <code>KV 命名空间绑定</code> 项目右侧的 添加绑定 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/bef907bec3404f89875ee85aa657a563.png" alt="添加命名空间绑定" /></p>
-<p>在 <code>变量名称</code> 下方的输入框键入 <code>FODI_CACHE</code>，<code>KV 命名空间</code> 下拉框也选择 <code>FODI_CACHE</code>，最后点击 <code>保存</code>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ece08d93814a415f8436b6596e35810c.png" alt="设定变量名称" /></p>
-<h2 id="添加续期计划任务"> 添加续期计划任务</h2>
-<p>转到设置左边的 <code>触发器</code> 面板，点击页面右边蓝色的 <code>添加 Cron</code> 触发器 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/d39848e511a743368ae9fb188cf216e5.png" alt="添加触发器" /></p>
-<p>切换到 <code>添加 Cron 触发器</code> 项目的 <code>Cron</code> 标签，在 <strong>Cron</strong> 下方输入框键入 <code>0 0 1 * *</code>，最后点击右下方蓝色的 <code>Add Trigger</code> 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/91466f9f4d2a45e9a1452d67397839bd.png" alt="保存触发器" /></p>
-<h2 id="验证-token-是否保存"> 验证 Token 是否保存</h2>
-<p>现在打开你的 FODI 前端等待网页列出文件后，再次进入 <code>KV</code> 面板，点击页面中部 <code>FODI_CACHE</code> 右侧的 查看。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/00deeb5a8d0c4911ba64213850669df3.png" alt="查看 KV" /></p>
-<p>当看到 <code>token_data</code> 时，表明代码工作正常，不出意外，以后都不再需要手动续期。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a928638713ce497d9c55c85102a3dc24.png" alt="token_data" /></p>
-</details>
-<h2 id="演示地址"> 演示地址</h2>
-<ul>
-<li><a href="https://logi.im/fodi.html" target="_blank" rel="noopener noreferrer">主页</a></li>
-<li><a href="https://logi.im/fodi.html?path=/Media/Music/Jay%20Chou/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86" target="_blank" rel="noopener noreferrer">图片/音频/视频</a></li>
-</ul>
-<h2 id="注册-cloudflare-并创建-workers"> 注册 Cloudflare 并创建 Workers</h2>
-<p>打开 <a href="https://dash.cloudflare.com/sign-up" target="_blank" rel="noopener noreferrer">Cloudflare 注册页面</a>，输入 <code>邮箱</code> 和 <code>密码</code> 后点击 <code>Create Account</code>，进入下个页面后直接点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，不要进行其他操作。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/feea00008a220626610f" alt="#" /></p>
-<p>进入主页后，点击靠近右下角的 <code>Workers</code>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb20001f67505de8458" alt="#" /></p>
-<p>此时系统会建议你修改子域名，直接点击 Set up，随后点击弹出对话框中的 Confirm。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ff89000099fb8b529539" alt="#" /></p>
-<p>之后会进入套餐选择页面，页面往下拉，找到 Continue with free，点击它。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb100005abae0d840ab" alt="#" /></p>
-<p>完成上述步骤后，系统会发送确认邮件到你的注册邮箱，请自行登录邮箱，找到相关邮件，点击其中的确认链接，完成确认。</p>
-<h2 id="上传-fodi-后端"> 上传 FODI 后端</h2>
-<p>完成邮箱验证后，再次点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，点击右下角的 <code>Workers</code>。</p>
-<p>现在点击页面中间你刚刚创建的函数，进入代码编辑界面，随后打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">FODI Deployment Helper</a>，按照指引生成并复制代码，粘贴到下图的代码编辑器中。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/febe0000b03f9a04a181" alt="#" /></p>
-<p>填写完毕后，点击页面中下部的 <code>Save and Deploy</code>。</p>
-<h2 id="部署-fodi-前端"> 部署 FODI 前端</h2>
-<p>前端部署方法和老文章相同，见 通过 <a href="/document/fodi.html">Github Pages 部署前端</a> 章节。</p>
-<p>唯一不同的是 <code>SCF 网关地址</code> 要换成 <code>Cloudflare</code> 的，右击下图箭头，选择 复制链接地址 即可获得。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/fe95000135f4d98e2270" alt="#" /></p>
-<p>最后如果这个项目帮到了你，不妨到 <a href="https://github.com/vcheckzen/FODI" target="_blank" rel="noopener noreferrer">Github</a> 为我点颗星。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="文档"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-02T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -7257,7 +7257,7 @@ $$
     <title type="html">通用(不是docker)</title>
     <id>/projects/vaultwarden/Backup/General.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Backup/General.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<h2 id="备份"> 备份</h2>
 <p>要包含在备份中的内容：</p>
@@ -7316,7 +7316,7 @@ $$
     <title type="html">更改持久数据位置</title>
     <id>/projects/vaultwarden/Configuration/Changing-persistent-data-location.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Changing-persistent-data-location.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<h2 id="data前缀"> /data前缀</h2>
 <p>默认情况下，所有持久数据都保存在 <code>/data</code> 下，您可以通过设置 <code>DATA_FOLDER</code> 环境变量来覆盖此路径：</p>
@@ -7372,7 +7372,7 @@ $$
     <title type="html">更改API请求大小限制</title>
     <id>/projects/vaultwarden/Configuration/Changing-the-API-request-size-limit.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Changing-the-API-request-size-limit.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>默认情况下，API 调用限制为 10MB。对于大多数情况，这应该足够了，但是如果您想支持大型导入，这可能会限制您。另一方面，您可能希望将请求大小限制为小于该值以防止 API 滥用和可能的 DOS 攻击，尤其是在资源有限的情况下。</p>
 <p>要设置限制，您可以使用 <code>ROCKET_LIMITS</code> 变量。此处的示例显示了正文中发布的 json 的 10MB 限制(这是默认设置)：</p>
@@ -7397,7 +7397,7 @@ $$
     <title type="html">改变Worker数量</title>
     <id>/projects/vaultwarden/Configuration/Changing-the-number-of-workers.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Changing-the-number-of-workers.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>当你运行 vaultwarden 时，它会产生 <code>2 * &lt;cpu核数&gt;</code> workers 来处理请求。在某些系统上，这可能会导致 worker 数量减少，从而导致性能下降，因此 docker 映像中的默认值更改为产生 10 个线程。您可以通过设置<code>ROCKET_WORKERS</code>变量来覆盖此设置以增加或减少workers的数量。</p>
 <p>在下面的例子中，我们从 20 个 workers 开始：</p>
@@ -7422,7 +7422,7 @@ $$
     <title type="html">概览</title>
     <id>/projects/vaultwarden/Configuration/Configuration-overview.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Configuration-overview.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<h2 id="配置方法"> 配置方法</h2>
 <p>在 Vaultwarden 中，您可以通过环境变量或 <a href="./Enabling-admin-page.html">启用管理页面</a>(将设置写入数据目录下的 <code>config.json</code> 文件)执行配置。需要注意的是，<code>config.json</code> 中的每个设置都会覆盖相应的环境变量设置(如果存在)。例如，如果你设置了环境变量<code>DOMAIN=https://bitwarden.example.com</code>，但是你的<code>config.json</code>包含<code>&quot;domain&quot;: &quot;https://vw.example.com&quot;</code>，那么Vaultwarden 将根据配置文件 (<code>https://vw.example.com</code>) 中的内容生成各种链接。</p>
@@ -7465,7 +7465,7 @@ $$
     <title type="html">禁用admin token</title>
     <id>/projects/vaultwarden/Configuration/Disable-admin-token.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Disable-admin-token.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p><strong>重要</strong>：任何人都可以访问您的管理页面</p>
 <p>如果您想使用另一种方法对 <code>/admin</code> 页面进行身份验证，则可以将 <code>DISABLE_ADMIN_TOKEN</code> 变量设置为 true。这将禁用用于身份验证的内置<code>ADMIN_TOKEN</code>，同时启用管理面板。任何有权访问该 URL 的人都可以访问管理面板。您将需要采取额外的步骤来保护它。这包括外部和本地。</p>
@@ -7490,7 +7490,7 @@ $$
     <title type="html">禁用邀请</title>
     <id>/projects/vaultwarden/Configuration/Disable-invitations.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Disable-invitations.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>即使注册被禁用，组织管理员或所有者也可以邀请用户加入组织。在他们被邀请后，即使 <code>SIGNUPS_ALLOWED</code> 实际上设置为 <code>false</code>，他们也可以使用受邀电子邮件进行注册。您可以通过将<code>INVITATIONS_ALLOWED</code>环境变量设置为<code>false</code>来完全禁用此功能：</p>
 <div><pre><code>docker run -d --name bitwarden <span>\</span>
@@ -7515,7 +7515,7 @@ $$
     <title type="html">禁止新用户注册</title>
     <id>/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>默认情况下，任何可以访问您的实例的人都可以注册一个新帐户。要禁用此功能，请将 <code>SIGNUPS_ALLOWED</code> 环境变量设置为 <code>false</code>：</p>
 <div><pre><code>docker run -d --name bitwarden <span>\</span>
@@ -7552,7 +7552,7 @@ $$
     <title type="html">禁用或覆盖Vault接口托管</title>
     <id>/projects/vaultwarden/Configuration/Disabling-or-overriding-the-Vault-interface-hosting.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Disabling-or-overriding-the-Vault-interface-hosting.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>为方便起见，Vaultwarden 映像还将托管用于 Vault Web 界面的静态文件。您可以通过设置 WEB_VAULT_ENABLED 变量来完全禁用此静态文件托管。</p>
 <div><pre><code>docker run -d --name vaultwarden <span>\</span>
@@ -7584,7 +7584,7 @@ $$
     <title type="html">开启U2F认证</title>
     <id>/projects/vaultwarden/Configuration/Enabling-U2F-authentication.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Enabling-U2F-authentication.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>要启用 U2F 身份验证，您必须从具有有效证书的 HTTPS 域(使用包含的HTTPS 选项或使用反向代理)。我们建议使用 Let's Encrypt 的免费证书。</p>
 <p>之后，您需要将 <code>DOMAIN</code> 环境变量设置为提供 Vaultwarden 的相同地址：</p>
@@ -7610,7 +7610,7 @@ $$
     <title type="html">启用WebSocket通知</title>
     <id>/projects/vaultwarden/Configuration/Enabling-WebSocket-notifications.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Enabling-WebSocket-notifications.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>WebSocket 通知用于通知浏览器和桌面 Bitwarden 客户端发生了一些感兴趣的事件，例如密码数据库中的条目被修改或删除时。</p>
 <p>收到通知后，客户端可以采取适当的操作，例如重新获取修改后的条目，或从其本地数据库副本中删除已删除的条目。</p>
@@ -7648,7 +7648,7 @@ $$
     <title type="html">开启YubiKey OTP认证</title>
     <id>/projects/vaultwarden/Configuration/Enabling-Yubikey-OTP-authentication.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Enabling-Yubikey-OTP-authentication.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>要启用 YubiKey 身份验证，您必须设置<code>YUBICO_CLIENT_ID</code>和<code>YUBICO_SECRET_KEY</code>环境变量。</p>
 <p>如果没有指定 <code>YUBICO_SERVER</code>，它将使用默认的 YubiCloud 服务器。您可以为默认的 YubiCloud <a href="https://upgrade.yubico.com/getapikey/" target="_blank" rel="noopener noreferrer">此处</a> 生成<code>YUBICO_CLIENT_ID</code>和<code>YUBICO_SECRET_KEY</code>。</p>
@@ -7679,7 +7679,7 @@ $$
     <title type="html">启用管理页面</title>
     <id>/projects/vaultwarden/Configuration/Enabling-admin-page.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Enabling-admin-page.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p><strong>重要</strong>：强烈建议在启用此功能之前激活 HTTPS，以避免可能的 MITM 攻击。</p>
 <p>此页面允许服务器管理员查看所有注册用户并删除它们。它还允许邀请新用户，即使注册被禁用。</p>
@@ -7710,7 +7710,7 @@ $$
     <title type="html">Fail2Ban设置</title>
     <id>/projects/vaultwarden/Configuration/Fail2Ban-Setup.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Fail2Ban-Setup.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>设置 Fail2ban 将防止攻击者对您的密码管理登录进行暴力破解。如果您的实例是公开可用的，这一点尤其重要。</p>
 <h2 id="目录"> 目录</h2>
@@ -7926,7 +7926,7 @@ docker-compose up -d
     <title type="html">强化指南</title>
     <id>/projects/vaultwarden/Configuration/Hardening-Guide.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Hardening-Guide.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>下面的小节涵盖了与 Vaultwarden 本身相关的强化。</p>
 <h2 id="禁用注册和-可选-邀请"> 禁用注册和(可选)邀请</h2>
@@ -7998,7 +7998,7 @@ docker-compose up -d
     <title type="html">登录</title>
     <id>/projects/vaultwarden/Configuration/Logging.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Logging.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>默认情况下，Vaultwarden 仅记录到 <a href="https://en.wikipedia.org/wiki/Standard_streams#Standard_output_(stdout)" target="_blank" rel="noopener noreferrer">标准输出</a> (stdout)。您还可以将其配置为记录到文件。</p>
 <h2 id="记录到文件"> 记录到文件</h2>
@@ -8036,7 +8036,7 @@ docker-compose up -d
     <title type="html">从MariaDB(MySQL)迁移到SQLite</title>
     <id>/projects/vaultwarden/Configuration/Migrating-from-MariaDB-to-SQLite.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Migrating-from-MariaDB-to-SQLite.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<div><p>警告</p>
 <p><strong>使用这些命令风险自负！</strong><br/>
@@ -8096,7 +8096,7 @@ docker-compose up -d
     <title type="html">其他配置</title>
     <id>/projects/vaultwarden/Configuration/Other-configuration.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Other-configuration.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>虽然这在小型部署中不太可能需要，但您可以使用 <a href="https://rocket.rs" target="_blank" rel="noopener noreferrer">Rocket</a> 处理的环境变量来微调一些其他设置，例如工作人员的数量，请参阅 <a href="https://rocket.rs/guide/configuration/#environment-variables" target="_blank" rel="noopener noreferrer">文档</a> 中的详细信息。</p>
 ]]></content>
@@ -8114,7 +8114,7 @@ docker-compose up -d
     <title type="html">密码提示显示</title>
     <id>/projects/vaultwarden/Configuration/Password-hint-display.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Password-hint-display.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>通常，密码提示通过电子邮件发送。但由于 Vaultwarden 是针对小型或个人部署而设计的，因此密码提示页面也提供了提示，因此您无需配置电子邮件服务。如果要禁用此功能，可以使用 <code>SHOW_PASSWORD_HINT</code> 变量：</p>
 <div><pre><code>docker run -d --name vaultwarden <span>\</span>
@@ -8138,7 +8138,7 @@ docker-compose up -d
     <title type="html">非 root 用户身份运行容器</title>
     <id>/projects/vaultwarden/Configuration/Running-docker-container-with-non-root-user.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Running-docker-container-with-non-root-user.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<div><p>警告</p>
 <p>官方wiki已删除此页面</p>
@@ -8184,7 +8184,7 @@ docker-compose up -d
     <title type="html">使用 systemd docker 运行</title>
     <id>/projects/vaultwarden/Configuration/Running-with-systemd-docker.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Running-with-systemd-docker.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<div><p>提示</p>
 <p>Vaultwarden WiKi 已删除此页面。</p>
@@ -8272,7 +8272,7 @@ TimeoutStartSec=0
     <title type="html">在没有启用 WAL 的情况下运行</title>
     <id>/projects/vaultwarden/Configuration/Running-without-WAL-enabled.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Running-without-WAL-enabled.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<blockquote>
 <p>WAL 是 SQLite 特定的设置。不适用于 MySQL 或 PostgreSQL；如果您使用这些后端之一，则<code>ENABLE_DB_WAL</code>配置选项无效。</p>
@@ -8335,7 +8335,7 @@ delete
     <title type="html">SMTP配置</title>
     <id>/projects/vaultwarden/Configuration/SMTP-Configuration.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/SMTP-Configuration.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>您可以将 Vaultwarden 配置为通过 SMTP 代理发送电子邮件：</p>
 <div><pre><code>docker run -d --name vaultwarden \
@@ -8472,7 +8472,7 @@ delete
     <title type="html">创建systemd服务</title>
     <id>/projects/vaultwarden/Configuration/Setup-as-a-systemd-service.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Setup-as-a-systemd-service.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>这些说明要求您具有 <a href="Pre-built-binaries">预建二进制文件</a>。如果您生成了 docker 镜像，您可能需要查看 <a href="./Running-with-systemd-docker.html">*使用 systemd docker 运行</a></p>
 <h2 id="设置"> 设置</h2>
@@ -8613,57 +8613,16 @@ WEBSOCKET_ENABLED=true # enable websocket
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">使用备用基本目录(子目录)</title>
-    <id>/projects/vaultwarden/Configuration/Using-an-alternate-base-dir.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Configuration/Using-an-alternate-base-dir.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <title type="html">从 LDAP 同步用户</title>
+    <id>/projects/vaultwarden/Configuration/Syncing-users-from-LDAP.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Configuration/Syncing-users-from-LDAP.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p>传统上，Vaultwarden 仅限于驻留在子域的根，例如<code>https://vaultwarden.example.com</code>。</p>
-<p>此限制源于后端和 Web 密码管理，它们并非旨在容纳备用基础目录(请参阅 <a href="/bitwarden/server/issues/277">bitwarden/server#277</a>)。移动/桌面应用程序和浏览器扩展实际上没有问题，使用带有路径的基本 URL。</p>
-<p>在 vaultwarden 中，随着 <a href="https://github.com/dani-garcia/vaultwarden/pull/868" target="_blank" rel="noopener noreferrer">PR#868</a>(后端)和 <a href="https://github.com/dani-garcia/bw_web_builds/pull/11" target="_blank" rel="noopener noreferrer">PR#11</a>(网络密码管理)，您可以在备用基本目录中配置功能齐全的实例。</p>
-<h2 id="配置"> 配置</h2>
-<p>只需配置您的域 URL 以包含基本目录。例如，假设您想通过 <code>https://vaultwarden.example.com/base-dir</code> 访问您的实例。 (请注意，如果需要，您还可以使用多级目录，例如 <code>https://vaultwarden.example.com/multi/level/base/dir</code>。)</p>
-<ol>
-<li>
-<p>停止保管人。</p>
-</li>
-<li>
-<p>如果您通常使用管理页面配置 Vaultwarden，请编辑您的 <code>config.json</code> 如下所示：</p>
-<div><pre><code><span>{</span>
-  <span>"domain"</span><span>:</span> <span>"https://vaultwarden.example.com/base-dir"</span><span>,</span>
-  <span>// ... other values ...</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div></li>
-<li>
-<p>如果您通常通过环境变量配置 Vaultwarden，请更新您的配置文件/脚本以将 <code>DOMAIN</code> 环境变量设置为基本 URL。例如：</p>
-<div><pre><code>docker run -e <span>DOMAIN</span><span>=</span><span>"https://vaultwarden.example.com/base-dir"</span> <span>..</span>.
-</code></pre>
-<div><span>1</span><br></div></div></li>
-<li>
-<p>重新启动密码管理。</p>
-</li>
-<li>
-<p>您现在应该可以通过 <code>https://vaultwarden.example.com/base-dir/</code> 访问网络密码管理(注意尾部斜杠)。出于不完全清楚的原因，如果您使用<code>https://vaultwarden.example.com/base-dir</code>(没有尾部斜杠)，您可能会遇到问题。</p>
-</li>
-<li>
-<p>将您的应用程序或浏览器扩展程序配置为使用 <code>https://vaultwarden.example.com/base-dir</code>。如果添加尾部斜杠，应用程序和扩展程序将在保存前自动将其删除。</p>
-</li>
-<li>
-<p>注意<strong>5</strong>。尾部斜线<code>/</code> 问题可以通过在路由位置字符串后附加<code>/</code> 来解决。例如，在 Nginx 中。</p>
-<div><pre><code>location /my-base-path {
-  # This config would cause `/` issue
-}
-
-location /my-base-path-2/ {
-  # This config works perfectly
-}
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></li>
-</ol>
-<h2 id="反向代理"> 反向代理</h2>
-<p>如果您将 vaultwarden 置于反向代理之后，请确保您的代理配置为将请求路径传递到 vaultwarden，因为 vaultwarden API 路由设置为期望基本目录。</p>
-<p>因此，如果对 <code>https://vaultwarden.example.com/base-dir/api/sync</code> 的请求命中了你的反向代理，然后代理到你的 vaultwarden 监听 <code>localhost:8080</code>，请求必须转到 <code>http ://localhost:8080/base-dir/api/sync</code>，而不是<code>http://localhost:8080/api/sync</code>。</p>
+    <content type="html"><![CDATA[<p>LDAP 集成是使用查询 LDAP 并邀请用户加入您的 Vaultwarden 实例的小型服务执行的。该服务毫无创意地命名为 <a href="https://github.com/ViViDboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">vaultwarden_ldap</a>。</p>
+<p>它尚未作为二进制文件分发，但有一个可用的 Docker 镜像 <a href="https://hub.docker.com/r/vividboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">vividboarder/vaultwarden_ldap</a>。</p>
+<p>在部署之前，您必须<a href="./Enabling-admin-page.html">启用管理页面</a>。这将启用 LDAP 同步服务将用于邀请用户的 API。您设置的<code>ADMIN_TOKEN</code>将在配置 LDAP 同步服务时使用。您还必须确保<strong>不</strong>禁用邀请功能。要验证这一点，请仔细检查环境变量<code>INVITATIONS_ALLOWED</code>是否未设置为<code>false</code>。</p>
+<p>还建议从您的 Vaultwarden 实例<a href="./SMTP-Configuration.html">SMTP配置</a>，以便通知您的用户可以创建帐户。如果您不这样做，如果他们使用他们的 LDAP 电子邮件地址，他们仍然可以注册，但您必须自己通知他们。</p>
+<p>完成这些步骤后，您可以配置和部署 LDAP 同步服务。可以在服务 <a href="https://github.com/ViViDboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">Readme</a> 本身上找到最新的说明，但它涉及创建带有连接信息的 <code>config.toml</code> 文件您的 Vaultwarden 实例、您的 LDAP 实例以及您想用来查找用户的 LDAP 查询。</p>
 ]]></content>
     <author>
       <name>ChouCong</name>
@@ -8679,7 +8638,7 @@ location /my-base-path-2/ {
     <title type="html">使用 MariaDB (MySQL) 后端</title>
     <id>/projects/vaultwarden/Configuration/Using-the-MariaDB-Backend.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Using-the-MariaDB-Backend.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<div><p>注意</p>
 <p>我们的构建基于 MariaDB 客户端库，因为这是 Debian 提供的。<br/>
@@ -8887,10 +8846,73 @@ use vaultwarden
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">使用备用基本目录(子目录)</title>
+    <id>/projects/vaultwarden/Configuration/Using-an-alternate-base-dir.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Configuration/Using-an-alternate-base-dir.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<p>传统上，Vaultwarden 仅限于驻留在子域的根，例如<code>https://vaultwarden.example.com</code>。</p>
+<p>此限制源于后端和 Web 密码管理，它们并非旨在容纳备用基础目录(请参阅 <a href="/bitwarden/server/issues/277">bitwarden/server#277</a>)。移动/桌面应用程序和浏览器扩展实际上没有问题，使用带有路径的基本 URL。</p>
+<p>在 vaultwarden 中，随着 <a href="https://github.com/dani-garcia/vaultwarden/pull/868" target="_blank" rel="noopener noreferrer">PR#868</a>(后端)和 <a href="https://github.com/dani-garcia/bw_web_builds/pull/11" target="_blank" rel="noopener noreferrer">PR#11</a>(网络密码管理)，您可以在备用基本目录中配置功能齐全的实例。</p>
+<h2 id="配置"> 配置</h2>
+<p>只需配置您的域 URL 以包含基本目录。例如，假设您想通过 <code>https://vaultwarden.example.com/base-dir</code> 访问您的实例。 (请注意，如果需要，您还可以使用多级目录，例如 <code>https://vaultwarden.example.com/multi/level/base/dir</code>。)</p>
+<ol>
+<li>
+<p>停止保管人。</p>
+</li>
+<li>
+<p>如果您通常使用管理页面配置 Vaultwarden，请编辑您的 <code>config.json</code> 如下所示：</p>
+<div><pre><code><span>{</span>
+  <span>"domain"</span><span>:</span> <span>"https://vaultwarden.example.com/base-dir"</span><span>,</span>
+  <span>// ... other values ...</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div></li>
+<li>
+<p>如果您通常通过环境变量配置 Vaultwarden，请更新您的配置文件/脚本以将 <code>DOMAIN</code> 环境变量设置为基本 URL。例如：</p>
+<div><pre><code>docker run -e <span>DOMAIN</span><span>=</span><span>"https://vaultwarden.example.com/base-dir"</span> <span>..</span>.
+</code></pre>
+<div><span>1</span><br></div></div></li>
+<li>
+<p>重新启动密码管理。</p>
+</li>
+<li>
+<p>您现在应该可以通过 <code>https://vaultwarden.example.com/base-dir/</code> 访问网络密码管理(注意尾部斜杠)。出于不完全清楚的原因，如果您使用<code>https://vaultwarden.example.com/base-dir</code>(没有尾部斜杠)，您可能会遇到问题。</p>
+</li>
+<li>
+<p>将您的应用程序或浏览器扩展程序配置为使用 <code>https://vaultwarden.example.com/base-dir</code>。如果添加尾部斜杠，应用程序和扩展程序将在保存前自动将其删除。</p>
+</li>
+<li>
+<p>注意<strong>5</strong>。尾部斜线<code>/</code> 问题可以通过在路由位置字符串后附加<code>/</code> 来解决。例如，在 Nginx 中。</p>
+<div><pre><code>location /my-base-path {
+  # This config would cause `/` issue
+}
+
+location /my-base-path-2/ {
+  # This config works perfectly
+}
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></li>
+</ol>
+<h2 id="反向代理"> 反向代理</h2>
+<p>如果您将 vaultwarden 置于反向代理之后，请确保您的代理配置为将请求路径传递到 vaultwarden，因为 vaultwarden API 路由设置为期望基本目录。</p>
+<p>因此，如果对 <code>https://vaultwarden.example.com/base-dir/api/sync</code> 的请求命中了你的反向代理，然后代理到你的 vaultwarden 监听 <code>localhost:8080</code>，请求必须转到 <code>http ://localhost:8080/base-dir/api/sync</code>，而不是<code>http://localhost:8080/api/sync</code>。</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">使用PostgreSQL后端</title>
     <id>/projects/vaultwarden/Configuration/Using-the-PostgreSQL-Backend.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Using-the-PostgreSQL-Backend.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>要使用 PostgreSQL 后端，您可以使用 <a href="https://hub.docker.com/r/vaultwarden/server" target="_blank" rel="noopener noreferrer">官方 Docker 映像</a> 或构建您自己的二进制文件 <a href="./../Deployment/Building-binary.html#postgresql-后端">启用 PostgreSQL</a>。</p>
 <p>要运行二进制文件或容器，请确保设置了 <code>DATABASE_URL</code> 环境变量(即 <code>DATABASE_URL='postgresql://&lt;user&gt;:&lt;password&gt;@postgresql/bitwarden'</code>)</p>
@@ -8998,7 +9020,7 @@ use vaultwarden
     <title type="html">启动一个容器</title>
     <id>/projects/vaultwarden/Container/Starting-a-Container.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Container/Starting-a-Container.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>请注意，<code>docker run</code> 命令的名称有点误导，因为它会创建一个容器，而不是仅仅启动它，这会导致在停止容器而不删除容器后使用 <code>docker run</code> 时发生冲突。有关简单的开始，请参见下文。</p>
 <h2 id="创建容器"> 创建容器</h2>
@@ -9054,7 +9076,7 @@ docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>192.168</span>.0.2
     <title type="html">更新密码管理的管理员图片</title>
     <id>/projects/vaultwarden/Container/Updating-the-vaultwarden-image.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Container/Updating-the-vaultwarden-image.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>更新很简单，您只需确保保留已安装的卷。如果你在例子中使用了绑定挂载的路径 <a href="./Starting-a-Container.html">here</a>，你只需要<code>pull</code>最新的镜像，<code>stop</code>和<code>rm</code>当前容器，然后启动一个新的一个和以前一样的方式：</p>
 <div><pre><code><span># 拉取最新版本</span>
@@ -9137,7 +9159,7 @@ prune 命令将删除现在的旧容器(-f 代表：不要求确认)。</p>
     <title type="html">使用Docker Compose</title>
     <id>/projects/vaultwarden/Container/Using-Docker-Compose.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Container/Using-Docker-Compose.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p><a href="https://docs.docker.com/compose/" target="_blank" rel="noopener noreferrer">Docker Compose</a> 是一个允许定义和配置多容器应用程序的工具。在我们的例子中，我们希望 Vaultwarden 服务器和代理将 WebSocket 请求重定向到正确的位置。</p>
 <h2 id="caddy-与-http-挑战"> Caddy 与 HTTP 挑战</h2>
@@ -9289,7 +9311,7 @@ prune 命令将删除现在的旧容器(-f 代表：不要求确认)。</p>
     <title type="html">使用Podman</title>
     <id>/projects/vaultwarden/Container/Using-Podman.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Container/Using-Podman.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p><a href="https://podman.io/" target="_blank" rel="noopener noreferrer">Podman</a> 是 Docker 的无守护进程替代品，主要兼容 Docker 容器。</p>
 <h2 id="创建systemd服务文件"> 创建systemd服务文件</h2>
@@ -9365,7 +9387,7 @@ $ systemctl start container-vaultwarden.service
     <title type="html">使用哪个容器镜像</title>
     <id>/projects/vaultwarden/Container/Which-container-image-to-use.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Container/Which-container-image-to-use.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p><code>vaultwarden</code> 提供单个 Docker 镜像 (<a href="https://hub.docker.com/r/vaultwarden/server" target="_blank" rel="noopener noreferrer"><code>vaultwarden/server</code></a>)，统一支持 SQLite、MySQL 和 PostgreSQL 数据库后端，从版本开始1.17.0。在该版本之前，每个数据库后端都有单独的镜像(请参阅 )。</p>
 <p><code>vaultwarden/server</code> 镜像也是多架构的，这意味着它在一个镜像名称下支持多个 CPU 架构。假设您正在运行一种受支持的架构，只需拉动 <code>vaultwarden/server</code> 应该会自动为您的环境生成适当的特定于架构的映像，ARMv6 板可能除外，例如 Raspberry Pi 1 和 Zero(请参阅 <a href="https://github.com/moby/moby/issues/41017" target="_blank" rel="noopener noreferrer">moby/moby#41017</a>)。</p>
@@ -9534,7 +9556,7 @@ $ systemctl start container-vaultwarden.service
     <title type="html">构建二进制</title>
     <id>/projects/vaultwarden/Deployment/Building-binary.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Building-binary.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>此页面主要面向对 Vaultwarden 开发感兴趣或有特定原因想要构建自己的二进制文件的人。</p>
 <p>典型用户应该从基于 Alpine 的 Docker 镜像中<a href="./../Container/Which-container-image-to-use.html">使用哪个容器镜像</a>、<a href="./Pre-built-binaries.html">预建二进制文件</a>，或者寻找 <a href="./Third-party-packages.html">第三方包</a>。</p>
@@ -9666,7 +9688,7 @@ cargo build --features postgresql --release
     <title type="html">构建你自己的docker镜像</title>
     <id>/projects/vaultwarden/Deployment/Building-your-own-docker-image.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Building-your-own-docker-image.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>克隆存储库，然后从存储库的根目录运行以使用默认的 sqlite 后端构建：</p>
 <div><pre><code><span># 构建docker镜像：</span>
@@ -9701,111 +9723,10 @@ docker build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql 
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">部署示例</title>
-    <id>/projects/vaultwarden/Deployment/Deployment-examples.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Deployment/Deployment-examples.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p>此页面是独立部署示例的索引。如果添加新示例，请酌情创建一个新类别，并总体上保持井井有条。</p>
-<h3 id="谷歌云"> 谷歌云</h3>
-<ul>
-<li>
-<p><a href="https://github.com/dadatuputi/bitwarden_gcloud" target="_blank" rel="noopener noreferrer">https://github.com/dadatuputi/bitwarden_gcloud</a></p>
-<p>Vaultwarden 安装针对 Google Cloud 的<code>永远免费</code>e2-micro 计算实例进行了优化</p>
-</li>
-</ul>
-<h3 id="kubernetes"> Kubernetes</h3>
-<ul>
-<li>
-<p><a href="https://github.com/icicimov/kubernetes-bitwarden_rs" target="_blank" rel="noopener noreferrer">https://github.com/icicimov/kubernetes-bitwarden_rs</a></p>
-<p>在 Kubernetes 中的 <a href="https://github.com/kubernetes/ingress-nginx" target="_blank" rel="noopener noreferrer">nginx-ingress-controller</a> 和 AWS <a href="https://aws.amazon.com/elasticloadbalancing/features/#Details_for_Elastic_Load_Balancing_Products" target="_blank" rel="noopener noreferrer">ELBv1</a>。它提供的不仅仅是简单的部署，而且您可以根据需要和设置使用全部或部分清单。</p>
-</li>
-<li>
-<p><a href="https://github.com/Skeen/helm-bitwarden_rs" target="_blank" rel="noopener noreferrer">https://github.com/Skeen/helm-bitwarden_rs</a></p>
-<p>在您选择的 nginx 控制器后面的 Kubernetes 中设置功能齐全且安全的<code>Vaultwarden</code>应用程序。它运行良好，并通过 <a href="https://microk8s.io" target="_blank" rel="noopener noreferrer">microk8s</a> 设置进行了测试。也支持通过 <a href="https://github.com/jetstack/cert-manager" target="_blank" rel="noopener noreferrer">cert-manager</a> 生成 SSL 证书。</p>
-</li>
-</ul>
-<h3 id="树莓派"> 树莓派</h3>
-<ul>
-<li>
-<p><a href="https://github.com/martient/vaultwarden-ansible" target="_blank" rel="noopener noreferrer">https://github.com/martient/vaultwarden-ansible</a></p>
-<p>树莓派上 vaultwarden 的 Ansible 部署，要从以前的配置迁移，请遵循本指南 <a href="https://martient.medium.com/migrate-from-bitwarden-rs-to-vaultwarden-199aeb6927a3" target="_blank" rel="noopener noreferrer">https://martient.medium.com/migrate-from-bitwarden-rs-to-vaultwarden-199aeb6927a3</a></p>
-</li>
-</ul>
-<h2 id="共享主机"> 共享主机</h2>
-<ul>
-<li>
-<p><a href="https://github.com/jjlin/vaultwarden-shared-hosting" target="_blank" rel="noopener noreferrer">https://github.com/jjlin/vaultwarden-shared-hosting</a></p>
-<p>在 <a href="https://www.dreamhost.com" target="_blank" rel="noopener noreferrer">DreamHost</a> 上运行 <code>vaultwarden</code> 的示例配置，但应该很容易适应许多其他共享托管服务。</p>
-</li>
-<li>
-<p><a href="https://lab.uberspace.de/guide_bitwarden.html" target="_blank" rel="noopener noreferrer">https://lab.uberspace.de/guide_bitwarden.html</a></p>
-<p>有关如何从源代码安装并在 <a href="https://uberspace.de/en/" target="_blank" rel="noopener noreferrer">Uberspace</a> 共享托管服务提供商上运行的说明。</p>
-</li>
-</ul>
-<h3 id="nixos-由-tklitschi-提供"> NixOS(由 tklitschi 提供)</h3>
-<p>NixOS 有一个示例 bitwarden 配置。这不是很复杂，你有后端选项，你想使用的数据库类型，专用备份系统的备份目录，启用它的选项和配置选项。对于配置选项，您只需以 nix 语法传递 .env 变量 <a href="https://github.com/dani-garcia/vaultwarden/blob/1.13.1/.env.template" target="_blank" rel="noopener noreferrer">来自 .env 模板</a>。 有关 nixos-nginx 示例配置，请参阅 <a href="Proxy-examples">代理示例</a>。</p>
-<p>Example Config</p>
-<div><pre><code><span>{</span>pkgs<span>,</span><span>.</span><span>.</span><span>.</span><span>}</span><span>:</span>
-<span>{</span>
-  services<span>.</span>bitwarden_rs <span>=</span> <span>{</span>
-  enable <span>=</span> <span>true</span><span>;</span>
-  backupDir <span>=</span> <span>"/mnt/bitwarden"</span><span>;</span>
-  
-
-  config <span>=</span> <span>{</span>
-      WEB_VAULT_FOLDER <span>=</span> <span>"<span><span>$</span><span>{</span>pkgs<span>.</span>bitwarden_rs<span>-</span>vault<span>}</span></span>/share/bitwarden_rs/vault"</span><span>;</span>
-      WEB_VAULT_ENABLED <span>=</span> <span>true</span><span>;</span>
-      LOG_FILE <span>=</span> <span>"/var/log/bitwarden"</span><span>;</span>
-      WEBSOCKET_ENABLED<span>=</span> <span>true</span><span>;</span>
-      WEBSOCKET_ADDRESS <span>=</span> <span>"0.0.0.0"</span><span>;</span>
-      WEBSOCKET_PORT <span>=</span> <span>3012</span><span>;</span>
-      SIGNUPS_VERIFY <span>=</span> <span>true</span><span>;</span>
-      ADMIN_TOKEN <span>=</span> <span>(</span><span>import</span> <span>/etc/nixos/secret/bitwarden.nix</span><span>)</span><span>.</span>ADMIN_TOKEN<span>;</span>
-      DOMAIN <span>=</span> <span>"https://exmaple.com"</span><span>;</span>
-      YUBICO_CLIENT_ID <span>=</span> <span>(</span><span>import</span> <span>/etc/nixos/secret/bitwarden.nix</span><span>)</span><span>.</span>YUBICO_CLIENT_ID<span>;</span>
-      YUBICO_SECRET_KEY <span>=</span> <span>(</span><span>import</span> <span>/etc/nixos/secret/bitwarden.nix</span><span>)</span><span>.</span>YUBICO_SECRET_KEY<span>;</span>
-      YUBICO_SERVER <span>=</span> <span>"https://api.yubico.com/wsapi/2.0/verify"</span><span>;</span>
-      SMTP_HOST <span>=</span> <span>"mx.example.com"</span><span>;</span>
-      SMTP_FROM <span>=</span> <span>"bitwarden@example.com"</span><span>;</span>
-      SMTP_FROM_NAME <span>=</span> <span>"Bitwarden_RS"</span><span>;</span>
-      SMTP_PORT <span>=</span> <span>587</span><span>;</span>
-      SMTP_SSL <span>=</span> <span>true</span><span>;</span>
-      SMTP_USERNAME<span>=</span> <span>(</span><span>import</span> <span>/etc/nixos/secret/bitwarden.nix</span><span>)</span><span>.</span>SMTP_USERNAME<span>;</span>
-      SMTP_PASSWORD <span>=</span> <span>(</span><span>import</span> <span>/etc/nixos/secret/bitwarden.nix</span><span>)</span><span>.</span>SMTP_PASSWORD<span>;</span>
-      SMTP_TIMEOUT <span>=</span> <span>15</span><span>;</span>
-      ROCKET_PORT <span>=</span> <span>8812</span><span>;</span>
-    <span>}</span><span>;</span>
-  <span>}</span><span>;</span>
-
-  environment<span>.</span>systemPackages <span>=</span> <span>with</span> pkgs<span>;</span> <span>[</span>
-    bitwarden_rs<span>-</span>vault
-  <span>]</span><span>;</span>
-
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br></div></div><p>如果您对这部分有任何疑问，请随时与我联系。我在@litschi:litschi.xyz 上的矩阵和 IRC(hackint 和 freenode)上的 litschi，或者只是在 vaultwarden matrix.org chanel 中询问。</p>
-<h3 id="qnap-nas-arm-and-x86"> QNAP NAS (ARM and x86)</h3>
-<ul>
-<li><a href="https://github.com/umireon/vaultwarden-qnap" target="_blank" rel="noopener noreferrer">https://github.com/umireon/vaultwarden-qnap</a></li>
-</ul>
-<p>您可以使用 Let's Encrypt 将 Vaultwarden 安装到您的安全网络附加存储 (NAS) 中。 由于 QNAP 内置 HTTP(S) 服务器，您无法在标准 HTTP(S) 端口 (80 / 443) 上发布 Vaultwarden。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="项目"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">开启HTTPS</title>
     <id>/projects/vaultwarden/Deployment/Enabling-HTTPS.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Enabling-HTTPS.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>为了正确操作 vaultwarden，现在非常需要启用 <a href="https://en.wikipedia.org/wiki/HTTPS" target="_blank" rel="noopener noreferrer">HTTPS</a>，因为 Bitwarden 网络密码管理使用 <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto" target="_blank" rel="noopener noreferrer">网络加密 API</a>，大多数浏览器仅在 HTTPS 上下文中可用。</p>
 <p>有几种方法可以启用 HTTPS：</p>
@@ -9917,10 +9838,111 @@ verify return:1
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">部署示例</title>
+    <id>/projects/vaultwarden/Deployment/Deployment-examples.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Deployment/Deployment-examples.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<p>此页面是独立部署示例的索引。如果添加新示例，请酌情创建一个新类别，并总体上保持井井有条。</p>
+<h3 id="谷歌云"> 谷歌云</h3>
+<ul>
+<li>
+<p><a href="https://github.com/dadatuputi/bitwarden_gcloud" target="_blank" rel="noopener noreferrer">https://github.com/dadatuputi/bitwarden_gcloud</a></p>
+<p>Vaultwarden 安装针对 Google Cloud 的<code>永远免费</code>e2-micro 计算实例进行了优化</p>
+</li>
+</ul>
+<h3 id="kubernetes"> Kubernetes</h3>
+<ul>
+<li>
+<p><a href="https://github.com/icicimov/kubernetes-bitwarden_rs" target="_blank" rel="noopener noreferrer">https://github.com/icicimov/kubernetes-bitwarden_rs</a></p>
+<p>在 Kubernetes 中的 <a href="https://github.com/kubernetes/ingress-nginx" target="_blank" rel="noopener noreferrer">nginx-ingress-controller</a> 和 AWS <a href="https://aws.amazon.com/elasticloadbalancing/features/#Details_for_Elastic_Load_Balancing_Products" target="_blank" rel="noopener noreferrer">ELBv1</a>。它提供的不仅仅是简单的部署，而且您可以根据需要和设置使用全部或部分清单。</p>
+</li>
+<li>
+<p><a href="https://github.com/Skeen/helm-bitwarden_rs" target="_blank" rel="noopener noreferrer">https://github.com/Skeen/helm-bitwarden_rs</a></p>
+<p>在您选择的 nginx 控制器后面的 Kubernetes 中设置功能齐全且安全的<code>Vaultwarden</code>应用程序。它运行良好，并通过 <a href="https://microk8s.io" target="_blank" rel="noopener noreferrer">microk8s</a> 设置进行了测试。也支持通过 <a href="https://github.com/jetstack/cert-manager" target="_blank" rel="noopener noreferrer">cert-manager</a> 生成 SSL 证书。</p>
+</li>
+</ul>
+<h3 id="树莓派"> 树莓派</h3>
+<ul>
+<li>
+<p><a href="https://github.com/martient/vaultwarden-ansible" target="_blank" rel="noopener noreferrer">https://github.com/martient/vaultwarden-ansible</a></p>
+<p>树莓派上 vaultwarden 的 Ansible 部署，要从以前的配置迁移，请遵循本指南 <a href="https://martient.medium.com/migrate-from-bitwarden-rs-to-vaultwarden-199aeb6927a3" target="_blank" rel="noopener noreferrer">https://martient.medium.com/migrate-from-bitwarden-rs-to-vaultwarden-199aeb6927a3</a></p>
+</li>
+</ul>
+<h2 id="共享主机"> 共享主机</h2>
+<ul>
+<li>
+<p><a href="https://github.com/jjlin/vaultwarden-shared-hosting" target="_blank" rel="noopener noreferrer">https://github.com/jjlin/vaultwarden-shared-hosting</a></p>
+<p>在 <a href="https://www.dreamhost.com" target="_blank" rel="noopener noreferrer">DreamHost</a> 上运行 <code>vaultwarden</code> 的示例配置，但应该很容易适应许多其他共享托管服务。</p>
+</li>
+<li>
+<p><a href="https://lab.uberspace.de/guide_bitwarden.html" target="_blank" rel="noopener noreferrer">https://lab.uberspace.de/guide_bitwarden.html</a></p>
+<p>有关如何从源代码安装并在 <a href="https://uberspace.de/en/" target="_blank" rel="noopener noreferrer">Uberspace</a> 共享托管服务提供商上运行的说明。</p>
+</li>
+</ul>
+<h3 id="nixos-由-tklitschi-提供"> NixOS(由 tklitschi 提供)</h3>
+<p>NixOS 有一个示例 bitwarden 配置。这不是很复杂，你有后端选项，你想使用的数据库类型，专用备份系统的备份目录，启用它的选项和配置选项。对于配置选项，您只需以 nix 语法传递 .env 变量 <a href="https://github.com/dani-garcia/vaultwarden/blob/1.13.1/.env.template" target="_blank" rel="noopener noreferrer">来自 .env 模板</a>。 有关 nixos-nginx 示例配置，请参阅 <a href="Proxy-examples">代理示例</a>。</p>
+<p>Example Config</p>
+<div><pre><code><span>{</span>pkgs<span>,</span><span>.</span><span>.</span><span>.</span><span>}</span><span>:</span>
+<span>{</span>
+  services<span>.</span>bitwarden_rs <span>=</span> <span>{</span>
+  enable <span>=</span> <span>true</span><span>;</span>
+  backupDir <span>=</span> <span>"/mnt/bitwarden"</span><span>;</span>
+  
+
+  config <span>=</span> <span>{</span>
+      WEB_VAULT_FOLDER <span>=</span> <span>"<span><span>$</span><span>{</span>pkgs<span>.</span>bitwarden_rs<span>-</span>vault<span>}</span></span>/share/bitwarden_rs/vault"</span><span>;</span>
+      WEB_VAULT_ENABLED <span>=</span> <span>true</span><span>;</span>
+      LOG_FILE <span>=</span> <span>"/var/log/bitwarden"</span><span>;</span>
+      WEBSOCKET_ENABLED<span>=</span> <span>true</span><span>;</span>
+      WEBSOCKET_ADDRESS <span>=</span> <span>"0.0.0.0"</span><span>;</span>
+      WEBSOCKET_PORT <span>=</span> <span>3012</span><span>;</span>
+      SIGNUPS_VERIFY <span>=</span> <span>true</span><span>;</span>
+      ADMIN_TOKEN <span>=</span> <span>(</span><span>import</span> <span>/etc/nixos/secret/bitwarden.nix</span><span>)</span><span>.</span>ADMIN_TOKEN<span>;</span>
+      DOMAIN <span>=</span> <span>"https://exmaple.com"</span><span>;</span>
+      YUBICO_CLIENT_ID <span>=</span> <span>(</span><span>import</span> <span>/etc/nixos/secret/bitwarden.nix</span><span>)</span><span>.</span>YUBICO_CLIENT_ID<span>;</span>
+      YUBICO_SECRET_KEY <span>=</span> <span>(</span><span>import</span> <span>/etc/nixos/secret/bitwarden.nix</span><span>)</span><span>.</span>YUBICO_SECRET_KEY<span>;</span>
+      YUBICO_SERVER <span>=</span> <span>"https://api.yubico.com/wsapi/2.0/verify"</span><span>;</span>
+      SMTP_HOST <span>=</span> <span>"mx.example.com"</span><span>;</span>
+      SMTP_FROM <span>=</span> <span>"bitwarden@example.com"</span><span>;</span>
+      SMTP_FROM_NAME <span>=</span> <span>"Bitwarden_RS"</span><span>;</span>
+      SMTP_PORT <span>=</span> <span>587</span><span>;</span>
+      SMTP_SSL <span>=</span> <span>true</span><span>;</span>
+      SMTP_USERNAME<span>=</span> <span>(</span><span>import</span> <span>/etc/nixos/secret/bitwarden.nix</span><span>)</span><span>.</span>SMTP_USERNAME<span>;</span>
+      SMTP_PASSWORD <span>=</span> <span>(</span><span>import</span> <span>/etc/nixos/secret/bitwarden.nix</span><span>)</span><span>.</span>SMTP_PASSWORD<span>;</span>
+      SMTP_TIMEOUT <span>=</span> <span>15</span><span>;</span>
+      ROCKET_PORT <span>=</span> <span>8812</span><span>;</span>
+    <span>}</span><span>;</span>
+  <span>}</span><span>;</span>
+
+  environment<span>.</span>systemPackages <span>=</span> <span>with</span> pkgs<span>;</span> <span>[</span>
+    bitwarden_rs<span>-</span>vault
+  <span>]</span><span>;</span>
+
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br></div></div><p>如果您对这部分有任何疑问，请随时与我联系。我在@litschi:litschi.xyz 上的矩阵和 IRC(hackint 和 freenode)上的 litschi，或者只是在 vaultwarden matrix.org chanel 中询问。</p>
+<h3 id="qnap-nas-arm-and-x86"> QNAP NAS (ARM and x86)</h3>
+<ul>
+<li><a href="https://github.com/umireon/vaultwarden-qnap" target="_blank" rel="noopener noreferrer">https://github.com/umireon/vaultwarden-qnap</a></li>
+</ul>
+<p>您可以使用 Let's Encrypt 将 Vaultwarden 安装到您的安全网络附加存储 (NAS) 中。 由于 QNAP 内置 HTTP(S) 服务器，您无法在标准 HTTP(S) 端口 (80 / 443) 上发布 Vaultwarden。</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">Kubernetes 部署</title>
     <id>/projects/vaultwarden/Deployment/Kubernetes-deployment.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Kubernetes-deployment.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<div><p>警告</p>
 <p>官方已删除此Wiki页</p>
@@ -9952,7 +9974,7 @@ verify return:1
     <title type="html">Logrotate 示例</title>
     <id>/projects/vaultwarden/Deployment/Logrotate-example.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Logrotate-example.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>随着时间的推移，Vaultwarden 日志文件会变得很大。使用 logrotate，我们可以定期轮换日志。</p>
 <div><pre><code><span>sudo</span> <span>nano</span> /etc/logrotate.d/bitwarden
@@ -10000,7 +10022,7 @@ zgrep -i keyword_search logfile.gz
     <title type="html">预建二进制文件</title>
     <id>/projects/vaultwarden/Deployment/Pre-built-binaries.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Pre-built-binaries.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>vaultwarden 目前不提供独立的二进制文件作为单独的下载，但对于具有基于 Alpine 的 Docker 映像可用的平台(当前为 x86-64 和 ARMv7)，您可以从官方 Docker 映像中提取独立的、静态链接的二进制文件。</p>
 <p>每个 Docker 映像还包括一个匹配的 Web Vault 构建(与平台无关)。</p>
@@ -10076,7 +10098,7 @@ drwx------ <span>8</span> user user     <span>4096</span> Feb  <span>6</span> <s
     <title type="html">代理示例</title>
     <id>/projects/vaultwarden/Deployment/Proxy-examples.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Proxy-examples.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>在本文档中，<code>&lt;SERVER&gt;</code> 是指您访问 Vaultwarden 的 IP 或域。如果反向代理和 Vaultwarden 都在同一个系统上运行，只需使用 <code>localhost</code>。</p>
 <p>默认情况下，Vaultwarden 在端口 <code>80</code> 上侦听 Web (REST API) 流量，在端口 3012 上侦听 WebSocket 流量(如果 <a href="./../Configuration/Enabling-WebSocket-notifications.html">启用WebSocket通知</a> 已启用)。</p>
@@ -10704,7 +10726,7 @@ use_backend VaultWarden-Notifications_ipvANY  if  !ACL4
     <title type="html">使用 Let&amp;apos;s Encrypt 证书运行私有 Vaultwarden 实例</title>
     <id>/projects/vaultwarden/Deployment/Running-a-private-vaultwarden-instance-with-Lets-Encrypt-certs.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Running-a-private-vaultwarden-instance-with-Lets-Encrypt-certs.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>假设您想运行一个只能从您的本地网络访问的 vaultwarden 实例，但您希望您的实例启用 HTTPS，并使用由广泛接受的 CA 签署的证书，而不是管理您自己的 <a href="./../Other/Private-CA-and-self-signed-certs-that-work-with-Chrome.html">私有 CA</a>(以避免必须将私有 CA 证书加载到您所有的设备)。</p>
 <p>本文演示了如何使用 <a href="https://caddyserver.com/" target="_blank" rel="noopener noreferrer">Caddy</a> Web 服务器创建这样的设置，该服务器具有对各种 DNS 提供商的内置 ACME 支持。我们将配置 Caddy 以通过 ACME <a href="https://letsencrypt.org/docs/challenge-types/#dns-01-challenge" target="_blank" rel="noopener noreferrer">DNS 挑战</a> 获取 Let's Encrypt 证书——使用更常见的 HTTP 挑战会出现问题在这里，因为它依赖于 Let's Encrypt 服务器能够访问您的内部 Web 服务器。</p>
@@ -10843,7 +10865,7 @@ export WEBSOCKET_ENABLED=true
     <title type="html">第三方包</title>
     <id>/projects/vaultwarden/Deployment/Third-party-packages.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Third-party-packages.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>此页面是第三方 Vaultwarden 软件包的索引。</p>
 <p>由于这些软件包不是由 Vaultwarden 维护或控制的，因此它们可能落后于官方版本，有时甚至明显滞后。</p>
@@ -10893,71 +10915,10 @@ export WEBSOCKET_ENABLED=true
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">FAQ</title>
-    <id>/projects/vaultwarden/Home/FAQs.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Home/FAQs.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<h2 id="vaultwarden-是否与-bitwarden-项目或-8bit-solutions-llc-相关联"> Vaultwarden 是否与 Bitwarden 项目或 8bit Solutions LLC 相关联？</h2>
-<p>简短的回答，<strong>不</strong>。 有时两个项目的开发人员之间有一些联系，但没有合作。 除此之外，Vaultwarden 项目仅使用 8bit Solutions LLC 提供的 Web Vault 和一些补丁来使其与我们的实现一起工作。</p>
-<h2 id="vaultwarden-可以连接到-oracle-mysql-v8-x-数据库吗"> Vaultwarden 可以连接到 Oracle MySQL V8.x 数据库吗？</h2>
-<p>使用 Oracle MySQL v8.x 尝试启动 Vaultwarden 时，您可能会收到以下警告</p>
-<div><pre><code>[vaultwarden::util][WARN] Can&#39;t connect to database, retrying: DieselConError.
-[CAUSE] BadConnection(
-    &quot;Authentication plugin \&#39;caching_sha2_password\&#39; cannot be loaded: /usr/lib/x86_64-linux-gnu/mariadb18/plugin/caching_sha2_password.so: cannot open shared object file: No such file or directory&quot;,
-)
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>Oracle MySQL v8.x 默认使用更安全的密码散列方法，这很好，但目前我们的版本不支持。 您需要以特定方式创建 Vaultwarden 用户，以便它使用旧的本机密码散列。</p>
-<div><pre><code><span>-- 在 MySQLv8 安装上使用它</span>
-<span>CREATE</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>WITH</span> mysql_native_password <span>BY</span> <span>'yourpassword'</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>如果您已经创建了用户并且只想更改散列方法，请使用以下命令：</p>
-<div><pre><code><span>-- 将密码类型从 caching_sha2_password 更改为 native</span>
-<span>ALTER</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>WITH</span> mysql_native_password <span>BY</span> <span>'yourpassword'</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>另请参阅：<a href="./../Configuration/Using-the-MariaDB-Backend.html#创建数据库和用户">使用 MariaDB - 创建数据库和用户</a></p>
-<h2 id="我的客户端-桌面、移动、web-不工作-我无法登录或它抱怨证书无效"> 我的客户端(桌面、移动、Web)不工作，我无法登录或它抱怨证书无效</h2>
-<p>Bitwarden 客户端需要安全连接才能正常工作而不会出现任何问题。尽管有些客户端可以在没有安全连接的情况下工作，但我们不建议这样做。</p>
-<p>大多数情况下，当人们使用证书但仍有问题时，他们使用的是所谓的自签名证书。虽然这些可以提供安全连接，但某些平台不允许或不支持这一点。</p>
-<p>我们建议使用 Lets Encrypt 之类的服务来提供有效且大多数设备默认接受的证书。</p>
-<p>请参阅以下页面：</p>
-<ul>
-<li><a href="./../Deployment/Enabling-HTTPS.html">启用-HTTPS</a></li>
-<li><a href="./../Deployment/Running-a-private-vaultwarden-instance-with-Lets-Encrypt-certs.html">使用 Let's Encrypt 证书运行私有 vaultwarden 实例</a></li>
-</ul>
-<h2 id="为什么我看不到所有密码管理项目的图标"> 为什么我看不到所有密码管理项目的图标？</h2>
-<p>没有显示图标的原因有多种。 如果它只是用于一些密码管理项目，则可能是我们无法提取它。某些站点启用了一些保护，这会导致我们的实施失败。他们中的大多数需要 Javascript 才能工作。</p>
-<p>也可能是 Vaultwarden 服务器无法访问 Internet 或解析 DNS 查询。 您可以检查<code>/admin/diagnostics</code>页面，看看您是否可以解析 DNS 查询并连接到 Internet。 如果确实有效，则可能还有防火墙或传出 Internet 代理可能会阻止这些请求。</p>
-<h2 id="websocket-连接显示错误的-ip-地址"> Websocket 连接显示错误的 IP 地址</h2>
-<p>这不是我们可以解决的问题。我们使用的库不支持任何形式的<code>X-Forwarded-For</code>或<code>Forward</code>标头。</p>
-<p>除非您在没有任何代理的情况下直接运行 vaultwarden 或运行透明代理，否则它会始终显示所使用的反向代理的 IP，这可能会导致它显示正确的 IP。</p>
-<p>这不是记录的重要部分，如果您使用反向代理，您可能还会在其日志中看到此请求，该请求将具有正确的 IP。</p>
-<h2 id="我可以将-vaultwarden-作为-azure-webapp-运行吗"> 我可以将 Vaultwarden 作为 Azure WebApp 运行吗</h2>
-<p>不幸的是，Azure WebApp 使用 CIFS/Samba 作为不支持锁定的卷存储。这会导致 SQLite 数据库文件出现问题。 有两种方法可以解决这个问题。</p>
-<ol>
-<li>不要使用 SQLite，而是使用 MariaDB/MySQL 或 Posgresql 作为数据库后端。</li>
-<li>尝试使用 <code>ENABLE_DB_WAL</code> 环境变量禁用 WAL，方法是将其值设置为 <code>false</code>。这需要在一个新文件上完成，因此您需要删除之前创建的 <code>db.sqlite3</code> 文件并再次重新启动 Vaultwarden 应用程序。</li>
-</ol>
-<h2 id="我在常见问题解答中没有找到我的答案-下一步该怎么做"> 我在常见问题解答中没有找到我的答案，下一步该怎么做？</h2>
-<p>好吧，请尝试搜索并点击我们精彩的 <a href="https://github.com/dani-garcia/vaultwarden/wiki" target="_blank" rel="noopener noreferrer">Wiki</a>。 如果这对您没有帮助，请尝试查看 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse.group" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> .</p>
-<p>如果这也导致没有解决方案，您可以尝试搜索开放和封闭的 <a href="https://github.com/dani-garcia/vaultwarden/issues" target="_blank" rel="noopener noreferrer">问题</a>。</p>
-<p>如果您仍然没有找到答案，您可以在 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> 上开始一个主题.group/)，或加入我们的 <a href="https://matrix.to/#/#vaultwarden:matrix.org" target="_blank" rel="noopener noreferrer">聊天室</a>。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="项目"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">Vaultwarden</title>
     <id>/projects/vaultwarden/Home/</id>
     <link href="https://codenoob.top/projects/vaultwarden/Home/"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>Vaultwarden 是一个用 Rust 编写的非官方 Bitwarden 服务器实现。它与<a href="https://bitwarden.com/download/" target="_blank" rel="noopener noreferrer">官方Bitwarden客户端</a>兼容，非常适合不需要运行官方资源密集型服务的自托管部署。</p>
 <p>Vaultwarden 面向个人、家庭和小型组织。开发主要对大型组织有用的功能(例如，单点登录、目录同步等)不是优先事项，但欢迎实现此类功能的高质量 PR。</p>
@@ -11031,88 +10992,55 @@ export WEBSOCKET_ENABLED=true
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">备份你的密码库</title>
-    <id>/projects/vaultwarden/Other/Backing-up-your-vault.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Other/Backing-up-your-vault.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <title type="html">FAQ</title>
+    <id>/projects/vaultwarden/Home/FAQs.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Home/FAQs.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<h2 id="概述"> 概述</h2>
-<p>Vaultwarden 数据应定期备份，最好通过自动化流程(例如，cron 作业)进行备份。</p>
-<p>理想情况下，至少应远程存储一份副本(例如，云存储或另一台计算机)。</p>
-<p>避免依赖文件系统或 VM 快照作为备份方法，因为这些是更复杂的操作，可能会出现更多问题，并且在这种情况下恢复对于典型用户来说可能很困难或不可能。</p>
-<p>在您的备份上添加额外的加密层通常是个好主意(特别是如果您的备份还包括像 <a href="./../Configuration/Disable-admin-token.html">禁用admin token</a> 之类的配置数据)，但您可能会选择跳过此步骤，如果您'确信您的主密码(以及您的其他用户的密码，如果有)是强密码。</p>
-<h2 id="备份数据"> 备份数据</h2>
-<p>默认情况下，Vaultwarden 将其所有数据存储在名为<code>data</code>的目录下(与<code>vaultwarden</code>可执行文件位于同一目录中)。可以通过设置 <a href="./../Configuration/Changing-persistent-data-location.html#附件位置">DATA_FOLDER</a> 环境变量来更改此位置。如果您使用 SQLite 运行 Vaultwarden(这是最常见的设置)，那么 SQL 数据库只是数据文件夹中的一个文件。如果使用 MySQL 或 PostgreSQL 运行，则必须单独转储这些数据——这超出了本文的范围，但网络搜索会找到许多其他涵盖此主题的教程。</p>
-<p>当使用默认的 SQLite 后端运行时，Vaultwarden <code>data</code> 目录具有以下结构：</p>
-<div><pre><code>data
-├──attachments # 每个附件都作为一个单独的文件存储在这个目录下。
-│ └── &lt;uuid&gt; #(如果没有创建附件，附件目录将不存在。)
-│ └── &lt;random_id&gt;
-├── config.json # 存储管理页面配置；仅在之前已启用管理页面时才存在。
-├── db.sqlite3 # 主 SQLite 数据库文件。
-├── db.sqlite3-shm # SQLite 共享内存文件(不总是存在)。
-├── db.sqlite3-wal # SQLite 预写日志文件(不总是存在)。
-├── icon_cache # 站点图标(favicon)缓存在这个目录下。
-│ ├── &lt;域名&gt;.png
-│ ├── example.com.png
-│ ├── example.net.png
-│ └── example.org.png
-├── rsa_key.der # `rsa_key.*` 文件用于对认证令牌进行签名。
-├── rsa_key.pem
-├── rsa_key.pub.der
-└── sent # 每个发送附件都作为一个单独的文件存储在这个目录下。
-    └── &lt;uuid&gt; #(如果没有创建发送附件，则发送目录将不存在。)
-        └── &lt;random_id&gt;
+    <content type="html"><![CDATA[<h2 id="vaultwarden-是否与-bitwarden-项目或-8bit-solutions-llc-相关联"> Vaultwarden 是否与 Bitwarden 项目或 8bit Solutions LLC 相关联？</h2>
+<p>简短的回答，<strong>不</strong>。 有时两个项目的开发人员之间有一些联系，但没有合作。 除此之外，Vaultwarden 项目仅使用 8bit Solutions LLC 提供的 Web Vault 和一些补丁来使其与我们的实现一起工作。</p>
+<h2 id="vaultwarden-可以连接到-oracle-mysql-v8-x-数据库吗"> Vaultwarden 可以连接到 Oracle MySQL V8.x 数据库吗？</h2>
+<p>使用 Oracle MySQL v8.x 尝试启动 Vaultwarden 时，您可能会收到以下警告</p>
+<div><pre><code>[vaultwarden::util][WARN] Can&#39;t connect to database, retrying: DieselConError.
+[CAUSE] BadConnection(
+    &quot;Authentication plugin \&#39;caching_sha2_password\&#39; cannot be loaded: /usr/lib/x86_64-linux-gnu/mariadb18/plugin/caching_sha2_password.so: cannot open shared object file: No such file or directory&quot;,
+)
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br></div></div><p>使用 MySQL 或 PostgreSQL 后端运行时，目录结构相同，只是没有 SQLite 文件。您仍然需要备份<code>data</code>目录中的文件，以及您的 MySQL 或 PostgreSQL 表的转储。</p>
-<p>接下来将更详细地讨论每组文件。</p>
-<h3 id="sqlite-数据库文件"> SQLite 数据库文件</h3>
-<p><em><strong>需要备份。</strong></em></p>
-<p>SQLite 数据库文件(<code>db.sqlite3</code>)存储几乎所有重要的密码管理数据/状态(数据库条目、用户/组织/设备元数据等)，主要的例外是附件，它们作为单独的文件存储在文件系统上.</p>
-<p>您通常应该在 SQLite CLI (<code>sqlite3</code>) 中使用 <code>.backup</code> 命令来备份数据库文件。此命令使用 <a href="https://www.sqlite.org/backup.html" target="_blank" rel="noopener noreferrer">Online Backup API</a>，其中 SQLite 记录为 <a href="https://www.sqlite.org/howtocorrupt.html#_backup_or_restore_while_a_transaction_is_active" target="_blank" rel="noopener noreferrer">最佳方式</a> 备份可能正在使用的数据库文件。如果您可以确保备份运行时数据库不会被使用，您还可以使用其他方法，例如 <code>.dump</code> 命令，或者简单地复制所有 SQLite 数据库文件(包括 <code>-wal</code> 文件，如果存在)。</p>
-<p>一个基本的备份命令看起来像这样，假设你的数据文件夹是 <code>data</code>(默认)：</p>
-<div><pre><code>sqlite3 data/db.sqlite3 &quot;.backup &#39;/path/to/backups/db-$(date &#39;+%Y%m%d-%H%M&#39;).sqlite3&#39;&quot;
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>Oracle MySQL v8.x 默认使用更安全的密码散列方法，这很好，但目前我们的版本不支持。 您需要以特定方式创建 Vaultwarden 用户，以便它使用旧的本机密码散列。</p>
+<div><pre><code><span>-- 在 MySQLv8 安装上使用它</span>
+<span>CREATE</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>WITH</span> mysql_native_password <span>BY</span> <span>'yourpassword'</span><span>;</span>
 </code></pre>
-<div><span>1</span><br></div></div><p>您还可以使用<code>VACUUM INTO</code>，它会压缩空白空间，但需要更多的处理时间：</p>
-<div><pre><code>sqlite3 data/db.sqlite3 &quot;VACUUM INTO &#39;/path/to/backups/db-$(date &#39;+%Y%m%d-%H%M&#39;).sqlite3&#39;&quot;
+<div><span>1</span><br><span>2</span><br></div></div><p>如果您已经创建了用户并且只想更改散列方法，请使用以下命令：</p>
+<div><pre><code><span>-- 将密码类型从 caching_sha2_password 更改为 native</span>
+<span>ALTER</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>WITH</span> mysql_native_password <span>BY</span> <span>'yourpassword'</span><span>;</span>
 </code></pre>
-<div><span>1</span><br></div></div><p>假设此命令在 2021 年 1 月 1 日下午 12:34(当地时间)运行，这会将您的 SQLite 数据库文件备份到 <code>/path/to/backups/db-20210101-1234.sqlite3</code>。</p>
-<p>您可以定期通过 cron 作业运行此命令(最好至少每天一次)。如果您通过 Docker 运行，请注意 Docker 映像不包含 <code>sqlite3</code> 二进制文件或 <code>cron</code> 守护程序，因此您通常会将这些安装在 Docker 主机本身上并在容器外运行 cron 作业。</p>
-<p>如果你出于某种原因真的想从容器内运行备份，你可以在<a href="../Container/Starting-a-Container#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8">容器启动</a>期间安装任何必要的包，或者使用您首选的<code>vaultwarden/server:&lt;tag&gt;</code> 镜像作为父镜像创建您自己的自定义 Docker 镜像。</p>
-<p>如果您想将备份数据复制到云存储，<a href="https://rclone.org/" target="_blank" rel="noopener noreferrer">rclone</a> 是与各种云存储系统接口的有用工具。 <a href="https://restic.net/" target="_blank" rel="noopener noreferrer">restic</a> 是另一个不错的选择，尤其是当您有较大的附件并希望避免在每次备份时重新复制它们时。</p>
-<h3 id="attachments-目录"> <code>attachments</code> 目录</h3>
-<p><em><strong>需要备份。</strong></em></p>
-<p><a href="https://bitwarden.com/help/article/attachments/" target="_blank" rel="noopener noreferrer">文件附件</a> 是唯一没有存储在数据库表中的重要数据类，主要是因为它们可以是任意大的，而 SQL 数据库通常不是为了有效地处理大斑点。如果从未创建过文件附件，则该目录将不存在。</p>
-<h3 id="sends-目录"> <code>sends</code> 目录</h3>
-<p><em><strong>备份可选。</strong></em></p>
-<p>与常规文件附件一样，<a href="https://bitwarden.com/help/article/about-send/" target="_blank" rel="noopener noreferrer">发送</a> 文件附件不存储在数据库表中。 (但是，发送文本注释存储在数据库中。)</p>
-<p>与常规附件不同，发送附件旨在是短暂的。因此，如果您想最小化备份的大小，您可以选择不备份此目录。另一方面，如果在还原过程中维护现有发送的正确功能更重要，那么您应该备份此目录。</p>
-<p>如果从未创建过发送附件，则该目录将不存在。</p>
-<h3 id="config-json-文件"> <code>config.json</code> 文件</h3>
-<p><em><strong>推荐备份。</strong></em></p>
-<p>如果您使用管理页面来配置您的 vaultwarden 实例，并且没有以其他方式备份您的配置，那么您可能想要备份此文件，这样您就不必重新确定您的首选配置。</p>
-<p>请记住，此文件确实包含一些可能被视为敏感的纯文本数据(管理员令牌、SMTP 凭据等)，因此如果您担心其他人可能能够访问这些数据，请务必加密这些数据(例如，上传到云存储时)。</p>
-<h3 id="rsa-key-文件"> <code>rsa_key*</code> 文件</h3>
-<p><em><strong>推荐备份。</strong></em></p>
-<p>这些文件用于对当前登录用户的 JWT(身份验证令牌)进行签名。删除它们只会让每个用户注销，强制他们再次登录。</p>
-<h3 id="icon-cache-目录"> <code>icon_cache</code> 目录</h3>
-<p><em><strong>备份可选。</strong></em></p>
-<p>图标缓存存储了<a href="https://bitwarden.com/help/article/website-icons/" target="_blank" rel="noopener noreferrer">网站图标</a>，以便它们不需要从登录站点重复获取。除非您真的想避免重新获取大量图标缓存，否则它可能不值得备份。</p>
-<h2 id="恢复备份数据"> 恢复备份数据</h2>
-<p>确保 Vaultwarden 已停止，然后只需将 <code>data</code> 目录中的每个文件或目录替换为其备份版本。</p>
-<p>在恢复使用 <code>.backup</code> 或 <code>VACUUM INTO</code> 创建的备份时，请确保首先删除任何现有的 <code>db.sqlite3-wal</code> 文件，因为这可能会在 SQLite 尝试恢复 <code>db.sqlite3</code> 时导致数据库损坏使用陈旧/不匹配的 WAL 文件。</p>
-<p>但是，如果您使用<code>db.sqlite3</code>及其匹配的<code>db.sqlite3-wal</code>文件的直接副本备份数据库，则必须将这两个文件成对还原。您不需要备份或恢复 <code>db.sqlite3-shm</code> 文件。</p>
-<p>定期运行从备份恢复的过程是一个好主意，只是为了验证您的备份是否正常工作。执行此操作时，请确保移动或保留原始数据的副本，以防备份实际上无法正常工作。</p>
-<h2 id="例子"> 例子</h2>
-<p>本节包含第三方备份示例的索引。在使用示例之前，您应该彻底查看示例并了解它的作用。</p>
+<div><span>1</span><br><span>2</span><br></div></div><p>另请参阅：<a href="./../Configuration/Using-the-MariaDB-Backend.html#创建数据库和用户">使用 MariaDB - 创建数据库和用户</a></p>
+<h2 id="我的客户端-桌面、移动、web-不工作-我无法登录或它抱怨证书无效"> 我的客户端(桌面、移动、Web)不工作，我无法登录或它抱怨证书无效</h2>
+<p>Bitwarden 客户端需要安全连接才能正常工作而不会出现任何问题。尽管有些客户端可以在没有安全连接的情况下工作，但我们不建议这样做。</p>
+<p>大多数情况下，当人们使用证书但仍有问题时，他们使用的是所谓的自签名证书。虽然这些可以提供安全连接，但某些平台不允许或不支持这一点。</p>
+<p>我们建议使用 Lets Encrypt 之类的服务来提供有效且大多数设备默认接受的证书。</p>
+<p>请参阅以下页面：</p>
 <ul>
-<li><a href="https://github.com/ttionya/vaultwarden-backup" target="_blank" rel="noopener noreferrer">https://github.com/ttionya/vaultwarden-backup</a></li>
-<li><a href="https://github.com/shivpatel/bitwarden_rs-local-backup" target="_blank" rel="noopener noreferrer">https://github.com/shivpatel/bitwarden_rs-local-backup</a></li>
-<li><a href="https://github.com/shivpatel/bitwarden_rs_dropbox_backup" target="_blank" rel="noopener noreferrer">https://github.com/shivpatel/bitwarden_rs_dropbox_backup</a></li>
-<li><a href="https://gitlab.com/1O/bitwarden_rs-backup" target="_blank" rel="noopener noreferrer">https://gitlab.com/1O/bitwarden_rs-backup</a></li>
-<li><a href="https://github.com/jjlin/vaultwarden-backup" target="_blank" rel="noopener noreferrer">https://github.com/jjlin/vaultwarden-backup</a></li>
-<li><a href="https://github.com/jmqm/vaultwarden_backup" target="_blank" rel="noopener noreferrer">https://github.com/jmqm/vaultwarden_backup</a></li>
+<li><a href="./../Deployment/Enabling-HTTPS.html">启用-HTTPS</a></li>
+<li><a href="./../Deployment/Running-a-private-vaultwarden-instance-with-Lets-Encrypt-certs.html">使用 Let's Encrypt 证书运行私有 vaultwarden 实例</a></li>
 </ul>
+<h2 id="为什么我看不到所有密码管理项目的图标"> 为什么我看不到所有密码管理项目的图标？</h2>
+<p>没有显示图标的原因有多种。 如果它只是用于一些密码管理项目，则可能是我们无法提取它。某些站点启用了一些保护，这会导致我们的实施失败。他们中的大多数需要 Javascript 才能工作。</p>
+<p>也可能是 Vaultwarden 服务器无法访问 Internet 或解析 DNS 查询。 您可以检查<code>/admin/diagnostics</code>页面，看看您是否可以解析 DNS 查询并连接到 Internet。 如果确实有效，则可能还有防火墙或传出 Internet 代理可能会阻止这些请求。</p>
+<h2 id="websocket-连接显示错误的-ip-地址"> Websocket 连接显示错误的 IP 地址</h2>
+<p>这不是我们可以解决的问题。我们使用的库不支持任何形式的<code>X-Forwarded-For</code>或<code>Forward</code>标头。</p>
+<p>除非您在没有任何代理的情况下直接运行 vaultwarden 或运行透明代理，否则它会始终显示所使用的反向代理的 IP，这可能会导致它显示正确的 IP。</p>
+<p>这不是记录的重要部分，如果您使用反向代理，您可能还会在其日志中看到此请求，该请求将具有正确的 IP。</p>
+<h2 id="我可以将-vaultwarden-作为-azure-webapp-运行吗"> 我可以将 Vaultwarden 作为 Azure WebApp 运行吗</h2>
+<p>不幸的是，Azure WebApp 使用 CIFS/Samba 作为不支持锁定的卷存储。这会导致 SQLite 数据库文件出现问题。 有两种方法可以解决这个问题。</p>
+<ol>
+<li>不要使用 SQLite，而是使用 MariaDB/MySQL 或 Posgresql 作为数据库后端。</li>
+<li>尝试使用 <code>ENABLE_DB_WAL</code> 环境变量禁用 WAL，方法是将其值设置为 <code>false</code>。这需要在一个新文件上完成，因此您需要删除之前创建的 <code>db.sqlite3</code> 文件并再次重新启动 Vaultwarden 应用程序。</li>
+</ol>
+<h2 id="我在常见问题解答中没有找到我的答案-下一步该怎么做"> 我在常见问题解答中没有找到我的答案，下一步该怎么做？</h2>
+<p>好吧，请尝试搜索并点击我们精彩的 <a href="https://github.com/dani-garcia/vaultwarden/wiki" target="_blank" rel="noopener noreferrer">Wiki</a>。 如果这对您没有帮助，请尝试查看 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse.group" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> .</p>
+<p>如果这也导致没有解决方案，您可以尝试搜索开放和封闭的 <a href="https://github.com/dani-garcia/vaultwarden/issues" target="_blank" rel="noopener noreferrer">问题</a>。</p>
+<p>如果您仍然没有找到答案，您可以在 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> 上开始一个主题.group/)，或加入我们的 <a href="https://matrix.to/#/#vaultwarden:matrix.org" target="_blank" rel="noopener noreferrer">聊天室</a>。</p>
 ]]></content>
     <author>
       <name>ChouCong</name>
@@ -11128,7 +11056,7 @@ export WEBSOCKET_ENABLED=true
     <title type="html">带有 Cloudflare DNS 的 Caddy 2.x</title>
     <id>/projects/vaultwarden/Other/Caddy-with-Cloudflare-DNS.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Other/Caddy-with-Cloudflare-DNS.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<h2 id="dockerfile-caddy-生成器"> Dockerfile(Caddy 生成器)</h2>
 <div><pre><code>FROM caddy:builder AS builder
@@ -11234,7 +11162,7 @@ volumes:
     <title type="html">与上游API实现的区别</title>
     <id>/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<h2 id="邀请用户加入组织"> 邀请用户加入组织</h2>
 <h3 id="启用-smtp"> 启用 SMTP</h3>
@@ -11257,10 +11185,104 @@ volumes:
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">备份你的密码库</title>
+    <id>/projects/vaultwarden/Other/Backing-up-your-vault.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Other/Backing-up-your-vault.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<h2 id="概述"> 概述</h2>
+<p>Vaultwarden 数据应定期备份，最好通过自动化流程(例如，cron 作业)进行备份。</p>
+<p>理想情况下，至少应远程存储一份副本(例如，云存储或另一台计算机)。</p>
+<p>避免依赖文件系统或 VM 快照作为备份方法，因为这些是更复杂的操作，可能会出现更多问题，并且在这种情况下恢复对于典型用户来说可能很困难或不可能。</p>
+<p>在您的备份上添加额外的加密层通常是个好主意(特别是如果您的备份还包括像 <a href="./../Configuration/Disable-admin-token.html">禁用admin token</a> 之类的配置数据)，但您可能会选择跳过此步骤，如果您'确信您的主密码(以及您的其他用户的密码，如果有)是强密码。</p>
+<h2 id="备份数据"> 备份数据</h2>
+<p>默认情况下，Vaultwarden 将其所有数据存储在名为<code>data</code>的目录下(与<code>vaultwarden</code>可执行文件位于同一目录中)。可以通过设置 <a href="./../Configuration/Changing-persistent-data-location.html#附件位置">DATA_FOLDER</a> 环境变量来更改此位置。如果您使用 SQLite 运行 Vaultwarden(这是最常见的设置)，那么 SQL 数据库只是数据文件夹中的一个文件。如果使用 MySQL 或 PostgreSQL 运行，则必须单独转储这些数据——这超出了本文的范围，但网络搜索会找到许多其他涵盖此主题的教程。</p>
+<p>当使用默认的 SQLite 后端运行时，Vaultwarden <code>data</code> 目录具有以下结构：</p>
+<div><pre><code>data
+├──attachments # 每个附件都作为一个单独的文件存储在这个目录下。
+│ └── &lt;uuid&gt; #(如果没有创建附件，附件目录将不存在。)
+│ └── &lt;random_id&gt;
+├── config.json # 存储管理页面配置；仅在之前已启用管理页面时才存在。
+├── db.sqlite3 # 主 SQLite 数据库文件。
+├── db.sqlite3-shm # SQLite 共享内存文件(不总是存在)。
+├── db.sqlite3-wal # SQLite 预写日志文件(不总是存在)。
+├── icon_cache # 站点图标(favicon)缓存在这个目录下。
+│ ├── &lt;域名&gt;.png
+│ ├── example.com.png
+│ ├── example.net.png
+│ └── example.org.png
+├── rsa_key.der # `rsa_key.*` 文件用于对认证令牌进行签名。
+├── rsa_key.pem
+├── rsa_key.pub.der
+└── sent # 每个发送附件都作为一个单独的文件存储在这个目录下。
+    └── &lt;uuid&gt; #(如果没有创建发送附件，则发送目录将不存在。)
+        └── &lt;random_id&gt;
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br></div></div><p>使用 MySQL 或 PostgreSQL 后端运行时，目录结构相同，只是没有 SQLite 文件。您仍然需要备份<code>data</code>目录中的文件，以及您的 MySQL 或 PostgreSQL 表的转储。</p>
+<p>接下来将更详细地讨论每组文件。</p>
+<h3 id="sqlite-数据库文件"> SQLite 数据库文件</h3>
+<p><em><strong>需要备份。</strong></em></p>
+<p>SQLite 数据库文件(<code>db.sqlite3</code>)存储几乎所有重要的密码管理数据/状态(数据库条目、用户/组织/设备元数据等)，主要的例外是附件，它们作为单独的文件存储在文件系统上.</p>
+<p>您通常应该在 SQLite CLI (<code>sqlite3</code>) 中使用 <code>.backup</code> 命令来备份数据库文件。此命令使用 <a href="https://www.sqlite.org/backup.html" target="_blank" rel="noopener noreferrer">Online Backup API</a>，其中 SQLite 记录为 <a href="https://www.sqlite.org/howtocorrupt.html#_backup_or_restore_while_a_transaction_is_active" target="_blank" rel="noopener noreferrer">最佳方式</a> 备份可能正在使用的数据库文件。如果您可以确保备份运行时数据库不会被使用，您还可以使用其他方法，例如 <code>.dump</code> 命令，或者简单地复制所有 SQLite 数据库文件(包括 <code>-wal</code> 文件，如果存在)。</p>
+<p>一个基本的备份命令看起来像这样，假设你的数据文件夹是 <code>data</code>(默认)：</p>
+<div><pre><code>sqlite3 data/db.sqlite3 &quot;.backup &#39;/path/to/backups/db-$(date &#39;+%Y%m%d-%H%M&#39;).sqlite3&#39;&quot;
+</code></pre>
+<div><span>1</span><br></div></div><p>您还可以使用<code>VACUUM INTO</code>，它会压缩空白空间，但需要更多的处理时间：</p>
+<div><pre><code>sqlite3 data/db.sqlite3 &quot;VACUUM INTO &#39;/path/to/backups/db-$(date &#39;+%Y%m%d-%H%M&#39;).sqlite3&#39;&quot;
+</code></pre>
+<div><span>1</span><br></div></div><p>假设此命令在 2021 年 1 月 1 日下午 12:34(当地时间)运行，这会将您的 SQLite 数据库文件备份到 <code>/path/to/backups/db-20210101-1234.sqlite3</code>。</p>
+<p>您可以定期通过 cron 作业运行此命令(最好至少每天一次)。如果您通过 Docker 运行，请注意 Docker 映像不包含 <code>sqlite3</code> 二进制文件或 <code>cron</code> 守护程序，因此您通常会将这些安装在 Docker 主机本身上并在容器外运行 cron 作业。</p>
+<p>如果你出于某种原因真的想从容器内运行备份，你可以在<a href="../Container/Starting-a-Container#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8">容器启动</a>期间安装任何必要的包，或者使用您首选的<code>vaultwarden/server:&lt;tag&gt;</code> 镜像作为父镜像创建您自己的自定义 Docker 镜像。</p>
+<p>如果您想将备份数据复制到云存储，<a href="https://rclone.org/" target="_blank" rel="noopener noreferrer">rclone</a> 是与各种云存储系统接口的有用工具。 <a href="https://restic.net/" target="_blank" rel="noopener noreferrer">restic</a> 是另一个不错的选择，尤其是当您有较大的附件并希望避免在每次备份时重新复制它们时。</p>
+<h3 id="attachments-目录"> <code>attachments</code> 目录</h3>
+<p><em><strong>需要备份。</strong></em></p>
+<p><a href="https://bitwarden.com/help/article/attachments/" target="_blank" rel="noopener noreferrer">文件附件</a> 是唯一没有存储在数据库表中的重要数据类，主要是因为它们可以是任意大的，而 SQL 数据库通常不是为了有效地处理大斑点。如果从未创建过文件附件，则该目录将不存在。</p>
+<h3 id="sends-目录"> <code>sends</code> 目录</h3>
+<p><em><strong>备份可选。</strong></em></p>
+<p>与常规文件附件一样，<a href="https://bitwarden.com/help/article/about-send/" target="_blank" rel="noopener noreferrer">发送</a> 文件附件不存储在数据库表中。 (但是，发送文本注释存储在数据库中。)</p>
+<p>与常规附件不同，发送附件旨在是短暂的。因此，如果您想最小化备份的大小，您可以选择不备份此目录。另一方面，如果在还原过程中维护现有发送的正确功能更重要，那么您应该备份此目录。</p>
+<p>如果从未创建过发送附件，则该目录将不存在。</p>
+<h3 id="config-json-文件"> <code>config.json</code> 文件</h3>
+<p><em><strong>推荐备份。</strong></em></p>
+<p>如果您使用管理页面来配置您的 vaultwarden 实例，并且没有以其他方式备份您的配置，那么您可能想要备份此文件，这样您就不必重新确定您的首选配置。</p>
+<p>请记住，此文件确实包含一些可能被视为敏感的纯文本数据(管理员令牌、SMTP 凭据等)，因此如果您担心其他人可能能够访问这些数据，请务必加密这些数据(例如，上传到云存储时)。</p>
+<h3 id="rsa-key-文件"> <code>rsa_key*</code> 文件</h3>
+<p><em><strong>推荐备份。</strong></em></p>
+<p>这些文件用于对当前登录用户的 JWT(身份验证令牌)进行签名。删除它们只会让每个用户注销，强制他们再次登录。</p>
+<h3 id="icon-cache-目录"> <code>icon_cache</code> 目录</h3>
+<p><em><strong>备份可选。</strong></em></p>
+<p>图标缓存存储了<a href="https://bitwarden.com/help/article/website-icons/" target="_blank" rel="noopener noreferrer">网站图标</a>，以便它们不需要从登录站点重复获取。除非您真的想避免重新获取大量图标缓存，否则它可能不值得备份。</p>
+<h2 id="恢复备份数据"> 恢复备份数据</h2>
+<p>确保 Vaultwarden 已停止，然后只需将 <code>data</code> 目录中的每个文件或目录替换为其备份版本。</p>
+<p>在恢复使用 <code>.backup</code> 或 <code>VACUUM INTO</code> 创建的备份时，请确保首先删除任何现有的 <code>db.sqlite3-wal</code> 文件，因为这可能会在 SQLite 尝试恢复 <code>db.sqlite3</code> 时导致数据库损坏使用陈旧/不匹配的 WAL 文件。</p>
+<p>但是，如果您使用<code>db.sqlite3</code>及其匹配的<code>db.sqlite3-wal</code>文件的直接副本备份数据库，则必须将这两个文件成对还原。您不需要备份或恢复 <code>db.sqlite3-shm</code> 文件。</p>
+<p>定期运行从备份恢复的过程是一个好主意，只是为了验证您的备份是否正常工作。执行此操作时，请确保移动或保留原始数据的副本，以防备份实际上无法正常工作。</p>
+<h2 id="例子"> 例子</h2>
+<p>本节包含第三方备份示例的索引。在使用示例之前，您应该彻底查看示例并了解它的作用。</p>
+<ul>
+<li><a href="https://github.com/ttionya/vaultwarden-backup" target="_blank" rel="noopener noreferrer">https://github.com/ttionya/vaultwarden-backup</a></li>
+<li><a href="https://github.com/shivpatel/bitwarden_rs-local-backup" target="_blank" rel="noopener noreferrer">https://github.com/shivpatel/bitwarden_rs-local-backup</a></li>
+<li><a href="https://github.com/shivpatel/bitwarden_rs_dropbox_backup" target="_blank" rel="noopener noreferrer">https://github.com/shivpatel/bitwarden_rs_dropbox_backup</a></li>
+<li><a href="https://gitlab.com/1O/bitwarden_rs-backup" target="_blank" rel="noopener noreferrer">https://gitlab.com/1O/bitwarden_rs-backup</a></li>
+<li><a href="https://github.com/jjlin/vaultwarden-backup" target="_blank" rel="noopener noreferrer">https://github.com/jjlin/vaultwarden-backup</a></li>
+<li><a href="https://github.com/jmqm/vaultwarden_backup" target="_blank" rel="noopener noreferrer">https://github.com/jmqm/vaultwarden_backup</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">从Keepass或KeepassX导入数据</title>
     <id>/projects/vaultwarden/Other/Importing-data-from-Keepass-or-KeepassX.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Other/Importing-data-from-Keepass-or-KeepassX.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<h2 id="介绍"> 介绍</h2>
 <p>Bitwarden 可以从大量<a href="https://help.bitwarden.com/article/import-data/" target="_blank" rel="noopener noreferrer">应用程序</a> 中导入您的数据。</p>
@@ -11315,7 +11337,7 @@ volumes:
     <title type="html">使私有 CA 和自签名证书兼容 Chrome</title>
     <id>/projects/vaultwarden/Other/Private-CA-and-self-signed-certs-that-work-with-Chrome.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Other/Private-CA-and-self-signed-certs-that-work-with-Chrome.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<div><p>警告</p>
 <p>此方法仅用于测试和开发。绝大多数用户不应使用此方法，因为它需要在您的每台设备上加载证书，这既容易出错又需要将来维护。相反，将精力集中在通过 <a href="https://letsencrypt.org/getting-started/" target="_blank" rel="noopener noreferrer">Let's Encrypt</a> 获取真实证书上。</p>
@@ -11372,7 +11394,7 @@ DNS.2 = www.bitwarden.local
     <title type="html">支持上游开发</title>
     <id>/projects/vaultwarden/Other/Supporting-upstream.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Other/Supporting-upstream.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2021-11-21T15:45:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
     <content type="html"><![CDATA[<p>Vaultwarden 仅提供 API(服务器)端实现，因此用户仍然依赖上游的客户端。 (移动应用程序、桌面应用程序和 Web Vault)这是 8bit Solutions LLC 在上游完成的大量工作。</p>
 <p>同时 Vaultwarden 支持一些付费功能并免费提供这些功能。这引发了一些<a href="https://github.com/dani-garcia/vaultwarden/issues/331" target="_blank" rel="noopener noreferrer">关于维持和支持上游的问题</a> 开发。许多用户提出了这个问题，并询问他们如何在使用 Vaultwarden 时支持上游。</p>
@@ -11443,25 +11465,63 @@ DNS.2 = www.bitwarden.local
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">从 LDAP 同步用户</title>
-    <id>/projects/vaultwarden/Configuration/Syncing-users-from-LDAP.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Configuration/Syncing-users-from-LDAP.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p>LDAP 集成是使用查询 LDAP 并邀请用户加入您的 Vaultwarden 实例的小型服务执行的。该服务毫无创意地命名为 <a href="https://github.com/ViViDboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">vaultwarden_ldap</a>。</p>
-<p>它尚未作为二进制文件分发，但有一个可用的 Docker 镜像 <a href="https://hub.docker.com/r/vividboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">vividboarder/vaultwarden_ldap</a>。</p>
-<p>在部署之前，您必须<a href="./Enabling-admin-page.html">启用管理页面</a>。这将启用 LDAP 同步服务将用于邀请用户的 API。您设置的<code>ADMIN_TOKEN</code>将在配置 LDAP 同步服务时使用。您还必须确保<strong>不</strong>禁用邀请功能。要验证这一点，请仔细检查环境变量<code>INVITATIONS_ALLOWED</code>是否未设置为<code>false</code>。</p>
-<p>还建议从您的 Vaultwarden 实例<a href="./SMTP-Configuration.html">SMTP配置</a>，以便通知您的用户可以创建帐户。如果您不这样做，如果他们使用他们的 LDAP 电子邮件地址，他们仍然可以注册，但您必须自己通知他们。</p>
-<p>完成这些步骤后，您可以配置和部署 LDAP 同步服务。可以在服务 <a href="https://github.com/ViViDboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">Readme</a> 本身上找到最新的说明，但它涉及创建带有连接信息的 <code>config.toml</code> 文件您的 Vaultwarden 实例、您的 LDAP 实例以及您想用来查找用户的 LDAP 查询。</p>
+    <title type="html">Feem</title>
+    <id>/tools/creat/feem.html</id>
+    <link href="https://codenoob.top/tools/creat/feem.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Feem-跨平台局域网传输软件]]></summary>
+    <content type="html"><![CDATA[<div><p>Feem</p>
+<p>Feem是一款跨平台的局域网传输工具</p>
+</div>
+<h2 id="它的优点是"> 它的优点是</h2>
+<ul>
+<li>轻量级</li>
+<li>支持平台丰富</li>
+<li>传输文件像聊天</li>
+<li>支持在线和离线两种方式</li>
+</ul>
+<h2 id="feem支持的平台"> Feem支持的平台</h2>
+<ul>
+<li>Android</li>
+<li>iOS</li>
+<li>Windows</li>
+<li>Windows Phone</li>
+<li>macOS Linux</li>
+</ul>
+<h2 id="其他"> 其他</h2>
+<p>Feem传输文件有点像聊天软件 就是加入群组随意发送 反正好用就对了</p>
+<p>使用截图</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/222016-297118.png" alt="feem" /></p>
+<h2 id="类似的软件"> 类似的软件</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://send-anywhere.com/" target="_blank" rel="noopener noreferrer">Send Anywhere</a></th>
+<th style="text-align:center"><a href="https://dukto-r4.updatestar.com/" target="_blank" rel="noopener noreferrer">Dukto R6</a></th>
+<th style="text-align:center"><a href="http://web.airmore.cn/" target="_blank" rel="noopener noreferrer">爱莫助手</a></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+<h2 id="下载链接"> 下载链接</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://www.feem.io/" target="_blank" rel="noopener noreferrer">官方网站</a></th>
+<th style="text-align:center"><a href="https://img.lookroot.cn/tool/feem.apk" target="_blank" rel="noopener noreferrer">本地下载</a></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
 ]]></content>
     <author>
       <name>ChouCong</name>
     </author>
-    <category term="项目"/>
+    <category term="工具"/>
     <contributor>
       <name>ChouCong</name>
     </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
+    <published>2020-09-07T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -11528,6 +11588,31 @@ DNS.2 = www.bitwarden.local
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">utools</title>
+    <id>/tools/creat/utools.html</id>
+    <link href="https://codenoob.top/tools/creat/utools.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[utools—真效率大师]]></summary>
+    <content type="html"><![CDATA[<div><p>utools</p>
+<p>uTools是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。</p>
+<p>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。</p>
+</div>
+<p>这个软件不用多说，下载来试一试就知道了，真*效率大师，有了它以后，我的桌面就几个图标了，平时用来搜索本地应用、本地文件、系统设置很方便</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/000823-556005.png" alt="image-20200807000822656" /></p>
+<p>最主要的还支持自定义插件，观看开发文档，剪贴板历史，在线翻译...更多请自行了解</p>
+<p><a href="http://www.u.tools/" target="_blank" rel="noopener noreferrer">官网地址</a></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-09-16T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">snipaste</title>
     <id>/tools/creat/snipaste.html</id>
     <link href="https://codenoob.top/tools/creat/snipaste.html"/>
@@ -11569,65 +11654,6 @@ DNS.2 = www.bitwarden.local
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">utools</title>
-    <id>/tools/creat/utools.html</id>
-    <link href="https://codenoob.top/tools/creat/utools.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[utools—真效率大师]]></summary>
-    <content type="html"><![CDATA[<div><p>utools</p>
-<p>uTools是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。</p>
-<p>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。</p>
-</div>
-<p>这个软件不用多说，下载来试一试就知道了，真*效率大师，有了它以后，我的桌面就几个图标了，平时用来搜索本地应用、本地文件、系统设置很方便</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/000823-556005.png" alt="image-20200807000822656" /></p>
-<p>最主要的还支持自定义插件，观看开发文档，剪贴板历史，在线翻译...更多请自行了解</p>
-<p><a href="http://www.u.tools/" target="_blank" rel="noopener noreferrer">官网地址</a></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-09-16T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">创作工具</title>
-    <id>/tools/creat/</id>
-    <link href="https://codenoob.top/tools/creat/"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
-<ul>
-<li>
-<p><a href="./feem.html">Feem</a></p>
-</li>
-<li>
-<p><a href="./mobaxterm.html">MobaXterm</a></p>
-</li>
-<li>
-<p><a href="./screentogif.html">screentogif</a></p>
-</li>
-<li>
-<p><a href="./snipaste.html">snipaste</a></p>
-</li>
-<li>
-<p><a href="./utools.html">utools</a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-09-10T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">PHP实现随机图片展示</title>
     <id>/tools/php-random-picture.html</id>
     <link href="https://codenoob.top/tools/php-random-picture.html"/>
@@ -11650,6 +11676,40 @@ DNS.2 = www.bitwarden.local
       <name>ChouCong</name>
     </contributor>
     <published>2020-09-28T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">工具推荐</title>
+    <id>/tools/</id>
+    <link href="https://codenoob.top/tools/"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
+<ul>
+<li>
+<p><a href="./creat/">创作工具</a></p>
+</li>
+<li>
+<p><a href="./Tampermonkey-refreshes-lesson.html">油猴脚本自动刷课</a></p>
+</li>
+<li>
+<p><a href="./TyporaImg-Tool.html">Typora直传图片文件方案</a></p>
+</li>
+<li>
+<p><a href="./Theia.html">Eclipse Theia初体验</a></p>
+</li>
+<li>
+<p><a href="./vuedev-tool.html">Vue Devtools的安装</a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-09-09T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -11747,40 +11807,6 @@ DNS.2 = www.bitwarden.local
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">工具推荐</title>
-    <id>/tools/</id>
-    <link href="https://codenoob.top/tools/"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
-<ul>
-<li>
-<p><a href="./creat/">创作工具</a></p>
-</li>
-<li>
-<p><a href="./Tampermonkey-refreshes-lesson.html">油猴脚本自动刷课</a></p>
-</li>
-<li>
-<p><a href="./TyporaImg-Tool.html">Typora直传图片文件方案</a></p>
-</li>
-<li>
-<p><a href="./Theia.html">Eclipse Theia初体验</a></p>
-</li>
-<li>
-<p><a href="./vuedev-tool.html">Vue Devtools的安装</a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-09-09T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">Eclipse Theia初体验</title>
     <id>/tools/theia.html</id>
     <link href="https://codenoob.top/tools/theia.html"/>
@@ -11815,6 +11841,38 @@ docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cac
       <name>ChouCong</name>
     </contributor>
     <published>2021-01-11T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">Vue Devtools的安装</title>
+    <id>/tools/vuedev-tool.html</id>
+    <link href="https://codenoob.top/tools/vuedev-tool.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Vue Devtools的安装]]></summary>
+    <content type="html"><![CDATA[<div><p>提示</p>
+<p>开发vue的必备浏览器调试插件</p>
+</div>
+<p>这个插件在chrome浏览器中用来调试vuejs程序的工具，可以说是必备的插件</p>
+<p>这一节就是安装教程</p>
+<p>下载插件地址<a href="https://pictureknow.com/extension?id=d50143a5f53d406dbe992277bfc90521l" target="_blank" rel="noopener noreferrer">立即直达</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105753-654628.png" alt="#" /></p>
+<p>下载完成后打开chrome浏览器的拓展中心</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163432-658058.png" alt="#" /></p>
+<p>然后开启开发者模式</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105837-598467.png" alt="#" /></p>
+<p>然后把刚刚下载的插件直接拖动到这个页面，点击添加，就完成了安装</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163229-454061.png" alt="#" /></p>
+<p>安装完成后右上角会有这个标志，这就安装完成</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163652-691443.png" alt="#" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-10-19T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -11908,38 +11966,6 @@ echo $str . "\n";
       <name>ChouCong</name>
     </contributor>
     <published>2020-12-28T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">Vue Devtools的安装</title>
-    <id>/tools/vuedev-tool.html</id>
-    <link href="https://codenoob.top/tools/vuedev-tool.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Vue Devtools的安装]]></summary>
-    <content type="html"><![CDATA[<div><p>提示</p>
-<p>开发vue的必备浏览器调试插件</p>
-</div>
-<p>这个插件在chrome浏览器中用来调试vuejs程序的工具，可以说是必备的插件</p>
-<p>这一节就是安装教程</p>
-<p>下载插件地址<a href="https://pictureknow.com/extension?id=d50143a5f53d406dbe992277bfc90521l" target="_blank" rel="noopener noreferrer">立即直达</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105753-654628.png" alt="#" /></p>
-<p>下载完成后打开chrome浏览器的拓展中心</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163432-658058.png" alt="#" /></p>
-<p>然后开启开发者模式</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105837-598467.png" alt="#" /></p>
-<p>然后把刚刚下载的插件直接拖动到这个页面，点击添加，就完成了安装</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163229-454061.png" alt="#" /></p>
-<p>安装完成后右上角会有这个标志，这就安装完成</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163652-691443.png" alt="#" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-10-19T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -13369,6 +13395,43 @@ module.exports = config({
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">webpack教程</title>
+    <id>/tutorials/webpack.html</id>
+    <link href="https://codenoob.top/tutorials/webpack.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[webpack教程]]></summary>
+    <content type="html"><![CDATA[<ul>
+<li>源码仓库<a href="https://github.com/lookroot/vuestu" target="_blank" rel="noopener noreferrer">github</a>欢迎star</li>
+<li>视频地址<a href="https://www.bilibili.com/video/bv1oK411p7SJ" target="_blank" rel="noopener noreferrer">哔哩哔哩</a></li>
+</ul>
+<blockquote>
+<p>我会将所有的读者概括为初学者，即使你可能有基础，学习本节之前我希望你具有一定的JavaScript和node基础</p>
+</blockquote>
+<ul>
+<li>文中的 ... ...代表省略掉部分代码，和上面的代码相同</li>
+<li>文中的文件夹如果没有说创建，并且项目默认没有的是需要你手动增加的</li>
+<li>不会特别细致，但是足够入门</li>
+</ul>
+<h2 id="什么是webpack"> 什么是webpack</h2>
+<blockquote>
+<p>Web浏览器使用HTML，CSS和JavaScript。随着项目的发展，跟踪和配置所有这些文件变得非常复杂,解决这个问题就需要一个新的工具</p>
+</blockquote>
+<p>类似webpack的工具还有Grunt和Gulp，webpack是模块管理工具，把你的项目按照你的想法进行划分模块打包，举个最简单的例子，这个页面需要加载一个 a.js和b.js，但是你只想加载一个js文件，就可以使用webpack将两个文件进行合并，当然webpack的功能不止于此，代码转化、项目优化、代码分割、代码预编译、自动构建、自动刷新...</p>
+<p>再比如你想你的代码兼容其他老的浏览器，你的css代码兼容不同的浏览器内核，或者你想自动精简掉你写了但是没有用到的代码，这些都可以使用webpack实现</p>
+<p>如果你是vue或者react等框架的使用者，肯定使用过 vue-cli 或 react-create-app 这类脚手架工具，那么实现这个效果，就要学习webpack</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" alt="#" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="教程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-06-23T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">前端分阶段学习路线</title>
     <id>/tutorials/webstudy.html</id>
     <link href="https://codenoob.top/tutorials/webstudy.html"/>
@@ -13954,103 +14017,6 @@ module.exports = config({
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">webpack教程</title>
-    <id>/tutorials/webpack.html</id>
-    <link href="https://codenoob.top/tutorials/webpack.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[webpack教程]]></summary>
-    <content type="html"><![CDATA[<ul>
-<li>源码仓库<a href="https://github.com/lookroot/vuestu" target="_blank" rel="noopener noreferrer">github</a>欢迎star</li>
-<li>视频地址<a href="https://www.bilibili.com/video/bv1oK411p7SJ" target="_blank" rel="noopener noreferrer">哔哩哔哩</a></li>
-</ul>
-<blockquote>
-<p>我会将所有的读者概括为初学者，即使你可能有基础，学习本节之前我希望你具有一定的JavaScript和node基础</p>
-</blockquote>
-<ul>
-<li>文中的 ... ...代表省略掉部分代码，和上面的代码相同</li>
-<li>文中的文件夹如果没有说创建，并且项目默认没有的是需要你手动增加的</li>
-<li>不会特别细致，但是足够入门</li>
-</ul>
-<h2 id="什么是webpack"> 什么是webpack</h2>
-<blockquote>
-<p>Web浏览器使用HTML，CSS和JavaScript。随着项目的发展，跟踪和配置所有这些文件变得非常复杂,解决这个问题就需要一个新的工具</p>
-</blockquote>
-<p>类似webpack的工具还有Grunt和Gulp，webpack是模块管理工具，把你的项目按照你的想法进行划分模块打包，举个最简单的例子，这个页面需要加载一个 a.js和b.js，但是你只想加载一个js文件，就可以使用webpack将两个文件进行合并，当然webpack的功能不止于此，代码转化、项目优化、代码分割、代码预编译、自动构建、自动刷新...</p>
-<p>再比如你想你的代码兼容其他老的浏览器，你的css代码兼容不同的浏览器内核，或者你想自动精简掉你写了但是没有用到的代码，这些都可以使用webpack实现</p>
-<p>如果你是vue或者react等框架的使用者，肯定使用过 vue-cli 或 react-create-app 这类脚手架工具，那么实现这个效果，就要学习webpack</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" alt="#" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="教程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-06-23T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">Feem</title>
-    <id>/tools/creat/feem.html</id>
-    <link href="https://codenoob.top/tools/creat/feem.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Feem-跨平台局域网传输软件]]></summary>
-    <content type="html"><![CDATA[<div><p>Feem</p>
-<p>Feem是一款跨平台的局域网传输工具</p>
-</div>
-<h2 id="它的优点是"> 它的优点是</h2>
-<ul>
-<li>轻量级</li>
-<li>支持平台丰富</li>
-<li>传输文件像聊天</li>
-<li>支持在线和离线两种方式</li>
-</ul>
-<h2 id="feem支持的平台"> Feem支持的平台</h2>
-<ul>
-<li>Android</li>
-<li>iOS</li>
-<li>Windows</li>
-<li>Windows Phone</li>
-<li>macOS Linux</li>
-</ul>
-<h2 id="其他"> 其他</h2>
-<p>Feem传输文件有点像聊天软件 就是加入群组随意发送 反正好用就对了</p>
-<p>使用截图</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/222016-297118.png" alt="feem" /></p>
-<h2 id="类似的软件"> 类似的软件</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center"><a href="https://send-anywhere.com/" target="_blank" rel="noopener noreferrer">Send Anywhere</a></th>
-<th style="text-align:center"><a href="https://dukto-r4.updatestar.com/" target="_blank" rel="noopener noreferrer">Dukto R6</a></th>
-<th style="text-align:center"><a href="http://web.airmore.cn/" target="_blank" rel="noopener noreferrer">爱莫助手</a></th>
-</tr>
-</thead>
-<tbody></tbody>
-</table>
-<h2 id="下载链接"> 下载链接</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center"><a href="https://www.feem.io/" target="_blank" rel="noopener noreferrer">官方网站</a></th>
-<th style="text-align:center"><a href="https://img.lookroot.cn/tool/feem.apk" target="_blank" rel="noopener noreferrer">本地下载</a></th>
-</tr>
-</thead>
-<tbody></tbody>
-</table>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-09-07T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">MobaXterm</title>
     <id>/tools/creat/mobaxterm.html</id>
     <link href="https://codenoob.top/tools/creat/mobaxterm.html"/>
@@ -14073,6 +14039,40 @@ module.exports = config({
       <name>ChouCong</name>
     </contributor>
     <published>2020-09-07T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">创作工具</title>
+    <id>/tools/creat/</id>
+    <link href="https://codenoob.top/tools/creat/"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
+<ul>
+<li>
+<p><a href="./feem.html">Feem</a></p>
+</li>
+<li>
+<p><a href="./mobaxterm.html">MobaXterm</a></p>
+</li>
+<li>
+<p><a href="./screentogif.html">screentogif</a></p>
+</li>
+<li>
+<p><a href="./snipaste.html">snipaste</a></p>
+</li>
+<li>
+<p><a href="./utools.html">utools</a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-09-10T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
 </feed>
