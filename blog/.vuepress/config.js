@@ -160,6 +160,8 @@ module.exports = config({
     pwa: {
       favicon: "/favicon.ico",
       cacheHTML: false,
+      maxSize: 3000,
+      maxPicSize: 2000,
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
         statusBarColor: "black",
