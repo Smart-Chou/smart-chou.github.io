@@ -5,6 +5,7 @@ icon: home
 heroImage: /assets/img/AvatarMaker-wbj.svg
 heroText: CodeNoobs
 heroFullScreen: true
+bgImage: /assets/img/colorfull.jpg
 tagline: 编程菜鸟的自我修养
 
 project:

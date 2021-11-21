@@ -12,16 +12,16 @@ module.exports = config({
     ["meta", { name: "baidu-site-verification", content: "code-E87rwPtGLL" }], //百度验证
     ["meta", { name: "msvalidate.01", content: "B9A0C43AD3B1BD529335A2616F235E46" }], //Bing验证
     [
-      "script",{ src: "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" },
+      "script",{ src: "/assets/js/react.production.min.js" },
     ],
     [
-      "script",{ src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" },
+      "script",{ src: "/assets/js/react-dom.production.min.js" },
     ],
     [
-      "script", { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }
+      "script", { src: "/assets/js/vue.min.js" }
     ],
     [
-      "script",{ src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
+      "script",{ src: "/assets/js/babel.min.js" },
     ],
     [
       "script",{},
@@ -59,7 +59,7 @@ module.exports = config({
   permalink: "/:regular",
 
   themeConfig: {
-    logo: "/assets/img/AvatarMaker - y-p400.png",
+    logo: "/assets/img/AvatarMaker - y-p120.png",
     author: "ChouCong",
     description: "编程菜鸟的自我修养",
     

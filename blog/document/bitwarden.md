@@ -61,6 +61,8 @@ password:
 
 `Bitwarden` 官方 `docker` 要求服务器内存在 `2G` 以上，但有大佬使用 `Rust` 进行重写，项目名为 [vaultwarden](https://github.com/dani-garcia/vaultwarden)，降低了配置要求。
 
+最近把原作者的项目Wiki，由英文翻译到中文，详细内容可以看[Vaultwarden Wiki 中文版](/project/vaultwarden/)
+
 ## 部署
 
 这里通过 `宝塔面板`和 `Docker` 共同完成。

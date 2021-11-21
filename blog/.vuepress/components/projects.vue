@@ -19,7 +19,7 @@ export default {
   data() {
     return {
       listsData,
-      numOfRow: 6,
+      numOfRow: 7,
     };
   },
 };

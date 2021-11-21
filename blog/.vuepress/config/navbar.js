@@ -13,7 +13,7 @@ module.exports =
       items: [
         { text: "分类", icon: "notebook", link: "/category/" },
         { text: "标签", icon: "biaoqian1", link: "/tag/" },
-        { text: "项目", icon: "project-o", link: "/project-own.md" },
+        { text: "项目", icon: "project-o", link: "/projects/" },
       ],
     },
     { text: "朋友们", icon: "pengyouquan3",
