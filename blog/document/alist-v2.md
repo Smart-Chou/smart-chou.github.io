@@ -25,7 +25,7 @@ AList是一款支持多种存储的目录文件列表程序，后端基于`go-fi
 
 ![alist预览图片](https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/68747470733a2f2f73746f72652e686579746170696d6167652e636f6d2f63646f2d706f7274616c2f666565646261636b2f3230323131312f30332f36393565663737383534613134346539323835313865666465333864623937612e706e67)
 
-## 部署
+## 手动部署
 
 ### 快速开始
 
@@ -61,11 +61,47 @@ WantedBy=multi-user.target
 - 自启: `systemctl enable alist`
 - 状态: `systemctl status alist`
 
-### 反向代理
+## 使用Docker
+
+- 开发版：`docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 --name="alist" xhofe/alist:v2`
+- 稳定版：`docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 --name="alist" xhofe/alist:latest`
+- 指定版本：具体见 <https://hub.docker.com/r/xhofe/alist>
+
+## 从源码运行
+
+首先需要有`nodejs`、`yarn`、`golang>1.17`的环境
+
+### 构建前端
+
+clone <https://github.com/Xhofe/alist-web> 这个项目，执行`yarn&& yarn build`，得到dist目录下的目标文件。
+
+### 构建后端
+
+将上一步dist目录下的文件全部拷贝至 <https://github.com/Xhofe/alist> 项目下的public目录，然后：
+
+```go
+appName="alist"
+builtAt="$(date +'%F %T %z')"
+goVersion=$(go version | sed 's/go version //')
+gitAuthor=$(git show -s --format='format:%aN <%ae>' HEAD)
+gitCommit=$(git log --pretty=format:"%h" -1)
+gitTag=$(git describe --long --tags --dirty --always)
+ldflags="\
+-w -s \
+-X 'github.com/Xhofe/alist/conf.BuiltAt=$builtAt' \
+-X 'github.com/Xhofe/alist/conf.GoVersion=$goVersion' \
+-X 'github.com/Xhofe/alist/conf.GitAuthor=$gitAuthor' \
+-X 'github.com/Xhofe/alist/conf.GitCommit=$gitCommit' \
+-X 'github.com/Xhofe/alist/conf.GitTag=$gitTag' \
+"
+go build -ldflags="$ldflags" alist.go
+```
+
+## 反向代理
 
 程序默认监听5244端口，要实现https访问，需要使用nginx反向代理，在配置文件中加入
 
-```
+```nginx
   location / {
       proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
       proxy_set_header Host $http_host;
@@ -77,9 +113,11 @@ WantedBy=multi-user.target
 
 ## 使用
 
-### 添加账号
+**后台默认密码为`alist`**
 
-#### 所有账号的必填项
+## 添加账号
+
+### 所有账号的必填项
 
 - `name`（名称）：唯一标识符，也是当有多个账号时展示的路径
 - `index`（索引）：当有多个账号时，用于排序，越小越靠前
@@ -91,14 +129,14 @@ WantedBy=multi-user.target
 
 ### 阿里云盘
 
-- `refresh_token`（刷新令盘）：如何获取[参见](https://media.cooluc.com/decode_token/)
+- `refresh_token`（刷新令盘）：如何获取参见<https://media.cooluc.com/decode_token/>
 - 根目录`file_id`：打开阿里云盘官网，点进去你要设置的文件夹时url后面的一串，如`https://www.aliyundrive.com/drive/folder/5fe01e1830601baf774e4827a9fb8fb2b5bf7940`就是`5fe01e1830601baf774e4827a9fb8fb2b5bf7940`
 - `order_by`（排序）：可选值为`name`，`size`，`updated_at`，`created_at`
 - `order_direction`（排序方向）：可选`ASC`（正序），`DESC`（倒序）
 
 ### Onedrive
 
-[打开](https://tool.nn.ci/onedrive/request)
+打开:<https://tool.nn.ci/onedrive/request>
 
 #### 创建应用
 
@@ -118,6 +156,28 @@ WantedBy=multi-user.target
 
 将上述过程中获取得到的值**依次填入**即可。
 
+### 天翼云盘
+
+填写账号（手机号），密码即可。可能会触发验证码，可等一段时间再重试。
+
+根目录ID：与阿里云盘类似，官网url最后面一串，如：
+
+- `https://cloud.189.cn/web/main/file/folder/-11` -> `-11`
+- `https://cloud.189.cn/web/main/file/folder/71398114617385472` -> `71398114617385472`
+
+### GoogleDrive（支持团队盘）
+
+参照 <https://install.kenci.workers.dev/> 获取`client_id`,`client_secret`,`refresh_token`；或：
+
+1. Open [Google Drive API](https://console.developers.google.com/apis/api/drive.googleapis.com/overview)
+2. Create a [OAuth client ID](https://console.developers.google.com/apis/credentials/oauthclient)
+3. Install rclone software locally
+4. Get refresh_token with rclone
+
+### 123Pan
+
+填写账号密码即可。
+
 ## 元信息（meta）设置
 
 此处的`path`（路径）是访问`alist`页面时的`pathname`，如要设置`https://alist.nn.ci/本地存储`则路径是`/本地存储`
@@ -132,7 +192,19 @@ WantedBy=multi-user.target
 
 ## 常见问题
 
+- 向前不兼容版本记录
+  - **v2.0.0-beta5**
+- 阿里云盘视频无法播放，下载显示`InvalidArgument`？
+  - 由于referrer的限制，必须使用移动端token
 - 视频播放不了？
-  - 如果是阿里云先自查一下是否使用的是移动端的`token`。然后检查一下是不是编码不支持，`h5`不支持`h265`编码视频，`ac3/acc`编码音频，`Safari`不支持的更多，建议使用软件播放。
+  - 检查一下是不是编码不支持，`h5`不支持`h265`编码视频，`ac3/acc`编码音频，`Safari`不支持的更多，建议使用软件播放。
 - 获取中转链接？
   - 允许中转之后，复制对应文件直链，将`/d`改成`/p`即可。
+- 前端文件在哪里？
+  - 为方便安装，前端文件与程序打包在一起了，如需修改，请按照从源码运行自行修改编译或填写自定义样式/脚本字段。
+- 密码忘了怎么半？
+  - 命令行 `./alist-xxxx -password`查看。
+- 自定义样式/脚本不生效？
+  - 是否前后端分开了？自定义部分为后端处理，只有在不分开时才起作用。
+- 上传的文件不显示/删除的文件还在？
+  - 程序缓存一小时自动失效，后台右上角可手动清除缓存。
