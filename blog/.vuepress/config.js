@@ -6,9 +6,9 @@ const locale = {
   nickError: '昵称不能少于3个字符',
   mail: '邮箱',
   mailError: '请填写正确的邮件地址',
-  link: '网址',
+  link: '博客',
   placeholder: '随便说点什么喵～o(=•ェ•=)m \n没有登录也是完全没问题的哦～',
-  sofa: '来发评论吧~',
+  sofa: '快来发评论吧~',
   submit: '提交',
   reply: '回复',
   cancelReply: '取消回复',
@@ -165,14 +165,17 @@ module.exports = config({
            
     mdEnhance: {
       enableAll: false,
-      align: true,
-      demo: true,
-      flowchart: true,
-      footnote: true,
-      presentation: true,
-      sub: true,
-      sup: true,
-      tex: true,
+      align: true, //自定义对齐
+      demo: false, //代码演示
+      flowchart: false, //流程图
+      mermaid: false, //mermaid
+      footnote: true, //脚注
+      mark: true, //标记
+      tasklist: true, //任务列表
+      presentation: false,  //ppt
+      sub: true, //上角标
+      sup: true, //下角标
+      tex: true, //数学公式
     },
     
     footer: {
