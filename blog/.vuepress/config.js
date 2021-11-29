@@ -112,7 +112,7 @@ module.exports = config({
 
     blog: {
       avatar: "/assets/img/AvatarMaker.svg",
-      intro: "/author/",
+      intro: "/author.html",
       sidebarDisplay: "mobile",
       description: "编程菜鸟的自我修养",
       perPage: 8,
@@ -137,7 +137,6 @@ module.exports = config({
           'https://cdn.jsdelivr.net/gh/walinejs/emojis/tieba',
           'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo',
           'https://cdn.jsdelivr.net/gh/walinejs/emojis/qq',
-          'https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-emoji',
           'https://cdn.jsdelivr.net/gh/walinejs/emojis/alus',
           'https://cdn.jsdelivr.net/gh/walinejs/emojis/bilibili',
             ],
