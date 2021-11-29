@@ -6,7 +6,7 @@
   <author>
     <name>ChouCong</name>
   </author>
-  <updated>2021-11-29T09:46:03.820Z</updated>
+  <updated>2021-11-29T10:10:09.522Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://codenoob.top/atom.xml"/>
   <link rel="alternate" href="https://codenoob.top/"/>
@@ -64,163 +64,6 @@
       <name>ChouCong</name>
     </contributor>
     <published>2021-11-18T06:47:23.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">Markdown高级技巧</title>
-    <id>/basic/markdown-enhance.html</id>
-    <link href="https://codenoob.top/basic/markdown-enhance.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Markdown高级技巧]]></summary>
-    <content type="html"><![CDATA[<h2 id="支持的-html-元素"> 支持的 HTML 元素</h2>
-<p>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
-<p>目前支持的 HTML 元素有：<code>&lt;kbd&gt;</code>、 <code>&lt;b&gt;</code>、 <code>&lt;i&gt;</code>、 <code>&lt;em&gt;</code>、 <code>&lt;sup&gt;</code>、 <code>&lt;sub&gt;</code>、 <code>&lt;br&gt;</code>等 ，如：</p>
-<blockquote>
-<p>使用 <code>&lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt;</code> 重启电脑</p>
-</blockquote>
-<p>输出结果为：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/Snipaste_2021-10-06_12-33-31.png" alt="键盘" /></p>
-<h2 id="公式"> 公式</h2>
-<p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：</p>
-<div><pre><code>$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
-\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
-\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
-\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\
-\end{vmatrix}
-${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
-$$
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>输出结果为：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/Snipaste_2021-10-06_12-47-07.png" alt="公式" /></p>
-<h2 id="typora-画流程图、时序图-顺序图-、甘特图"> typora 画流程图、时序图(顺序图)、甘特图</h2>
-<p>复制以下代码使用 typora 的源码模式粘贴到编辑器中查看效果：</p>
-<p>以下几个实例效果图如下：</p>
-<h3 id="横向流程图源码格式"> 横向流程图源码格式</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-54-22.png" alt="横向流程图" /></p>
-<div><pre><code>```mermaid
-graph LR
-A[方形] --&gt;B(圆角)
-    B --&gt; C{条件a}
-    C --&gt;|a=1| D[结果1]
-    C --&gt;|a=2| E[结果2]
-    F[横向流程图]
-```
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h3 id="竖向流程图源码格式"> 竖向流程图源码格式</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-54-50.png" alt="竖向流程图" /></p>
-<div><pre><code>```mermaid
-graph TD
-A[方形] --&gt; B(圆角)
-    B --&gt; C{条件a}
-    C --&gt; |a=1| D[结果1]
-    C --&gt; |a=2| E[结果2]
-    F[竖向流程图]
-```
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h3 id="标准流程图源码格式"> 标准流程图源码格式</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-54-58.png" alt="标准流程图" /></p>
-<div><pre><code>```flow
-st=&gt;start: 开始框
-op=&gt;operation: 处理框
-cond=&gt;condition: 判断框(是或否?)
-sub1=&gt;subroutine: 子流程
-io=&gt;inputoutput: 输入输出框
-e=&gt;end: 结束框
-st-&gt;op-&gt;cond
-cond(yes)-&gt;io-&gt;e
-cond(no)-&gt;sub1(right)-&gt;op
-```
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h3 id="标准流程图源码格式-横向"> 标准流程图源码格式（横向）</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-55-05.png" alt="标准流程图-横向" /></p>
-<div><pre><code>```flow
-st=&gt;start: 开始框
-op=&gt;operation: 处理框
-cond=&gt;condition: 判断框(是或否?)
-sub1=&gt;subroutine: 子流程
-io=&gt;inputoutput: 输入输出框
-e=&gt;end: 结束框
-st(right)-&gt;op(right)-&gt;cond
-cond(yes)-&gt;io(bottom)-&gt;e
-cond(no)-&gt;sub1(right)-&gt;op
-```
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h3 id="uml标准时序图样例"> UML标准时序图样例</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-55-31.png" alt="UML标准时序图" /></p>
-<div><pre><code>```sequence
-Title: 标题：复杂使用
-对象A-&gt;对象B: 对象B你好吗?（请求）
-Note right of 对象B: 对象B的描述
-Note left of 对象A: 对象A的描述(提示)
-对象B--&gt;对象A: 我很好(响应)
-对象B-&gt;小三: 你好吗
-小三--&gt;&gt;对象A: 对象B找我了
-对象A-&gt;对象B: 你真的好吗？
-Note over 小三,对象B: 我们是朋友
-participant C
-Note right of C: 没人陪我玩
-```
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="uml时序图源码样例"> UML时序图源码样例</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-55-14.png" alt="UML时序图" /></p>
-<div><pre><code>```sequence
-对象A-&gt;对象B: 对象B你好吗?（请求）
-Note right of 对象B: 对象B的描述
-Note left of 对象A: 对象A的描述(提示)
-对象B--&gt;对象A: 我很好(响应)
-对象A-&gt;对象B: 你真的好吗？
-```
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h3 id="uml时序图源码复杂样例"> UML时序图源码复杂样例</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-55-21.png" alt="UML时序图源码-复杂" /></p>
-<div><pre><code>```sequence
-Title: 标题：复杂使用
-对象A-&gt;对象B: 对象B你好吗?（请求）
-Note right of 对象B: 对象B的描述
-Note left of 对象A: 对象A的描述(提示)
-对象B--&gt;对象A: 我很好(响应)
-对象B-&gt;小三: 你好吗
-小三--&gt;&gt;对象A: 对象B找我了
-对象A-&gt;对象B: 你真的好吗？
-Note over 小三,对象B: 我们是朋友
-participant C
-Note right of C: 没人陪我玩
-```
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="甘特图样例"> 甘特图样例</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/Snipaste_2021-10-06_13-00-16.png" alt="甘特图" /></p>
-<div><pre><code>```mermaid
-%% 语法示例
-        gantt
-        dateFormat  YYYY-MM-DD
-        title 软件开发甘特图
-        section 设计
-        需求                      :done,    des1, 2014-01-06,2014-01-08
-        原型                      :active,  des2, 2014-01-09, 3d
-        UI设计                     :         des3, after des2, 5d
-    未来任务                     :         des4, after des3, 5d
-        section 开发
-        学习准备理解需求                      :crit, done, 2014-01-06,24h
-        设计框架                             :crit, done, after des2, 2d
-        开发                                 :crit, active, 3d
-        未来任务                              :crit, 5d
-        耍                                   :2d
-        section 测试
-        功能测试                              :active, a1, after des3, 3d
-        压力测试                               :after a1  , 20h
-        测试报告                               : 48h
-```
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br></div></div>]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="Start"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-06-26T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -804,6 +647,163 @@ Example: <code>:smile:</code> 😄 </br>
 <h2 id="markdown增强"> Markdown增强</h2>
 <p>关于<strong>MarkDown</strong>还有一些高级技巧，快来看呀 😄 <a href="/basic/markdown-enhance.html">点这里</a></p>
 ]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="Start"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-06-26T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">Markdown高级技巧</title>
+    <id>/basic/markdown-enhance.html</id>
+    <link href="https://codenoob.top/basic/markdown-enhance.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Markdown高级技巧]]></summary>
+    <content type="html"><![CDATA[<h2 id="支持的-html-元素"> 支持的 HTML 元素</h2>
+<p>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
+<p>目前支持的 HTML 元素有：<code>&lt;kbd&gt;</code>、 <code>&lt;b&gt;</code>、 <code>&lt;i&gt;</code>、 <code>&lt;em&gt;</code>、 <code>&lt;sup&gt;</code>、 <code>&lt;sub&gt;</code>、 <code>&lt;br&gt;</code>等 ，如：</p>
+<blockquote>
+<p>使用 <code>&lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt;</code> 重启电脑</p>
+</blockquote>
+<p>输出结果为：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/Snipaste_2021-10-06_12-33-31.png" alt="键盘" /></p>
+<h2 id="公式"> 公式</h2>
+<p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：</p>
+<div><pre><code>$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\
+\end{vmatrix}
+${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>输出结果为：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/Snipaste_2021-10-06_12-47-07.png" alt="公式" /></p>
+<h2 id="typora-画流程图、时序图-顺序图-、甘特图"> typora 画流程图、时序图(顺序图)、甘特图</h2>
+<p>复制以下代码使用 typora 的源码模式粘贴到编辑器中查看效果：</p>
+<p>以下几个实例效果图如下：</p>
+<h3 id="横向流程图源码格式"> 横向流程图源码格式</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-54-22.png" alt="横向流程图" /></p>
+<div><pre><code>```mermaid
+graph LR
+A[方形] --&gt;B(圆角)
+    B --&gt; C{条件a}
+    C --&gt;|a=1| D[结果1]
+    C --&gt;|a=2| E[结果2]
+    F[横向流程图]
+```
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h3 id="竖向流程图源码格式"> 竖向流程图源码格式</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-54-50.png" alt="竖向流程图" /></p>
+<div><pre><code>```mermaid
+graph TD
+A[方形] --&gt; B(圆角)
+    B --&gt; C{条件a}
+    C --&gt; |a=1| D[结果1]
+    C --&gt; |a=2| E[结果2]
+    F[竖向流程图]
+```
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h3 id="标准流程图源码格式"> 标准流程图源码格式</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-54-58.png" alt="标准流程图" /></p>
+<div><pre><code>```flow
+st=&gt;start: 开始框
+op=&gt;operation: 处理框
+cond=&gt;condition: 判断框(是或否?)
+sub1=&gt;subroutine: 子流程
+io=&gt;inputoutput: 输入输出框
+e=&gt;end: 结束框
+st-&gt;op-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op
+```
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h3 id="标准流程图源码格式-横向"> 标准流程图源码格式（横向）</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-55-05.png" alt="标准流程图-横向" /></p>
+<div><pre><code>```flow
+st=&gt;start: 开始框
+op=&gt;operation: 处理框
+cond=&gt;condition: 判断框(是或否?)
+sub1=&gt;subroutine: 子流程
+io=&gt;inputoutput: 输入输出框
+e=&gt;end: 结束框
+st(right)-&gt;op(right)-&gt;cond
+cond(yes)-&gt;io(bottom)-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op
+```
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h3 id="uml标准时序图样例"> UML标准时序图样例</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-55-31.png" alt="UML标准时序图" /></p>
+<div><pre><code>```sequence
+Title: 标题：复杂使用
+对象A-&gt;对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B--&gt;对象A: 我很好(响应)
+对象B-&gt;小三: 你好吗
+小三--&gt;&gt;对象A: 对象B找我了
+对象A-&gt;对象B: 你真的好吗？
+Note over 小三,对象B: 我们是朋友
+participant C
+Note right of C: 没人陪我玩
+```
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="uml时序图源码样例"> UML时序图源码样例</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-55-14.png" alt="UML时序图" /></p>
+<div><pre><code>```sequence
+对象A-&gt;对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B--&gt;对象A: 我很好(响应)
+对象A-&gt;对象B: 你真的好吗？
+```
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h3 id="uml时序图源码复杂样例"> UML时序图源码复杂样例</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/Snipaste_2021-11-03_22-55-21.png" alt="UML时序图源码-复杂" /></p>
+<div><pre><code>```sequence
+Title: 标题：复杂使用
+对象A-&gt;对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B--&gt;对象A: 我很好(响应)
+对象B-&gt;小三: 你好吗
+小三--&gt;&gt;对象A: 对象B找我了
+对象A-&gt;对象B: 你真的好吗？
+Note over 小三,对象B: 我们是朋友
+participant C
+Note right of C: 没人陪我玩
+```
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="甘特图样例"> 甘特图样例</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/Snipaste_2021-10-06_13-00-16.png" alt="甘特图" /></p>
+<div><pre><code>```mermaid
+%% 语法示例
+        gantt
+        dateFormat  YYYY-MM-DD
+        title 软件开发甘特图
+        section 设计
+        需求                      :done,    des1, 2014-01-06,2014-01-08
+        原型                      :active,  des2, 2014-01-09, 3d
+        UI设计                     :         des3, after des2, 5d
+    未来任务                     :         des4, after des3, 5d
+        section 开发
+        学习准备理解需求                      :crit, done, 2014-01-06,24h
+        设计框架                             :crit, done, after des2, 2d
+        开发                                 :crit, active, 3d
+        未来任务                              :crit, 5d
+        耍                                   :2d
+        section 测试
+        功能测试                              :active, a1, after des3, 3d
+        压力测试                               :after a1  , 20h
+        测试报告                               : 48h
+```
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br></div></div>]]></content>
     <author>
       <name>ChouCong</name>
     </author>
@@ -5508,151 +5508,6 @@ DB_DATABASE=faka
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">做网站怎么赚钱？</title>
-    <id>/document/make-money.html</id>
-    <link href="https://codenoob.top/document/make-money.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[做网站怎么赚钱？2021年个人网站赚钱的30种方式]]></summary>
-    <content type="html"><![CDATA[<p>跟着奶爸建站笔记学会了<a href="https://blog.naibabiji.com/" target="_blank" rel="noopener noreferrer">怎么建网站</a>，那么接下来的问题就是做网站怎么赚钱？</p>
-<p>怎么通过建立网站赚钱呢？奶爸通过对Google广告联盟和网上一些网站赚钱方法的总结，一共给大家分享9大类，共<strong>30种个人网站赚钱的思路和方向</strong>。</p>
-<h2 id="一、网站内容变现"> 一、网站内容变现</h2>
-<p>网站内容变现，可能需要网站有一定的流量才容易实现，毕竟现在pc端流量本身就比较少了。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/lian-meng-ying-xiao.png" alt="网站联盟营销" /></p>
-<h3 id="联盟营销"> 联盟营销</h3>
-<p>奶爸建站笔记认为联盟营销应该是个人站长最容易通过网站赚钱的手段之一。</p>
-<h4 id="为什么联盟营销是最容易通过网站赚钱的方式"> 为什么联盟营销是最容易通过网站赚钱的方式？</h4>
-<p>联盟营销只需要你网站有一定固定的用户，如果是垂直用户那么变现能力就更强了。例如新手建网站时候会去各种推荐VPS的博客看文章，他们就是通过服务器的推广联盟获取佣金赚钱。</p>
-<h4 id="什么是联盟营销"> 什么是联盟营销？</h4>
-<p>联盟营销简单来说你可以理解为你通过推广链接吸引别人购买产品和服务，然后获得推广佣金。也可以理解为aff推广。</p>
-<p>最常见的联盟营销就是淘宝联盟（京东、苏宁易购这些电商都有自己的推广联盟平台）</p>
-<p>另外各大云服务器厂商也有推广联盟，例如你通过点击：<a href="https://blog.naibabiji.com/go/aliyun" target="_blank" rel="noopener noreferrer">阿里云</a>和<a href="https://blog.naibabiji.com/go/qcloud" target="_blank" rel="noopener noreferrer">腾讯云</a>的链接去购买服务器，奶爸会获得一定的佣金。</p>
-<h4 id="做联盟营销比较牛逼的站"> 做联盟营销比较牛逼的站</h4>
-<p><strong>什么值得买</strong>就是做淘宝联盟（淘宝客）起家现在上市的一家网站，他们做了很多电商平台的联盟。当然到了他们这个级别的站后，不简单是靠联盟赚钱，还可以收广告费等方式赚钱。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/guang-gao-lian-meng.png" alt="广告联盟赚钱" /></p>
-<h3 id="广告联盟"> 广告联盟</h3>
-<p>通过加入广告联盟，在网站上展示广告是一种很容易赚钱的方式。但是，<strong>通过广告联盟赚钱需要网站有一定的流量</strong>。</p>
-<p>例如奶爸建站笔记文章末尾评论处展示了一个广告，按照奶爸建站笔记目前的网站流量（200IP）来说，基本上就是挂着好看，白给人做嫁衣的广告投放，一个月也不会有什么收入的。（因为大多数广告都是靠点击计费，流量很大才会有一定的展示费用。）</p>
-<p>如果你会英文，可以考虑做英文网站然后加入谷歌广告联盟赚钱，英文网站的单价比较高（点击一次广告可能有几美元的收入）</p>
-<p>有些大神是直接做英文站群，也可以日入几千美元，当然都是金字塔顶端的人，普通个人站长很难达到。</p>
-<h3 id="网站出售广告位"> 网站出售广告位</h3>
-<p>网站出售广告位需要网站本身有一定的实力，例如你看到的房产网、汽车网上面那些固定的广告位置出现的。</p>
-<p>通常垂直行业或者本地服务类型的网站比较容易出售网站广告位盈利。</p>
-<p>相关推荐:<a href="https://blog.naibabiji.com/files/wordpress-ads-manager-plugins.html" target="_blank" rel="noopener noreferrer">4款好用的高级WordPress广告管理插件</a></p>
-<h3 id="网站背书性文章"> 网站背书性文章</h3>
-<p>网站背书性文章，类似于有点名人推荐的意思。</p>
-<p>比如某个商品，才出来的时候电视上打广告，可能有部分人还是不信任，但是看到你也在使用这个东西，而且评价还可以，也许就因为信任你，而购买了产品。</p>
-<p>这就叫背书文章。</p>
-<h3 id="写评论赚钱"> 写评论赚钱</h3>
-<p>国外有一些专门的评论网站，你可以试用产品后提交评论获得一定的佣金。也可以换做国内一个比较熟悉的词，刷好评，写软文。</p>
-<h3 id="出售网站赚钱"> 出售网站赚钱</h3>
-<p>没错，这个也是一个直接变现的方法，网站做到有一定的效果了，自己没办法盈利，那就卖给别人，让别人去想办法盈利。</p>
-<p>奶爸就知道有批量建站刷权重后然后卖给别人的。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/nei-rong-fu-fei.png" alt="网站靠内容付费赚钱" /></p>
-<h2 id="二、会员制网站"> 二、会员制网站</h2>
-<p>付费会员，现在国内也比较容易接受了，例如音乐会员、影视会员。只要你网站有别人需要的内容，也可以做付费会员来变现。</p>
-<h3 id="仅会员可见"> 仅会员可见</h3>
-<p>奶爸建站笔记分享过：<a href="https://blog.naibabiji.com/files/wordpress-deng-lu-hou-ke-jian.html" target="_blank" rel="noopener noreferrer">WordPress网站需要注册会员并登录后才能访问的方法</a></p>
-<p>所以你可以轻松使用WordPress搭建一个仅会员可见的网站。</p>
-<p>当然前提依然是你网站有这些用户需要的文章或者资源才行。</p>
-<p>这两年自媒体是非常非常火的，尤其是微信公众号。一篇阅读量大的公众号文章单纯依靠插入广告都可以赚钱，所以我们也可以通过网站给公众号引流，然后从公众号上面变现盈利。</p>
-<p>你需要用到的工具：<a href="https://blog.naibabiji.com/skill/weixin-guan-zhu-ke-jian.html" target="_blank" rel="noopener noreferrer">WordPress网站微信关注回后可见和阅读更多功能方法</a></p>
-<h3 id="私密论坛"> 私密论坛</h3>
-<p>和上面仅会员可见的原理差不多，搭建一个只有特定用户组才能访问的论坛，供用户交流，也是网站变现的一种方式。</p>
-<p>内容付费是今年的热点话题，其实说白了就是信息差，因为互联网有了越来越封闭的趋势，你可能没有以前么容易找到自己想要的东西。</p>
-<h3 id="问答社区"> 问答社区</h3>
-<p>例如知乎、国外的Quora这些专业的问答平台，你可以做付费提问或者付费查看答案。还可以挂广告位等等。</p>
-<h2 id="三、导航目录类网站"> 三、导航目录类网站</h2>
-<p>这一个是大多数人都不知道的细分行业，就是创建一个特定行业、名录的网站，可以付费收录网站。</p>
-<h3 id="付费企业名录"> 付费企业名录</h3>
-<p>类似于企业黄页，比如用户要搜索<a href="https://blog.naibabiji.com/" target="_blank" rel="noopener noreferrer">重庆建网站公司</a>，然后你正好做了一个重庆地区网站企业名录的网站，你就可以开启付费收录的功能，一个网站收费几十元，批量操作下来收入也不错。</p>
-<h3 id="付费招聘网站"> 付费招聘网站</h3>
-<p>你可能会说招聘的不是都有专业的网站吗？但是你还可以找细分的地方，比如你所在的县城招聘网，一条招聘信息收费10元、20元，不会有人觉得贵。</p>
-<p>关键是小县城的招聘网竞争小，自己做起来也不会花很多精力。</p>
-<h3 id="付费活动日历"> 付费活动日历</h3>
-<p>就是一个专门收集某一天有什么活动的网站，然后有活动发布需求的就到你网站来发布活动信息。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/xiao-shou-shang-pin.png" alt="销售商品网站赚钱" /></p>
-<h2 id="四、出售数字商品"> 四、出售数字商品</h2>
-<p>这个应该也算是个人站长比较容易依靠网站赚钱的项目。只要是你有别人没有的，而又有需求的东西，都可以进行销售。</p>
-<p><strong>举个例子</strong>：例如你在建网站过程中碰到一些你自己无法解决的问题，那么你可以付费找奶爸帮你解决，这也是一种销售行为，销售的是自己的能力。</p>
-<p>另外网上很多售卖资源的网站，也是通过销售虚拟商品来使网站赚钱。例如卖影视资源、软件资源等（要注意版权问题）。</p>
-<h3 id="卖电子书"> 卖电子书</h3>
-<p>你可以去淘宝搜一下，看看有没有卖电子书的。</p>
-<p>电子书也可以帮你通过博客赚钱，当你是某一领域的专家，你把部分干货知识总结成一本电子书后，你也可以通过博客出售给有需要的人。</p>
-<p>但是这种赚钱方式取决于你电子书的质量，例如你是美食博主，你想出售一本30岁健康饮食清单，那么你的电子书内容应该很完善，包含详细的营养表，白天吃的零食清单，运动类型等等。</p>
-<p>不过制作电子书也是一项考验能力的事情，奶爸建站笔记分享的<a href="https://blog.naibabiji.com/tutorial/jian-wang-zhan-epud.html" target="_blank" rel="noopener noreferrer">【电子书】《轻松学会自己建网站 第一版》</a> 就感觉制作的很简陋，要人花钱买肯定是不现实的，所以就免费分享了。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/zai-xian-pei-xun.png" alt="在线培训赚钱" /></p>
-<h3 id="在线卖课程"> 在线卖课程</h3>
-<p>在线网课最近几年也比较火，可以自己搭建网站卖，也可以在腾讯课堂、网易云课堂、慕课这些平台卖。</p>
-<p>个人站长想要通过在线培训赚钱，除了本身网站需要一定的流量外，还需要个人有一定的知名度。不是随随便便一个人搞培训就有人愿意付费加入的。</p>
-<p>做外贸网站的朋友应该知道米课的培训，做的很大了，虽然很多建站的东西奶爸都懂，不过关于外贸的一些和网站结合的地方还是要外贸人才懂。</p>
-<h3 id="付费网络研讨会"> 付费网络研讨会</h3>
-<p>付费网络研讨会类似于在线售卖课程的网站，但是网络研讨会都是现场直播性质的，而且经常会有问答环节。Zoom、AnyMeeting、Adobe Connect这样的软件都能实现付费网络研讨会这样的功能。</p>
-<h2 id="五、在线出售服务"> 五、在线出售服务</h2>
-<h3 id="提供自由职业服务"> 提供自由职业服务</h3>
-<p>这个很好理解。现在国内外有很多这样的平台，国内的有猪八戒、自由人这样的平台，国外有upwork、freelancer、peopleperhour等这样的平台。</p>
-<p>在获得使用WordPress的足够经验之后，许多人倾向于在线提供服务，例如奶爸建站笔记的<a href="https://blog.naibabiji.com/greatdigit" target="_blank" rel="noopener noreferrer">网站托管服务</a>。</p>
-<p>而市面上那些建站公司，也是提供类似的服务，只要你专门针对某一个领域完善网站内容，做网站SEO，总会有用户联系上你成交的。</p>
-<h3 id="咨询业务"> 咨询业务</h3>
-<p>这个就是经验换钱，例如抖音上那些房产大V，具体需求可以私信他，然后就是多少钱的咨询费。</p>
-<h3 id="成为一名导师或教练"> 成为一名导师或教练</h3>
-<p>你会什么专长，就可以开展那个专业里面的导师或者教练服务。</p>
-<h2 id="六、在线出售实物"> 六、在线出售实物</h2>
-<h3 id="使用woocommerce插件开展电商业务"> 使用WooCommerce插件开展电商业务</h3>
-<p>WooCommerce是WordPress免费的电子商务插件，安装上后就可以实现电子商务业务。如果想要现成的，可以使用Shopify和BigCommerce这些付费的平台。</p>
-<h3 id="制作t恤商店"> 制作T恤商店</h3>
-<p>使用<a href="https://wordpress.org/plugins/wp-spreadplugin/" target="_blank" rel="noopener noreferrer">WP-Spreadplugin</a>这款插件，你可以制作一个在线T恤商城，用户可以在线下单后你制作T恤给他。</p>
-<h3 id="woocommerce代发货商店"> WooCommerce代发货商店</h3>
-<p>很多外贸行业的人士就在通过WooCommerce代发货赚钱，配合WooCommerce Dropshipping，客户在自己网站下单，然后你从亚马逊、阿里巴巴这些平台找商家一件代发，赚销售差。</p>
-<h2 id="七、服务平台"> 七、服务平台</h2>
-<h3 id="在线商城"> 在线商城</h3>
-<p>类似于京东淘宝这种，使用WordPress也可以搭建在线商城，配合WC Vendors、WC Marketplace这些插件就可以了。</p>
-<p>不过也可以使用专业的商城系统，例如shopex、Ecshop等</p>
-<h3 id="拍卖网站"> 拍卖网站</h3>
-<p>制作一个拍卖类网站，WordPress的话可以试用WooCommerce、Auction扩展或者multivendor扩展来实现。</p>
-<h3 id="职位集市网站"> 职位集市网站</h3>
-<p>在国外，有很多自由职业类平台，比如说Fiverr、UpWork、Freelancer这样的平台。这种网站其实是共享经济的一种模式，就像滴滴出行、美团网这样的平台一样。</p>
-<p>在WordPress里面，下载一个叫<strong>micro-job engine</strong>这样的主题就能创建一个这样的网站。</p>
-<h2 id="八、网站设计及开发人员"> 八、网站设计及开发人员</h2>
-<h3 id="开发网站插件"> 开发网站插件</h3>
-<p>现在WordPress研究分享的人比较少了，但是用wordpress搭建网站的人却更多了，所以市场需求依然很大，如果你会php开发，那么可以制作网站插件出售。例如<a href="https://www.wbolt.com/?invite=316" target="_blank" rel="noopener noreferrer">闪电博</a>，就是开发付费WordPress插件盈利。</p>
-<h3 id="出售网站主题"> 出售网站主题</h3>
-<p>如果你会设计，那么也可以制作网站主题出售，WordPress的正版主题现在接受度还是挺高的，除了WordPress还有那么多的博客系统，都可以考虑制作付费主题出售。</p>
-<h3 id="出售图片"> 出售图片</h3>
-<p>如果你会美工，也可以帮人P图，毕竟很多人都不会设计图片。</p>
-<h2 id="九、网友赞赏"> 九、网友赞赏</h2>
-<p>如果你微信还有钱的话，可以打赏一下奶爸。让奶爸感受一下赞赏的<a href="https://blog.naibabiji.com/tutorial/wang-zhan-zhuan-qian-fang-shi.html" target="_blank" rel="noopener noreferrer">网站赚钱方式</a>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/dashang.png" alt="打赏我" /></p>
-<h2 id="哪种方式最容易赚钱"> 哪种方式最容易赚钱？</h2>
-<p>本文介绍的这30多种网站盈利模式，都有一个前提，那就是网站有一定的流量或者知名度，光有一个空架子是没有办法盈利的。</p>
-<p><strong>对于个人站长来说，想要通过网站赚钱，第一个基本条件是网站有一定的访问量</strong>。</p>
-<p>如果你网站日IP就几个或者几十个，那么安心写自己的博客日志就好了，不要考虑赚钱，基本上没有可能性。</p>
-<p>对于个人站长来说，最容易实现网站赚钱的方式是：联盟营销 、销售虚拟商品和广告变现</p>
-<p>另外，如果你所在县城有需求的话做当地的网站盈利也许会比其他类型的轻松一些。</p>
-<h2 id="关于个人博客赚钱的思考"> 关于个人博客赚钱的思考</h2>
-<p>个人博客在最近几年已经越来越少人能坚持下来持续更新了，不少个人博主都在怀疑现在做个人博客网站还有没有意义，能不能靠博客赚钱。</p>
-<p>这里奶爸引用一下SEO大神Zac的一段评论，你可以细细品味一下。</p>
-<div><p>SEO大神Zac的一段评论</p>
-<p>大部分情况下，现在建个人博客意义不大。我个人觉得只有两种情况下有意义：</p>
-<p>一是非常聚焦在某个领域，而且是这个领域的专家，靠写高质量的文章建立知名度、权威度、个人品牌，然后靠品牌寻找其它盈利方式，而不是靠博客的搜索流量。</p>
-<p>二是把博客系统，比如WordPress，当成CMS而已，做成其它类型的网站。WordPress是个很好的建站工具，现在很多企业站也是WordPress建的，和博客没什么关系。</p>
-<p>如果只是在比较宽泛的领域写些不痛不痒的文章，甚至是转载的，没有个人观点，没有独创性，那就不如不做了。</p>
-</div>
-<p>奶爸对个人博客的观点和Zac大神的类似，所以奶爸建站笔记目前聚焦点就是<a href="https://blog.naibabiji.com/" target="_blank" rel="noopener noreferrer">教人怎么建网站</a>，等网站有一定知名度后再寻找盈利的方式。</p>
-<p>把WordPress当成CMS这个适合企业网站用，个人站长如果没有销售产品的资源，做成CMS模式也估计会变成宽泛领域文章没有深度的垃圾站，就很难坚持和靠网站赚钱了。</p>
-<p>不过如果你是记录自己生活也还是有一定意义的，写博客过程中也可以结交很多朋友。</p>
-<p>关于<strong>网站怎么赚钱</strong>的方式本文介绍了这么多，希望大家都能够做一个能盈利的网站。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="文档"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-10-17T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">OpenWrite给VuePress配置博客导流公众号插件</title>
     <id>/document/openwrite-to-vuepress.html</id>
     <link href="https://codenoob.top/document/openwrite-to-vuepress.html"/>
@@ -5970,6 +5825,151 @@ DB_DATABASE=faka
       <name>ChouCong</name>
     </contributor>
     <published>2021-10-21T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">做网站怎么赚钱？</title>
+    <id>/document/make-money.html</id>
+    <link href="https://codenoob.top/document/make-money.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[做网站怎么赚钱？2021年个人网站赚钱的30种方式]]></summary>
+    <content type="html"><![CDATA[<p>跟着奶爸建站笔记学会了<a href="https://blog.naibabiji.com/" target="_blank" rel="noopener noreferrer">怎么建网站</a>，那么接下来的问题就是做网站怎么赚钱？</p>
+<p>怎么通过建立网站赚钱呢？奶爸通过对Google广告联盟和网上一些网站赚钱方法的总结，一共给大家分享9大类，共<strong>30种个人网站赚钱的思路和方向</strong>。</p>
+<h2 id="一、网站内容变现"> 一、网站内容变现</h2>
+<p>网站内容变现，可能需要网站有一定的流量才容易实现，毕竟现在pc端流量本身就比较少了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/lian-meng-ying-xiao.png" alt="网站联盟营销" /></p>
+<h3 id="联盟营销"> 联盟营销</h3>
+<p>奶爸建站笔记认为联盟营销应该是个人站长最容易通过网站赚钱的手段之一。</p>
+<h4 id="为什么联盟营销是最容易通过网站赚钱的方式"> 为什么联盟营销是最容易通过网站赚钱的方式？</h4>
+<p>联盟营销只需要你网站有一定固定的用户，如果是垂直用户那么变现能力就更强了。例如新手建网站时候会去各种推荐VPS的博客看文章，他们就是通过服务器的推广联盟获取佣金赚钱。</p>
+<h4 id="什么是联盟营销"> 什么是联盟营销？</h4>
+<p>联盟营销简单来说你可以理解为你通过推广链接吸引别人购买产品和服务，然后获得推广佣金。也可以理解为aff推广。</p>
+<p>最常见的联盟营销就是淘宝联盟（京东、苏宁易购这些电商都有自己的推广联盟平台）</p>
+<p>另外各大云服务器厂商也有推广联盟，例如你通过点击：<a href="https://blog.naibabiji.com/go/aliyun" target="_blank" rel="noopener noreferrer">阿里云</a>和<a href="https://blog.naibabiji.com/go/qcloud" target="_blank" rel="noopener noreferrer">腾讯云</a>的链接去购买服务器，奶爸会获得一定的佣金。</p>
+<h4 id="做联盟营销比较牛逼的站"> 做联盟营销比较牛逼的站</h4>
+<p><strong>什么值得买</strong>就是做淘宝联盟（淘宝客）起家现在上市的一家网站，他们做了很多电商平台的联盟。当然到了他们这个级别的站后，不简单是靠联盟赚钱，还可以收广告费等方式赚钱。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/guang-gao-lian-meng.png" alt="广告联盟赚钱" /></p>
+<h3 id="广告联盟"> 广告联盟</h3>
+<p>通过加入广告联盟，在网站上展示广告是一种很容易赚钱的方式。但是，<strong>通过广告联盟赚钱需要网站有一定的流量</strong>。</p>
+<p>例如奶爸建站笔记文章末尾评论处展示了一个广告，按照奶爸建站笔记目前的网站流量（200IP）来说，基本上就是挂着好看，白给人做嫁衣的广告投放，一个月也不会有什么收入的。（因为大多数广告都是靠点击计费，流量很大才会有一定的展示费用。）</p>
+<p>如果你会英文，可以考虑做英文网站然后加入谷歌广告联盟赚钱，英文网站的单价比较高（点击一次广告可能有几美元的收入）</p>
+<p>有些大神是直接做英文站群，也可以日入几千美元，当然都是金字塔顶端的人，普通个人站长很难达到。</p>
+<h3 id="网站出售广告位"> 网站出售广告位</h3>
+<p>网站出售广告位需要网站本身有一定的实力，例如你看到的房产网、汽车网上面那些固定的广告位置出现的。</p>
+<p>通常垂直行业或者本地服务类型的网站比较容易出售网站广告位盈利。</p>
+<p>相关推荐:<a href="https://blog.naibabiji.com/files/wordpress-ads-manager-plugins.html" target="_blank" rel="noopener noreferrer">4款好用的高级WordPress广告管理插件</a></p>
+<h3 id="网站背书性文章"> 网站背书性文章</h3>
+<p>网站背书性文章，类似于有点名人推荐的意思。</p>
+<p>比如某个商品，才出来的时候电视上打广告，可能有部分人还是不信任，但是看到你也在使用这个东西，而且评价还可以，也许就因为信任你，而购买了产品。</p>
+<p>这就叫背书文章。</p>
+<h3 id="写评论赚钱"> 写评论赚钱</h3>
+<p>国外有一些专门的评论网站，你可以试用产品后提交评论获得一定的佣金。也可以换做国内一个比较熟悉的词，刷好评，写软文。</p>
+<h3 id="出售网站赚钱"> 出售网站赚钱</h3>
+<p>没错，这个也是一个直接变现的方法，网站做到有一定的效果了，自己没办法盈利，那就卖给别人，让别人去想办法盈利。</p>
+<p>奶爸就知道有批量建站刷权重后然后卖给别人的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/nei-rong-fu-fei.png" alt="网站靠内容付费赚钱" /></p>
+<h2 id="二、会员制网站"> 二、会员制网站</h2>
+<p>付费会员，现在国内也比较容易接受了，例如音乐会员、影视会员。只要你网站有别人需要的内容，也可以做付费会员来变现。</p>
+<h3 id="仅会员可见"> 仅会员可见</h3>
+<p>奶爸建站笔记分享过：<a href="https://blog.naibabiji.com/files/wordpress-deng-lu-hou-ke-jian.html" target="_blank" rel="noopener noreferrer">WordPress网站需要注册会员并登录后才能访问的方法</a></p>
+<p>所以你可以轻松使用WordPress搭建一个仅会员可见的网站。</p>
+<p>当然前提依然是你网站有这些用户需要的文章或者资源才行。</p>
+<p>这两年自媒体是非常非常火的，尤其是微信公众号。一篇阅读量大的公众号文章单纯依靠插入广告都可以赚钱，所以我们也可以通过网站给公众号引流，然后从公众号上面变现盈利。</p>
+<p>你需要用到的工具：<a href="https://blog.naibabiji.com/skill/weixin-guan-zhu-ke-jian.html" target="_blank" rel="noopener noreferrer">WordPress网站微信关注回后可见和阅读更多功能方法</a></p>
+<h3 id="私密论坛"> 私密论坛</h3>
+<p>和上面仅会员可见的原理差不多，搭建一个只有特定用户组才能访问的论坛，供用户交流，也是网站变现的一种方式。</p>
+<p>内容付费是今年的热点话题，其实说白了就是信息差，因为互联网有了越来越封闭的趋势，你可能没有以前么容易找到自己想要的东西。</p>
+<h3 id="问答社区"> 问答社区</h3>
+<p>例如知乎、国外的Quora这些专业的问答平台，你可以做付费提问或者付费查看答案。还可以挂广告位等等。</p>
+<h2 id="三、导航目录类网站"> 三、导航目录类网站</h2>
+<p>这一个是大多数人都不知道的细分行业，就是创建一个特定行业、名录的网站，可以付费收录网站。</p>
+<h3 id="付费企业名录"> 付费企业名录</h3>
+<p>类似于企业黄页，比如用户要搜索<a href="https://blog.naibabiji.com/" target="_blank" rel="noopener noreferrer">重庆建网站公司</a>，然后你正好做了一个重庆地区网站企业名录的网站，你就可以开启付费收录的功能，一个网站收费几十元，批量操作下来收入也不错。</p>
+<h3 id="付费招聘网站"> 付费招聘网站</h3>
+<p>你可能会说招聘的不是都有专业的网站吗？但是你还可以找细分的地方，比如你所在的县城招聘网，一条招聘信息收费10元、20元，不会有人觉得贵。</p>
+<p>关键是小县城的招聘网竞争小，自己做起来也不会花很多精力。</p>
+<h3 id="付费活动日历"> 付费活动日历</h3>
+<p>就是一个专门收集某一天有什么活动的网站，然后有活动发布需求的就到你网站来发布活动信息。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/xiao-shou-shang-pin.png" alt="销售商品网站赚钱" /></p>
+<h2 id="四、出售数字商品"> 四、出售数字商品</h2>
+<p>这个应该也算是个人站长比较容易依靠网站赚钱的项目。只要是你有别人没有的，而又有需求的东西，都可以进行销售。</p>
+<p><strong>举个例子</strong>：例如你在建网站过程中碰到一些你自己无法解决的问题，那么你可以付费找奶爸帮你解决，这也是一种销售行为，销售的是自己的能力。</p>
+<p>另外网上很多售卖资源的网站，也是通过销售虚拟商品来使网站赚钱。例如卖影视资源、软件资源等（要注意版权问题）。</p>
+<h3 id="卖电子书"> 卖电子书</h3>
+<p>你可以去淘宝搜一下，看看有没有卖电子书的。</p>
+<p>电子书也可以帮你通过博客赚钱，当你是某一领域的专家，你把部分干货知识总结成一本电子书后，你也可以通过博客出售给有需要的人。</p>
+<p>但是这种赚钱方式取决于你电子书的质量，例如你是美食博主，你想出售一本30岁健康饮食清单，那么你的电子书内容应该很完善，包含详细的营养表，白天吃的零食清单，运动类型等等。</p>
+<p>不过制作电子书也是一项考验能力的事情，奶爸建站笔记分享的<a href="https://blog.naibabiji.com/tutorial/jian-wang-zhan-epud.html" target="_blank" rel="noopener noreferrer">【电子书】《轻松学会自己建网站 第一版》</a> 就感觉制作的很简陋，要人花钱买肯定是不现实的，所以就免费分享了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/zai-xian-pei-xun.png" alt="在线培训赚钱" /></p>
+<h3 id="在线卖课程"> 在线卖课程</h3>
+<p>在线网课最近几年也比较火，可以自己搭建网站卖，也可以在腾讯课堂、网易云课堂、慕课这些平台卖。</p>
+<p>个人站长想要通过在线培训赚钱，除了本身网站需要一定的流量外，还需要个人有一定的知名度。不是随随便便一个人搞培训就有人愿意付费加入的。</p>
+<p>做外贸网站的朋友应该知道米课的培训，做的很大了，虽然很多建站的东西奶爸都懂，不过关于外贸的一些和网站结合的地方还是要外贸人才懂。</p>
+<h3 id="付费网络研讨会"> 付费网络研讨会</h3>
+<p>付费网络研讨会类似于在线售卖课程的网站，但是网络研讨会都是现场直播性质的，而且经常会有问答环节。Zoom、AnyMeeting、Adobe Connect这样的软件都能实现付费网络研讨会这样的功能。</p>
+<h2 id="五、在线出售服务"> 五、在线出售服务</h2>
+<h3 id="提供自由职业服务"> 提供自由职业服务</h3>
+<p>这个很好理解。现在国内外有很多这样的平台，国内的有猪八戒、自由人这样的平台，国外有upwork、freelancer、peopleperhour等这样的平台。</p>
+<p>在获得使用WordPress的足够经验之后，许多人倾向于在线提供服务，例如奶爸建站笔记的<a href="https://blog.naibabiji.com/greatdigit" target="_blank" rel="noopener noreferrer">网站托管服务</a>。</p>
+<p>而市面上那些建站公司，也是提供类似的服务，只要你专门针对某一个领域完善网站内容，做网站SEO，总会有用户联系上你成交的。</p>
+<h3 id="咨询业务"> 咨询业务</h3>
+<p>这个就是经验换钱，例如抖音上那些房产大V，具体需求可以私信他，然后就是多少钱的咨询费。</p>
+<h3 id="成为一名导师或教练"> 成为一名导师或教练</h3>
+<p>你会什么专长，就可以开展那个专业里面的导师或者教练服务。</p>
+<h2 id="六、在线出售实物"> 六、在线出售实物</h2>
+<h3 id="使用woocommerce插件开展电商业务"> 使用WooCommerce插件开展电商业务</h3>
+<p>WooCommerce是WordPress免费的电子商务插件，安装上后就可以实现电子商务业务。如果想要现成的，可以使用Shopify和BigCommerce这些付费的平台。</p>
+<h3 id="制作t恤商店"> 制作T恤商店</h3>
+<p>使用<a href="https://wordpress.org/plugins/wp-spreadplugin/" target="_blank" rel="noopener noreferrer">WP-Spreadplugin</a>这款插件，你可以制作一个在线T恤商城，用户可以在线下单后你制作T恤给他。</p>
+<h3 id="woocommerce代发货商店"> WooCommerce代发货商店</h3>
+<p>很多外贸行业的人士就在通过WooCommerce代发货赚钱，配合WooCommerce Dropshipping，客户在自己网站下单，然后你从亚马逊、阿里巴巴这些平台找商家一件代发，赚销售差。</p>
+<h2 id="七、服务平台"> 七、服务平台</h2>
+<h3 id="在线商城"> 在线商城</h3>
+<p>类似于京东淘宝这种，使用WordPress也可以搭建在线商城，配合WC Vendors、WC Marketplace这些插件就可以了。</p>
+<p>不过也可以使用专业的商城系统，例如shopex、Ecshop等</p>
+<h3 id="拍卖网站"> 拍卖网站</h3>
+<p>制作一个拍卖类网站，WordPress的话可以试用WooCommerce、Auction扩展或者multivendor扩展来实现。</p>
+<h3 id="职位集市网站"> 职位集市网站</h3>
+<p>在国外，有很多自由职业类平台，比如说Fiverr、UpWork、Freelancer这样的平台。这种网站其实是共享经济的一种模式，就像滴滴出行、美团网这样的平台一样。</p>
+<p>在WordPress里面，下载一个叫<strong>micro-job engine</strong>这样的主题就能创建一个这样的网站。</p>
+<h2 id="八、网站设计及开发人员"> 八、网站设计及开发人员</h2>
+<h3 id="开发网站插件"> 开发网站插件</h3>
+<p>现在WordPress研究分享的人比较少了，但是用wordpress搭建网站的人却更多了，所以市场需求依然很大，如果你会php开发，那么可以制作网站插件出售。例如<a href="https://www.wbolt.com/?invite=316" target="_blank" rel="noopener noreferrer">闪电博</a>，就是开发付费WordPress插件盈利。</p>
+<h3 id="出售网站主题"> 出售网站主题</h3>
+<p>如果你会设计，那么也可以制作网站主题出售，WordPress的正版主题现在接受度还是挺高的，除了WordPress还有那么多的博客系统，都可以考虑制作付费主题出售。</p>
+<h3 id="出售图片"> 出售图片</h3>
+<p>如果你会美工，也可以帮人P图，毕竟很多人都不会设计图片。</p>
+<h2 id="九、网友赞赏"> 九、网友赞赏</h2>
+<p>如果你微信还有钱的话，可以打赏一下奶爸。让奶爸感受一下赞赏的<a href="https://blog.naibabiji.com/tutorial/wang-zhan-zhuan-qian-fang-shi.html" target="_blank" rel="noopener noreferrer">网站赚钱方式</a>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/dashang.png" alt="打赏我" /></p>
+<h2 id="哪种方式最容易赚钱"> 哪种方式最容易赚钱？</h2>
+<p>本文介绍的这30多种网站盈利模式，都有一个前提，那就是网站有一定的流量或者知名度，光有一个空架子是没有办法盈利的。</p>
+<p><strong>对于个人站长来说，想要通过网站赚钱，第一个基本条件是网站有一定的访问量</strong>。</p>
+<p>如果你网站日IP就几个或者几十个，那么安心写自己的博客日志就好了，不要考虑赚钱，基本上没有可能性。</p>
+<p>对于个人站长来说，最容易实现网站赚钱的方式是：联盟营销 、销售虚拟商品和广告变现</p>
+<p>另外，如果你所在县城有需求的话做当地的网站盈利也许会比其他类型的轻松一些。</p>
+<h2 id="关于个人博客赚钱的思考"> 关于个人博客赚钱的思考</h2>
+<p>个人博客在最近几年已经越来越少人能坚持下来持续更新了，不少个人博主都在怀疑现在做个人博客网站还有没有意义，能不能靠博客赚钱。</p>
+<p>这里奶爸引用一下SEO大神Zac的一段评论，你可以细细品味一下。</p>
+<div><p>SEO大神Zac的一段评论</p>
+<p>大部分情况下，现在建个人博客意义不大。我个人觉得只有两种情况下有意义：</p>
+<p>一是非常聚焦在某个领域，而且是这个领域的专家，靠写高质量的文章建立知名度、权威度、个人品牌，然后靠品牌寻找其它盈利方式，而不是靠博客的搜索流量。</p>
+<p>二是把博客系统，比如WordPress，当成CMS而已，做成其它类型的网站。WordPress是个很好的建站工具，现在很多企业站也是WordPress建的，和博客没什么关系。</p>
+<p>如果只是在比较宽泛的领域写些不痛不痒的文章，甚至是转载的，没有个人观点，没有独创性，那就不如不做了。</p>
+</div>
+<p>奶爸对个人博客的观点和Zac大神的类似，所以奶爸建站笔记目前聚焦点就是<a href="https://blog.naibabiji.com/" target="_blank" rel="noopener noreferrer">教人怎么建网站</a>，等网站有一定知名度后再寻找盈利的方式。</p>
+<p>把WordPress当成CMS这个适合企业网站用，个人站长如果没有销售产品的资源，做成CMS模式也估计会变成宽泛领域文章没有深度的垃圾站，就很难坚持和靠网站赚钱了。</p>
+<p>不过如果你是记录自己生活也还是有一定意义的，写博客过程中也可以结交很多朋友。</p>
+<p>关于<strong>网站怎么赚钱</strong>的方式本文介绍了这么多，希望大家都能够做一个能盈利的网站。</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="文档"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-10-17T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -9890,6 +9890,44 @@ $ systemctl start container-vaultwarden.service
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">构建你自己的docker镜像</title>
+    <id>/projects/vaultwarden/Deployment/Building-your-own-docker-image.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Deployment/Building-your-own-docker-image.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<p>克隆存储库，然后从存储库的根目录运行以使用默认的 sqlite 后端构建：</p>
+<div><pre><code><span># 构建docker镜像：</span>
+docker build -t vaultwarden <span>.</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>要使用 MySQL 后端构建，请运行：</p>
+<div><pre><code><span># 构建docker镜像：</span>
+docker build -t Vaultwarden --build-arg <span>DB</span><span>=</span>mysql <span>.</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>要使用 Postgresql 后端构建，请运行：</p>
+<div><pre><code><span># 构建docker镜像：</span>
+docker build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql <span>.</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>在 docker-compose.yml 中它看起来像</p>
+<div><pre><code>  vaultwarden:
+    # 镜像：Vaultwarden/server-postgresql:latest
+    image: vaultwarden
+    build: 
+      context: vaultwarden
+      args: 
+        DB: postgresql
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div>]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">构建二进制</title>
     <id>/projects/vaultwarden/Deployment/Building-binary.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Building-binary.html"/>
@@ -10011,44 +10049,6 @@ cargo build --features postgresql --release
 <h2 id="如何从-sqlite-后端迁移到-postgresql-后端-针对开发人员"> 如何从 SQLite 后端迁移到 PostgreSQL 后端(针对开发人员)</h2>
 <p>如果要从 SQLite 迁移，请参阅<a href="./../Configuration/Using-the-PostgreSQL-Backend.html">使用 PostgreSQL 后端</a>。</p>
 ]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="项目"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">构建你自己的docker镜像</title>
-    <id>/projects/vaultwarden/Deployment/Building-your-own-docker-image.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Deployment/Building-your-own-docker-image.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p>克隆存储库，然后从存储库的根目录运行以使用默认的 sqlite 后端构建：</p>
-<div><pre><code><span># 构建docker镜像：</span>
-docker build -t vaultwarden <span>.</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>要使用 MySQL 后端构建，请运行：</p>
-<div><pre><code><span># 构建docker镜像：</span>
-docker build -t Vaultwarden --build-arg <span>DB</span><span>=</span>mysql <span>.</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>要使用 Postgresql 后端构建，请运行：</p>
-<div><pre><code><span># 构建docker镜像：</span>
-docker build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql <span>.</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>在 docker-compose.yml 中它看起来像</p>
-<div><pre><code>  vaultwarden:
-    # 镜像：Vaultwarden/server-postgresql:latest
-    image: vaultwarden
-    build: 
-      context: vaultwarden
-      args: 
-        DB: postgresql
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div>]]></content>
     <author>
       <name>ChouCong</name>
     </author>
@@ -12024,43 +12024,6 @@ DNS.2 = www.bitwarden.local
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">Eclipse Theia初体验</title>
-    <id>/tools/theia.html</id>
-    <link href="https://codenoob.top/tools/theia.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Eclipse Theia初体验]]></summary>
-    <content type="html"><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
-<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
-<p>至于为什么我说是学习神器，我们先体验一下再说</p>
-<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" /></p>
-<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
-<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
-<div><pre><code><span># Linux, macOS, or PowerShell</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
-
-<span># Windows (cmd.exe)</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
-<p>随便写点东西保存预览，整个流程非常的流畅</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" /></p>
-<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
-<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
-<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
-<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-01-11T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">油猴脚本自动刷课</title>
     <id>/tools/tampermonkey-refreshes-lesson.html</id>
     <link href="https://codenoob.top/tools/tampermonkey-refreshes-lesson.html"/>
@@ -12152,6 +12115,43 @@ docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cac
       <name>ChouCong</name>
     </contributor>
     <published>2020-10-09T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">Eclipse Theia初体验</title>
+    <id>/tools/theia.html</id>
+    <link href="https://codenoob.top/tools/theia.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Eclipse Theia初体验]]></summary>
+    <content type="html"><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
+<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
+<p>至于为什么我说是学习神器，我们先体验一下再说</p>
+<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" /></p>
+<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
+<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
+<div><pre><code><span># Linux, macOS, or PowerShell</span>
+docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
+
+<span># Windows (cmd.exe)</span>
+docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
+<p>随便写点东西保存预览，整个流程非常的流畅</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" /></p>
+<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
+<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
+<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
+<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-01-11T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -12305,6 +12305,50 @@ echo $str . "\n";
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">GitHub下载慢的问题</title>
+    <id>/tutorials/githubdown.html</id>
+    <link href="https://codenoob.top/tutorials/githubdown.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[GitHub下载慢的问题]]></summary>
+    <content type="html"><![CDATA[<h2 id="github下载慢的问题"> GitHub下载慢的问题</h2>
+<p>很多小伙伴说啊这个GitHub的下载速度很慢，那么本期视屏我给大家准备了几个可以提升速度的方法非常的简单</p>
+<p>本次视屏由大家的三连支持播出</p>
+<h2 id="码云"> 码云</h2>
+<p>码云作为国内的代码托管厂商，速度是非常快的，我们可以使用码云来作为中转站</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170557-580438.png" alt="#" /></p>
+<p>选择 从 GitHub中导入仓库</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170712-491904.png" alt="#" /></p>
+<p>此时使用下载速度变得非常的快，但是码云对仓库大小有一定限制，所以太大的仓库用这个方法不行</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170803-598586.png" alt="#" /></p>
+<h2 id="使用cnpmjs镜像"> 使用cnpmjs镜像</h2>
+<p>这个方法更加的简单,只需要修改你的路径<code>github.com</code>为<code>github.com.cnpmjs.org</code></p>
+<div><pre><code><span>git</span> clone https://github.com/XXX/XXX.git
+
+<span>## 使用cnpmjs</span>
+<span>git</span> clone  https://github.com.cnpmjs.org/XXX/XXX.git
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="使用jsdelivr加速"> 使用jsdelivr加速</h2>
+<p>jsdelivr可免费提供CDN加速，我们一般用来给自己的博客加速，或者制作一个免费的图床</p>
+<p>同样的它也可以加速我们的GitHub，当我们要快速获取项目中的某个文件的时候就可以使用这个方式</p>
+<p>它的使用也非常简单，我们将<code>github.com</code>修改为<code>cdn.jsdelivr.net</code>同时将<code>/blob/</code>修改为<code>@</code></p>
+<div><pre><code>https://github.com/vuejs/vue/blob/dev/README.md
+
+<span>## 使用jsdelivr</span>
+https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>此时速度就非常快了</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="教程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-06-25T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">盘点不怎么熟悉但十分有趣的html标签</title>
     <id>/tutorials/htmltag.html</id>
     <link href="https://codenoob.top/tutorials/htmltag.html"/>
@@ -12422,75 +12466,6 @@ echo $str . "\n";
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">GitHub下载慢的问题</title>
-    <id>/tutorials/githubdown.html</id>
-    <link href="https://codenoob.top/tutorials/githubdown.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[GitHub下载慢的问题]]></summary>
-    <content type="html"><![CDATA[<h2 id="github下载慢的问题"> GitHub下载慢的问题</h2>
-<p>很多小伙伴说啊这个GitHub的下载速度很慢，那么本期视屏我给大家准备了几个可以提升速度的方法非常的简单</p>
-<p>本次视屏由大家的三连支持播出</p>
-<h2 id="码云"> 码云</h2>
-<p>码云作为国内的代码托管厂商，速度是非常快的，我们可以使用码云来作为中转站</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170557-580438.png" alt="#" /></p>
-<p>选择 从 GitHub中导入仓库</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170712-491904.png" alt="#" /></p>
-<p>此时使用下载速度变得非常的快，但是码云对仓库大小有一定限制，所以太大的仓库用这个方法不行</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170803-598586.png" alt="#" /></p>
-<h2 id="使用cnpmjs镜像"> 使用cnpmjs镜像</h2>
-<p>这个方法更加的简单,只需要修改你的路径<code>github.com</code>为<code>github.com.cnpmjs.org</code></p>
-<div><pre><code><span>git</span> clone https://github.com/XXX/XXX.git
-
-<span>## 使用cnpmjs</span>
-<span>git</span> clone  https://github.com.cnpmjs.org/XXX/XXX.git
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="使用jsdelivr加速"> 使用jsdelivr加速</h2>
-<p>jsdelivr可免费提供CDN加速，我们一般用来给自己的博客加速，或者制作一个免费的图床</p>
-<p>同样的它也可以加速我们的GitHub，当我们要快速获取项目中的某个文件的时候就可以使用这个方式</p>
-<p>它的使用也非常简单，我们将<code>github.com</code>修改为<code>cdn.jsdelivr.net</code>同时将<code>/blob/</code>修改为<code>@</code></p>
-<div><pre><code>https://github.com/vuejs/vue/blob/dev/README.md
-
-<span>## 使用jsdelivr</span>
-https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>此时速度就非常快了</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="教程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-06-25T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">Mysql学习手记</title>
-    <id>/tutorials/mysql.html</id>
-    <link href="https://codenoob.top/tutorials/mysql.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Mysql学习手记]]></summary>
-    <content type="html"><![CDATA[<div><p>说明</p>
-<p>整理一下以前的Mysql学习笔记，还是比较详细的</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>这个分类是Mysql的手记 希望能对你有所帮助</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="教程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-10-29T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">成为一个独立应用开发者</title>
     <id>/tutorials/indiedeveloper.html</id>
     <link href="https://codenoob.top/tutorials/indiedeveloper.html"/>
@@ -12564,6 +12539,31 @@ https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
       <name>ChouCong</name>
     </contributor>
     <published>2020-07-30T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">Mysql学习手记</title>
+    <id>/tutorials/mysql.html</id>
+    <link href="https://codenoob.top/tutorials/mysql.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Mysql学习手记]]></summary>
+    <content type="html"><![CDATA[<div><p>说明</p>
+<p>整理一下以前的Mysql学习笔记，还是比较详细的</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>这个分类是Mysql的手记 希望能对你有所帮助</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="教程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-10-29T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -13237,6 +13237,31 @@ jim<span>.</span><span>log</span><span>(</span><span>)</span><span>;</span>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">Uniapp的学习手记</title>
+    <id>/tutorials/uniapp.html</id>
+    <link href="https://codenoob.top/tutorials/uniapp.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Uniapp的学习手记]]></summary>
+    <content type="html"><![CDATA[<div><p>说明</p>
+<p>基础+实战部分的文档 代码仓库</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>这个分类是uniapp的手记 希望能对你有所帮助</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="教程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-10-06T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">VPS 常用命令</title>
     <id>/tutorials/vps-command.html</id>
     <link href="https://codenoob.top/tutorials/vps-command.html"/>
@@ -13403,31 +13428,6 @@ mkfs.ext4 -F /dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx
       <name>ChouCong</name>
     </contributor>
     <published>2020-08-19T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">Uniapp的学习手记</title>
-    <id>/tutorials/uniapp.html</id>
-    <link href="https://codenoob.top/tutorials/uniapp.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Uniapp的学习手记]]></summary>
-    <content type="html"><![CDATA[<div><p>说明</p>
-<p>基础+实战部分的文档 代码仓库</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>这个分类是uniapp的手记 希望能对你有所帮助</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="教程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-10-06T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
