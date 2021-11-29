@@ -112,7 +112,7 @@ module.exports = config({
 
     blog: {
       avatar: "/assets/img/AvatarMaker.svg",
-      intro: "/author.html",
+      intro: "/author",
       sidebarDisplay: "mobile",
       description: "编程菜鸟的自我修养",
       perPage: 8,
