@@ -33,7 +33,7 @@ project:
     link: https://github.com/Smart-Chou
     cover: https://pic.zcily.life/images/2021/09/21/6957642073a40f632130e4a6f.th.jpg
 
-footer: <a href="https://beian.miit.gov.cn/" target="_blank">豫IPCP备20006179号</a> | <a href="/author.md">关于</a>
+footer: <a href="https://beian.miit.gov.cn/" target="_blank">豫IPCP备20006179号</a> | <a href="/author.html">关于</a>
 ---
 
 
