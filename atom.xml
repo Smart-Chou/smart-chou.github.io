@@ -6,7 +6,7 @@
   <author>
     <name>ChouCong</name>
   </author>
-  <updated>2021-11-24T12:34:38.463Z</updated>
+  <updated>2021-11-29T09:46:03.820Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://codenoob.top/atom.xml"/>
   <link rel="alternate" href="https://codenoob.top/"/>
@@ -221,131 +221,6 @@ Note right of C: 没人陪我玩
       <name>ChouCong</name>
     </contributor>
     <published>2020-06-26T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">基础认知</title>
-    <id>/basic/</id>
-    <link href="https://codenoob.top/basic/"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
-<ul>
-<li>
-<p><a href="./tutorial.html">基础认知</a></p>
-</li>
-<li>
-<p><a href="./vuepress.html">VuePress</a></p>
-</li>
-<li>
-<p><a href="./markdown.html">Markdown</a></p>
-</li>
-<li>
-<p><a href="./markdown-enhance.html">Markdown增强</a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="Start"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-06-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">初接触指南</title>
-    <id>/basic/tutorial.html</id>
-    <link href="https://codenoob.top/basic/tutorial.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[初接触指南]]></summary>
-    <content type="html"><![CDATA[<div><p>提示</p>
-<p>本教程是一个针对初接触者手把手教程。</p>
-</div>
-<h2 id="环境安装"> 环境安装</h2>
-<p>你需要安装最新的 Node.js 长期支持版 和 Yarn。</p>
-<p>下载地址:</p>
-<ul>
-<li>Node.js 长期支持版: <a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">下载地址</a></li>
-</ul>
-<blockquote>
-<p>请点击左侧的绿色按钮。</p>
-</blockquote>
-<p>在安装过程中，保持所有的默认设置，一路下一步即可。</p>
-<div><p>注意</p>
-<p>如果你真的是个初接触者，请不要改默认安装目录，以免你在出现问题时找不到对应的文件夹。</p>
-<p>Node.js 本身只会占据几十 M 的空间!</p>
-</div>
-<ul>
-<li>Yarn: 在安装 Node.js 后，打开终端，执行:</li>
-</ul>
-<div><pre><code>npm i -g yarn
-
-yarn config set registry https://registry.npm.taobao.org
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="创建模板"> 创建模板</h2>
-<p>在一个合适的位置创建一个文件夹，并在该文件夹下打开终端。</p>
-<blockquote>
-<p>对于 Windows 请使用文件管理器打开对应文件夹，之后在上方的地址栏中输入 <code>cmd</code> 之后按下回车。</p>
-</blockquote>
-<p>在终端中执行:</p>
-<div><pre><code>yarn create vuepress-theme-hope docs
-</code></pre>
-<div><span>1</span><br></div></div><p>稍等片刻，你就可以在浏览器地址栏输入 <code>localhost:8080/zh/</code> 访问开发服务器了。</p>
-<div><p>提示</p>
-<p>启动开发服务器，请在终端输入 <code>yarn run docs:dev</code> 并回车。 如果你需要终止开发服务器，请点击终端，并连续两次按下 <code>Ctrl + C</code>。</p>
-</div>
-<h2 id="添加或修改页面"> 添加或修改页面</h2>
-<p><code>docs</code>文件夹下除 <code>.vuepress</code> 文件夹之外的文件都会渲染为网页，渲染后的链接与文件夹结构和文件名称一一对应。只有 <code>readme.md</code> 是特例，它会显示为文件夹下的默认网页 (默认主页)。这应该很好理解。</p>
-<p>比如你想要创建一个 <code>/a/b/</code>，你就可以创建 <code>docs/a/b.md</code> 或 <code>docs/a/b/readme.md</code>，但切记不要同时创建它们两个！</p>
-<p>Markdown 的内容会渲染为网页的内容。关于 Markdown 教程，请见 <a href="https://vuepress-theme-hope.github.io/zh/basic/markdown/" target="_blank" rel="noopener noreferrer">Markdown教程</a> 。大概十五分钟，你就可以学会 Markdown 的内容，看完之后记得回来！</p>
-<p>学会 Markdown 之后你就可以尝试自己编辑 Markdown 文件来修改模板的内容。</p>
-<h2 id="配置-vuepress"> 配置 VuePress</h2>
-<p>学会 Markdown 之后，如果你没有学过 JavaScript 的话，学习它可能有些困难。所以请将配置文件切换为 YAML。 请删除 <code>.vuepress/config.js</code> 并创建 <code>.vuepress/config.yml</code>，复制以下内容并粘贴至该文件中。</p>
-<div><pre><code><span># 站点名称</span>
-<span>title</span><span>:</span> 主题演示
-<span># 站点描述</span>
-<span>description</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope 的演示
-<span># 输出目录</span>
-<span>dest</span><span>:</span> ./dist
-<span># 设置根目录语言</span>
-<span>locales</span><span>:</span>
-  <span>/</span><span>:</span>
-    <span>lang</span><span>:</span> zh<span>-</span>CN
-<span># 使用本主题</span>
-<span>theme</span><span>:</span> hope
-<span># 主题配置</span>
-<span>themeConfig</span><span>:</span>
-  <span># 导航栏图标</span>
-  <span>logo</span><span>:</span> /logo.svg
-  <span># 请设置为你的部署站点</span>
-  <span>hostname</span><span>:</span> https<span>:</span>//mister<span>-</span>hope.github.io
-  <span># 请改成你的名字</span>
-  <span>author</span><span>:</span> XXX
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div><p>你应该学习一些 YAML 的小知识，我们推荐你查看 <a href="https://mrhope.site/code/language/yaml/" target="_blank" rel="noopener noreferrer">YAML教程</a></p>
-<div><p>YAML局限性</p>
-<p>使用 YAML 作为配置文件有一定的局限性，比如无法使用加密功能。</p>
-<p>如果你希望体验全部的功能，请不要执行以上替换操作，并阅读 <a href="https://mrhope.site/code/language/js/guide/" target="_blank" rel="noopener noreferrer">JS快速上手教程</a>。</p>
-</div>
-<p>接下来你就可以阅读本文档 VuePress 基础，大致了解 VuePress 是什么和如何使用它。</p>
-<p>如果你觉得已经掌握，接下来就是阅读 VuePress 官方文档   和本主题文档，根据你想要的对本主题进行配置。</p>
-<div><p>注意</p>
-<p>请务必先阅读官方文档再阅读本主题文档。</p>
-<p>本主题文档并没有针对官方文档已有的内容做过多的重复介绍，所以如果你不阅读官方文档，你可能无法掌握某些配置，比如模板中使用的多语言。</p>
-</div>
-<h2 id="构建网站"> 构建网站</h2>
-<p>在你初步配置好项目之后，你就可以使用<code>yarn run docs:build</code>命令将网站构建输出到 dist 文件夹下。 你可以将文件夹的内容部署到你网站的服务器上。最简单的做法是上传到 GitHub 并开启 GitHub Pages。 关于 GitHub 的相关教程，你可以参考 <a href="https://mrhope.site/code/github/" target="_blank" rel="noopener noreferrer">GitHub简介</a>。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="Start"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-06-16T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -937,6 +812,131 @@ Example: <code>:smile:</code> 😄 </br>
       <name>ChouCong</name>
     </contributor>
     <published>2020-06-26T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">基础认知</title>
+    <id>/basic/</id>
+    <link href="https://codenoob.top/basic/"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
+<ul>
+<li>
+<p><a href="./tutorial.html">基础认知</a></p>
+</li>
+<li>
+<p><a href="./vuepress.html">VuePress</a></p>
+</li>
+<li>
+<p><a href="./markdown.html">Markdown</a></p>
+</li>
+<li>
+<p><a href="./markdown-enhance.html">Markdown增强</a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="Start"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-06-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">初接触指南</title>
+    <id>/basic/tutorial.html</id>
+    <link href="https://codenoob.top/basic/tutorial.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[初接触指南]]></summary>
+    <content type="html"><![CDATA[<div><p>提示</p>
+<p>本教程是一个针对初接触者手把手教程。</p>
+</div>
+<h2 id="环境安装"> 环境安装</h2>
+<p>你需要安装最新的 Node.js 长期支持版 和 Yarn。</p>
+<p>下载地址:</p>
+<ul>
+<li>Node.js 长期支持版: <a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">下载地址</a></li>
+</ul>
+<blockquote>
+<p>请点击左侧的绿色按钮。</p>
+</blockquote>
+<p>在安装过程中，保持所有的默认设置，一路下一步即可。</p>
+<div><p>注意</p>
+<p>如果你真的是个初接触者，请不要改默认安装目录，以免你在出现问题时找不到对应的文件夹。</p>
+<p>Node.js 本身只会占据几十 M 的空间!</p>
+</div>
+<ul>
+<li>Yarn: 在安装 Node.js 后，打开终端，执行:</li>
+</ul>
+<div><pre><code>npm i -g yarn
+
+yarn config set registry https://registry.npm.taobao.org
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="创建模板"> 创建模板</h2>
+<p>在一个合适的位置创建一个文件夹，并在该文件夹下打开终端。</p>
+<blockquote>
+<p>对于 Windows 请使用文件管理器打开对应文件夹，之后在上方的地址栏中输入 <code>cmd</code> 之后按下回车。</p>
+</blockquote>
+<p>在终端中执行:</p>
+<div><pre><code>yarn create vuepress-theme-hope docs
+</code></pre>
+<div><span>1</span><br></div></div><p>稍等片刻，你就可以在浏览器地址栏输入 <code>localhost:8080/zh/</code> 访问开发服务器了。</p>
+<div><p>提示</p>
+<p>启动开发服务器，请在终端输入 <code>yarn run docs:dev</code> 并回车。 如果你需要终止开发服务器，请点击终端，并连续两次按下 <code>Ctrl + C</code>。</p>
+</div>
+<h2 id="添加或修改页面"> 添加或修改页面</h2>
+<p><code>docs</code>文件夹下除 <code>.vuepress</code> 文件夹之外的文件都会渲染为网页，渲染后的链接与文件夹结构和文件名称一一对应。只有 <code>readme.md</code> 是特例，它会显示为文件夹下的默认网页 (默认主页)。这应该很好理解。</p>
+<p>比如你想要创建一个 <code>/a/b/</code>，你就可以创建 <code>docs/a/b.md</code> 或 <code>docs/a/b/readme.md</code>，但切记不要同时创建它们两个！</p>
+<p>Markdown 的内容会渲染为网页的内容。关于 Markdown 教程，请见 <a href="https://vuepress-theme-hope.github.io/zh/basic/markdown/" target="_blank" rel="noopener noreferrer">Markdown教程</a> 。大概十五分钟，你就可以学会 Markdown 的内容，看完之后记得回来！</p>
+<p>学会 Markdown 之后你就可以尝试自己编辑 Markdown 文件来修改模板的内容。</p>
+<h2 id="配置-vuepress"> 配置 VuePress</h2>
+<p>学会 Markdown 之后，如果你没有学过 JavaScript 的话，学习它可能有些困难。所以请将配置文件切换为 YAML。 请删除 <code>.vuepress/config.js</code> 并创建 <code>.vuepress/config.yml</code>，复制以下内容并粘贴至该文件中。</p>
+<div><pre><code><span># 站点名称</span>
+<span>title</span><span>:</span> 主题演示
+<span># 站点描述</span>
+<span>description</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope 的演示
+<span># 输出目录</span>
+<span>dest</span><span>:</span> ./dist
+<span># 设置根目录语言</span>
+<span>locales</span><span>:</span>
+  <span>/</span><span>:</span>
+    <span>lang</span><span>:</span> zh<span>-</span>CN
+<span># 使用本主题</span>
+<span>theme</span><span>:</span> hope
+<span># 主题配置</span>
+<span>themeConfig</span><span>:</span>
+  <span># 导航栏图标</span>
+  <span>logo</span><span>:</span> /logo.svg
+  <span># 请设置为你的部署站点</span>
+  <span>hostname</span><span>:</span> https<span>:</span>//mister<span>-</span>hope.github.io
+  <span># 请改成你的名字</span>
+  <span>author</span><span>:</span> XXX
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div><p>你应该学习一些 YAML 的小知识，我们推荐你查看 <a href="https://mrhope.site/code/language/yaml/" target="_blank" rel="noopener noreferrer">YAML教程</a></p>
+<div><p>YAML局限性</p>
+<p>使用 YAML 作为配置文件有一定的局限性，比如无法使用加密功能。</p>
+<p>如果你希望体验全部的功能，请不要执行以上替换操作，并阅读 <a href="https://mrhope.site/code/language/js/guide/" target="_blank" rel="noopener noreferrer">JS快速上手教程</a>。</p>
+</div>
+<p>接下来你就可以阅读本文档 VuePress 基础，大致了解 VuePress 是什么和如何使用它。</p>
+<p>如果你觉得已经掌握，接下来就是阅读 VuePress 官方文档   和本主题文档，根据你想要的对本主题进行配置。</p>
+<div><p>注意</p>
+<p>请务必先阅读官方文档再阅读本主题文档。</p>
+<p>本主题文档并没有针对官方文档已有的内容做过多的重复介绍，所以如果你不阅读官方文档，你可能无法掌握某些配置，比如模板中使用的多语言。</p>
+</div>
+<h2 id="构建网站"> 构建网站</h2>
+<p>在你初步配置好项目之后，你就可以使用<code>yarn run docs:build</code>命令将网站构建输出到 dist 文件夹下。 你可以将文件夹的内容部署到你网站的服务器上。最简单的做法是上传到 GitHub 并开启 GitHub Pages。 关于 GitHub 的相关教程，你可以参考 <a href="https://mrhope.site/code/github/" target="_blank" rel="noopener noreferrer">GitHub简介</a>。</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="Start"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-06-16T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -9721,138 +9721,6 @@ $ systemctl start container-vaultwarden.service
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">构建二进制</title>
-    <id>/projects/vaultwarden/Deployment/Building-binary.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Deployment/Building-binary.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p>此页面主要面向对 Vaultwarden 开发感兴趣或有特定原因想要构建自己的二进制文件的人。</p>
-<p>典型用户应该从基于 Alpine 的 Docker 镜像中<a href="./../Container/Which-container-image-to-use.html">使用哪个容器镜像</a>、<a href="./Pre-built-binaries.html">预建二进制文件</a>，或者寻找 <a href="./Third-party-packages.html">第三方包</a>。</p>
-<h2 id="依赖"> 依赖</h2>
-<ul>
-<li><code>Rust nightly</code>(强烈推荐使用 <a href="https://rustup.rs" target="_blank" rel="noopener noreferrer">rustup</a>)</li>
-<li>在基于 Debian 的发行版上，一些通用软件包可确保构建正常进行，请安装以下内容：<code>build-essential</code>、<code>git</code></li>
-<li><code>OpenSSL</code>(应该在路径中可用，参见 <a href="https://docs.rs/openssl/0.10.16/openssl/#automatic" target="_blank" rel="noopener noreferrer">openssl crate docs</a>) 在基于 Debian 的发行版上，您需要安装 <code>pkg-config</code> 和 <code>libssl-dev</code></li>
-<li>对于基于 Debian 的发行版上的 SQlite3 后端，您需要安装 <code>libsqlite3-dev</code></li>
-<li>对于基于 Debian 的发行版上的 MySQL 后端，您需要安装 <code>libmariadb-dev-compat</code> 和 <code>libmariadb-dev</code></li>
-<li>对于基于 Debian 的发行版上的 PostgreSQL，您需要安装 <code>libpq-dev</code> 和 <code>pkg-config</code></li>
-<li><code>NodeJS</code>(仅在编译 web-vault 时，通过系统的包管理器安装，使用 <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreferrer">预构建的二进制文件</a>)或 <a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener noreferrer">nodesource binary distribution</a> <em>注意：web-vault 当前使用需要 NodeJS v11</em> 的软件包基础(例如 node-sass &lt; v4.12)</li>
-</ul>
-<h2 id="运行-编译"> 运行/编译</h2>
-<h3 id="所有后端"> 所有后端</h3>
-<div><pre><code><span># 编译所有后端并运行</span>
-cargo run --features sqlite,mysql,postgresql --release
-<span># 或者只编译所有后端(二进制文件位于 target/release/vaultwarden)</span>
-cargo build --features sqlite,mysql,postgresql --release
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="sqlite-后端"> SQlite 后端</h3>
-<div><pre><code><span># 使用sqlite后端编译并运行</span>
-cargo run --features sqlite --release
-<span># 或者直接用 sqlite 编译(二进制文件位于 target/release/vaultwarden)</span>
-cargo build --features sqlite --release
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="mysql-后端"> MySQL 后端</h3>
-<div><pre><code><span># 用mysql后端编译并运行</span>
-cargo run --features mysql --release
-<span># 或者直接用 mysql 编译(二进制文件位于 target/release/vaultwarden)</span>
-cargo build --features mysql --release
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="postgresql-后端"> PostgreSQL 后端</h3>
-<div><pre><code><span># 使用 postgresql 后端编译并运行</span>
-cargo run --features postgresql --release
-<span># 或者只用 postgresql 编译(二进制文件位于 target/release/vaultwarden)</span>
-cargo build --features postgresql --release
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>运行时，服务器可以在 <a href="http://localhost:8000" target="_blank" rel="noopener noreferrer">http://localhost:8000</a> 中访问。</p>
-<div><p>注意</p>
-<p>之前的<a href="https://github.com/rust-lang/rust/issues/62896" target="_blank" rel="noopener noreferrer">issue</a>意味着由于 Rust 编译器和 LLVM 之间的不兼容，编译可能会因段错误而失败。可以使用旧版本的编译器作为解决方法，例如</p>
-<div><pre><code>cargo +nightly-2019-08-27 build --features yourbackend --release
-</code></pre>
-<div><span>1</span><br></div></div></div>
-<h3 id="安装网络密码管理"> 安装网络密码管理</h3>
-<p>Web Vault 的编译版本可以从 <a href="https://github.com/dani-garcia/bw_web_builds/releases" target="_blank" rel="noopener noreferrer">dani-garcia/bw_web_builds</a> 下载。</p>
-<p>如果您更喜欢手动编译它，请按照下列步骤操作：</p>
-<div><p>注意</p>
-<p>构建 Vault 需要 1.5GB 的 RAM。在 RaspberryPI 等 1GB 或更少的系统上，请<a href="https://www.tecmint.com/create-a-linux-swap-file/" target="_blank" rel="noopener noreferrer">启用交换</a>或在更强大的机器上构建它并从那里。如此多的内存仅用于构建它，使用 Vault 运行 Vaultwarden 只需要大约 10MB 的 RAM。</p>
-</div>
-<ul>
-<li>在 <a href="https://github.com/bitwarden/web" target="_blank" rel="noopener noreferrer">bitwarden/web</a> 克隆 git 存储库并签出最新的发布标签(例如 v2.1.1)：</li>
-</ul>
-<div><pre><code><span># 克隆存储库</span>
-<span>git</span> clone https://github.com/bitwarden/web.git web-vault
-<span>cd</span> web-vault
-<span># 切换到最新的标签</span>
-<span>git</span> checkout <span>"<span><span>$(</span><span>git</span> tag --sort<span>=</span>v:refname <span>|</span> <span>tail</span> -n1<span>)</span></span>"</span>
-<span># 使用匹配的 jslib 提交</span>
-<span>git</span> submodule update --init --recursive
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><ul>
-<li>从 <a href="https://github.com/dani-garcia/bw_web_builds/tree/master/patches" target="_blank" rel="noopener noreferrer">dani-garcia/bw_web_builds</a> 下载补丁文件并将其复制到<code>web-vault</code> 文件夹。 要选择要使用的版本，假设 Web Vault 是版本 <code>vX.Y.Z</code>：
-<ul>
-<li>如果有版本为 <code>vX.Y.Z</code> 的补丁，请使用那个补丁</li>
-<li>否则，选择版本最大但仍然小于 <code>vX.Y.Z</code> 的那个</li>
-</ul>
-</li>
-<li>应用补丁</li>
-</ul>
-<div><pre><code><span># 在`网络密码管理`目录中</span>
-<span>git</span> apply vX.Y.Z.patch
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><ul>
-<li>然后，构建 Vault：</li>
-</ul>
-<div><pre><code><span>npm</span> <span>install</span>
-<span># 阅读下面的注释(我们确实将它用于我们的 docker 构建)。</span>
-<span># npm 审计修复</span>
-<span>npm</span> run dist
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><p>注意</p>
-<p>您可能会被要求运行 <code>npm audit fix</code> 来修复漏洞。这将自动尝试将软件包升级到较新版本，这可能不兼容并破坏网络密码管理功能。 如果您知道自己在做什么，请自担风险使用它。顺便说一句，我们确实在我们自己的版本中使用了它！</p>
-</div>
-<p>最后将<code>build</code>文件夹的内容复制到目标文件夹中：</p>
-<ul>
-<li>如果你用 <code>cargo run --release</code> 运行，它是 <code>vaultwarden/web-vault</code>。</li>
-<li>如果你直接运行编译好的二进制文件，它就在二进制文件的旁边，在 <code>vaultwarden/target/release/web-vault</code> 中。</li>
-</ul>
-<h2 id="配置"> 配置</h2>
-<p>可用的配置选项记录在默认的 <code>.env</code> 文件中，可以通过取消对该文件中所需选项的注释或设置它们各自的环境变量来修改它们。有关可用的主要配置选项，请参阅此 wiki 的配置部分。</p>
-<p>注意：环境变量会覆盖在 <code>.env</code> 文件中设置的值。</p>
-<h2 id="更多部署信息"> 更多部署信息</h2>
-<ul>
-<li><a href="./Proxy-examples.html">配置你的反向代理</a></li>
-<li><a href="./Setup-as-a-systemd-service.html">通过 systemd 设置自动启动</a></li>
-</ul>
-<h2 id="如何为-sqlite-后端重新创建数据库模式-对于开发人员"> 如何为 sqlite 后端重新创建数据库模式(对于开发人员)</h2>
-<p>安装带有货物的diesel-cli：</p>
-<div><pre><code>cargo <span>install</span> diesel_cli --no-default-features --features sqlite-bundled
-</code></pre>
-<div><span>1</span><br></div></div><p>确保数据库的正确路径在 <code>.env</code> 文件中。</p>
-<p>如果要修改架构，请使用以下命令创建新迁移：</p>
-<div><pre><code>diesel migration generate <span>&lt;</span>name<span>></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>修改 *.sql 文件，确保在 down.sql 文件中恢复任何更改。</p>
-<p>应用迁移并保存生成的模式，如下所示：</p>
-<div><pre><code>diesel migration redo
-
-<span># 这一步应该在使用diesel-cli > 1.3.0 时自动完成</span>
-<span># 柴油打印模式> src/db/sqlite/schema.rs</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="如何从-sqlite-后端迁移到-mysql-后端-针对开发人员"> 如何从 SQLite 后端迁移到 MySQL 后端(针对开发人员)</h2>
-<p>如果您想从 SQLite 迁移，请参阅<a href="./../Configuration/Using-the-MariaDB-Backend.html">使用 MySQL 后端</a>。</p>
-<h2 id="如何从-sqlite-后端迁移到-postgresql-后端-针对开发人员"> 如何从 SQLite 后端迁移到 PostgreSQL 后端(针对开发人员)</h2>
-<p>如果要从 SQLite 迁移，请参阅<a href="./../Configuration/Using-the-PostgreSQL-Backend.html">使用 PostgreSQL 后端</a>。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="项目"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">使用哪个容器镜像</title>
     <id>/projects/vaultwarden/Container/Which-container-image-to-use.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Container/Which-container-image-to-use.html"/>
@@ -10010,6 +9878,138 @@ cargo build --features postgresql --release
 </tr>
 </tbody>
 </table>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">构建二进制</title>
+    <id>/projects/vaultwarden/Deployment/Building-binary.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Deployment/Building-binary.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<p>此页面主要面向对 Vaultwarden 开发感兴趣或有特定原因想要构建自己的二进制文件的人。</p>
+<p>典型用户应该从基于 Alpine 的 Docker 镜像中<a href="./../Container/Which-container-image-to-use.html">使用哪个容器镜像</a>、<a href="./Pre-built-binaries.html">预建二进制文件</a>，或者寻找 <a href="./Third-party-packages.html">第三方包</a>。</p>
+<h2 id="依赖"> 依赖</h2>
+<ul>
+<li><code>Rust nightly</code>(强烈推荐使用 <a href="https://rustup.rs" target="_blank" rel="noopener noreferrer">rustup</a>)</li>
+<li>在基于 Debian 的发行版上，一些通用软件包可确保构建正常进行，请安装以下内容：<code>build-essential</code>、<code>git</code></li>
+<li><code>OpenSSL</code>(应该在路径中可用，参见 <a href="https://docs.rs/openssl/0.10.16/openssl/#automatic" target="_blank" rel="noopener noreferrer">openssl crate docs</a>) 在基于 Debian 的发行版上，您需要安装 <code>pkg-config</code> 和 <code>libssl-dev</code></li>
+<li>对于基于 Debian 的发行版上的 SQlite3 后端，您需要安装 <code>libsqlite3-dev</code></li>
+<li>对于基于 Debian 的发行版上的 MySQL 后端，您需要安装 <code>libmariadb-dev-compat</code> 和 <code>libmariadb-dev</code></li>
+<li>对于基于 Debian 的发行版上的 PostgreSQL，您需要安装 <code>libpq-dev</code> 和 <code>pkg-config</code></li>
+<li><code>NodeJS</code>(仅在编译 web-vault 时，通过系统的包管理器安装，使用 <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreferrer">预构建的二进制文件</a>)或 <a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener noreferrer">nodesource binary distribution</a> <em>注意：web-vault 当前使用需要 NodeJS v11</em> 的软件包基础(例如 node-sass &lt; v4.12)</li>
+</ul>
+<h2 id="运行-编译"> 运行/编译</h2>
+<h3 id="所有后端"> 所有后端</h3>
+<div><pre><code><span># 编译所有后端并运行</span>
+cargo run --features sqlite,mysql,postgresql --release
+<span># 或者只编译所有后端(二进制文件位于 target/release/vaultwarden)</span>
+cargo build --features sqlite,mysql,postgresql --release
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="sqlite-后端"> SQlite 后端</h3>
+<div><pre><code><span># 使用sqlite后端编译并运行</span>
+cargo run --features sqlite --release
+<span># 或者直接用 sqlite 编译(二进制文件位于 target/release/vaultwarden)</span>
+cargo build --features sqlite --release
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="mysql-后端"> MySQL 后端</h3>
+<div><pre><code><span># 用mysql后端编译并运行</span>
+cargo run --features mysql --release
+<span># 或者直接用 mysql 编译(二进制文件位于 target/release/vaultwarden)</span>
+cargo build --features mysql --release
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="postgresql-后端"> PostgreSQL 后端</h3>
+<div><pre><code><span># 使用 postgresql 后端编译并运行</span>
+cargo run --features postgresql --release
+<span># 或者只用 postgresql 编译(二进制文件位于 target/release/vaultwarden)</span>
+cargo build --features postgresql --release
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>运行时，服务器可以在 <a href="http://localhost:8000" target="_blank" rel="noopener noreferrer">http://localhost:8000</a> 中访问。</p>
+<div><p>注意</p>
+<p>之前的<a href="https://github.com/rust-lang/rust/issues/62896" target="_blank" rel="noopener noreferrer">issue</a>意味着由于 Rust 编译器和 LLVM 之间的不兼容，编译可能会因段错误而失败。可以使用旧版本的编译器作为解决方法，例如</p>
+<div><pre><code>cargo +nightly-2019-08-27 build --features yourbackend --release
+</code></pre>
+<div><span>1</span><br></div></div></div>
+<h3 id="安装网络密码管理"> 安装网络密码管理</h3>
+<p>Web Vault 的编译版本可以从 <a href="https://github.com/dani-garcia/bw_web_builds/releases" target="_blank" rel="noopener noreferrer">dani-garcia/bw_web_builds</a> 下载。</p>
+<p>如果您更喜欢手动编译它，请按照下列步骤操作：</p>
+<div><p>注意</p>
+<p>构建 Vault 需要 1.5GB 的 RAM。在 RaspberryPI 等 1GB 或更少的系统上，请<a href="https://www.tecmint.com/create-a-linux-swap-file/" target="_blank" rel="noopener noreferrer">启用交换</a>或在更强大的机器上构建它并从那里。如此多的内存仅用于构建它，使用 Vault 运行 Vaultwarden 只需要大约 10MB 的 RAM。</p>
+</div>
+<ul>
+<li>在 <a href="https://github.com/bitwarden/web" target="_blank" rel="noopener noreferrer">bitwarden/web</a> 克隆 git 存储库并签出最新的发布标签(例如 v2.1.1)：</li>
+</ul>
+<div><pre><code><span># 克隆存储库</span>
+<span>git</span> clone https://github.com/bitwarden/web.git web-vault
+<span>cd</span> web-vault
+<span># 切换到最新的标签</span>
+<span>git</span> checkout <span>"<span><span>$(</span><span>git</span> tag --sort<span>=</span>v:refname <span>|</span> <span>tail</span> -n1<span>)</span></span>"</span>
+<span># 使用匹配的 jslib 提交</span>
+<span>git</span> submodule update --init --recursive
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><ul>
+<li>从 <a href="https://github.com/dani-garcia/bw_web_builds/tree/master/patches" target="_blank" rel="noopener noreferrer">dani-garcia/bw_web_builds</a> 下载补丁文件并将其复制到<code>web-vault</code> 文件夹。 要选择要使用的版本，假设 Web Vault 是版本 <code>vX.Y.Z</code>：
+<ul>
+<li>如果有版本为 <code>vX.Y.Z</code> 的补丁，请使用那个补丁</li>
+<li>否则，选择版本最大但仍然小于 <code>vX.Y.Z</code> 的那个</li>
+</ul>
+</li>
+<li>应用补丁</li>
+</ul>
+<div><pre><code><span># 在`网络密码管理`目录中</span>
+<span>git</span> apply vX.Y.Z.patch
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><ul>
+<li>然后，构建 Vault：</li>
+</ul>
+<div><pre><code><span>npm</span> <span>install</span>
+<span># 阅读下面的注释(我们确实将它用于我们的 docker 构建)。</span>
+<span># npm 审计修复</span>
+<span>npm</span> run dist
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><p>注意</p>
+<p>您可能会被要求运行 <code>npm audit fix</code> 来修复漏洞。这将自动尝试将软件包升级到较新版本，这可能不兼容并破坏网络密码管理功能。 如果您知道自己在做什么，请自担风险使用它。顺便说一句，我们确实在我们自己的版本中使用了它！</p>
+</div>
+<p>最后将<code>build</code>文件夹的内容复制到目标文件夹中：</p>
+<ul>
+<li>如果你用 <code>cargo run --release</code> 运行，它是 <code>vaultwarden/web-vault</code>。</li>
+<li>如果你直接运行编译好的二进制文件，它就在二进制文件的旁边，在 <code>vaultwarden/target/release/web-vault</code> 中。</li>
+</ul>
+<h2 id="配置"> 配置</h2>
+<p>可用的配置选项记录在默认的 <code>.env</code> 文件中，可以通过取消对该文件中所需选项的注释或设置它们各自的环境变量来修改它们。有关可用的主要配置选项，请参阅此 wiki 的配置部分。</p>
+<p>注意：环境变量会覆盖在 <code>.env</code> 文件中设置的值。</p>
+<h2 id="更多部署信息"> 更多部署信息</h2>
+<ul>
+<li><a href="./Proxy-examples.html">配置你的反向代理</a></li>
+<li><a href="./Setup-as-a-systemd-service.html">通过 systemd 设置自动启动</a></li>
+</ul>
+<h2 id="如何为-sqlite-后端重新创建数据库模式-对于开发人员"> 如何为 sqlite 后端重新创建数据库模式(对于开发人员)</h2>
+<p>安装带有货物的diesel-cli：</p>
+<div><pre><code>cargo <span>install</span> diesel_cli --no-default-features --features sqlite-bundled
+</code></pre>
+<div><span>1</span><br></div></div><p>确保数据库的正确路径在 <code>.env</code> 文件中。</p>
+<p>如果要修改架构，请使用以下命令创建新迁移：</p>
+<div><pre><code>diesel migration generate <span>&lt;</span>name<span>></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>修改 *.sql 文件，确保在 down.sql 文件中恢复任何更改。</p>
+<p>应用迁移并保存生成的模式，如下所示：</p>
+<div><pre><code>diesel migration redo
+
+<span># 这一步应该在使用diesel-cli > 1.3.0 时自动完成</span>
+<span># 柴油打印模式> src/db/sqlite/schema.rs</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="如何从-sqlite-后端迁移到-mysql-后端-针对开发人员"> 如何从 SQLite 后端迁移到 MySQL 后端(针对开发人员)</h2>
+<p>如果您想从 SQLite 迁移，请参阅<a href="./../Configuration/Using-the-MariaDB-Backend.html">使用 MySQL 后端</a>。</p>
+<h2 id="如何从-sqlite-后端迁移到-postgresql-后端-针对开发人员"> 如何从 SQLite 后端迁移到 PostgreSQL 后端(针对开发人员)</h2>
+<p>如果要从 SQLite 迁移，请参阅<a href="./../Configuration/Using-the-PostgreSQL-Backend.html">使用 PostgreSQL 后端</a>。</p>
 ]]></content>
     <author>
       <name>ChouCong</name>
@@ -11865,40 +11865,6 @@ DNS.2 = www.bitwarden.local
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">创作工具</title>
-    <id>/tools/creat/</id>
-    <link href="https://codenoob.top/tools/creat/"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
-<ul>
-<li>
-<p><a href="./feem.html">Feem</a></p>
-</li>
-<li>
-<p><a href="./mobaxterm.html">MobaXterm</a></p>
-</li>
-<li>
-<p><a href="./screentogif.html">screentogif</a></p>
-</li>
-<li>
-<p><a href="./snipaste.html">snipaste</a></p>
-</li>
-<li>
-<p><a href="./utools.html">utools</a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-09-10T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">snipaste</title>
     <id>/tools/creat/snipaste.html</id>
     <link href="https://codenoob.top/tools/creat/snipaste.html"/>
@@ -11940,20 +11906,29 @@ DNS.2 = www.bitwarden.local
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">PHP实现随机图片展示</title>
-    <id>/tools/php-random-picture.html</id>
-    <link href="https://codenoob.top/tools/php-random-picture.html"/>
+    <title type="html">创作工具</title>
+    <id>/tools/creat/</id>
+    <link href="https://codenoob.top/tools/creat/"/>
     <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[PHP实现随机图片展示]]></summary>
-    <content type="html"><![CDATA[<h2 id="主要代码如下"> 主要代码如下</h2>
-<div><pre><code><span><span>&lt;?php</span>
-<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>
-<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>
-<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>
-<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>
-<span>?></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content>
+    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
+<ul>
+<li>
+<p><a href="./feem.html">Feem</a></p>
+</li>
+<li>
+<p><a href="./mobaxterm.html">MobaXterm</a></p>
+</li>
+<li>
+<p><a href="./screentogif.html">screentogif</a></p>
+</li>
+<li>
+<p><a href="./snipaste.html">snipaste</a></p>
+</li>
+<li>
+<p><a href="./utools.html">utools</a></p>
+</li>
+</ul>
+]]></content>
     <author>
       <name>ChouCong</name>
     </author>
@@ -11961,7 +11936,7 @@ DNS.2 = www.bitwarden.local
     <contributor>
       <name>ChouCong</name>
     </contributor>
-    <published>2020-09-28T00:00:00.000Z</published>
+    <published>2020-09-10T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -11987,6 +11962,31 @@ DNS.2 = www.bitwarden.local
       <name>ChouCong</name>
     </contributor>
     <published>2020-09-16T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">PHP实现随机图片展示</title>
+    <id>/tools/php-random-picture.html</id>
+    <link href="https://codenoob.top/tools/php-random-picture.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[PHP实现随机图片展示]]></summary>
+    <content type="html"><![CDATA[<h2 id="主要代码如下"> 主要代码如下</h2>
+<div><pre><code><span><span>&lt;?php</span>
+<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>
+<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>
+<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>
+<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>
+<span>?></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-09-28T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -12021,6 +12021,43 @@ DNS.2 = www.bitwarden.local
       <name>ChouCong</name>
     </contributor>
     <published>2020-09-09T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">Eclipse Theia初体验</title>
+    <id>/tools/theia.html</id>
+    <link href="https://codenoob.top/tools/theia.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Eclipse Theia初体验]]></summary>
+    <content type="html"><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
+<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
+<p>至于为什么我说是学习神器，我们先体验一下再说</p>
+<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" /></p>
+<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
+<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
+<div><pre><code><span># Linux, macOS, or PowerShell</span>
+docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
+
+<span># Windows (cmd.exe)</span>
+docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
+<p>随便写点东西保存预览，整个流程非常的流畅</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" /></p>
+<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
+<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
+<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
+<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-01-11T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -12118,75 +12155,6 @@ DNS.2 = www.bitwarden.local
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">Eclipse Theia初体验</title>
-    <id>/tools/theia.html</id>
-    <link href="https://codenoob.top/tools/theia.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Eclipse Theia初体验]]></summary>
-    <content type="html"><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
-<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
-<p>至于为什么我说是学习神器，我们先体验一下再说</p>
-<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" /></p>
-<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
-<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
-<div><pre><code><span># Linux, macOS, or PowerShell</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
-
-<span># Windows (cmd.exe)</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
-<p>随便写点东西保存预览，整个流程非常的流畅</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" /></p>
-<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
-<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
-<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
-<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-01-11T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">Vue Devtools的安装</title>
-    <id>/tools/vuedev-tool.html</id>
-    <link href="https://codenoob.top/tools/vuedev-tool.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Vue Devtools的安装]]></summary>
-    <content type="html"><![CDATA[<div><p>提示</p>
-<p>开发vue的必备浏览器调试插件</p>
-</div>
-<p>这个插件在chrome浏览器中用来调试vuejs程序的工具，可以说是必备的插件</p>
-<p>这一节就是安装教程</p>
-<p>下载插件地址<a href="https://pictureknow.com/extension?id=d50143a5f53d406dbe992277bfc90521l" target="_blank" rel="noopener noreferrer">立即直达</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105753-654628.png" alt="#" /></p>
-<p>下载完成后打开chrome浏览器的拓展中心</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163432-658058.png" alt="#" /></p>
-<p>然后开启开发者模式</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105837-598467.png" alt="#" /></p>
-<p>然后把刚刚下载的插件直接拖动到这个页面，点击添加，就完成了安装</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163229-454061.png" alt="#" /></p>
-<p>安装完成后右上角会有这个标志，这就安装完成</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163652-691443.png" alt="#" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-10-19T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">Typora直传图片文件方案</title>
     <id>/tools/typoraImg-tool.html</id>
     <link href="https://codenoob.top/tools/typoraImg-tool.html"/>
@@ -12280,6 +12248,38 @@ echo $str . "\n";
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">Vue Devtools的安装</title>
+    <id>/tools/vuedev-tool.html</id>
+    <link href="https://codenoob.top/tools/vuedev-tool.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Vue Devtools的安装]]></summary>
+    <content type="html"><![CDATA[<div><p>提示</p>
+<p>开发vue的必备浏览器调试插件</p>
+</div>
+<p>这个插件在chrome浏览器中用来调试vuejs程序的工具，可以说是必备的插件</p>
+<p>这一节就是安装教程</p>
+<p>下载插件地址<a href="https://pictureknow.com/extension?id=d50143a5f53d406dbe992277bfc90521l" target="_blank" rel="noopener noreferrer">立即直达</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105753-654628.png" alt="#" /></p>
+<p>下载完成后打开chrome浏览器的拓展中心</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163432-658058.png" alt="#" /></p>
+<p>然后开启开发者模式</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105837-598467.png" alt="#" /></p>
+<p>然后把刚刚下载的插件直接拖动到这个页面，点击添加，就完成了安装</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163229-454061.png" alt="#" /></p>
+<p>安装完成后右上角会有这个标志，这就安装完成</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163652-691443.png" alt="#" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-10-19T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">Git的学习手记</title>
     <id>/tutorials/git.html</id>
     <link href="https://codenoob.top/tutorials/git.html"/>
@@ -12302,50 +12302,6 @@ echo $str . "\n";
       <name>ChouCong</name>
     </contributor>
     <published>2020-10-29T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">GitHub下载慢的问题</title>
-    <id>/tutorials/githubdown.html</id>
-    <link href="https://codenoob.top/tutorials/githubdown.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[GitHub下载慢的问题]]></summary>
-    <content type="html"><![CDATA[<h2 id="github下载慢的问题"> GitHub下载慢的问题</h2>
-<p>很多小伙伴说啊这个GitHub的下载速度很慢，那么本期视屏我给大家准备了几个可以提升速度的方法非常的简单</p>
-<p>本次视屏由大家的三连支持播出</p>
-<h2 id="码云"> 码云</h2>
-<p>码云作为国内的代码托管厂商，速度是非常快的，我们可以使用码云来作为中转站</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170557-580438.png" alt="#" /></p>
-<p>选择 从 GitHub中导入仓库</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170712-491904.png" alt="#" /></p>
-<p>此时使用下载速度变得非常的快，但是码云对仓库大小有一定限制，所以太大的仓库用这个方法不行</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170803-598586.png" alt="#" /></p>
-<h2 id="使用cnpmjs镜像"> 使用cnpmjs镜像</h2>
-<p>这个方法更加的简单,只需要修改你的路径<code>github.com</code>为<code>github.com.cnpmjs.org</code></p>
-<div><pre><code><span>git</span> clone https://github.com/XXX/XXX.git
-
-<span>## 使用cnpmjs</span>
-<span>git</span> clone  https://github.com.cnpmjs.org/XXX/XXX.git
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="使用jsdelivr加速"> 使用jsdelivr加速</h2>
-<p>jsdelivr可免费提供CDN加速，我们一般用来给自己的博客加速，或者制作一个免费的图床</p>
-<p>同样的它也可以加速我们的GitHub，当我们要快速获取项目中的某个文件的时候就可以使用这个方式</p>
-<p>它的使用也非常简单，我们将<code>github.com</code>修改为<code>cdn.jsdelivr.net</code>同时将<code>/blob/</code>修改为<code>@</code></p>
-<div><pre><code>https://github.com/vuejs/vue/blob/dev/README.md
-
-<span>## 使用jsdelivr</span>
-https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>此时速度就非常快了</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="教程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-06-25T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -12466,6 +12422,75 @@ https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">GitHub下载慢的问题</title>
+    <id>/tutorials/githubdown.html</id>
+    <link href="https://codenoob.top/tutorials/githubdown.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[GitHub下载慢的问题]]></summary>
+    <content type="html"><![CDATA[<h2 id="github下载慢的问题"> GitHub下载慢的问题</h2>
+<p>很多小伙伴说啊这个GitHub的下载速度很慢，那么本期视屏我给大家准备了几个可以提升速度的方法非常的简单</p>
+<p>本次视屏由大家的三连支持播出</p>
+<h2 id="码云"> 码云</h2>
+<p>码云作为国内的代码托管厂商，速度是非常快的，我们可以使用码云来作为中转站</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170557-580438.png" alt="#" /></p>
+<p>选择 从 GitHub中导入仓库</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170712-491904.png" alt="#" /></p>
+<p>此时使用下载速度变得非常的快，但是码云对仓库大小有一定限制，所以太大的仓库用这个方法不行</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170803-598586.png" alt="#" /></p>
+<h2 id="使用cnpmjs镜像"> 使用cnpmjs镜像</h2>
+<p>这个方法更加的简单,只需要修改你的路径<code>github.com</code>为<code>github.com.cnpmjs.org</code></p>
+<div><pre><code><span>git</span> clone https://github.com/XXX/XXX.git
+
+<span>## 使用cnpmjs</span>
+<span>git</span> clone  https://github.com.cnpmjs.org/XXX/XXX.git
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="使用jsdelivr加速"> 使用jsdelivr加速</h2>
+<p>jsdelivr可免费提供CDN加速，我们一般用来给自己的博客加速，或者制作一个免费的图床</p>
+<p>同样的它也可以加速我们的GitHub，当我们要快速获取项目中的某个文件的时候就可以使用这个方式</p>
+<p>它的使用也非常简单，我们将<code>github.com</code>修改为<code>cdn.jsdelivr.net</code>同时将<code>/blob/</code>修改为<code>@</code></p>
+<div><pre><code>https://github.com/vuejs/vue/blob/dev/README.md
+
+<span>## 使用jsdelivr</span>
+https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>此时速度就非常快了</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="教程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-06-25T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">Mysql学习手记</title>
+    <id>/tutorials/mysql.html</id>
+    <link href="https://codenoob.top/tutorials/mysql.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Mysql学习手记]]></summary>
+    <content type="html"><![CDATA[<div><p>说明</p>
+<p>整理一下以前的Mysql学习笔记，还是比较详细的</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>这个分类是Mysql的手记 希望能对你有所帮助</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="教程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-10-29T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">成为一个独立应用开发者</title>
     <id>/tutorials/indiedeveloper.html</id>
     <link href="https://codenoob.top/tutorials/indiedeveloper.html"/>
@@ -12539,31 +12564,6 @@ https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
       <name>ChouCong</name>
     </contributor>
     <published>2020-07-30T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">Mysql学习手记</title>
-    <id>/tutorials/mysql.html</id>
-    <link href="https://codenoob.top/tutorials/mysql.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Mysql学习手记]]></summary>
-    <content type="html"><![CDATA[<div><p>说明</p>
-<p>整理一下以前的Mysql学习笔记，还是比较详细的</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>这个分类是Mysql的手记 希望能对你有所帮助</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="教程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-10-29T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -13237,31 +13237,6 @@ jim<span>.</span><span>log</span><span>(</span><span>)</span><span>;</span>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">Uniapp的学习手记</title>
-    <id>/tutorials/uniapp.html</id>
-    <link href="https://codenoob.top/tutorials/uniapp.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Uniapp的学习手记]]></summary>
-    <content type="html"><![CDATA[<div><p>说明</p>
-<p>基础+实战部分的文档 代码仓库</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>这个分类是uniapp的手记 希望能对你有所帮助</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="教程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-10-06T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">VPS 常用命令</title>
     <id>/tutorials/vps-command.html</id>
     <link href="https://codenoob.top/tutorials/vps-command.html"/>
@@ -13428,6 +13403,68 @@ mkfs.ext4 -F /dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx
       <name>ChouCong</name>
     </contributor>
     <published>2020-08-19T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">Uniapp的学习手记</title>
+    <id>/tutorials/uniapp.html</id>
+    <link href="https://codenoob.top/tutorials/uniapp.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Uniapp的学习手记]]></summary>
+    <content type="html"><![CDATA[<div><p>说明</p>
+<p>基础+实战部分的文档 代码仓库</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>这个分类是uniapp的手记 希望能对你有所帮助</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="教程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-10-06T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">webpack教程</title>
+    <id>/tutorials/webpack.html</id>
+    <link href="https://codenoob.top/tutorials/webpack.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[webpack教程]]></summary>
+    <content type="html"><![CDATA[<ul>
+<li>源码仓库<a href="https://github.com/lookroot/vuestu" target="_blank" rel="noopener noreferrer">github</a>欢迎star</li>
+<li>视频地址<a href="https://www.bilibili.com/video/bv1oK411p7SJ" target="_blank" rel="noopener noreferrer">哔哩哔哩</a></li>
+</ul>
+<blockquote>
+<p>我会将所有的读者概括为初学者，即使你可能有基础，学习本节之前我希望你具有一定的JavaScript和node基础</p>
+</blockquote>
+<ul>
+<li>文中的 ... ...代表省略掉部分代码，和上面的代码相同</li>
+<li>文中的文件夹如果没有说创建，并且项目默认没有的是需要你手动增加的</li>
+<li>不会特别细致，但是足够入门</li>
+</ul>
+<h2 id="什么是webpack"> 什么是webpack</h2>
+<blockquote>
+<p>Web浏览器使用HTML，CSS和JavaScript。随着项目的发展，跟踪和配置所有这些文件变得非常复杂,解决这个问题就需要一个新的工具</p>
+</blockquote>
+<p>类似webpack的工具还有Grunt和Gulp，webpack是模块管理工具，把你的项目按照你的想法进行划分模块打包，举个最简单的例子，这个页面需要加载一个 a.js和b.js，但是你只想加载一个js文件，就可以使用webpack将两个文件进行合并，当然webpack的功能不止于此，代码转化、项目优化、代码分割、代码预编译、自动构建、自动刷新...</p>
+<p>再比如你想你的代码兼容其他老的浏览器，你的css代码兼容不同的浏览器内核，或者你想自动精简掉你写了但是没有用到的代码，这些都可以使用webpack实现</p>
+<p>如果你是vue或者react等框架的使用者，肯定使用过 vue-cli 或 react-create-app 这类脚手架工具，那么实现这个效果，就要学习webpack</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" alt="#" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="教程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-06-23T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -13703,43 +13740,6 @@ module.exports = config({
       <name>ChouCong</name>
     </contributor>
     <published>2020-05-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">webpack教程</title>
-    <id>/tutorials/webpack.html</id>
-    <link href="https://codenoob.top/tutorials/webpack.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[webpack教程]]></summary>
-    <content type="html"><![CDATA[<ul>
-<li>源码仓库<a href="https://github.com/lookroot/vuestu" target="_blank" rel="noopener noreferrer">github</a>欢迎star</li>
-<li>视频地址<a href="https://www.bilibili.com/video/bv1oK411p7SJ" target="_blank" rel="noopener noreferrer">哔哩哔哩</a></li>
-</ul>
-<blockquote>
-<p>我会将所有的读者概括为初学者，即使你可能有基础，学习本节之前我希望你具有一定的JavaScript和node基础</p>
-</blockquote>
-<ul>
-<li>文中的 ... ...代表省略掉部分代码，和上面的代码相同</li>
-<li>文中的文件夹如果没有说创建，并且项目默认没有的是需要你手动增加的</li>
-<li>不会特别细致，但是足够入门</li>
-</ul>
-<h2 id="什么是webpack"> 什么是webpack</h2>
-<blockquote>
-<p>Web浏览器使用HTML，CSS和JavaScript。随着项目的发展，跟踪和配置所有这些文件变得非常复杂,解决这个问题就需要一个新的工具</p>
-</blockquote>
-<p>类似webpack的工具还有Grunt和Gulp，webpack是模块管理工具，把你的项目按照你的想法进行划分模块打包，举个最简单的例子，这个页面需要加载一个 a.js和b.js，但是你只想加载一个js文件，就可以使用webpack将两个文件进行合并，当然webpack的功能不止于此，代码转化、项目优化、代码分割、代码预编译、自动构建、自动刷新...</p>
-<p>再比如你想你的代码兼容其他老的浏览器，你的css代码兼容不同的浏览器内核，或者你想自动精简掉你写了但是没有用到的代码，这些都可以使用webpack实现</p>
-<p>如果你是vue或者react等框架的使用者，肯定使用过 vue-cli 或 react-create-app 这类脚手架工具，那么实现这个效果，就要学习webpack</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" alt="#" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="教程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-06-23T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
