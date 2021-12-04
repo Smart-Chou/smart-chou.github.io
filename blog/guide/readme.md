@@ -1,24 +1,22 @@
 ---
-title: 初使用指南
+title: 基础认知
 icon: brainsmartbulb
 # 当前文章是否为原创
 original: true
-time: 2020-05-20
-category: 使用指南
+time: 2020-06-20
+category: Start
 tag:
-  - Vuepress
+  - MarkDown
 ---
 
-## 主要功能与配置演示
+## 主要如下
 
-- [页面展示](page.md)
+- [基础认知](tutorial.md)
 
-- [Markdown 展示](markdown.md)
+- [VuePress](vuepress.md)
 
-- [禁用展示](disable.md)
+- [Markdown](markdown.md)
 
-- [加密展示](encrypt.md)
+- [Markdown增强](markdown-enhance.md)
 
-- [自定义布局](layout.md)
-
-- [幻灯片页](slides.md)
+- [本主题Markdown增强](themeself-markdown-enhance.md)

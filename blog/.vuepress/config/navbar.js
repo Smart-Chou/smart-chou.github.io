@@ -3,12 +3,7 @@ const { navbarConfig } = require("vuepress-theme-hope");
 module.exports = 
   navbarConfig([
     { text: "主页", icon: "zhuye1", link: "/" },
-    { text: "Start", icon: "kaishixunjian",
-      items: [
-        { text: "基础认知", icon: "brainsmartbulb", link: "/basic/" },
-        { text: "使用指南", icon: "guide", link: "/guide/",},
-      ],
-    },
+    { text: "Start", icon: "kaishixunjian",link: "/guide/" },
     { text: "类目", icon: "leimu",
       items: [
         { text: "分类", icon: "notebook", link: "/category/" },

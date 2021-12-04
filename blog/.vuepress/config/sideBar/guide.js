@@ -4,39 +4,35 @@ module.exports =
   sidebarConfig([
     "",
     {
-      title: "页面展示",
-      icon: "yemian",
-      collapsable: false,
-      children: ["page"],
+        title: "初接触指南",
+        icon: "ico_lantern",
+        collapsable: false,
+        children: ["tutorial"], 
+    },
+    { 
+        title: "VuePress",  
+        icon: "Vue", 
+        collapsable: false,
+        children: ["vuepress"],  
     },
     {
-      title: "Markdown 展示",
-      icon: "md1",
-      collapsable: false,
-      children: ["markdown"],
+        title: "Markdown",  
+        icon: "md1", 
+        collapsable: false,
+        children: ["markdown"],  
+    },
+    { 
+        title: "Markdown增强",  
+        icon: "filemarkdown",
+        collapsable: false, 
+        children: ["markdown-enhance"],  
     },
     {
-      title: "加密展示",
-      icon: "Lock",
-      collapsable: false,
-      children: ["encrypt"],
+        title: "本主题Markdown增强",
+        icon: "md1",
+        collapsable: false,
+        children: ["themeself-markdown-enhance"],
     },
-    {
-      title: "自定义布局",
-      icon: "layout",
-      collapsable: false,
-      children: ["layout"],
-    },
-    {
-      title: "幻灯片页",
-      icon: "Slideshow",
-      collapsable: false,
-      children: ["slides"],
-    },
-    {
-      title: "禁用展示",
-      icon: "ts-config",
-      collapsable: false,
-      children: ["disable"],
-    },
-]);
+  ]);
+
+    

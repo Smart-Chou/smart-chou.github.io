@@ -148,7 +148,7 @@ module.exports = config({
 
     copyright: {
       noCopy: false,
-      minLength: 10,
+      minLength: 20,
       status: "global",
     },
 

@@ -16,7 +16,7 @@ icon: pengyouquan
 
 ```
 ★ Name: CodeNoobs
-★ Desc:编程菜鸟的自我修养
+★ Desc: 编程菜鸟的自我修养
 ★ Link: https://codenoob.top/
 ★ Avatar: https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/image/AvatarMaker-y.png
 ```

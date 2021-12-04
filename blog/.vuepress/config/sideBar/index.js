@@ -11,7 +11,6 @@ module.exports =
     "/code/": require("./code"),
 
     "/guide/": require("./guide"),
-    "/basic/": require("./basic"),
     });
 
 

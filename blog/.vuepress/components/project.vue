@@ -13,10 +13,10 @@ export default {
       type: Object,
       default() {
         return {
-          name: "",
-          url: "",
-          avatar: "",
-          desc: "",
+          name: "补齐空白",
+          url: "https://codenoob.top",
+          avatar: "https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/xiangmu.png",
+          desc: "感兴趣的话，打开看看！",
         };
       },
     },
