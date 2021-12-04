@@ -1,5 +1,9 @@
 export default [
     {
+      name: 'Vaultwarden Wiki 中文版',
+      url: '/projects/vaultwarden/'
+    },
+    {
       name: '在Cloudflare部署FODI后端',
       url: '/document/fodi-cloudflare.html'
     },
@@ -42,9 +46,5 @@ export default [
     {
       name: '斐讯K2路由器刷openwrt',
       url: '/document/k2-openwrt.html'
-    },
-    {
-      name: 'FODI，一款OneDrive秒级列表程序',
-      url: '/document/fodi.html'
     }
   ]
