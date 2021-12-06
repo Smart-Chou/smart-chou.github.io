@@ -1,5 +1,9 @@
 export default [
     {
+      name: 'Road To Coding',
+      url: '/document/road2coding.html'
+    },
+    {
       name: 'Vaultwarden Wiki 中文版',
       url: '/projects/vaultwarden/'
     },
@@ -42,9 +46,5 @@ export default [
     {
       name: '奈飞简介',
       url: '/daily/netflix-introduction.html'
-    },
-    {
-      name: '斐讯K2路由器刷openwrt',
-      url: '/document/k2-openwrt.html'
     }
   ]
