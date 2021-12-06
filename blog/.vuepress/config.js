@@ -115,7 +115,7 @@ module.exports = config({
       intro: "/author",
       sidebarDisplay: "mobile",
       description: "编程菜鸟的自我修养",
-      perPage: 8,
+      perPage: 9,
       timeline: "我们每天度过的日常生活，其实可能就是一连串的奇迹。",
       links: {
         Rss: "/rss.xml",
@@ -179,7 +179,7 @@ module.exports = config({
     
     footer: {
       display: true,
-      content: '豫IPCP备20006179号',
+      content: '<a href="https://beian.miit.gov.cn/" target="_blank">豫IPCP备20006179号</a>',
       copyright: 'ChouCong | Theme-Hope',
     },
 
