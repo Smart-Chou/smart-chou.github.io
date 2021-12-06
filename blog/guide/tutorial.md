@@ -8,8 +8,6 @@ category: Start
 tag:
   - VuePress
 icon: ico_lantern
-# 此页面会出现在首页的文章板块中
-star: true
 ---
 
 ::: tip

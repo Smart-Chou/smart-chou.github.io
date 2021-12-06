@@ -9,8 +9,6 @@ tag:
   - MarkDown
 image: 
 icon: filemarkdown
-# 此页面会出现在首页的文章板块中
-star: true
 ---
 
 ## 支持的 HTML 元素

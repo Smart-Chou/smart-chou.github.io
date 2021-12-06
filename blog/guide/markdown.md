@@ -8,8 +8,6 @@ category: Start
 tag:
   - MarkDown
 icon: md1
-# 此页面会出现在首页的文章板块中
-star: true
 showSponsor: true
 ---
 

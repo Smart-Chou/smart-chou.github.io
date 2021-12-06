@@ -423,7 +423,6 @@ star: true
 - [Java 8官方文档](https://docs.oracle.com/javase/8/docs/api/index.html)
 - [Maven官方文档](http://maven.apache.org/guides/)
 - [Tomcat 8官方文档](http://tomcat.apache.org/tomcat-8.0-doc/index.html)
-
 - [Spring Boot官方文档](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 - [RabbitMQ官方文档](https://www.rabbitmq.com/documentation.html)
 - [RocketMQ官方文档](http://rocketmq.apache.org/docs/quick-start/)
@@ -511,7 +510,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 ### Linux操作系统
 
 ::: center
-![常用本地软件](https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/linuxos.qciprfz30dc.png)
+![Linux操作系统](https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/linuxos.qciprfz30dc.png)
 :::
 
 ::: danger
@@ -540,7 +539,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 ### 版本控制工具
 
 ::: center
-![常用本地软件](https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/gcm.1sv6s8asfzc0.jpeg)
+![版本控制工具](https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/gcm.1sv6s8asfzc0.jpeg)
 :::
 
 - [资源下载 → 豆瓣9.1分的Pro Git学习手册YYDS！](https://mp.weixin.qq.com/s/xDYSG4uDz9rgNCuk0RxLjg)
@@ -558,7 +557,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 ### IDE/编辑器
 
 ::: center
-![常用本地软件](https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/ide.720nw0czwbs0.png)
+![IDE/编辑器](https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/ide.720nw0czwbs0.png)
 :::
 
 - [IDEA 2021.2升级体验](https://mp.weixin.qq.com/s/WQiHpAv4bjEIz3fghzamEA)
@@ -576,7 +575,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 ### API管理/文档管理
 
 ::: center
-![常用本地软件](https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/apidocs.2qlxsrvx2vy0.png)
+![API管理/文档管理](https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/apidocs.2qlxsrvx2vy0.png)
 :::
 
 - [科普篇：前后端都分离了，有哪些好用的API管理系统？](https://mp.weixin.qq.com/s/Ahs6fnIfFVVPOn3NZpIsNA)
@@ -586,7 +585,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 ### CI系统
 
 ::: center
-![常用本地软件](https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/ci.3iokn4xypxy0.png)
+![CI系统](https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/ci.3iokn4xypxy0.png)
 :::
 
 - [常用CI工具大盘点](https://mp.weixin.qq.com/s/PgoXJcJX_sm5132VGQoZ1w)
