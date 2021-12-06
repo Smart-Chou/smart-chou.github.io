@@ -183,6 +183,13 @@ module.exports = config({
       copyright: 'ChouCong | Theme-Hope',
     },
 
+    sitemap:{
+      urls:[
+        "https://codenoob.top/Vaultwarden-Wiki-Chinese/",
+        "https://codenoob.top/Road2Coding/"
+      ]
+    },
+
     pwa: {
       favicon: "/favicon.ico",
       cacheHTML: false,
