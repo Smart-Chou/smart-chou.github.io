@@ -6,7 +6,7 @@
   <author>
     <name>ChouCong</name>
   </author>
-  <updated>2021-12-06T05:03:23.896Z</updated>
+  <updated>2021-12-06T05:59:43.862Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://codenoob.top/atom.xml"/>
   <link rel="alternate" href="https://codenoob.top/"/>
@@ -5060,7 +5060,7 @@ DB_DATABASE=faka
     <title type="html">Road To Coding</title>
     <id>/document/road2coding.html</id>
     <link href="https://codenoob.top/document/road2coding.html"/>
-    <updated>2021-12-06T05:02:08.000Z</updated>
+    <updated>2021-12-06T05:59:26.000Z</updated>
     <summary type="html"><![CDATA[自学编程以来所用资源和分享内容的大聚合]]></summary>
     <content type="html"><![CDATA[<div>
 <p><img src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/img/r2coding_logo_index.15y992dieibg.png" alt="#" /></p>
@@ -5417,87 +5417,33 @@ DB_DATABASE=faka
 <br>
 <p>这部分主要集中了我在做开发过程中随手参考所要用到的几乎所有在线教程和官方文档，有中文版文档的我基本都优先列出来了，但更多时候是英文的官方文档。</p>
 <ul>
-<li>
-<p><a href="https://git-scm.com/book/zh/v2" target="_blank" rel="noopener noreferrer">Git中文教程</a></p>
-</li>
-<li>
-<p><a href="http://svnbook.red-bean.com/nightly/zh/index.html" target="_blank" rel="noopener noreferrer">SVN中文手册</a></p>
-</li>
-<li>
-<p><a href="https://jquery.cuishifeng.cn/" target="_blank" rel="noopener noreferrer">jQuery API中文文档</a></p>
-</li>
-<li>
-<p><a href="https://www.nginx.cn/doc/index.html" target="_blank" rel="noopener noreferrer">Nginx中文文档</a></p>
-</li>
-<li>
-<p><a href="https://kafka.apachecn.org/" target="_blank" rel="noopener noreferrer">Kafka中文文档</a></p>
-</li>
-<li>
-<p><a href="https://mybatis.org/mybatis-3/zh/index.html" target="_blank" rel="noopener noreferrer">Mybatis中文文档</a></p>
-</li>
-<li>
-<p><a href="https://developers.weixin.qq.com/miniprogram/dev/framework/" target="_blank" rel="noopener noreferrer">微信小程序官方文档</a></p>
-</li>
-<li>
-<p><a href="http://nodejs.cn/learn" target="_blank" rel="noopener noreferrer">Nodejs中文教程文档</a></p>
-</li>
-<li>
-<p><a href="http://httpd.apache.org/docs/" target="_blank" rel="noopener noreferrer">Apache Web Server文档</a></p>
-</li>
-<li>
-<p><a href="https://www.springcloud.cc/spring-reference.html" target="_blank" rel="noopener noreferrer">Spring文档中文版</a></p>
-</li>
-<li>
-<p><a href="https://studygolang.com/pkgdoc" target="_blank" rel="noopener noreferrer">Golang标准库文档中文版</a></p>
-</li>
-<li>
-<p><a href="https://docs.oracle.com/javase/8/docs/api/index.html" target="_blank" rel="noopener noreferrer">Java 8官方文档</a></p>
-</li>
-<li>
-<p><a href="http://maven.apache.org/guides/" target="_blank" rel="noopener noreferrer">Maven官方文档</a></p>
-</li>
-<li>
-<p><a href="http://tomcat.apache.org/tomcat-8.0-doc/index.html" target="_blank" rel="noopener noreferrer">Tomcat 8官方文档</a></p>
-</li>
-<li>
-<p><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/" target="_blank" rel="noopener noreferrer">Spring Boot官方文档</a></p>
-</li>
-<li>
-<p><a href="https://www.rabbitmq.com/documentation.html" target="_blank" rel="noopener noreferrer">RabbitMQ官方文档</a></p>
-</li>
-<li>
-<p><a href="http://rocketmq.apache.org/docs/quick-start/" target="_blank" rel="noopener noreferrer">RocketMQ官方文档</a></p>
-</li>
-<li>
-<p><a href="https://dubbo.apache.org/zh/docs/" target="_blank" rel="noopener noreferrer">Dubbo中文文档</a></p>
-</li>
-<li>
-<p><a href="https://netty.io/wiki/index.html" target="_blank" rel="noopener noreferrer">Netty官方文档</a></p>
-</li>
-<li>
-<p><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html" target="_blank" rel="noopener noreferrer">Elasticsearch官方文档</a></p>
-</li>
-<li>
-<p><a href="https://spring.io/projects/spring-cloud" target="_blank" rel="noopener noreferrer">Spring Cloud官方文档</a></p>
-</li>
-<li>
-<p><a href="https://docs.docker.com/get-started/" target="_blank" rel="noopener noreferrer">Docker官方文档</a></p>
-</li>
-<li>
-<p><a href="https://kubernetes.io/zh/docs/home/" target="_blank" rel="noopener noreferrer">Kubernetes中文文档</a></p>
-</li>
-<li>
-<p><a href="https://www.thymeleaf.org/documentation.html" target="_blank" rel="noopener noreferrer">Thymeleaf官方文档</a></p>
-</li>
-<li>
-<p><a href="https://cn.vuejs.org/v2/guide/" target="_blank" rel="noopener noreferrer">Vue.js中文文档</a></p>
-</li>
-<li>
-<p><a href="https://reactjs.org/docs/getting-started.html" target="_blank" rel="noopener noreferrer">React.js官方文档</a></p>
-</li>
-<li>
-<p><a href="https://www.jenkins.io/zh/doc/" target="_blank" rel="noopener noreferrer">Jenkins中文文档</a></p>
-</li>
+<li><a href="https://git-scm.com/book/zh/v2" target="_blank" rel="noopener noreferrer">Git中文教程</a></li>
+<li><a href="http://svnbook.red-bean.com/nightly/zh/index.html" target="_blank" rel="noopener noreferrer">SVN中文手册</a></li>
+<li><a href="https://jquery.cuishifeng.cn/" target="_blank" rel="noopener noreferrer">jQuery API中文文档</a></li>
+<li><a href="https://www.nginx.cn/doc/index.html" target="_blank" rel="noopener noreferrer">Nginx中文文档</a></li>
+<li><a href="https://kafka.apachecn.org/" target="_blank" rel="noopener noreferrer">Kafka中文文档</a></li>
+<li><a href="https://mybatis.org/mybatis-3/zh/index.html" target="_blank" rel="noopener noreferrer">Mybatis中文文档</a></li>
+<li><a href="https://developers.weixin.qq.com/miniprogram/dev/framework/" target="_blank" rel="noopener noreferrer">微信小程序官方文档</a></li>
+<li><a href="http://nodejs.cn/learn" target="_blank" rel="noopener noreferrer">Nodejs中文教程文档</a></li>
+<li><a href="http://httpd.apache.org/docs/" target="_blank" rel="noopener noreferrer">Apache Web Server文档</a></li>
+<li><a href="https://www.springcloud.cc/spring-reference.html" target="_blank" rel="noopener noreferrer">Spring文档中文版</a></li>
+<li><a href="https://studygolang.com/pkgdoc" target="_blank" rel="noopener noreferrer">Golang标准库文档中文版</a></li>
+<li><a href="https://docs.oracle.com/javase/8/docs/api/index.html" target="_blank" rel="noopener noreferrer">Java 8官方文档</a></li>
+<li><a href="http://maven.apache.org/guides/" target="_blank" rel="noopener noreferrer">Maven官方文档</a></li>
+<li><a href="http://tomcat.apache.org/tomcat-8.0-doc/index.html" target="_blank" rel="noopener noreferrer">Tomcat 8官方文档</a></li>
+<li><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/" target="_blank" rel="noopener noreferrer">Spring Boot官方文档</a></li>
+<li><a href="https://www.rabbitmq.com/documentation.html" target="_blank" rel="noopener noreferrer">RabbitMQ官方文档</a></li>
+<li><a href="http://rocketmq.apache.org/docs/quick-start/" target="_blank" rel="noopener noreferrer">RocketMQ官方文档</a></li>
+<li><a href="https://dubbo.apache.org/zh/docs/" target="_blank" rel="noopener noreferrer">Dubbo中文文档</a></li>
+<li><a href="https://netty.io/wiki/index.html" target="_blank" rel="noopener noreferrer">Netty官方文档</a></li>
+<li><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html" target="_blank" rel="noopener noreferrer">Elasticsearch官方文档</a></li>
+<li><a href="https://spring.io/projects/spring-cloud" target="_blank" rel="noopener noreferrer">Spring Cloud官方文档</a></li>
+<li><a href="https://docs.docker.com/get-started/" target="_blank" rel="noopener noreferrer">Docker官方文档</a></li>
+<li><a href="https://kubernetes.io/zh/docs/home/" target="_blank" rel="noopener noreferrer">Kubernetes中文文档</a></li>
+<li><a href="https://www.thymeleaf.org/documentation.html" target="_blank" rel="noopener noreferrer">Thymeleaf官方文档</a></li>
+<li><a href="https://cn.vuejs.org/v2/guide/" target="_blank" rel="noopener noreferrer">Vue.js中文文档</a></li>
+<li><a href="https://reactjs.org/docs/getting-started.html" target="_blank" rel="noopener noreferrer">React.js官方文档</a></li>
+<li><a href="https://www.jenkins.io/zh/doc/" target="_blank" rel="noopener noreferrer">Jenkins中文文档</a></li>
 </ul>
 </CodeGroupItem>
 </CodeGroup >
@@ -5560,7 +5506,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 <p>大家有需要的可以：<a href="https://mp.weixin.qq.com/s/YNOZSQ5smo1uGE5ZttUZ_w" target="_blank" rel="noopener noreferrer">点击此处 → 下载获取</a>！</p>
 <h3 id="linux操作系统"> Linux操作系统</h3>
 <div>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/linuxos.qciprfz30dc.png" alt="常用本地软件" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/linuxos.qciprfz30dc.png" alt="Linux操作系统" /></p>
 </div>
 <div><p>警告</p>
 <p>实际企业级开发和项目部署，大部分情况下基本都是基于Linux环境进行的，所以掌握常用的命令、配置、网络和系统管理、基本的Shell编程等尽量还是要熟练一些，对后续项目实践都大有裨益。</p>
@@ -5587,7 +5533,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 </ul>
 <h3 id="版本控制工具"> 版本控制工具</h3>
 <div>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/gcm.1sv6s8asfzc0.jpeg" alt="常用本地软件" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/gcm.1sv6s8asfzc0.jpeg" alt="版本控制工具" /></p>
 </div>
 <ul>
 <li><a href="https://mp.weixin.qq.com/s/xDYSG4uDz9rgNCuk0RxLjg" target="_blank" rel="noopener noreferrer">资源下载 → 豆瓣9.1分的Pro Git学习手册YYDS！</a></li>
@@ -5604,7 +5550,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 </ul>
 <h3 id="ide-编辑器"> IDE/编辑器</h3>
 <div>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/ide.720nw0czwbs0.png" alt="常用本地软件" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/ide.720nw0czwbs0.png" alt="IDE/编辑器" /></p>
 </div>
 <ul>
 <li><a href="https://mp.weixin.qq.com/s/WQiHpAv4bjEIz3fghzamEA" target="_blank" rel="noopener noreferrer">IDEA 2021.2升级体验</a></li>
@@ -5621,7 +5567,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 </ul>
 <h3 id="api管理-文档管理"> API管理/文档管理</h3>
 <div>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/apidocs.2qlxsrvx2vy0.png" alt="常用本地软件" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/apidocs.2qlxsrvx2vy0.png" alt="API管理/文档管理" /></p>
 </div>
 <ul>
 <li><a href="https://mp.weixin.qq.com/s/Ahs6fnIfFVVPOn3NZpIsNA" target="_blank" rel="noopener noreferrer">科普篇：前后端都分离了，有哪些好用的API管理系统？</a></li>
@@ -5630,7 +5576,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 </ul>
 <h3 id="ci系统"> CI系统</h3>
 <div>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/ci.3iokn4xypxy0.png" alt="常用本地软件" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/Road2Coding/docs/_media/img/ci.3iokn4xypxy0.png" alt="CI系统" /></p>
 </div>
 <ul>
 <li><a href="https://mp.weixin.qq.com/s/PgoXJcJX_sm5132VGQoZ1w" target="_blank" rel="noopener noreferrer">常用CI工具大盘点</a></li>
@@ -6943,178 +6889,6 @@ proxy_set_header X-Forwarded-Proto $scheme;
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">微信聊天记录永久保存</title>
-    <id>/document/wx-dao-chu-liao-tian-ji-lu.html</id>
-    <link href="https://codenoob.top/document/wx-dao-chu-liao-tian-ji-lu.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[如何导出微信聊天记录并永久保存]]></summary>
-    <content type="html"><![CDATA[<h2 id="总有些记忆你想永久保留"> 总有些记忆你想永久保留</h2>
-<p>我是一个很念旧的人，头像昵称可以八九年不换，不是我不想接受新事物，我只是更想记住过去的自己。保存微信聊天记录这个想法由来已久，我和女朋友异地快两年了，每天都在使用微信，微信几乎承载着我们两个人的点点滴滴，所以我一直想把聊天记录保存下来，等到七老八十走不动道了的时候，拿出来看看，应该会很开心吧。</p>
-<p><strong>你觉得微信的聊天记录需要永久保存吗?</strong> 你会想着时隔多年，再拿出来看看曾经那个 <mark>活的热烈</mark> ，爱的热烈，痛的热烈的自己？欢迎在评论区留言哦~ 让我知道大家的想法哦~</p>
-<h2 id="效果"> 效果</h2>
-<p>先给大家看看效果，这是导出以后的效果哦~</p>
-<p><strong>注意，注意！ 这是个网页，不是微信哦，是不是做的很像。</strong></p>
-<p>导出聊天记录预览：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ccae7606730.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<p>所有的语音记录：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cccf41a4954.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<p>所有的图片记录：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ccd5ff75915.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<p>所有的视频记录：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ccd1f59485.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<blockquote>
-<p>我拿聊天记录做了词云。想知道怎么做词云的，人多的话，我试着写写教程，这难度可能对非程序员有点难。</p>
-</blockquote>
-<p>你们说，为啥会有这么多的皱眉呢？</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ccbc8dd73.jpg_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<h2 id="准备"> 准备</h2>
-<ol>
-<li>
-<p>一部聊天记录保存完好的手机</p>
-</li>
-<li>
-<p>一台ios设备（iPhone/ipad都可以），或者找别人借一下ipad嘛~</p>
-</li>
-<li>
-<p>一台性能不错的电脑</p>
-</li>
-<li>
-<p>下载微信聊天记录导出工具</p>
-</li>
-</ol>
-<h3 id="微信自己的聊天备份流程"> 微信自己的聊天备份流程</h3>
-<blockquote>
-<p>这个流程是微信自带的备份还原，想看如何导出的，请往下划哦。</p>
-</blockquote>
-<ol>
-<li>
-<p>电脑微信 与 手机微信同时登陆一个账号</p>
-</li>
-<li>
-<p>电脑端选择备份与恢复</p>
-</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ccb87379323.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<ol start="3">
-<li>备份至电脑</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cd488db606.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<ol start="4">
-<li>接着手机会出现弹窗</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cd77c267868.jpg_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<ol start="5">
-<li>选择某一个聊天人</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cd967261772.jpg_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<ol start="6">
-<li>接下来就是等待电脑和手机之间的传输啦~</li>
-</ol>
-<h3 id="微信聊天记录导出"> 微信聊天记录导出</h3>
-<p>我相信大家都更加关心的是如何导出微信聊天记录</p>
-<p>首先你需要一部<code>ios设备</code>，因为我们使用的程序只支持<code>ios</code>。我找了很久，安卓的上手难度都很大，且不太好用。（在<code>github</code>翻了好久我）</p>
-<p>如果你和我一样穷的话，可以找别人帮忙，将你手机的聊天记录先备份到人家的ios设备中（注意先把人家的记录备份一下，要不然你恐遭一顿毒打），然后再进行下面的流程。</p>
-<ol>
-<li>
-<p>下载人神共愤的iTunes在你的电脑上，并打开</p>
-</li>
-<li>
-<p>连接你ios设备</p>
-</li>
-<li>
-<p>在iTunes点击你的ios设备</p>
-</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cdc16864609.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cdbb8217496.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<ol start="4">
-<li>选择备份位置为【本电脑】 接着点击【立即备份】</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cdbb8217496.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<ol start="5">
-<li>
-<p>等待，这个备份过程还是稍稍有些缓慢的。</p>
-</li>
-<li>
-<p>解压下载好的微信聊天的工具包，并导出微信聊天记录 （需要等待备份完成）</p>
-</li>
-<li>
-<p>解压后的目录</p>
-</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cdf010c8274.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<ol start="8">
-<li>可以导出啦~</li>
-</ol>
-<p>将近9万多条记录啊，抛去打电话，每天要聊147句话呢~</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ce069633991.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<ol start="9">
-<li>导出后的文件夹 这其实就是个前端项目</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ce25bc04381.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<ol start="10">
-<li>双击一下 index.html，你就可以看到聊天记录的预览了（聊天记录多的话，会需要等待一会儿，莫急）</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ce409625345.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
-<ol start="11">
-<li>上传百度云 导出后，永久保存达成</li>
-</ol>
-<p><a href="http://wuhuoyuhui.cn/wechat.php" target="_blank" rel="noopener noreferrer">工具下载的超链接</a></p>
-<h2 id="世间所有的相遇-都是久别重逢"> 世间所有的相遇，都是久别重逢</h2>
-<p>我和女朋友是网恋，认识第二天就确立关系了，没想到却能磕磕绊绊的走到今天，如果那时那分，我们错过了，大概这辈子都不会有任何交集。</p>
-<p>过完春节，她就要来北京找我啦，微信上的聊天内容，可能也会有所改变，所以不如趁现在 保存一份，看看我俩谁才是家里真正的一家之主（肯定不是我QAQ）</p>
-<p>马上春节了，也快情人节了，接着就是女神节，如果想讨你恋人的欢心，不如把你们的点点滴滴都记录下来，送他/她一本“能边写边看的书”。</p>
-<p>这世上人那么多，相逢了，不论结果如何，总要留点纪念。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="文档"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-08-14T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">非常欢迎各位大佬交换友链QAQ~</title>
-    <id>/friends.html</id>
-    <link href="https://codenoob.top/friends.html"/>
-    <updated>2021-12-04T13:50:21.000Z</updated>
-    <summary type="html"><![CDATA[大家来一起交朋友啊！]]></summary>
-    <content type="html"><![CDATA[<h2 id="格式"> 格式</h2>
-<p>友链地址：<code>https://codenoob.top/</code>
-交换友链请在下方留言告诉我以下信息：</p>
-<div><pre><code>★ Name: CodeNoobs
-★ Desc: 编程菜鸟的自我修养
-★ Link: https://codenoob.top/
-★ Avatar: https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/image/AvatarMaker-y.png
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><p>格式</p>
-<ul>
-<li><code>name</code>: 最好不要太长，控制在八个中文字符宽度内</li>
-<li><code>desc</code>: 简单描述一下你的站点、或者你喜欢的句子</li>
-<li><code>link</code>: 站点链接</li>
-<li><code>avatar</code>: 你的头像链接或者网站首页图片，请确保它为圆形或正方形。</li>
-</ul>
-</div>
-<h2 id="注意"> 注意</h2>
-<p>网站头像请保证在外部可以直接打开的，为保证友链质量，申请的友链都将经过筛选，原则上已添加友链不会轻易删除，如遇死链、盗版、破解、网页植入挖矿脚本、极低质量内容、我站都将单方面移除贵站链接，恕不另行通知。
-<br/>
-<br/>
-<br/>
-<friends /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-18T06:47:23.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">WordPress编辑器中添加“上传到Chevereto图床”</title>
     <id>/document/wordpress-to-chevereto.html</id>
     <link href="https://codenoob.top/document/wordpress-to-chevereto.html"/>
@@ -7340,10 +7114,182 @@ function add_my_media_button() {
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">微信聊天记录永久保存</title>
+    <id>/document/wx-dao-chu-liao-tian-ji-lu.html</id>
+    <link href="https://codenoob.top/document/wx-dao-chu-liao-tian-ji-lu.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[如何导出微信聊天记录并永久保存]]></summary>
+    <content type="html"><![CDATA[<h2 id="总有些记忆你想永久保留"> 总有些记忆你想永久保留</h2>
+<p>我是一个很念旧的人，头像昵称可以八九年不换，不是我不想接受新事物，我只是更想记住过去的自己。保存微信聊天记录这个想法由来已久，我和女朋友异地快两年了，每天都在使用微信，微信几乎承载着我们两个人的点点滴滴，所以我一直想把聊天记录保存下来，等到七老八十走不动道了的时候，拿出来看看，应该会很开心吧。</p>
+<p><strong>你觉得微信的聊天记录需要永久保存吗?</strong> 你会想着时隔多年，再拿出来看看曾经那个 <mark>活的热烈</mark> ，爱的热烈，痛的热烈的自己？欢迎在评论区留言哦~ 让我知道大家的想法哦~</p>
+<h2 id="效果"> 效果</h2>
+<p>先给大家看看效果，这是导出以后的效果哦~</p>
+<p><strong>注意，注意！ 这是个网页，不是微信哦，是不是做的很像。</strong></p>
+<p>导出聊天记录预览：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ccae7606730.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<p>所有的语音记录：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cccf41a4954.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<p>所有的图片记录：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ccd5ff75915.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<p>所有的视频记录：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ccd1f59485.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<blockquote>
+<p>我拿聊天记录做了词云。想知道怎么做词云的，人多的话，我试着写写教程，这难度可能对非程序员有点难。</p>
+</blockquote>
+<p>你们说，为啥会有这么多的皱眉呢？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ccbc8dd73.jpg_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<h2 id="准备"> 准备</h2>
+<ol>
+<li>
+<p>一部聊天记录保存完好的手机</p>
+</li>
+<li>
+<p>一台ios设备（iPhone/ipad都可以），或者找别人借一下ipad嘛~</p>
+</li>
+<li>
+<p>一台性能不错的电脑</p>
+</li>
+<li>
+<p>下载微信聊天记录导出工具</p>
+</li>
+</ol>
+<h3 id="微信自己的聊天备份流程"> 微信自己的聊天备份流程</h3>
+<blockquote>
+<p>这个流程是微信自带的备份还原，想看如何导出的，请往下划哦。</p>
+</blockquote>
+<ol>
+<li>
+<p>电脑微信 与 手机微信同时登陆一个账号</p>
+</li>
+<li>
+<p>电脑端选择备份与恢复</p>
+</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ccb87379323.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<ol start="3">
+<li>备份至电脑</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cd488db606.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<ol start="4">
+<li>接着手机会出现弹窗</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cd77c267868.jpg_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<ol start="5">
+<li>选择某一个聊天人</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cd967261772.jpg_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<ol start="6">
+<li>接下来就是等待电脑和手机之间的传输啦~</li>
+</ol>
+<h3 id="微信聊天记录导出"> 微信聊天记录导出</h3>
+<p>我相信大家都更加关心的是如何导出微信聊天记录</p>
+<p>首先你需要一部<code>ios设备</code>，因为我们使用的程序只支持<code>ios</code>。我找了很久，安卓的上手难度都很大，且不太好用。（在<code>github</code>翻了好久我）</p>
+<p>如果你和我一样穷的话，可以找别人帮忙，将你手机的聊天记录先备份到人家的ios设备中（注意先把人家的记录备份一下，要不然你恐遭一顿毒打），然后再进行下面的流程。</p>
+<ol>
+<li>
+<p>下载人神共愤的iTunes在你的电脑上，并打开</p>
+</li>
+<li>
+<p>连接你ios设备</p>
+</li>
+<li>
+<p>在iTunes点击你的ios设备</p>
+</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cdc16864609.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cdbb8217496.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<ol start="4">
+<li>选择备份位置为【本电脑】 接着点击【立即备份】</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cdbb8217496.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<ol start="5">
+<li>
+<p>等待，这个备份过程还是稍稍有些缓慢的。</p>
+</li>
+<li>
+<p>解压下载好的微信聊天的工具包，并导出微信聊天记录 （需要等待备份完成）</p>
+</li>
+<li>
+<p>解压后的目录</p>
+</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74cdf010c8274.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<ol start="8">
+<li>可以导出啦~</li>
+</ol>
+<p>将近9万多条记录啊，抛去打电话，每天要聊147句话呢~</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ce069633991.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<ol start="9">
+<li>导出后的文件夹 这其实就是个前端项目</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ce25bc04381.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<ol start="10">
+<li>双击一下 index.html，你就可以看到聊天记录的预览了（聊天记录多的话，会需要等待一会儿，莫急）</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/5e1c74ce409625345.png_e600.jpg" alt="如何导出微信聊天记录并永久保存" /></p>
+<ol start="11">
+<li>上传百度云 导出后，永久保存达成</li>
+</ol>
+<p><a href="http://wuhuoyuhui.cn/wechat.php" target="_blank" rel="noopener noreferrer">工具下载的超链接</a></p>
+<h2 id="世间所有的相遇-都是久别重逢"> 世间所有的相遇，都是久别重逢</h2>
+<p>我和女朋友是网恋，认识第二天就确立关系了，没想到却能磕磕绊绊的走到今天，如果那时那分，我们错过了，大概这辈子都不会有任何交集。</p>
+<p>过完春节，她就要来北京找我啦，微信上的聊天内容，可能也会有所改变，所以不如趁现在 保存一份，看看我俩谁才是家里真正的一家之主（肯定不是我QAQ）</p>
+<p>马上春节了，也快情人节了，接着就是女神节，如果想讨你恋人的欢心，不如把你们的点点滴滴都记录下来，送他/她一本“能边写边看的书”。</p>
+<p>这世上人那么多，相逢了，不论结果如何，总要留点纪念。</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="文档"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-08-14T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">非常欢迎各位大佬交换友链QAQ~</title>
+    <id>/friends.html</id>
+    <link href="https://codenoob.top/friends.html"/>
+    <updated>2021-12-04T13:50:21.000Z</updated>
+    <summary type="html"><![CDATA[大家来一起交朋友啊！]]></summary>
+    <content type="html"><![CDATA[<h2 id="格式"> 格式</h2>
+<p>友链地址：<code>https://codenoob.top/</code>
+交换友链请在下方留言告诉我以下信息：</p>
+<div><pre><code>★ Name: CodeNoobs
+★ Desc: 编程菜鸟的自我修养
+★ Link: https://codenoob.top/
+★ Avatar: https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/image/AvatarMaker-y.png
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><p>格式</p>
+<ul>
+<li><code>name</code>: 最好不要太长，控制在八个中文字符宽度内</li>
+<li><code>desc</code>: 简单描述一下你的站点、或者你喜欢的句子</li>
+<li><code>link</code>: 站点链接</li>
+<li><code>avatar</code>: 你的头像链接或者网站首页图片，请确保它为圆形或正方形。</li>
+</ul>
+</div>
+<h2 id="注意"> 注意</h2>
+<p>网站头像请保证在外部可以直接打开的，为保证友链质量，申请的友链都将经过筛选，原则上已添加友链不会轻易删除，如遇死链、盗版、破解、网页植入挖矿脚本、极低质量内容、我站都将单方面移除贵站链接，恕不另行通知。
+<br/>
+<br/>
+<br/>
+<friends /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-18T06:47:23.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">Markdown高级技巧</title>
     <id>/guide/markdown-enhance.html</id>
     <link href="https://codenoob.top/guide/markdown-enhance.html"/>
-    <updated>2021-12-04T13:50:21.000Z</updated>
+    <updated>2021-12-06T05:59:26.000Z</updated>
     <summary type="html"><![CDATA[Markdown高级技巧]]></summary>
     <content type="html"><![CDATA[<h2 id="支持的-html-元素"> 支持的 HTML 元素</h2>
 <p>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
@@ -7500,7 +7446,7 @@ Note right of C: 没人陪我玩
     <title type="html">Markdown介绍</title>
     <id>/guide/markdown.html</id>
     <link href="https://codenoob.top/guide/markdown.html"/>
-    <updated>2021-12-04T13:50:21.000Z</updated>
+    <updated>2021-12-06T05:59:26.000Z</updated>
     <summary type="html"><![CDATA[Markdown介绍]]></summary>
     <content type="html"><![CDATA[<p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
 <p>Markdown的目标是实现「易读易写」。</p>
@@ -8439,7 +8385,7 @@ $$
     <title type="html">初接触指南</title>
     <id>/guide/tutorial.html</id>
     <link href="https://codenoob.top/guide/tutorial.html"/>
-    <updated>2021-12-04T13:50:21.000Z</updated>
+    <updated>2021-12-06T05:59:26.000Z</updated>
     <summary type="html"><![CDATA[初接触指南]]></summary>
     <content type="html"><![CDATA[<div><p>提示</p>
 <p>本教程是一个针对初接触者手把手教程。</p>
