@@ -6,8 +6,8 @@
     <link>https://codenoob.top/</link>
     <description>编程菜鸟的自我修养</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 06 Dec 2021 06:10:33 GMT</pubDate>
-    <lastBuildDate>Mon, 06 Dec 2021 06:10:33 GMT</lastBuildDate>
+    <pubDate>Mon, 06 Dec 2021 06:33:57 GMT</pubDate>
+    <lastBuildDate>Mon, 06 Dec 2021 06:33:57 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>ChouCong | Theme-Hope</copyright>
@@ -8483,36 +8483,6 @@ npm init vuepress-theme-hope docs
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>禁止新用户注册</title>
-      <link>https://codenoob.top/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html</guid>
-      <source url="https://codenoob.top/rss.xml">禁止新用户注册</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>默认情况下，任何可以访问您的实例的人都可以注册一个新帐户。要禁用此功能，请将 <code>SIGNUPS_ALLOWED</code> 环境变量设置为 <code>false</code>：</p>
-<div><pre><code>docker run -d --name bitwarden <span>\</span>
-  -e <span>SIGNUPS_ALLOWED</span><span>=</span>false <span>\</span>
-  -v /vw-data/:/data/ <span>\</span>
-  -p <span>80</span>:80 <span>\</span>
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，当<code>SIGNUPS_ALLOWED=false</code>时，<code>创建帐户</code>按钮仍将显示在网络密码管理 UI 中，但实际尝试创建帐户将导致错误消息。上游 Bitwarden 并非旨在允许禁用注册，因此无法轻松解决此问题。</p>
-<h2 id="禁用组织邀请"> 禁用组织邀请</h2>
-<p>即使<code>SIGNUPS_ALLOWED=false</code>，作为组织所有者或管理员的现有用户仍然可以邀请新用户。如果您也想禁用此功能，请参阅 <a href="./Disable-invitations.html">禁用邀请</a>。</p>
-<h2 id="限制某些电子邮件域的注册"> 限制某些电子邮件域的注册</h2>
-<p>您可以通过相应地设置<code>SIGNUPS_DOMAINS_WHITELIST</code>来限制注册到来自某些域的电子邮件地址。例如：</p>
-<ul>
-<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com</code>(单域)</li>
-<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com,example.net,example.org</code>(多个域)</li>
-</ul>
-<p>!&gt;  如果设置了<code>SIGNUPS_DOMAINS_WHITELIST</code>，则忽略<code>SIGNUPS_ALLOWED</code> 的值。</p>
-<p>您可能还想设置<code>SIGNUPS_VERIFY=true</code>，这需要在新注册的用户成功登录之前进行电子邮件验证。这将防止有人使用具有正确域的虚假电子邮件地址进行注册。</p>
-<h2 id="通过管理页面的邀请"> 通过管理页面的邀请</h2>
-<p>Vaultwarden 管理员可以通过 <a href="./Enabling-admin-page.html">启用管理页面</a> 邀请任何人，不管上述任何限制。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>禁用或覆盖Vault接口托管</title>
       <link>https://codenoob.top/projects/vaultwarden/Configuration/Disabling-or-overriding-the-Vault-interface-hosting.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Configuration/Disabling-or-overriding-the-Vault-interface-hosting.html</guid>
@@ -8554,6 +8524,36 @@ npm init vuepress-theme-hope docs
   vaultwarden/server:latest
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，该值必须包含 <code>https://</code>，并且在不使用 <code>443</code> 时，它可能会在末尾包含一个端口(格式为 <code>https://vw.domain.tld:port</code>)。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>禁止新用户注册</title>
+      <link>https://codenoob.top/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html</guid>
+      <source url="https://codenoob.top/rss.xml">禁止新用户注册</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>默认情况下，任何可以访问您的实例的人都可以注册一个新帐户。要禁用此功能，请将 <code>SIGNUPS_ALLOWED</code> 环境变量设置为 <code>false</code>：</p>
+<div><pre><code>docker run -d --name bitwarden <span>\</span>
+  -e <span>SIGNUPS_ALLOWED</span><span>=</span>false <span>\</span>
+  -v /vw-data/:/data/ <span>\</span>
+  -p <span>80</span>:80 <span>\</span>
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，当<code>SIGNUPS_ALLOWED=false</code>时，<code>创建帐户</code>按钮仍将显示在网络密码管理 UI 中，但实际尝试创建帐户将导致错误消息。上游 Bitwarden 并非旨在允许禁用注册，因此无法轻松解决此问题。</p>
+<h2 id="禁用组织邀请"> 禁用组织邀请</h2>
+<p>即使<code>SIGNUPS_ALLOWED=false</code>，作为组织所有者或管理员的现有用户仍然可以邀请新用户。如果您也想禁用此功能，请参阅 <a href="./Disable-invitations.html">禁用邀请</a>。</p>
+<h2 id="限制某些电子邮件域的注册"> 限制某些电子邮件域的注册</h2>
+<p>您可以通过相应地设置<code>SIGNUPS_DOMAINS_WHITELIST</code>来限制注册到来自某些域的电子邮件地址。例如：</p>
+<ul>
+<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com</code>(单域)</li>
+<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com,example.net,example.org</code>(多个域)</li>
+</ul>
+<p>!&gt;  如果设置了<code>SIGNUPS_DOMAINS_WHITELIST</code>，则忽略<code>SIGNUPS_ALLOWED</code> 的值。</p>
+<p>您可能还想设置<code>SIGNUPS_VERIFY=true</code>，这需要在新注册的用户成功登录之前进行电子邮件验证。这将防止有人使用具有正确域的虚假电子邮件地址进行注册。</p>
+<h2 id="通过管理页面的邀请"> 通过管理页面的邀请</h2>
+<p>Vaultwarden 管理员可以通过 <a href="./Enabling-admin-page.html">启用管理页面</a> 邀请任何人，不管上述任何限制。</p>
 ]]></content:encoded>
     </item>
     <item>
