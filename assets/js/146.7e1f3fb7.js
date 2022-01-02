@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[146],{345:function(t,e,s){"use strict";s.r(e);var n={props:{site:{type:Object,default:()=>({name:"",url:""})}}},i=s(1),r=Object(i.a)(n,(function(){var t=this.$createElement,e=this._self._c||t;return e("a",{attrs:{href:this.site.url}},[e("sub",[this._v(this._s(this.site.name))])])}),[],!1,null,null,null);e.default=r.exports}}]);
