@@ -6,8 +6,8 @@
     <link>https://codenoob.top/</link>
     <description>编程菜鸟的自我修养</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 20 Jan 2022 07:29:14 GMT</pubDate>
-    <lastBuildDate>Thu, 20 Jan 2022 07:29:14 GMT</lastBuildDate>
+    <pubDate>Thu, 20 Jan 2022 07:32:20 GMT</pubDate>
+    <lastBuildDate>Thu, 20 Jan 2022 07:32:20 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>ChouCong | Theme-Hope</copyright>
@@ -12345,29 +12345,6 @@ volumes:
 ]]></content:encoded>
     </item>
     <item>
-      <title>支持上游开发</title>
-      <link>https://codenoob.top/projects/vaultwarden/Other/Supporting-upstream.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Other/Supporting-upstream.html</guid>
-      <source url="https://codenoob.top/rss.xml">支持上游开发</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Vaultwarden 仅提供 API(服务器)端实现，因此用户仍然依赖上游的客户端。 (移动应用程序、桌面应用程序和 Web Vault)这是 8bit Solutions LLC 在上游完成的大量工作。</p>
-<p>同时 Vaultwarden 支持一些付费功能并免费提供这些功能。这引发了一些<a href="https://github.com/dani-garcia/vaultwarden/issues/331" target="_blank" rel="noopener noreferrer">关于维持和支持上游的问题</a> 开发。许多用户提出了这个问题，并询问他们如何在使用 Vaultwarden 时支持上游。</p>
-<h2 id="捐赠"> 捐赠</h2>
-<p>您可以通过<a href="https://www.paypal.me/bitwarden" target="_blank" rel="noopener noreferrer">PayPal</a>直接向上游开发捐款。</p>
-<h2 id="购买许可证"> 购买许可证</h2>
-<p>许多用户只是为他们的部署购买了合适的许可证，然后就不再使用了。这是一种捐赠，因为 Vaultwarden 不能以任何方式使用许可证。</p>
-<h2 id="帮助翻译应用程序"> 帮助翻译应用程序</h2>
-<p>每个应用程序都有 <a href="https://crowdin.com/profile/kspearrin" target="_blank" rel="noopener noreferrer">Crowdin 上的项目</a>。如果您精通英语以外的任何语言，则可以帮助翻译应用程序。</p>
-<h2 id="测试-报告客户端中的错误"> 测试，报告客户端中的错误</h2>
-<p><strong>请务必首先报告在此处发现的任何错误。</strong> 这些可能不是上游错误，而是我们的实现或您的配置中的错误。 <a href="https://github.com/dani-garcia/vaultwarden/issues/336" target="_blank" rel="noopener noreferrer">我们不想浪费 Kyle 的时间</a> 对第 3 方服务器的错误进行故障排除。</p>
-<p>在极少数情况下，上游存在错误，但在此阶段，我们将排除任何其他原因，并在上游服务器上确认错误。所以这里的要点是_不_报告上游的错误，而是在此处报告，即使您认为这是客户端问题。我们可以共同努力，看看问题出在哪里。</p>
-<h2 id="帮助社区中的其他用户"> 帮助社区中的其他用户</h2>
-<p>有很多新用户有时会在基本的东西上挣扎。帮助他们是支持项目的好方法。 (并发展社区)根据我在 Vaultwarden 社区的经验，很高兴看到人们在我回答他们的问题之前真正互相帮助 - 这节省了一些时间，而且我经常最终学到新东西。例如，有<a href="https://www.reddit.com/r/bitwarden" target="_blank" rel="noopener noreferrer">Reddit 上的Bitwarden 社区</a>，也有<a href="https://community.bitwarden.com/" target="_blank" rel="noopener noreferrer">官方论坛</a>。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>使私有 CA 和自签名证书兼容 Chrome</title>
       <link>https://codenoob.top/projects/vaultwarden/Other/Private-CA-and-self-signed-certs-that-work-with-Chrome.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Other/Private-CA-and-self-signed-certs-that-work-with-Chrome.html</guid>
@@ -12415,6 +12392,29 @@ DNS.2 = www.bitwarden.local
 <div><span>1</span><br></div></div><p>注意：截至 2019 年 4 月 iOS 13+ 和 macOS 15+，服务器证书的到期时间不能 &gt; 825，并且必须包含 ExtendedKeyUsage 扩展 <a href="https://support.apple.com/en-us/HT210176" target="_blank" rel="noopener noreferrer">https://support.apple.com/en-us/HT210176</a></p>
 <h3 id="将根证书和-bitwarden-证书添加到客户端计算机"> 将根证书和 bitwarden 证书添加到客户端计算机</h3>
 <p>如需参考，请参见此处：<a href="https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/" target="_blank" rel="noopener noreferrer">https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>支持上游开发</title>
+      <link>https://codenoob.top/projects/vaultwarden/Other/Supporting-upstream.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Other/Supporting-upstream.html</guid>
+      <source url="https://codenoob.top/rss.xml">支持上游开发</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Vaultwarden 仅提供 API(服务器)端实现，因此用户仍然依赖上游的客户端。 (移动应用程序、桌面应用程序和 Web Vault)这是 8bit Solutions LLC 在上游完成的大量工作。</p>
+<p>同时 Vaultwarden 支持一些付费功能并免费提供这些功能。这引发了一些<a href="https://github.com/dani-garcia/vaultwarden/issues/331" target="_blank" rel="noopener noreferrer">关于维持和支持上游的问题</a> 开发。许多用户提出了这个问题，并询问他们如何在使用 Vaultwarden 时支持上游。</p>
+<h2 id="捐赠"> 捐赠</h2>
+<p>您可以通过<a href="https://www.paypal.me/bitwarden" target="_blank" rel="noopener noreferrer">PayPal</a>直接向上游开发捐款。</p>
+<h2 id="购买许可证"> 购买许可证</h2>
+<p>许多用户只是为他们的部署购买了合适的许可证，然后就不再使用了。这是一种捐赠，因为 Vaultwarden 不能以任何方式使用许可证。</p>
+<h2 id="帮助翻译应用程序"> 帮助翻译应用程序</h2>
+<p>每个应用程序都有 <a href="https://crowdin.com/profile/kspearrin" target="_blank" rel="noopener noreferrer">Crowdin 上的项目</a>。如果您精通英语以外的任何语言，则可以帮助翻译应用程序。</p>
+<h2 id="测试-报告客户端中的错误"> 测试，报告客户端中的错误</h2>
+<p><strong>请务必首先报告在此处发现的任何错误。</strong> 这些可能不是上游错误，而是我们的实现或您的配置中的错误。 <a href="https://github.com/dani-garcia/vaultwarden/issues/336" target="_blank" rel="noopener noreferrer">我们不想浪费 Kyle 的时间</a> 对第 3 方服务器的错误进行故障排除。</p>
+<p>在极少数情况下，上游存在错误，但在此阶段，我们将排除任何其他原因，并在上游服务器上确认错误。所以这里的要点是_不_报告上游的错误，而是在此处报告，即使您认为这是客户端问题。我们可以共同努力，看看问题出在哪里。</p>
+<h2 id="帮助社区中的其他用户"> 帮助社区中的其他用户</h2>
+<p>有很多新用户有时会在基本的东西上挣扎。帮助他们是支持项目的好方法。 (并发展社区)根据我在 Vaultwarden 社区的经验，很高兴看到人们在我回答他们的问题之前真正互相帮助 - 这节省了一些时间，而且我经常最终学到新东西。例如，有<a href="https://www.reddit.com/r/bitwarden" target="_blank" rel="noopener noreferrer">Reddit 上的Bitwarden 社区</a>，也有<a href="https://community.bitwarden.com/" target="_blank" rel="noopener noreferrer">官方论坛</a>。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -13148,6 +13148,133 @@ https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
       <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
+      <title>Uniapp的学习手记</title>
+      <link>https://codenoob.top/tutorials/uniapp.html</link>
+      <guid isPermaLink="false">/tutorials/uniapp.html</guid>
+      <source url="https://codenoob.top/rss.xml">Uniapp的学习手记</source>
+      <description>Uniapp的学习手记</description>
+      <category>教程</category>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>说明</p>
+<p>基础+实战部分的文档 代码仓库</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>这个分类是uniapp的手记 希望能对你有所帮助</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
+]]></content:encoded>
+      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
+    </item>
+    <item>
+      <title>VPS 常用命令</title>
+      <link>https://codenoob.top/tutorials/vps-command.html</link>
+      <guid isPermaLink="false">/tutorials/vps-command.html</guid>
+      <source url="https://codenoob.top/rss.xml">VPS 常用命令</source>
+      <description>VPS 常用命令</description>
+      <category>教程</category>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="宝塔面板"> 宝塔面板</h2>
+<div><pre><code><span># centos</span>
+yum <span>install</span> -y <span>wget</span> <span>&amp;&amp;</span> <span>wget</span> -O install.sh http://download.bt.cn/install/install_6.0.sh <span>&amp;&amp;</span> <span>sh</span> install.sh
+
+<span># ubuntu/deepin</span>
+<span>wget</span> -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh <span>&amp;&amp;</span> <span>sudo</span> <span>bash</span> install.sh
+
+<span># debian</span>
+<span>wget</span> -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh <span>&amp;&amp;</span> <span>bash</span> install.sh
+
+<span># fedora</span>
+<span>wget</span> -O install.sh http://download.bt.cn/install/install_6.0.sh <span>&amp;&amp;</span> <span>bash</span> install.sh
+
+<span># 更新</span>
+<span>curl</span> http://download.bt.cn/install/update6.sh<span>|</span><span>bash</span>
+
+<span># 删除登录验证</span>
+<span>sed</span> -i <span>"s|if (bind_user == 'True') {|if (bind_user == 'REMOVED') {|g"</span> /www/server/panel/BTPanel/static/js/index.js
+<span>rm</span> -rf /www/server/panel/data/bind.pl
+<span># 还原绑定</span>
+<span>sed</span> -i <span>"s|if (bind_user == 'REMOVED') {|if (bind_user == 'True') {|g"</span> /www/server/panel/BTPanel/static/js/index.js
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div><h2 id="bbr-加速"> BBR 加速</h2>
+<div><pre><code><span>wget</span> --no-check-certificate -O tcp.sh https://github.com/cx9208/Linux-NetSpeed/raw/master/tcp.sh <span>&amp;&amp;</span> <span>chmod</span> +x tcp.sh <span>&amp;&amp;</span> ./tcp.sh
+
+<span>wget</span> -O tcp.sh mcnb.top/tcp.sh <span>&amp;&amp;</span> <span>bash</span> tcp.sh
+
+<span>wget</span> <span>"https://dt.yixiagege.cn/shell/TCP-CN.sh"</span> <span>&amp;&amp;</span> <span>chmod</span> +x TCP-CN.sh <span>&amp;&amp;</span> ./TCP-CN.sh
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="回程路由"> 回程路由</h2>
+<div><pre><code><span>wget</span> https://raw.githubusercontent.com/nanqinlang-script/testrace/master/testrace.sh
+<span>bash</span> testrace.sh
+
+<span>bash</span> <span>&lt;</span><span>(</span><span>curl</span> -sL mcnb.top/besttcp.sh<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="测速"> 测速</h2>
+<div><pre><code><span># SuperBench</span>
+<span>wget</span> -qO- --no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh <span>|</span> <span>bash</span>
+<span>curl</span> -Lso- -no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh <span>|</span> <span>bash</span>
+
+<span># Zbench</span>
+<span>wget</span> -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench-CN.sh <span>&amp;&amp;</span> <span>bash</span> ZBench-CN.sh
+<span>wget</span> -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh <span>&amp;&amp;</span> <span>bash</span> ZBench.sh
+
+<span># SuperSpeed</span>
+<span>bash</span> <span>&lt;</span><span>(</span><span>curl</span> -Lso- https://git.io/superspeed<span>)</span>
+
+<span># LemonBench</span>
+<span>curl</span> -fsL https://ilemonra.in/LemonBenchIntl <span>|</span> <span>bash</span> -s fast
+
+<span># 91yun</span>
+<span>wget</span> -N --no-check-certificate https://raw.githubusercontent.com/91yun/91yuntest/master/test.sh <span>&amp;&amp;</span> <span>bash</span> test.sh -i <span>"io,bandwidth,chinabw,download,traceroute,backtraceroute,allping"</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div><h2 id="更改-ssh-端口"> 更改 SSH 端口</h2>
+<div><pre><code><span># 备份</span>
+<span>cp</span> /etc/ssh/sshd_config /etc/ssh/sshd_config.backup
+<span># 更改端口</span>
+<span>vim</span> /etc/ssh/sshd_config
+<span># 重启服务</span>
+systemctl restart sshd
+<span># 设置防火墙</span>
+<span># firewall</span>
+firewall-cmd --permanent --zone<span>=</span>public --add-port<span>=</span>xxxx/tcp
+firewall-cmd --reload
+<span># iptables</span>
+iptables -A INPUT -p tcp --dport xxxx -j ACCEPT 
+<span>service</span> iptables save 
+systemctl <span>enable</span> iptables
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><h2 id="一键安装-file2ban"> 一键安装 File2Ban</h2>
+<div><pre><code><span># 安装</span>
+<span>wget</span> https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/fail2ban.sh
+<span>bash</span> fail2ban.sh
+<span># 卸载</span>
+<span>wget</span> https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/uninstall.sh
+<span>bash</span> uninstall.sh
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h2 id="brook-中转"> Brook 中转</h2>
+<div><pre><code><span>wget</span> -N --no-check-certificate https://zhujiget.com/wp-content/uploads/2020/brook-pf.sh <span>&amp;&amp;</span> <span>chmod</span> +x brook-pf.sh <span>&amp;&amp;</span> ./brook-pf.sh
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="添加-swap-分区"> 添加 Swap 分区</h2>
+<div><pre><code><span>wget</span> https://www.moerats.com/usr/shell/swap.sh <span>&amp;&amp;</span> <span>bash</span> swap.sh
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="buyvm-挂载存储块"> buyvm 挂载存储块</h2>
+<div><pre><code><span># 查询存储块ID</span>
+<span>ls</span> /dev/disk/by-id/
+<span># 格式化硬盘</span>
+mkfs.ext4 -F /dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx
+<span># 创建挂载点</span>
+<span>mkdir</span> /mnt/pan
+<span># 挂载硬盘</span>
+<span>mount</span> -o discard,defaults /dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx /mnt/pan
+<span># 开机自动挂载</span>
+<span>echo</span> <span>'/dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx /mnt/pan ext4 defaults,nofail,discard 0 0'</span> <span>|</span> <span>sudo</span> <span>tee</span> -a /etc/fstab
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><h2 id="一键查询主机是否解锁-netflix"> 一键查询主机是否解锁 Netflix</h2>
+<div><pre><code><span>bash</span> <span>&lt;</span><span>(</span><span>curl</span> -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh<span>)</span>
+</code></pre>
+<div><span>1</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>初识TypeScript</title>
       <link>https://codenoob.top/tutorials/typescript.html</link>
       <guid isPermaLink="false">/tutorials/typescript.html</guid>
@@ -13785,133 +13912,6 @@ jim<span>.</span><span>log</span><span>(</span><span>)</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br><span>105</span><br><span>106</span><br><span>107</span><br><span>108</span><br><span>109</span><br><span>110</span><br></div></div>]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225245-454354.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Uniapp的学习手记</title>
-      <link>https://codenoob.top/tutorials/uniapp.html</link>
-      <guid isPermaLink="false">/tutorials/uniapp.html</guid>
-      <source url="https://codenoob.top/rss.xml">Uniapp的学习手记</source>
-      <description>Uniapp的学习手记</description>
-      <category>教程</category>
-      <pubDate>Tue, 06 Oct 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>说明</p>
-<p>基础+实战部分的文档 代码仓库</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>这个分类是uniapp的手记 希望能对你有所帮助</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
-]]></content:encoded>
-      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
-    </item>
-    <item>
-      <title>VPS 常用命令</title>
-      <link>https://codenoob.top/tutorials/vps-command.html</link>
-      <guid isPermaLink="false">/tutorials/vps-command.html</guid>
-      <source url="https://codenoob.top/rss.xml">VPS 常用命令</source>
-      <description>VPS 常用命令</description>
-      <category>教程</category>
-      <pubDate>Thu, 16 Jul 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="宝塔面板"> 宝塔面板</h2>
-<div><pre><code><span># centos</span>
-yum <span>install</span> -y <span>wget</span> <span>&amp;&amp;</span> <span>wget</span> -O install.sh http://download.bt.cn/install/install_6.0.sh <span>&amp;&amp;</span> <span>sh</span> install.sh
-
-<span># ubuntu/deepin</span>
-<span>wget</span> -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh <span>&amp;&amp;</span> <span>sudo</span> <span>bash</span> install.sh
-
-<span># debian</span>
-<span>wget</span> -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh <span>&amp;&amp;</span> <span>bash</span> install.sh
-
-<span># fedora</span>
-<span>wget</span> -O install.sh http://download.bt.cn/install/install_6.0.sh <span>&amp;&amp;</span> <span>bash</span> install.sh
-
-<span># 更新</span>
-<span>curl</span> http://download.bt.cn/install/update6.sh<span>|</span><span>bash</span>
-
-<span># 删除登录验证</span>
-<span>sed</span> -i <span>"s|if (bind_user == 'True') {|if (bind_user == 'REMOVED') {|g"</span> /www/server/panel/BTPanel/static/js/index.js
-<span>rm</span> -rf /www/server/panel/data/bind.pl
-<span># 还原绑定</span>
-<span>sed</span> -i <span>"s|if (bind_user == 'REMOVED') {|if (bind_user == 'True') {|g"</span> /www/server/panel/BTPanel/static/js/index.js
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div><h2 id="bbr-加速"> BBR 加速</h2>
-<div><pre><code><span>wget</span> --no-check-certificate -O tcp.sh https://github.com/cx9208/Linux-NetSpeed/raw/master/tcp.sh <span>&amp;&amp;</span> <span>chmod</span> +x tcp.sh <span>&amp;&amp;</span> ./tcp.sh
-
-<span>wget</span> -O tcp.sh mcnb.top/tcp.sh <span>&amp;&amp;</span> <span>bash</span> tcp.sh
-
-<span>wget</span> <span>"https://dt.yixiagege.cn/shell/TCP-CN.sh"</span> <span>&amp;&amp;</span> <span>chmod</span> +x TCP-CN.sh <span>&amp;&amp;</span> ./TCP-CN.sh
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="回程路由"> 回程路由</h2>
-<div><pre><code><span>wget</span> https://raw.githubusercontent.com/nanqinlang-script/testrace/master/testrace.sh
-<span>bash</span> testrace.sh
-
-<span>bash</span> <span>&lt;</span><span>(</span><span>curl</span> -sL mcnb.top/besttcp.sh<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="测速"> 测速</h2>
-<div><pre><code><span># SuperBench</span>
-<span>wget</span> -qO- --no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh <span>|</span> <span>bash</span>
-<span>curl</span> -Lso- -no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh <span>|</span> <span>bash</span>
-
-<span># Zbench</span>
-<span>wget</span> -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench-CN.sh <span>&amp;&amp;</span> <span>bash</span> ZBench-CN.sh
-<span>wget</span> -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh <span>&amp;&amp;</span> <span>bash</span> ZBench.sh
-
-<span># SuperSpeed</span>
-<span>bash</span> <span>&lt;</span><span>(</span><span>curl</span> -Lso- https://git.io/superspeed<span>)</span>
-
-<span># LemonBench</span>
-<span>curl</span> -fsL https://ilemonra.in/LemonBenchIntl <span>|</span> <span>bash</span> -s fast
-
-<span># 91yun</span>
-<span>wget</span> -N --no-check-certificate https://raw.githubusercontent.com/91yun/91yuntest/master/test.sh <span>&amp;&amp;</span> <span>bash</span> test.sh -i <span>"io,bandwidth,chinabw,download,traceroute,backtraceroute,allping"</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div><h2 id="更改-ssh-端口"> 更改 SSH 端口</h2>
-<div><pre><code><span># 备份</span>
-<span>cp</span> /etc/ssh/sshd_config /etc/ssh/sshd_config.backup
-<span># 更改端口</span>
-<span>vim</span> /etc/ssh/sshd_config
-<span># 重启服务</span>
-systemctl restart sshd
-<span># 设置防火墙</span>
-<span># firewall</span>
-firewall-cmd --permanent --zone<span>=</span>public --add-port<span>=</span>xxxx/tcp
-firewall-cmd --reload
-<span># iptables</span>
-iptables -A INPUT -p tcp --dport xxxx -j ACCEPT 
-<span>service</span> iptables save 
-systemctl <span>enable</span> iptables
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><h2 id="一键安装-file2ban"> 一键安装 File2Ban</h2>
-<div><pre><code><span># 安装</span>
-<span>wget</span> https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/fail2ban.sh
-<span>bash</span> fail2ban.sh
-<span># 卸载</span>
-<span>wget</span> https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/uninstall.sh
-<span>bash</span> uninstall.sh
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h2 id="brook-中转"> Brook 中转</h2>
-<div><pre><code><span>wget</span> -N --no-check-certificate https://zhujiget.com/wp-content/uploads/2020/brook-pf.sh <span>&amp;&amp;</span> <span>chmod</span> +x brook-pf.sh <span>&amp;&amp;</span> ./brook-pf.sh
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="添加-swap-分区"> 添加 Swap 分区</h2>
-<div><pre><code><span>wget</span> https://www.moerats.com/usr/shell/swap.sh <span>&amp;&amp;</span> <span>bash</span> swap.sh
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="buyvm-挂载存储块"> buyvm 挂载存储块</h2>
-<div><pre><code><span># 查询存储块ID</span>
-<span>ls</span> /dev/disk/by-id/
-<span># 格式化硬盘</span>
-mkfs.ext4 -F /dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx
-<span># 创建挂载点</span>
-<span>mkdir</span> /mnt/pan
-<span># 挂载硬盘</span>
-<span>mount</span> -o discard,defaults /dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx /mnt/pan
-<span># 开机自动挂载</span>
-<span>echo</span> <span>'/dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx /mnt/pan ext4 defaults,nofail,discard 0 0'</span> <span>|</span> <span>sudo</span> <span>tee</span> -a /etc/fstab
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><h2 id="一键查询主机是否解锁-netflix"> 一键查询主机是否解锁 Netflix</h2>
-<div><pre><code><span>bash</span> <span>&lt;</span><span>(</span><span>curl</span> -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh<span>)</span>
-</code></pre>
-<div><span>1</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>vue快速入门教程发布啦</title>

@@ -22,7 +22,13 @@ export default [
       "desc": "Like tears in rain", 
       "link": "https://irr.ink", 
       "avatar": "https://irr.ink/logo.jpg"   
-    }
+    },
+    {
+      "name": "道道里", 
+      "desc": "宇宙真的好谦虚啊，明明拥有一切，却叫太空", 
+      "link": "https://daodaolee.cn/", 
+      "avatar": "https://daodaolee.cn/avatar.png"   
+    } 
     /*{
       "name": "約束の明日へ",
       "link": "https://asuhe.jp",
