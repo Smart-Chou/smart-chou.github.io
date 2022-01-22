@@ -318,24 +318,24 @@ module.exports = config({
 
 我之所以喜欢这个主题，是因为它对于新手很友好，它提供了现成的模板直接使用即可，我们只要在他的基础上修改就可以了
 
-<CodeGroup>
+:::: code-group
 
-<CodeGroupItem title="yarn">
+::: code-group-item yarn
 
 ```bash
 yarn create vuepress-theme-hope <dir>
 ```
 
-</CodeGroupItem>
+:::
 
-<CodeGroupItem title="npm" active>
+::: code-group-item npm
 
 ```bash
 npm init vuepress-theme-hope <dir>
 ```
 
-</CodeGroupItem>
-</CodeGroup>
+:::
+::::
 
 怎么样是不是很简单！
 

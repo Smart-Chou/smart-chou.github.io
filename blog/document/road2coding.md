@@ -59,8 +59,8 @@ star: true
 
 ---
 
-<CodeGroup >
-<CodeGroupItem title="Java后端开发">
+::::: code-group
+:::: code-group-item Java后端开发
 <br>
 <iframe
   :src="$withBase('https://codenoob.top/Road2Coding/_media/pdf/jawa.pdf')"
@@ -76,8 +76,8 @@ star: true
 详情链接 **→** [《Java后端开发学习路线+知识点大梳理》](https://mp.weixin.qq.com/s/rAoamIey7cARMES7kfIaLw)
 :::
 
-</CodeGroupItem>
-<CodeGroupItem title="前端开发">
+::::
+:::: code-group-item 前端开发
 <br>
 <iframe
   :src="$withBase('https://codenoob.top/Road2Coding/_media/pdf/front.pdf')"
@@ -93,8 +93,8 @@ star: true
 详情链接 **→** [《前端开发学习路线+知识点大梳理》](https://mp.weixin.qq.com/s/_8lvpPDArM_Z-MI9iul1AA)
 :::
 
-</CodeGroupItem>
-<CodeGroupItem title="大数据开发">
+::::
+:::: code-group-item 大数据开发
 <br>
 <iframe
   :src="$withBase('https://codenoob.top/Road2Coding/_media/pdf/bigdata.pdf')"
@@ -110,8 +110,8 @@ star: true
 详情链接 **→** [《大数据开发学习路线+知识点大梳理》](https://mp.weixin.qq.com/s/dm2Qm4zZhHxEvcFgNS_mrA)
 :::
 
-</CodeGroupItem>
-<CodeGroupItem title="嵌入式开发">
+::::
+:::: code-group-item 嵌入式开发
 <br>
 <iframe
   :src="$withBase('https://codenoob.top/Road2Coding/_media/pdf/embed.pdf')"
@@ -127,8 +127,8 @@ star: true
 详情链接 **→** [《嵌入式开发学习路线+知识点大梳理》](https://mp.weixin.qq.com/s/AJqbhz3InV3G8TVjTHn6dg)
 :::
 
-</CodeGroupItem>
-<CodeGroupItem title="C/C++后台开发">
+::::
+:::: code-group-item C/C++后台开发
 <br>
 <iframe
   :src="$withBase('https://codenoob.top/Road2Coding/_media/pdf/c.pdf')"
@@ -144,15 +144,15 @@ star: true
 详情链接 **→** [《C/C++（偏后台）开发学习路线+知识点大梳理》](https://mp.weixin.qq.com/s/tXilzUzN7cDhnc3ztw4Vlw)
 :::
 
-</CodeGroupItem>
-<CodeGroupItem title="网络安全方向">
+::::
+:::: code-group-item 网络安全方向
 
 ::: tip
 详情链接 **→** [《网络安全方向学习路线+知识点大梳理》](https://mp.weixin.qq.com/s/pPs5Gm9I3a6-nMZQ42kaWg)
 :::
 
-</CodeGroupItem>
-</CodeGroup >
+::::
+:::::
 
 ## 常用编程软件和工具
 
@@ -191,8 +191,8 @@ star: true
 
 ### **一块放不下，分成两块**
 
-<CodeGroup >
-<CodeGroupItem title="在线画图工具">
+:::: code-group
+::: code-group-item 在线画图工具
 <br>
 
 程序员经常接触的无非也就是流程图、思维导图、原型图、UML图、网络拓扑图、组织结构图等等这些。
@@ -204,8 +204,8 @@ star: true
 - [在线思维导图工具MindLine](http://www.mindline.cn/webapp)
 - [PlantUML在线编辑器](http://haha98k.com/)
 
-</CodeGroupItem>
-<CodeGroupItem title="在线编解码工具">
+:::
+::: code-group-item 在线编解码工具
 <br>
 
 - [BASE64编解码工具](https://base64.supfree.net/)
@@ -218,8 +218,8 @@ star: true
 - [字符串编解码工具](https://www.zxgj.cn/g/enstring)
 - [URL编解码工具](http://tool.chinaz.com/tools/urlencode.aspx?jdfwkey=lbixz1)
 
-</CodeGroupItem>
-<CodeGroupItem title="在线转换工具">
+:::
+::: code-group-item 在线转换工具
 <br>
 
 - [在线ASCII码对照表](http://www.fly63.com/tool/ascii/)
@@ -235,31 +235,31 @@ star: true
 - [JSON/YAML在线转换](http://www.fly63.com/tool/jsonyaml/)
 - [人民币大小写转换工具](http://www.fly63.com/tool/renmingbi/)
 
-</CodeGroupItem>
-<CodeGroupItem title="正则表达式工具">
+:::
+::: code-group-item 正则表达式工具
 <br>
 
 - [正则表达式调试工具](https://regexr.com/)
 - [正则表达式可视化工具](https://jex.im/regulex/)
 
-</CodeGroupItem>
-<CodeGroupItem title="网络工具">
+:::
+::: code-group-item 网络工具
 <br>
 
 - [IP地址归属地查询](https://www.ip138.com/)
 - [IP地址查询](https://www.ipip.net/ip.html)
 - [HTTP在线接口测试工具](http://www.fly63.com/php/http/)
 
-</CodeGroupItem>
-<CodeGroupItem title="在线编译运行工具">
+:::
+::: code-group-item 在线编译运行工具
 <br>
 
 - [C#在线编译运行](https://rextester.com/)
 - [C/C++在线编译调试](https://www.onlinegdb.com/)
 - [在线编译工具套装](https://c.runoob.com/)
 
-</CodeGroupItem>
-<CodeGroupItem title="可视化/格式化工具">
+:::
+::: code-group-item 可视化/格式化工具
 <br>
 
 - [在线前端编辑器](https://codepen.io/)
@@ -272,18 +272,18 @@ star: true
 - [JSON和XML在线转换](https://www.zxgj.cn/g/jsonxml)
 - [JSON/YAML在线转换](http://www.fly63.com/tool/jsonyaml/)
 
-</CodeGroupItem>
-<CodeGroupItem title="在线生成器">
+:::
+::: code-group-item 在线生成器
 <br>
 
 - [UUID在线生成器](https://www.zxgj.cn/g/uuid)
 - [随机数生成器](https://www.zxgj.cn/g/suijishu)
 
-</CodeGroupItem>
-</CodeGroup >
+:::
+::::
 
-<CodeGroup >
-<CodeGroupItem title="其他常用在线开发相关工具">
+:::: code-group
+::: code-group-item 其他常用在线开发相关工具
 <br>
 
 - [在线Nginx配置工具](https://nginxconfig.io/)
@@ -291,8 +291,8 @@ star: true
 - [在线Chrome浏览器插件](https://www.crx4chrome.com/)
 - [在线接口文档管理工具](http://www.docway.net/)
 
-</CodeGroupItem>
-<CodeGroupItem title="在线素材工具">
+:::
+::: code-group-item 在线素材工具
 <br>
 
 如果你也写文章，或者做视频，那就一定少不了要找素材，包括各种图片、背景、emoji表情、表情包、壁纸、视频、gif图等等。
@@ -313,8 +313,8 @@ star: true
 - [Pexels图片素材库](http://www.pexels.com)
 - [NASA图片视频素材库](https://images.nasa.gov)
 
-</CodeGroupItem>
-<CodeGroupItem title="设计制作类工具">
+:::
+::: code-group-item 设计制作类工具
 <br>
 
 对于那些文章创作者和视频创作者而言，设计封面，做海报，设计LOGO，图片美化等等基本也是刚需。
@@ -338,8 +338,8 @@ star: true
 - [二维码在线生成器](http://www.fly63.com/tool/ewm/)
 - [二维码在线解码](http://www.fly63.com/php/decoder/)
 
-</CodeGroupItem>
-<CodeGroupItem title="写作辅助工具">
+:::
+::: code-group-item 写作辅助工具
 <br>
 
 在我写文章的过程中经常会用到和写作相关的辅助工具，比方说：字数统计工具、Markdown格式的文章排版工具、图床网站、代码截图工具等等，所以下面这些在线工具就能很好地满足我的需求。
@@ -354,8 +354,8 @@ star: true
 - [在线短链接工具](https://urlify.cn/)
 - [在线文本替换](http://www.fly63.com/tool/textreplace/)
 
-</CodeGroupItem>
-<CodeGroupItem title="在线办公工具">
+:::
+::: code-group-item 在线办公工具
 <br>
 
 这部分在线工具主要用来处理一些和文档以及文稿相关的事情，经常用到的比如：在线的全套pdf处理和转换工具、各种各样多媒体文件间的相互转换工具、在线识别工具、在线压缩工具等等。
@@ -367,8 +367,8 @@ star: true
 - [在线文字识别工具](https://ocr.wdku.net/)
 - [在线文件压缩工具](https://docsmall.com/)
 
-</CodeGroupItem>
-<CodeGroupItem title="文档笔记工具">
+:::
+::: code-group-item 文档笔记工具
 <br>
 
 好记性不如烂笔头，作为一个学习者，我觉得记笔记是必不可少的步骤。当然现在基本都做电子笔记和电子文档比较多。
@@ -384,8 +384,8 @@ star: true
 - [Simplenote](https://simplenote.com/)
 - [语雀](https://www.yuque.com/)
 
-</CodeGroupItem>
-<CodeGroupItem title="编程学习网">
+:::
+::: code-group-item 编程学习网
 <br>
 
 - [哔哩哔哩](https://www.bilibili.com/)
@@ -403,8 +403,8 @@ star: true
 - [LeetCode](https://leetcode-cn.com/)
 - [LintCode](https://www.lintcode.com/)
 
-</CodeGroupItem>
-<CodeGroupItem title="在线教程和文档">
+:::
+::: code-group-item 在线教程和文档
 <br>
 
 这部分主要集中了我在做开发过程中随手参考所要用到的几乎所有在线教程和官方文档，有中文版文档的我基本都优先列出来了，但更多时候是英文的官方文档。
@@ -437,8 +437,8 @@ star: true
 - [React.js官方文档](https://reactjs.org/docs/getting-started.html)
 - [Jenkins中文文档](https://www.jenkins.io/zh/doc/)
 
-</CodeGroupItem>
-</CodeGroup >
+:::
+::::
 
 ### 常用本地软件
 
@@ -1221,8 +1221,8 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 所以该板块会持续甄选和更新互联网上那些优秀的、值得反复观看的技术视频教程。
 :::
 
-<CodeGroup >
-<CodeGroupItem title="数据结构和算法">
+:::: code-group
+::: code-group-item 数据结构和算法
 <br>
 
 - 《郝斌 数据结构入门》
@@ -1273,8 +1273,8 @@ frameborder="0"
 sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 />
 
-</CodeGroupItem >
-<CodeGroupItem title="计算机网络">
+:::
+::: code-group-item 计算机网络
 <br>
 
 - 《计算机网络微课堂》
@@ -1325,8 +1325,8 @@ frameborder="0"
 sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 />
 
-</CodeGroupItem >
-<CodeGroupItem title="操作系统">
+:::
+::: code-group-item 操作系统
 <br>
 
 - 《2020 南京大学  操作系统：设计与实现 (蒋炎岩) 》
@@ -1353,8 +1353,8 @@ frameborder="0"
 sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 />
 
-</CodeGroupItem >
-<CodeGroupItem title="计算机组成原理">
+:::
+::: code-group-item 计算机组成原理
 <br>
 
 - 《计算机组成原理（哈工大刘宏伟）》
@@ -1369,8 +1369,8 @@ frameborder="0"
 sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 />
 
-</CodeGroupItem >
-<CodeGroupItem title="编译原理">
+:::
+::: code-group-item 编译原理
 <br>
 
 - 《编译原理（哈工大）》
@@ -1385,14 +1385,14 @@ frameborder="0"
 sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 />
 
-</CodeGroupItem >
-<CodeGroupItem title="更多敬请期待">
+:::
+::: code-group-item 更多敬请期待
 <br>
 
 - 更多的视频教程资源会持续更新，敬请期待
 
-</CodeGroupItem >
-</CodeGroup >
+:::
+::::
 
 ## 资源汇总和下载
 

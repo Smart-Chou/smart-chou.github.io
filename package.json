@@ -8,7 +8,8 @@
   "license": "MIT",
   "keywords": [
     "vuepress",
-    "personal-blog"
+    "CodeNoobs",
+    "菜鸟编程"
   ],
   "scripts": {
     "dev": "vuepress dev blog",
@@ -16,8 +17,8 @@
     "build": "vuepress build blog"
   },
   "dependencies": {
-    "vuepress": "1.9.5",
-    "vuepress-theme-hope": "1.23.0"
+    "vuepress": "^1.9.7",
+    "vuepress-theme-hope": "^1.27.0"
   },
   "resolutions": {
     "vue-router": "3.4.5"
