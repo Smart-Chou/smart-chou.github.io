@@ -6,7 +6,7 @@
   <author>
     <name>ChouCong</name>
   </author>
-  <updated>2022-01-22T15:55:21.250Z</updated>
+  <updated>2022-01-25T13:08:49.629Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://codenoob.top/atom.xml"/>
   <link rel="alternate" href="https://codenoob.top/"/>
@@ -152,176 +152,13 @@
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
-    <id>/code/loop.html</id>
-    <link href="https://codenoob.top/code/loop.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[SpringBoot实战项目]]></summary>
-    <content type="html"><![CDATA[<div><p>说明</p>
-<p>此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
-</div>
-<h2 id="前言"> 前言</h2>
-<p><a href="https://www.bilibili.com/video/BV1av4y1f7o1" target="_blank" rel="noopener noreferrer">视频教程</a></p>
-<p>观众朋友们大家好啊，我来填坑了，去年的时候我发了一些基础的视频，每次都说后面会出项目视频，但是每次都因为各种各样的原因耽搁了</p>
-<p>最近空闲的时间比较多，所以来把这个坑填了，本次的项目是根据我的所学知识和一些日常工作中的经验制作而成，因为时间的关系，这个项目从零开始，每制作一点就发一个视频，所以说这是一个具有很多不确定因素的计划，我也不是一个专业的培训老师，工作经验有限，希望大家多多担待，中途有错误或者大家有更好的思路可以一起讨论</p>
-<p>先说一下此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
-<p>PC端我们使用springboot、thymeleaf来制作混合页面
-管理端我们使用springboot、vue3（待定）来制作前后端分离项目
-移动端我们使用springboot、uniapp来制作前后端分离项目
-中途不限于使用模板引擎、缓存、权限管理、文件转换、消息队列、爬虫、搜索引擎等技术，这是一个相对完整的项目，并不是单纯的为了组装知识点而拼凑的项目，我们从实际业务出发，尽量给各位观众朋友们带来真实的、能够在工作中复用的知识</p>
-<p>此次的项目耗时是相对比较长的，并且是完全免费的，附带文档和源码，大家的三连就是对我最大的支持！</p>
-<h2 id="源码"> 源码</h2>
-<p><a href="https://github.com/lookroot/loop" target="_blank" rel="noopener noreferrer">GitHub</a>大家自取。</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="编程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-01-21T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">PHP还是世界上最好的语言吗</title>
-    <id>/code/php-history.html</id>
-    <link href="https://codenoob.top/code/php-history.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[PHP还是世界上最好的语言吗]]></summary>
-    <content type="html"><![CDATA[<div><p>感慨</p>
-<p>这两年越来越多唱衰php的，而且php的市场也越来越小</p>
-</div>
-<h2 id="梗"> 梗</h2>
-<p>php是世界是最好的语言吗？虽然说这是一个梗，但是事实上在web端曾经可以说的上是最好的语言，那么及时在现在，如果想快速搭建一个动态的网页项目，php也是快速落地的好方案，开发速度快，成熟的生态，大量的案例适合二开</p>
-<p>但是也仅仅是在web端</p>
-<h2 id="发展"> 发展</h2>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225707-955722.png" alt="#" /></p>
-<p>PHP最初是以模板+脚本的形式进行设计，在Java还是使用 system.out.println进行拼接动态网页的时候，php可以直接在页面中编写动态脚本，那么在web发展火热的时候，php也跟着火热起来</p>
-<p>有个段子说，你看在一直打开网页搜索的程序员一定是PHP程序员，其实是有道理的</p>
-<p>PHP能快速发展的一部分原因就是提供了大量的预定义函数，使得新人能够快速上手，好用是一方面，但是确实难记，加上早期的定义不规范，参数和方法名都很混乱，那么使得即使你是一个老手，还得看手册</p>
-<h2 id="变化"> 变化</h2>
-<p>随着后来web的快速发展，慢慢出现了大型的网页应用，移动应用，前后端分离应用</p>
-<p>PHP因为自身特性的原因，性能饱受诟病，在这个过程中</p>
-<p>大型的公司可能有能力解决，比如Facebook的php虚拟机HHVM，但是没有这个实力的公司只能重构，加上Java的后期发展迅速，很多就转向了Java的怀抱</p>
-<h2 id="现代化"> 现代化</h2>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225751-560178.png" alt="#" /></p>
-<p>后来PHP也出现了Laravel这样现代化的适合前后端分离的框架，还有swoole协程，加上php7性能上的提升，composer包的有效管理</p>
-<p>php是完全可以用来开发大型项目的，但是这个时候，大量的PHP开发人员已经流失了</p>
-<h2 id="处境"> 处境</h2>
-<p>那么在现在，仍然在使用PHP的，要吗就是已经有成熟的PHP开发体系的，有大量的遗留项目的大型公司，要吗就是追求速度的初创公司</p>
-<p>大型公司就不提了，被干了几年了大牛牢牢把控住</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225824-706429.png" alt="#" /></p>
-<p>那么在初创公司，其实PHP也是不顺利的，首先现在网页端的流量流失了</p>
-<p>很多公司要招会小程序，会跨平台的人，那么还得会php的能实际开发的人可以算的上是初级全栈了</p>
-<p>初创公司肯定是出不起这个价钱的，而且学php的新人越来越少了，这就行成了老手看不上，新手做不了的局面</p>
-<p>有钱一点目光远一点的初创公司会干脆就招个前端 招个Java后端把项目架构做的好一点，万一就是这个产品成功了还能使用长一点的时间</p>
-<p>剩下的一些初创公司就会选择转向云开发，反正业务也不多，数据量也不大，找个会node的前端就做了</p>
-<p>回到最初这个问题上来，现在还可不可以学习php，当然可以</p>
-<p>特别是要想回三四线城市工作的学历不好的同学，PHP在这些地方非常容易找到工作</p>
-<h2 id="学习的根本"> 学习的根本</h2>
-<p>但是我们剖析一下这个问题，提问可不可以学习php，完全是从就业这个方面来想得，但是认真想一下，学习php我们到底学习了什么东西</p>
-<p>算法和数据结构、面向对象，包括更多使用的Mysql、redis 、mongodb 、nginx，这些东西完完全全是通用的，那么使用php来操作和使用Java来操作无非是语言上的区别</p>
-<p>如果一个程序员一直在因为自己使用的语言会不会淘汰而忧虑，那么可以说你完全没有领悟到学习编程的精髓</p>
-<p>任何语言不过是需求最终落地的具体实现而已，当前场景最适合什么就上什么，我们最终要学会的只是解决问题的思路</p>
-<p>PHP曾经如此繁荣，肯定不会在短时间内就落寞的，很多初创公司使用php快速上线，来验证产品思路也是没毛病的</p>
-<p>php在国内的发展过程中，真的可以说是带活了中国的一大批草根站长走向致富，很多人编程水平并不是很好，但是因为有自己的思路也能实现获利</p>
-<p>反而是一些自认为学了很多新技术，很多新框架的人，每天加着班，却还在嘲笑使用旧技术的人， 才是真的井底之蛙，四川话来说：就是要不得完求了</p>
-<h2 id="道理归道理"> 道理归道理</h2>
-<p>但是对于初入门后端的同学来说，目前php可能不是你最好的入门语言，联合我上面的说法，就是php可以学，但是我不推荐将其作为后端的入门语言</p>
-<p>首先目前在国内前后端的分离趋势中使用php来作为纯后端的占比是非常低的，所以你必须要学一些其他的东西，对于你想深入后端这一领域不太友好</p>
-<p>其次PHP易上手，但是对于一个初学者来说很难体会到纯粹的从零到无这个过程，PHP发展最火热的那段时间，就是因为快速入门的初学者过多，导出代码水平的层次不齐，后期难以维护，这种弱类型的脚本语言对于新人的规范和理解并不是很好</p>
-<p>那么说到最后 我们这些小人物有什么资格去议论一个语言的兴衰呢？这些产物说到底还是资本角逐的结果，我们在这个过程中无非就是充当一个工具的角色</p>
-<p>学编程又何尝不是一个在学习做人的过程呢？</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="编程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-08-04T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">项目是怎么一步一步变复杂的</title>
-    <id>/code/project-step.html</id>
-    <link href="https://codenoob.top/code/project-step.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[项目是怎么一步一步变复杂的，为什么要学这么多，那是梦开始的地方]]></summary>
-    <content type="html"><![CDATA[<p>也可以说为什么我们学习的项目和真实的项目区别这么大，一个完整的项目你不用会所有的技术点，但是你最好搞懂为什么需要他们</p>
-<p>今天我们通过一个简单的<strong>留言板</strong>案例来一起探讨一下这些技术点，不论你是前端还是后端人员，都可以完整阅读</p>
-<h2 id="纯静态状态"> 纯静态状态</h2>
-<p>老板说需要一个简单的留言板应用，此时只需要它是一个装饰品，不需要真的留言功能，通过一个简单的<strong>文本标签</strong>就能实现</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/181623-178597.png" alt="#" /></p>
-<p>此时它过于简陋，为了使它更为美观，更良好的交互，我们会写一些简单的<strong>css</strong>样式和<strong>JavaScript</strong>代码来装饰它</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/181938-360419.png" alt="#" /></p>
-<p>如果我们要制作更多的这样的页面，为了节省时间，我们会在项目中引入 <strong>bootstrap</strong>UI样式和<strong>jquery</strong>库这样的工具来加速开发</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/182333-965613.png" alt="#" /></p>
-<p>老板说为了让我们的页面更为美观和友好，我们考虑请专业的设计人员通过 <strong>墨刀、pxcook</strong>等工具来进行设计和标注，再由前端人员进行代码实现</p>
-<p>此时我们需要在项目中使用 <strong>帧动画 、svg、canvas、webgl</strong>等技术来实现复杂的动效，样式很多我们使用了 less这类的css预处理器</p>
-<p>老板说我们的留言板项目受众非常广，所以需要还考虑<strong>不同浏览器的兼容性</strong></p>
-<p>老板说由于开发人员的增加，为了协同开发和管理代码，我们使用git来管理代码，使用gitlab来搭建一个私有的代码仓库</p>
-<p>为了提高用户打开网页的速度，我们将部分资源使用<strong>cdn</strong>进行加速</p>
-<h2 id="数据展示"> 数据展示</h2>
-<p>老板说我们需要在留言板的上面展示一些别人的留言，此时就需要和后端进行交互，此时我们还是原始的服务端渲染也就是前后端不分离状态，我们可以使使用<strong>Java的jsp、thymeleaf，php的smarty</strong>等技术来完成页面渲染</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/183516-233863.png" alt="#" /></p>
-<p>老板听别人说单页面应用，前后端分离的体验更为友好，为了实现前后端分离，我们的前端选择了<strong>vuejs框架</strong>来实现留言板</p>
-<p>vuejs的mvvm架构，通过数据绑定实现这个功能非常简单，为了页面的美观，我们使用 <strong>elementui 或者 vant</strong>来构建页面</p>
-<p>后端给我们说他们给我们的接口是 restful风格的，我们可以通过后端提供的 <strong>swagger</strong>接口文档来查看具体的请求方式，使用<strong>postman</strong>等工具来调试接口，使用<strong>axios或者umi-request</strong>的这种进一步封装的网络请求库来完成网络请求</p>
-<p>后端接口还没有写好的时候，我们也可以通过 <strong>mock</strong>来制造假数据来测试开发</p>
-<p>在这个过程中，前端项目的<strong>JavaScript和css</strong>代码越来越多，为了更好地管理它们，实现工程化开发，我们的前端项目使用 <strong>webpack</strong>进行打包和构建，我们发现 <strong>webpack</strong>还具有代码优化，自动添加浏览器兼容性代码，以及代码转化的功能</p>
-<p>为了更好地学习和使用 <strong>webpack</strong>，我们需要学习更多的关于 nodejs的知识，才能知道他是如何处理文件和网络请求的，当然了解这些设计，我们还需要一点设计模式的知识</p>
-<p>老板说，你们的项目够规模了，不管前后端，你们都需要先进行<strong>单元测试</strong>，然后再提交代码审核，测试人员会编写专门的Python脚本来<strong>自动化测试</strong></p>
-<p>突然老板说为啥我们前后端分离以后，有用户反映在百度搜索不到我们的应用，哦原来前后端分离对网页的<strong>SEO</strong>不太友好，我们前端考虑使用<strong>Nuxt.js</strong>来实现服务端渲染，或者使用<strong>Phantomjs</strong>来拦截爬虫</p>
-<p>有天老板说，我想了解一些我们的应用情况，像电影里面的那种很炫酷的数据展示屏，我们决定使用<strong>echart.js</strong>来完成报表</p>
-<p>老板又说能不能让用户打印出自己的留言数据呢？我们后端决定使用<strong>easyexcel</strong>来导出Excel数据，使用<strong>PDF Box</strong>来导出pdf数据</p>
-<p>此时我们的变更越来越频繁，部署环境越来越复杂，我们给项目引入了<strong>CI&amp;CD持续集成与持续部署</strong> 我们决定使用docker来部署，使用Sonar来检查代码， 使用Jenkins来持续集成，使用k8s来完成服务编排</p>
-<p>老板说，能不能把我们的网页弄成小程序，方便一下大家，我们考虑到小程序平台实在太多，我们人手不够，决定采用跨平台框架，因为我们是vue技术栈，我们选择了uniapp，还好我们是前后端分离，接口可以直接用</p>
-<h2 id="数据存储"> 数据存储</h2>
-<p>到如今我们的留言板是动态的了，原本是使用php来构建的后端服务，前后端分离后，我们发现Java更具优势，听老前辈们说，ssh过时了，ssm也不方便，使用springboot就更好了，我们使用maven来构建和打包后端项目</p>
-<p>原本我们的项目使用mysql来持久化存储我们的留言数据，使用 mybatis和springdatajpa来操作数据库，随着访问人数的增多，数据库扛不住，我们使用redis来缓存一下数据，并且我们的数据库要实现<strong>分库分表和读写分离</strong>。</p>
-<p>在网页中，为了体验的友好和减轻服务器压力，我们可以使用vuex和localstorage来将数据缓存在浏览器中</p>
-<p>为了防止有些用户乱点和爬虫脚本的操作，前端开发需要<strong>防抖和节流</strong>来控制用户的操作，后端可以通过redis来限制用户操作频率，当然我们也通过nginx来限制用户IP访问</p>
-<p>同时为了监测系统和用户操作，在页面中我们使用sentry来搭建前端监控服务 我们后端使用log4j或者logback来收集一下日志</p>
-<h2 id="数据安全"> 数据安全</h2>
-<p>如今我们的留言板是需要注册和登录的，前后端没有分离的时候，我们通过cookie和session来验证用户真实性，项目足够规格的时候，我们可以使用shiro和spring security这类安全框架来规定用户的操作</p>
-<p>前后端分离以后，我们可以使用token和jwt来验证用户的真实性</p>
-<p>后来老板说，我们这个留言板项目的账号，还可以用来登录我们公司旗下的聊天项目，就像微信一样可以授权很多平台的登录，此时我们可以考虑 <strong>oauth2和sso单点登录</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/124010-794256.png" alt="#" /></p>
-<p>为了安全访问，我们将http切换为https</p>
-<h2 id="大数据"> 大数据</h2>
-<p>我们的用户越来越多，留言越来越多，单机完全不能支撑这个服务了，老板说分布式可以解决这个问题，于是我们后端开始考虑是使用 springcloud还是dubbo zookeeper的方案，当然我们也会用nginx的<strong>负载均衡</strong></p>
-<p>老板又请了一个非常厉害的大牛加入项目组，他负责项目的<strong>迭代优化、架构设计和JVM调优</strong>，并且还通过 <strong>用户画像</strong>来推荐相关的热门留言</p>
-<p>老板说，我们的留言太多了，有些问题有人已经问过了，给页面添加一个搜索功能，此时我们的项目已经成规模了，再使用数据库的 like来进行搜索肯定是不行的，我们给系统加入<strong>文档搜索和中文分词</strong>，分词的好处就是你搜索的语句可能没有百分百相同的问题，但是可以通过你的问题中某些词来找到相类似的结果。 我们使用 elasticsearch、kibana来完成搜索项目的构建</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/121628-410094.png" alt="#" /></p>
-<p>用户在留言的时候，我们需要将留言存入搜索文档存储中，如果同步操作，有可能导致阻塞，我们使用消息队列来实现异步操作，我们使用 kafka、mq来发布消息，使用logstash来收集处理数据并传递给elasticsearch</p>
-<p>同时我们的后台日志也由elk来完成收集和处理</p>
-<h2 id="拓展"> 拓展</h2>
-<p>我们的留言板应用越来越大了，也诞生了很多周边应用，老板说，我们的应用能不能做出一个体系来，统一一下设计风格，就像阿里系和京东系那样的</p>
-<p>我们决定自己开发一套 UI库，基于vuejs，我们阅读了elementui的源码，参考他们的设计，设计了一个 lybui为了提升我们在业界的影响力，我们将UI开源，并且使用vuepress写了一个详细的文档</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="编程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-07-04T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">Java分阶段学习路线</title>
     <id>/code/java-study.html</id>
     <link href="https://codenoob.top/code/java-study.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[Java分阶段学习路线]]></summary>
-    <content type="html"><![CDATA[<h2 id="我的订阅号"> 我的订阅号</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="我的订阅号"> 我的订阅号</h2>
 <p>我开通订阅号啦！关注即可获得海量学习资料！</p>
 <p><img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
 <h2 id="希望你认真阅读"> 希望你认真阅读</h2>
@@ -618,12 +455,177 @@
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
+    <id>/code/loop.html</id>
+    <link href="https://codenoob.top/code/loop.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[SpringBoot实战项目]]></summary>
+    <content type="html"><![CDATA[<div><p>说明</p>
+<p>此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
+</div>
+<h2 id="前言"> 前言</h2>
+<p><a href="https://www.bilibili.com/video/BV1av4y1f7o1" target="_blank" rel="noopener noreferrer">视频教程</a></p>
+<p>观众朋友们大家好啊，我来填坑了，去年的时候我发了一些基础的视频，每次都说后面会出项目视频，但是每次都因为各种各样的原因耽搁了</p>
+<p>最近空闲的时间比较多，所以来把这个坑填了，本次的项目是根据我的所学知识和一些日常工作中的经验制作而成，因为时间的关系，这个项目从零开始，每制作一点就发一个视频，所以说这是一个具有很多不确定因素的计划，我也不是一个专业的培训老师，工作经验有限，希望大家多多担待，中途有错误或者大家有更好的思路可以一起讨论</p>
+<p>先说一下此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
+<p>PC端我们使用springboot、thymeleaf来制作混合页面
+管理端我们使用springboot、vue3（待定）来制作前后端分离项目
+移动端我们使用springboot、uniapp来制作前后端分离项目
+中途不限于使用模板引擎、缓存、权限管理、文件转换、消息队列、爬虫、搜索引擎等技术，这是一个相对完整的项目，并不是单纯的为了组装知识点而拼凑的项目，我们从实际业务出发，尽量给各位观众朋友们带来真实的、能够在工作中复用的知识</p>
+<p>此次的项目耗时是相对比较长的，并且是完全免费的，附带文档和源码，大家的三连就是对我最大的支持！</p>
+<h2 id="源码"> 源码</h2>
+<p><a href="https://github.com/lookroot/loop" target="_blank" rel="noopener noreferrer">GitHub</a>大家自取。</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="编程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-01-21T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">PHP还是世界上最好的语言吗</title>
+    <id>/code/php-history.html</id>
+    <link href="https://codenoob.top/code/php-history.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[PHP还是世界上最好的语言吗]]></summary>
+    <content type="html"><![CDATA[<div><p>感慨</p>
+<p>这两年越来越多唱衰php的，而且php的市场也越来越小</p>
+</div>
+<h2 id="梗"> 梗</h2>
+<p>php是世界是最好的语言吗？虽然说这是一个梗，但是事实上在web端曾经可以说的上是最好的语言，那么及时在现在，如果想快速搭建一个动态的网页项目，php也是快速落地的好方案，开发速度快，成熟的生态，大量的案例适合二开</p>
+<p>但是也仅仅是在web端</p>
+<h2 id="发展"> 发展</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225707-955722.png" alt="#" /></p>
+<p>PHP最初是以模板+脚本的形式进行设计，在Java还是使用 system.out.println进行拼接动态网页的时候，php可以直接在页面中编写动态脚本，那么在web发展火热的时候，php也跟着火热起来</p>
+<p>有个段子说，你看在一直打开网页搜索的程序员一定是PHP程序员，其实是有道理的</p>
+<p>PHP能快速发展的一部分原因就是提供了大量的预定义函数，使得新人能够快速上手，好用是一方面，但是确实难记，加上早期的定义不规范，参数和方法名都很混乱，那么使得即使你是一个老手，还得看手册</p>
+<h2 id="变化"> 变化</h2>
+<p>随着后来web的快速发展，慢慢出现了大型的网页应用，移动应用，前后端分离应用</p>
+<p>PHP因为自身特性的原因，性能饱受诟病，在这个过程中</p>
+<p>大型的公司可能有能力解决，比如Facebook的php虚拟机HHVM，但是没有这个实力的公司只能重构，加上Java的后期发展迅速，很多就转向了Java的怀抱</p>
+<h2 id="现代化"> 现代化</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225751-560178.png" alt="#" /></p>
+<p>后来PHP也出现了Laravel这样现代化的适合前后端分离的框架，还有swoole协程，加上php7性能上的提升，composer包的有效管理</p>
+<p>php是完全可以用来开发大型项目的，但是这个时候，大量的PHP开发人员已经流失了</p>
+<h2 id="处境"> 处境</h2>
+<p>那么在现在，仍然在使用PHP的，要吗就是已经有成熟的PHP开发体系的，有大量的遗留项目的大型公司，要吗就是追求速度的初创公司</p>
+<p>大型公司就不提了，被干了几年了大牛牢牢把控住</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225824-706429.png" alt="#" /></p>
+<p>那么在初创公司，其实PHP也是不顺利的，首先现在网页端的流量流失了</p>
+<p>很多公司要招会小程序，会跨平台的人，那么还得会php的能实际开发的人可以算的上是初级全栈了</p>
+<p>初创公司肯定是出不起这个价钱的，而且学php的新人越来越少了，这就行成了老手看不上，新手做不了的局面</p>
+<p>有钱一点目光远一点的初创公司会干脆就招个前端 招个Java后端把项目架构做的好一点，万一就是这个产品成功了还能使用长一点的时间</p>
+<p>剩下的一些初创公司就会选择转向云开发，反正业务也不多，数据量也不大，找个会node的前端就做了</p>
+<p>回到最初这个问题上来，现在还可不可以学习php，当然可以</p>
+<p>特别是要想回三四线城市工作的学历不好的同学，PHP在这些地方非常容易找到工作</p>
+<h2 id="学习的根本"> 学习的根本</h2>
+<p>但是我们剖析一下这个问题，提问可不可以学习php，完全是从就业这个方面来想得，但是认真想一下，学习php我们到底学习了什么东西</p>
+<p>算法和数据结构、面向对象，包括更多使用的Mysql、redis 、mongodb 、nginx，这些东西完完全全是通用的，那么使用php来操作和使用Java来操作无非是语言上的区别</p>
+<p>如果一个程序员一直在因为自己使用的语言会不会淘汰而忧虑，那么可以说你完全没有领悟到学习编程的精髓</p>
+<p>任何语言不过是需求最终落地的具体实现而已，当前场景最适合什么就上什么，我们最终要学会的只是解决问题的思路</p>
+<p>PHP曾经如此繁荣，肯定不会在短时间内就落寞的，很多初创公司使用php快速上线，来验证产品思路也是没毛病的</p>
+<p>php在国内的发展过程中，真的可以说是带活了中国的一大批草根站长走向致富，很多人编程水平并不是很好，但是因为有自己的思路也能实现获利</p>
+<p>反而是一些自认为学了很多新技术，很多新框架的人，每天加着班，却还在嘲笑使用旧技术的人， 才是真的井底之蛙，四川话来说：就是要不得完求了</p>
+<h2 id="道理归道理"> 道理归道理</h2>
+<p>但是对于初入门后端的同学来说，目前php可能不是你最好的入门语言，联合我上面的说法，就是php可以学，但是我不推荐将其作为后端的入门语言</p>
+<p>首先目前在国内前后端的分离趋势中使用php来作为纯后端的占比是非常低的，所以你必须要学一些其他的东西，对于你想深入后端这一领域不太友好</p>
+<p>其次PHP易上手，但是对于一个初学者来说很难体会到纯粹的从零到无这个过程，PHP发展最火热的那段时间，就是因为快速入门的初学者过多，导出代码水平的层次不齐，后期难以维护，这种弱类型的脚本语言对于新人的规范和理解并不是很好</p>
+<p>那么说到最后 我们这些小人物有什么资格去议论一个语言的兴衰呢？这些产物说到底还是资本角逐的结果，我们在这个过程中无非就是充当一个工具的角色</p>
+<p>学编程又何尝不是一个在学习做人的过程呢？</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="编程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-08-04T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">项目是怎么一步一步变复杂的</title>
+    <id>/code/project-step.html</id>
+    <link href="https://codenoob.top/code/project-step.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[项目是怎么一步一步变复杂的，为什么要学这么多，那是梦开始的地方]]></summary>
+    <content type="html"><![CDATA[<p>也可以说为什么我们学习的项目和真实的项目区别这么大，一个完整的项目你不用会所有的技术点，但是你最好搞懂为什么需要他们</p>
+<p>今天我们通过一个简单的<strong>留言板</strong>案例来一起探讨一下这些技术点，不论你是前端还是后端人员，都可以完整阅读</p>
+<h2 id="纯静态状态"> 纯静态状态</h2>
+<p>老板说需要一个简单的留言板应用，此时只需要它是一个装饰品，不需要真的留言功能，通过一个简单的<strong>文本标签</strong>就能实现</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/181623-178597.png" alt="#" /></p>
+<p>此时它过于简陋，为了使它更为美观，更良好的交互，我们会写一些简单的<strong>css</strong>样式和<strong>JavaScript</strong>代码来装饰它</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/181938-360419.png" alt="#" /></p>
+<p>如果我们要制作更多的这样的页面，为了节省时间，我们会在项目中引入 <strong>bootstrap</strong>UI样式和<strong>jquery</strong>库这样的工具来加速开发</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/182333-965613.png" alt="#" /></p>
+<p>老板说为了让我们的页面更为美观和友好，我们考虑请专业的设计人员通过 <strong>墨刀、pxcook</strong>等工具来进行设计和标注，再由前端人员进行代码实现</p>
+<p>此时我们需要在项目中使用 <strong>帧动画 、svg、canvas、webgl</strong>等技术来实现复杂的动效，样式很多我们使用了 less这类的css预处理器</p>
+<p>老板说我们的留言板项目受众非常广，所以需要还考虑<strong>不同浏览器的兼容性</strong></p>
+<p>老板说由于开发人员的增加，为了协同开发和管理代码，我们使用git来管理代码，使用gitlab来搭建一个私有的代码仓库</p>
+<p>为了提高用户打开网页的速度，我们将部分资源使用<strong>cdn</strong>进行加速</p>
+<h2 id="数据展示"> 数据展示</h2>
+<p>老板说我们需要在留言板的上面展示一些别人的留言，此时就需要和后端进行交互，此时我们还是原始的服务端渲染也就是前后端不分离状态，我们可以使使用<strong>Java的jsp、thymeleaf，php的smarty</strong>等技术来完成页面渲染</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/183516-233863.png" alt="#" /></p>
+<p>老板听别人说单页面应用，前后端分离的体验更为友好，为了实现前后端分离，我们的前端选择了<strong>vuejs框架</strong>来实现留言板</p>
+<p>vuejs的mvvm架构，通过数据绑定实现这个功能非常简单，为了页面的美观，我们使用 <strong>elementui 或者 vant</strong>来构建页面</p>
+<p>后端给我们说他们给我们的接口是 restful风格的，我们可以通过后端提供的 <strong>swagger</strong>接口文档来查看具体的请求方式，使用<strong>postman</strong>等工具来调试接口，使用<strong>axios或者umi-request</strong>的这种进一步封装的网络请求库来完成网络请求</p>
+<p>后端接口还没有写好的时候，我们也可以通过 <strong>mock</strong>来制造假数据来测试开发</p>
+<p>在这个过程中，前端项目的<strong>JavaScript和css</strong>代码越来越多，为了更好地管理它们，实现工程化开发，我们的前端项目使用 <strong>webpack</strong>进行打包和构建，我们发现 <strong>webpack</strong>还具有代码优化，自动添加浏览器兼容性代码，以及代码转化的功能</p>
+<p>为了更好地学习和使用 <strong>webpack</strong>，我们需要学习更多的关于 nodejs的知识，才能知道他是如何处理文件和网络请求的，当然了解这些设计，我们还需要一点设计模式的知识</p>
+<p>老板说，你们的项目够规模了，不管前后端，你们都需要先进行<strong>单元测试</strong>，然后再提交代码审核，测试人员会编写专门的Python脚本来<strong>自动化测试</strong></p>
+<p>突然老板说为啥我们前后端分离以后，有用户反映在百度搜索不到我们的应用，哦原来前后端分离对网页的<strong>SEO</strong>不太友好，我们前端考虑使用<strong>Nuxt.js</strong>来实现服务端渲染，或者使用<strong>Phantomjs</strong>来拦截爬虫</p>
+<p>有天老板说，我想了解一些我们的应用情况，像电影里面的那种很炫酷的数据展示屏，我们决定使用<strong>echart.js</strong>来完成报表</p>
+<p>老板又说能不能让用户打印出自己的留言数据呢？我们后端决定使用<strong>easyexcel</strong>来导出Excel数据，使用<strong>PDF Box</strong>来导出pdf数据</p>
+<p>此时我们的变更越来越频繁，部署环境越来越复杂，我们给项目引入了<strong>CI&amp;CD持续集成与持续部署</strong> 我们决定使用docker来部署，使用Sonar来检查代码， 使用Jenkins来持续集成，使用k8s来完成服务编排</p>
+<p>老板说，能不能把我们的网页弄成小程序，方便一下大家，我们考虑到小程序平台实在太多，我们人手不够，决定采用跨平台框架，因为我们是vue技术栈，我们选择了uniapp，还好我们是前后端分离，接口可以直接用</p>
+<h2 id="数据存储"> 数据存储</h2>
+<p>到如今我们的留言板是动态的了，原本是使用php来构建的后端服务，前后端分离后，我们发现Java更具优势，听老前辈们说，ssh过时了，ssm也不方便，使用springboot就更好了，我们使用maven来构建和打包后端项目</p>
+<p>原本我们的项目使用mysql来持久化存储我们的留言数据，使用 mybatis和springdatajpa来操作数据库，随着访问人数的增多，数据库扛不住，我们使用redis来缓存一下数据，并且我们的数据库要实现<strong>分库分表和读写分离</strong>。</p>
+<p>在网页中，为了体验的友好和减轻服务器压力，我们可以使用vuex和localstorage来将数据缓存在浏览器中</p>
+<p>为了防止有些用户乱点和爬虫脚本的操作，前端开发需要<strong>防抖和节流</strong>来控制用户的操作，后端可以通过redis来限制用户操作频率，当然我们也通过nginx来限制用户IP访问</p>
+<p>同时为了监测系统和用户操作，在页面中我们使用sentry来搭建前端监控服务 我们后端使用log4j或者logback来收集一下日志</p>
+<h2 id="数据安全"> 数据安全</h2>
+<p>如今我们的留言板是需要注册和登录的，前后端没有分离的时候，我们通过cookie和session来验证用户真实性，项目足够规格的时候，我们可以使用shiro和spring security这类安全框架来规定用户的操作</p>
+<p>前后端分离以后，我们可以使用token和jwt来验证用户的真实性</p>
+<p>后来老板说，我们这个留言板项目的账号，还可以用来登录我们公司旗下的聊天项目，就像微信一样可以授权很多平台的登录，此时我们可以考虑 <strong>oauth2和sso单点登录</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/124010-794256.png" alt="#" /></p>
+<p>为了安全访问，我们将http切换为https</p>
+<h2 id="大数据"> 大数据</h2>
+<p>我们的用户越来越多，留言越来越多，单机完全不能支撑这个服务了，老板说分布式可以解决这个问题，于是我们后端开始考虑是使用 springcloud还是dubbo zookeeper的方案，当然我们也会用nginx的<strong>负载均衡</strong></p>
+<p>老板又请了一个非常厉害的大牛加入项目组，他负责项目的<strong>迭代优化、架构设计和JVM调优</strong>，并且还通过 <strong>用户画像</strong>来推荐相关的热门留言</p>
+<p>老板说，我们的留言太多了，有些问题有人已经问过了，给页面添加一个搜索功能，此时我们的项目已经成规模了，再使用数据库的 like来进行搜索肯定是不行的，我们给系统加入<strong>文档搜索和中文分词</strong>，分词的好处就是你搜索的语句可能没有百分百相同的问题，但是可以通过你的问题中某些词来找到相类似的结果。 我们使用 elasticsearch、kibana来完成搜索项目的构建</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/121628-410094.png" alt="#" /></p>
+<p>用户在留言的时候，我们需要将留言存入搜索文档存储中，如果同步操作，有可能导致阻塞，我们使用消息队列来实现异步操作，我们使用 kafka、mq来发布消息，使用logstash来收集处理数据并传递给elasticsearch</p>
+<p>同时我们的后台日志也由elk来完成收集和处理</p>
+<h2 id="拓展"> 拓展</h2>
+<p>我们的留言板应用越来越大了，也诞生了很多周边应用，老板说，我们的应用能不能做出一个体系来，统一一下设计风格，就像阿里系和京东系那样的</p>
+<p>我们决定自己开发一套 UI库，基于vuejs，我们阅读了elementui的源码，参考他们的设计，设计了一个 lybui为了提升我们在业界的影响力，我们将UI开源，并且使用vuepress写了一个详细的文档</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="编程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-07-04T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">命名和循环</title>
     <id>/code/python/python-01-name-and-loop.html</id>
     <link href="https://codenoob.top/code/python/python-01-name-and-loop.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[Python-01 - 命名和循环]]></summary>
-    <content type="html"><![CDATA[<h3 id="命名规则展开目录"> 命名规则展开目录</h3>
+    <content type="html"><![CDATA[<br>
+<h3 id="命名规则展开目录"> 命名规则展开目录</h3>
 <p><strong>项目</strong>：以数字加名称表示</p>
 <div><pre><code>01_python基础
 </code></pre>
@@ -668,9 +670,10 @@
     <title type="html">循环打印九九乘法表</title>
     <id>/code/python/python-02-xun-huan-da-yin-jiu-jiu-cheng-fa-biao.html</id>
     <link href="https://codenoob.top/code/python/python-02-xun-huan-da-yin-jiu-jiu-cheng-fa-biao.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[Python-02 - 循环打印九九乘法表]]></summary>
-    <content type="html"><![CDATA[<h2 id="前言"> 前言</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="前言"> 前言</h2>
 <p>通过 <code>while</code> 的嵌套实现简单的九九乘法表打印</p>
 <h2 id="思路"> 思路</h2>
 <p>首先定义一个变量控制行，初始值为<code>1</code>，确定行的循环条件</p>
@@ -728,9 +731,10 @@
     <title type="html">函数</title>
     <id>/code/python/python-03-functions.html</id>
     <link href="https://codenoob.top/code/python/python-03-functions.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[Python-03 - 函数]]></summary>
-    <content type="html"><![CDATA[<h2 id="函数"> 函数</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="函数"> 函数</h2>
 <h3 id="格式"> 格式</h3>
 <div><pre><code><span>def</span> 函数名<span>(</span><span>)</span><span>:</span>    
     封装代码    
@@ -828,9 +832,10 @@ print_lines<span>(</span><span>"-"</span><span>,</span> <span>50</span><span>)</
     <title type="html">高级变量类型</title>
     <id>/code/python/python-04-advanced-variable-types.html</id>
     <link href="https://codenoob.top/code/python/python-04-advanced-variable-types.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[Python-04 - 高级变量类型]]></summary>
-    <content type="html"><![CDATA[<h2 id="高级变量类型"> 高级变量类型</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="高级变量类型"> 高级变量类型</h2>
 <ul>
 <li>列表</li>
 <li>元组</li>
@@ -1480,9 +1485,10 @@ find_name <span>=</span> <span>"张三"</span>
     <title type="html">语法进阶</title>
     <id>/code/python/python-05-advanced-grammar.html</id>
     <link href="https://codenoob.top/code/python/python-05-advanced-grammar.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[Python-05 - 语法进阶]]></summary>
-    <content type="html"><![CDATA[<h2 id="语法进阶"> 语法进阶</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="语法进阶"> 语法进阶</h2>
 <h3 id="变量的引用"> 变量的引用</h3>
 <ul>
 <li><strong>变量</strong>和<strong>数据</strong>都保存在内存中</li>
@@ -1730,9 +1736,10 @@ result <span>=</span> sum_numbers<span>(</span><span>100</span><span>)</span>
     <title type="html">面向对象</title>
     <id>/code/python/python-06-object-oriented.html</id>
     <link href="https://codenoob.top/code/python/python-06-object-oriented.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[Python-06 - 面向对象]]></summary>
-    <content type="html"><![CDATA[<h2 id="python-面向对象"> Python - 面向对象</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="python-面向对象"> Python - 面向对象</h2>
 <p>面向对象编程 -- <code>Object Oriented Programming</code>，简写 <code>OOP</code></p>
 <h2 id="基本概念"> 基本概念</h2>
 <h3 id="过程和对象"> 过程和对象</h3>
@@ -2212,8 +2219,9 @@ xusanduo<span>.</span>fire<span>(</span><span>)</span>
     <title type="html">Python 学习记录</title>
     <id>/code/python/</id>
     <link href="https://codenoob.top/code/python/"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
+    <updated>2022-01-25T13:07:58.000Z</updated>
+    <content type="html"><![CDATA[<br>
+<h2 id="主要如下"> 主要如下</h2>
 <ul>
 <li>
 <p><a href="./Python-01-name-and-loop.html">命名和循环</a></p>
@@ -2249,8 +2257,9 @@ xusanduo<span>.</span>fire<span>(</span><span>)</span>
     <title type="html">编程学习记录</title>
     <id>/code/</id>
     <link href="https://codenoob.top/code/"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
+    <updated>2022-01-25T13:07:58.000Z</updated>
+    <content type="html"><![CDATA[<br>
+<h2 id="主要如下"> 主要如下</h2>
 <ul>
 <li>
 <p><a href="./python/">Python</a></p>
@@ -2691,9 +2700,10 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
     <title type="html">奈飞简介</title>
     <id>/daily/netflix-introduction.html</id>
     <link href="https://codenoob.top/daily/netflix-introduction.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[奈飞简介]]></summary>
-    <content type="html"><![CDATA[<h2 id="前言"> 前言</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="前言"> 前言</h2>
 <p>很多朋友很喜欢看 <code>Netflix</code> 的剧集，但是 <code>Netflix</code> 对于 <code>IP</code> 有一定的要求，很多广播 <code>IP</code> 无法访问，连首页都进不去。但是今年可能由于疫情，<code>Netflix</code> 放宽了 <code>IP</code> 审查，大部分广播 <code>IP</code> 都可以看大部分的剧集，但是部分剧集仍无法观看，所以特地详细了解了一下 <code>Netflix</code> 的剧集类型，并对 Netflix 做一个简要介绍。</p>
 <h2 id="netflix-简介"> Netflix 简介</h2>
 <h3 id="公司简介"> 公司简介</h3>
@@ -2881,9 +2891,10 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
     <title type="html">自学编程的疑问速答</title>
     <id>/daily/selfstudy.html</id>
     <link href="https://codenoob.top/daily/selfstudy.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[自学编程的疑问速答]]></summary>
-    <content type="html"><![CDATA[<h2 id="怎样入门"> 怎样入门</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="怎样入门"> 怎样入门</h2>
 <p>首先第一个问题，怎样入门；入门这个问题其实很重要，自己未来能不能从事这个行业就看这个阶段；其次这个问题很广泛，因为每个人对入门的定义是不同的，那么在这里，我姑且将能听得懂和学的走定义为入门；</p>
 <ul>
 <li>首先你需要明确自己到底是要学习什么，走什么路线，比如前端、后端、移动端、数据分析等。如何确定自己要学习什么呢，第一个根据兴趣，去搜索一下你喜欢做的东西是要什么技术栈来实现；第二个根据市场，去各大招聘网站搜一下目前最热门的岗位它的技术栈需求；第三个根据自身条件，比如像我一样的低学历者，一开始你学习数据分析肯定是不现实的</li>
@@ -3021,9 +3032,10 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
     <title type="html">iOS 订阅管理 APP</title>
     <id>/daily/subscription.html</id>
     <link href="https://codenoob.top/daily/subscription.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[iOS 订阅管理 APP]]></summary>
-    <content type="html"><![CDATA[<h2 id="前言"> 前言</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="前言"> 前言</h2>
 <p>最初在<a href="https://www.hostloc.com/thread-807666-1-1.html" target="_blank" rel="noopener noreferrer">论坛</a>看到一位大佬发帖讨论如何做订阅的笔记，大佬使用 <code>Notion</code> 中 <code>Table</code> 来管理订阅，界面看起来非常美观，自定义程度非常高，同时<a href="https://t.me/NewlearnerChannel" target="_blank" rel="noopener noreferrer">自留地</a>推荐的一篇<a href="https://sspai.com/post/57337" target="_blank" rel="noopener noreferrer">少数派文章</a>讲解了一些基础的操作，遂自己折腾了一番，无奈只完成了一小部分。</p>
 <p>之后在网上找到了具体的教程和模板，总的来说体验不错，但是 <code>Notion</code> 中并不能实时跟进汇率来计算金额，所以目前只用 <code>Notion</code> 做简单的记录，使用订阅管理软件进行管理。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/1d108b26d8362ddf28849af860be8e93.png" alt="notion效果" /></p>
@@ -3306,9 +3318,10 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
     <title type="html">Windows 常见问题</title>
     <id>/daily/windows-faq.html</id>
     <link href="https://codenoob.top/daily/windows-faq.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[Windows 常见问题]]></summary>
-    <content type="html"><![CDATA[<h2 id="删除自带输入法"> 删除自带输入法</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="删除自带输入法"> 删除自带输入法</h2>
 <p>删除以下注册表</p>
 <div><pre><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP
 
@@ -3433,9 +3446,10 @@ start explorer
     <title type="html">阿里云盘列表AList部署教程</title>
     <id>/document/alist-v1.html</id>
     <link href="https://codenoob.top/document/alist-v1.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[阿里云盘列表AList部署教程]]></summary>
-    <content type="html"><![CDATA[<h2 id="简介"> 简介</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="简介"> 简介</h2>
 <p>AList是一款阿里云盘的目录文件列表程序，后端基于<code>golang</code>最好的<code>http</code>框架<code>gin</code>，前端使用<code>vue</code>和<code>ant design</code>。没有专门学过前端，大佬轻喷?</p>
 <div><p>注意</p>
 <p>更新的时候后端和前端文件都需要替换！！！！以及补上配置文件新的配置项！！！！第一次启动需要网页底部rebuild！！！</p>
@@ -3667,9 +3681,10 @@ WantedBy=multi-user.target
     <title type="html">目录列表程序AList使用教程</title>
     <id>/document/alist-v2.html</id>
     <link href="https://codenoob.top/document/alist-v2.html"/>
-    <updated>2021-11-22T05:31:30.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[目录列表程序AList使用教程]]></summary>
-    <content type="html"><![CDATA[<h2 id="简介"> 简介</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="简介"> 简介</h2>
 <p>AList是一款支持多种存储的目录文件列表程序，后端基于<code>go-fiber</code>，前端使用<code>react</code>。</p>
 <h2 id="项目地址"> 项目地址</h2>
 <ul>
@@ -3864,9 +3879,10 @@ ldflags<span>=</span><span>"\
     <title type="html">宝塔面板部署 Bitwarden 密码管理软件</title>
     <id>/document/bitwarden.html</id>
     <link href="https://codenoob.top/document/bitwarden.html"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[宝塔面板部署 Bitwarden 密码管理软件]]></summary>
-    <content type="html"><![CDATA[<h2 id="自建-bitwarden-密码管理服务"> 自建 Bitwarden 密码管理服务</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="自建-bitwarden-密码管理服务"> 自建 Bitwarden 密码管理服务</h2>
 <div><p>更新记录</p>
 <p>目前项目名称已更换为 <code>vaultwarden</code></p>
 </div>
@@ -4023,9 +4039,10 @@ docker run -d --name vaultwarden -e <span>SIGNUPS_ALLOWED</span><span>=</span>fa
     <title type="html">驰为Hi8安装Debian Linux</title>
     <id>/document/chuwei-hi8-an-zhuang-debian-linux.html</id>
     <link href="https://codenoob.top/document/chuwei-hi8-an-zhuang-debian-linux.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[驰为Hi8安装Debian Linux]]></summary>
-    <content type="html"><![CDATA[<h2 id="系统选择"> 系统选择</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="系统选择"> 系统选择</h2>
 <h3 id="驰为-hi8-上面有两个系统"> 驰为 Hi8 上面有两个系统</h3>
 <ul>
 <li><code>Android</code> 4.4</li>
@@ -4868,9 +4885,10 @@ DB_DATABASE=faka
     <title type="html">OpenWrite给VuePress配置博客导流公众号插件</title>
     <id>/document/openwrite-to-vuepress.html</id>
     <link href="https://codenoob.top/document/openwrite-to-vuepress.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[如何用OpenWrite给VuePress配置博客导流公众号插件-公众号获取验证码阅读全文]]></summary>
-    <content type="html"><![CDATA[<h2 id="前言"> 前言</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="前言"> 前言</h2>
 <p>如今,打开一些网站,发现阅读文章前,先要关注公众号,获取验证码,才能解锁文章,这波操作虽然有点“<mark>流氓</mark>”,但是白嫖的适当付出一点也没有什么,毕竟写文章输出是真的费时间,尊重作者的劳动成果.况且赏杯咖啡,我觉得也是一种激励.</p>
 <p>不信,自己去践行下就知道了的</p>
 <p>在互联网时代,<strong>有流量</strong>,一切皆有可能,在如今竞争激烈的情况下,尽管<strong>微信公众号阅读量</strong>日渐下滑,但不得不承认,它仍然是一个非常强劲有生命力的产品,其价值重视程度不言而喻,凡是离用户有多近的东西都值得深耕细作</p>
@@ -7045,9 +7063,10 @@ proxy_set_header X-Forwarded-Proto $scheme;
     <title type="html">WordPress编辑器中添加“上传到Chevereto图床”</title>
     <id>/document/wordpress-to-chevereto.html</id>
     <link href="https://codenoob.top/document/wordpress-to-chevereto.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[WordPress编辑器中添加“上传到Chevereto图床”]]></summary>
-    <content type="html"><![CDATA[<h2 id="缘由"> 缘由</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="缘由"> 缘由</h2>
 <p>之前我的图片是放在用oneindex搭建的网盘上，blog文章的图片存放在Onedrive上，同步至oneindex，但似乎OneDrive的api接口对访问量有限制，有时我浏览博客的会发现图片不能显示。</p>
 <p>这样的情况持续了很久,直到我偶然了解到了 Chevereto ，于是决定搭建一个图床来存放图片。</p>
 <p>前段时间我把我博客文章的图片一张一张从OneDrive上转移到了Chevereto图床，虽然我的图片不算太多，但这种在图床页面上传再回到博客文章编辑页面的方式浪费了我很多时间，并且以后更新文章也会使用图床，我可不想这样一步步傻傻地操作。</p>
@@ -7270,9 +7289,10 @@ function add_my_media_button() {
     <title type="html">微信聊天记录永久保存</title>
     <id>/document/wx-dao-chu-liao-tian-ji-lu.html</id>
     <link href="https://codenoob.top/document/wx-dao-chu-liao-tian-ji-lu.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[如何导出微信聊天记录并永久保存]]></summary>
-    <content type="html"><![CDATA[<h2 id="总有些记忆你想永久保留"> 总有些记忆你想永久保留</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="总有些记忆你想永久保留"> 总有些记忆你想永久保留</h2>
 <p>我是一个很念旧的人，头像昵称可以八九年不换，不是我不想接受新事物，我只是更想记住过去的自己。保存微信聊天记录这个想法由来已久，我和女朋友异地快两年了，每天都在使用微信，微信几乎承载着我们两个人的点点滴滴，所以我一直想把聊天记录保存下来，等到七老八十走不动道了的时候，拿出来看看，应该会很开心吧。</p>
 <p><strong>你觉得微信的聊天记录需要永久保存吗?</strong> 你会想着时隔多年，再拿出来看看曾经那个 <mark>活的热烈</mark> ，爱的热烈，痛的热烈的自己？欢迎在评论区留言哦~ 让我知道大家的想法哦~</p>
 <h2 id="效果"> 效果</h2>
@@ -7404,9 +7424,10 @@ function add_my_media_button() {
     <title type="html">非常欢迎各位大佬交换友链QAQ~</title>
     <id>/friends.html</id>
     <link href="https://codenoob.top/friends.html"/>
-    <updated>2021-12-04T13:50:21.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[大家来一起交朋友啊！]]></summary>
-    <content type="html"><![CDATA[<h2 id="格式"> 格式</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="格式"> 格式</h2>
 <p>友链地址：<code>https://codenoob.top/</code>
 交换友链请在下方留言告诉我以下信息：</p>
 <div><pre><code>★ Name: CodeNoobs
@@ -7442,9 +7463,10 @@ function add_my_media_button() {
     <title type="html">Markdown高级技巧</title>
     <id>/guide/markdown-enhance.html</id>
     <link href="https://codenoob.top/guide/markdown-enhance.html"/>
-    <updated>2021-12-06T05:59:26.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[Markdown高级技巧]]></summary>
-    <content type="html"><![CDATA[<h2 id="支持的-html-元素"> 支持的 HTML 元素</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="支持的-html-元素"> 支持的 HTML 元素</h2>
 <p>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
 <p>目前支持的 HTML 元素有：<code>&lt;kbd&gt;</code>、 <code>&lt;b&gt;</code>、 <code>&lt;i&gt;</code>、 <code>&lt;em&gt;</code>、 <code>&lt;sup&gt;</code>、 <code>&lt;sub&gt;</code>、 <code>&lt;br&gt;</code>等 ，如：</p>
 <blockquote>
@@ -8190,8 +8212,9 @@ Example: <code>:smile:</code> 😄 </br>
     <title type="html">基础认知</title>
     <id>/guide/</id>
     <link href="https://codenoob.top/guide/"/>
-    <updated>2021-12-04T13:50:21.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
+    <updated>2022-01-25T13:07:58.000Z</updated>
+    <content type="html"><![CDATA[<br>
+<h2 id="主要如下"> 主要如下</h2>
 <ul>
 <li>
 <p><a href="./tutorial.html">基础认知</a></p>
@@ -8674,10 +8697,58 @@ npm init vuepress-theme-hope docs
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">项目主页</title>
+    <title type="html">CodeNoobs</title>
     <id>/home.html</id>
     <link href="https://codenoob.top/home.html"/>
-    <updated>2022-01-22T15:54:17.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
+    <content type="html"><![CDATA[<div>
+  <h1>我的技术栈</h1>
+  <div>
+    <div data-tooltip="HTML 5">
+      <svg t="1594449205433" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1511" width="200" height="200"><path d="M89.088 59.392l62.464 803.84c1.024 12.288 9.216 22.528 20.48 25.6L502.784 993.28c6.144 2.048 12.288 2.048 18.432 0l330.752-104.448c11.264-4.096 19.456-14.336 20.48-25.6l62.464-803.84c1.024-17.408-12.288-31.744-29.696-31.744H118.784c-17.408 0-31.744 14.336-29.696 31.744z" fill="#FC490B" p-id="1512"></path><path d="M774.144 309.248h-409.6l12.288 113.664h388.096l-25.6 325.632-227.328 71.68-227.328-71.68-13.312-169.984h118.784v82.944l124.928 33.792 123.904-33.792 10.24-132.096H267.264L241.664 204.8h540.672z" fill="#FFFFFF" p-id="1513"></path></svg>
+    </div>
+    <div data-tooltip="CSS 3">
+      <svg t="1594449320423" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5999" width="200" height="200"><path d="M88.064 27.648l77.824 871.424L512 996.352l346.112-97.28 77.824-871.424z" fill="#2196F3" p-id="6000"></path><path d="M771.072 312.32l-10.24 109.568-29.696 328.704L512 811.008l-220.16-60.416-14.336-172.032h107.52l7.168 89.088L512 700.416l119.808-32.768 16.384-148.48-375.808 1.024-11.264-101.376 395.264-4.096 8.192-108.544-413.696 1.024-7.168-101.376h536.576z" fill="#FAFAFA" p-id="6001"></path></svg>
+    </div>
+    <div data-tooltip="JavaScript">
+      <svg t="1594452832532" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="978" width="200" height="200"><path d="M38.56886067 38.56886067h946.86227866v946.86227866H38.56886067V38.56886067m248.81436505 791.1560377c21.04138438 44.71294135 62.5981169 81.53536248 133.61278901 81.53536246 78.9051899 0 133.08675402-42.08276753 133.08675281-134.13882281v-304.04799797h-89.42588147V775.01729921c0 45.23897512-18.41121055 56.81173672-47.34311392 56.81173673-30.51000717 0-43.13483754-21.04138438-57.33777176-45.76501015l-72.59277467 43.66087258m314.56869076-9.4686228c26.30172955 51.55139031 79.4312249 91.00398527 162.54469117 91.00398526 84.16553629 0 147.28968821-43.66087133 147.2896882-124.14416501 0-74.17087849-42.60880254-107.31105826-118.35778483-139.92520422l-22.09345319-9.46862279c-38.40052617-16.307073-54.70759791-27.35379957-54.70759912-53.65552911 0-21.56741817 16.307073-38.40052617 42.60880252-38.40052493 25.24966076 0 42.08276753 11.04672657 57.33777173 38.40052493l68.91053209-45.76501015c-28.93190337-50.49932154-69.96260211-69.96260211-126.24830382-69.96260088-79.4312249 0-130.45658021 50.49932154-130.45658019 117.30571482 0 72.5927747 42.60880254 106.78502324 106.78502324 134.13882281l22.09345315 9.46862278c41.03069875 17.88517679 65.22829073 28.93190337 65.22829072 59.44191054 0 25.24966076-23.67155698 43.66087133-60.49397931 43.66087133-43.66087133 0-68.91053209-22.61948818-87.84777766-54.18156414l-72.5927747 42.08276876z" fill="#FFCA28" p-id="979"></path></svg>
+    </div>
+    <div data-tooltip="TypeScript">
+      <svg t="1625995896568" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4145" width="200" height="200"><path d="M94.208 94.208v835.584h835.584V94.208H94.208z m634.92096 405.85216v0.012288c8.011776 0.024576 17.119232 0.436224 23.967744 1.179648 27.891712 3.016704 49.6128 15.050752 68.091904 37.715968 9.201664 11.290624 12.34944 16.2304 11.679744 18.343936-0.432128 1.363968-6.746112 5.885952-26.820608 19.21024-19.720192 13.092864-26.07104 17.014784-27.5456 17.014784-1.497088 0-4.614144-3.207168-9.105408-9.365504-8.6528-11.855872-17.485824-17.266688-31.13984-19.070976-14.68416-1.9456-27.856896 2.68288-34.308096 12.058624-5.515264 8.011776-6.3488 20.901888-1.96608 30.26944 5.07904 10.848256 14.270464 16.846848 49.494016 32.290816 40.624128 17.813504 61.210624 30.005248 76.204032 45.13792 16.146432 16.293888 24.326144 35.106816 26.83904 61.718528 1.226752 12.972032-0.272384 28.34432-3.98336 40.843264-9.10336 30.640128-33.66912 53.075968-69.67296 63.635456-9.95328 2.9184-19.214336 4.661248-28.37504 5.332992-13.985792 1.030144-34.002944 0.462848-46.051328-1.29024-30.482432-4.442112-64.892928-22.17984-82.051072-42.2912-8.423424-9.873408-19.177472-26.12224-19.177472-28.9792 0-1.380352 0.684032-2.164736 3.391488-3.885056 8.032256-5.103616 54.054912-31.412224 54.94784-31.412224 0.540672 0 2.945024 2.832384 5.341184 6.295552 5.429248 7.839744 18.78016 21.313536 25.567232 25.808896 5.543936 3.672064 12.634112 6.619136 21.051392 8.747008 4.820992 1.202176 7.3728 1.417216 17.891328 1.417216 10.747904-0.004096 12.951552-0.18432 17.760256-1.476608 12.71808-3.422208 22.644736-10.50624 26.851328-19.156992 1.8432-3.7376 1.880064-4.204544 1.880064-13.27104v-9.40032l-2.260992-4.48512c-5.474304-10.866688-17.270784-18.323456-54.56896-34.47808-17.13152-7.421952-38.11328-17.885184-46.30528-23.0912-18.696192-11.880448-31.653888-25.462784-40.157184-42.088448-8.45824-16.533504-9.71776-22.687744-9.73824-47.548416-0.02048-19.462144-0.053248-19.222528 3.975168-31.643648 3.65568-11.272192 11.139072-23.863296 19.400704-32.64512 16.4864-17.524736 40.577024-28.788736 66.367488-31.029248 3.29728-0.313344 7.716864-0.434176 12.52352-0.41984z m-221.92128 3.844096h0.008192c49.670144 0.024576 78.143488 0.196608 78.600192 0.483328 0.86016 0.53248 0.968704 4.855808 0.968704 32.444416v31.827968l-49.563648 0.180224-49.563648 0.180224v140.724224c0 77.400064-0.157696 141.185024-0.372736 141.748224-0.350208 0.948224-4.163584 1.019904-36.41344 1.019904h-36.018176l-0.372736-1.45408c-0.239616-0.79872-0.415744-64.587776-0.41984-141.750272l-0.012288-140.296192-49.5616-0.176128-49.565696-0.180224v-31.451136c0-24.94464 0.172032-31.625216 0.837632-32.288768 0.681984-0.702464 25.976832-0.882688 134.967296-0.991232 21.01248-0.02048 39.92576-0.03072 56.48384-0.02048z" fill="#0288D1" p-id="4146"></path></svg>
+    </div>
+    <div data-tooltip="Vue.js">
+      <svg t="1594449992255" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1022" width="200" height="200"><path d="M627.85285817 77.66360895h185.07382266L512 598.88964363 211.07331917 77.66360895H10.45553197L512 946.33639105l501.54446803-868.78460919z" fill="#41B883" p-id="1023"></path><path d="M812.92668083 77.66360895H627.85285817L512 278.28139617 396.14714183 77.66360895H211.07331917L512 598.88964363z" fill="#34495E" p-id="1024"></path></svg>
+    </div>
+    <div data-tooltip="React">
+      <svg t="1628346090690" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9901" width="200" height="200"><path d="M512 511.8m-80 0a80 80 0 1 0 160 0 80 80 0 1 0-160 0Z" fill="#61DAFB" p-id="9902"></path><path d="M960.5 511.8c0-62.8-73.8-117.2-188.5-150.1 28.9-115.8 18.7-206.9-35.7-238.3-54.5-31.4-138.5 5.3-224.3 88.2-85.8-82.9-169.8-119.6-224.3-88.2-54.4 31.4-64.6 122.6-35.7 238.3C137.3 394.6 63.5 449 63.5 511.8S137.3 629 252 661.9c-28.9 115.7-18.7 206.9 35.7 238.3 13.4 7.8 28.6 11.6 45.2 11.6 39.7 0 87.8-21.8 140-64.2 13-10.6 26.1-22.6 39.1-35.2 13 12.6 26.1 24.6 39.1 35.2 52.2 42.4 100.2 64.2 140 64.2 16.6 0 31.8-3.8 45.2-11.6 54.4-31.4 64.6-122.5 35.7-238.3 114.7-32.9 188.5-87.3 188.5-150.1zM716.8 157.2c35.3 20.4 42.7 94.3 17.6 194.8-36.7-8.4-76.7-14.7-119.3-18.6-24.7-34.9-50.2-66.4-75.8-94 59.2-57.3 114.2-88.4 152-88.4 9.6-0.1 18.2 2 25.5 6.2zM637 584c-13.8 24-28.4 47-43.3 69-26.1 2-53.3 3.1-81.7 3.1-28.3 0-55.5-1.1-81.6-3.1-15-22-29.5-45.1-43.3-69-14.1-24.5-26.7-48.6-38.1-72.2 11.4-23.6 24-47.7 38.1-72.2 14.1-24.5 28.7-47.4 43.4-69.1 26.1-2 53.3-3.1 81.6-3.1 28.3 0 55.5 1.1 81.6 3.1 14.7 21.6 29.3 44.6 43.4 69 14.1 24.5 26.7 48.6 38.1 72.2-11.5 23.7-24.1 47.8-38.2 72.3z m58.8-26.4c11.2 26.6 20.4 52.1 28 76.5-24.9 5.6-51.7 10.4-80.3 14 9.3-14.5 18.4-29.3 27.3-44.6 8.8-15.4 17.1-30.7 25-45.9zM512 756.5c-17.7-19.2-35.1-40.1-52.2-62.6 17.1 0.8 34.5 1.3 52.2 1.3 17.7 0 35.1-0.5 52.2-1.3-17.1 22.5-34.5 43.4-52.2 62.6zM380.5 648.1c-28.6-3.6-55.3-8.4-80.3-14 7.6-24.4 16.8-49.9 28-76.5 7.9 15.2 16.1 30.5 25 45.9 8.9 15.2 18 30 27.3 44.6zM328.2 466c-11.2-26.6-20.4-52.1-28-76.5 24.9-5.6 51.6-10.4 80.2-14-9.2 14.4-18.4 29.2-27.2 44.6-8.8 15.4-17.1 30.7-25 45.9zM512 267.1c17.3 18.7 34.8 39.8 52.1 62.7-17.1-0.8-34.4-1.3-52.1-1.3-17.7 0-35 0.5-52.1 1.3 17.3-22.9 34.8-44 52.1-62.7z m158.7 153c-8.9-15.3-18-30.1-27.2-44.6 28.6 3.6 55.3 8.4 80.2 14-7.6 24.4-16.8 49.9-28 76.5-7.8-15.2-16.1-30.5-25-45.9zM307.2 157.2c7.2-4.2 15.8-6.2 25.6-6.2 37.8 0 92.7 31.1 151.9 88.4-25.6 27.6-51.1 59.2-75.8 94-42.5 3.9-82.6 10.2-119.3 18.6-25.1-100.6-17.6-174.5 17.6-194.8zM102.5 511.8c0-40.8 60.3-84.2 160-112.6 11.1 36 25.6 73.8 43.5 112.6-17.8 38.8-32.4 76.6-43.5 112.6-99.7-28.4-160-71.9-160-112.6z m345.8 305.5c-59.7 48.5-111.1 66.4-141.1 49.2-35.3-20.4-42.7-94.3-17.6-194.8 36.7 8.4 76.7 14.7 119.3 18.6 24.4 34.5 49.9 66.1 75.8 94.2-12.1 11.7-24.2 22.9-36.4 32.8z m268.5 49.2c-29.9 17.3-81.4-0.6-141.1-49.2-12.1-9.9-24.3-21.1-36.5-32.8 26-28.1 51.4-59.7 75.8-94.2 42.5-3.9 82.6-10.2 119.3-18.7 25.2 100.6 17.7 174.5-17.5 194.9z m44.8-242.1c-11.1-36-25.6-73.8-43.5-112.6 17.8-38.8 32.4-76.6 43.5-112.6 99.7 28.5 160 71.9 160 112.6-0.1 40.7-60.4 84.2-160 112.6z" fill="#61DAFB" p-id="9903"></path></svg>
+    </div>
+    <div data-tooltip="Webpack">
+      <svg t="1622560777342" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1108" width="200" height="200"><path d="M882.23288889 749.45422222L526.90488889 950.38577778V793.94133333l221.41155556-121.856 133.91644444 77.36888889z m24.34844444-22.07288889V307.08622222l-129.93422222 75.09333333v270.22222223l129.93422222 74.97955555z m-766.17955555 22.07288889l355.328 201.04533333V793.94133333L274.20444445 672.08533333l-133.80266667 77.36888889zM116.05333333 727.38133333V307.08622222l129.93422222 75.09333333v270.22222223L116.05333333 727.38133333z m15.24622222-447.60177778l364.43022223-206.16533333v151.32444445L262.144 353.39377778l-1.82044445 1.024c0 0.11377778-129.024-74.63822222-129.024-74.63822223z m760.03555556 0L526.90488889 73.728v151.32444445l233.472 128.34133333 1.82044444 1.024 129.13777778-74.63822223z" fill="#8ED6FB" p-id="1109"></path><path d="M495.72977778 758.21511111l-218.45333333-120.14933333V400.15644445l218.45333333 126.17955555v231.87911111z m31.17511111 0l218.45333333-120.03555556V400.15644445l-218.45333333 126.17955555v231.87911111zM291.95377778 372.62222222l219.24977777-120.49066667L730.45333333 372.62222222 511.31733333 499.25688889 291.95377778 372.62222222z" fill="#1C78C0" p-id="1110"></path></svg>
+    </div>
+    <div data-tooltip="MongoDB">
+      <svg t="1639623246712" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13537" width="200" height="200"><path d="M0 0h1024v1024H0z" fill="#13AA53" p-id="13538"></path><path d="M524.8 121.6zM339.2 524.8c0 211.2 108.8 268.8 140.8 281.6 44.8-51.2 44.8-422.4 44.8-697.6-25.6 102.4-185.6 179.2-185.6 416z" fill="#FFFFFF" p-id="13539"></path><path d="M531.2 172.8c0 172.8 38.4 620.8-19.2 652.8v83.2l12.8 12.8c12.8 0 19.2-12.8 19.2-19.2v-83.2c70.4-38.4 140.8-121.6 140.8-294.4 0-166.4-134.4-307.2-153.6-352z" fill="#FFFFFF" p-id="13540"></path></svg>
+    </div>
+    <div data-tooltip="NodeJs">
+      <svg t="1639623045038" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10114" width="200" height="200"><path d="M512 78.933333c-11.52 0-23.466667 2.986667-33.28 8.533334l-317.44 183.466666c-20.48 11.946667-33.28 34.133333-33.28 58.026667v366.08c0 23.893333 12.8 46.08 33.28 58.026667l83.2 47.786666c40.533333 19.626667 54.186667 20.053333 72.96 20.053334 59.733333 0 94.293333-36.266667 94.293333-99.413334V360.106667c0-5.12-4.266667-9.386667-9.386666-9.386667H362.666667c-5.546667 0-9.813333 4.266667-9.813334 9.386667v361.386666c0 28.16-29.013333 55.893333-75.52 32.426667L189.866667 704a11.093333 11.093333 0 0 1-4.693334-8.96V328.96c0-3.84 1.706667-7.253333 4.693334-8.96l317.44-183.04c2.56-1.706667 6.826667-1.706667 9.386666 0l317.44 183.04c2.986667 1.706667 4.693333 5.12 4.693334 8.96v366.08c0 3.413333-1.706667 6.826667-4.693334 8.96l-317.44 183.04c-2.56 1.706667-6.826667 1.706667-9.813333 0L426.666667 838.4c-3.413333-1.28-6.826667-1.706667-8.96-0.426667-22.613333 12.8-26.88 15.36-47.786667 21.76-5.12 1.706667-13.226667 4.693333 2.986667 13.653334l105.813333 62.72c10.24 5.973333 21.333333 8.96 33.28 8.96s23.04-2.986667 33.28-8.96l317.44-183.04c20.48-11.946667 33.28-34.133333 33.28-58.026667V328.96c0-23.893333-12.8-46.08-33.28-58.026667l-317.44-183.466666c-9.813333-5.546667-21.333333-8.533333-33.28-8.533334M597.333333 341.333333c-90.453333 0-144.64 37.973333-144.64 101.973334 0 68.693333 53.76 88.746667 140.8 97.28 103.68 10.24 111.786667 25.6 111.786667 46.08 0 35.413333-28.586667 50.346667-95.146667 50.346666-84.48 0-102.4-20.906667-108.8-62.72a9.642667 9.642667 0 0 0-9.386666-7.68h-40.96c-5.12 0-8.96 3.84-8.96 9.386667 0 52.906667 29.013333 116.906667 168.106666 116.906667 100.266667 0 157.866667-39.68 157.866667-108.8 0-68.693333-46.08-86.613333-143.786667-99.84-98.56-12.8-108.373333-19.626667-108.373333-42.666667 0-19.2 8.533333-44.8 81.493333-44.8 64 0 89.173333 14.08 98.986667 58.026667 0.853333 4.266667 4.693333 7.253333 8.96 7.253333h41.386667c2.133333 0 4.693333-0.853333 6.4-2.986667 1.706667-1.706667 2.986667-4.266667 2.133333-6.826666C749.226667 376.32 698.88 341.333333 597.333333 341.333333z" fill="#8BC34A" p-id="10115"></path></svg>
+    </div>
+    <div data-tooltip="miniProgram">
+      <svg t="1639624856027" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="14342" width="200" height="200"><path d="M512 1C229.8 1 1 229.8 1 512s228.8 511 511 511 511-228.8 511-511S794.8 1 512 1z m298.3 456.3c-23.2 37.4-60 65.4-104 78.4-11.3 3.6-20.8 4.8-29.7 4.8-23.2 0-41-17.8-41-41s17.8-41 41-41c1.2 0 2.4 0 4.2-0.6h0.6c26.1-7.1 46.9-22.6 58.8-42.2 7.7-12.5 11.3-26.1 11.3-41 0-48.1-44.6-86.8-99.2-86.8-19 0-37.4 4.8-54.1 14.3-28.5 16-45.2 43.4-45.2 73.1v276.9c0 59.4-32.7 112.9-86.8 143.8-28.5 16-61.2 25-94.5 25C271.4 821 190 744.9 190 651.6c0-28.5 8.3-57 23.8-83.2C237 531 273.8 503 317.2 490c12.5-3.6 21.4-4.8 30.3-4.8 23.2 0 41 17.8 41 41s-17.8 41-41 41c-1.2 0-2.4 0-4.2 0.6-26.7 8.3-47.5 23.2-59.4 42.8-7.7 12.5-11.3 26.1-11.3 41 0 48.1 44.6 86.7 99.8 86.7 19 0 37.4-4.8 54.1-14.3 28.5-16 45.2-43.4 45.2-73.1V374.2c0-59.4 32.7-112.9 86.8-143.8 27.3-16.6 60-25.6 93.9-25.6 100.4 0 181.8 76.1 181.8 169.3-0.2 28-8.5 57.1-23.9 83.2z m0 0" fill="#2BA245" p-id="14343"></path></svg>
+    </div>
+    <div data-tooltip="MySQL">
+      <svg t="1597992373909" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9841" width="200" height="200"><path d="M715.8 312.4l-5.6-11.7c-2.4-3.4-5.9-6-7.9-10h-0.6v-0.6c3.3-0.8 6.7-1.2 10.1-1.1 2 1.9 5.1 3.3 6.7 5.6 1.2 1.7 1.4 3.6 2.8 5 0 5.9-1.6 9.8-5.1 12.3 0.2-0.1-0.4 0.5-0.4 0.5z m251.9 251.1c-9.3-5.9-20.1-9.2-29.8-15.1-5.4-3.3-10.7-7.4-15.7-11.2-4.7-3.5-9.9-10.1-12.9-15.1-1.6-2.6-1.9-5.7-3.9-7.8 0.6-4.6 6.4-4.6 10.1-6.1 12.9-5.4 28-7.2 47.8-6.7-0.6-5-12.9-11.2-16.9-13.9-8-5.6-16.2-11.6-24.7-16.8-4.5-2.7-12.2-4.7-16.9-6.7-6.7-2.8-21.5-5.5-25.3-10.6-7.3-9.6-12.3-21.3-17.4-32.9-5.2-11.6-11.7-23.8-16.9-35.7-2.6-5.9-3.8-11.2-6.7-16.7-18.1-34.5-44.6-63.4-77-83.7-10.6-6.7-22.4-12.8-35.4-16.7-7.4-2.2-16.3-1-24.2-2.8h-5.1c-4.4-1.3-8.1-6-11.8-8.4-7.6-5-15.2-8.6-24.2-12.3-3.4-1.4-12.5-4.7-15.7-2.2-1.9 0.6-2.8 1.4-3.4 3.3-1.9 2.9-0.2 7.3 1.1 10 3.6 7.8 8.8 12.5 13.5 19 4.2 5.8 9.3 12.4 12.4 19 6.3 13.7 9.2 28.9 15.2 42.4 2.3 5.2 5.7 11.1 9 15.6 2.7 3.6 7.5 6.4 9 11.2 3.1 4.8-4.5 21.1-6.2 26.2-6.5 20-5.1 47.9 2.2 65.3 2.9 6.9 5.7 14.9 13.5 16.7 0.6-0.4 0.1-0.2 1.1-0.5 1.7-13.4 2.2-26.3 6.7-36.8 2.8-6.6 8.2-11.1 11.8-16.7 2.7 1.5 2.6 6 3.9 8.9 3.3 7.6 6.8 15.9 10.7 23.4 8.3 15.7 17.3 30.8 27.6 44.6 3.6 4.9 8.5 10.2 12.9 14.5 1.9 1.8 4.2 2.8 5.6 5h0.6v0.6c-7.6-2.6-12.1-10.1-18-14.5-11.3-8.4-24.6-21-32-32.9l-10.1-20.1v-0.6c-1.4 1.9-1 3.9-1.7 6.7-3.2 12.3-0.7 26.2-11.8 30.7-12.7 5.1-21.9-8.3-25.9-14.5-12.8-20.3-16.1-54.5-7.3-82 1.9-6.1 2.1-13.6 5.6-18.4-0.6-4.3-4.1-5.6-6.2-8.4-3.4-4.6-6.3-10-9-15.1-5.3-10.1-8.8-22-12.9-32.9-1.7-4.4-2-8.6-3.9-12.8-2.9-6.4-8.2-12.7-12.4-18.4-5.9-8.1-22.3-23.7-15.7-39.6 10.4-25.3 46.6-6.1 60.7 2.8 3.5 2.2 7.5 6.8 11.2 8.4l18.6 1.1c11.5 2.7 22.4 4.8 31.5 10 42.6 24.7 70 49.9 95.6 91.5 5.3 8.7 8.1 18.2 12.4 27.9 6.3 14.4 13 28.5 20.3 42.4 3.4 6.4 5.8 13.5 10.1 19 1.8 2.3 6.8 3.1 9.6 4.5 8.3 4.2 18 7.3 25.9 12.3 14.2 8.9 27.9 19.5 40.5 30.1 4.8 4.1 8 10 12.4 14.5v2.2c-3.9 1.1-7.9 2.2-11.8 3.3-8.7 2.2-16.3 1.7-24.7 3.9-5 1.3-11.4 3.3-16.9 3.9l0.6 0.5c3.2 8.9 20.4 16.3 28.1 21.8 9.6 6.9 18.7 15.1 25.9 24.5l7.3 7.3c1.7 2.4 2.1 5.5 3.9 7.8v0.5c-3.4-1.2-5.2-4.2-7.9-6.1-5.7-3.8-11.1-8.1-16.6-11.6zM373 728.9H271.4v-21.5h101.7c20.7-2.2 18.3-12.4 18.3-15.8v-8.4h-68.3c-31.8-0.3-52.1-14.1-52.3-29.9 0-1.5 0.7-71 0-71.6H303v69.5c-0.3 3.8 1.2 12.6 18.8 12.9 9 0.1 69.4 0 69.9 0v-82.7h32.2c0.2 0 0 112.8 0 113.3 0.2 27.7-34.8 33.7-50.9 34.2zM211.8 558.2L162 668.1c-5.9 13.3-13.6 18-29.4 18-15.8 0-23.8-4.7-29.7-18L53.2 558.2v126.1H21V558.4c0-12.3 4.9-18.2 15.2-21.3 24.4-7.6 41.1-1 48.2 15.3l47.3 108.5 48.9-108.5c7.4-16.4 23.8-22.9 48.3-15.3 10.2 3.1 15.2 9 15.2 21.3v125.9h-32.2l-0.1-126.1z" fill="#00758F" p-id="9842"></path><path d="M659.8 536.6h61.1c3.1 0 5.9 0.2 9 0.6 27 3.7 40.6 15.4 40.6 34.7v75.9c0 15.6-5.8 24-19.1 29.5l31.7 28.4h-37.3l-25.6-23-25.8 1.6H660c-6.4 0-12.8-0.9-18.9-2.7-20.5-5.5-30.4-16.2-30.4-33.8v-75.9c0-19.3 13.6-31 40.6-34.7 2.6-0.4 5.7-0.6 8.5-0.6z m-14.6 109.3c0 1 0.3 2.1 0.6 3.3 1.9 8.8 10.2 13.7 22.9 13.7H698l-26.8-24.1h37.3l23.4 21c4.3-2.3 7.2-5.8 8.2-10.3 0.3-1 0.3-2.1 0.3-3.1v-72.8c0-0.8 0-1.9-0.3-2.9-1.9-8.2-10.2-12.9-22.6-12.9h-48.7c-14.3 0-23.6 6.2-23.6 15.8v72.3z m-148.9-88.1c-11.5 1-14.9 2.9-16.4 9.4-0.3 1-0.3 1.9-0.3 2.7v14.5c0 1 0 1.8 0.3 2.9 1.5 8.6 7.7 12.5 20.7 12.5h39c9.6 0 19.5 1.6 27.5 4.7 15.2 5.7 22.9 14.3 22.9 23.5v23.3c0 11.3-6.8 19.9-20.7 26.2-8.3 3.9-18.9 6.1-29.7 6.1h-92.5v-21.3h88.8c1.2 0 2.2-0.2 3.4-0.2 6.2-0.4 10.8-2.1 13.6-4.5 3.1-2.5 4.6-5.3 4.6-7.6v-18.6c0-2.2-0.9-4.3-2.5-5.7-3.1-3.7-7.4-5.5-17.6-6.3-0.9-0.2-2.2-0.2-3.4-0.2h-33.4c-3.1 0-6.2-0.2-9.3-0.4-27.5-2.9-43.9-15.1-43.9-29.5v-18.6c0-16.4 8.4-25.8 27.5-31.7 6.2-1.8 13-2.7 26-2.7h90.3v21.3h-91.9c-0.9 0-2.1 0.2-3 0.2z m326.5 88.6c0 11.3 7.1 16 26 16h84.4v21.3h-83.8c-3.1 0-6.2-0.2-9.3-0.4-33.1-2.4-49.5-14.7-49.5-36.6V536.3h32.2v110.1z m149.2-8.2c12.5 0 23.7 9.5 23.7 23.5 0 14.1-11.2 23.5-23.7 23.5s-23.7-9.5-23.7-23.5 11.2-23.5 23.7-23.5z m0 42.2c10.2 0 18.4-8 18.4-18.6 0-10.7-8.2-18.6-18.4-18.6-10.3 0-18.4 8-18.4 18.6 0.1 10.6 8.1 18.6 18.4 18.6z m11.3-24.3c0 4.9-3.2 6.9-7.3 7.3l7.8 11.8h-5.3l-7.1-11.6h-4.2v11.6h-4.5v-26.9h10.6c6.5 0 10 2.3 10 7.8z m-16.2-4v7.7h4.9c3.4 0 6.4-0.3 6.4-4.1 0-3.1-3.3-3.6-6-3.6h-5.3z" fill="#F2A72F" p-id="9843"></path></svg>
+    </div>
+    <div data-tooltip="NGINX">
+      <svg t="1597992219506" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2608" width="200" height="200"><path d="M512 0L68.48 256v512L512 1024l443.52-256V256z m256 707.84c0 30.08-27.552 55.04-65.248 55.04-26.912 0-57.632-10.88-76.832-34.56l-256-304.672v284.16c0 30.752-24.32 55.04-54.368 55.04H312.32c-30.752 0-55.04-25.6-55.04-55.04V316.16c0-30.08 26.88-55.04 64-55.04 27.552 0 58.88 10.88 78.08 34.56l254.72 304.672V316.16c0-30.752 25.6-55.04 55.04-55.04h3.2c30.72 0 55.04 25.6 55.04 55.04v391.68z" fill="#269539" p-id="2609"></path></svg>
+    </div>
+    <div data-tooltip="CentOs">
+      <svg t="1639622839184" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4588" width="200" height="200"><path d="M429.056 471.722667l36.522667 36.181333-36.522667 36.181333H172.032v120.832l-156.672-157.013333 156.672-154.624v118.101333l257.024 0.341334z" fill="#932279" p-id="4589"></path><path d="M545.450667 429.056l-36.181334 36.522667-36.181333-36.522667V172.032h-120.832l157.013333-156.672 154.624 156.672h-118.101333l-0.341333 257.024z" fill="#EFA724" p-id="4590"></path><path d="M588.117333 545.450667l-36.522666-36.181334 36.522666-36.181333h256.682667v-120.832l156.672 157.013333-156.672 154.624v-118.101333l-256.682667-0.341333z" fill="#262577" p-id="4591"></path><path d="M471.722667 588.117333l36.181333-36.522666 36.181333 36.522666v257.024h120.832l-157.013333 156.672-154.624-156.672h118.101333l0.341334-257.024z" fill="#9CCD2A" p-id="4592"></path><path d="M162.816 162.816h311.978667v311.978667H162.816V162.816z" fill="#9CCD2A" p-id="4593"></path><path d="M542.037333 162.816h311.978667v311.978667h-311.978667V162.816z" fill="#932279" p-id="4594"></path><path d="M542.037333 542.037333h311.978667v311.978667h-311.978667v-311.978667z" fill="#EFA724" p-id="4595"></path><path d="M162.816 542.037333h311.978667v311.978667H162.816v-311.978667z" fill="#262577" p-id="4596"></path></svg>
+    </div>
+    <div data-tooltip="Git">
+      <svg t="1594452867673" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="837" width="200" height="200"><path d="M63.49884471 444.72482676L339.27934283 168.4672005l80.63478137 81.1119106c-11.45109332 40.55595587 7.15693331 84.92894248 44.3729866 106.39974246v264.32940369c-28.62773329 16.22238256-47.7128892 47.23575993-47.71288806 82.54329842a95.42577726 95.42577726 0 0 0 95.42577726 95.42577726 95.42577726 95.42577726 0 0 0 95.42577726-95.42577726c0-35.30753736-19.08515589-66.32091583-47.71288806-82.54329842V388.42361757l98.76567986 99.7199384c-3.33990259 7.15693331-3.33990259 15.26812405-3.33990261 23.85644403a95.42577726 95.42577726 0 0 0 95.42577728 95.42577726 95.42577726 95.42577726 0 0 0 95.42577839-95.42577726 95.42577726 95.42577726 0 0 0-95.42577839-95.42577726c-8.58831998 0-16.69951071 0-23.85644403 3.33990146L604.0858758 297.2920003a94.47151987 94.47151987 0 0 0-54.86982251-111.64815985c-20.51654257-7.63406259-41.98734253-9.54257739-61.07249732-4.29415998L407.03164421 100.71489799l37.69318255-37.21605328c37.21605328-37.69318254 97.3342932-37.69318254 134.55034648 0l381.22598205 381.22598205c37.69318254 37.21605328 37.69318254 97.3342932 0 134.55034648l-381.22598205 381.22598205c-37.21605328 37.69318254-97.3342932 37.69318254-134.55034648 0L63.49884471 579.27517324c-37.69318254-37.21605328-37.69318254-97.3342932 0-134.55034648z" fill="#E64A19" p-id="838"></path></svg>
+    </div>
+  </div>
+</div>
+]]></content>
     <author>
       <name>ChouCong</name>
     </author>
@@ -8710,9 +8781,10 @@ npm init vuepress-theme-hope docs
     <title type="html">欢迎大家在下方留言</title>
     <id>/message.html</id>
     <link href="https://codenoob.top/message.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[想吐嘈的啥，快留下你的槽点！]]></summary>
-    <content type="html"><![CDATA[<h2 id="想吐嘈的啥-快留下你的槽点"> 想吐嘈的啥，快留下你的槽点</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="想吐嘈的啥-快留下你的槽点"> 想吐嘈的啥，快留下你的槽点</h2>
 <p>可以的话，可以互相交换<a href="/friends.html">友链</a>吗QAQ~</p>
 ]]></content>
     <author>
@@ -8948,9 +9020,10 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
     <title type="html">个人项目列表</title>
     <id>/projects/</id>
     <link href="https://codenoob.top/projects/"/>
-    <updated>2021-11-21T15:21:44.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[欢饮来交流啊]]></summary>
-    <content type="html"><![CDATA[<h2 id="个人项目-欢迎交流"> 个人项目，欢迎交流</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="个人项目-欢迎交流"> 个人项目，欢迎交流</h2>
 <p>网站头像请保证在外部可以直接打开的，为保证友链质量，申请的友链都将经过筛选，原则上已添加友链不会轻易删除，如遇死链、盗版、破解、网页植入挖矿脚本、极低质量内容、我站都将单方面移除贵站链接，恕不另行通知。
 <br/>
 <br/>
@@ -8970,9 +9043,10 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
     <title type="html">通用(不是docker)</title>
     <id>/projects/vaultwarden/Backup/General.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Backup/General.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<h2 id="备份"> 备份</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="备份"> 备份</h2>
 <p>要包含在备份中的内容：</p>
 <ul>
 <li>启动Vaultwarden时使用的环境文件</li>
@@ -9029,9 +9103,10 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
     <title type="html">更改持久数据位置</title>
     <id>/projects/vaultwarden/Configuration/Changing-persistent-data-location.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Changing-persistent-data-location.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<h2 id="data前缀"> /data前缀</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="data前缀"> /data前缀</h2>
 <p>默认情况下，所有持久数据都保存在 <code>/data</code> 下，您可以通过设置 <code>DATA_FOLDER</code> 环境变量来覆盖此路径：</p>
 <div><pre><code>docker run -d --name vaultwarden <span>\</span>
   -e <span>DATA_FOLDER</span><span>=</span>/persistent <span>\</span>
@@ -9135,9 +9210,10 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
     <title type="html">概览</title>
     <id>/projects/vaultwarden/Configuration/Configuration-overview.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Configuration-overview.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<h2 id="配置方法"> 配置方法</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="配置方法"> 配置方法</h2>
 <p>在 Vaultwarden 中，您可以通过环境变量或 <a href="./Enabling-admin-page.html">启用管理页面</a>(将设置写入数据目录下的 <code>config.json</code> 文件)执行配置。需要注意的是，<code>config.json</code> 中的每个设置都会覆盖相应的环境变量设置(如果存在)。例如，如果你设置了环境变量<code>DOMAIN=https://bitwarden.example.com</code>，但是你的<code>config.json</code>包含<code>&quot;domain&quot;: &quot;https://vw.example.com&quot;</code>，那么Vaultwarden 将根据配置文件 (<code>https://vw.example.com</code>) 中的内容生成各种链接。</p>
 <p>一个常见的混淆源是启用管理页面(创建 <code>config.json</code> 文件)，通过管理页面更改一些设置(在 <code>config.json</code> 中设置相应的值)，然后尝试更改这些设置通过环境变量(这不起作用，因为<code>config.json</code> 覆盖了环境变量)。为了避免这种混淆，强烈建议坚持使用一种或另一种配置方法；也就是说，完全通过环境变量配置，或者完全通过<code>config.json</code>(无论是使用管理页面还是直接编辑<code>config.json</code>)。</p>
 <p>请注意，管理页面的<code>只读配置</code>部分下的配置设置只能通过环境变量进行设置，因此您必须重新启动 Vaultwarden 才能对其进行更改。</p>
@@ -12631,9 +12707,10 @@ export WEBSOCKET_ENABLED=true
     <title type="html">FAQ</title>
     <id>/projects/vaultwarden/Home/FAQs.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Home/FAQs.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<h2 id="vaultwarden-是否与-bitwarden-项目或-8bit-solutions-llc-相关联"> Vaultwarden 是否与 Bitwarden 项目或 8bit Solutions LLC 相关联？</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="vaultwarden-是否与-bitwarden-项目或-8bit-solutions-llc-相关联"> Vaultwarden 是否与 Bitwarden 项目或 8bit Solutions LLC 相关联？</h2>
 <p>简短的回答，<strong>不</strong>。 有时两个项目的开发人员之间有一些联系，但没有合作。 除此之外，Vaultwarden 项目仅使用 8bit Solutions LLC 提供的 Web Vault 和一些补丁来使其与我们的实现一起工作。</p>
 <h2 id="vaultwarden-可以连接到-oracle-mysql-v8-x-数据库吗"> Vaultwarden 可以连接到 Oracle MySQL V8.x 数据库吗？</h2>
 <p>使用 Oracle MySQL v8.x 尝试启动 Vaultwarden 时，您可能会收到以下警告</p>
@@ -12769,9 +12846,10 @@ export WEBSOCKET_ENABLED=true
     <title type="html">备份你的密码库</title>
     <id>/projects/vaultwarden/Other/Backing-up-your-vault.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Other/Backing-up-your-vault.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<h2 id="概述"> 概述</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="概述"> 概述</h2>
 <p>Vaultwarden 数据应定期备份，最好通过自动化流程(例如，cron 作业)进行备份。</p>
 <p>理想情况下，至少应远程存储一份副本(例如，云存储或另一台计算机)。</p>
 <p>避免依赖文件系统或 VM 快照作为备份方法，因为这些是更复杂的操作，可能会出现更多问题，并且在这种情况下恢复对于典型用户来说可能很困难或不可能。</p>
@@ -12863,9 +12941,10 @@ export WEBSOCKET_ENABLED=true
     <title type="html">带有 Cloudflare DNS 的 Caddy 2.x</title>
     <id>/projects/vaultwarden/Other/Caddy-with-Cloudflare-DNS.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Other/Caddy-with-Cloudflare-DNS.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<h2 id="dockerfile-caddy-生成器"> Dockerfile(Caddy 生成器)</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="dockerfile-caddy-生成器"> Dockerfile(Caddy 生成器)</h2>
 <div><pre><code>FROM caddy:builder AS builder
 RUN xcaddy build --with github.com/caddy-dns/cloudflare
 
@@ -12969,9 +13048,10 @@ volumes:
     <title type="html">与上游API实现的区别</title>
     <id>/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<h2 id="邀请用户加入组织"> 邀请用户加入组织</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="邀请用户加入组织"> 邀请用户加入组织</h2>
 <h3 id="启用-smtp"> 启用 SMTP</h3>
 <p>受邀用户将收到一封电子邮件，其中包含一个有效期为 5 天的链接。点击链接后，用户可以选择创建帐户或登录。新​​用户需要创建一个新帐户；被邀请加入新组织的现有用户只需登录。在任一步骤之后，他们将在管理界面中显示为<code>已接受</code>，并在组织管理员确认后将添加到组织。</p>
 <h3 id="没有启用-smtp"> 没有启用 SMTP</h3>
@@ -12995,9 +13075,10 @@ volumes:
     <title type="html">从Keepass或KeepassX导入数据</title>
     <id>/projects/vaultwarden/Other/Importing-data-from-Keepass-or-KeepassX.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Other/Importing-data-from-Keepass-or-KeepassX.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<h2 id="介绍"> 介绍</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="介绍"> 介绍</h2>
 <p>Bitwarden 可以从大量<a href="https://help.bitwarden.com/article/import-data/" target="_blank" rel="noopener noreferrer">应用程序</a> 中导入您的数据。</p>
 <p>当前的导入器只允许您选择格式，而不是如何将数据转换为 Bitwarden。</p>
 <h2 id="keepass-和-keepassx-的导入结果不同"> Keepass 和 KeepassX 的导入结果不同</h2>
@@ -13181,7 +13262,7 @@ DNS.2 = www.bitwarden.local
     <title type="html">Home</title>
     <id>/</id>
     <link href="https://codenoob.top/"/>
-    <updated>2021-11-29T10:20:00.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <author>
       <name>ChouCong</name>
     </author>
@@ -13255,9 +13336,10 @@ DNS.2 = www.bitwarden.local
     <title type="html">MobaXterm</title>
     <id>/tools/creat/mobaxterm.html</id>
     <link href="https://codenoob.top/tools/creat/mobaxterm.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[MobaXterm—终端神器]]></summary>
-    <content type="html"><![CDATA[<h2 id="简介"> 简介</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="简介"> 简介</h2>
 <p>我在视频里面使用的终端就是它了，好看实用</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/113103-138791.png" alt="image-20200705113103099" /></p>
 <p>支持多tab，我本地和服务器操作开这一个软件就够了</p>
@@ -13280,8 +13362,9 @@ DNS.2 = www.bitwarden.local
     <title type="html">创作工具</title>
     <id>/tools/creat/</id>
     <link href="https://codenoob.top/tools/creat/"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
+    <updated>2022-01-25T13:07:58.000Z</updated>
+    <content type="html"><![CDATA[<br>
+<h2 id="主要如下"> 主要如下</h2>
 <ul>
 <li>
 <p><a href="./feem.html">Feem</a></p>
@@ -13360,36 +13443,12 @@ DNS.2 = www.bitwarden.local
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">PHP实现随机图片展示</title>
-    <id>/tools/php-random-picture.html</id>
-    <link href="https://codenoob.top/tools/php-random-picture.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[PHP实现随机图片展示]]></summary>
-    <content type="html"><![CDATA[<h2 id="主要代码如下"> 主要代码如下</h2>
-<div><pre><code><span><span>&lt;?php</span>
-<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>
-<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>
-<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>
-<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>
-<span>?></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-09-28T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">工具推荐</title>
     <id>/tools/</id>
     <link href="https://codenoob.top/tools/"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主要如下"> 主要如下</h2>
+    <updated>2022-01-25T13:07:58.000Z</updated>
+    <content type="html"><![CDATA[<br>
+<h2 id="主要如下"> 主要如下</h2>
 <ul>
 <li>
 <p><a href="./creat/">创作工具</a></p>
@@ -13422,9 +13481,10 @@ DNS.2 = www.bitwarden.local
     <title type="html">油猴脚本自动刷课</title>
     <id>/tools/tampermonkey-refreshes-lesson.html</id>
     <link href="https://codenoob.top/tools/tampermonkey-refreshes-lesson.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[油猴脚本自动刷课]]></summary>
-    <content type="html"><![CDATA[<h2 id="前言"> 前言</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="前言"> 前言</h2>
 <p>很多学生需要完成网课的学习，但是这些课程往往很长，而且还会有一些题目，这就需要我们隔几分钟就要看一下页面，阻碍了我们进行快乐的阅读文献，所以这里通过一些脚本插件来解放我们的双手。</p>
 <p>通过插件可以实现：</p>
 <ul>
@@ -13643,31 +13703,6 @@ echo $str . "\n";
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">Git的学习手记</title>
-    <id>/tutorials/git.html</id>
-    <link href="https://codenoob.top/tutorials/git.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Git的学习手记]]></summary>
-    <content type="html"><![CDATA[<div><p>说明</p>
-<p>整理一下以前的Git学习笔记，还是比较详细的</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>这个分类是Git的手记 希望能对你有所帮助</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="教程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-10-29T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">Vue Devtools的安装</title>
     <id>/tools/vuedev-tool.html</id>
     <link href="https://codenoob.top/tools/vuedev-tool.html"/>
@@ -13700,12 +13735,38 @@ echo $str . "\n";
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">Git的学习手记</title>
+    <id>/tutorials/git.html</id>
+    <link href="https://codenoob.top/tutorials/git.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Git的学习手记]]></summary>
+    <content type="html"><![CDATA[<div><p>说明</p>
+<p>整理一下以前的Git学习笔记，还是比较详细的</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>这个分类是Git的手记 希望能对你有所帮助</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="教程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-10-29T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">GitHub下载慢的问题</title>
     <id>/tutorials/githubdown.html</id>
     <link href="https://codenoob.top/tutorials/githubdown.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[GitHub下载慢的问题]]></summary>
-    <content type="html"><![CDATA[<h2 id="github下载慢的问题"> GitHub下载慢的问题</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="github下载慢的问题"> GitHub下载慢的问题</h2>
 <p>很多小伙伴说啊这个GitHub的下载速度很慢，那么本期视屏我给大家准备了几个可以提升速度的方法非常的简单</p>
 <p>本次视屏由大家的三连支持播出</p>
 <h2 id="码云"> 码云</h2>
@@ -14660,9 +14721,10 @@ jim<span>.</span><span>log</span><span>(</span><span>)</span><span>;</span>
     <title type="html">VPS 常用命令</title>
     <id>/tutorials/vps-command.html</id>
     <link href="https://codenoob.top/tutorials/vps-command.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[VPS 常用命令]]></summary>
-    <content type="html"><![CDATA[<h2 id="宝塔面板"> 宝塔面板</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="宝塔面板"> 宝塔面板</h2>
 <div><pre><code><span># centos</span>
 yum <span>install</span> -y <span>wget</span> <span>&amp;&amp;</span> <span>wget</span> -O install.sh http://download.bt.cn/install/install_6.0.sh <span>&amp;&amp;</span> <span>sh</span> install.sh
 
@@ -14775,9 +14837,10 @@ mkfs.ext4 -F /dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx
     <title type="html">vue快速入门教程发布啦</title>
     <id>/tutorials/vue-tutorials.html</id>
     <link href="https://codenoob.top/tutorials/vue-tutorials.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[vue快速入门教程发布啦]]></summary>
-    <content type="html"><![CDATA[<h2 id="前言"> 前言</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="前言"> 前言</h2>
 <blockquote>
 <p>为了确保你能看到最新的内容，请注意右下角的刷新页面的提示</p>
 </blockquote>
@@ -14829,9 +14892,10 @@ mkfs.ext4 -F /dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx
     <title type="html">VuePress博客搭建指南</title>
     <id>/tutorials/vuepress-build.html</id>
     <link href="https://codenoob.top/tutorials/vuepress-build.html"/>
-    <updated>2022-01-22T15:54:17.000Z</updated>
+    <updated>2022-01-25T13:07:58.000Z</updated>
     <summary type="html"><![CDATA[「奇怪的教程」年轻人的第一个博客搭建指南]]></summary>
-    <content type="html"><![CDATA[<h2 id="开始前要说的话"> 开始前要说的话</h2>
+    <content type="html"><![CDATA[<br>
+<h2 id="开始前要说的话"> 开始前要说的话</h2>
 <p>当你有意识想要为自己搭建一个个人博客时，我相信你已经步入了开发者这扇门，也许你的技术没有非常强劲，或者你和我一样对于前端技术了解的很少，你在接下来的搭建过程中可能会出现一些问题，这些问题很有可能没有完全的记录在我的教程中，但是请一定要记得：</p>
 <div><p>安了！</p>
 <p>遇见了问题请不要抱怨，尝试自己解决他，利用你的翻译软件和搜索软件，找到问题的关键，处理它，自己动手把坑填上。</p>
@@ -15723,31 +15787,6 @@ module.exports = config({
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">utools</title>
-    <id>/tools/creat/utools.html</id>
-    <link href="https://codenoob.top/tools/creat/utools.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[utools—真效率大师]]></summary>
-    <content type="html"><![CDATA[<div><p>utools</p>
-<p>uTools是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。</p>
-<p>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。</p>
-</div>
-<p>这个软件不用多说，下载来试一试就知道了，真*效率大师，有了它以后，我的桌面就几个图标了，平时用来搜索本地应用、本地文件、系统设置很方便</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/000823-556005.png" alt="image-20200807000822656" /></p>
-<p>最主要的还支持自定义插件，观看开发文档，剪贴板历史，在线翻译...更多请自行了解</p>
-<p><a href="http://www.u.tools/" target="_blank" rel="noopener noreferrer">官网地址</a></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-09-16T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">snipaste</title>
     <id>/tools/creat/snipaste.html</id>
     <link href="https://codenoob.top/tools/creat/snipaste.html"/>
@@ -15786,6 +15825,57 @@ module.exports = config({
       <name>ChouCong</name>
     </contributor>
     <published>2020-09-22T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">utools</title>
+    <id>/tools/creat/utools.html</id>
+    <link href="https://codenoob.top/tools/creat/utools.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[utools—真效率大师]]></summary>
+    <content type="html"><![CDATA[<div><p>utools</p>
+<p>uTools是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。</p>
+<p>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。</p>
+</div>
+<p>这个软件不用多说，下载来试一试就知道了，真*效率大师，有了它以后，我的桌面就几个图标了，平时用来搜索本地应用、本地文件、系统设置很方便</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/000823-556005.png" alt="image-20200807000822656" /></p>
+<p>最主要的还支持自定义插件，观看开发文档，剪贴板历史，在线翻译...更多请自行了解</p>
+<p><a href="http://www.u.tools/" target="_blank" rel="noopener noreferrer">官网地址</a></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-09-16T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">PHP实现随机图片展示</title>
+    <id>/tools/php-random-picture.html</id>
+    <link href="https://codenoob.top/tools/php-random-picture.html"/>
+    <updated>2022-01-25T13:07:58.000Z</updated>
+    <summary type="html"><![CDATA[PHP实现随机图片展示]]></summary>
+    <content type="html"><![CDATA[<br>
+<h2 id="主要代码如下"> 主要代码如下</h2>
+<div><pre><code><span><span>&lt;?php</span>
+<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>
+<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>
+<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>
+<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>
+<span>?></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-09-28T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
 </feed>
