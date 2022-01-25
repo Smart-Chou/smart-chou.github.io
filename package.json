@@ -22,5 +22,8 @@
   },
   "resolutions": {
     "vue-router": "3.4.5"
+  },
+  "devDependencies": {
+    "vuepress-plugin-fulltext-search": "^2.2.1"
   }
 }

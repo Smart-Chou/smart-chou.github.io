@@ -8,6 +8,8 @@ tag:
 icon: ios
 ---
 
+<br>
+
 ## 前言
 
 最初在[论坛](https://www.hostloc.com/thread-807666-1-1.html)看到一位大佬发帖讨论如何做订阅的笔记，大佬使用 `Notion` 中 `Table` 来管理订阅，界面看起来非常美观，自定义程度非常高，同时[自留地](https://t.me/NewlearnerChannel)推荐的一篇[少数派文章](https://sspai.com/post/57337)讲解了一些基础的操作，遂自己折腾了一番，无奈只完成了一小部分。

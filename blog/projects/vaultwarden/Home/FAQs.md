@@ -10,6 +10,8 @@ tag:
 icon: bitwarden
 ---
 
+<br>
+
 ## Vaultwarden 是否与 Bitwarden 项目或 8bit Solutions LLC 相关联？
 
 简短的回答，**不**。 有时两个项目的开发人员之间有一些联系，但没有合作。 除此之外，Vaultwarden 项目仅使用 8bit Solutions LLC 提供的 Web Vault 和一些补丁来使其与我们的实现一起工作。

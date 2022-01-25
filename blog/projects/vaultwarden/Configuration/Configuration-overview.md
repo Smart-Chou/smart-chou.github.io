@@ -9,6 +9,9 @@ tag:
   - bitwarden
 icon: bitwarden
 ---
+
+<br>
+
 ## 配置方法
 
 在 Vaultwarden 中，您可以通过环境变量或 [启用管理页面](Enabling-admin-page.md)(将设置写入数据目录下的 `config.json` 文件)执行配置。需要注意的是，`config.json` 中的每个设置都会覆盖相应的环境变量设置(如果存在)。例如，如果你设置了环境变量`DOMAIN=https://bitwarden.example.com`，但是你的`config.json`包含`"domain": "https://vw.example.com"`，那么Vaultwarden 将根据配置文件 (`https://vw.example.com`) 中的内容生成各种链接。

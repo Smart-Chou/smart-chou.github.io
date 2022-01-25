@@ -39,22 +39,7 @@ module.exports = config({
     head: [
         ['meta', { name: 'baidu-site-verification', content: 'code-E87rwPtGLL' }], //百度验证
         ['meta', { name: 'msvalidate.01', content: 'B9A0C43AD3B1BD529335A2616F235E46' }], //Bing验证
-        [
-            //"script",{ src: "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" }
-            "script",{ src: "/assets/js/react.production.min.js" }
-        ],
-        [
-            //"script",{ src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" }
-            "script",{ src: "/assets/js/react-dom.production.min.js" }
-        ],
-        [
-            //"script", { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }
-            "script", { src: "/assets/js/vue.min.js" }
-        ],
-        [
-            //"script",{ src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" }
-            "script",{ src: "/assets/js/babel.min.js" }
-        ],
+        ['script', { language: 'javascript', type: 'text/javascript', src: '/assets/js/pgmanor-self.js' }], //search
         [
             'script',
             {},
@@ -95,19 +80,19 @@ module.exports = config({
         author: 'ChouCong',
         description: '编程菜鸟的自我修养',
         hostname: 'https://codenoob.top',
-
+        darkmode: 'switch',
         repo: 'https://github.com/Smart-Chou/smart-chou.github.io',
-        repoLabel: "查看源码",
+        repoLabel: '查看源码',
         repoDisplay: false,
 
         //docsRepo: "vuejs/vuepress",
         docsDir: 'blog',
         docsBranch: 'main',
         editLinks: true,
-        editLinkText: "帮助改善此页面！",
+        editLinkText: '帮助改善此页面！',
 
-        searchMaxSuggestions: 10,
-        searchPlaceholder: '想知道啥，快来搜！',
+        searchMaxSuggestions: 5,
+        searchPlaceholder: '想搜啥，按‘S’！',
         breadcrumb: true,
         activeHeaderLinks: true,
 
@@ -123,7 +108,7 @@ module.exports = config({
             intro: '/author',
             sidebarDisplay: 'mobile',
             description: '编程菜鸟的自我修养',
-            autoExcerpt:true,
+            autoExcerpt: true,
             perPage: 9,
             timeline: '我们每天度过的日常生活，其实可能就是一连串的奇迹。',
             links: {
@@ -184,7 +169,7 @@ module.exports = config({
 
         footer: {
             display: true,
-            content: '<a href="https://beian.miit.gov.cn/" target="_blank">豫IPCP备20006179号</a>',
+            content: '<a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备20006179号</a>',
             copyright: 'ChouCong | Theme-Hope',
         },
 
@@ -254,5 +239,5 @@ module.exports = config({
             },
         },
     },
-    plugins: [],
+    plugins: [['fulltext-search']],
 });

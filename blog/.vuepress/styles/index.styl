@@ -1,6 +1,243 @@
-// import icon
-@import '//at.alicdn.com/t/font_2847214_mlmr0u7fiwn.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+// iconfonts
+@import 'https://at.alicdn.com/t/font_2847214_mlmr0u7fiwn.css';
 
+:root
+  --boxes: #f5f7f9
+  --primary-color: #3884ff
+  --bg-color: white
+  --heading-char-color: #9daab6
+  --boxes-darker2: #bac2c9
+  --font: 'Open Sans', Merriweather !important
+  --code-font: 'Rubik','Source Code Pro'
 
+#app .home
+  padding-top: 6em
 
+h2, h3, h4, h5, h6
+  font-family: 'Rubik', sans-serif
+  border-bottom: none
+  font-weight: 600 !important
+
+h1
+  font-family: 'Rubik', sans-serif
+  font-weight: 700
+  font-style: italic
+  border-bottom: none
+  color: #202327 !important
+
+// h2 style 
+@media screen and (min-width: 768px)
+  .theme-default-content:not(.custom) h2
+    display: inline-flex
+    align-items: center
+    font-weight: 700
+    background: #2998d1
+    color: #fff
+    padding: 4px 10px 4px !important
+    border-top-right-radius: 3px
+    border-top-left-radius: 3px
+    margin-top: 1.5rem !important
+    margin-right: 3px
+    font-size: 20px
+
+  .theme-default-content:not(.custom) h2:after
+    content: ''
+    display: inline-block
+    vertical-align: bottom
+    border-bottom: 36px solid #efebe9
+    border-right: 20px solid transparent
+    position: relative
+    left: 32px
+    top: 1px
+
+  .theme-default-content:not(.custom) h2:before
+    content: ''
+    border-bottom: 2px solid #2998d1
+    width: calc(100% - 3.5rem)
+    display: block
+    height: 10px
+    position: absolute
+    margin-top: 32px
+
+.navbar .logo
+  margin-right: 0.4rem !important
+
+.navbar .site-name
+  font-size: 1.3rem !important
+  font-weight: 600
+
+.home .tech-stack
+  margin-top: 2.5rem
+  padding: 1.2rem 0
+  text-align: center
+  border-top: 1px solid #eaecef
+
+.home .tech-stack h1
+  text-align: center
+  color: #4e6e8e
+
+.home .tech-stack .tech-logo
+  text-align: center
+
+.home .tech-stack .tech-logo-icon
+  position: relative
+  display: inline-block
+  width: 128px
+  height: 128px
+  text-align: center
+
+  transition-duration: 0.3s
+  --transform-translate-x: 0
+  --transform-translate-y: 0
+  --transform-rotate: 0
+  --transform-skew-x: 0
+  --transform-skew-y: 0
+  --transform-scale-x: 1
+  --transform-scale-y: 1
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y))
+
+.home .tech-stack .tech-logo-icon svg
+  padding: 32px
+  width: 64px
+  height: 64px
+
+.home .tech-stack .tech-logo-icon:hover
+  --transform-scale-x: 1.1
+  --transform-scale-y: 1.1
+
+.home .tech-stack .tech-logo-icon:hover:before
+  content: ''
+  position: absolute
+  bottom: 13px
+  left: 50%
+  width: 0
+  height: 0
+  border-left: 8px solid transparent
+  border-right: 8px solid transparent
+  border-bottom: 6px solid #0e2439
+  margin-left: -6px
+
+.home .tech-stack .tech-logo-icon:hover:after
+  content: attr(data-tooltip)
+  position: absolute
+  bottom: -13px
+  left: 0
+  display: flex
+  justify-content: center
+  padding: 4px 8px
+  margin: 0 auto
+  width: 100%
+  color: hsla(0, 0%, 100%, 0.88)
+  background: #0e2439
+  border-radius: 4px
+
+// remove padding-top to breadcrumb 
+.theme-default-content:not(.custom)
+  padding: 0 2.5rem 2rem 2.5rem !important
+
+// NavBar style 
+.dropdown-wrapper .nav-dropdown .dropdown-item h4
+  padding: 0.75rem 1.5rem 0.45rem 1.25rem !important
+
+// RightBar style 
+#anchor
+  left: calc(100% + 3.5rem) !important
+
+#anchor::-webkit-scrollbar
+  width: 0 !important
+
+body, button, textarea
+  font-family: var(--font)
+
+.page .page-info,
+.page-nav,
+.code-group-nav-tab,
+.page-meta,
+.markdown-body
+  font-family: var(--font) !important
+
+code,
+kbd,
+.line-number
+  font-family: var(--code-font) !important
+
+body:is(:not(.theme-dark), .theme-light, .theme-dark) .theme-default-content :is(p, li, table) code
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59) !important
+  -webkit-background-clip: text !important
+  color: transparent
+  font-weight: 1000
+
+ul, ol
+  line-height: 2
+  padding-left: 2.2em
+
+// blockquote
+blockquote::before
+  content: "❝"
+  color: rgba(64, 184, 250, .5)
+  font-size: 32px
+  line-height: 1
+  font-weight: 700
+blockquote
+  padding: 20px
+  text-size-adjust: 100%
+  line-height: 1.55em
+  font-weight: 400
+  border-radius: 6px
+  color: #2d2e36
+  font-style: normal
+  text-align: left
+  box-sizing: inherit
+  border-left: 0.3rem solid #2486b9
+  background: rgba(64, 184, 250, .2) 
+blockquote p
+  color: #2d2e36
+blockquote::after
+  content: "❞"
+  color: rgba(64, 184, 250, .5)
+  float: right
+  font-size: 24px
+
+.theme-dark blockquote 
+  background: rgba(73, 92, 105, .5)
+  border: 1px solid rgba(73, 92, 105, .6)
+  color: #e2e1e4
+.theme-dark blockquote::before 
+  color: rgba(73, 92, 105, .5)
+.theme-dark blockquote::after 
+  color: rgba(73, 92, 105, .5)
+.theme-dark blockquote p 
+  color: #e2e1e4
+
+.markdown-body .highlight pre, .markdown-body pre
+  background-color: var(--code-bgcolor) !important
+
+// 暗色表格设置
+.theme-dark .markdown-body table tr
+  background: #1e1e1e !important
+  border-color: rgb(128, 128, 128) !important
+.theme-dark .markdown-body table th,
+.theme-dark .markdown-body table td
+  border-color: rgb(128, 128, 128) !important
+
+// strong 渐变色
+strong 
+  background: linear-gradient(to right, #00b4db, #0083b0)
+  -webkit-background-clip: text
+  color: transparent
+.theme-dark strong
+  background: linear-gradient(135deg, #CE9FFC 10%, #7367F0 100%)
+  -webkit-background-clip: text
+  color: transparent
+
+.suggestions
+  font-size: 0.01em
+
+.suggestions .highlight
+  color: #3eaf7c
+  font-weight: bold
