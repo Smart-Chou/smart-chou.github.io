@@ -1003,11 +1003,11 @@
       ]
     },
     {
-      "title": "禁用邀请",
-      "url": "https://codenoob.top/projects/vaultwarden/Configuration/Disable-invitations.html",
-      "id": "/projects/vaultwarden/Configuration/Disable-invitations.html",
+      "title": "禁止新用户注册",
+      "url": "https://codenoob.top/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html",
+      "id": "/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html",
       "summary": "最值得信赖的开源密码管理器",
-      "content_html": "<p>即使注册被禁用，组织管理员或所有者也可以邀请用户加入组织。在他们被邀请后，即使 <code>SIGNUPS_ALLOWED</code> 实际上设置为 <code>false</code>，他们也可以使用受邀电子邮件进行注册。您可以通过将<code>INVITATIONS_ALLOWED</code>环境变量设置为<code>false</code>来完全禁用此功能：</p>\n<div><pre><code>docker run -d --name bitwarden <span>\\</span>\n  -e <span>SIGNUPS_ALLOWED</span><span>=</span>false <span>\\</span>\n  -e <span>INVITATIONS_ALLOWED</span><span>=</span>false <span>\\</span>\n  -v /vw-data/:/data/ <span>\\</span>\n  -p <span>80</span>:80 <span>\\</span>\n  vaultwarden/server:latest\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>",
+      "content_html": "<p>默认情况下，任何可以访问您的实例的人都可以注册一个新帐户。要禁用此功能，请将 <code>SIGNUPS_ALLOWED</code> 环境变量设置为 <code>false</code>：</p>\n<div><pre><code>docker run -d --name bitwarden <span>\\</span>\n  -e <span>SIGNUPS_ALLOWED</span><span>=</span>false <span>\\</span>\n  -v /vw-data/:/data/ <span>\\</span>\n  -p <span>80</span>:80 <span>\\</span>\n  vaultwarden/server:latest\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，当<code>SIGNUPS_ALLOWED=false</code>时，<code>创建帐户</code>按钮仍将显示在网络密码管理 UI 中，但实际尝试创建帐户将导致错误消息。上游 Bitwarden 并非旨在允许禁用注册，因此无法轻松解决此问题。</p>\n<h2 id=\"禁用组织邀请\"> 禁用组织邀请</h2>\n<p>即使<code>SIGNUPS_ALLOWED=false</code>，作为组织所有者或管理员的现有用户仍然可以邀请新用户。如果您也想禁用此功能，请参阅 <a href=\"./Disable-invitations.html\">禁用邀请</a>。</p>\n<h2 id=\"限制某些电子邮件域的注册\"> 限制某些电子邮件域的注册</h2>\n<p>您可以通过相应地设置<code>SIGNUPS_DOMAINS_WHITELIST</code>来限制注册到来自某些域的电子邮件地址。例如：</p>\n<ul>\n<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com</code>(单域)</li>\n<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com,example.net,example.org</code>(多个域)</li>\n</ul>\n<p>!&gt;  如果设置了<code>SIGNUPS_DOMAINS_WHITELIST</code>，则忽略<code>SIGNUPS_ALLOWED</code> 的值。</p>\n<p>您可能还想设置<code>SIGNUPS_VERIFY=true</code>，这需要在新注册的用户成功登录之前进行电子邮件验证。这将防止有人使用具有正确域的虚假电子邮件地址进行注册。</p>\n<h2 id=\"通过管理页面的邀请\"> 通过管理页面的邀请</h2>\n<p>Vaultwarden 管理员可以通过 <a href=\"./Enabling-admin-page.html\">启用管理页面</a> 邀请任何人，不管上述任何限制。</p>\n",
       "date_published": "2021-11-20T00:00:00.000Z",
       "date_modified": "2021-11-21T15:45:58.000Z",
       "authors": [
@@ -1020,11 +1020,11 @@
       ]
     },
     {
-      "title": "禁止新用户注册",
-      "url": "https://codenoob.top/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html",
-      "id": "/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html",
+      "title": "禁用邀请",
+      "url": "https://codenoob.top/projects/vaultwarden/Configuration/Disable-invitations.html",
+      "id": "/projects/vaultwarden/Configuration/Disable-invitations.html",
       "summary": "最值得信赖的开源密码管理器",
-      "content_html": "<p>默认情况下，任何可以访问您的实例的人都可以注册一个新帐户。要禁用此功能，请将 <code>SIGNUPS_ALLOWED</code> 环境变量设置为 <code>false</code>：</p>\n<div><pre><code>docker run -d --name bitwarden <span>\\</span>\n  -e <span>SIGNUPS_ALLOWED</span><span>=</span>false <span>\\</span>\n  -v /vw-data/:/data/ <span>\\</span>\n  -p <span>80</span>:80 <span>\\</span>\n  vaultwarden/server:latest\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，当<code>SIGNUPS_ALLOWED=false</code>时，<code>创建帐户</code>按钮仍将显示在网络密码管理 UI 中，但实际尝试创建帐户将导致错误消息。上游 Bitwarden 并非旨在允许禁用注册，因此无法轻松解决此问题。</p>\n<h2 id=\"禁用组织邀请\"> 禁用组织邀请</h2>\n<p>即使<code>SIGNUPS_ALLOWED=false</code>，作为组织所有者或管理员的现有用户仍然可以邀请新用户。如果您也想禁用此功能，请参阅 <a href=\"./Disable-invitations.html\">禁用邀请</a>。</p>\n<h2 id=\"限制某些电子邮件域的注册\"> 限制某些电子邮件域的注册</h2>\n<p>您可以通过相应地设置<code>SIGNUPS_DOMAINS_WHITELIST</code>来限制注册到来自某些域的电子邮件地址。例如：</p>\n<ul>\n<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com</code>(单域)</li>\n<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com,example.net,example.org</code>(多个域)</li>\n</ul>\n<p>!&gt;  如果设置了<code>SIGNUPS_DOMAINS_WHITELIST</code>，则忽略<code>SIGNUPS_ALLOWED</code> 的值。</p>\n<p>您可能还想设置<code>SIGNUPS_VERIFY=true</code>，这需要在新注册的用户成功登录之前进行电子邮件验证。这将防止有人使用具有正确域的虚假电子邮件地址进行注册。</p>\n<h2 id=\"通过管理页面的邀请\"> 通过管理页面的邀请</h2>\n<p>Vaultwarden 管理员可以通过 <a href=\"./Enabling-admin-page.html\">启用管理页面</a> 邀请任何人，不管上述任何限制。</p>\n",
+      "content_html": "<p>即使注册被禁用，组织管理员或所有者也可以邀请用户加入组织。在他们被邀请后，即使 <code>SIGNUPS_ALLOWED</code> 实际上设置为 <code>false</code>，他们也可以使用受邀电子邮件进行注册。您可以通过将<code>INVITATIONS_ALLOWED</code>环境变量设置为<code>false</code>来完全禁用此功能：</p>\n<div><pre><code>docker run -d --name bitwarden <span>\\</span>\n  -e <span>SIGNUPS_ALLOWED</span><span>=</span>false <span>\\</span>\n  -e <span>INVITATIONS_ALLOWED</span><span>=</span>false <span>\\</span>\n  -v /vw-data/:/data/ <span>\\</span>\n  -p <span>80</span>:80 <span>\\</span>\n  vaultwarden/server:latest\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>",
       "date_published": "2021-11-20T00:00:00.000Z",
       "date_modified": "2021-11-21T15:45:58.000Z",
       "authors": [
@@ -1840,9 +1840,10 @@
       "title": "创作工具",
       "url": "https://codenoob.top/tools/creat/",
       "id": "/tools/creat/",
-      "content_html": "<br>\n<h2 id=\"主要如下\"> 主要如下</h2>\n<ul>\n<li>\n<p><a href=\"./feem.html\">Feem</a></p>\n</li>\n<li>\n<p><a href=\"./mobaxterm.html\">MobaXterm</a></p>\n</li>\n<li>\n<p><a href=\"./screentogif.html\">screentogif</a></p>\n</li>\n<li>\n<p><a href=\"./snipaste.html\">snipaste</a></p>\n</li>\n<li>\n<p><a href=\"./utools.html\">utools</a></p>\n</li>\n</ul>\n",
+      "content_html": "<br>\n<h2 id=\"分享一些非常顺手的工具\"> 分享一些非常顺手的工具</h2>\n<table>\n<thead>\n<tr>\n<th style=\"text-align:center\">名称</th>\n<th style=\"text-align:center\">图标</th>\n<th style=\"text-align:center\">简介</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:center\">Feem</td>\n<td style=\"text-align:center\"><img src=\"https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/112543-581710.png\" alt=\"Feem\" /></td>\n<td style=\"text-align:center\">跨平台的局域网传输工具</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">MobaXterm</td>\n<td style=\"text-align:center\"><img src=\"https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/114131-444586.png\" alt=\"MobaXterm\" /></td>\n<td style=\"text-align:center\">终端神器，控制台、ssh 一站式搞定</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">screentogif</td>\n<td style=\"text-align:center\"><img src=\"https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/114227-504663.png\" alt=\"screentogif\" /></td>\n<td style=\"text-align:center\">强大的 GIF 制作工具</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">snipaste</td>\n<td style=\"text-align:center\"><img src=\"https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/114546-739128.png\" alt=\"snipaste\" /></td>\n<td style=\"text-align:center\">强大的截图工具</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">utools</td>\n<td style=\"text-align:center\"><img src=\"https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/114757-780094.png\" alt=\"utools\" /></td>\n<td style=\"text-align:center\">真效率大师</td>\n</tr>\n</tbody>\n</table>\n",
+      "image": "https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/112543-581710.png",
       "date_published": "2020-09-10T00:00:00.000Z",
-      "date_modified": "2022-01-25T13:07:58.000Z",
+      "date_modified": "2022-01-26T16:01:27.000Z",
       "authors": [
         {
           "name": "ChouCong"
@@ -2189,14 +2190,13 @@
       ]
     },
     {
-      "title": "snipaste",
-      "url": "https://codenoob.top/tools/creat/snipaste.html",
-      "id": "/tools/creat/snipaste.html",
-      "summary": "snipaste-超强大截图工具",
-      "content_html": "<p><strong>这个真的是好用到爆炸</strong></p>\n<h2 id=\"常用功能\"> 常用功能</h2>\n<ul>\n<li>截图</li>\n<li>标注</li>\n<li>文字</li>\n<li>悬浮图片</li>\n<li>截图历史</li>\n<li>精确控制选区</li>\n<li>支持分屏</li>\n</ul>\n<p>真的是提高效率的好帮手 win10商店就可以下载</p>\n<p>而且轻量无广告</p>\n<p><img src=\"https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/221811-551714.png\" alt=\"Snipaste-截图\" /></p>\n<h2 id=\"下载地址\"> 下载地址</h2>\n<table>\n<thead>\n<tr>\n<th style=\"text-align:center\"><a href=\"https://www.microsoft.com/store/productId/9P1WXPKB68KX\" target=\"_blank\" rel=\"noopener noreferrer\">商店链接</a></th>\n<th style=\"text-align:center\"><a href=\"https://www.snipaste.com/\" target=\"_blank\" rel=\"noopener noreferrer\">官网</a></th>\n</tr>\n</thead>\n<tbody></tbody>\n</table>\n",
-      "image": "https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/221811-551714.png",
-      "date_published": "2020-09-22T00:00:00.000Z",
-      "date_modified": "2021-11-18T06:47:23.000Z",
+      "title": "PHP实现随机图片展示",
+      "url": "https://codenoob.top/tools/php-random-picture.html",
+      "id": "/tools/php-random-picture.html",
+      "summary": "PHP实现随机图片展示",
+      "content_html": "<br>\n<h2 id=\"主要代码如下\"> 主要代码如下</h2>\n<div><pre><code><span><span>&lt;?php</span>\n<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>\n<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>\n<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>\n<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>\n<span>?></span></span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>",
+      "date_published": "2020-09-28T00:00:00.000Z",
+      "date_modified": "2022-01-25T13:07:58.000Z",
       "authors": [
         {
           "name": "ChouCong"
@@ -2225,13 +2225,14 @@
       ]
     },
     {
-      "title": "PHP实现随机图片展示",
-      "url": "https://codenoob.top/tools/php-random-picture.html",
-      "id": "/tools/php-random-picture.html",
-      "summary": "PHP实现随机图片展示",
-      "content_html": "<br>\n<h2 id=\"主要代码如下\"> 主要代码如下</h2>\n<div><pre><code><span><span>&lt;?php</span>\n<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>\n<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>\n<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>\n<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>\n<span>?></span></span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>",
-      "date_published": "2020-09-28T00:00:00.000Z",
-      "date_modified": "2022-01-25T13:07:58.000Z",
+      "title": "snipaste",
+      "url": "https://codenoob.top/tools/creat/snipaste.html",
+      "id": "/tools/creat/snipaste.html",
+      "summary": "snipaste-超强大截图工具",
+      "content_html": "<p><strong>这个真的是好用到爆炸</strong></p>\n<h2 id=\"常用功能\"> 常用功能</h2>\n<ul>\n<li>截图</li>\n<li>标注</li>\n<li>文字</li>\n<li>悬浮图片</li>\n<li>截图历史</li>\n<li>精确控制选区</li>\n<li>支持分屏</li>\n</ul>\n<p>真的是提高效率的好帮手 win10商店就可以下载</p>\n<p>而且轻量无广告</p>\n<p><img src=\"https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/221811-551714.png\" alt=\"Snipaste-截图\" /></p>\n<h2 id=\"下载地址\"> 下载地址</h2>\n<table>\n<thead>\n<tr>\n<th style=\"text-align:center\"><a href=\"https://www.microsoft.com/store/productId/9P1WXPKB68KX\" target=\"_blank\" rel=\"noopener noreferrer\">商店链接</a></th>\n<th style=\"text-align:center\"><a href=\"https://www.snipaste.com/\" target=\"_blank\" rel=\"noopener noreferrer\">官网</a></th>\n</tr>\n</thead>\n<tbody></tbody>\n</table>\n",
+      "image": "https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/221811-551714.png",
+      "date_published": "2020-09-22T00:00:00.000Z",
+      "date_modified": "2021-11-18T06:47:23.000Z",
       "authors": [
         {
           "name": "ChouCong"
