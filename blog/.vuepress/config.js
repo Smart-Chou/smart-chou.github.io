@@ -245,8 +245,8 @@ module.exports = config({
         [
             'vuepress-plugin-meilisearch',
             {
-                hostUrl: 'http://82.156.12.237:3000',
-                apiKey: '58zxCw37923DH6k2',
+                hostUrl: 'https://tv.zcily.life',
+                apiKey: '9fa2b0e5da55b7504b467b8b66b99ad5fd9c19e9ec7d573e62d995cf54acd570',
                 indexUid: 'docs',
                 placeholder: 'Search as you type...', // Default: ""
                 maxSuggestions: 10, // Default: 5
