@@ -38,7 +38,7 @@ module.exports = config({
 
     head: [
         ['meta', { name: 'baidu-site-verification', content: 'code-E87rwPtGLL' }], //百度验证
-		['meta', { name: 'google-site-verification', content: 'i9llgSGLwQ5xvWGIdJRONZfTeCpJZxhjTPnZxfljuGo' }], //Google验证
+        ['meta', { name: 'google-site-verification', content: 'i9llgSGLwQ5xvWGIdJRONZfTeCpJZxhjTPnZxfljuGo' }], //Google验证
         ['meta', { name: 'msvalidate.01', content: 'B9A0C43AD3B1BD529335A2616F235E46' }], //Bing验证
         ['script', { language: 'javascript', type: 'text/javascript', src: '/assets/js/pgmanor-self.js' }], //search
         [
@@ -92,8 +92,8 @@ module.exports = config({
         editLinks: true,
         editLinkText: '帮助改善此页面！',
 
-        searchMaxSuggestions: 5,
-        searchPlaceholder: '想搜啥，按‘S’！',
+        //searchMaxSuggestions: 5,
+        //searchPlaceholder: '想搜啥，按‘S’！',
         breadcrumb: true,
         activeHeaderLinks: true,
 
@@ -240,5 +240,15 @@ module.exports = config({
             },
         },
     },
-    plugins: [['fulltext-search']],
+    plugins: [
+        //['fulltext-search'],
+        [
+            'vuepress-plugin-meilisearch',
+            {
+                hostUrl: 'http://82.156.12.237:3000',
+                apiKey: 'c478679f355c63d26f7337df83978d418038bb5c78fa0a26c49c2e5d6d9951f8',
+                indexUid: 'docs',
+            },
+        ],
+    ],
 });

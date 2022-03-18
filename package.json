@@ -18,12 +18,13 @@
   },
   "dependencies": {
     "vuepress": "^1.9.7",
-    "vuepress-theme-hope": "^1.27.3"
+    "vuepress-theme-hope": "^1.28.3"
   },
   "resolutions": {
     "vue-router": "3.4.5"
   },
   "devDependencies": {
-    "vuepress-plugin-fulltext-search": "^2.2.1"
+    "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-plugin-meilisearch": "^0.12.1"
   }
 }
