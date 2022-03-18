@@ -40,7 +40,7 @@ module.exports = config({
         ['meta', { name: 'baidu-site-verification', content: 'code-E87rwPtGLL' }], //百度验证
         ['meta', { name: 'google-site-verification', content: 'i9llgSGLwQ5xvWGIdJRONZfTeCpJZxhjTPnZxfljuGo' }], //Google验证
         ['meta', { name: 'msvalidate.01', content: 'B9A0C43AD3B1BD529335A2616F235E46' }], //Bing验证
-        ['script', { language: 'javascript', type: 'text/javascript', src: '/assets/js/pgmanor-self.js' }], //search
+        //['script', { language: 'javascript', type: 'text/javascript', src: '/assets/js/pgmanor-self.js' }], //search
         [
             'script',
             {},
@@ -247,14 +247,14 @@ module.exports = config({
             {
                 hostUrl: 'https://tv.zcily.life',
                 apiKey: '9fa2b0e5da55b7504b467b8b66b99ad5fd9c19e9ec7d573e62d995cf54acd570',
-                indexUid: 'docs',
-                placeholder: 'Search as you type...', // Default: ""
-                maxSuggestions: 10, // Default: 5
-                hotKeys: [], // Default: ['s', '/']
+                indexUid: 'vuepress',
+                placeholder: '想搜啥，按‘S’！', // Default: ""
+                maxSuggestions: 6, // Default: 5
+                hotKeys: ['s'], // Default: ['s', '/']
                 cropLength: 50, // Default: 30
                 layout: 'simple', // Default: "columns"
                 debug: true, // Default: false
-                enableDarkMode: true, // Default: false
+                //enableDarkMode: true, // Default: false
             },
         ],
     ],
