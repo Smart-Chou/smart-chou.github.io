@@ -246,8 +246,15 @@ module.exports = config({
             'vuepress-plugin-meilisearch',
             {
                 hostUrl: 'http://82.156.12.237:3000',
-                apiKey: 'c478679f355c63d26f7337df83978d418038bb5c78fa0a26c49c2e5d6d9951f8',
+                apiKey: '58zxCw37923DH6k2',
                 indexUid: 'docs',
+                placeholder: 'Search as you type...', // Default: ""
+                maxSuggestions: 10, // Default: 5
+                hotKeys: [], // Default: ['s', '/']
+                cropLength: 50, // Default: 30
+                layout: 'simple', // Default: "columns"
+                debug: true, // Default: false
+                enableDarkMode: true, // Default: false
             },
         ],
     ],
