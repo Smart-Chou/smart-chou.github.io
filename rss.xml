@@ -6,8 +6,8 @@
     <link>https://codenoob.top/</link>
     <description>编程菜鸟的自我修养</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 18 Mar 2022 13:37:08 GMT</pubDate>
-    <lastBuildDate>Fri, 18 Mar 2022 13:37:08 GMT</lastBuildDate>
+    <pubDate>Fri, 18 Mar 2022 14:12:56 GMT</pubDate>
+    <lastBuildDate>Fri, 18 Mar 2022 14:12:56 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>ChouCong | Theme-Hope</copyright>
@@ -1409,250 +1409,6 @@ find_name <span>=</span> <span>"张三"</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>语法进阶</title>
-      <link>https://codenoob.top/code/python/python-05-advanced-grammar.html</link>
-      <guid isPermaLink="false">/code/python/python-05-advanced-grammar.html</guid>
-      <source url="https://codenoob.top/rss.xml">语法进阶</source>
-      <description>Python-05 - 语法进阶</description>
-      <category>编程</category>
-      <pubDate>Tue, 02 Feb 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="语法进阶"> 语法进阶</h2>
-<h3 id="变量的引用"> 变量的引用</h3>
-<ul>
-<li><strong>变量</strong>和<strong>数据</strong>都保存在内存中</li>
-<li>Python 中函数的<strong>参数传递</strong>以及返回值都是靠<strong>引用</strong>传递的</li>
-</ul>
-<h3 id="引用的概念"> 引用的概念</h3>
-<p>Python 中</p>
-<ul>
-<li>变量和数据分开存储</li>
-<li><strong>数据</strong>保存在内存中的一个位置</li>
-<li><strong>变量</strong>中保存着数据在内存中的地址</li>
-<li>变量中<strong>记录数据地址</strong>的动作就叫引用</li>
-<li><code>id()</code> 函数可以查看变量中保存数据的内存地址</li>
-</ul>
-<div><p>相关信息</p>
-<p>如果变量已经被定义，当给一个变量赋值的时候，本质上是修改了<strong>数据的引用</strong></p>
-<ul>
-<li>变量<strong>不再</strong>对之前的数据引用</li>
-<li>变量改为对新赋值的数据引用</li>
-</ul>
-</div>
-<h3 id="函数的参数和返回值的传递"> 函数的参数和返回值的传递</h3>
-<p>Python 中，函数的<strong>实参 / 返回值</strong>都是靠引用传递的</p>
-<ul>
-<li>调用函数，本质上是传递的<strong>实参 / 返回值保存数据的引用</strong>，而不是实参保存的数据</li>
-<li>如果不定义变量接收函数的返回值，程序不会报错，但是无法获得返回结果</li>
-</ul>
-<h3 id="可变类型不可变类型"> 可变类型不可变类型</h3>
-<ul>
-<li>不可变类型，内存中的数据不允许被修改
-<ul>
-<li>数字类型 <code>int</code>, <code>bool</code>, <code>float</code>, <code>complex</code></li>
-<li>字符串 <code>str</code></li>
-<li>元组 <code>tuple</code></li>
-</ul>
-</li>
-<li>可变类型，内存中的数据可以被修改
-<ul>
-<li>列表 <code>list</code></li>
-<li>字典 <code>dict</code> 字典的 <code>key</code> 只能使用<strong>不可变数据类型</strong></li>
-</ul>
-</li>
-</ul>
-<h2 id="局部变量和全局变量"> 局部变量和全局变量</h2>
-<h3 id="局部变量"> 局部变量</h3>
-<ul>
-<li><strong>局部变量</strong>是在函数<strong>内部</strong>定义的变量，只能在函数内部使用</li>
-<li>函数执行结束后，函数内部的局部变量，会被系统<strong>回收</strong></li>
-<li>局部变量的<strong>生命周期</strong>
-<ul>
-<li>生命周期是变量从<strong>被创建</strong>到<strong>被系统回收</strong>的过程</li>
-<li>局部变量在函数<strong>执行</strong>时才会被创建</li>
-<li>局部变量在生命周期内，可以用来存储函数内部临时使用到的数据</li>
-</ul>
-</li>
-</ul>
-<h3 id="全局变量"> 全局变量</h3>
-<ul>
-<li><strong>全局变量</strong>是在函数外部定义的变量，<strong>所有</strong>函数都可以使用</li>
-<li>其他开发语言中<strong>大多不推荐使用全局变量</strong></li>
-<li>不允许在函数内部修改全局变量</li>
-<li>在函数内部重新赋值，只是定义了一个<strong>局部变量</strong></li>
-<li>希望修改全局变量的值 使用 <code>global</code> 声明变量即可</li>
-<li>应该把模块中的所有全局变量定义到<strong>所有函数上方</strong></li>
-<li>全局变量命名前方应加 <code>g_</code> 或 <code>gl_</code> 等与局部变量区分</li>
-<li>如果局部变量和局部变量名称相同，<code>pycharm</code> 会在局部变量下方显示灰色虚线</li>
-</ul>
-<h2 id="参数和返回值"> 参数和返回值</h2>
-<p>函数根据有<strong>没有参数</strong>和有<strong>没有返回值</strong>可以自由组合，共 4 种</p>
-<ol>
-<li>无参数，无返回值</li>
-<li>无参数，有返回值</li>
-<li>有参数，无返回值</li>
-<li>有参数，有返回值</li>
-</ol>
-<ul>
-<li>如果函数<strong>内部处理数据</strong>不确定，可以将外界数据以参数形式传递给函数</li>
-<li>如果希望函数执行完成后，向<strong>外界汇报结果</strong>，可以增加返回值</li>
-</ul>
-<h3 id="函数的返回值-多个返回值"> 函数的返回值 - 多个返回值</h3>
-<ul>
-<li>元组可以包含多个数据，因此可以使用元组让函数一次返回多个值</li>
-<li>如果函数返回的结果是元组，<strong>小括号可以省略</strong></li>
-<li>如果函数的<strong>返回值类型是元组</strong>，需要单独处理元组中的元素可以使用<strong>多个变量</strong>，一次接收函数的返回结果
-<ul>
-<li>注意：使用此方法，变量的个数应该和元组中元素的<strong>个数保持一致</strong></li>
-</ul>
-</li>
-</ul>
-<h3 id="问题-交换两个变量的值"> 问题：交换两个变量的值？</h3>
-<div><pre><code>a <span>=</span> <span>6</span>
-b <span>=</span> <span>100</span>
-<span># 1. 使用其他变量</span>
-<span># c = a</span>
-<span># a = b</span>
-<span># b = c</span>
-   
-<span># 2. 不使用其他变量</span>
-<span># a = a + b</span>
-<span># b = a - b</span>
-<span># a = a - b</span>
-   
-<span># 3. Python 专有</span>
-<span># a, b = (b, a)</span>
-<span># 元组小括号可省略</span>
-a<span>,</span> b <span>=</span> b<span>,</span> a
-<span>print</span><span>(</span>a<span>)</span>
-<span>print</span><span>(</span>b<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br></div></div><h3 id="函数的参数"> 函数的参数</h3>
-<h4 id="不可变和可变参数"> 不可变和可变参数</h4>
-<ul>
-<li>在函数内部，针对参数使用赋值语句不会影响调用函数时传递的实参变量</li>
-<li>无论传递的参数是可变还是不可变</li>
-<li>在函数内部，针对参数使用赋值语句，不会修改外部实参变量</li>
-</ul>
-<div><pre><code><span>def</span> <span>demo</span><span>(</span>num<span>,</span> num_list<span>)</span><span>:</span>
-    <span>print</span><span>(</span><span>"函数内部的代码"</span><span>)</span>
-
-    <span># 在函数内部，针对参数使用赋值语句,不会修改外部实参变量</span>
-    num <span>=</span> <span>100</span>
-    num_list <span>=</span> <span>[</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>]</span>
-
-    <span>print</span><span>(</span>num<span>)</span>
-    <span>print</span><span>(</span>num_list<span>)</span>
-    <span>print</span><span>(</span><span>"函数执行完成"</span><span>)</span>
-
-gl_num <span>=</span> <span>99</span>
-gl_list <span>=</span> <span>[</span><span>4</span><span>,</span> <span>5</span><span>,</span> <span>6</span><span>]</span>
-demo<span>(</span>gl_num<span>,</span> gl_list<span>)</span>
-<span>print</span><span>(</span>gl_num<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><ul>
-<li>如果传递的参数是<strong>可变类型</strong>，在函数内部，使用方法修改了数据的内容，同样会<strong>影响到外部数据</strong></li>
-</ul>
-<div><pre><code><span>def</span> <span>demo</span><span>(</span>num_list<span>)</span><span>:</span>
-    <span>print</span><span>(</span><span>"函数内部代码"</span><span>)</span>
-    num_list<span>.</span>append<span>(</span><span>9</span><span>)</span>
-    <span>print</span><span>(</span>num_list<span>)</span>
-    <span>print</span><span>(</span><span>"函数执行完成"</span><span>)</span>
-
-gl_list <span>=</span> <span>[</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>]</span>
-demo<span>(</span>gl_list<span>)</span>
-<span>print</span><span>(</span>gl_list<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><h3 id="问题"> 问题：-- +=</h3>
-<p>在 Python 中，列表变量调用 <code>+=</code> 本质上是在执行列表变量的 <code>extend</code> 方法，不会修改变量的引用</p>
-<h3 id="缺省参数"> 缺省参数</h3>
-<ul>
-<li>定义函数时，可以给某个参数<strong>指定一个默认值</strong>，具有默认值的参数就叫做缺省参数</li>
-<li>带有默认值的<strong>缺省参数必须在参数列表末尾</strong></li>
-<li>如果有多个缺省值，需要<strong>指定参数名</strong></li>
-</ul>
-<h3 id="多值参数"> 多值参数</h3>
-<ul>
-<li>有可能需要一个函数能够处理的参数个<strong>数是不确定的</strong>，这时使用多指参数</li>
-<li>Python 中有两种多值参数
-<ul>
-<li>参数名前增加一个 <code>*</code>，可以接收元组</li>
-<li>参数名前增加两个 <code>*</code>，可以接收字典</li>
-</ul>
-</li>
-<li>一般在给多指参数命名时，习惯使用以下两个名字
-<ul>
-<li><code>*args</code> -- 存放元组参数，前面一个 <code>*</code></li>
-</ul>
-</li>
-<li><code>**kwargs</code> -- 存放字典参数，前面两个 <code>*</code></li>
-<li><code>args</code> 是 <code>arguments</code> 的缩写，有变量的含义</li>
-<li><code>kw</code> 是 <code>keyword</code> 的缩写，<code>kwargs</code> 可以记忆<strong>键值对参数</strong></li>
-</ul>
-<h3 id="案例-计算任意多个数字的和"> 案例：计算任意多个数字的和</h3>
-<div><pre><code><span>def</span> <span>sum_nums</span><span>(</span><span>*</span>args<span>)</span><span>:</span>
-    num <span>=</span> <span>0</span>
-    <span># 循环遍历</span>
-    <span>for</span> n <span>in</span> args<span>:</span>
-        num <span>+=</span> n
-    <span>return</span> num
-
-result <span>=</span> sum_nums<span>(</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>,</span> <span>4</span><span>,</span> <span>5</span><span>)</span>
-<span>print</span><span>(</span>result<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><ul>
-<li>元组和字典的拆包</li>
-<li>在调用带有多值参数的函数时，如果希望</li>
-<li>将一个<strong>元组</strong>变量，直接传递给 <code>args</code></li>
-<li>将一个<strong>字典</strong>变量，直接传递给 <code>kwargs</code></li>
-<li>可以使用<code>拆包</code>，简化参数的传递，拆包的方式是：
-<ul>
-<li>在<code>元组</code>变量前，增加一个 <code>*</code></li>
-<li>在<code>字典</code>变量前，增加两个 <code>*</code></li>
-</ul>
-</li>
-</ul>
-<h2 id="递归"> 递归</h2>
-<p>递归：函数调用自身</p>
-<h3 id="递归的特点"> 递归的特点</h3>
-<ul>
-<li>一个函数内部调用自己
-<ul>
-<li>函数内部可以调用其他函数，也可以在内部调用自己</li>
-</ul>
-</li>
-</ul>
-<h3 id="代码特点"> 代码特点</h3>
-<ol>
-<li>函数内部的代码是相同的，只是针对参数不同，处理的结果不同</li>
-<li>当参数满足一个条件时，函数不再执行
-<ol>
-<li>被称为递归的出口，否则会造成死循环</li>
-</ol>
-</li>
-</ol>
-<h3 id="案例-计算数字累加"> 案例 -- 计算数字累加</h3>
-<ol>
-<li>定义一个函数 <code>sum_numbers</code></li>
-<li>能够接受一个 <code>num</code> 的整体参数</li>
-<li>计算 <code>1 + 2 ... num</code> 的结果</li>
-</ol>
-<div><pre><code><span>def</span> <span>sum_numbers</span><span>(</span>num<span>)</span><span>:</span>
-
-    <span># 1. 出口</span>
-    <span>if</span> num <span>==</span> <span>1</span><span>:</span>
-        <span>return</span> <span>1</span>
-    <span># 2. 数字累加 num + (num - 1)</span>
-    <span># 假设 sum_numbers 能处理 1到 num -1 的累加</span>
-    temp <span>=</span>sum_numbers<span>(</span>num <span>-</span> <span>1</span><span>)</span>
-    <span>return</span> num <span>+</span> temp
-
-result <span>=</span> sum_numbers<span>(</span><span>100</span><span>)</span>
-<span>print</span><span>(</span>result<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>面向对象</title>
       <link>https://codenoob.top/code/python/python-06-object-oriented.html</link>
       <guid isPermaLink="false">/code/python/python-06-object-oriented.html</guid>
@@ -2189,6 +1945,250 @@ xusanduo<span>.</span>fire<span>(</span><span>)</span>
 </li>
 </ul>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>语法进阶</title>
+      <link>https://codenoob.top/code/python/python-05-advanced-grammar.html</link>
+      <guid isPermaLink="false">/code/python/python-05-advanced-grammar.html</guid>
+      <source url="https://codenoob.top/rss.xml">语法进阶</source>
+      <description>Python-05 - 语法进阶</description>
+      <category>编程</category>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="语法进阶"> 语法进阶</h2>
+<h3 id="变量的引用"> 变量的引用</h3>
+<ul>
+<li><strong>变量</strong>和<strong>数据</strong>都保存在内存中</li>
+<li>Python 中函数的<strong>参数传递</strong>以及返回值都是靠<strong>引用</strong>传递的</li>
+</ul>
+<h3 id="引用的概念"> 引用的概念</h3>
+<p>Python 中</p>
+<ul>
+<li>变量和数据分开存储</li>
+<li><strong>数据</strong>保存在内存中的一个位置</li>
+<li><strong>变量</strong>中保存着数据在内存中的地址</li>
+<li>变量中<strong>记录数据地址</strong>的动作就叫引用</li>
+<li><code>id()</code> 函数可以查看变量中保存数据的内存地址</li>
+</ul>
+<div><p>相关信息</p>
+<p>如果变量已经被定义，当给一个变量赋值的时候，本质上是修改了<strong>数据的引用</strong></p>
+<ul>
+<li>变量<strong>不再</strong>对之前的数据引用</li>
+<li>变量改为对新赋值的数据引用</li>
+</ul>
+</div>
+<h3 id="函数的参数和返回值的传递"> 函数的参数和返回值的传递</h3>
+<p>Python 中，函数的<strong>实参 / 返回值</strong>都是靠引用传递的</p>
+<ul>
+<li>调用函数，本质上是传递的<strong>实参 / 返回值保存数据的引用</strong>，而不是实参保存的数据</li>
+<li>如果不定义变量接收函数的返回值，程序不会报错，但是无法获得返回结果</li>
+</ul>
+<h3 id="可变类型不可变类型"> 可变类型不可变类型</h3>
+<ul>
+<li>不可变类型，内存中的数据不允许被修改
+<ul>
+<li>数字类型 <code>int</code>, <code>bool</code>, <code>float</code>, <code>complex</code></li>
+<li>字符串 <code>str</code></li>
+<li>元组 <code>tuple</code></li>
+</ul>
+</li>
+<li>可变类型，内存中的数据可以被修改
+<ul>
+<li>列表 <code>list</code></li>
+<li>字典 <code>dict</code> 字典的 <code>key</code> 只能使用<strong>不可变数据类型</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="局部变量和全局变量"> 局部变量和全局变量</h2>
+<h3 id="局部变量"> 局部变量</h3>
+<ul>
+<li><strong>局部变量</strong>是在函数<strong>内部</strong>定义的变量，只能在函数内部使用</li>
+<li>函数执行结束后，函数内部的局部变量，会被系统<strong>回收</strong></li>
+<li>局部变量的<strong>生命周期</strong>
+<ul>
+<li>生命周期是变量从<strong>被创建</strong>到<strong>被系统回收</strong>的过程</li>
+<li>局部变量在函数<strong>执行</strong>时才会被创建</li>
+<li>局部变量在生命周期内，可以用来存储函数内部临时使用到的数据</li>
+</ul>
+</li>
+</ul>
+<h3 id="全局变量"> 全局变量</h3>
+<ul>
+<li><strong>全局变量</strong>是在函数外部定义的变量，<strong>所有</strong>函数都可以使用</li>
+<li>其他开发语言中<strong>大多不推荐使用全局变量</strong></li>
+<li>不允许在函数内部修改全局变量</li>
+<li>在函数内部重新赋值，只是定义了一个<strong>局部变量</strong></li>
+<li>希望修改全局变量的值 使用 <code>global</code> 声明变量即可</li>
+<li>应该把模块中的所有全局变量定义到<strong>所有函数上方</strong></li>
+<li>全局变量命名前方应加 <code>g_</code> 或 <code>gl_</code> 等与局部变量区分</li>
+<li>如果局部变量和局部变量名称相同，<code>pycharm</code> 会在局部变量下方显示灰色虚线</li>
+</ul>
+<h2 id="参数和返回值"> 参数和返回值</h2>
+<p>函数根据有<strong>没有参数</strong>和有<strong>没有返回值</strong>可以自由组合，共 4 种</p>
+<ol>
+<li>无参数，无返回值</li>
+<li>无参数，有返回值</li>
+<li>有参数，无返回值</li>
+<li>有参数，有返回值</li>
+</ol>
+<ul>
+<li>如果函数<strong>内部处理数据</strong>不确定，可以将外界数据以参数形式传递给函数</li>
+<li>如果希望函数执行完成后，向<strong>外界汇报结果</strong>，可以增加返回值</li>
+</ul>
+<h3 id="函数的返回值-多个返回值"> 函数的返回值 - 多个返回值</h3>
+<ul>
+<li>元组可以包含多个数据，因此可以使用元组让函数一次返回多个值</li>
+<li>如果函数返回的结果是元组，<strong>小括号可以省略</strong></li>
+<li>如果函数的<strong>返回值类型是元组</strong>，需要单独处理元组中的元素可以使用<strong>多个变量</strong>，一次接收函数的返回结果
+<ul>
+<li>注意：使用此方法，变量的个数应该和元组中元素的<strong>个数保持一致</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="问题-交换两个变量的值"> 问题：交换两个变量的值？</h3>
+<div><pre><code>a <span>=</span> <span>6</span>
+b <span>=</span> <span>100</span>
+<span># 1. 使用其他变量</span>
+<span># c = a</span>
+<span># a = b</span>
+<span># b = c</span>
+   
+<span># 2. 不使用其他变量</span>
+<span># a = a + b</span>
+<span># b = a - b</span>
+<span># a = a - b</span>
+   
+<span># 3. Python 专有</span>
+<span># a, b = (b, a)</span>
+<span># 元组小括号可省略</span>
+a<span>,</span> b <span>=</span> b<span>,</span> a
+<span>print</span><span>(</span>a<span>)</span>
+<span>print</span><span>(</span>b<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br></div></div><h3 id="函数的参数"> 函数的参数</h3>
+<h4 id="不可变和可变参数"> 不可变和可变参数</h4>
+<ul>
+<li>在函数内部，针对参数使用赋值语句不会影响调用函数时传递的实参变量</li>
+<li>无论传递的参数是可变还是不可变</li>
+<li>在函数内部，针对参数使用赋值语句，不会修改外部实参变量</li>
+</ul>
+<div><pre><code><span>def</span> <span>demo</span><span>(</span>num<span>,</span> num_list<span>)</span><span>:</span>
+    <span>print</span><span>(</span><span>"函数内部的代码"</span><span>)</span>
+
+    <span># 在函数内部，针对参数使用赋值语句,不会修改外部实参变量</span>
+    num <span>=</span> <span>100</span>
+    num_list <span>=</span> <span>[</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>]</span>
+
+    <span>print</span><span>(</span>num<span>)</span>
+    <span>print</span><span>(</span>num_list<span>)</span>
+    <span>print</span><span>(</span><span>"函数执行完成"</span><span>)</span>
+
+gl_num <span>=</span> <span>99</span>
+gl_list <span>=</span> <span>[</span><span>4</span><span>,</span> <span>5</span><span>,</span> <span>6</span><span>]</span>
+demo<span>(</span>gl_num<span>,</span> gl_list<span>)</span>
+<span>print</span><span>(</span>gl_num<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><ul>
+<li>如果传递的参数是<strong>可变类型</strong>，在函数内部，使用方法修改了数据的内容，同样会<strong>影响到外部数据</strong></li>
+</ul>
+<div><pre><code><span>def</span> <span>demo</span><span>(</span>num_list<span>)</span><span>:</span>
+    <span>print</span><span>(</span><span>"函数内部代码"</span><span>)</span>
+    num_list<span>.</span>append<span>(</span><span>9</span><span>)</span>
+    <span>print</span><span>(</span>num_list<span>)</span>
+    <span>print</span><span>(</span><span>"函数执行完成"</span><span>)</span>
+
+gl_list <span>=</span> <span>[</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>]</span>
+demo<span>(</span>gl_list<span>)</span>
+<span>print</span><span>(</span>gl_list<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><h3 id="问题"> 问题：-- +=</h3>
+<p>在 Python 中，列表变量调用 <code>+=</code> 本质上是在执行列表变量的 <code>extend</code> 方法，不会修改变量的引用</p>
+<h3 id="缺省参数"> 缺省参数</h3>
+<ul>
+<li>定义函数时，可以给某个参数<strong>指定一个默认值</strong>，具有默认值的参数就叫做缺省参数</li>
+<li>带有默认值的<strong>缺省参数必须在参数列表末尾</strong></li>
+<li>如果有多个缺省值，需要<strong>指定参数名</strong></li>
+</ul>
+<h3 id="多值参数"> 多值参数</h3>
+<ul>
+<li>有可能需要一个函数能够处理的参数个<strong>数是不确定的</strong>，这时使用多指参数</li>
+<li>Python 中有两种多值参数
+<ul>
+<li>参数名前增加一个 <code>*</code>，可以接收元组</li>
+<li>参数名前增加两个 <code>*</code>，可以接收字典</li>
+</ul>
+</li>
+<li>一般在给多指参数命名时，习惯使用以下两个名字
+<ul>
+<li><code>*args</code> -- 存放元组参数，前面一个 <code>*</code></li>
+</ul>
+</li>
+<li><code>**kwargs</code> -- 存放字典参数，前面两个 <code>*</code></li>
+<li><code>args</code> 是 <code>arguments</code> 的缩写，有变量的含义</li>
+<li><code>kw</code> 是 <code>keyword</code> 的缩写，<code>kwargs</code> 可以记忆<strong>键值对参数</strong></li>
+</ul>
+<h3 id="案例-计算任意多个数字的和"> 案例：计算任意多个数字的和</h3>
+<div><pre><code><span>def</span> <span>sum_nums</span><span>(</span><span>*</span>args<span>)</span><span>:</span>
+    num <span>=</span> <span>0</span>
+    <span># 循环遍历</span>
+    <span>for</span> n <span>in</span> args<span>:</span>
+        num <span>+=</span> n
+    <span>return</span> num
+
+result <span>=</span> sum_nums<span>(</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>,</span> <span>4</span><span>,</span> <span>5</span><span>)</span>
+<span>print</span><span>(</span>result<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><ul>
+<li>元组和字典的拆包</li>
+<li>在调用带有多值参数的函数时，如果希望</li>
+<li>将一个<strong>元组</strong>变量，直接传递给 <code>args</code></li>
+<li>将一个<strong>字典</strong>变量，直接传递给 <code>kwargs</code></li>
+<li>可以使用<code>拆包</code>，简化参数的传递，拆包的方式是：
+<ul>
+<li>在<code>元组</code>变量前，增加一个 <code>*</code></li>
+<li>在<code>字典</code>变量前，增加两个 <code>*</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="递归"> 递归</h2>
+<p>递归：函数调用自身</p>
+<h3 id="递归的特点"> 递归的特点</h3>
+<ul>
+<li>一个函数内部调用自己
+<ul>
+<li>函数内部可以调用其他函数，也可以在内部调用自己</li>
+</ul>
+</li>
+</ul>
+<h3 id="代码特点"> 代码特点</h3>
+<ol>
+<li>函数内部的代码是相同的，只是针对参数不同，处理的结果不同</li>
+<li>当参数满足一个条件时，函数不再执行
+<ol>
+<li>被称为递归的出口，否则会造成死循环</li>
+</ol>
+</li>
+</ol>
+<h3 id="案例-计算数字累加"> 案例 -- 计算数字累加</h3>
+<ol>
+<li>定义一个函数 <code>sum_numbers</code></li>
+<li>能够接受一个 <code>num</code> 的整体参数</li>
+<li>计算 <code>1 + 2 ... num</code> 的结果</li>
+</ol>
+<div><pre><code><span>def</span> <span>sum_numbers</span><span>(</span>num<span>)</span><span>:</span>
+
+    <span># 1. 出口</span>
+    <span>if</span> num <span>==</span> <span>1</span><span>:</span>
+        <span>return</span> <span>1</span>
+    <span># 2. 数字累加 num + (num - 1)</span>
+    <span># 假设 sum_numbers 能处理 1到 num -1 的累加</span>
+    temp <span>=</span>sum_numbers<span>(</span>num <span>-</span> <span>1</span><span>)</span>
+    <span>return</span> num <span>+</span> temp
+
+result <span>=</span> sum_numbers<span>(</span><span>100</span><span>)</span>
+<span>print</span><span>(</span>result<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Handsome 美化记录</title>
@@ -4254,62 +4254,6 @@ iw wlp2s0 <span>link</span>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/affd65fa8e220bf2.png" type="image/png"/>
     </item>
     <item>
-      <title>斐讯K2路由器刷openwrt</title>
-      <link>https://codenoob.top/document/k2-openwrt.html</link>
-      <guid isPermaLink="false">/document/k2-openwrt.html</guid>
-      <source url="https://codenoob.top/rss.xml">斐讯K2路由器刷openwrt</source>
-      <description>白捡的斐讯K2路由器，还刷机了，刷的openwrt，厉害了</description>
-      <category>文档</category>
-      <pubDate>Mon, 23 Aug 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>本想给家里现有的<code>fast</code>、<code>tp-link</code>路由器刷<code>openwrt</code>系统，可惜硬件不被系统所支持，刚好听说有一款智能路由器可以免费白捡，于是我薅（<mark>hao</mark>）羊毛的精神有发扬了一回，嘻嘻。下面给出链接，大家自行了解 购买。下面才是正题，我的刷机流程，仅供大家参考，交流学习。</p>
-<p><a href="https://union-click.jd.com/jdc?d=zKK1iR" target="_blank" rel="noopener noreferrer">京东购买斐讯K2智能路由器地址</a></p>
-<p>我买的路由器是<code>斐讯K2</code>，硬件版本<code>A5</code>，<code>CPU</code>芯片为<code>mt7620a</code>，我是奔着<code>openwrt</code>来的，所以我在<code>www.openwrt.org</code>找到相应的<code>bin固件</code>，并下载下来准备好</p>
-<p><a href="https://archive.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-mt7620a-squashfs-sysupgrade.bin" target="_blank" rel="noopener noreferrer">Bin固件地址</a></p>
-<p>路由器刚入手，高兴过头了，于是手贱点了一下自动升级最新系统，这个后面的刷固件找了不少麻烦，还好网络是开放共享的，废了好些时间找到了解决方法。主要思路是降级系统，找到官方下架的固件，手机更新上去，然后再刷入<code>breed</code>固件。相关固件这里汇总了一下，需要的朋友拿去。</p>
-<p>接下来是具体步骤，先由最新版本 <mark>V22.6.507.43</mark> ,降级到 <mark>K2_V22.6.506.28.bin</mark>，最新版本没有开启<code>Telnet</code>功能，这个次新版本开启了<code>Telnet</code>功能且不提示不合法固件，处女刷，用的必须要用此功能哦，呵呵，登录路由后台点手动升级，选择下载好的固件。</p>
-<ol>
-<li>
-<p>下载 <code>K2_V22.6.506.28.bin</code>,<a href="https://pan.baidu.com/s/1dGYpUHr" target="_blank" rel="noopener noreferrer">固件链接</a>,密码: 8z3m</p>
-</li>
-<li>
-<p>下载<code>telnet</code> 打开工具<code>RoutAckProV1B2</code>,<a href="https://pan.baidu.com/s/1jJK88qM" target="_blank" rel="noopener noreferrer">链接</a>,密码: qaix</p>
-</li>
-<li>
-<p>下载路由器刷<code>breed Web</code>控制台助手<code>v4.8</code>版本（内含breed固件）,<a href="https://pan.baidu.com/s/1pLXFt2b" target="_blank" rel="noopener noreferrer">链接</a> ,密码: cban</p>
-</li>
-</ol>
-<p>把上面两个工具分别右键管理员身份打开，路由器长按恢复出厂设置按钮<strong>10</strong>秒，红灯状态下点击工具<code>telnet</code>按钮直到出现收到应答信号，紧接着快速点击<strong>breed工具</strong>的开始刷机按钮，（失败很多次的原因都是<code>Telnet</code>开启时间特别短，黄灯亮了<code>telnet</code>就关闭了，两个按钮几乎要同时按下去了），中间什么都不用管，一会就显示成功了拔掉路由器电源，按着复位键插电源，浏览器<code>192.168.1.1</code>进入<code>breed刷机</code>界面（我是手动修改的<code>ip</code>，两次<code>ip</code>不一样，<code>k2控制台</code>管理<code>ip</code>为<code>192.168.2.1</code>）一路默认，要用网线，据说wifi无线网不可以，其他不相干的网卡先禁用掉。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085017151710061744052.png" alt="breed 界面" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085033151710063319001.png" alt="breed 界面" loading="lazy"></p>
-<p>点击<code>是</code>按钮</p>
-<p>切换设置主机<code>ip:192.168.1.12</code></p>
-<p>登录<code>192.168.1.1</code> 登录之前断一下电重启，下面是升级固件的页面（少一张选择固件的页面截图）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085042151710064235458.png" alt="breed 界面" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/4.png" alt="breed 界面" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085101151710066144139.png" alt="breed 界面" loading="lazy"></p>
-<p>刷完之后，再重启一下，访问<code>192.168.1.1</code>若不能访问，恢复出厂设置后再访问。（断电后按键<code>reset</code>键，接通电源，持续按键<code>10s</code>）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085141151710070155198.png" alt="路由器" loading="lazy"></p>
-<p>默认密码<code>admin</code>或者<code>root</code>，进去之后重新设置密码</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085156151710071622467.png" alt="路由器" loading="lazy"></p>
-<p>最后上图是PuTTY工具登录<code>Telnet</code>,</p>
-<p>远程工具<a href="https://pan.baidu.com/s/1jJ4Z48m" target="_blank" rel="noopener noreferrer">下载链接</a>,密码: d4ng</p>
-<p>这就是一台小型的linux主机，系统体积非常的小，只有数M，可以装进智能摄像头、智能家居、小型机器人、电话里等，用途十分广泛，当然这些只是听说，我没有安装过，呵呵，大家多交流吧 qq787940000</p>
-<p>可以使用opkg命令安装相关软件</p>
-<div><pre><code>opkg update # 更新可以获取的软件包列表
-
-opkg upgrade # 对已经安装的软件包升级
-
-opkg list # 获取软件列表
-
-opkg install # 安装指定的软件包
-
-opkg remove # 卸载已经安装的指定的软件包
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>当然，必须先让路由器连上网才行。</p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085017151710061744052.png" type="image/png"/>
-    </item>
-    <item>
       <title>h5ai服务器目录搭建详细教程以及各种坑的解说</title>
       <link>https://codenoob.top/document/h5ai.html</link>
       <guid isPermaLink="false">/document/h5ai.html</guid>
@@ -4455,6 +4399,62 @@ ffprobe
 <p><a href="https://larsjung.de/h5ai/" target="_blank" rel="noopener noreferrer">h5ai官网</a></p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/11148c60811286c.png" type="image/png"/>
+    </item>
+    <item>
+      <title>斐讯K2路由器刷openwrt</title>
+      <link>https://codenoob.top/document/k2-openwrt.html</link>
+      <guid isPermaLink="false">/document/k2-openwrt.html</guid>
+      <source url="https://codenoob.top/rss.xml">斐讯K2路由器刷openwrt</source>
+      <description>白捡的斐讯K2路由器，还刷机了，刷的openwrt，厉害了</description>
+      <category>文档</category>
+      <pubDate>Mon, 23 Aug 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>本想给家里现有的<code>fast</code>、<code>tp-link</code>路由器刷<code>openwrt</code>系统，可惜硬件不被系统所支持，刚好听说有一款智能路由器可以免费白捡，于是我薅（<mark>hao</mark>）羊毛的精神有发扬了一回，嘻嘻。下面给出链接，大家自行了解 购买。下面才是正题，我的刷机流程，仅供大家参考，交流学习。</p>
+<p><a href="https://union-click.jd.com/jdc?d=zKK1iR" target="_blank" rel="noopener noreferrer">京东购买斐讯K2智能路由器地址</a></p>
+<p>我买的路由器是<code>斐讯K2</code>，硬件版本<code>A5</code>，<code>CPU</code>芯片为<code>mt7620a</code>，我是奔着<code>openwrt</code>来的，所以我在<code>www.openwrt.org</code>找到相应的<code>bin固件</code>，并下载下来准备好</p>
+<p><a href="https://archive.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-mt7620a-squashfs-sysupgrade.bin" target="_blank" rel="noopener noreferrer">Bin固件地址</a></p>
+<p>路由器刚入手，高兴过头了，于是手贱点了一下自动升级最新系统，这个后面的刷固件找了不少麻烦，还好网络是开放共享的，废了好些时间找到了解决方法。主要思路是降级系统，找到官方下架的固件，手机更新上去，然后再刷入<code>breed</code>固件。相关固件这里汇总了一下，需要的朋友拿去。</p>
+<p>接下来是具体步骤，先由最新版本 <mark>V22.6.507.43</mark> ,降级到 <mark>K2_V22.6.506.28.bin</mark>，最新版本没有开启<code>Telnet</code>功能，这个次新版本开启了<code>Telnet</code>功能且不提示不合法固件，处女刷，用的必须要用此功能哦，呵呵，登录路由后台点手动升级，选择下载好的固件。</p>
+<ol>
+<li>
+<p>下载 <code>K2_V22.6.506.28.bin</code>,<a href="https://pan.baidu.com/s/1dGYpUHr" target="_blank" rel="noopener noreferrer">固件链接</a>,密码: 8z3m</p>
+</li>
+<li>
+<p>下载<code>telnet</code> 打开工具<code>RoutAckProV1B2</code>,<a href="https://pan.baidu.com/s/1jJK88qM" target="_blank" rel="noopener noreferrer">链接</a>,密码: qaix</p>
+</li>
+<li>
+<p>下载路由器刷<code>breed Web</code>控制台助手<code>v4.8</code>版本（内含breed固件）,<a href="https://pan.baidu.com/s/1pLXFt2b" target="_blank" rel="noopener noreferrer">链接</a> ,密码: cban</p>
+</li>
+</ol>
+<p>把上面两个工具分别右键管理员身份打开，路由器长按恢复出厂设置按钮<strong>10</strong>秒，红灯状态下点击工具<code>telnet</code>按钮直到出现收到应答信号，紧接着快速点击<strong>breed工具</strong>的开始刷机按钮，（失败很多次的原因都是<code>Telnet</code>开启时间特别短，黄灯亮了<code>telnet</code>就关闭了，两个按钮几乎要同时按下去了），中间什么都不用管，一会就显示成功了拔掉路由器电源，按着复位键插电源，浏览器<code>192.168.1.1</code>进入<code>breed刷机</code>界面（我是手动修改的<code>ip</code>，两次<code>ip</code>不一样，<code>k2控制台</code>管理<code>ip</code>为<code>192.168.2.1</code>）一路默认，要用网线，据说wifi无线网不可以，其他不相干的网卡先禁用掉。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085017151710061744052.png" alt="breed 界面" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085033151710063319001.png" alt="breed 界面" loading="lazy"></p>
+<p>点击<code>是</code>按钮</p>
+<p>切换设置主机<code>ip:192.168.1.12</code></p>
+<p>登录<code>192.168.1.1</code> 登录之前断一下电重启，下面是升级固件的页面（少一张选择固件的页面截图）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085042151710064235458.png" alt="breed 界面" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/4.png" alt="breed 界面" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085101151710066144139.png" alt="breed 界面" loading="lazy"></p>
+<p>刷完之后，再重启一下，访问<code>192.168.1.1</code>若不能访问，恢复出厂设置后再访问。（断电后按键<code>reset</code>键，接通电源，持续按键<code>10s</code>）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085141151710070155198.png" alt="路由器" loading="lazy"></p>
+<p>默认密码<code>admin</code>或者<code>root</code>，进去之后重新设置密码</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085156151710071622467.png" alt="路由器" loading="lazy"></p>
+<p>最后上图是PuTTY工具登录<code>Telnet</code>,</p>
+<p>远程工具<a href="https://pan.baidu.com/s/1jJ4Z48m" target="_blank" rel="noopener noreferrer">下载链接</a>,密码: d4ng</p>
+<p>这就是一台小型的linux主机，系统体积非常的小，只有数M，可以装进智能摄像头、智能家居、小型机器人、电话里等，用途十分广泛，当然这些只是听说，我没有安装过，呵呵，大家多交流吧 qq787940000</p>
+<p>可以使用opkg命令安装相关软件</p>
+<div><pre><code>opkg update # 更新可以获取的软件包列表
+
+opkg upgrade # 对已经安装的软件包升级
+
+opkg list # 获取软件列表
+
+opkg install # 安装指定的软件包
+
+opkg remove # 卸载已经安装的指定的软件包
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>当然，必须先让路由器连上网才行。</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085017151710061744052.png" type="image/png"/>
     </item>
     <item>
       <title>宝塔面板一键部署佰阅发卡</title>
@@ -9569,62 +9569,6 @@ TimeoutStartSec=0
 ]]></content:encoded>
     </item>
     <item>
-      <title>在没有启用 WAL 的情况下运行</title>
-      <link>https://codenoob.top/projects/vaultwarden/Configuration/Running-without-WAL-enabled.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Running-without-WAL-enabled.html</guid>
-      <source url="https://codenoob.top/rss.xml">在没有启用 WAL 的情况下运行</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<blockquote>
-<p>WAL 是 SQLite 特定的设置。不适用于 MySQL 或 PostgreSQL；如果您使用这些后端之一，则<code>ENABLE_DB_WAL</code>配置选项无效。</p>
-</blockquote>
-<p>默认情况下，在启动期间<code>vaultwarden</code> 将尝试为数据库启用 <a href="https://sqlite.org/wal.html" target="_blank" rel="noopener noreferrer">WAL</a>。添加它可以提高性能，并且在过去有助于防止在某些情况下失败的请求。</p>
-<h2 id="关闭-wal-的原因"> 关闭 WAL 的原因</h2>
-<p>一般来说，除非您绝对确定需要关闭 WAL，否则您应该启用它。但是，可能有一些有效的情况可以将其关闭。例如：</p>
-<ul>
-<li>一些文件系统不支持 WAL - 这对于网络文件系统尤其如此。如果您使用这样的文件系统，该服务将无法启动并显示<code>Failed to turn on WAL</code>错误消息。</li>
-<li>数据库需要 sqlite 版本 <code>3.7.0</code> 或更新版本，因此如果您出于任何原因(例如备份)需要使用其他无法更新的工具直接访问数据库，您可能需要禁用 WAL。</li>
-<li><a href="https://sqlite.org/wal.html#advantages" target="_blank" rel="noopener noreferrer">此处描述的缺点</a> 之一会影响您</li>
-</ul>
-<h2 id="如何关闭-wal"> 如何关闭 WAL</h2>
-<h3 id="_0-进行备份"> 0. 进行备份</h3>
-<p>这些更改通常是安全的并且可以在不丢失数据的情况下完成，但是在任何更改之前<a href="./../Other/Backing-up-your-vault.html">备份您的数据</a> 是强烈建议。</p>
-<h3 id="_1-在旧数据库上禁用-wal"> 1. 在旧数据库上禁用 WAL</h3>
-<p>如果你有旧的 DB，它是在启用 WAL 的情况下使用的，你需要使用 sqlite 禁用它：</p>
-<ol>
-<li>停止<code>Vaultwarden</code></li>
-<li>找到您的 <a href="./Changing-persistent-data-location.html">数据文件夹</a>。通常那里会有 <code>db.sqlite3</code> 文件，除非你指定了一些其他的名称来使用。</li>
-<li>使用 sqlite 打开文件：</li>
-</ol>
-<div><pre><code>sqlite3 db.sqlite3
-</code></pre>
-<div><span>1</span><br></div></div><ol start="4">
-<li>通过输入<code>PRAGMA journal_mode=delete;</code>并按回车键来禁用WAL：</li>
-</ol>
-<div><pre><code>sqlite&gt; PRAGMA journal_mode=delete;
-delete
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><ol start="5">
-<li>输入<code>.quit</code> 并按回车键退出sqlite 实用程序。 (注意开头的点)</li>
-</ol>
-<h3 id="_2-在-vaultwarden-中禁用-wal"> 2. 在 <code>Vaultwarden</code> 中禁用 WAL</h3>
-<p>要关闭 WAL，您需要将<code>ENABLE_DB_WAL</code>变量设置为<code>false</code>来启动<code>Vaultwarden</code>：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
-  -e <span>ENABLE_DB_WAL</span><span>=</span>false <span>\</span>
-  -v /vw-data/:/data/ <span>\</span>
-  -p <span>80</span>:80 <span>\</span>
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>确保始终以这个变量存在作为启动，即使没有它也会再次启用 WAL。 (如果发生这种情况，请从  再次禁用它)</p>
-<h2 id="如何开启-wal"> 如何开启 WAL</h2>
-<p>一般来说，你只需启动 <code>vaultwarden</code> 而不将 <code>ENABLE_DB_WAL</code> 设置为 false，服务器会自动为你启用 WAL。您可以通过运行来验证这一点：</p>
-<div><pre><code>sqlite3 db.sqlite3 <span>'PRAGMA journal_mode'</span>
-</code></pre>
-<div><span>1</span><br></div></div><p>其中<code>db.sqlite3</code> 是<code>vaultwarden</code> 使用的数据库文件。它应该返回当前使用的模式，所以在我们的例子中它是 <code>wal</code>。禁用的 WAL 通常会报告<code>删除</code>，因为这是默认设置。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>SMTP配置</title>
       <link>https://codenoob.top/projects/vaultwarden/Configuration/SMTP-Configuration.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Configuration/SMTP-Configuration.html</guid>
@@ -9752,6 +9696,62 @@ delete
 以下是一些可能会破坏环境变量解析的字符，例如 <code>\</code>、<code>'</code> 和 <code>&quot;</code>。 单个<code>\</code>通常用于转义其他字符，因此如果要使用单个<code>\</code>，则需要键入<code>\\</code>。
 此外，引号 <code>'</code> 和 <code>&quot;</code> 可能会导致一些问题，因此让我们将此密码括在单引号内并转义特殊字符。
 为了让上面的密码起作用，我们需要输入 <code>'~^&quot;,a.%\\,\'}b&amp;@|/c!1(#}'</code>，在这里你看到我们转义了 <code>\</code>和 <code>'</code> 字符并使用单引号将整个密码括起来。 所以：<code>~^&quot;,a.%\,'}b&amp;@|/c!1(#}</code> 变成了<code>'~^&quot;,a.%\\,\'}b&amp;@|/c!1(# }'</code></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>在没有启用 WAL 的情况下运行</title>
+      <link>https://codenoob.top/projects/vaultwarden/Configuration/Running-without-WAL-enabled.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Running-without-WAL-enabled.html</guid>
+      <source url="https://codenoob.top/rss.xml">在没有启用 WAL 的情况下运行</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>WAL 是 SQLite 特定的设置。不适用于 MySQL 或 PostgreSQL；如果您使用这些后端之一，则<code>ENABLE_DB_WAL</code>配置选项无效。</p>
+</blockquote>
+<p>默认情况下，在启动期间<code>vaultwarden</code> 将尝试为数据库启用 <a href="https://sqlite.org/wal.html" target="_blank" rel="noopener noreferrer">WAL</a>。添加它可以提高性能，并且在过去有助于防止在某些情况下失败的请求。</p>
+<h2 id="关闭-wal-的原因"> 关闭 WAL 的原因</h2>
+<p>一般来说，除非您绝对确定需要关闭 WAL，否则您应该启用它。但是，可能有一些有效的情况可以将其关闭。例如：</p>
+<ul>
+<li>一些文件系统不支持 WAL - 这对于网络文件系统尤其如此。如果您使用这样的文件系统，该服务将无法启动并显示<code>Failed to turn on WAL</code>错误消息。</li>
+<li>数据库需要 sqlite 版本 <code>3.7.0</code> 或更新版本，因此如果您出于任何原因(例如备份)需要使用其他无法更新的工具直接访问数据库，您可能需要禁用 WAL。</li>
+<li><a href="https://sqlite.org/wal.html#advantages" target="_blank" rel="noopener noreferrer">此处描述的缺点</a> 之一会影响您</li>
+</ul>
+<h2 id="如何关闭-wal"> 如何关闭 WAL</h2>
+<h3 id="_0-进行备份"> 0. 进行备份</h3>
+<p>这些更改通常是安全的并且可以在不丢失数据的情况下完成，但是在任何更改之前<a href="./../Other/Backing-up-your-vault.html">备份您的数据</a> 是强烈建议。</p>
+<h3 id="_1-在旧数据库上禁用-wal"> 1. 在旧数据库上禁用 WAL</h3>
+<p>如果你有旧的 DB，它是在启用 WAL 的情况下使用的，你需要使用 sqlite 禁用它：</p>
+<ol>
+<li>停止<code>Vaultwarden</code></li>
+<li>找到您的 <a href="./Changing-persistent-data-location.html">数据文件夹</a>。通常那里会有 <code>db.sqlite3</code> 文件，除非你指定了一些其他的名称来使用。</li>
+<li>使用 sqlite 打开文件：</li>
+</ol>
+<div><pre><code>sqlite3 db.sqlite3
+</code></pre>
+<div><span>1</span><br></div></div><ol start="4">
+<li>通过输入<code>PRAGMA journal_mode=delete;</code>并按回车键来禁用WAL：</li>
+</ol>
+<div><pre><code>sqlite&gt; PRAGMA journal_mode=delete;
+delete
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><ol start="5">
+<li>输入<code>.quit</code> 并按回车键退出sqlite 实用程序。 (注意开头的点)</li>
+</ol>
+<h3 id="_2-在-vaultwarden-中禁用-wal"> 2. 在 <code>Vaultwarden</code> 中禁用 WAL</h3>
+<p>要关闭 WAL，您需要将<code>ENABLE_DB_WAL</code>变量设置为<code>false</code>来启动<code>Vaultwarden</code>：</p>
+<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+  -e <span>ENABLE_DB_WAL</span><span>=</span>false <span>\</span>
+  -v /vw-data/:/data/ <span>\</span>
+  -p <span>80</span>:80 <span>\</span>
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>确保始终以这个变量存在作为启动，即使没有它也会再次启用 WAL。 (如果发生这种情况，请从  再次禁用它)</p>
+<h2 id="如何开启-wal"> 如何开启 WAL</h2>
+<p>一般来说，你只需启动 <code>vaultwarden</code> 而不将 <code>ENABLE_DB_WAL</code> 设置为 false，服务器会自动为你启用 WAL。您可以通过运行来验证这一点：</p>
+<div><pre><code>sqlite3 db.sqlite3 <span>'PRAGMA journal_mode'</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>其中<code>db.sqlite3</code> 是<code>vaultwarden</code> 使用的数据库文件。它应该返回当前使用的模式，所以在我们的例子中它是 <code>wal</code>。禁用的 WAL 通常会报告<code>删除</code>，因为这是默认设置。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -11152,76 +11152,6 @@ verify return:1
 ]]></content:encoded>
     </item>
     <item>
-      <title>预建二进制文件</title>
-      <link>https://codenoob.top/projects/vaultwarden/Deployment/Pre-built-binaries.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Deployment/Pre-built-binaries.html</guid>
-      <source url="https://codenoob.top/rss.xml">预建二进制文件</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>vaultwarden 目前不提供独立的二进制文件作为单独的下载，但对于具有基于 Alpine 的 Docker 映像可用的平台(当前为 x86-64 和 ARMv7)，您可以从官方 Docker 映像中提取独立的、静态链接的二进制文件。</p>
-<p>每个 Docker 映像还包括一个匹配的 Web Vault 构建(与平台无关)。</p>
-<h2 id="在安装了-docker-的情况下提取二进制文件"> 在安装了 Docker 的情况下提取二进制文件</h2>
-<p>假设您要为正在运行的平台提取二进制文件：</p>
-<div><pre><code>docker pull vaultwarden/server:alpine
-docker create --name vw vaultwarden/server:alpine
-docker <span>cp</span> vw:/vaultwarden <span>.</span>
-docker <span>cp</span> vw:/web-vault <span>.</span>
-docker <span>rm</span> vw
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>如果你想要不同平台的二进制文件(例如，你只在 x86-64 机器上安装了 Docker，但你想在 Raspberry Pi 上运行 vaultwarden)，请将 <code>--platform</code> 选项添加到 <code>docker pull</code>命令：</p>
-<div><pre><code>docker pull --platform linux/arm/v7 vaultwarden/server:alpine
-<span># 像上面一样运行剩余的命令。</span>
-<span># 请注意，`docker create` 命令可能会打印如下消息：</span>
-<span># 警告：请求的镜像平台 (linux/arm/v7) 与检测到的主机平台 (linux/amd64) 不匹配</span>
-<span># 并且没有请求特定的平台</span>
-<span># 这是意料之中的，无需担心。</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h2 id="extracting-binaries-without-docker-installed"> Extracting binaries without Docker installed</h2>
-<p>如果你不能或不想安装 Docker，你可以使用 <a href="https://github.com/jjlin/docker-image-extract" target="_blank" rel="noopener noreferrer">docker-image-extract</a> 脚本来拉取和提取 Docker 镜像.例如，要拉取和提取 x86-64 镜像：</p>
-<div><pre><code>$ <span>mkdir</span> vw-image
-$ <span>cd</span> vw-image
-$ <span>wget</span> https://raw.githubusercontent.com/jjlin/docker-image-extract/main/docker-image-extract
-$ <span>chmod</span> +x docker-image-extract
-$ ./docker-image-extract vaultwarden/server:alpine
-Getting API token<span>..</span>.
-Getting image manifest <span>for</span> vaultwarden/server:alpine<span>..</span>.
-Downloading layer 801bfaa63ef2094d770c809815b9e2b9c1194728e5e754ef7bc764030e140cea<span>..</span>.
-Extracting layer<span>..</span>.
-Downloading layer c6d331ed95271d8005dea195449ab4ef943017dc97ab134a4426faf441ae4fa6<span>..</span>.
-Extracting layer<span>..</span>.
-Downloading layer bfd9ec32f740ca8c86ccde057595d29a31eb093aafd7619fcdd4b956c7bf95e3<span>..</span>.
-Extracting layer<span>..</span>.
-Downloading layer e9bfb5d92e4629b1dcb4a13a470c90f51b9edde4e184d8520afc589728b8b675<span>..</span>.
-Extracting layer<span>..</span>.
-Downloading layer 5757963c858ce72bc4a1874f4971d326d21d2a844f03063a3c99e312150adf95<span>..</span>.
-Extracting layer<span>..</span>.
-Downloading layer f705bf64e4315fea1830cc137d1deda194e825da03bd7822e41ac52457bc83e7<span>..</span>.
-Extracting layer<span>..</span>.
-Downloading layer 909b5deb38cbce9f83598918bf7f38b7c2194d385456cf7ef15eff47f8a63108<span>..</span>.
-Extracting layer<span>..</span>.
-Downloading layer 8516f4cd818630cd60fa18254b072f8d9c3748bdb56f6e2527dc1c204e8e017c<span>..</span>.
-Extracting layer<span>..</span>.
-Image contents extracted into ./output.
-$ <span>ls</span> -ld output/<span>{</span>vaultwarden,web-vault<span>}</span>
--rwx------ <span>1</span> user user <span>22054608</span> Feb  <span>6</span> <span>21</span>:46 output/vaultwarden
-drwx------ <span>8</span> user user     <span>4096</span> Feb  <span>6</span> <span>21</span>:46 output/web-vault/
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br></div></div><p>如果您想要 ARMv7 映像，您目前必须通过摘要下载它。</p>
-<p>转到 <a href="https://hub.docker.com/r/vaultwarden/server/tags?name=alpine" target="_blank" rel="noopener noreferrer">https://hub.docker.com/r/vaultwarden/server/tags?name=alpine</a> 并找到 <code>alpine</code> 标签的条目。
-单击<code>linux/arm/v7</code>映像的部分摘要：
-<img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/Hsz8vJ4.png" alt="#" loading="lazy"></p>
-<p>这应该会将您带到一个显示完整摘要的页面：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/T5WdwtS.png" alt="#" loading="lazy"></p>
-<p>复制完整摘要，并将上面的 <code>docker-image-extract vaultwarden/server:alpine</code> 命令替换为
-<code>docker-image-extract Vaultwarden/server:&lt;full_digest&gt;</code>。</p>
-<p>例如：</p>
-<div><pre><code>$ ./docker-image-extract vaultwarden/server:sha256:ef129de113bec3409b6370c37a6e5573a1dacc051a3aae2a8a3339323ae63623
-</code></pre>
-<div><span>1</span><br></div></div>]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/Hsz8vJ4.png" type="image/png"/>
-    </item>
-    <item>
       <title>Logrotate 示例</title>
       <link>https://codenoob.top/projects/vaultwarden/Deployment/Logrotate-example.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Deployment/Logrotate-example.html</guid>
@@ -11884,6 +11814,122 @@ use_backend VaultWarden-Notifications_ipvANY  if  !ACL4
 ]]></content:encoded>
     </item>
     <item>
+      <title>预建二进制文件</title>
+      <link>https://codenoob.top/projects/vaultwarden/Deployment/Pre-built-binaries.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Deployment/Pre-built-binaries.html</guid>
+      <source url="https://codenoob.top/rss.xml">预建二进制文件</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>vaultwarden 目前不提供独立的二进制文件作为单独的下载，但对于具有基于 Alpine 的 Docker 映像可用的平台(当前为 x86-64 和 ARMv7)，您可以从官方 Docker 映像中提取独立的、静态链接的二进制文件。</p>
+<p>每个 Docker 映像还包括一个匹配的 Web Vault 构建(与平台无关)。</p>
+<h2 id="在安装了-docker-的情况下提取二进制文件"> 在安装了 Docker 的情况下提取二进制文件</h2>
+<p>假设您要为正在运行的平台提取二进制文件：</p>
+<div><pre><code>docker pull vaultwarden/server:alpine
+docker create --name vw vaultwarden/server:alpine
+docker <span>cp</span> vw:/vaultwarden <span>.</span>
+docker <span>cp</span> vw:/web-vault <span>.</span>
+docker <span>rm</span> vw
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>如果你想要不同平台的二进制文件(例如，你只在 x86-64 机器上安装了 Docker，但你想在 Raspberry Pi 上运行 vaultwarden)，请将 <code>--platform</code> 选项添加到 <code>docker pull</code>命令：</p>
+<div><pre><code>docker pull --platform linux/arm/v7 vaultwarden/server:alpine
+<span># 像上面一样运行剩余的命令。</span>
+<span># 请注意，`docker create` 命令可能会打印如下消息：</span>
+<span># 警告：请求的镜像平台 (linux/arm/v7) 与检测到的主机平台 (linux/amd64) 不匹配</span>
+<span># 并且没有请求特定的平台</span>
+<span># 这是意料之中的，无需担心。</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h2 id="extracting-binaries-without-docker-installed"> Extracting binaries without Docker installed</h2>
+<p>如果你不能或不想安装 Docker，你可以使用 <a href="https://github.com/jjlin/docker-image-extract" target="_blank" rel="noopener noreferrer">docker-image-extract</a> 脚本来拉取和提取 Docker 镜像.例如，要拉取和提取 x86-64 镜像：</p>
+<div><pre><code>$ <span>mkdir</span> vw-image
+$ <span>cd</span> vw-image
+$ <span>wget</span> https://raw.githubusercontent.com/jjlin/docker-image-extract/main/docker-image-extract
+$ <span>chmod</span> +x docker-image-extract
+$ ./docker-image-extract vaultwarden/server:alpine
+Getting API token<span>..</span>.
+Getting image manifest <span>for</span> vaultwarden/server:alpine<span>..</span>.
+Downloading layer 801bfaa63ef2094d770c809815b9e2b9c1194728e5e754ef7bc764030e140cea<span>..</span>.
+Extracting layer<span>..</span>.
+Downloading layer c6d331ed95271d8005dea195449ab4ef943017dc97ab134a4426faf441ae4fa6<span>..</span>.
+Extracting layer<span>..</span>.
+Downloading layer bfd9ec32f740ca8c86ccde057595d29a31eb093aafd7619fcdd4b956c7bf95e3<span>..</span>.
+Extracting layer<span>..</span>.
+Downloading layer e9bfb5d92e4629b1dcb4a13a470c90f51b9edde4e184d8520afc589728b8b675<span>..</span>.
+Extracting layer<span>..</span>.
+Downloading layer 5757963c858ce72bc4a1874f4971d326d21d2a844f03063a3c99e312150adf95<span>..</span>.
+Extracting layer<span>..</span>.
+Downloading layer f705bf64e4315fea1830cc137d1deda194e825da03bd7822e41ac52457bc83e7<span>..</span>.
+Extracting layer<span>..</span>.
+Downloading layer 909b5deb38cbce9f83598918bf7f38b7c2194d385456cf7ef15eff47f8a63108<span>..</span>.
+Extracting layer<span>..</span>.
+Downloading layer 8516f4cd818630cd60fa18254b072f8d9c3748bdb56f6e2527dc1c204e8e017c<span>..</span>.
+Extracting layer<span>..</span>.
+Image contents extracted into ./output.
+$ <span>ls</span> -ld output/<span>{</span>vaultwarden,web-vault<span>}</span>
+-rwx------ <span>1</span> user user <span>22054608</span> Feb  <span>6</span> <span>21</span>:46 output/vaultwarden
+drwx------ <span>8</span> user user     <span>4096</span> Feb  <span>6</span> <span>21</span>:46 output/web-vault/
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br></div></div><p>如果您想要 ARMv7 映像，您目前必须通过摘要下载它。</p>
+<p>转到 <a href="https://hub.docker.com/r/vaultwarden/server/tags?name=alpine" target="_blank" rel="noopener noreferrer">https://hub.docker.com/r/vaultwarden/server/tags?name=alpine</a> 并找到 <code>alpine</code> 标签的条目。
+单击<code>linux/arm/v7</code>映像的部分摘要：
+<img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/Hsz8vJ4.png" alt="#" loading="lazy"></p>
+<p>这应该会将您带到一个显示完整摘要的页面：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/T5WdwtS.png" alt="#" loading="lazy"></p>
+<p>复制完整摘要，并将上面的 <code>docker-image-extract vaultwarden/server:alpine</code> 命令替换为
+<code>docker-image-extract Vaultwarden/server:&lt;full_digest&gt;</code>。</p>
+<p>例如：</p>
+<div><pre><code>$ ./docker-image-extract vaultwarden/server:sha256:ef129de113bec3409b6370c37a6e5573a1dacc051a3aae2a8a3339323ae63623
+</code></pre>
+<div><span>1</span><br></div></div>]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/Hsz8vJ4.png" type="image/png"/>
+    </item>
+    <item>
+      <title>第三方包</title>
+      <link>https://codenoob.top/projects/vaultwarden/Deployment/Third-party-packages.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Deployment/Third-party-packages.html</guid>
+      <source url="https://codenoob.top/rss.xml">第三方包</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>此页面是第三方 Vaultwarden 软件包的索引。</p>
+<p>由于这些软件包不是由 Vaultwarden 维护或控制的，因此它们可能落后于官方版本，有时甚至明显滞后。</p>
+<p>如果你依赖这些包，你可能想要<a href="https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository" target="_blank" rel="noopener noreferrer">启用观看</a> 用于新的 vaultwarden 版本，并让维护者知道软件包是否没有保持最新。</p>
+<h2 id="arch-linux"> Arch Linux</h2>
+<p>可在 <a href="https://archlinux.org/packages/community/x86_64/vaultwarden/" target="_blank" rel="noopener noreferrer">官方存储库</a> 以及 <a href="https://archlinux.org/packages/community/any/vaultwarden-%E7%BD%91%E7%BB%9C/" target="_blank" rel="noopener noreferrer">web vault</a>。</p>
+<h2 id="debian"> Debian</h2>
+<p>基于 docker 的工具链可用于构建 debian 包：<a href="https://github.com/greizgh/bitwarden_rs-debian" target="_blank" rel="noopener noreferrer">https://github.com/greizgh/bitwarden_rs-debian</a></p>
+<p>它捆绑了服务器和网络密码管理。</p>
+<h2 id="centos7-rhel7"> CentOS7 / RHEL7</h2>
+<p>RPM 存储库由 @MrMEEE 在此处打包：<a href="https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/</a>...这还包括附加包中的网络界面。</p>
+<p>安装说明：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md</a></p>
+<p>RPM 的任何问题都可以在这里报告：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/issues" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/issues</a></p>
+<h2 id="centos-8-rhel-8"> CentOS 8 / RHEL 8</h2>
+<p>构建 RPM 并使用 Docker 将其推送到 COPR 的 repo 的一个分支。</p>
+<p><a href="https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8" target="_blank" rel="noopener noreferrer">https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8</a>
+<a href="https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/</a></p>
+<h2 id="nix-os"> Nix (OS)</h2>
+<p><code>Bitwarden_rs</code> 在 Nix 中包含 4 个包(一个用于 mysql、sqlite 和 postgresql，一个用于 Vault)。对于 NixOS，还有一个模块 (<code>services.bitwarden_rs</code>)，因此 <code>bitwarden_rs</code> 也可以以 NixOS 声明方式进行配置。</p>
+<h2 id="cloudron"> Cloudron</h2>
+<p><a href="https://cloudron.io" target="_blank" rel="noopener noreferrer">Cloudron</a> 是一个可以帮助您在服务器上运行 Web 应用程序的平台。
+使用 Cloudron，您可以轻松地从 <a href="https://cloudron.io/store/com.github.bitwardenrs.html" target="_blank" rel="noopener noreferrer">应用程序库</a> 在自定义域上安装 <code>Bitwarden_rs</code>
+该应用程序包与上游 Web Vault 捆绑在一起，安装后无需任何进一步配置即可开始使用。 Cloudron 团队会跟踪发布并提供自动更新。</p>
+<p>可以在 <a href="https://git.cloudron.io/cloudron/vaultwarden-app" target="_blank" rel="noopener noreferrer">https://git.cloudron.io/cloudron/vaultwarden-app</a> 找到包代码和问题跟踪器</p>
+<h2 id="home-assistant"> Home Assistant</h2>
+<p><a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">家庭助理</a> 是一个开源的家庭自动化平台。 <a href="https://github.com/hassio-addons/addon-bitwarden" target="_blank" rel="noopener noreferrer">https://github.com/hassio-addons/addon-bitwarden</a> 提供了一个 <code>bitwarden_rs</code> 社区插件。</p>
+<h2 id="为-ubuntu-20-04-构建脚本"> 为 Ubuntu 20.04 构建脚本</h2>
+<p><code>Dinger1986</code> 已经创建了一个脚本来在 Ubuntu 20.04 上从源代码安装 <code>bitwarden_rs</code>，参见
+<a href="https://github.com/dinger1986/bitwardenrs_install_script" target="_blank" rel="noopener noreferrer">https://github.com/dinger1986/bitwardenrs_install_script</a></p>
+<h2 id="freebsd"> FreeBSD</h2>
+<p>在 <a href="https://www.freshports.org/security/vaultwarden/" target="_blank" rel="noopener noreferrer">FreeBSD 端口树</a> 中可用，并作为 FreeBSD pkg 存储库中的二进制包提供：<code>pkg install vaultwarden</code></p>
+<h2 id="多个-rpm-和-deb-发行版"> 多个 RPM 和 DEB 发行版</h2>
+<p><code>openSUSE</code> 构建服务项目，支持<code>CentOS、Debian、Fedora、RHEL、SUSE、Ubuntu</code>。</p>
+<p>您可以直接下载软件包或使用可用的存储库。</p>
+<p><strong>警告：</strong> 目前这些包包含预构建的二进制文件，无法使用此构建服务构建 <code>rust-nightly</code> 包。</p>
+<p><a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden" target="_blank" rel="noopener noreferrer">Vaultwarden</a>
+<a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden-webvault" target="_blank" rel="noopener noreferrer">vaultwarden-webvault</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>使用 Let&amp;apos;s Encrypt 证书运行私有 Vaultwarden 实例</title>
       <link>https://codenoob.top/projects/vaultwarden/Deployment/Running-a-private-vaultwarden-instance-with-Lets-Encrypt-certs.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Deployment/Running-a-private-vaultwarden-instance-with-Lets-Encrypt-certs.html</guid>
@@ -12015,52 +12061,6 @@ export WEBSOCKET_ENABLED=true
 </ul>
 ]]></content:encoded>
       <enclosure url="https://i.imgur.com/BBvy4Yj.png" type="image/png"/>
-    </item>
-    <item>
-      <title>第三方包</title>
-      <link>https://codenoob.top/projects/vaultwarden/Deployment/Third-party-packages.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Deployment/Third-party-packages.html</guid>
-      <source url="https://codenoob.top/rss.xml">第三方包</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>此页面是第三方 Vaultwarden 软件包的索引。</p>
-<p>由于这些软件包不是由 Vaultwarden 维护或控制的，因此它们可能落后于官方版本，有时甚至明显滞后。</p>
-<p>如果你依赖这些包，你可能想要<a href="https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository" target="_blank" rel="noopener noreferrer">启用观看</a> 用于新的 vaultwarden 版本，并让维护者知道软件包是否没有保持最新。</p>
-<h2 id="arch-linux"> Arch Linux</h2>
-<p>可在 <a href="https://archlinux.org/packages/community/x86_64/vaultwarden/" target="_blank" rel="noopener noreferrer">官方存储库</a> 以及 <a href="https://archlinux.org/packages/community/any/vaultwarden-%E7%BD%91%E7%BB%9C/" target="_blank" rel="noopener noreferrer">web vault</a>。</p>
-<h2 id="debian"> Debian</h2>
-<p>基于 docker 的工具链可用于构建 debian 包：<a href="https://github.com/greizgh/bitwarden_rs-debian" target="_blank" rel="noopener noreferrer">https://github.com/greizgh/bitwarden_rs-debian</a></p>
-<p>它捆绑了服务器和网络密码管理。</p>
-<h2 id="centos7-rhel7"> CentOS7 / RHEL7</h2>
-<p>RPM 存储库由 @MrMEEE 在此处打包：<a href="https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/</a>...这还包括附加包中的网络界面。</p>
-<p>安装说明：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md</a></p>
-<p>RPM 的任何问题都可以在这里报告：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/issues" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/issues</a></p>
-<h2 id="centos-8-rhel-8"> CentOS 8 / RHEL 8</h2>
-<p>构建 RPM 并使用 Docker 将其推送到 COPR 的 repo 的一个分支。</p>
-<p><a href="https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8" target="_blank" rel="noopener noreferrer">https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8</a>
-<a href="https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/</a></p>
-<h2 id="nix-os"> Nix (OS)</h2>
-<p><code>Bitwarden_rs</code> 在 Nix 中包含 4 个包(一个用于 mysql、sqlite 和 postgresql，一个用于 Vault)。对于 NixOS，还有一个模块 (<code>services.bitwarden_rs</code>)，因此 <code>bitwarden_rs</code> 也可以以 NixOS 声明方式进行配置。</p>
-<h2 id="cloudron"> Cloudron</h2>
-<p><a href="https://cloudron.io" target="_blank" rel="noopener noreferrer">Cloudron</a> 是一个可以帮助您在服务器上运行 Web 应用程序的平台。
-使用 Cloudron，您可以轻松地从 <a href="https://cloudron.io/store/com.github.bitwardenrs.html" target="_blank" rel="noopener noreferrer">应用程序库</a> 在自定义域上安装 <code>Bitwarden_rs</code>
-该应用程序包与上游 Web Vault 捆绑在一起，安装后无需任何进一步配置即可开始使用。 Cloudron 团队会跟踪发布并提供自动更新。</p>
-<p>可以在 <a href="https://git.cloudron.io/cloudron/vaultwarden-app" target="_blank" rel="noopener noreferrer">https://git.cloudron.io/cloudron/vaultwarden-app</a> 找到包代码和问题跟踪器</p>
-<h2 id="home-assistant"> Home Assistant</h2>
-<p><a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">家庭助理</a> 是一个开源的家庭自动化平台。 <a href="https://github.com/hassio-addons/addon-bitwarden" target="_blank" rel="noopener noreferrer">https://github.com/hassio-addons/addon-bitwarden</a> 提供了一个 <code>bitwarden_rs</code> 社区插件。</p>
-<h2 id="为-ubuntu-20-04-构建脚本"> 为 Ubuntu 20.04 构建脚本</h2>
-<p><code>Dinger1986</code> 已经创建了一个脚本来在 Ubuntu 20.04 上从源代码安装 <code>bitwarden_rs</code>，参见
-<a href="https://github.com/dinger1986/bitwardenrs_install_script" target="_blank" rel="noopener noreferrer">https://github.com/dinger1986/bitwardenrs_install_script</a></p>
-<h2 id="freebsd"> FreeBSD</h2>
-<p>在 <a href="https://www.freshports.org/security/vaultwarden/" target="_blank" rel="noopener noreferrer">FreeBSD 端口树</a> 中可用，并作为 FreeBSD pkg 存储库中的二进制包提供：<code>pkg install vaultwarden</code></p>
-<h2 id="多个-rpm-和-deb-发行版"> 多个 RPM 和 DEB 发行版</h2>
-<p><code>openSUSE</code> 构建服务项目，支持<code>CentOS、Debian、Fedora、RHEL、SUSE、Ubuntu</code>。</p>
-<p>您可以直接下载软件包或使用可用的存储库。</p>
-<p><strong>警告：</strong> 目前这些包包含预构建的二进制文件，无法使用此构建服务构建 <code>rust-nightly</code> 包。</p>
-<p><a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden" target="_blank" rel="noopener noreferrer">Vaultwarden</a>
-<a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden-webvault" target="_blank" rel="noopener noreferrer">vaultwarden-webvault</a></p>
-]]></content:encoded>
     </item>
     <item>
       <title>FAQ</title>
@@ -12396,6 +12396,55 @@ volumes:
 ]]></content:encoded>
     </item>
     <item>
+      <title>从Keepass或KeepassX导入数据</title>
+      <link>https://codenoob.top/projects/vaultwarden/Other/Importing-data-from-Keepass-or-KeepassX.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Other/Importing-data-from-Keepass-or-KeepassX.html</guid>
+      <source url="https://codenoob.top/rss.xml">从Keepass或KeepassX导入数据</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="介绍"> 介绍</h2>
+<p>Bitwarden 可以从大量<a href="https://help.bitwarden.com/article/import-data/" target="_blank" rel="noopener noreferrer">应用程序</a> 中导入您的数据。</p>
+<p>当前的导入器只允许您选择格式，而不是如何将数据转换为 Bitwarden。</p>
+<h2 id="keepass-和-keepassx-的导入结果不同"> Keepass 和 KeepassX 的导入结果不同</h2>
+<p>从 Keepass 或 KeepassX 导入会得到完全不同的结果，尽管它们使用相同的 Keepass 2.x kbdx 数据库：</p>
+<ul>
+<li>Keepass CSV 文件在 <strong>组织</strong> 级别(每个条目的所有者)导入，并将 Keepass 组转换为 Bitwarden <strong>集合</strong>。</li>
+<li>Keepass XML 文件在 <strong>用户</strong> 级别(每个条目的所有者)导入，并将 Keepass 组转换为 Bitwarden <strong>文件夹</strong>，主文件夹为 Keepass 数据库的名称。</li>
+</ul>
+<p>Bitwarden 本身需要做很多工作来将集合更改为文件夹或转移所有条目的所有权。
+因此，根据您的需要，选择合适的方法！</p>
+<h2 id="例子"> 例子</h2>
+<h3 id="名为myvault的-keepass-数据库"> 名为<code>MyVault</code>的 Keepass 数据库</h3>
+<p><strong>Groups:</strong></p>
+<div><pre><code>- Group1
+  -   Group1Sub1
+  -   Group2Sub2
+- Group2
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="通过-keepass-csv-导入"> 通过 Keepass (CSV) 导入</h3>
+<p><strong>所有者</strong> = 组织</p>
+<p><strong>Collections:</strong></p>
+<div><pre><code>- Group1
+  -   Group1Sub1
+  -   Group2Sub2
+- Group2
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="通过-keepass-xml-导入"> 通过 Keepass (XML) 导入</h3>
+<p><strong>所有者</strong> = 登录用户</p>
+<p><strong>Folders:</strong></p>
+<div><pre><code>- MyVault
+  - Group1
+    - Group1Sub1
+    - Group2Sub2
+  - Group2
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>注意：您可能需要手动创建主文件夹，因为导入将 MyVault/Group1 显示为文件夹。创建文件夹 MyVault 会显示 MMI 中的子文件夹。</p>
+<p>注意2：您可以编辑文件夹以删除主文件夹<code>MyVault</code>，或编辑导出的CSV文件并在导入Bitwarden之前删除每个条目中的<code>MyVault/</code>字符串。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>使私有 CA 和自签名证书兼容 Chrome</title>
       <link>https://codenoob.top/projects/vaultwarden/Other/Private-CA-and-self-signed-certs-that-work-with-Chrome.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Other/Private-CA-and-self-signed-certs-that-work-with-Chrome.html</guid>
@@ -12443,55 +12492,6 @@ DNS.2 = www.bitwarden.local
 <div><span>1</span><br></div></div><p>注意：截至 2019 年 4 月 iOS 13+ 和 macOS 15+，服务器证书的到期时间不能 &gt; 825，并且必须包含 ExtendedKeyUsage 扩展 <a href="https://support.apple.com/en-us/HT210176" target="_blank" rel="noopener noreferrer">https://support.apple.com/en-us/HT210176</a></p>
 <h3 id="将根证书和-bitwarden-证书添加到客户端计算机"> 将根证书和 bitwarden 证书添加到客户端计算机</h3>
 <p>如需参考，请参见此处：<a href="https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/" target="_blank" rel="noopener noreferrer">https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>从Keepass或KeepassX导入数据</title>
-      <link>https://codenoob.top/projects/vaultwarden/Other/Importing-data-from-Keepass-or-KeepassX.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Other/Importing-data-from-Keepass-or-KeepassX.html</guid>
-      <source url="https://codenoob.top/rss.xml">从Keepass或KeepassX导入数据</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="介绍"> 介绍</h2>
-<p>Bitwarden 可以从大量<a href="https://help.bitwarden.com/article/import-data/" target="_blank" rel="noopener noreferrer">应用程序</a> 中导入您的数据。</p>
-<p>当前的导入器只允许您选择格式，而不是如何将数据转换为 Bitwarden。</p>
-<h2 id="keepass-和-keepassx-的导入结果不同"> Keepass 和 KeepassX 的导入结果不同</h2>
-<p>从 Keepass 或 KeepassX 导入会得到完全不同的结果，尽管它们使用相同的 Keepass 2.x kbdx 数据库：</p>
-<ul>
-<li>Keepass CSV 文件在 <strong>组织</strong> 级别(每个条目的所有者)导入，并将 Keepass 组转换为 Bitwarden <strong>集合</strong>。</li>
-<li>Keepass XML 文件在 <strong>用户</strong> 级别(每个条目的所有者)导入，并将 Keepass 组转换为 Bitwarden <strong>文件夹</strong>，主文件夹为 Keepass 数据库的名称。</li>
-</ul>
-<p>Bitwarden 本身需要做很多工作来将集合更改为文件夹或转移所有条目的所有权。
-因此，根据您的需要，选择合适的方法！</p>
-<h2 id="例子"> 例子</h2>
-<h3 id="名为myvault的-keepass-数据库"> 名为<code>MyVault</code>的 Keepass 数据库</h3>
-<p><strong>Groups:</strong></p>
-<div><pre><code>- Group1
-  -   Group1Sub1
-  -   Group2Sub2
-- Group2
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="通过-keepass-csv-导入"> 通过 Keepass (CSV) 导入</h3>
-<p><strong>所有者</strong> = 组织</p>
-<p><strong>Collections:</strong></p>
-<div><pre><code>- Group1
-  -   Group1Sub1
-  -   Group2Sub2
-- Group2
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="通过-keepass-xml-导入"> 通过 Keepass (XML) 导入</h3>
-<p><strong>所有者</strong> = 登录用户</p>
-<p><strong>Folders:</strong></p>
-<div><pre><code>- MyVault
-  - Group1
-    - Group1Sub1
-    - Group2Sub2
-  - Group2
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>注意：您可能需要手动创建主文件夹，因为导入将 MyVault/Group1 显示为文件夹。创建文件夹 MyVault 会显示 MMI 中的子文件夹。</p>
-<p>注意2：您可以编辑文件夹以删除主文件夹<code>MyVault</code>，或编辑导出的CSV文件并在导入Bitwarden之前删除每个条目中的<code>MyVault/</code>字符串。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -12727,41 +12727,6 @@ DNS.2 = www.bitwarden.local
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/222246-166481.png" type="image/png"/>
     </item>
     <item>
-      <title>snipaste</title>
-      <link>https://codenoob.top/tools/creat/snipaste.html</link>
-      <guid isPermaLink="false">/tools/creat/snipaste.html</guid>
-      <source url="https://codenoob.top/rss.xml">snipaste</source>
-      <description>snipaste-超强大截图工具</description>
-      <category>工具</category>
-      <pubDate>Tue, 22 Sep 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p><strong>这个真的是好用到爆炸</strong></p>
-<h2 id="常用功能"> 常用功能</h2>
-<ul>
-<li>截图</li>
-<li>标注</li>
-<li>文字</li>
-<li>悬浮图片</li>
-<li>截图历史</li>
-<li>精确控制选区</li>
-<li>支持分屏</li>
-</ul>
-<p>真的是提高效率的好帮手 win10商店就可以下载</p>
-<p>而且轻量无广告</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/221811-551714.png" alt="Snipaste-截图" loading="lazy"></p>
-<h2 id="下载地址"> 下载地址</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center"><a href="https://www.microsoft.com/store/productId/9P1WXPKB68KX" target="_blank" rel="noopener noreferrer">商店链接</a></th>
-<th style="text-align:center"><a href="https://www.snipaste.com/" target="_blank" rel="noopener noreferrer">官网</a></th>
-</tr>
-</thead>
-<tbody></tbody>
-</table>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/221811-551714.png" type="image/png"/>
-    </item>
-    <item>
       <title>工具推荐</title>
       <link>https://codenoob.top/tools/</link>
       <guid isPermaLink="false">/tools/</guid>
@@ -12910,6 +12875,32 @@ docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cac
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" type="image/png"/>
     </item>
     <item>
+      <title>Vue Devtools的安装</title>
+      <link>https://codenoob.top/tools/vuedev-tool.html</link>
+      <guid isPermaLink="false">/tools/vuedev-tool.html</guid>
+      <source url="https://codenoob.top/rss.xml">Vue Devtools的安装</source>
+      <description>Vue Devtools的安装</description>
+      <category>工具</category>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>提示</p>
+<p>开发vue的必备浏览器调试插件</p>
+</div>
+<p>这个插件在chrome浏览器中用来调试vuejs程序的工具，可以说是必备的插件</p>
+<p>这一节就是安装教程</p>
+<p>下载插件地址<a href="https://pictureknow.com/extension?id=d50143a5f53d406dbe992277bfc90521l" target="_blank" rel="noopener noreferrer">立即直达</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105753-654628.png" alt="#" loading="lazy"></p>
+<p>下载完成后打开chrome浏览器的拓展中心</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163432-658058.png" alt="#" loading="lazy"></p>
+<p>然后开启开发者模式</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105837-598467.png" alt="#" loading="lazy"></p>
+<p>然后把刚刚下载的插件直接拖动到这个页面，点击添加，就完成了安装</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163229-454061.png" alt="#" loading="lazy"></p>
+<p>安装完成后右上角会有这个标志，这就安装完成</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163652-691443.png" alt="#" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105753-654628.png" type="image/png"/>
+    </item>
+    <item>
       <title>Typora直传图片文件方案</title>
       <link>https://codenoob.top/tools/typoraImg-tool.html</link>
       <guid isPermaLink="false">/tools/typoraImg-tool.html</guid>
@@ -12995,32 +12986,6 @@ echo $str . "\n";
 <p>成功！</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/152835-547872.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Vue Devtools的安装</title>
-      <link>https://codenoob.top/tools/vuedev-tool.html</link>
-      <guid isPermaLink="false">/tools/vuedev-tool.html</guid>
-      <source url="https://codenoob.top/rss.xml">Vue Devtools的安装</source>
-      <description>Vue Devtools的安装</description>
-      <category>工具</category>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>提示</p>
-<p>开发vue的必备浏览器调试插件</p>
-</div>
-<p>这个插件在chrome浏览器中用来调试vuejs程序的工具，可以说是必备的插件</p>
-<p>这一节就是安装教程</p>
-<p>下载插件地址<a href="https://pictureknow.com/extension?id=d50143a5f53d406dbe992277bfc90521l" target="_blank" rel="noopener noreferrer">立即直达</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105753-654628.png" alt="#" loading="lazy"></p>
-<p>下载完成后打开chrome浏览器的拓展中心</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163432-658058.png" alt="#" loading="lazy"></p>
-<p>然后开启开发者模式</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105837-598467.png" alt="#" loading="lazy"></p>
-<p>然后把刚刚下载的插件直接拖动到这个页面，点击添加，就完成了安装</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163229-454061.png" alt="#" loading="lazy"></p>
-<p>安装完成后右上角会有这个标志，这就安装完成</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163652-691443.png" alt="#" loading="lazy"></p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/105753-654628.png" type="image/png"/>
     </item>
     <item>
       <title>Git的学习手记</title>
@@ -14386,6 +14351,37 @@ module.exports = config({
       <enclosure url="https://codenoob.top/assets/img/hero.png" type="image/png"/>
     </item>
     <item>
+      <title>webpack教程</title>
+      <link>https://codenoob.top/tutorials/webpack.html</link>
+      <guid isPermaLink="false">/tutorials/webpack.html</guid>
+      <source url="https://codenoob.top/rss.xml">webpack教程</source>
+      <description>webpack教程</description>
+      <category>教程</category>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li>源码仓库<a href="https://github.com/lookroot/vuestu" target="_blank" rel="noopener noreferrer">github</a>欢迎star</li>
+<li>视频地址<a href="https://www.bilibili.com/video/bv1oK411p7SJ" target="_blank" rel="noopener noreferrer">哔哩哔哩</a></li>
+</ul>
+<blockquote>
+<p>我会将所有的读者概括为初学者，即使你可能有基础，学习本节之前我希望你具有一定的JavaScript和node基础</p>
+</blockquote>
+<ul>
+<li>文中的 ... ...代表省略掉部分代码，和上面的代码相同</li>
+<li>文中的文件夹如果没有说创建，并且项目默认没有的是需要你手动增加的</li>
+<li>不会特别细致，但是足够入门</li>
+</ul>
+<h2 id="什么是webpack"> 什么是webpack</h2>
+<blockquote>
+<p>Web浏览器使用HTML，CSS和JavaScript。随着项目的发展，跟踪和配置所有这些文件变得非常复杂,解决这个问题就需要一个新的工具</p>
+</blockquote>
+<p>类似webpack的工具还有Grunt和Gulp，webpack是模块管理工具，把你的项目按照你的想法进行划分模块打包，举个最简单的例子，这个页面需要加载一个 a.js和b.js，但是你只想加载一个js文件，就可以使用webpack将两个文件进行合并，当然webpack的功能不止于此，代码转化、项目优化、代码分割、代码预编译、自动构建、自动刷新...</p>
+<p>再比如你想你的代码兼容其他老的浏览器，你的css代码兼容不同的浏览器内核，或者你想自动精简掉你写了但是没有用到的代码，这些都可以使用webpack实现</p>
+<p>如果你是vue或者react等框架的使用者，肯定使用过 vue-cli 或 react-create-app 这类脚手架工具，那么实现这个效果，就要学习webpack</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" alt="#" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" type="image/png"/>
+    </item>
+    <item>
       <title>前端分阶段学习路线</title>
       <link>https://codenoob.top/tutorials/webstudy.html</link>
       <guid isPermaLink="false">/tutorials/webstudy.html</guid>
@@ -14965,35 +14961,58 @@ module.exports = config({
       <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
-      <title>webpack教程</title>
-      <link>https://codenoob.top/tutorials/webpack.html</link>
-      <guid isPermaLink="false">/tutorials/webpack.html</guid>
-      <source url="https://codenoob.top/rss.xml">webpack教程</source>
-      <description>webpack教程</description>
-      <category>教程</category>
-      <pubDate>Tue, 23 Jun 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<ul>
-<li>源码仓库<a href="https://github.com/lookroot/vuestu" target="_blank" rel="noopener noreferrer">github</a>欢迎star</li>
-<li>视频地址<a href="https://www.bilibili.com/video/bv1oK411p7SJ" target="_blank" rel="noopener noreferrer">哔哩哔哩</a></li>
-</ul>
-<blockquote>
-<p>我会将所有的读者概括为初学者，即使你可能有基础，学习本节之前我希望你具有一定的JavaScript和node基础</p>
-</blockquote>
-<ul>
-<li>文中的 ... ...代表省略掉部分代码，和上面的代码相同</li>
-<li>文中的文件夹如果没有说创建，并且项目默认没有的是需要你手动增加的</li>
-<li>不会特别细致，但是足够入门</li>
-</ul>
-<h2 id="什么是webpack"> 什么是webpack</h2>
-<blockquote>
-<p>Web浏览器使用HTML，CSS和JavaScript。随着项目的发展，跟踪和配置所有这些文件变得非常复杂,解决这个问题就需要一个新的工具</p>
-</blockquote>
-<p>类似webpack的工具还有Grunt和Gulp，webpack是模块管理工具，把你的项目按照你的想法进行划分模块打包，举个最简单的例子，这个页面需要加载一个 a.js和b.js，但是你只想加载一个js文件，就可以使用webpack将两个文件进行合并，当然webpack的功能不止于此，代码转化、项目优化、代码分割、代码预编译、自动构建、自动刷新...</p>
-<p>再比如你想你的代码兼容其他老的浏览器，你的css代码兼容不同的浏览器内核，或者你想自动精简掉你写了但是没有用到的代码，这些都可以使用webpack实现</p>
-<p>如果你是vue或者react等框架的使用者，肯定使用过 vue-cli 或 react-create-app 这类脚手架工具，那么实现这个效果，就要学习webpack</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" alt="#" loading="lazy"></p>
+      <title>utools</title>
+      <link>https://codenoob.top/tools/creat/utools.html</link>
+      <guid isPermaLink="false">/tools/creat/utools.html</guid>
+      <source url="https://codenoob.top/rss.xml">utools</source>
+      <description>utools—真效率大师</description>
+      <category>工具</category>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>utools</p>
+<p>uTools是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。</p>
+<p>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。</p>
+</div>
+<p>这个软件不用多说，下载来试一试就知道了，真*效率大师，有了它以后，我的桌面就几个图标了，平时用来搜索本地应用、本地文件、系统设置很方便</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/000823-556005.png" alt="image-20200807000822656" loading="lazy"></p>
+<p>最主要的还支持自定义插件，观看开发文档，剪贴板历史，在线翻译...更多请自行了解</p>
+<p><a href="http://www.u.tools/" target="_blank" rel="noopener noreferrer">官网地址</a></p>
 ]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" type="image/png"/>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/000823-556005.png" type="image/png"/>
+    </item>
+    <item>
+      <title>snipaste</title>
+      <link>https://codenoob.top/tools/creat/snipaste.html</link>
+      <guid isPermaLink="false">/tools/creat/snipaste.html</guid>
+      <source url="https://codenoob.top/rss.xml">snipaste</source>
+      <description>snipaste-超强大截图工具</description>
+      <category>工具</category>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><strong>这个真的是好用到爆炸</strong></p>
+<h2 id="常用功能"> 常用功能</h2>
+<ul>
+<li>截图</li>
+<li>标注</li>
+<li>文字</li>
+<li>悬浮图片</li>
+<li>截图历史</li>
+<li>精确控制选区</li>
+<li>支持分屏</li>
+</ul>
+<p>真的是提高效率的好帮手 win10商店就可以下载</p>
+<p>而且轻量无广告</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/221811-551714.png" alt="Snipaste-截图" loading="lazy"></p>
+<h2 id="下载地址"> 下载地址</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://www.microsoft.com/store/productId/9P1WXPKB68KX" target="_blank" rel="noopener noreferrer">商店链接</a></th>
+<th style="text-align:center"><a href="https://www.snipaste.com/" target="_blank" rel="noopener noreferrer">官网</a></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/221811-551714.png" type="image/png"/>
     </item>
     <item>
       <title>PHP实现随机图片展示</title>
@@ -15013,25 +15032,6 @@ module.exports = config({
 <span>?></span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>utools</title>
-      <link>https://codenoob.top/tools/creat/utools.html</link>
-      <guid isPermaLink="false">/tools/creat/utools.html</guid>
-      <source url="https://codenoob.top/rss.xml">utools</source>
-      <description>utools—真效率大师</description>
-      <category>工具</category>
-      <pubDate>Wed, 16 Sep 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>utools</p>
-<p>uTools是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。</p>
-<p>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。</p>
-</div>
-<p>这个软件不用多说，下载来试一试就知道了，真*效率大师，有了它以后，我的桌面就几个图标了，平时用来搜索本地应用、本地文件、系统设置很方便</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/000823-556005.png" alt="image-20200807000822656" loading="lazy"></p>
-<p>最主要的还支持自定义插件，观看开发文档，剪贴板历史，在线翻译...更多请自行了解</p>
-<p><a href="http://www.u.tools/" target="_blank" rel="noopener noreferrer">官网地址</a></p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/000823-556005.png" type="image/png"/>
     </item>
   </channel>
 </rss>
