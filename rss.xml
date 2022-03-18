@@ -6,8 +6,8 @@
     <link>https://codenoob.top/</link>
     <description>编程菜鸟的自我修养</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 08 Mar 2022 09:08:46 GMT</pubDate>
-    <lastBuildDate>Tue, 08 Mar 2022 09:08:46 GMT</lastBuildDate>
+    <pubDate>Fri, 18 Mar 2022 12:32:53 GMT</pubDate>
+    <lastBuildDate>Fri, 18 Mar 2022 12:32:53 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>ChouCong | Theme-Hope</copyright>
@@ -56,6 +56,79 @@
 </ul>
 ]]></content:encoded>
       <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
+    </item>
+    <item>
+      <title>抛开技术点，前后端你更需要了解的知识！</title>
+      <link>https://codenoob.top/code/front-back.html</link>
+      <guid isPermaLink="false">/code/front-back.html</guid>
+      <source url="https://codenoob.top/rss.xml">抛开技术点，前后端你更需要了解的知识！</source>
+      <description>抛开技术点，前后端你更需要了解的知识！</description>
+      <category>编程</category>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>提示</p>
+<p>前后端分离只知道技术点可不行</p>
+</div>
+<p>今天要分享的话题是 我所理解的前后端分离的根本 欢迎大家评论区讨论</p>
+<p>别上来就谈啥技术点啦！学前端的学后端的谁还不知道是哪些技术点呢？</p>
+<h2 id="照顾不理解的新人"> 照顾不理解的新人</h2>
+<p>狭义上的前后端分离，是从技术点上来表述的。也就是大家所理解的如今非常火热的开发模式，前端负责调用接口渲染页面和收集数据传递给后端，后端负责处理前端传递的数据和 返回前端需要的数据接口</p>
+<p>举一个通俗一点的例子，超市提供半成品和熟食，你买熟食就是直接吃，这就是不分离；你买半成品回家还得二次处理，这就是分离</p>
+<p>如何辨别当前项目是否分离呢</p>
+<p>这里先明确一下什么是前端什么是后端，很多小伙伴把--前台后台和前后端--搞混了，这完全不是一回事啊</p>
+<p>前端通常指，所见即所得，我们所能见到的页面，所能完成的交互包括其实现的逻辑；代码在浏览器端执行</p>
+<p>后端通常指，看不到的用来提供数据，处理业务逻辑，完成数据分析等等的功能代码在服务器上面执行</p>
+<p>一个简单的辨别方案就是，当前网页打开 f12 开发者模式，刷新页面查看页面加载网络的response是否返回的完整的页面和数据，如果是 ，那么就是服务端渲染，为不分离开发模式</p>
+<p>当然只是狭义上面的前后端分离 那么真正的关于前后端分离</p>
+<p>还涉及到开发分离 人员分离 测试分离 部署分离 维护分离 关注点分离</p>
+<h2 id="背景"> 背景</h2>
+<p>现在很多人入行都会选择前端学习了，业内也喊出了大前端的口号，那么在以前，在国内是完全没有这个概念的，还是大家口中的页面仔，只负责静态页面的编写，然后交给后端程序员，完成动态的拼接，甚至js代码也是后端程序员在写的，那么可想而知，地位是非常低的，大部分的人都是挤破头往后端学，所以后来页面都是后端程序员在编写</p>
+<h2 id="为什么会出现前后端分离"> 为什么会出现前后端分离</h2>
+<p>归功到底还是 省钱！人效！</p>
+<p>这一点从何而来呢？你可能会疑惑，原本写一个网站一个人，现在一个写页面，一个写后端，怎么谈得上省钱呢？这一点后面再说</p>
+<p>这里先纠正一个技术误区，写前端不只是写网页 还有 app 小程序 以及一些物联网的页面展示，后端也不只是网页接口，还有数据处理 ，数据爬取，数据分析， 定时任务等等 返回接口只是最终的一个输出而已</p>
+<p>这里会稍微啰嗦一点，大家耐心一点听</p>
+<h2 id="耦合度"> 耦合度</h2>
+<p>那么我们回顾一下传统的开发，原本的诸如 jsp .net php 的网页开发都是在后端将数据处理完成，填充到页面中，然后再将页面统一返回给用户</p>
+<p>那么这个耦合度就是相当的高了，不论是开发还是维护，肯定都是以前搞后端的在弄，那么假如只需要修改页面中的某一个元素，还得是将整个项目重新部署</p>
+<p>后来有了动静分离，也就是将页面中的静态代码和后端代码分离，可以单独部署静态数据，但是仍然没有将开发分离</p>
+<h2 id="业务发展"> 业务发展</h2>
+<p>写后端的程序员大部分写页面都不咋的，写css啊js啊都是拼拼凑凑，能用插件的绝对不会自己写，那么就会造成整个系统的页面风格不统一，代码层次不齐，完全没有工程化的意思，以前网速慢业务少还好说，大家能看到页面就行了，也不计较更好的效果了，这点大家参考自己的学校官网就了解了</p>
+<p>后来啊网速快了，业务量大了，我去全部都是后端处理，服务器它也不干啊，加上浏览器性能的快速提升，能不能把更多的逻辑让浏览器去处理呢？</p>
+<h2 id="行业细分"> 行业细分</h2>
+<p>这里就有了一个问题了，让浏览器去处理，页面的js代码越来越多，越来越复杂。以前那一套肯定是行不通的，你再让后端程序员写肯定也是不行的</p>
+<p>加上页面越来越复杂，逻辑越来越多，写前端的和写后端的逻辑和关注点也是大不相同的，那么就非常需要更专业的人来做这个事情</p>
+<p>这就逐渐独立出前端这个类别</p>
+<h2 id="分离点"> 分离点</h2>
+<p>一谈前后端分离大家都知道 后端返回restful接口，前端spa框架渲染数据，那么这个分离点是怎么来的呢？ 后端你不想写页面对吧？那行，页面全给前端写，页面都给前端写了，数据渲染还怎么办呢？ 这里就考虑 app 的开发模式，我后端能不能只负责提供数据，然后你前端来渲染处理呢？</p>
+<p>当然是可以的，在前后端分离前期，还是通过ajax获取数据然后简单的操作dom来渲染数据</p>
+<p>这个不论是性能还是可拓展性都是非常差的，那么我们前端拿到数据以后能不能再次细分一下呢？把1获取数据，2处理数据，3页面展示；这几个步骤类似以前的传统mvc开发一样分割一下，结合网页开发的特点发展到后来的 mvvm 的开发模式，也就有了现在非常火热的vue angular react 框架</p>
+<p>至此，前端才有了真正独立的开发，后端也能专心的写他的接口了，双方通过约定好得api进行开发，完全可以做到互不干扰</p>
+<h2 id="生态发展"> 生态发展</h2>
+<p>那么前端开发还是像以前那样东拼西凑肯定是不行的，想要统一的风格 UI库来了，想要工程化，打包工具 模块化开发来啦，前端就真的成体系的发展了</p>
+<p>页面仔翻身把家当</p>
+<p>回到上面的问题来，为啥省钱</p>
+<p>细分的行业，更为专业的开发人员，不论是效率和质量都大大提高
+接口复用，一套接口可以响应式的返回给网页 app 小程序等不同平台
+后期拓展性提高，可维护性更强
+综合下来是更为省钱的</p>
+<h2 id="好不好"> 好不好</h2>
+<p>说点通俗的话，当前这么火热，除了跟风为了分离而分离的小公司，存在肯定是合理的</p>
+<p>来看一个场景，哪一种方式的体验更好不用多说了吧</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/215910-449972.gif" alt="#" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/212303-482210.gif" alt="#" loading="lazy"></p>
+<p>那么为啥不都使用分离呢？</p>
+<p>spa的框架有如下的缺点</p>
+<ul>
+<li>不利于seo</li>
+<li>首屏加载速度慢，白屏时间长</li>
+<li>数据传输的安全性</li>
+<li>...</li>
+</ul>
+<p>基于以上的问题，有些会采用骨架屏或者首页服务端渲染的方式也就是ssr，所以你看到的很多网页都是结合着开发的而不是单一的模式</p>
+<p>短时间内，不分离的模式肯定是不会消失的，jsp不用了 又有了 freemaker thymeleaf，node 的众多ssr方案，php还有这么多的页面模板</p>
+<p>所以努力学啊，学不动就只有回家喂猪了</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/215910-449972.gif" type="image/gif"/>
     </item>
     <item>
       <title>Java分阶段学习路线</title>
@@ -355,79 +428,6 @@
       <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
-      <title>抛开技术点，前后端你更需要了解的知识！</title>
-      <link>https://codenoob.top/code/front-back.html</link>
-      <guid isPermaLink="false">/code/front-back.html</guid>
-      <source url="https://codenoob.top/rss.xml">抛开技术点，前后端你更需要了解的知识！</source>
-      <description>抛开技术点，前后端你更需要了解的知识！</description>
-      <category>编程</category>
-      <pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>提示</p>
-<p>前后端分离只知道技术点可不行</p>
-</div>
-<p>今天要分享的话题是 我所理解的前后端分离的根本 欢迎大家评论区讨论</p>
-<p>别上来就谈啥技术点啦！学前端的学后端的谁还不知道是哪些技术点呢？</p>
-<h2 id="照顾不理解的新人"> 照顾不理解的新人</h2>
-<p>狭义上的前后端分离，是从技术点上来表述的。也就是大家所理解的如今非常火热的开发模式，前端负责调用接口渲染页面和收集数据传递给后端，后端负责处理前端传递的数据和 返回前端需要的数据接口</p>
-<p>举一个通俗一点的例子，超市提供半成品和熟食，你买熟食就是直接吃，这就是不分离；你买半成品回家还得二次处理，这就是分离</p>
-<p>如何辨别当前项目是否分离呢</p>
-<p>这里先明确一下什么是前端什么是后端，很多小伙伴把--前台后台和前后端--搞混了，这完全不是一回事啊</p>
-<p>前端通常指，所见即所得，我们所能见到的页面，所能完成的交互包括其实现的逻辑；代码在浏览器端执行</p>
-<p>后端通常指，看不到的用来提供数据，处理业务逻辑，完成数据分析等等的功能代码在服务器上面执行</p>
-<p>一个简单的辨别方案就是，当前网页打开 f12 开发者模式，刷新页面查看页面加载网络的response是否返回的完整的页面和数据，如果是 ，那么就是服务端渲染，为不分离开发模式</p>
-<p>当然只是狭义上面的前后端分离 那么真正的关于前后端分离</p>
-<p>还涉及到开发分离 人员分离 测试分离 部署分离 维护分离 关注点分离</p>
-<h2 id="背景"> 背景</h2>
-<p>现在很多人入行都会选择前端学习了，业内也喊出了大前端的口号，那么在以前，在国内是完全没有这个概念的，还是大家口中的页面仔，只负责静态页面的编写，然后交给后端程序员，完成动态的拼接，甚至js代码也是后端程序员在写的，那么可想而知，地位是非常低的，大部分的人都是挤破头往后端学，所以后来页面都是后端程序员在编写</p>
-<h2 id="为什么会出现前后端分离"> 为什么会出现前后端分离</h2>
-<p>归功到底还是 省钱！人效！</p>
-<p>这一点从何而来呢？你可能会疑惑，原本写一个网站一个人，现在一个写页面，一个写后端，怎么谈得上省钱呢？这一点后面再说</p>
-<p>这里先纠正一个技术误区，写前端不只是写网页 还有 app 小程序 以及一些物联网的页面展示，后端也不只是网页接口，还有数据处理 ，数据爬取，数据分析， 定时任务等等 返回接口只是最终的一个输出而已</p>
-<p>这里会稍微啰嗦一点，大家耐心一点听</p>
-<h2 id="耦合度"> 耦合度</h2>
-<p>那么我们回顾一下传统的开发，原本的诸如 jsp .net php 的网页开发都是在后端将数据处理完成，填充到页面中，然后再将页面统一返回给用户</p>
-<p>那么这个耦合度就是相当的高了，不论是开发还是维护，肯定都是以前搞后端的在弄，那么假如只需要修改页面中的某一个元素，还得是将整个项目重新部署</p>
-<p>后来有了动静分离，也就是将页面中的静态代码和后端代码分离，可以单独部署静态数据，但是仍然没有将开发分离</p>
-<h2 id="业务发展"> 业务发展</h2>
-<p>写后端的程序员大部分写页面都不咋的，写css啊js啊都是拼拼凑凑，能用插件的绝对不会自己写，那么就会造成整个系统的页面风格不统一，代码层次不齐，完全没有工程化的意思，以前网速慢业务少还好说，大家能看到页面就行了，也不计较更好的效果了，这点大家参考自己的学校官网就了解了</p>
-<p>后来啊网速快了，业务量大了，我去全部都是后端处理，服务器它也不干啊，加上浏览器性能的快速提升，能不能把更多的逻辑让浏览器去处理呢？</p>
-<h2 id="行业细分"> 行业细分</h2>
-<p>这里就有了一个问题了，让浏览器去处理，页面的js代码越来越多，越来越复杂。以前那一套肯定是行不通的，你再让后端程序员写肯定也是不行的</p>
-<p>加上页面越来越复杂，逻辑越来越多，写前端的和写后端的逻辑和关注点也是大不相同的，那么就非常需要更专业的人来做这个事情</p>
-<p>这就逐渐独立出前端这个类别</p>
-<h2 id="分离点"> 分离点</h2>
-<p>一谈前后端分离大家都知道 后端返回restful接口，前端spa框架渲染数据，那么这个分离点是怎么来的呢？ 后端你不想写页面对吧？那行，页面全给前端写，页面都给前端写了，数据渲染还怎么办呢？ 这里就考虑 app 的开发模式，我后端能不能只负责提供数据，然后你前端来渲染处理呢？</p>
-<p>当然是可以的，在前后端分离前期，还是通过ajax获取数据然后简单的操作dom来渲染数据</p>
-<p>这个不论是性能还是可拓展性都是非常差的，那么我们前端拿到数据以后能不能再次细分一下呢？把1获取数据，2处理数据，3页面展示；这几个步骤类似以前的传统mvc开发一样分割一下，结合网页开发的特点发展到后来的 mvvm 的开发模式，也就有了现在非常火热的vue angular react 框架</p>
-<p>至此，前端才有了真正独立的开发，后端也能专心的写他的接口了，双方通过约定好得api进行开发，完全可以做到互不干扰</p>
-<h2 id="生态发展"> 生态发展</h2>
-<p>那么前端开发还是像以前那样东拼西凑肯定是不行的，想要统一的风格 UI库来了，想要工程化，打包工具 模块化开发来啦，前端就真的成体系的发展了</p>
-<p>页面仔翻身把家当</p>
-<p>回到上面的问题来，为啥省钱</p>
-<p>细分的行业，更为专业的开发人员，不论是效率和质量都大大提高
-接口复用，一套接口可以响应式的返回给网页 app 小程序等不同平台
-后期拓展性提高，可维护性更强
-综合下来是更为省钱的</p>
-<h2 id="好不好"> 好不好</h2>
-<p>说点通俗的话，当前这么火热，除了跟风为了分离而分离的小公司，存在肯定是合理的</p>
-<p>来看一个场景，哪一种方式的体验更好不用多说了吧</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/215910-449972.gif" alt="#" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/212303-482210.gif" alt="#" loading="lazy"></p>
-<p>那么为啥不都使用分离呢？</p>
-<p>spa的框架有如下的缺点</p>
-<ul>
-<li>不利于seo</li>
-<li>首屏加载速度慢，白屏时间长</li>
-<li>数据传输的安全性</li>
-<li>...</li>
-</ul>
-<p>基于以上的问题，有些会采用骨架屏或者首页服务端渲染的方式也就是ssr，所以你看到的很多网页都是结合着开发的而不是单一的模式</p>
-<p>短时间内，不分离的模式肯定是不会消失的，jsp不用了 又有了 freemaker thymeleaf，node 的众多ssr方案，php还有这么多的页面模板</p>
-<p>所以努力学啊，学不动就只有回家喂猪了</p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/215910-449972.gif" type="image/gif"/>
-    </item>
-    <item>
       <title>SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
       <link>https://codenoob.top/code/loop.html</link>
       <guid isPermaLink="false">/code/loop.html</guid>
@@ -455,6 +455,61 @@
 <img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
+    </item>
+    <item>
+      <title>PHP还是世界上最好的语言吗</title>
+      <link>https://codenoob.top/code/php-history.html</link>
+      <guid isPermaLink="false">/code/php-history.html</guid>
+      <source url="https://codenoob.top/rss.xml">PHP还是世界上最好的语言吗</source>
+      <description>PHP还是世界上最好的语言吗</description>
+      <category>编程</category>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>感慨</p>
+<p>这两年越来越多唱衰php的，而且php的市场也越来越小</p>
+</div>
+<h2 id="梗"> 梗</h2>
+<p>php是世界是最好的语言吗？虽然说这是一个梗，但是事实上在web端曾经可以说的上是最好的语言，那么及时在现在，如果想快速搭建一个动态的网页项目，php也是快速落地的好方案，开发速度快，成熟的生态，大量的案例适合二开</p>
+<p>但是也仅仅是在web端</p>
+<h2 id="发展"> 发展</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225707-955722.png" alt="#" loading="lazy"></p>
+<p>PHP最初是以模板+脚本的形式进行设计，在Java还是使用 system.out.println进行拼接动态网页的时候，php可以直接在页面中编写动态脚本，那么在web发展火热的时候，php也跟着火热起来</p>
+<p>有个段子说，你看在一直打开网页搜索的程序员一定是PHP程序员，其实是有道理的</p>
+<p>PHP能快速发展的一部分原因就是提供了大量的预定义函数，使得新人能够快速上手，好用是一方面，但是确实难记，加上早期的定义不规范，参数和方法名都很混乱，那么使得即使你是一个老手，还得看手册</p>
+<h2 id="变化"> 变化</h2>
+<p>随着后来web的快速发展，慢慢出现了大型的网页应用，移动应用，前后端分离应用</p>
+<p>PHP因为自身特性的原因，性能饱受诟病，在这个过程中</p>
+<p>大型的公司可能有能力解决，比如Facebook的php虚拟机HHVM，但是没有这个实力的公司只能重构，加上Java的后期发展迅速，很多就转向了Java的怀抱</p>
+<h2 id="现代化"> 现代化</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225751-560178.png" alt="#" loading="lazy"></p>
+<p>后来PHP也出现了Laravel这样现代化的适合前后端分离的框架，还有swoole协程，加上php7性能上的提升，composer包的有效管理</p>
+<p>php是完全可以用来开发大型项目的，但是这个时候，大量的PHP开发人员已经流失了</p>
+<h2 id="处境"> 处境</h2>
+<p>那么在现在，仍然在使用PHP的，要吗就是已经有成熟的PHP开发体系的，有大量的遗留项目的大型公司，要吗就是追求速度的初创公司</p>
+<p>大型公司就不提了，被干了几年了大牛牢牢把控住</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225824-706429.png" alt="#" loading="lazy"></p>
+<p>那么在初创公司，其实PHP也是不顺利的，首先现在网页端的流量流失了</p>
+<p>很多公司要招会小程序，会跨平台的人，那么还得会php的能实际开发的人可以算的上是初级全栈了</p>
+<p>初创公司肯定是出不起这个价钱的，而且学php的新人越来越少了，这就行成了老手看不上，新手做不了的局面</p>
+<p>有钱一点目光远一点的初创公司会干脆就招个前端 招个Java后端把项目架构做的好一点，万一就是这个产品成功了还能使用长一点的时间</p>
+<p>剩下的一些初创公司就会选择转向云开发，反正业务也不多，数据量也不大，找个会node的前端就做了</p>
+<p>回到最初这个问题上来，现在还可不可以学习php，当然可以</p>
+<p>特别是要想回三四线城市工作的学历不好的同学，PHP在这些地方非常容易找到工作</p>
+<h2 id="学习的根本"> 学习的根本</h2>
+<p>但是我们剖析一下这个问题，提问可不可以学习php，完全是从就业这个方面来想得，但是认真想一下，学习php我们到底学习了什么东西</p>
+<p>算法和数据结构、面向对象，包括更多使用的Mysql、redis 、mongodb 、nginx，这些东西完完全全是通用的，那么使用php来操作和使用Java来操作无非是语言上的区别</p>
+<p>如果一个程序员一直在因为自己使用的语言会不会淘汰而忧虑，那么可以说你完全没有领悟到学习编程的精髓</p>
+<p>任何语言不过是需求最终落地的具体实现而已，当前场景最适合什么就上什么，我们最终要学会的只是解决问题的思路</p>
+<p>PHP曾经如此繁荣，肯定不会在短时间内就落寞的，很多初创公司使用php快速上线，来验证产品思路也是没毛病的</p>
+<p>php在国内的发展过程中，真的可以说是带活了中国的一大批草根站长走向致富，很多人编程水平并不是很好，但是因为有自己的思路也能实现获利</p>
+<p>反而是一些自认为学了很多新技术，很多新框架的人，每天加着班，却还在嘲笑使用旧技术的人， 才是真的井底之蛙，四川话来说：就是要不得完求了</p>
+<h2 id="道理归道理"> 道理归道理</h2>
+<p>但是对于初入门后端的同学来说，目前php可能不是你最好的入门语言，联合我上面的说法，就是php可以学，但是我不推荐将其作为后端的入门语言</p>
+<p>首先目前在国内前后端的分离趋势中使用php来作为纯后端的占比是非常低的，所以你必须要学一些其他的东西，对于你想深入后端这一领域不太友好</p>
+<p>其次PHP易上手，但是对于一个初学者来说很难体会到纯粹的从零到无这个过程，PHP发展最火热的那段时间，就是因为快速入门的初学者过多，导出代码水平的层次不齐，后期难以维护，这种弱类型的脚本语言对于新人的规范和理解并不是很好</p>
+<p>那么说到最后 我们这些小人物有什么资格去议论一个语言的兴衰呢？这些产物说到底还是资本角逐的结果，我们在这个过程中无非就是充当一个工具的角色</p>
+<p>学编程又何尝不是一个在学习做人的过程呢？</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225707-955722.png" type="image/png"/>
     </item>
     <item>
       <title>项目是怎么一步一步变复杂的</title>
@@ -517,61 +572,6 @@
 <p>我们决定自己开发一套 UI库，基于vuejs，我们阅读了elementui的源码，参考他们的设计，设计了一个 lybui为了提升我们在业界的影响力，我们将UI开源，并且使用vuepress写了一个详细的文档</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/181623-178597.png" type="image/png"/>
-    </item>
-    <item>
-      <title>PHP还是世界上最好的语言吗</title>
-      <link>https://codenoob.top/code/php-history.html</link>
-      <guid isPermaLink="false">/code/php-history.html</guid>
-      <source url="https://codenoob.top/rss.xml">PHP还是世界上最好的语言吗</source>
-      <description>PHP还是世界上最好的语言吗</description>
-      <category>编程</category>
-      <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>感慨</p>
-<p>这两年越来越多唱衰php的，而且php的市场也越来越小</p>
-</div>
-<h2 id="梗"> 梗</h2>
-<p>php是世界是最好的语言吗？虽然说这是一个梗，但是事实上在web端曾经可以说的上是最好的语言，那么及时在现在，如果想快速搭建一个动态的网页项目，php也是快速落地的好方案，开发速度快，成熟的生态，大量的案例适合二开</p>
-<p>但是也仅仅是在web端</p>
-<h2 id="发展"> 发展</h2>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225707-955722.png" alt="#" loading="lazy"></p>
-<p>PHP最初是以模板+脚本的形式进行设计，在Java还是使用 system.out.println进行拼接动态网页的时候，php可以直接在页面中编写动态脚本，那么在web发展火热的时候，php也跟着火热起来</p>
-<p>有个段子说，你看在一直打开网页搜索的程序员一定是PHP程序员，其实是有道理的</p>
-<p>PHP能快速发展的一部分原因就是提供了大量的预定义函数，使得新人能够快速上手，好用是一方面，但是确实难记，加上早期的定义不规范，参数和方法名都很混乱，那么使得即使你是一个老手，还得看手册</p>
-<h2 id="变化"> 变化</h2>
-<p>随着后来web的快速发展，慢慢出现了大型的网页应用，移动应用，前后端分离应用</p>
-<p>PHP因为自身特性的原因，性能饱受诟病，在这个过程中</p>
-<p>大型的公司可能有能力解决，比如Facebook的php虚拟机HHVM，但是没有这个实力的公司只能重构，加上Java的后期发展迅速，很多就转向了Java的怀抱</p>
-<h2 id="现代化"> 现代化</h2>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225751-560178.png" alt="#" loading="lazy"></p>
-<p>后来PHP也出现了Laravel这样现代化的适合前后端分离的框架，还有swoole协程，加上php7性能上的提升，composer包的有效管理</p>
-<p>php是完全可以用来开发大型项目的，但是这个时候，大量的PHP开发人员已经流失了</p>
-<h2 id="处境"> 处境</h2>
-<p>那么在现在，仍然在使用PHP的，要吗就是已经有成熟的PHP开发体系的，有大量的遗留项目的大型公司，要吗就是追求速度的初创公司</p>
-<p>大型公司就不提了，被干了几年了大牛牢牢把控住</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225824-706429.png" alt="#" loading="lazy"></p>
-<p>那么在初创公司，其实PHP也是不顺利的，首先现在网页端的流量流失了</p>
-<p>很多公司要招会小程序，会跨平台的人，那么还得会php的能实际开发的人可以算的上是初级全栈了</p>
-<p>初创公司肯定是出不起这个价钱的，而且学php的新人越来越少了，这就行成了老手看不上，新手做不了的局面</p>
-<p>有钱一点目光远一点的初创公司会干脆就招个前端 招个Java后端把项目架构做的好一点，万一就是这个产品成功了还能使用长一点的时间</p>
-<p>剩下的一些初创公司就会选择转向云开发，反正业务也不多，数据量也不大，找个会node的前端就做了</p>
-<p>回到最初这个问题上来，现在还可不可以学习php，当然可以</p>
-<p>特别是要想回三四线城市工作的学历不好的同学，PHP在这些地方非常容易找到工作</p>
-<h2 id="学习的根本"> 学习的根本</h2>
-<p>但是我们剖析一下这个问题，提问可不可以学习php，完全是从就业这个方面来想得，但是认真想一下，学习php我们到底学习了什么东西</p>
-<p>算法和数据结构、面向对象，包括更多使用的Mysql、redis 、mongodb 、nginx，这些东西完完全全是通用的，那么使用php来操作和使用Java来操作无非是语言上的区别</p>
-<p>如果一个程序员一直在因为自己使用的语言会不会淘汰而忧虑，那么可以说你完全没有领悟到学习编程的精髓</p>
-<p>任何语言不过是需求最终落地的具体实现而已，当前场景最适合什么就上什么，我们最终要学会的只是解决问题的思路</p>
-<p>PHP曾经如此繁荣，肯定不会在短时间内就落寞的，很多初创公司使用php快速上线，来验证产品思路也是没毛病的</p>
-<p>php在国内的发展过程中，真的可以说是带活了中国的一大批草根站长走向致富，很多人编程水平并不是很好，但是因为有自己的思路也能实现获利</p>
-<p>反而是一些自认为学了很多新技术，很多新框架的人，每天加着班，却还在嘲笑使用旧技术的人， 才是真的井底之蛙，四川话来说：就是要不得完求了</p>
-<h2 id="道理归道理"> 道理归道理</h2>
-<p>但是对于初入门后端的同学来说，目前php可能不是你最好的入门语言，联合我上面的说法，就是php可以学，但是我不推荐将其作为后端的入门语言</p>
-<p>首先目前在国内前后端的分离趋势中使用php来作为纯后端的占比是非常低的，所以你必须要学一些其他的东西，对于你想深入后端这一领域不太友好</p>
-<p>其次PHP易上手，但是对于一个初学者来说很难体会到纯粹的从零到无这个过程，PHP发展最火热的那段时间，就是因为快速入门的初学者过多，导出代码水平的层次不齐，后期难以维护，这种弱类型的脚本语言对于新人的规范和理解并不是很好</p>
-<p>那么说到最后 我们这些小人物有什么资格去议论一个语言的兴衰呢？这些产物说到底还是资本角逐的结果，我们在这个过程中无非就是充当一个工具的角色</p>
-<p>学编程又何尝不是一个在学习做人的过程呢？</p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225707-955722.png" type="image/png"/>
     </item>
     <item>
       <title>命名和循环</title>
@@ -4080,6 +4080,72 @@ iw wlp2s0 <span>link</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>在 Cloudflare 部署 FODI 后端</title>
+      <link>https://codenoob.top/document/fodi-cloudflare.html</link>
+      <guid isPermaLink="false">/document/fodi-cloudflare.html</guid>
+      <source url="https://codenoob.top/rss.xml">在 Cloudflare 部署 FODI 后端</source>
+      <description>在 Cloudflare 部署 FODI 后端</description>
+      <category>文档</category>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>之前写过一个基于<code>腾讯云 SCF</code> 的 OneDrive 列表程序 <a href="/document/fodi.html">FODI</a>，现在腾讯云要收费了，每月至少 8 毛钱，虽然不多，但既然 Cloudflare 仍是免费的，不如移植一下，反正只是改改入口。</p>
+<div><p>突然白屏</p>
+<p><code>refresh_token</code>有效期 3 个月，如突然无法打开，请 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">重设后端代码</a>。<s>计划使用 Github Action 自动更新，还没开始写，请耐心等待。</s> 现已支持自动续期，请展开下方迟到的自动续期查看（如果是初次部署，请阅读完其它部分再看）。
+迟到的自动续期</p>
+</div>
+<details><summary>迟到的自动续期</summary>
+<p>之前，<code>FODI</code> 每过 3 个月要重设后端代码，原因是 <code>Cloudflare Worker</code> 是 <code>Serverless</code> 环境，不支持持久化存储。刚编写 <code>FODI</code> 时，<code>Cloudflare KV</code> 还处于收费状态，如果使用第三方免费存储则担心可用性和延迟问题。</p>
+<p>考虑过使用 <code>CI</code> 定时更新环境变量但一直没有动工，想着整体重构后一并添加。但现在重构意愿不强了，<code>Cloudflare KV</code> 免费服务也已推出一段时间，于是添加几句代码，让它支持 <code>Token 自动续期</code>。</p>
+<h2 id="重设后端代码"> 重设后端代码</h2>
+<p>首先，打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">部署助手</a>，按照页面上方步骤重设 <code>Worker</code> 代码。</p>
+<h2 id="创建-kv-命名空间"> 创建 KV 命名空间</h2>
+<p>保存好代码后，切换到顶部菜单栏的 KV 标签。在 命名空间名称 下方的输入框中输入 FODI_CACHE，随后点击右边蓝色的 <code>添加</code> 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a64a4c6e8fa445dd91353d75ddd3dc04.png" alt="a64a4c6e8fa445dd91353d75ddd3dc04.png" loading="lazy"></p>
+<h2 id="添加-kv-命名空间"> 添加 KV 命名空间</h2>
+<p>在 Worker 中绑定 KV
+转到 FODI Worker 脚本的 <code>设置</code> 页面，点击页面中部 <code>KV 命名空间绑定</code> 项目右侧的 添加绑定 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/bef907bec3404f89875ee85aa657a563.png" alt="添加命名空间绑定" loading="lazy"></p>
+<p>在 <code>变量名称</code> 下方的输入框键入 <code>FODI_CACHE</code>，<code>KV 命名空间</code> 下拉框也选择 <code>FODI_CACHE</code>，最后点击 <code>保存</code>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ece08d93814a415f8436b6596e35810c.png" alt="设定变量名称" loading="lazy"></p>
+<h2 id="添加续期计划任务"> 添加续期计划任务</h2>
+<p>转到设置左边的 <code>触发器</code> 面板，点击页面右边蓝色的 <code>添加 Cron</code> 触发器 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/d39848e511a743368ae9fb188cf216e5.png" alt="添加触发器" loading="lazy"></p>
+<p>切换到 <code>添加 Cron 触发器</code> 项目的 <code>Cron</code> 标签，在 <strong>Cron</strong> 下方输入框键入 <code>0 0 1 * *</code>，最后点击右下方蓝色的 <code>Add Trigger</code> 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/91466f9f4d2a45e9a1452d67397839bd.png" alt="保存触发器" loading="lazy"></p>
+<h2 id="验证-token-是否保存"> 验证 Token 是否保存</h2>
+<p>现在打开你的 FODI 前端等待网页列出文件后，再次进入 <code>KV</code> 面板，点击页面中部 <code>FODI_CACHE</code> 右侧的 查看。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/00deeb5a8d0c4911ba64213850669df3.png" alt="查看 KV" loading="lazy"></p>
+<p>当看到 <code>token_data</code> 时，表明代码工作正常，不出意外，以后都不再需要手动续期。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a928638713ce497d9c55c85102a3dc24.png" alt="token_data" loading="lazy"></p>
+</details>
+<h2 id="演示地址"> 演示地址</h2>
+<ul>
+<li><a href="https://logi.im/fodi.html" target="_blank" rel="noopener noreferrer">主页</a></li>
+<li><a href="https://logi.im/fodi.html?path=/Media/Music/Jay%20Chou/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86" target="_blank" rel="noopener noreferrer">图片/音频/视频</a></li>
+</ul>
+<h2 id="注册-cloudflare-并创建-workers"> 注册 Cloudflare 并创建 Workers</h2>
+<p>打开 <a href="https://dash.cloudflare.com/sign-up" target="_blank" rel="noopener noreferrer">Cloudflare 注册页面</a>，输入 <code>邮箱</code> 和 <code>密码</code> 后点击 <code>Create Account</code>，进入下个页面后直接点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，不要进行其他操作。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/feea00008a220626610f" alt="#" loading="lazy"></p>
+<p>进入主页后，点击靠近右下角的 <code>Workers</code>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb20001f67505de8458" alt="#" loading="lazy"></p>
+<p>此时系统会建议你修改子域名，直接点击 Set up，随后点击弹出对话框中的 Confirm。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ff89000099fb8b529539" alt="#" loading="lazy"></p>
+<p>之后会进入套餐选择页面，页面往下拉，找到 Continue with free，点击它。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb100005abae0d840ab" alt="#" loading="lazy"></p>
+<p>完成上述步骤后，系统会发送确认邮件到你的注册邮箱，请自行登录邮箱，找到相关邮件，点击其中的确认链接，完成确认。</p>
+<h2 id="上传-fodi-后端"> 上传 FODI 后端</h2>
+<p>完成邮箱验证后，再次点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，点击右下角的 <code>Workers</code>。</p>
+<p>现在点击页面中间你刚刚创建的函数，进入代码编辑界面，随后打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">FODI Deployment Helper</a>，按照指引生成并复制代码，粘贴到下图的代码编辑器中。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/febe0000b03f9a04a181" alt="#" loading="lazy"></p>
+<p>填写完毕后，点击页面中下部的 <code>Save and Deploy</code>。</p>
+<h2 id="部署-fodi-前端"> 部署 FODI 前端</h2>
+<p>前端部署方法和老文章相同，见 通过 <a href="/document/fodi.html">Github Pages 部署前端</a> 章节。</p>
+<p>唯一不同的是 <code>SCF 网关地址</code> 要换成 <code>Cloudflare</code> 的，右击下图箭头，选择 复制链接地址 即可获得。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/fe95000135f4d98e2270" alt="#" loading="lazy"></p>
+<p>最后如果这个项目帮到了你，不妨到 <a href="https://github.com/vcheckzen/FODI" target="_blank" rel="noopener noreferrer">Github</a> 为我点颗星。</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a64a4c6e8fa445dd91353d75ddd3dc04.png" type="image/png"/>
+    </item>
+    <item>
       <title>FODI，一款 OneDrive 秒级列表程序</title>
       <link>https://codenoob.top/document/fodi.html</link>
       <guid isPermaLink="false">/document/fodi.html</guid>
@@ -4186,72 +4252,6 @@ iw wlp2s0 <span>link</span>
 </blockquote>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/affd65fa8e220bf2.png" type="image/png"/>
-    </item>
-    <item>
-      <title>在 Cloudflare 部署 FODI 后端</title>
-      <link>https://codenoob.top/document/fodi-cloudflare.html</link>
-      <guid isPermaLink="false">/document/fodi-cloudflare.html</guid>
-      <source url="https://codenoob.top/rss.xml">在 Cloudflare 部署 FODI 后端</source>
-      <description>在 Cloudflare 部署 FODI 后端</description>
-      <category>文档</category>
-      <pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>之前写过一个基于<code>腾讯云 SCF</code> 的 OneDrive 列表程序 <a href="/document/fodi.html">FODI</a>，现在腾讯云要收费了，每月至少 8 毛钱，虽然不多，但既然 Cloudflare 仍是免费的，不如移植一下，反正只是改改入口。</p>
-<div><p>突然白屏</p>
-<p><code>refresh_token</code>有效期 3 个月，如突然无法打开，请 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">重设后端代码</a>。<s>计划使用 Github Action 自动更新，还没开始写，请耐心等待。</s> 现已支持自动续期，请展开下方迟到的自动续期查看（如果是初次部署，请阅读完其它部分再看）。
-迟到的自动续期</p>
-</div>
-<details><summary>迟到的自动续期</summary>
-<p>之前，<code>FODI</code> 每过 3 个月要重设后端代码，原因是 <code>Cloudflare Worker</code> 是 <code>Serverless</code> 环境，不支持持久化存储。刚编写 <code>FODI</code> 时，<code>Cloudflare KV</code> 还处于收费状态，如果使用第三方免费存储则担心可用性和延迟问题。</p>
-<p>考虑过使用 <code>CI</code> 定时更新环境变量但一直没有动工，想着整体重构后一并添加。但现在重构意愿不强了，<code>Cloudflare KV</code> 免费服务也已推出一段时间，于是添加几句代码，让它支持 <code>Token 自动续期</code>。</p>
-<h2 id="重设后端代码"> 重设后端代码</h2>
-<p>首先，打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">部署助手</a>，按照页面上方步骤重设 <code>Worker</code> 代码。</p>
-<h2 id="创建-kv-命名空间"> 创建 KV 命名空间</h2>
-<p>保存好代码后，切换到顶部菜单栏的 KV 标签。在 命名空间名称 下方的输入框中输入 FODI_CACHE，随后点击右边蓝色的 <code>添加</code> 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a64a4c6e8fa445dd91353d75ddd3dc04.png" alt="a64a4c6e8fa445dd91353d75ddd3dc04.png" loading="lazy"></p>
-<h2 id="添加-kv-命名空间"> 添加 KV 命名空间</h2>
-<p>在 Worker 中绑定 KV
-转到 FODI Worker 脚本的 <code>设置</code> 页面，点击页面中部 <code>KV 命名空间绑定</code> 项目右侧的 添加绑定 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/bef907bec3404f89875ee85aa657a563.png" alt="添加命名空间绑定" loading="lazy"></p>
-<p>在 <code>变量名称</code> 下方的输入框键入 <code>FODI_CACHE</code>，<code>KV 命名空间</code> 下拉框也选择 <code>FODI_CACHE</code>，最后点击 <code>保存</code>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ece08d93814a415f8436b6596e35810c.png" alt="设定变量名称" loading="lazy"></p>
-<h2 id="添加续期计划任务"> 添加续期计划任务</h2>
-<p>转到设置左边的 <code>触发器</code> 面板，点击页面右边蓝色的 <code>添加 Cron</code> 触发器 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/d39848e511a743368ae9fb188cf216e5.png" alt="添加触发器" loading="lazy"></p>
-<p>切换到 <code>添加 Cron 触发器</code> 项目的 <code>Cron</code> 标签，在 <strong>Cron</strong> 下方输入框键入 <code>0 0 1 * *</code>，最后点击右下方蓝色的 <code>Add Trigger</code> 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/91466f9f4d2a45e9a1452d67397839bd.png" alt="保存触发器" loading="lazy"></p>
-<h2 id="验证-token-是否保存"> 验证 Token 是否保存</h2>
-<p>现在打开你的 FODI 前端等待网页列出文件后，再次进入 <code>KV</code> 面板，点击页面中部 <code>FODI_CACHE</code> 右侧的 查看。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/00deeb5a8d0c4911ba64213850669df3.png" alt="查看 KV" loading="lazy"></p>
-<p>当看到 <code>token_data</code> 时，表明代码工作正常，不出意外，以后都不再需要手动续期。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a928638713ce497d9c55c85102a3dc24.png" alt="token_data" loading="lazy"></p>
-</details>
-<h2 id="演示地址"> 演示地址</h2>
-<ul>
-<li><a href="https://logi.im/fodi.html" target="_blank" rel="noopener noreferrer">主页</a></li>
-<li><a href="https://logi.im/fodi.html?path=/Media/Music/Jay%20Chou/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86" target="_blank" rel="noopener noreferrer">图片/音频/视频</a></li>
-</ul>
-<h2 id="注册-cloudflare-并创建-workers"> 注册 Cloudflare 并创建 Workers</h2>
-<p>打开 <a href="https://dash.cloudflare.com/sign-up" target="_blank" rel="noopener noreferrer">Cloudflare 注册页面</a>，输入 <code>邮箱</code> 和 <code>密码</code> 后点击 <code>Create Account</code>，进入下个页面后直接点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，不要进行其他操作。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/feea00008a220626610f" alt="#" loading="lazy"></p>
-<p>进入主页后，点击靠近右下角的 <code>Workers</code>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb20001f67505de8458" alt="#" loading="lazy"></p>
-<p>此时系统会建议你修改子域名，直接点击 Set up，随后点击弹出对话框中的 Confirm。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ff89000099fb8b529539" alt="#" loading="lazy"></p>
-<p>之后会进入套餐选择页面，页面往下拉，找到 Continue with free，点击它。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb100005abae0d840ab" alt="#" loading="lazy"></p>
-<p>完成上述步骤后，系统会发送确认邮件到你的注册邮箱，请自行登录邮箱，找到相关邮件，点击其中的确认链接，完成确认。</p>
-<h2 id="上传-fodi-后端"> 上传 FODI 后端</h2>
-<p>完成邮箱验证后，再次点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，点击右下角的 <code>Workers</code>。</p>
-<p>现在点击页面中间你刚刚创建的函数，进入代码编辑界面，随后打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">FODI Deployment Helper</a>，按照指引生成并复制代码，粘贴到下图的代码编辑器中。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/febe0000b03f9a04a181" alt="#" loading="lazy"></p>
-<p>填写完毕后，点击页面中下部的 <code>Save and Deploy</code>。</p>
-<h2 id="部署-fodi-前端"> 部署 FODI 前端</h2>
-<p>前端部署方法和老文章相同，见 通过 <a href="/document/fodi.html">Github Pages 部署前端</a> 章节。</p>
-<p>唯一不同的是 <code>SCF 网关地址</code> 要换成 <code>Cloudflare</code> 的，右击下图箭头，选择 复制链接地址 即可获得。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/fe95000135f4d98e2270" alt="#" loading="lazy"></p>
-<p>最后如果这个项目帮到了你，不妨到 <a href="https://github.com/vcheckzen/FODI" target="_blank" rel="noopener noreferrer">Github</a> 为我点颗星。</p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a64a4c6e8fa445dd91353d75ddd3dc04.png" type="image/png"/>
     </item>
     <item>
       <title>h5ai服务器目录搭建详细教程以及各种坑的解说</title>
@@ -4975,6 +4975,25 @@ DB_DATABASE=faka
 </ul>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/openwrite.png" type="image/png"/>
+    </item>
+    <item>
+      <title>文档</title>
+      <link>https://codenoob.top/document/</link>
+      <guid isPermaLink="false">/document/</guid>
+      <source url="https://codenoob.top/rss.xml">文档</source>
+      <pubDate>Sat, 22 Jan 2022 15:54:17 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>介绍</p>
+<p>以后文档收集都放这里了！</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>在这个分类里面我主要分享一些我的日常记录</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
+<div>
+<p><img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
+</div>
+]]></content:encoded>
+      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
       <title>Road To Coding</title>
@@ -6583,25 +6602,6 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 <h2 id="持续更新中···"> 持续更新中···</h2>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/img/r2coding_logo_index.15y992dieibg.png" type="image/png"/>
-    </item>
-    <item>
-      <title>文档</title>
-      <link>https://codenoob.top/document/</link>
-      <guid isPermaLink="false">/document/</guid>
-      <source url="https://codenoob.top/rss.xml">文档</source>
-      <pubDate>Sat, 22 Jan 2022 15:54:17 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>介绍</p>
-<p>以后文档收集都放这里了！</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>在这个分类里面我主要分享一些我的日常记录</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
-<div>
-<p><img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
-</div>
-]]></content:encoded>
-      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
       <title>用TiddlyWiki作为个人知识管理系统</title>
@@ -8682,6 +8682,22 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/图片1.png" type="image/png"/>
     </item>
     <item>
+      <title>个人项目列表</title>
+      <link>https://codenoob.top/projects/</link>
+      <guid isPermaLink="false">/projects/</guid>
+      <source url="https://codenoob.top/rss.xml">个人项目列表</source>
+      <description>欢饮来交流啊</description>
+      <pubDate>Sun, 21 Nov 2021 15:21:44 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="个人项目-欢迎交流"> 个人项目，欢迎交流</h2>
+<p>网站头像请保证在外部可以直接打开的，为保证友链质量，申请的友链都将经过筛选，原则上已添加友链不会轻易删除，如遇死链、盗版、破解、网页植入挖矿脚本、极低质量内容、我站都将单方面移除贵站链接，恕不另行通知。
+<br/>
+<br/>
+<br/>
+<projects /></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>通用(不是docker)</title>
       <link>https://codenoob.top/projects/vaultwarden/Backup/General.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Backup/General.html</guid>
@@ -8732,22 +8748,6 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 </table>
 <h3 id="mariadb-mysql"> MariaDB / MySQL</h3>
 <p>见例如<a href="https://mariadb.com/kb/en/backup-and-restore-overview/" target="_blank" rel="noopener noreferrer">MariaDB - 备份和恢复概述</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>个人项目列表</title>
-      <link>https://codenoob.top/projects/</link>
-      <guid isPermaLink="false">/projects/</guid>
-      <source url="https://codenoob.top/rss.xml">个人项目列表</source>
-      <description>欢饮来交流啊</description>
-      <pubDate>Sun, 21 Nov 2021 15:21:44 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="个人项目-欢迎交流"> 个人项目，欢迎交流</h2>
-<p>网站头像请保证在外部可以直接打开的，为保证友链质量，申请的友链都将经过筛选，原则上已添加友链不会轻易删除，如遇死链、盗版、破解、网页植入挖矿脚本、极低质量内容、我站都将单方面移除贵站链接，恕不另行通知。
-<br/>
-<br/>
-<br/>
-<projects /></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -8940,25 +8940,6 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 ]]></content:encoded>
     </item>
     <item>
-      <title>开启U2F认证</title>
-      <link>https://codenoob.top/projects/vaultwarden/Configuration/Enabling-U2F-authentication.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Enabling-U2F-authentication.html</guid>
-      <source url="https://codenoob.top/rss.xml">开启U2F认证</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>要启用 U2F 身份验证，您必须从具有有效证书的 HTTPS 域(使用包含的HTTPS 选项或使用反向代理)。我们建议使用 Let's Encrypt 的免费证书。</p>
-<p>之后，您需要将 <code>DOMAIN</code> 环境变量设置为提供 Vaultwarden 的相同地址：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
-  -e <span>DOMAIN</span><span>=</span>https://vw.domain.tld <span>\</span>
-  -v /vw-data/:/data/ <span>\</span>
-  -p <span>80</span>:80 <span>\</span>
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，该值必须包含 <code>https://</code>，并且在不使用 <code>443</code> 时，它可能会在末尾包含一个端口(格式为 <code>https://vw.domain.tld:port</code>)。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>禁用或覆盖Vault接口托管</title>
       <link>https://codenoob.top/projects/vaultwarden/Configuration/Disabling-or-overriding-the-Vault-interface-hosting.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Configuration/Disabling-or-overriding-the-Vault-interface-hosting.html</guid>
@@ -8981,6 +8962,25 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
   vaultwarden/server:latest
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，您还可以通过提供带有路径的<code>WEB_VAULT_FOLDER</code>环境变量来更改 vaultwarden 查找静态文件的路径。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>开启U2F认证</title>
+      <link>https://codenoob.top/projects/vaultwarden/Configuration/Enabling-U2F-authentication.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Enabling-U2F-authentication.html</guid>
+      <source url="https://codenoob.top/rss.xml">开启U2F认证</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>要启用 U2F 身份验证，您必须从具有有效证书的 HTTPS 域(使用包含的HTTPS 选项或使用反向代理)。我们建议使用 Let's Encrypt 的免费证书。</p>
+<p>之后，您需要将 <code>DOMAIN</code> 环境变量设置为提供 Vaultwarden 的相同地址：</p>
+<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+  -e <span>DOMAIN</span><span>=</span>https://vw.domain.tld <span>\</span>
+  -v /vw-data/:/data/ <span>\</span>
+  -p <span>80</span>:80 <span>\</span>
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，该值必须包含 <code>https://</code>，并且在不使用 <code>443</code> 时，它可能会在末尾包含一个端口(格式为 <code>https://vw.domain.tld:port</code>)。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -9060,71 +9060,6 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 <p>您第一次在管理页面中保存设置时，将在您的<code>DATA_FOLDER</code>中生成<code>config.json</code>。此文件中的值将优先于相应的环境变量。</p>
 <p>请注意，在单击<code>保存</code>按钮之前，管理页面中的配置更改不会生效。例如，如果您正在测试 SMTP 设置，并且您更改了<code>SMTP 身份验证机制</code>设置，然后单击<code>发送测试电子邮件</code>来测试更改，这将不会按预期工作——因为您没有单击<code>保存</code> <code>，</code>SMTP Auth 机制` 更改不会生效。</p>
 <p><strong>注意：</strong> 更改 <code>ADMIN_TOKEN</code> 后，当前登录的管理员仍然可以使用他们的旧登录令牌 <a href="https://github.com/dani-garcia/vaultwarden/blob/master/src/api/admin.rs#L87" target="_blank" rel="noopener noreferrer">最多 20 分钟</a>。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>强化指南</title>
-      <link>https://codenoob.top/projects/vaultwarden/Configuration/Hardening-Guide.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Hardening-Guide.html</guid>
-      <source url="https://codenoob.top/rss.xml">强化指南</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>下面的小节涵盖了与 Vaultwarden 本身相关的强化。</p>
-<h2 id="禁用注册和-可选-邀请"> 禁用注册和(可选)邀请</h2>
-<p>默认情况下，Vaultwarden 允许任何匿名用户在未经邀请的情况下在服务器上注册新帐户。</p>
-<p>如果您有权访问管理页面，这不是必需的，但这对您在服务器上的第一个用户很有用，建议您在管理面板中禁用它(如果启用了管理面板)或 <a href="./Disable-registration-of-new-users.html">禁止新用户注册</a> 以防止攻击者在您的 vaultwarden 服务器上创建帐户。</p>
-<p>Vaultwarden 还允许注册用户邀请其他新用户在服务器上创建帐户并加入他们的组织。这不会造成直接风险(只要您信任您的用户)，但可以在管理面板或 <a href="./Disable-invitations.html">禁用邀请</a> 中禁用它。</p>
-<h2 id="禁用密码提示显示"> 禁用密码提示显示</h2>
-<p>vaultwarden 在登录页面上显示密码提示，以适应未配置 SMTP 的小型/本地部署，攻击者可能会滥用这些信息来促进对服务器上用户的密码猜测攻击。这可以通过取消选中<code>显示密码提示</code>选项或 <a href="./Disable-registration-of-new-users.html">禁止新用户注册</a> 在管理面板中禁用。</p>
-<h2 id="https-tls-配置"> HTTPS/TLS 配置</h2>
-<p>以下小节介绍了与 HTTPS / TLS 相关的强化。</p>
-<h3 id="严格的-sni"> 严格的 SNI</h3>
-<p><a href="https://en.wikipedia.org/wiki/Server_Name_Indication" target="_blank" rel="noopener noreferrer">SNI</a> 是 Web 浏览器请求 HTTPS 服务器为特定站点(例如，<code>bitwarden.example.com</code>)提供 SSL/TLS 证书的方式。假设<code>bitwarden.example.com</code> 的IP 地址为<code>1.2.3.4</code>。理想情况下，您希望您的实例只能通过 <a href="https://bitwarden.example.com" target="_blank" rel="noopener noreferrer">https://bitwarden.example.com</a> 而不是 <a href="https://1.2.3.4" target="_blank" rel="noopener noreferrer">https://1.2.3.4</a> 访问。这是因为出于各种原因不断扫描 IP 地址，如果可以通过这种方式检测到您的 Vaultwarden 实例，它就会成为更明显的目标。例如，一个简单的 <a href="https://www.shodan.io/search?query=bitwarden" target="_blank" rel="noopener noreferrer">Shodan 搜索</a> 会显示一些可通过 IP 地址访问的 Bitwarden 实例。</p>
-<h3 id="反向代理"> 反向代理</h3>
-<p>通常，您应该避免通过 vaultwarden 的内置 <a href="./../Deployment/Enabling-HTTPS.html">开启HTTPS</a> 启用 HTTPS，尤其是在您的实例可公开访问的情况下。 Rocket本身列出了以下<a href="https://rocket.rs/v0.4/guide/configuration/#configuring-tls" target="_blank" rel="noopener noreferrer">警告</a>：</p>
-<blockquote>
-<p>Rocket 的内置 TLS 尚未准备好用于生产。它仅供开发使用。</p>
-</blockquote>
-<p>例如，Rocket TLS 不支持  或 ECC 证书(仅 RSA)。</p>
-<p>有关一些示例反向代理配置，请参阅 <a href="./../Deployment/Proxy-examples.html">代理示例</a>。</p>
-<h2 id="docker-配置"> Docker 配置</h2>
-<p>下面的小节涵盖了与 Docker 相关的强化。</p>
-<h3 id="以非root用户身份运行"> 以非root用户身份运行</h3>
-<p>默认情况下，Vaultwarden Docker 映像配置为以<code>root</code>用户身份运行容器进程。这允许 vaultwarden 读取/写入任何数据 <a href="https://docs.docker.com/storage/bind-mounts/" target="_blank" rel="noopener noreferrer">bind-mounted</a> 到容器中而没有权限问题，即使该数据由另一个用户拥有(例如，您在 Docker 主机上的用户帐户)。</p>
-<p>默认配置提供了安全性和可用性的良好平衡——在无特权的 Docker 容器中以 root 身份运行本身提供了合理的隔离级别，同时也使那些不一定精通如何管理的用户更容易设置Linux 上的所有权/权限。但是，作为一般策略，以所需的最低权限运行进程在安全方面会更好；对于用像 Rust 这样的内存安全语言编写的程序来说，这不是什么问题，但请注意，Vaultwarden 确实也使用了一些用 C 编写的库代码(SQLite、OpenSSL、MySQL、PostgreSQL 等)。</p>
-<p>在 Docker 中以非 root 用户 (uid/gid 1000) 运行容器进程 (vaultwarden)：</p>
-<div><pre><code>    docker run -u 1000:1000 -e ROCKET_PORT=8080 -p &lt;host-port&gt;:8080 \
-           [...other args...] \
-           vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>许多 Linux 发行版中的默认用户具有 uid/gid 1000(运行 <code>id</code> 命令来验证)，因此如果您希望能够轻松访问您的 Vaultwarden 数据而无需更改为其他用户，那么这是一个很好的使用价值，但是您可以根据需要调整 uid/gid。请注意，您很可能需要指定一个数字 uid/gid，因为 vaultwarden 容器不共享用户/组名称到 uid/gid 的相同映射(例如，比较 <code>/etc/passwd</code> 和 <code>/将容器中的 etc/group</code> 文件复制到 Docker 主机上的文件)。</p>
-<p><code>ROCKET_PORT</code>默认为80，这是一个<a href="https://www.w3.org/Daemon/User/Installation/PrivilegedPorts.html" target="_blank" rel="noopener noreferrer">特权端口</a>；当以非 root 用户身份运行时，它需要为 1024 或更高，否则当 vaultwarden 尝试绑定和侦听该端口上的连接时，您将收到权限被拒绝错误。</p>
-<p>在<code>docker-compose</code>中做同样的事情：</p>
-<div><pre><code>    services:
-      vaultwarden:
-        image: vaultwarden/server:latest
-        container_name: bitwarden
-        user: 1000:1000
-        environment:
-          - ROCKET_PORT=8080
-
-        ... 其他配置 ...
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>由于此处更改了<code>ROCKET_PORT</code>，请确保同时更新您的反向代理配置，以将 Vaultwarden 流量代理到端口 8080(或您选择的任何更高端口)而不是 80。</p>
-<h3 id="将数据挂载到容器中"> 将数据挂载到容器中</h3>
-<p>通常，只有 vaultwarden 需要正常运行的数据才应该挂载到 vaultwarden 容器中(通常，这只是您的数据目录，也可能是一个包含 SSL/TLS 证书和私钥的目录)。例如，不要挂载你的整个主目录，<code>/var/run/docker.sock</code> 等，除非你有特定的原因并且知道你在做什么。</p>
-<p>此外，如果您不希望 Vaultwarden 修改您正在安装的数据(例如，证书)，那么 <a href="https://docs.docker.com/storage/bind-mounts/#use-a-read-only-bind-mount" target="_blank" rel="noopener noreferrer">以只读方式安装</a> 通过将 <code>:ro</code> 添加到卷规范(例如，<code>docker run -v /home/username/bitwarden-ssl:/ssl:ro</code>)。</p>
-<h2 id="各种各样的"> 各种各样的</h2>
-<h3 id="暴力缓解"> 暴力缓解</h3>
-<p>当不使用双因素身份验证时，(理论上)可以暴力破解用户密码，从而获得对他们帐户的访问权限。缓解这种情况的一种相对简单的方法是设置 fail2ban，它会在登录尝试失败太多次后阻止 ipadresses。但是：在多个反向代理(例如 cloudflare)后面使用它时应该小心。
-参见：<a href="./Fail2Ban-Setup.html">Fail2Ban设置</a></p>
-<h3 id="隐藏在子目录下"> 隐藏在子目录下</h3>
-<p>传统上，Bitwarden 实例驻留在子域的根目录(即<code>bitwarden.example.com</code>，而不是<code>bitwarden.example.com/some/path</code>)。</p>
-<p>上游 Bitwarden 服务器目前仅支持子域根，而 vaultwarden 增加了对 <a href="./Using-an-alternate-base-dir.html">使用备用基本目录(子目录)</a> 的支持。</p>
-<p>对于某些用户来说，这很有用，因为他们只能访问一个子域并希望在不同目录下运行多个服务。在这种情况下，他们通常会选择一些明显的东西，比如<code>mysubdomain.example.com/bitwarden</code>。</p>
-<p>但是，您也可以使用它来提供额外的保护层，方法是将 vaultwarden 放在类似 <code>mysubdomain.example.com/bitwarden/&lt;mysecretstring&gt;</code> 的地方，其中 <code>&lt;mysecretstring&gt;</code> 有效地充当密码。</p>
-<p>有些人可能会争辩说，这是 <a href="https://en.wikipedia.org/wiki/Security_through_obscurity" target="_blank" rel="noopener noreferrer">通过默默无闻实现安全</a>，但实际上是<a href="https://en.wikipedia.org/wiki/Defense_in_depth_(computing)" target="_blank" rel="noopener noreferrer">深度防御</a> -- 子目录的保密性只是一个额外的安全层，并不打算成为安全的主要手段(这仍然是用户主密码的强度)。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -9337,6 +9272,71 @@ docker-compose up -d
 ]]></content:encoded>
     </item>
     <item>
+      <title>强化指南</title>
+      <link>https://codenoob.top/projects/vaultwarden/Configuration/Hardening-Guide.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Hardening-Guide.html</guid>
+      <source url="https://codenoob.top/rss.xml">强化指南</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>下面的小节涵盖了与 Vaultwarden 本身相关的强化。</p>
+<h2 id="禁用注册和-可选-邀请"> 禁用注册和(可选)邀请</h2>
+<p>默认情况下，Vaultwarden 允许任何匿名用户在未经邀请的情况下在服务器上注册新帐户。</p>
+<p>如果您有权访问管理页面，这不是必需的，但这对您在服务器上的第一个用户很有用，建议您在管理面板中禁用它(如果启用了管理面板)或 <a href="./Disable-registration-of-new-users.html">禁止新用户注册</a> 以防止攻击者在您的 vaultwarden 服务器上创建帐户。</p>
+<p>Vaultwarden 还允许注册用户邀请其他新用户在服务器上创建帐户并加入他们的组织。这不会造成直接风险(只要您信任您的用户)，但可以在管理面板或 <a href="./Disable-invitations.html">禁用邀请</a> 中禁用它。</p>
+<h2 id="禁用密码提示显示"> 禁用密码提示显示</h2>
+<p>vaultwarden 在登录页面上显示密码提示，以适应未配置 SMTP 的小型/本地部署，攻击者可能会滥用这些信息来促进对服务器上用户的密码猜测攻击。这可以通过取消选中<code>显示密码提示</code>选项或 <a href="./Disable-registration-of-new-users.html">禁止新用户注册</a> 在管理面板中禁用。</p>
+<h2 id="https-tls-配置"> HTTPS/TLS 配置</h2>
+<p>以下小节介绍了与 HTTPS / TLS 相关的强化。</p>
+<h3 id="严格的-sni"> 严格的 SNI</h3>
+<p><a href="https://en.wikipedia.org/wiki/Server_Name_Indication" target="_blank" rel="noopener noreferrer">SNI</a> 是 Web 浏览器请求 HTTPS 服务器为特定站点(例如，<code>bitwarden.example.com</code>)提供 SSL/TLS 证书的方式。假设<code>bitwarden.example.com</code> 的IP 地址为<code>1.2.3.4</code>。理想情况下，您希望您的实例只能通过 <a href="https://bitwarden.example.com" target="_blank" rel="noopener noreferrer">https://bitwarden.example.com</a> 而不是 <a href="https://1.2.3.4" target="_blank" rel="noopener noreferrer">https://1.2.3.4</a> 访问。这是因为出于各种原因不断扫描 IP 地址，如果可以通过这种方式检测到您的 Vaultwarden 实例，它就会成为更明显的目标。例如，一个简单的 <a href="https://www.shodan.io/search?query=bitwarden" target="_blank" rel="noopener noreferrer">Shodan 搜索</a> 会显示一些可通过 IP 地址访问的 Bitwarden 实例。</p>
+<h3 id="反向代理"> 反向代理</h3>
+<p>通常，您应该避免通过 vaultwarden 的内置 <a href="./../Deployment/Enabling-HTTPS.html">开启HTTPS</a> 启用 HTTPS，尤其是在您的实例可公开访问的情况下。 Rocket本身列出了以下<a href="https://rocket.rs/v0.4/guide/configuration/#configuring-tls" target="_blank" rel="noopener noreferrer">警告</a>：</p>
+<blockquote>
+<p>Rocket 的内置 TLS 尚未准备好用于生产。它仅供开发使用。</p>
+</blockquote>
+<p>例如，Rocket TLS 不支持  或 ECC 证书(仅 RSA)。</p>
+<p>有关一些示例反向代理配置，请参阅 <a href="./../Deployment/Proxy-examples.html">代理示例</a>。</p>
+<h2 id="docker-配置"> Docker 配置</h2>
+<p>下面的小节涵盖了与 Docker 相关的强化。</p>
+<h3 id="以非root用户身份运行"> 以非root用户身份运行</h3>
+<p>默认情况下，Vaultwarden Docker 映像配置为以<code>root</code>用户身份运行容器进程。这允许 vaultwarden 读取/写入任何数据 <a href="https://docs.docker.com/storage/bind-mounts/" target="_blank" rel="noopener noreferrer">bind-mounted</a> 到容器中而没有权限问题，即使该数据由另一个用户拥有(例如，您在 Docker 主机上的用户帐户)。</p>
+<p>默认配置提供了安全性和可用性的良好平衡——在无特权的 Docker 容器中以 root 身份运行本身提供了合理的隔离级别，同时也使那些不一定精通如何管理的用户更容易设置Linux 上的所有权/权限。但是，作为一般策略，以所需的最低权限运行进程在安全方面会更好；对于用像 Rust 这样的内存安全语言编写的程序来说，这不是什么问题，但请注意，Vaultwarden 确实也使用了一些用 C 编写的库代码(SQLite、OpenSSL、MySQL、PostgreSQL 等)。</p>
+<p>在 Docker 中以非 root 用户 (uid/gid 1000) 运行容器进程 (vaultwarden)：</p>
+<div><pre><code>    docker run -u 1000:1000 -e ROCKET_PORT=8080 -p &lt;host-port&gt;:8080 \
+           [...other args...] \
+           vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>许多 Linux 发行版中的默认用户具有 uid/gid 1000(运行 <code>id</code> 命令来验证)，因此如果您希望能够轻松访问您的 Vaultwarden 数据而无需更改为其他用户，那么这是一个很好的使用价值，但是您可以根据需要调整 uid/gid。请注意，您很可能需要指定一个数字 uid/gid，因为 vaultwarden 容器不共享用户/组名称到 uid/gid 的相同映射(例如，比较 <code>/etc/passwd</code> 和 <code>/将容器中的 etc/group</code> 文件复制到 Docker 主机上的文件)。</p>
+<p><code>ROCKET_PORT</code>默认为80，这是一个<a href="https://www.w3.org/Daemon/User/Installation/PrivilegedPorts.html" target="_blank" rel="noopener noreferrer">特权端口</a>；当以非 root 用户身份运行时，它需要为 1024 或更高，否则当 vaultwarden 尝试绑定和侦听该端口上的连接时，您将收到权限被拒绝错误。</p>
+<p>在<code>docker-compose</code>中做同样的事情：</p>
+<div><pre><code>    services:
+      vaultwarden:
+        image: vaultwarden/server:latest
+        container_name: bitwarden
+        user: 1000:1000
+        environment:
+          - ROCKET_PORT=8080
+
+        ... 其他配置 ...
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>由于此处更改了<code>ROCKET_PORT</code>，请确保同时更新您的反向代理配置，以将 Vaultwarden 流量代理到端口 8080(或您选择的任何更高端口)而不是 80。</p>
+<h3 id="将数据挂载到容器中"> 将数据挂载到容器中</h3>
+<p>通常，只有 vaultwarden 需要正常运行的数据才应该挂载到 vaultwarden 容器中(通常，这只是您的数据目录，也可能是一个包含 SSL/TLS 证书和私钥的目录)。例如，不要挂载你的整个主目录，<code>/var/run/docker.sock</code> 等，除非你有特定的原因并且知道你在做什么。</p>
+<p>此外，如果您不希望 Vaultwarden 修改您正在安装的数据(例如，证书)，那么 <a href="https://docs.docker.com/storage/bind-mounts/#use-a-read-only-bind-mount" target="_blank" rel="noopener noreferrer">以只读方式安装</a> 通过将 <code>:ro</code> 添加到卷规范(例如，<code>docker run -v /home/username/bitwarden-ssl:/ssl:ro</code>)。</p>
+<h2 id="各种各样的"> 各种各样的</h2>
+<h3 id="暴力缓解"> 暴力缓解</h3>
+<p>当不使用双因素身份验证时，(理论上)可以暴力破解用户密码，从而获得对他们帐户的访问权限。缓解这种情况的一种相对简单的方法是设置 fail2ban，它会在登录尝试失败太多次后阻止 ipadresses。但是：在多个反向代理(例如 cloudflare)后面使用它时应该小心。
+参见：<a href="./Fail2Ban-Setup.html">Fail2Ban设置</a></p>
+<h3 id="隐藏在子目录下"> 隐藏在子目录下</h3>
+<p>传统上，Bitwarden 实例驻留在子域的根目录(即<code>bitwarden.example.com</code>，而不是<code>bitwarden.example.com/some/path</code>)。</p>
+<p>上游 Bitwarden 服务器目前仅支持子域根，而 vaultwarden 增加了对 <a href="./Using-an-alternate-base-dir.html">使用备用基本目录(子目录)</a> 的支持。</p>
+<p>对于某些用户来说，这很有用，因为他们只能访问一个子域并希望在不同目录下运行多个服务。在这种情况下，他们通常会选择一些明显的东西，比如<code>mysubdomain.example.com/bitwarden</code>。</p>
+<p>但是，您也可以使用它来提供额外的保护层，方法是将 vaultwarden 放在类似 <code>mysubdomain.example.com/bitwarden/&lt;mysecretstring&gt;</code> 的地方，其中 <code>&lt;mysecretstring&gt;</code> 有效地充当密码。</p>
+<p>有些人可能会争辩说，这是 <a href="https://en.wikipedia.org/wiki/Security_through_obscurity" target="_blank" rel="noopener noreferrer">通过默默无闻实现安全</a>，但实际上是<a href="https://en.wikipedia.org/wiki/Defense_in_depth_(computing)" target="_blank" rel="noopener noreferrer">深度防御</a> -- 子目录的保密性只是一个额外的安全层，并不打算成为安全的主要手段(这仍然是用户主密码的强度)。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>登录</title>
       <link>https://codenoob.top/projects/vaultwarden/Configuration/Logging.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Configuration/Logging.html</guid>
@@ -9432,6 +9432,23 @@ docker-compose up -d
 ]]></content:encoded>
     </item>
     <item>
+      <title>密码提示显示</title>
+      <link>https://codenoob.top/projects/vaultwarden/Configuration/Password-hint-display.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Password-hint-display.html</guid>
+      <source url="https://codenoob.top/rss.xml">密码提示显示</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>通常，密码提示通过电子邮件发送。但由于 Vaultwarden 是针对小型或个人部署而设计的，因此密码提示页面也提供了提示，因此您无需配置电子邮件服务。如果要禁用此功能，可以使用 <code>SHOW_PASSWORD_HINT</code> 变量：</p>
+<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+  -e <span>SHOW_PASSWORD_HINT</span><span>=</span>false <span>\</span>
+  -v /vw-data/:/data/ <span>\</span>
+  -p <span>80</span>:80 <span>\</span>
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>非 root 用户身份运行容器</title>
       <link>https://codenoob.top/projects/vaultwarden/Configuration/Running-docker-container-with-non-root-user.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Configuration/Running-docker-container-with-non-root-user.html</guid>
@@ -9469,23 +9486,6 @@ docker-compose up -d
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>请注意，端口映射(<code>-p 80:1024</code>)反映了 <code>ROCKET_PORT</code> 设置。</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>密码提示显示</title>
-      <link>https://codenoob.top/projects/vaultwarden/Configuration/Password-hint-display.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Password-hint-display.html</guid>
-      <source url="https://codenoob.top/rss.xml">密码提示显示</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>通常，密码提示通过电子邮件发送。但由于 Vaultwarden 是针对小型或个人部署而设计的，因此密码提示页面也提供了提示，因此您无需配置电子邮件服务。如果要禁用此功能，可以使用 <code>SHOW_PASSWORD_HINT</code> 变量：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
-  -e <span>SHOW_PASSWORD_HINT</span><span>=</span>false <span>\</span>
-  -v /vw-data/:/data/ <span>\</span>
-  -p <span>80</span>:80 <span>\</span>
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>使用 systemd docker 运行</title>
@@ -10167,55 +10167,6 @@ use vaultwarden
 ]]></content:encoded>
     </item>
     <item>
-      <title>启动一个容器</title>
-      <link>https://codenoob.top/projects/vaultwarden/Container/Starting-a-Container.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Container/Starting-a-Container.html</guid>
-      <source url="https://codenoob.top/rss.xml">启动一个容器</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>请注意，<code>docker run</code> 命令的名称有点误导，因为它会创建一个容器，而不是仅仅启动它，这会导致在停止容器而不删除容器后使用 <code>docker run</code> 时发生冲突。有关简单的开始，请参见下文。</p>
-<h2 id="创建容器"> 创建容器</h2>
-<p>持久化数据存储在容器内部的/data下，因此使用Docker进行持久化部署的唯一要求是在路径上挂载持久化卷：</p>
-<div><pre><code><span># 使用 Docker：</span>
-docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>80</span>:80 vaultwarden/server:latest
-<span># 使用 Podman 作为非 root：</span>
-podman run -d --name vaultwarden -v /vw-data/:/data/:Z -e <span>ROCKET_PORT</span><span>=</span><span>8080</span> -p <span>8080</span>:8080 vaultwarden/server:latest
-<span># 使用 Podman 作为 root：</span>
-<span>sudo</span> podman run -d --name vaultwarden -v vw-data:/data/:Z -p <span>80</span>:80 vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>这将保留 <code>/vw-data/</code> 下的任何持久数据，您可以将路径调整为适合您的任何内容。</p>
-<p>该服务将在主机端口 80 或 8080 上公开。</p>
-<p>对于非 x86 硬件或运行特定版本，您可以<a href="./Which-container-image-to-use.html">使用哪个容器镜像</a>。</p>
-<p>如果您的 docker/vaultwarden 在具有固定 IP 的设备上运行，您可以将主机端口绑定到该特定 IP，从而防止将主机端口暴露给整个世界或网络。在host-port和container-port前面添加IP地址(例如192.168.0.2)如下：</p>
-<div><pre><code><span># 使用 Docker:</span>
-docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>192.168</span>.0.2:80:80 vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><h2 id="启动容器"> 启动容器</h2>
-<p>如果容器已被<code>docker stop vaultwarden</code>、重启或任何其他原因停止，您可以使用以下命令重新启动它。</p>
-<div><pre><code>docker start vaultwarden
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="自定义容器启动"> 自定义容器启动</h2>
-<p>如果您想在容器启动时运行自定义启动脚本，您可以将单个脚本作为 <code>/etc/vaultwarden.sh</code> 和/或脚本目录安装到容器中作为 <code>/etc/vaultwardend</code>。在后一种情况下，只运行带有<code>.sh</code>扩展名的文件，因此带有其他扩展名的文件(例如，数据/配置文件)可以驻留在同一个目录中。 (请参阅 <a href="https://github.com/dani-garcia/vaultwarden/blob/master/docker/start.sh" target="_blank" rel="noopener noreferrer">start.sh</a>了解其工作原理的详细信息。)</p>
-<p>自定义启动脚本可用于修补 Web Vault 文件或安装附加包、CA 证书等，而无需构建和维护您自己的 Docker 映像。</p>
-<h3 id="例子"> 例子</h3>
-<p>假设您的脚本名为 <code>init.sh</code> 并包含以下内容：</p>
-<div><pre><code><span>echo</span> <span>"starting up"</span>
-</code></pre>
-<div><span>1</span><br></div></div><p>您可以像这样在启动时运行脚本：</p>
-<div><pre><code>docker run -d --name vaultwarden -v <span><span>$(</span><span>pwd</span><span>)</span></span>/init.sh:/etc/vaultwarden.sh <span>&lt;</span>other docker args<span>..</span>.<span>></span> vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br></div></div><p>如果你运行 <code>docker logs vaultwarden</code>，你现在应该看到 <code>starting up</code> 作为输出的第一行。</p>
-<p>请注意，每次容器启动时都会运行 init 脚本(不仅仅是第一次)，因此这些脚本通常应该是幂等的(即，您可以多次运行脚本而不会出现不良/错误行为)。如果您的脚本自然没有此属性，您可以执行以下操作：</p>
-<div><pre><code><span>if</span> <span>[</span> <span>!</span> -e /.init <span>]</span><span>;</span> <span>then</span>
-  <span>touch</span> /.init
-
-  <span># run your init steps...</span>
-<span>fi</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>使用PostgreSQL后端</title>
       <link>https://codenoob.top/projects/vaultwarden/Configuration/Using-the-PostgreSQL-Backend.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Configuration/Using-the-PostgreSQL-Backend.html</guid>
@@ -10315,6 +10266,55 @@ docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>192.168</span>.0.2
 <div><span>1</span><br></div></div><p>你可能会看到一些警告，但迁移应该成功完成
 9. 再次启动 Vaultwarden。</p>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>启动一个容器</title>
+      <link>https://codenoob.top/projects/vaultwarden/Container/Starting-a-Container.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Container/Starting-a-Container.html</guid>
+      <source url="https://codenoob.top/rss.xml">启动一个容器</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>请注意，<code>docker run</code> 命令的名称有点误导，因为它会创建一个容器，而不是仅仅启动它，这会导致在停止容器而不删除容器后使用 <code>docker run</code> 时发生冲突。有关简单的开始，请参见下文。</p>
+<h2 id="创建容器"> 创建容器</h2>
+<p>持久化数据存储在容器内部的/data下，因此使用Docker进行持久化部署的唯一要求是在路径上挂载持久化卷：</p>
+<div><pre><code><span># 使用 Docker：</span>
+docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>80</span>:80 vaultwarden/server:latest
+<span># 使用 Podman 作为非 root：</span>
+podman run -d --name vaultwarden -v /vw-data/:/data/:Z -e <span>ROCKET_PORT</span><span>=</span><span>8080</span> -p <span>8080</span>:8080 vaultwarden/server:latest
+<span># 使用 Podman 作为 root：</span>
+<span>sudo</span> podman run -d --name vaultwarden -v vw-data:/data/:Z -p <span>80</span>:80 vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>这将保留 <code>/vw-data/</code> 下的任何持久数据，您可以将路径调整为适合您的任何内容。</p>
+<p>该服务将在主机端口 80 或 8080 上公开。</p>
+<p>对于非 x86 硬件或运行特定版本，您可以<a href="./Which-container-image-to-use.html">使用哪个容器镜像</a>。</p>
+<p>如果您的 docker/vaultwarden 在具有固定 IP 的设备上运行，您可以将主机端口绑定到该特定 IP，从而防止将主机端口暴露给整个世界或网络。在host-port和container-port前面添加IP地址(例如192.168.0.2)如下：</p>
+<div><pre><code><span># 使用 Docker:</span>
+docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>192.168</span>.0.2:80:80 vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><h2 id="启动容器"> 启动容器</h2>
+<p>如果容器已被<code>docker stop vaultwarden</code>、重启或任何其他原因停止，您可以使用以下命令重新启动它。</p>
+<div><pre><code>docker start vaultwarden
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="自定义容器启动"> 自定义容器启动</h2>
+<p>如果您想在容器启动时运行自定义启动脚本，您可以将单个脚本作为 <code>/etc/vaultwarden.sh</code> 和/或脚本目录安装到容器中作为 <code>/etc/vaultwardend</code>。在后一种情况下，只运行带有<code>.sh</code>扩展名的文件，因此带有其他扩展名的文件(例如，数据/配置文件)可以驻留在同一个目录中。 (请参阅 <a href="https://github.com/dani-garcia/vaultwarden/blob/master/docker/start.sh" target="_blank" rel="noopener noreferrer">start.sh</a>了解其工作原理的详细信息。)</p>
+<p>自定义启动脚本可用于修补 Web Vault 文件或安装附加包、CA 证书等，而无需构建和维护您自己的 Docker 映像。</p>
+<h3 id="例子"> 例子</h3>
+<p>假设您的脚本名为 <code>init.sh</code> 并包含以下内容：</p>
+<div><pre><code><span>echo</span> <span>"starting up"</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>您可以像这样在启动时运行脚本：</p>
+<div><pre><code>docker run -d --name vaultwarden -v <span><span>$(</span><span>pwd</span><span>)</span></span>/init.sh:/etc/vaultwarden.sh <span>&lt;</span>other docker args<span>..</span>.<span>></span> vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br></div></div><p>如果你运行 <code>docker logs vaultwarden</code>，你现在应该看到 <code>starting up</code> 作为输出的第一行。</p>
+<p>请注意，每次容器启动时都会运行 init 脚本(不仅仅是第一次)，因此这些脚本通常应该是幂等的(即，您可以多次运行脚本而不会出现不良/错误行为)。如果您的脚本自然没有此属性，您可以执行以下操作：</p>
+<div><pre><code><span>if</span> <span>[</span> <span>!</span> -e /.init <span>]</span><span>;</span> <span>then</span>
+  <span>touch</span> /.init
+
+  <span># run your init steps...</span>
+<span>fi</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>更新密码管理的管理员图片</title>
@@ -12118,6 +12118,76 @@ export WEBSOCKET_ENABLED=true
 ]]></content:encoded>
     </item>
     <item>
+      <title>Vaultwarden</title>
+      <link>https://codenoob.top/projects/vaultwarden/Home/</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Home/</guid>
+      <source url="https://codenoob.top/rss.xml">Vaultwarden</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Vaultwarden 是一个用 Rust 编写的非官方 Bitwarden 服务器实现。它与<a href="https://bitwarden.com/download/" target="_blank" rel="noopener noreferrer">官方Bitwarden客户端</a>兼容，非常适合不需要运行官方资源密集型服务的自托管部署。</p>
+<p>Vaultwarden 面向个人、家庭和小型组织。开发主要对大型组织有用的功能(例如，单点登录、目录同步等)不是优先事项，但欢迎实现此类功能的高质量 PR。</p>
+<h2 id="支持的功能"> 支持的功能</h2>
+<p>Vaultwarden 实现了大多数功能所需的 Bitwarden API，包括：</p>
+<ul>
+<li>网页界面(相当于 <a href="https://vault.bitwarden.com/" target="_blank" rel="noopener noreferrer">https://vault.bitwarden.com/</a> )</li>
+<li>个人金库支持</li>
+<li><a href="https://bitwarden.com/help/article/getting-started-organizations/" target="_blank" rel="noopener noreferrer">组织</a> 密码库支持</li>
+<li><a href="https://bitwarden.com/help/article/share-to-a-collection/" target="_blank" rel="noopener noreferrer">密码分享</a>和<a href="https://bitwarden.com/help/article/user-types-access-control/" target="_blank" rel="noopener noreferrer">访问控制</a></li>
+<li><a href="https://bitwarden.com/help/article/about-collections/" target="_blank" rel="noopener noreferrer">收藏</a></li>
+<li><a href="https://bitwarden.com/help/article/attachments/" target="_blank" rel="noopener noreferrer">文件附件</a></li>
+<li><a href="https://bitwarden.com/help/article/folders/" target="_blank" rel="noopener noreferrer">文件夹</a></li>
+<li><a href="https://bitwarden.com/help/article/favorites/" target="_blank" rel="noopener noreferrer">收藏夹</a></li>
+<li><a href="https://bitwarden.com/help/article/website-icons/" target="_blank" rel="noopener noreferrer">网站图标</a></li>
+<li><a href="https://bitwarden.com/help/article/authenticator-keys/" target="_blank" rel="noopener noreferrer">Bitwarden Authenticator (TOTP)</a></li>
+<li><a href="https://bitwarden.com/help/article/about-send/" target="_blank" rel="noopener noreferrer">Bitwarden 发送</a></li>
+<li><a href="https://bitwarden.com/help/article/emergency-access/" target="_blank" rel="noopener noreferrer">紧急访问</a></li>
+<li><a href="https://bitwarden.com/blog/post/live-sync/" target="_blank" rel="noopener noreferrer">实时同步</a>(仅限 WebSocket)用于桌面/浏览器客户端/扩展</li>
+<li><a href="https://bitwarden.com/help/article/managing-items/#items-in-the-trash" target="_blank" rel="noopener noreferrer">垃圾箱</a>(软删除)</li>
+<li><a href="https://bitwarden.com/help/article/managing-items/#protect-individual-items" target="_blank" rel="noopener noreferrer">主密码重新提示</a></li>
+<li>通过<a href="https://bitwarden.com/help/article/setup-two-step-login-email/" target="_blank" rel="noopener noreferrer">email</a>、<a href="https://help.bitwarden.in/two-step-login/two-step-login-via-duo" target="_blank" rel="noopener noreferrer">Duo</a>、<a href="https://bitwarden.com/help/article/setup-two-step-login-yubikey/" target="_blank" rel="noopener noreferrer">YubiKey</a> 和 <a href="https://bitwarden.com/help/article/setup-two-step-login-fido/" target="_blank" rel="noopener noreferrer">FIDO2 WebAuthn</a>两步登录</li>
+<li><a href="https://bitwarden.com/help/article/directory-sync/" target="_blank" rel="noopener noreferrer">目录连接器</a>
+支持(基本实现，无组支持)<br/>仅支持 <a href="https://github.com/bitwarden/directory-connector/releases/tag/v2.9.2" target="_blank" rel="noopener noreferrer">v2.9.2</a> 及更低版本，v2.9.3 及更高版本不支持使用不同的登录方式然而。</li>
+<li>某些企业政策：
+<ul>
+<li><a href="https://bitwarden.com/help/article/policies/#two-step-login" target="_blank" rel="noopener noreferrer">两步登录</a></li>
+<li><a href="https://bitwarden.com/help/article/policies/#master-password" target="_blank" rel="noopener noreferrer">主密码</a></li>
+<li><a href="https://bitwarden.com/help/article/policies/#password-generator" target="_blank" rel="noopener noreferrer">密码生成器</a></li>
+<li><a href="https://bitwarden.com/help/article/policies/#personal-ownership" target="_blank" rel="noopener noreferrer">个人所有权</a></li>
+<li><a href="https://bitwarden.com/help/article/policies/#disable-send" target="_blank" rel="noopener noreferrer">禁用发送</a></li>
+<li><a href="https://bitwarden.com/help/article/policies/#send-options" target="_blank" rel="noopener noreferrer">发送选项</a></li>
+<li><a href="https://bitwarden.com/help/article/policies/#single-organization" target="_blank" rel="noopener noreferrer">单一组织</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="缺少功能"> 缺少功能</h2>
+<p>问题 <a href="https://github.com/dani-garcia/vaultwarden/issues/246" target="_blank" rel="noopener noreferrer">#246</a> 包含功能请求的完整列表，包括 Vaultwarden 中缺少的官方服务器的功能，以及特定于密码管理管理员。</p>
+<p>为了简化与官方服务器的比较，本节总结了官方服务器中实现的功能，这些功能目前在Vaultwarden中不可用。</p>
+<p>可以在时间允许的情况下添加的功能(始终欢迎贡献)：</p>
+<ul>
+<li><a href="https://bitwarden.com/help/article/public-api/" target="_blank" rel="noopener noreferrer">Bitwarden公共API</a></li>
+<li><a href="https://bitwarden.com/help/article/event-logs/" target="_blank" rel="noopener noreferrer">事件日志</a></li>
+<li><a href="https://bitwarden.com/blog/post/live-sync/" target="_blank" rel="noopener noreferrer">实时同步</a>(推送通知)适用于移动客户端(Android/iOS)</li>
+<li><a href="https://bitwarden.com/help/article/admin-reset/" target="_blank" rel="noopener noreferrer">管理员密码重置</a></li>
+<li>某些企业政策：
+<ul>
+<li><a href="https://bitwarden.com/help/article/policies/#master-password-reset" target="_blank" rel="noopener noreferrer">主密码重置</a></li>
+</ul>
+</li>
+</ul>
+<p>除非做出贡献，否则可能不会添加的功能：</p>
+<ul>
+<li><a href="https://bitwarden.com/help/article/about-sso/" target="_blank" rel="noopener noreferrer">单点登录 (SSO)</a></li>
+<li><a href="https://bitwarden.com/help/article/about-groups/" target="_blank" rel="noopener noreferrer">群组</a></li>
+<li><a href="https://bitwarden.com/help/article/user-types-access-control/#custom-role" target="_blank" rel="noopener noreferrer">自定义角色</a></li>
+</ul>
+<h2 id="保持联系"> 保持联系</h2>
+<p>要提出问题、提供建议、请求新功能或获得配置或安装软件的帮助，请<a href="https://vaultwarden.discourse.group/" target="_blank" rel="noopener noreferrer">使用论坛</a>。</p>
+<p>如果您发现 Vaultwarden 本身存在任何错误或崩溃，请<a href="https://github.com/dani-garcia/vaultwarden/issues/" target="_blank" rel="noopener noreferrer">创建问题</a>。但是，请确保没有任何类似的问题！</p>
+<p>如果您喜欢聊天，我们通常会在 Matrix 的 <a href="https://matrix.to/#/#vaultwarden:matrix.org" target="_blank" rel="noopener noreferrer">#vaultwarden:matrix.org</a> 房间闲逛。欢迎加入我们！</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>备份你的密码库</title>
       <link>https://codenoob.top/projects/vaultwarden/Other/Backing-up-your-vault.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Other/Backing-up-your-vault.html</guid>
@@ -12203,76 +12273,6 @@ export WEBSOCKET_ENABLED=true
 <li><a href="https://github.com/jjlin/vaultwarden-backup" target="_blank" rel="noopener noreferrer">https://github.com/jjlin/vaultwarden-backup</a></li>
 <li><a href="https://github.com/jmqm/vaultwarden_backup" target="_blank" rel="noopener noreferrer">https://github.com/jmqm/vaultwarden_backup</a></li>
 </ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Vaultwarden</title>
-      <link>https://codenoob.top/projects/vaultwarden/Home/</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Home/</guid>
-      <source url="https://codenoob.top/rss.xml">Vaultwarden</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Vaultwarden 是一个用 Rust 编写的非官方 Bitwarden 服务器实现。它与<a href="https://bitwarden.com/download/" target="_blank" rel="noopener noreferrer">官方Bitwarden客户端</a>兼容，非常适合不需要运行官方资源密集型服务的自托管部署。</p>
-<p>Vaultwarden 面向个人、家庭和小型组织。开发主要对大型组织有用的功能(例如，单点登录、目录同步等)不是优先事项，但欢迎实现此类功能的高质量 PR。</p>
-<h2 id="支持的功能"> 支持的功能</h2>
-<p>Vaultwarden 实现了大多数功能所需的 Bitwarden API，包括：</p>
-<ul>
-<li>网页界面(相当于 <a href="https://vault.bitwarden.com/" target="_blank" rel="noopener noreferrer">https://vault.bitwarden.com/</a> )</li>
-<li>个人金库支持</li>
-<li><a href="https://bitwarden.com/help/article/getting-started-organizations/" target="_blank" rel="noopener noreferrer">组织</a> 密码库支持</li>
-<li><a href="https://bitwarden.com/help/article/share-to-a-collection/" target="_blank" rel="noopener noreferrer">密码分享</a>和<a href="https://bitwarden.com/help/article/user-types-access-control/" target="_blank" rel="noopener noreferrer">访问控制</a></li>
-<li><a href="https://bitwarden.com/help/article/about-collections/" target="_blank" rel="noopener noreferrer">收藏</a></li>
-<li><a href="https://bitwarden.com/help/article/attachments/" target="_blank" rel="noopener noreferrer">文件附件</a></li>
-<li><a href="https://bitwarden.com/help/article/folders/" target="_blank" rel="noopener noreferrer">文件夹</a></li>
-<li><a href="https://bitwarden.com/help/article/favorites/" target="_blank" rel="noopener noreferrer">收藏夹</a></li>
-<li><a href="https://bitwarden.com/help/article/website-icons/" target="_blank" rel="noopener noreferrer">网站图标</a></li>
-<li><a href="https://bitwarden.com/help/article/authenticator-keys/" target="_blank" rel="noopener noreferrer">Bitwarden Authenticator (TOTP)</a></li>
-<li><a href="https://bitwarden.com/help/article/about-send/" target="_blank" rel="noopener noreferrer">Bitwarden 发送</a></li>
-<li><a href="https://bitwarden.com/help/article/emergency-access/" target="_blank" rel="noopener noreferrer">紧急访问</a></li>
-<li><a href="https://bitwarden.com/blog/post/live-sync/" target="_blank" rel="noopener noreferrer">实时同步</a>(仅限 WebSocket)用于桌面/浏览器客户端/扩展</li>
-<li><a href="https://bitwarden.com/help/article/managing-items/#items-in-the-trash" target="_blank" rel="noopener noreferrer">垃圾箱</a>(软删除)</li>
-<li><a href="https://bitwarden.com/help/article/managing-items/#protect-individual-items" target="_blank" rel="noopener noreferrer">主密码重新提示</a></li>
-<li>通过<a href="https://bitwarden.com/help/article/setup-two-step-login-email/" target="_blank" rel="noopener noreferrer">email</a>、<a href="https://help.bitwarden.in/two-step-login/two-step-login-via-duo" target="_blank" rel="noopener noreferrer">Duo</a>、<a href="https://bitwarden.com/help/article/setup-two-step-login-yubikey/" target="_blank" rel="noopener noreferrer">YubiKey</a> 和 <a href="https://bitwarden.com/help/article/setup-two-step-login-fido/" target="_blank" rel="noopener noreferrer">FIDO2 WebAuthn</a>两步登录</li>
-<li><a href="https://bitwarden.com/help/article/directory-sync/" target="_blank" rel="noopener noreferrer">目录连接器</a>
-支持(基本实现，无组支持)<br/>仅支持 <a href="https://github.com/bitwarden/directory-connector/releases/tag/v2.9.2" target="_blank" rel="noopener noreferrer">v2.9.2</a> 及更低版本，v2.9.3 及更高版本不支持使用不同的登录方式然而。</li>
-<li>某些企业政策：
-<ul>
-<li><a href="https://bitwarden.com/help/article/policies/#two-step-login" target="_blank" rel="noopener noreferrer">两步登录</a></li>
-<li><a href="https://bitwarden.com/help/article/policies/#master-password" target="_blank" rel="noopener noreferrer">主密码</a></li>
-<li><a href="https://bitwarden.com/help/article/policies/#password-generator" target="_blank" rel="noopener noreferrer">密码生成器</a></li>
-<li><a href="https://bitwarden.com/help/article/policies/#personal-ownership" target="_blank" rel="noopener noreferrer">个人所有权</a></li>
-<li><a href="https://bitwarden.com/help/article/policies/#disable-send" target="_blank" rel="noopener noreferrer">禁用发送</a></li>
-<li><a href="https://bitwarden.com/help/article/policies/#send-options" target="_blank" rel="noopener noreferrer">发送选项</a></li>
-<li><a href="https://bitwarden.com/help/article/policies/#single-organization" target="_blank" rel="noopener noreferrer">单一组织</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="缺少功能"> 缺少功能</h2>
-<p>问题 <a href="https://github.com/dani-garcia/vaultwarden/issues/246" target="_blank" rel="noopener noreferrer">#246</a> 包含功能请求的完整列表，包括 Vaultwarden 中缺少的官方服务器的功能，以及特定于密码管理管理员。</p>
-<p>为了简化与官方服务器的比较，本节总结了官方服务器中实现的功能，这些功能目前在Vaultwarden中不可用。</p>
-<p>可以在时间允许的情况下添加的功能(始终欢迎贡献)：</p>
-<ul>
-<li><a href="https://bitwarden.com/help/article/public-api/" target="_blank" rel="noopener noreferrer">Bitwarden公共API</a></li>
-<li><a href="https://bitwarden.com/help/article/event-logs/" target="_blank" rel="noopener noreferrer">事件日志</a></li>
-<li><a href="https://bitwarden.com/blog/post/live-sync/" target="_blank" rel="noopener noreferrer">实时同步</a>(推送通知)适用于移动客户端(Android/iOS)</li>
-<li><a href="https://bitwarden.com/help/article/admin-reset/" target="_blank" rel="noopener noreferrer">管理员密码重置</a></li>
-<li>某些企业政策：
-<ul>
-<li><a href="https://bitwarden.com/help/article/policies/#master-password-reset" target="_blank" rel="noopener noreferrer">主密码重置</a></li>
-</ul>
-</li>
-</ul>
-<p>除非做出贡献，否则可能不会添加的功能：</p>
-<ul>
-<li><a href="https://bitwarden.com/help/article/about-sso/" target="_blank" rel="noopener noreferrer">单点登录 (SSO)</a></li>
-<li><a href="https://bitwarden.com/help/article/about-groups/" target="_blank" rel="noopener noreferrer">群组</a></li>
-<li><a href="https://bitwarden.com/help/article/user-types-access-control/#custom-role" target="_blank" rel="noopener noreferrer">自定义角色</a></li>
-</ul>
-<h2 id="保持联系"> 保持联系</h2>
-<p>要提出问题、提供建议、请求新功能或获得配置或安装软件的帮助，请<a href="https://vaultwarden.discourse.group/" target="_blank" rel="noopener noreferrer">使用论坛</a>。</p>
-<p>如果您发现 Vaultwarden 本身存在任何错误或崩溃，请<a href="https://github.com/dani-garcia/vaultwarden/issues/" target="_blank" rel="noopener noreferrer">创建问题</a>。但是，请确保没有任何类似的问题！</p>
-<p>如果您喜欢聊天，我们通常会在 Matrix 的 <a href="https://matrix.to/#/#vaultwarden:matrix.org" target="_blank" rel="noopener noreferrer">#vaultwarden:matrix.org</a> 房间闲逛。欢迎加入我们！</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -12374,26 +12374,6 @@ volumes:
   caddy_log:
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>与上游API实现的区别</title>
-      <link>https://codenoob.top/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html</guid>
-      <source url="https://codenoob.top/rss.xml">与上游API实现的区别</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="邀请用户加入组织"> 邀请用户加入组织</h2>
-<h3 id="启用-smtp"> 启用 SMTP</h3>
-<p>受邀用户将收到一封电子邮件，其中包含一个有效期为 5 天的链接。点击链接后，用户可以选择创建帐户或登录。新​​用户需要创建一个新帐户；被邀请加入新组织的现有用户只需登录。在任一步骤之后，他们将在管理界面中显示为<code>已接受</code>，并在组织管理员确认后将添加到组织。</p>
-<h3 id="没有启用-smtp"> 没有启用 SMTP</h3>
-<p>受邀用户不会收到邀请邮件；相反，所有已注册的用户都将出现在界面中，就好像他们已经接受了邀请一样。组织管理员然后只需要确认他们是合适的组织成员并授予他们访问共享机密的权限。</p>
-<p>尚未注册的受邀用户将在组织管理界面中显示为<code>已邀请</code>。同时创建一个邀请记录，允许用户注册，即使<a href="./../Configuration/Disable-registration-of-new-users.html">禁止新用户注册</a>。 (除非您<a href="./../Configuration/Disable-invitations.html">禁用邀请</a>)他们将在注册后自动变为<code>已接受</code>。从那里组织管理员可以确认他们以授予他们对组织的访问权限。</p>
-<h2 id="在未加密的连接上运行"> 在未加密的连接上运行</h2>
-<p>强烈建议通过 HTTPS 运行 Vaultwarden 服务。然而服务器本身虽然 <a href="./../Deployment/Enabling-HTTPS.html">开启HTTPS</a> 并不严格要求这样的设置。这使得在您通常可以信任连接(内部和安全网络、通过 VPN 访问等)的情况下启动服务更容易一些，或者当您想将服务置于 HTTP 代理之后，这将进行加密在代理端。</p>
-<p>如果您使用非常强大的主密码，并且避免在容易受到 MITM 攻击的连接上使用 Web Vault，那么通过 HTTP 运行仍然相当安全，攻击者可以将 javascript 注入您的界面。但是，某些形式的 2FA 在此设置中可能不起作用，并且 <a href="https://github.com/bitwarden/web/issues/254" target="_blank" rel="noopener noreferrer">Vault 在 Chrome 中的此配置中不起作用</a>。</p>
-]]></content:encoded>
     </item>
     <item>
       <title>从Keepass或KeepassX导入数据</title>
@@ -12616,6 +12596,26 @@ DNS.2 = www.bitwarden.local
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/222016-297118.png" type="image/png"/>
     </item>
     <item>
+      <title>与上游API实现的区别</title>
+      <link>https://codenoob.top/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html</guid>
+      <source url="https://codenoob.top/rss.xml">与上游API实现的区别</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="邀请用户加入组织"> 邀请用户加入组织</h2>
+<h3 id="启用-smtp"> 启用 SMTP</h3>
+<p>受邀用户将收到一封电子邮件，其中包含一个有效期为 5 天的链接。点击链接后，用户可以选择创建帐户或登录。新​​用户需要创建一个新帐户；被邀请加入新组织的现有用户只需登录。在任一步骤之后，他们将在管理界面中显示为<code>已接受</code>，并在组织管理员确认后将添加到组织。</p>
+<h3 id="没有启用-smtp"> 没有启用 SMTP</h3>
+<p>受邀用户不会收到邀请邮件；相反，所有已注册的用户都将出现在界面中，就好像他们已经接受了邀请一样。组织管理员然后只需要确认他们是合适的组织成员并授予他们访问共享机密的权限。</p>
+<p>尚未注册的受邀用户将在组织管理界面中显示为<code>已邀请</code>。同时创建一个邀请记录，允许用户注册，即使<a href="./../Configuration/Disable-registration-of-new-users.html">禁止新用户注册</a>。 (除非您<a href="./../Configuration/Disable-invitations.html">禁用邀请</a>)他们将在注册后自动变为<code>已接受</code>。从那里组织管理员可以确认他们以授予他们对组织的访问权限。</p>
+<h2 id="在未加密的连接上运行"> 在未加密的连接上运行</h2>
+<p>强烈建议通过 HTTPS 运行 Vaultwarden 服务。然而服务器本身虽然 <a href="./../Deployment/Enabling-HTTPS.html">开启HTTPS</a> 并不严格要求这样的设置。这使得在您通常可以信任连接(内部和安全网络、通过 VPN 访问等)的情况下启动服务更容易一些，或者当您想将服务置于 HTTP 代理之后，这将进行加密在代理端。</p>
+<p>如果您使用非常强大的主密码，并且避免在容易受到 MITM 攻击的连接上使用 Web Vault，那么通过 HTTP 运行仍然相当安全，攻击者可以将 javascript 注入您的界面。但是，某些形式的 2FA 在此设置中可能不起作用，并且 <a href="https://github.com/bitwarden/web/issues/254" target="_blank" rel="noopener noreferrer">Vault 在 Chrome 中的此配置中不起作用</a>。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>MobaXterm</title>
       <link>https://codenoob.top/tools/creat/mobaxterm.html</link>
       <guid isPermaLink="false">/tools/creat/mobaxterm.html</guid>
@@ -12684,53 +12684,6 @@ DNS.2 = www.bitwarden.local
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/112543-581710.png" type="image/png"/>
     </item>
     <item>
-      <title>PHP实现随机图片展示</title>
-      <link>https://codenoob.top/tools/php-random-picture.html</link>
-      <guid isPermaLink="false">/tools/php-random-picture.html</guid>
-      <source url="https://codenoob.top/rss.xml">PHP实现随机图片展示</source>
-      <description>PHP实现随机图片展示</description>
-      <category>工具</category>
-      <pubDate>Mon, 28 Sep 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="主要代码如下"> 主要代码如下</h2>
-<div><pre><code><span><span>&lt;?php</span>
-<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>
-<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>
-<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>
-<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>
-<span>?></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>工具推荐</title>
-      <link>https://codenoob.top/tools/</link>
-      <guid isPermaLink="false">/tools/</guid>
-      <source url="https://codenoob.top/rss.xml">工具推荐</source>
-      <category>工具</category>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="主要如下"> 主要如下</h2>
-<ul>
-<li>
-<p><a href="./creat/">创作工具</a></p>
-</li>
-<li>
-<p><a href="./Tampermonkey-refreshes-lesson.html">油猴脚本自动刷课</a></p>
-</li>
-<li>
-<p><a href="./TyporaImg-Tool.html">Typora直传图片文件方案</a></p>
-</li>
-<li>
-<p><a href="./Theia.html">Eclipse Theia初体验</a></p>
-</li>
-<li>
-<p><a href="./vuedev-tool.html">Vue Devtools的安装</a></p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>screentogif</title>
       <link>https://codenoob.top/tools/creat/screentogif.html</link>
       <guid isPermaLink="false">/tools/creat/screentogif.html</guid>
@@ -12772,6 +12725,34 @@ DNS.2 = www.bitwarden.local
 </table>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/222246-166481.png" type="image/png"/>
+    </item>
+    <item>
+      <title>工具推荐</title>
+      <link>https://codenoob.top/tools/</link>
+      <guid isPermaLink="false">/tools/</guid>
+      <source url="https://codenoob.top/rss.xml">工具推荐</source>
+      <category>工具</category>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="主要如下"> 主要如下</h2>
+<ul>
+<li>
+<p><a href="./creat/">创作工具</a></p>
+</li>
+<li>
+<p><a href="./Tampermonkey-refreshes-lesson.html">油猴脚本自动刷课</a></p>
+</li>
+<li>
+<p><a href="./TyporaImg-Tool.html">Typora直传图片文件方案</a></p>
+</li>
+<li>
+<p><a href="./Theia.html">Eclipse Theia初体验</a></p>
+</li>
+<li>
+<p><a href="./vuedev-tool.html">Vue Devtools的安装</a></p>
+</li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>油猴脚本自动刷课</title>
@@ -13024,6 +13005,45 @@ echo $str . "\n";
 <img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
+    </item>
+    <item>
+      <title>GitHub下载慢的问题</title>
+      <link>https://codenoob.top/tutorials/githubdown.html</link>
+      <guid isPermaLink="false">/tutorials/githubdown.html</guid>
+      <source url="https://codenoob.top/rss.xml">GitHub下载慢的问题</source>
+      <description>GitHub下载慢的问题</description>
+      <category>教程</category>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="github下载慢的问题"> GitHub下载慢的问题</h2>
+<p>很多小伙伴说啊这个GitHub的下载速度很慢，那么本期视屏我给大家准备了几个可以提升速度的方法非常的简单</p>
+<p>本次视屏由大家的三连支持播出</p>
+<h2 id="码云"> 码云</h2>
+<p>码云作为国内的代码托管厂商，速度是非常快的，我们可以使用码云来作为中转站</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170557-580438.png" alt="#" loading="lazy"></p>
+<p>选择 从 GitHub中导入仓库</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170712-491904.png" alt="#" loading="lazy"></p>
+<p>此时使用下载速度变得非常的快，但是码云对仓库大小有一定限制，所以太大的仓库用这个方法不行</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170803-598586.png" alt="#" loading="lazy"></p>
+<h2 id="使用cnpmjs镜像"> 使用cnpmjs镜像</h2>
+<p>这个方法更加的简单,只需要修改你的路径<code>github.com</code>为<code>github.com.cnpmjs.org</code></p>
+<div><pre><code><span>git</span> clone https://github.com/XXX/XXX.git
+
+<span>## 使用cnpmjs</span>
+<span>git</span> clone  https://github.com.cnpmjs.org/XXX/XXX.git
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="使用jsdelivr加速"> 使用jsdelivr加速</h2>
+<p>jsdelivr可免费提供CDN加速，我们一般用来给自己的博客加速，或者制作一个免费的图床</p>
+<p>同样的它也可以加速我们的GitHub，当我们要快速获取项目中的某个文件的时候就可以使用这个方式</p>
+<p>它的使用也非常简单，我们将<code>github.com</code>修改为<code>cdn.jsdelivr.net</code>同时将<code>/blob/</code>修改为<code>@</code></p>
+<div><pre><code>https://github.com/vuejs/vue/blob/dev/README.md
+
+<span>## 使用jsdelivr</span>
+https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>此时速度就非常快了</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170557-580438.png" type="image/png"/>
     </item>
     <item>
       <title>盘点不怎么熟悉但十分有趣的html标签</title>
@@ -14941,45 +14961,6 @@ module.exports = config({
       <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
-      <title>GitHub下载慢的问题</title>
-      <link>https://codenoob.top/tutorials/githubdown.html</link>
-      <guid isPermaLink="false">/tutorials/githubdown.html</guid>
-      <source url="https://codenoob.top/rss.xml">GitHub下载慢的问题</source>
-      <description>GitHub下载慢的问题</description>
-      <category>教程</category>
-      <pubDate>Thu, 25 Jun 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="github下载慢的问题"> GitHub下载慢的问题</h2>
-<p>很多小伙伴说啊这个GitHub的下载速度很慢，那么本期视屏我给大家准备了几个可以提升速度的方法非常的简单</p>
-<p>本次视屏由大家的三连支持播出</p>
-<h2 id="码云"> 码云</h2>
-<p>码云作为国内的代码托管厂商，速度是非常快的，我们可以使用码云来作为中转站</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170557-580438.png" alt="#" loading="lazy"></p>
-<p>选择 从 GitHub中导入仓库</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170712-491904.png" alt="#" loading="lazy"></p>
-<p>此时使用下载速度变得非常的快，但是码云对仓库大小有一定限制，所以太大的仓库用这个方法不行</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170803-598586.png" alt="#" loading="lazy"></p>
-<h2 id="使用cnpmjs镜像"> 使用cnpmjs镜像</h2>
-<p>这个方法更加的简单,只需要修改你的路径<code>github.com</code>为<code>github.com.cnpmjs.org</code></p>
-<div><pre><code><span>git</span> clone https://github.com/XXX/XXX.git
-
-<span>## 使用cnpmjs</span>
-<span>git</span> clone  https://github.com.cnpmjs.org/XXX/XXX.git
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="使用jsdelivr加速"> 使用jsdelivr加速</h2>
-<p>jsdelivr可免费提供CDN加速，我们一般用来给自己的博客加速，或者制作一个免费的图床</p>
-<p>同样的它也可以加速我们的GitHub，当我们要快速获取项目中的某个文件的时候就可以使用这个方式</p>
-<p>它的使用也非常简单，我们将<code>github.com</code>修改为<code>cdn.jsdelivr.net</code>同时将<code>/blob/</code>修改为<code>@</code></p>
-<div><pre><code>https://github.com/vuejs/vue/blob/dev/README.md
-
-<span>## 使用jsdelivr</span>
-https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>此时速度就非常快了</p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/170557-580438.png" type="image/png"/>
-    </item>
-    <item>
       <title>utools</title>
       <link>https://codenoob.top/tools/creat/utools.html</link>
       <guid isPermaLink="false">/tools/creat/utools.html</guid>
@@ -15032,6 +15013,25 @@ https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
 </table>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/221811-551714.png" type="image/png"/>
+    </item>
+    <item>
+      <title>PHP实现随机图片展示</title>
+      <link>https://codenoob.top/tools/php-random-picture.html</link>
+      <guid isPermaLink="false">/tools/php-random-picture.html</guid>
+      <source url="https://codenoob.top/rss.xml">PHP实现随机图片展示</source>
+      <description>PHP实现随机图片展示</description>
+      <category>工具</category>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="主要代码如下"> 主要代码如下</h2>
+<div><pre><code><span><span>&lt;?php</span>
+<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>
+<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>
+<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>
+<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>
+<span>?></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>
