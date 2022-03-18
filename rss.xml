@@ -6,8 +6,8 @@
     <link>https://codenoob.top/</link>
     <description>编程菜鸟的自我修养</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 18 Mar 2022 12:32:53 GMT</pubDate>
-    <lastBuildDate>Fri, 18 Mar 2022 12:32:53 GMT</lastBuildDate>
+    <pubDate>Fri, 18 Mar 2022 12:49:32 GMT</pubDate>
+    <lastBuildDate>Fri, 18 Mar 2022 12:49:32 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>ChouCong | Theme-Hope</copyright>
@@ -12376,6 +12376,26 @@ volumes:
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>与上游API实现的区别</title>
+      <link>https://codenoob.top/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html</guid>
+      <source url="https://codenoob.top/rss.xml">与上游API实现的区别</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="邀请用户加入组织"> 邀请用户加入组织</h2>
+<h3 id="启用-smtp"> 启用 SMTP</h3>
+<p>受邀用户将收到一封电子邮件，其中包含一个有效期为 5 天的链接。点击链接后，用户可以选择创建帐户或登录。新​​用户需要创建一个新帐户；被邀请加入新组织的现有用户只需登录。在任一步骤之后，他们将在管理界面中显示为<code>已接受</code>，并在组织管理员确认后将添加到组织。</p>
+<h3 id="没有启用-smtp"> 没有启用 SMTP</h3>
+<p>受邀用户不会收到邀请邮件；相反，所有已注册的用户都将出现在界面中，就好像他们已经接受了邀请一样。组织管理员然后只需要确认他们是合适的组织成员并授予他们访问共享机密的权限。</p>
+<p>尚未注册的受邀用户将在组织管理界面中显示为<code>已邀请</code>。同时创建一个邀请记录，允许用户注册，即使<a href="./../Configuration/Disable-registration-of-new-users.html">禁止新用户注册</a>。 (除非您<a href="./../Configuration/Disable-invitations.html">禁用邀请</a>)他们将在注册后自动变为<code>已接受</code>。从那里组织管理员可以确认他们以授予他们对组织的访问权限。</p>
+<h2 id="在未加密的连接上运行"> 在未加密的连接上运行</h2>
+<p>强烈建议通过 HTTPS 运行 Vaultwarden 服务。然而服务器本身虽然 <a href="./../Deployment/Enabling-HTTPS.html">开启HTTPS</a> 并不严格要求这样的设置。这使得在您通常可以信任连接(内部和安全网络、通过 VPN 访问等)的情况下启动服务更容易一些，或者当您想将服务置于 HTTP 代理之后，这将进行加密在代理端。</p>
+<p>如果您使用非常强大的主密码，并且避免在容易受到 MITM 攻击的连接上使用 Web Vault，那么通过 HTTP 运行仍然相当安全，攻击者可以将 javascript 注入您的界面。但是，某些形式的 2FA 在此设置中可能不起作用，并且 <a href="https://github.com/bitwarden/web/issues/254" target="_blank" rel="noopener noreferrer">Vault 在 Chrome 中的此配置中不起作用</a>。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>从Keepass或KeepassX导入数据</title>
       <link>https://codenoob.top/projects/vaultwarden/Other/Importing-data-from-Keepass-or-KeepassX.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Other/Importing-data-from-Keepass-or-KeepassX.html</guid>
@@ -12422,6 +12442,29 @@ volumes:
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>注意：您可能需要手动创建主文件夹，因为导入将 MyVault/Group1 显示为文件夹。创建文件夹 MyVault 会显示 MMI 中的子文件夹。</p>
 <p>注意2：您可以编辑文件夹以删除主文件夹<code>MyVault</code>，或编辑导出的CSV文件并在导入Bitwarden之前删除每个条目中的<code>MyVault/</code>字符串。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>支持上游开发</title>
+      <link>https://codenoob.top/projects/vaultwarden/Other/Supporting-upstream.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Other/Supporting-upstream.html</guid>
+      <source url="https://codenoob.top/rss.xml">支持上游开发</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Vaultwarden 仅提供 API(服务器)端实现，因此用户仍然依赖上游的客户端。 (移动应用程序、桌面应用程序和 Web Vault)这是 8bit Solutions LLC 在上游完成的大量工作。</p>
+<p>同时 Vaultwarden 支持一些付费功能并免费提供这些功能。这引发了一些<a href="https://github.com/dani-garcia/vaultwarden/issues/331" target="_blank" rel="noopener noreferrer">关于维持和支持上游的问题</a> 开发。许多用户提出了这个问题，并询问他们如何在使用 Vaultwarden 时支持上游。</p>
+<h2 id="捐赠"> 捐赠</h2>
+<p>您可以通过<a href="https://www.paypal.me/bitwarden" target="_blank" rel="noopener noreferrer">PayPal</a>直接向上游开发捐款。</p>
+<h2 id="购买许可证"> 购买许可证</h2>
+<p>许多用户只是为他们的部署购买了合适的许可证，然后就不再使用了。这是一种捐赠，因为 Vaultwarden 不能以任何方式使用许可证。</p>
+<h2 id="帮助翻译应用程序"> 帮助翻译应用程序</h2>
+<p>每个应用程序都有 <a href="https://crowdin.com/profile/kspearrin" target="_blank" rel="noopener noreferrer">Crowdin 上的项目</a>。如果您精通英语以外的任何语言，则可以帮助翻译应用程序。</p>
+<h2 id="测试-报告客户端中的错误"> 测试，报告客户端中的错误</h2>
+<p><strong>请务必首先报告在此处发现的任何错误。</strong> 这些可能不是上游错误，而是我们的实现或您的配置中的错误。 <a href="https://github.com/dani-garcia/vaultwarden/issues/336" target="_blank" rel="noopener noreferrer">我们不想浪费 Kyle 的时间</a> 对第 3 方服务器的错误进行故障排除。</p>
+<p>在极少数情况下，上游存在错误，但在此阶段，我们将排除任何其他原因，并在上游服务器上确认错误。所以这里的要点是_不_报告上游的错误，而是在此处报告，即使您认为这是客户端问题。我们可以共同努力，看看问题出在哪里。</p>
+<h2 id="帮助社区中的其他用户"> 帮助社区中的其他用户</h2>
+<p>有很多新用户有时会在基本的东西上挣扎。帮助他们是支持项目的好方法。 (并发展社区)根据我在 Vaultwarden 社区的经验，很高兴看到人们在我回答他们的问题之前真正互相帮助 - 这节省了一些时间，而且我经常最终学到新东西。例如，有<a href="https://www.reddit.com/r/bitwarden" target="_blank" rel="noopener noreferrer">Reddit 上的Bitwarden 社区</a>，也有<a href="https://community.bitwarden.com/" target="_blank" rel="noopener noreferrer">官方论坛</a>。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -12472,29 +12515,6 @@ DNS.2 = www.bitwarden.local
 <div><span>1</span><br></div></div><p>注意：截至 2019 年 4 月 iOS 13+ 和 macOS 15+，服务器证书的到期时间不能 &gt; 825，并且必须包含 ExtendedKeyUsage 扩展 <a href="https://support.apple.com/en-us/HT210176" target="_blank" rel="noopener noreferrer">https://support.apple.com/en-us/HT210176</a></p>
 <h3 id="将根证书和-bitwarden-证书添加到客户端计算机"> 将根证书和 bitwarden 证书添加到客户端计算机</h3>
 <p>如需参考，请参见此处：<a href="https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/" target="_blank" rel="noopener noreferrer">https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>支持上游开发</title>
-      <link>https://codenoob.top/projects/vaultwarden/Other/Supporting-upstream.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Other/Supporting-upstream.html</guid>
-      <source url="https://codenoob.top/rss.xml">支持上游开发</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Vaultwarden 仅提供 API(服务器)端实现，因此用户仍然依赖上游的客户端。 (移动应用程序、桌面应用程序和 Web Vault)这是 8bit Solutions LLC 在上游完成的大量工作。</p>
-<p>同时 Vaultwarden 支持一些付费功能并免费提供这些功能。这引发了一些<a href="https://github.com/dani-garcia/vaultwarden/issues/331" target="_blank" rel="noopener noreferrer">关于维持和支持上游的问题</a> 开发。许多用户提出了这个问题，并询问他们如何在使用 Vaultwarden 时支持上游。</p>
-<h2 id="捐赠"> 捐赠</h2>
-<p>您可以通过<a href="https://www.paypal.me/bitwarden" target="_blank" rel="noopener noreferrer">PayPal</a>直接向上游开发捐款。</p>
-<h2 id="购买许可证"> 购买许可证</h2>
-<p>许多用户只是为他们的部署购买了合适的许可证，然后就不再使用了。这是一种捐赠，因为 Vaultwarden 不能以任何方式使用许可证。</p>
-<h2 id="帮助翻译应用程序"> 帮助翻译应用程序</h2>
-<p>每个应用程序都有 <a href="https://crowdin.com/profile/kspearrin" target="_blank" rel="noopener noreferrer">Crowdin 上的项目</a>。如果您精通英语以外的任何语言，则可以帮助翻译应用程序。</p>
-<h2 id="测试-报告客户端中的错误"> 测试，报告客户端中的错误</h2>
-<p><strong>请务必首先报告在此处发现的任何错误。</strong> 这些可能不是上游错误，而是我们的实现或您的配置中的错误。 <a href="https://github.com/dani-garcia/vaultwarden/issues/336" target="_blank" rel="noopener noreferrer">我们不想浪费 Kyle 的时间</a> 对第 3 方服务器的错误进行故障排除。</p>
-<p>在极少数情况下，上游存在错误，但在此阶段，我们将排除任何其他原因，并在上游服务器上确认错误。所以这里的要点是_不_报告上游的错误，而是在此处报告，即使您认为这是客户端问题。我们可以共同努力，看看问题出在哪里。</p>
-<h2 id="帮助社区中的其他用户"> 帮助社区中的其他用户</h2>
-<p>有很多新用户有时会在基本的东西上挣扎。帮助他们是支持项目的好方法。 (并发展社区)根据我在 Vaultwarden 社区的经验，很高兴看到人们在我回答他们的问题之前真正互相帮助 - 这节省了一些时间，而且我经常最终学到新东西。例如，有<a href="https://www.reddit.com/r/bitwarden" target="_blank" rel="noopener noreferrer">Reddit 上的Bitwarden 社区</a>，也有<a href="https://community.bitwarden.com/" target="_blank" rel="noopener noreferrer">官方论坛</a>。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -12594,26 +12614,6 @@ DNS.2 = www.bitwarden.local
 </table>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/222016-297118.png" type="image/png"/>
-    </item>
-    <item>
-      <title>与上游API实现的区别</title>
-      <link>https://codenoob.top/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Other/Differences-from-the-upstream-API-implementation.html</guid>
-      <source url="https://codenoob.top/rss.xml">与上游API实现的区别</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="邀请用户加入组织"> 邀请用户加入组织</h2>
-<h3 id="启用-smtp"> 启用 SMTP</h3>
-<p>受邀用户将收到一封电子邮件，其中包含一个有效期为 5 天的链接。点击链接后，用户可以选择创建帐户或登录。新​​用户需要创建一个新帐户；被邀请加入新组织的现有用户只需登录。在任一步骤之后，他们将在管理界面中显示为<code>已接受</code>，并在组织管理员确认后将添加到组织。</p>
-<h3 id="没有启用-smtp"> 没有启用 SMTP</h3>
-<p>受邀用户不会收到邀请邮件；相反，所有已注册的用户都将出现在界面中，就好像他们已经接受了邀请一样。组织管理员然后只需要确认他们是合适的组织成员并授予他们访问共享机密的权限。</p>
-<p>尚未注册的受邀用户将在组织管理界面中显示为<code>已邀请</code>。同时创建一个邀请记录，允许用户注册，即使<a href="./../Configuration/Disable-registration-of-new-users.html">禁止新用户注册</a>。 (除非您<a href="./../Configuration/Disable-invitations.html">禁用邀请</a>)他们将在注册后自动变为<code>已接受</code>。从那里组织管理员可以确认他们以授予他们对组织的访问权限。</p>
-<h2 id="在未加密的连接上运行"> 在未加密的连接上运行</h2>
-<p>强烈建议通过 HTTPS 运行 Vaultwarden 服务。然而服务器本身虽然 <a href="./../Deployment/Enabling-HTTPS.html">开启HTTPS</a> 并不严格要求这样的设置。这使得在您通常可以信任连接(内部和安全网络、通过 VPN 访问等)的情况下启动服务更容易一些，或者当您想将服务置于 HTTP 代理之后，这将进行加密在代理端。</p>
-<p>如果您使用非常强大的主密码，并且避免在容易受到 MITM 攻击的连接上使用 Web Vault，那么通过 HTTP 运行仍然相当安全，攻击者可以将 javascript 注入您的界面。但是，某些形式的 2FA 在此设置中可能不起作用，并且 <a href="https://github.com/bitwarden/web/issues/254" target="_blank" rel="noopener noreferrer">Vault 在 Chrome 中的此配置中不起作用</a>。</p>
-]]></content:encoded>
     </item>
     <item>
       <title>MobaXterm</title>
@@ -12755,6 +12755,25 @@ DNS.2 = www.bitwarden.local
 ]]></content:encoded>
     </item>
     <item>
+      <title>PHP实现随机图片展示</title>
+      <link>https://codenoob.top/tools/php-random-picture.html</link>
+      <guid isPermaLink="false">/tools/php-random-picture.html</guid>
+      <source url="https://codenoob.top/rss.xml">PHP实现随机图片展示</source>
+      <description>PHP实现随机图片展示</description>
+      <category>工具</category>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="主要代码如下"> 主要代码如下</h2>
+<div><pre><code><span><span>&lt;?php</span>
+<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>
+<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>
+<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>
+<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>
+<span>?></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>油猴脚本自动刷课</title>
       <link>https://codenoob.top/tools/tampermonkey-refreshes-lesson.html</link>
       <guid isPermaLink="false">/tools/tampermonkey-refreshes-lesson.html</guid>
@@ -12844,37 +12863,6 @@ DNS.2 = www.bitwarden.local
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/c76cb09df065af0af780aebf72c0bbaa.png" type="image/png"/>
     </item>
     <item>
-      <title>Eclipse Theia初体验</title>
-      <link>https://codenoob.top/tools/theia.html</link>
-      <guid isPermaLink="false">/tools/theia.html</guid>
-      <source url="https://codenoob.top/rss.xml">Eclipse Theia初体验</source>
-      <description>Eclipse Theia初体验</description>
-      <category>工具</category>
-      <pubDate>Mon, 11 Jan 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
-<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
-<p>至于为什么我说是学习神器，我们先体验一下再说</p>
-<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" loading="lazy"></p>
-<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
-<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
-<div><pre><code><span># Linux, macOS, or PowerShell</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
-
-<span># Windows (cmd.exe)</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
-<p>随便写点东西保存预览，整个流程非常的流畅</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" loading="lazy"></p>
-<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
-<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
-<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
-<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" type="image/png"/>
-    </item>
-    <item>
       <title>Typora直传图片文件方案</title>
       <link>https://codenoob.top/tools/typoraImg-tool.html</link>
       <guid isPermaLink="false">/tools/typoraImg-tool.html</guid>
@@ -12960,6 +12948,37 @@ echo $str . "\n";
 <p>成功！</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/152835-547872.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Eclipse Theia初体验</title>
+      <link>https://codenoob.top/tools/theia.html</link>
+      <guid isPermaLink="false">/tools/theia.html</guid>
+      <source url="https://codenoob.top/rss.xml">Eclipse Theia初体验</source>
+      <description>Eclipse Theia初体验</description>
+      <category>工具</category>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
+<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
+<p>至于为什么我说是学习神器，我们先体验一下再说</p>
+<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" loading="lazy"></p>
+<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
+<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
+<div><pre><code><span># Linux, macOS, or PowerShell</span>
+docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
+
+<span># Windows (cmd.exe)</span>
+docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
+<p>随便写点东西保存预览，整个流程非常的流畅</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" loading="lazy"></p>
+<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
+<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
+<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
+<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" type="image/png"/>
     </item>
     <item>
       <title>Vue Devtools的安装</title>
@@ -14081,6 +14100,37 @@ mkfs.ext4 -F /dev/disk/by-id/scsi-0BUYVM_SLAB_VOLUME-xxxx
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/011348-293552.png" type="image/png"/>
     </item>
     <item>
+      <title>webpack教程</title>
+      <link>https://codenoob.top/tutorials/webpack.html</link>
+      <guid isPermaLink="false">/tutorials/webpack.html</guid>
+      <source url="https://codenoob.top/rss.xml">webpack教程</source>
+      <description>webpack教程</description>
+      <category>教程</category>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li>源码仓库<a href="https://github.com/lookroot/vuestu" target="_blank" rel="noopener noreferrer">github</a>欢迎star</li>
+<li>视频地址<a href="https://www.bilibili.com/video/bv1oK411p7SJ" target="_blank" rel="noopener noreferrer">哔哩哔哩</a></li>
+</ul>
+<blockquote>
+<p>我会将所有的读者概括为初学者，即使你可能有基础，学习本节之前我希望你具有一定的JavaScript和node基础</p>
+</blockquote>
+<ul>
+<li>文中的 ... ...代表省略掉部分代码，和上面的代码相同</li>
+<li>文中的文件夹如果没有说创建，并且项目默认没有的是需要你手动增加的</li>
+<li>不会特别细致，但是足够入门</li>
+</ul>
+<h2 id="什么是webpack"> 什么是webpack</h2>
+<blockquote>
+<p>Web浏览器使用HTML，CSS和JavaScript。随着项目的发展，跟踪和配置所有这些文件变得非常复杂,解决这个问题就需要一个新的工具</p>
+</blockquote>
+<p>类似webpack的工具还有Grunt和Gulp，webpack是模块管理工具，把你的项目按照你的想法进行划分模块打包，举个最简单的例子，这个页面需要加载一个 a.js和b.js，但是你只想加载一个js文件，就可以使用webpack将两个文件进行合并，当然webpack的功能不止于此，代码转化、项目优化、代码分割、代码预编译、自动构建、自动刷新...</p>
+<p>再比如你想你的代码兼容其他老的浏览器，你的css代码兼容不同的浏览器内核，或者你想自动精简掉你写了但是没有用到的代码，这些都可以使用webpack实现</p>
+<p>如果你是vue或者react等框架的使用者，肯定使用过 vue-cli 或 react-create-app 这类脚手架工具，那么实现这个效果，就要学习webpack</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" alt="#" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" type="image/png"/>
+    </item>
+    <item>
       <title>VuePress博客搭建指南</title>
       <link>https://codenoob.top/tutorials/vuepress-build.html</link>
       <guid isPermaLink="false">/tutorials/vuepress-build.html</guid>
@@ -14349,37 +14399,6 @@ module.exports = config({
 <p>请查看<a href="https://www.21yunbox.com/docs/#/deploy-vuepress" target="_blank" rel="noopener noreferrer">21云盒子 - 部署一个VuePress静态网页</a>。</p>
 ]]></content:encoded>
       <enclosure url="https://codenoob.top/assets/img/hero.png" type="image/png"/>
-    </item>
-    <item>
-      <title>webpack教程</title>
-      <link>https://codenoob.top/tutorials/webpack.html</link>
-      <guid isPermaLink="false">/tutorials/webpack.html</guid>
-      <source url="https://codenoob.top/rss.xml">webpack教程</source>
-      <description>webpack教程</description>
-      <category>教程</category>
-      <pubDate>Tue, 23 Jun 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<ul>
-<li>源码仓库<a href="https://github.com/lookroot/vuestu" target="_blank" rel="noopener noreferrer">github</a>欢迎star</li>
-<li>视频地址<a href="https://www.bilibili.com/video/bv1oK411p7SJ" target="_blank" rel="noopener noreferrer">哔哩哔哩</a></li>
-</ul>
-<blockquote>
-<p>我会将所有的读者概括为初学者，即使你可能有基础，学习本节之前我希望你具有一定的JavaScript和node基础</p>
-</blockquote>
-<ul>
-<li>文中的 ... ...代表省略掉部分代码，和上面的代码相同</li>
-<li>文中的文件夹如果没有说创建，并且项目默认没有的是需要你手动增加的</li>
-<li>不会特别细致，但是足够入门</li>
-</ul>
-<h2 id="什么是webpack"> 什么是webpack</h2>
-<blockquote>
-<p>Web浏览器使用HTML，CSS和JavaScript。随着项目的发展，跟踪和配置所有这些文件变得非常复杂,解决这个问题就需要一个新的工具</p>
-</blockquote>
-<p>类似webpack的工具还有Grunt和Gulp，webpack是模块管理工具，把你的项目按照你的想法进行划分模块打包，举个最简单的例子，这个页面需要加载一个 a.js和b.js，但是你只想加载一个js文件，就可以使用webpack将两个文件进行合并，当然webpack的功能不止于此，代码转化、项目优化、代码分割、代码预编译、自动构建、自动刷新...</p>
-<p>再比如你想你的代码兼容其他老的浏览器，你的css代码兼容不同的浏览器内核，或者你想自动精简掉你写了但是没有用到的代码，这些都可以使用webpack实现</p>
-<p>如果你是vue或者react等框架的使用者，肯定使用过 vue-cli 或 react-create-app 这类脚手架工具，那么实现这个效果，就要学习webpack</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" alt="#" loading="lazy"></p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164044-70776.png" type="image/png"/>
     </item>
     <item>
       <title>前端分阶段学习路线</title>
@@ -15013,25 +15032,6 @@ module.exports = config({
 </table>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/221811-551714.png" type="image/png"/>
-    </item>
-    <item>
-      <title>PHP实现随机图片展示</title>
-      <link>https://codenoob.top/tools/php-random-picture.html</link>
-      <guid isPermaLink="false">/tools/php-random-picture.html</guid>
-      <source url="https://codenoob.top/rss.xml">PHP实现随机图片展示</source>
-      <description>PHP实现随机图片展示</description>
-      <category>工具</category>
-      <pubDate>Mon, 28 Sep 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="主要代码如下"> 主要代码如下</h2>
-<div><pre><code><span><span>&lt;?php</span>
-<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>
-<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>
-<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>
-<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>
-<span>?></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>
