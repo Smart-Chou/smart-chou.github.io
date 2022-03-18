@@ -33,6 +33,7 @@ const locale = {
 module.exports = config({
     title: 'CodeNoobs',
     description: '编程菜鸟的自我修养',
+    host: '0.0.0.0',
     base: '/',
     dest: './dist',
 
