@@ -247,16 +247,16 @@ module.exports = config({
             'vuepress-plugin-meilisearch',
             {
                 hostUrl: 'https://tv.zcily.life',
-                apiKey: '9fa2b0e5da55b7504b467b8b66b99ad5fd9c19e9ec7d573e62d995cf54acd570',
+                apiKey: '29adf448c68ad007f493e3410df6cf391c1ceb5bd48aedfa90423480776f3bb9',
                 indexUid: 'vuepress',
                 placeholder: '想搜啥，按‘S’！', // Default: ""
                 maxSuggestions: 6, // Default: 5
                 hotKeys: ['s'], // Default: ['s', '/']
                 cropLength: 50, // Default: 30
-                layout: 'simple', // Default: "columns"
-                debug: true, // Default: false
+                //layout: 'simple', // Default: "columns"
+                //debug: true, // Default: false
                 //enableDarkMode: true, // Default: false
             },
-        ],
+        ]
     ],
 });
