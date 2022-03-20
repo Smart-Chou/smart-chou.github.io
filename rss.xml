@@ -6,8 +6,8 @@
     <link>https://codenoob.top/</link>
     <description>编程菜鸟的自我修养</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 20 Mar 2022 05:19:38 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Mar 2022 05:19:38 GMT</lastBuildDate>
+    <pubDate>Sun, 20 Mar 2022 11:29:03 GMT</pubDate>
+    <lastBuildDate>Sun, 20 Mar 2022 11:29:03 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>ChouCong | Theme-Hope</copyright>
@@ -19,44 +19,6 @@
     <category>项目</category>
     <category>工具</category>
     <category>教程</category>
-    <item>
-      <title>Home</title>
-      <link>https://codenoob.top/author.html</link>
-      <guid isPermaLink="false">/author.html</guid>
-      <source url="https://codenoob.top/rss.xml">Home</source>
-      <pubDate>Thu, 18 Nov 2021 06:47:23 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="简介"> 简介</h1>
-<div><p>介绍</p>
-<p>我是ChouCOng，热爱编程，乐于分享</p>
-<p>现在的个人博客，读者和作者都越来越少，坚持写自己的东西，是一种总结更是一种锻炼，如果别人能懂得我的转述，我才是真的会了</p>
-<p>感谢你的关注，你可点击<a href="/timeline/">时光机</a>来了解我在做什么，也可以点击<a href="/latest.html">最新文章</a>，查看更多的信息 点击查看本站的<a href="/category/">分类</a>结构更为清晰！</p>
-</div>
-<h2 id="我的bilibili"> 我的bilibili</h2>
-<p>在年疫情期间，我上传了我的第一个视屏，是分享一个使用来编写实时疫情界面的教程，第一次收获了点赞和关注 随后我在每周更新自己想要分享的东西，如果你感兴趣可以来我的个人空间瞧一瞧<a href="https://space.bilibili.com/372366303/" target="_blank" rel="noopener noreferrer">ChouCong的个人空间</a></p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
-<p><img src="/assets/img/qr_weixin.png" alt="公众号二维码，扫一扫有惊喜！" loading="lazy"></p>
-<h2 id="目前技术栈"> 目前技术栈</h2>
-<p>本来花了很多的时间学习相关，但是目前从事前端也比较喜欢，所以说就是都会点，也可以说是全都不会
-</br>
-</br>
-特别喜欢移动端的开发，但是生不逢时没有入行，现在也只是爱好</p>
-<h2 id="未来计划"> 未来计划</h2>
-<ul>
-<li>保持学习算法和数据结构</li>
-<li>做一个自己的开源项目</li>
-<li>更新一些简单的教程</li>
-<li>精彩的生活</li>
-</ul>
-<h2 id="联系我"> 联系我</h2>
-<p>有什么好的意见，或者是想要咨询一些事情可以通过以下找到我</p>
-<ul>
-<li>QQ：<a href="https://qm.qq.com/cgi-bin/qm/qr?k=hH6gqBpGrQ80a0kBI-69N6OWXMIJ7825&amp;noverify=0" target="_blank" rel="noopener noreferrer">3518439599</a></li>
-<li>邮箱：<a href="mailto:ChouCong912@gmial.com">ChouCong912@gmial.com</a></li>
-</ul>
-]]></content:encoded>
-      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
-    </item>
     <item>
       <title>抛开技术点，前后端你更需要了解的知识！</title>
       <link>https://codenoob.top/code/front-back.html</link>
@@ -129,6 +91,73 @@
 <p>所以努力学啊，学不动就只有回家喂猪了</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/215910-449972.gif" type="image/gif"/>
+    </item>
+    <item>
+      <title>Home</title>
+      <link>https://codenoob.top/author.html</link>
+      <guid isPermaLink="false">/author.html</guid>
+      <source url="https://codenoob.top/rss.xml">Home</source>
+      <pubDate>Thu, 18 Nov 2021 06:47:23 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="简介"> 简介</h1>
+<div><p>介绍</p>
+<p>我是ChouCOng，热爱编程，乐于分享</p>
+<p>现在的个人博客，读者和作者都越来越少，坚持写自己的东西，是一种总结更是一种锻炼，如果别人能懂得我的转述，我才是真的会了</p>
+<p>感谢你的关注，你可点击<a href="/timeline/">时光机</a>来了解我在做什么，也可以点击<a href="/latest.html">最新文章</a>，查看更多的信息 点击查看本站的<a href="/category/">分类</a>结构更为清晰！</p>
+</div>
+<h2 id="我的bilibili"> 我的bilibili</h2>
+<p>在年疫情期间，我上传了我的第一个视屏，是分享一个使用来编写实时疫情界面的教程，第一次收获了点赞和关注 随后我在每周更新自己想要分享的东西，如果你感兴趣可以来我的个人空间瞧一瞧<a href="https://space.bilibili.com/372366303/" target="_blank" rel="noopener noreferrer">ChouCong的个人空间</a></p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
+<p><img src="/assets/img/qr_weixin.png" alt="公众号二维码，扫一扫有惊喜！" loading="lazy"></p>
+<h2 id="目前技术栈"> 目前技术栈</h2>
+<p>本来花了很多的时间学习相关，但是目前从事前端也比较喜欢，所以说就是都会点，也可以说是全都不会
+</br>
+</br>
+特别喜欢移动端的开发，但是生不逢时没有入行，现在也只是爱好</p>
+<h2 id="未来计划"> 未来计划</h2>
+<ul>
+<li>保持学习算法和数据结构</li>
+<li>做一个自己的开源项目</li>
+<li>更新一些简单的教程</li>
+<li>精彩的生活</li>
+</ul>
+<h2 id="联系我"> 联系我</h2>
+<p>有什么好的意见，或者是想要咨询一些事情可以通过以下找到我</p>
+<ul>
+<li>QQ：<a href="https://qm.qq.com/cgi-bin/qm/qr?k=hH6gqBpGrQ80a0kBI-69N6OWXMIJ7825&amp;noverify=0" target="_blank" rel="noopener noreferrer">3518439599</a></li>
+<li>邮箱：<a href="mailto:ChouCong912@gmial.com">ChouCong912@gmial.com</a></li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
+    </item>
+    <item>
+      <title>SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
+      <link>https://codenoob.top/code/loop.html</link>
+      <guid isPermaLink="false">/code/loop.html</guid>
+      <source url="https://codenoob.top/rss.xml">SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</source>
+      <description>SpringBoot实战项目</description>
+      <category>编程</category>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>说明</p>
+<p>此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
+</div>
+<h2 id="前言"> 前言</h2>
+<p><a href="https://www.bilibili.com/video/BV1av4y1f7o1" target="_blank" rel="noopener noreferrer">视频教程</a></p>
+<p>观众朋友们大家好啊，我来填坑了，去年的时候我发了一些基础的视频，每次都说后面会出项目视频，但是每次都因为各种各样的原因耽搁了</p>
+<p>最近空闲的时间比较多，所以来把这个坑填了，本次的项目是根据我的所学知识和一些日常工作中的经验制作而成，因为时间的关系，这个项目从零开始，每制作一点就发一个视频，所以说这是一个具有很多不确定因素的计划，我也不是一个专业的培训老师，工作经验有限，希望大家多多担待，中途有错误或者大家有更好的思路可以一起讨论</p>
+<p>先说一下此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
+<p>PC端我们使用springboot、thymeleaf来制作混合页面
+管理端我们使用springboot、vue3（待定）来制作前后端分离项目
+移动端我们使用springboot、uniapp来制作前后端分离项目
+中途不限于使用模板引擎、缓存、权限管理、文件转换、消息队列、爬虫、搜索引擎等技术，这是一个相对完整的项目，并不是单纯的为了组装知识点而拼凑的项目，我们从实际业务出发，尽量给各位观众朋友们带来真实的、能够在工作中复用的知识</p>
+<p>此次的项目耗时是相对比较长的，并且是完全免费的，附带文档和源码，大家的三连就是对我最大的支持！</p>
+<h2 id="源码"> 源码</h2>
+<p><a href="https://github.com/lookroot/loop" target="_blank" rel="noopener noreferrer">GitHub</a>大家自取。</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
       <title>Java分阶段学习路线</title>
@@ -481,35 +510,6 @@
 <p>学编程又何尝不是一个在学习做人的过程呢？</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225707-955722.png" type="image/png"/>
-    </item>
-    <item>
-      <title>SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
-      <link>https://codenoob.top/code/loop.html</link>
-      <guid isPermaLink="false">/code/loop.html</guid>
-      <source url="https://codenoob.top/rss.xml">SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</source>
-      <description>SpringBoot实战项目</description>
-      <category>编程</category>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>说明</p>
-<p>此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
-</div>
-<h2 id="前言"> 前言</h2>
-<p><a href="https://www.bilibili.com/video/BV1av4y1f7o1" target="_blank" rel="noopener noreferrer">视频教程</a></p>
-<p>观众朋友们大家好啊，我来填坑了，去年的时候我发了一些基础的视频，每次都说后面会出项目视频，但是每次都因为各种各样的原因耽搁了</p>
-<p>最近空闲的时间比较多，所以来把这个坑填了，本次的项目是根据我的所学知识和一些日常工作中的经验制作而成，因为时间的关系，这个项目从零开始，每制作一点就发一个视频，所以说这是一个具有很多不确定因素的计划，我也不是一个专业的培训老师，工作经验有限，希望大家多多担待，中途有错误或者大家有更好的思路可以一起讨论</p>
-<p>先说一下此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
-<p>PC端我们使用springboot、thymeleaf来制作混合页面
-管理端我们使用springboot、vue3（待定）来制作前后端分离项目
-移动端我们使用springboot、uniapp来制作前后端分离项目
-中途不限于使用模板引擎、缓存、权限管理、文件转换、消息队列、爬虫、搜索引擎等技术，这是一个相对完整的项目，并不是单纯的为了组装知识点而拼凑的项目，我们从实际业务出发，尽量给各位观众朋友们带来真实的、能够在工作中复用的知识</p>
-<p>此次的项目耗时是相对比较长的，并且是完全免费的，附带文档和源码，大家的三连就是对我最大的支持！</p>
-<h2 id="源码"> 源码</h2>
-<p><a href="https://github.com/lookroot/loop" target="_blank" rel="noopener noreferrer">GitHub</a>大家自取。</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
-]]></content:encoded>
-      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
       <title>项目是怎么一步一步变复杂的</title>
@@ -2582,6 +2582,25 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
 ]]></content:encoded>
     </item>
     <item>
+      <title>日常</title>
+      <link>https://codenoob.top/daily/</link>
+      <guid isPermaLink="false">/daily/</guid>
+      <source url="https://codenoob.top/rss.xml">日常</source>
+      <pubDate>Thu, 18 Nov 2021 06:47:23 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>介绍</p>
+<p>以后日常记录都放这里了！</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>在这个分类里面我主要分享一些我的日常记录</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
+<div>
+<p><img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
+</div>
+]]></content:encoded>
+      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
+    </item>
+    <item>
       <title>奈飞简介</title>
       <link>https://codenoob.top/daily/netflix-introduction.html</link>
       <guid isPermaLink="false">/daily/netflix-introduction.html</guid>
@@ -2742,25 +2761,6 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/66c9891c221b27e76a9e9f97b19bd79a.png" type="image/png"/>
     </item>
     <item>
-      <title>日常</title>
-      <link>https://codenoob.top/daily/</link>
-      <guid isPermaLink="false">/daily/</guid>
-      <source url="https://codenoob.top/rss.xml">日常</source>
-      <pubDate>Thu, 18 Nov 2021 06:47:23 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>介绍</p>
-<p>以后日常记录都放这里了！</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>在这个分类里面我主要分享一些我的日常记录</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
-<div>
-<p><img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
-</div>
-]]></content:encoded>
-      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
-    </item>
-    <item>
       <title>自学编程的疑问速答</title>
       <link>https://codenoob.top/daily/selfstudy.html</link>
       <guid isPermaLink="false">/daily/selfstudy.html</guid>
@@ -2887,6 +2887,82 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
 <p>有些时候也会用动画大师来做点动画，但是免费版的分辨率也太低了！</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164520-378275.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Windows 常见问题</title>
+      <link>https://codenoob.top/daily/windows-faq.html</link>
+      <guid isPermaLink="false">/daily/windows-faq.html</guid>
+      <source url="https://codenoob.top/rss.xml">Windows 常见问题</source>
+      <description>Windows 常见问题</description>
+      <category>日常</category>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="删除自带输入法"> 删除自带输入法</h2>
+<p>删除以下注册表</p>
+<div><pre><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP
+
+{81d4e9c9-1d3b-41bc-9e6c-4b40bf79e35e}
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="双系统时间问题"> 双系统时间问题</h2>
+<p>Windows 下以管理员身份打开命令行窗口</p>
+<div><pre><code>Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="解决部分图标加载不出来"> 解决部分图标加载不出来</h2>
+<ul>
+<li>在桌面新建文本文档，复制以下代码</li>
+</ul>
+<div><pre><code>rem 关闭Windows外壳程序explorer
+
+
+taskkill /f /im explorer.exe
+
+
+rem 清理系统图标缓存数据库
+
+
+attrib -h -s -r &quot;%userprofile%\AppData\Local\IconCache.db&quot;
+
+
+del /f &quot;%userprofile%\AppData\Local\IconCache.db&quot;
+
+
+attrib /s /d -h -s -r &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\*&quot;
+
+
+del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_32.db&quot;
+
+del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_96.db&quot;
+
+del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_102.db&quot;
+
+del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db&quot;
+
+del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_1024.db&quot;
+
+del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db&quot;
+
+del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_sr.db&quot;
+
+
+rem 清理 系统托盘记忆的图标
+
+
+echo y|reg delete &quot;HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify&quot; /v IconStreams
+
+echo y|reg delete &quot;HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify&quot; /v PastIconsStream
+
+
+rem 重启Windows外壳程序explorer
+
+
+start explorer
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br></div></div><ol>
+<li>将 txt 后缀修改为 bat</li>
+<li>双击运行</li>
+</ol>
+<p><a href="https://blog.csdn.net/win_turn/article/details/73612220" target="_blank" rel="noopener noreferrer">原文</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>iOS 订阅管理 APP</title>
@@ -3167,82 +3243,6 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
 <p>对于这些软件仅仅是一些个人的短期体验，真正要找到合适的应用需要长时间的体验，希望大家都能找到适合自己的软件。</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/1d108b26d8362ddf28849af860be8e93.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Windows 常见问题</title>
-      <link>https://codenoob.top/daily/windows-faq.html</link>
-      <guid isPermaLink="false">/daily/windows-faq.html</guid>
-      <source url="https://codenoob.top/rss.xml">Windows 常见问题</source>
-      <description>Windows 常见问题</description>
-      <category>日常</category>
-      <pubDate>Mon, 30 Aug 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="删除自带输入法"> 删除自带输入法</h2>
-<p>删除以下注册表</p>
-<div><pre><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP
-
-{81d4e9c9-1d3b-41bc-9e6c-4b40bf79e35e}
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="双系统时间问题"> 双系统时间问题</h2>
-<p>Windows 下以管理员身份打开命令行窗口</p>
-<div><pre><code>Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="解决部分图标加载不出来"> 解决部分图标加载不出来</h2>
-<ul>
-<li>在桌面新建文本文档，复制以下代码</li>
-</ul>
-<div><pre><code>rem 关闭Windows外壳程序explorer
-
-
-taskkill /f /im explorer.exe
-
-
-rem 清理系统图标缓存数据库
-
-
-attrib -h -s -r &quot;%userprofile%\AppData\Local\IconCache.db&quot;
-
-
-del /f &quot;%userprofile%\AppData\Local\IconCache.db&quot;
-
-
-attrib /s /d -h -s -r &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\*&quot;
-
-
-del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_32.db&quot;
-
-del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_96.db&quot;
-
-del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_102.db&quot;
-
-del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db&quot;
-
-del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_1024.db&quot;
-
-del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db&quot;
-
-del /f &quot;%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_sr.db&quot;
-
-
-rem 清理 系统托盘记忆的图标
-
-
-echo y|reg delete &quot;HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify&quot; /v IconStreams
-
-echo y|reg delete &quot;HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify&quot; /v PastIconsStream
-
-
-rem 重启Windows外壳程序explorer
-
-
-start explorer
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br></div></div><ol>
-<li>将 txt 后缀修改为 bat</li>
-<li>双击运行</li>
-</ol>
-<p><a href="https://blog.csdn.net/win_turn/article/details/73612220" target="_blank" rel="noopener noreferrer">原文</a></p>
-]]></content:encoded>
     </item>
     <item>
       <title>Windows Office 安装指南</title>
@@ -4254,62 +4254,6 @@ iw wlp2s0 <span>link</span>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/affd65fa8e220bf2.png" type="image/png"/>
     </item>
     <item>
-      <title>斐讯K2路由器刷openwrt</title>
-      <link>https://codenoob.top/document/k2-openwrt.html</link>
-      <guid isPermaLink="false">/document/k2-openwrt.html</guid>
-      <source url="https://codenoob.top/rss.xml">斐讯K2路由器刷openwrt</source>
-      <description>白捡的斐讯K2路由器，还刷机了，刷的openwrt，厉害了</description>
-      <category>文档</category>
-      <pubDate>Mon, 23 Aug 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>本想给家里现有的<code>fast</code>、<code>tp-link</code>路由器刷<code>openwrt</code>系统，可惜硬件不被系统所支持，刚好听说有一款智能路由器可以免费白捡，于是我薅（<mark>hao</mark>）羊毛的精神有发扬了一回，嘻嘻。下面给出链接，大家自行了解 购买。下面才是正题，我的刷机流程，仅供大家参考，交流学习。</p>
-<p><a href="https://union-click.jd.com/jdc?d=zKK1iR" target="_blank" rel="noopener noreferrer">京东购买斐讯K2智能路由器地址</a></p>
-<p>我买的路由器是<code>斐讯K2</code>，硬件版本<code>A5</code>，<code>CPU</code>芯片为<code>mt7620a</code>，我是奔着<code>openwrt</code>来的，所以我在<code>www.openwrt.org</code>找到相应的<code>bin固件</code>，并下载下来准备好</p>
-<p><a href="https://archive.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-mt7620a-squashfs-sysupgrade.bin" target="_blank" rel="noopener noreferrer">Bin固件地址</a></p>
-<p>路由器刚入手，高兴过头了，于是手贱点了一下自动升级最新系统，这个后面的刷固件找了不少麻烦，还好网络是开放共享的，废了好些时间找到了解决方法。主要思路是降级系统，找到官方下架的固件，手机更新上去，然后再刷入<code>breed</code>固件。相关固件这里汇总了一下，需要的朋友拿去。</p>
-<p>接下来是具体步骤，先由最新版本 <mark>V22.6.507.43</mark> ,降级到 <mark>K2_V22.6.506.28.bin</mark>，最新版本没有开启<code>Telnet</code>功能，这个次新版本开启了<code>Telnet</code>功能且不提示不合法固件，处女刷，用的必须要用此功能哦，呵呵，登录路由后台点手动升级，选择下载好的固件。</p>
-<ol>
-<li>
-<p>下载 <code>K2_V22.6.506.28.bin</code>,<a href="https://pan.baidu.com/s/1dGYpUHr" target="_blank" rel="noopener noreferrer">固件链接</a>,密码: 8z3m</p>
-</li>
-<li>
-<p>下载<code>telnet</code> 打开工具<code>RoutAckProV1B2</code>,<a href="https://pan.baidu.com/s/1jJK88qM" target="_blank" rel="noopener noreferrer">链接</a>,密码: qaix</p>
-</li>
-<li>
-<p>下载路由器刷<code>breed Web</code>控制台助手<code>v4.8</code>版本（内含breed固件）,<a href="https://pan.baidu.com/s/1pLXFt2b" target="_blank" rel="noopener noreferrer">链接</a> ,密码: cban</p>
-</li>
-</ol>
-<p>把上面两个工具分别右键管理员身份打开，路由器长按恢复出厂设置按钮<strong>10</strong>秒，红灯状态下点击工具<code>telnet</code>按钮直到出现收到应答信号，紧接着快速点击<strong>breed工具</strong>的开始刷机按钮，（失败很多次的原因都是<code>Telnet</code>开启时间特别短，黄灯亮了<code>telnet</code>就关闭了，两个按钮几乎要同时按下去了），中间什么都不用管，一会就显示成功了拔掉路由器电源，按着复位键插电源，浏览器<code>192.168.1.1</code>进入<code>breed刷机</code>界面（我是手动修改的<code>ip</code>，两次<code>ip</code>不一样，<code>k2控制台</code>管理<code>ip</code>为<code>192.168.2.1</code>）一路默认，要用网线，据说wifi无线网不可以，其他不相干的网卡先禁用掉。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085017151710061744052.png" alt="breed 界面" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085033151710063319001.png" alt="breed 界面" loading="lazy"></p>
-<p>点击<code>是</code>按钮</p>
-<p>切换设置主机<code>ip:192.168.1.12</code></p>
-<p>登录<code>192.168.1.1</code> 登录之前断一下电重启，下面是升级固件的页面（少一张选择固件的页面截图）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085042151710064235458.png" alt="breed 界面" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/4.png" alt="breed 界面" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085101151710066144139.png" alt="breed 界面" loading="lazy"></p>
-<p>刷完之后，再重启一下，访问<code>192.168.1.1</code>若不能访问，恢复出厂设置后再访问。（断电后按键<code>reset</code>键，接通电源，持续按键<code>10s</code>）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085141151710070155198.png" alt="路由器" loading="lazy"></p>
-<p>默认密码<code>admin</code>或者<code>root</code>，进去之后重新设置密码</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085156151710071622467.png" alt="路由器" loading="lazy"></p>
-<p>最后上图是PuTTY工具登录<code>Telnet</code>,</p>
-<p>远程工具<a href="https://pan.baidu.com/s/1jJ4Z48m" target="_blank" rel="noopener noreferrer">下载链接</a>,密码: d4ng</p>
-<p>这就是一台小型的linux主机，系统体积非常的小，只有数M，可以装进智能摄像头、智能家居、小型机器人、电话里等，用途十分广泛，当然这些只是听说，我没有安装过，呵呵，大家多交流吧 qq787940000</p>
-<p>可以使用opkg命令安装相关软件</p>
-<div><pre><code>opkg update # 更新可以获取的软件包列表
-
-opkg upgrade # 对已经安装的软件包升级
-
-opkg list # 获取软件列表
-
-opkg install # 安装指定的软件包
-
-opkg remove # 卸载已经安装的指定的软件包
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>当然，必须先让路由器连上网才行。</p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085017151710061744052.png" type="image/png"/>
-    </item>
-    <item>
       <title>h5ai服务器目录搭建详细教程以及各种坑的解说</title>
       <link>https://codenoob.top/document/h5ai.html</link>
       <guid isPermaLink="false">/document/h5ai.html</guid>
@@ -4455,6 +4399,62 @@ ffprobe
 <p><a href="https://larsjung.de/h5ai/" target="_blank" rel="noopener noreferrer">h5ai官网</a></p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/11148c60811286c.png" type="image/png"/>
+    </item>
+    <item>
+      <title>斐讯K2路由器刷openwrt</title>
+      <link>https://codenoob.top/document/k2-openwrt.html</link>
+      <guid isPermaLink="false">/document/k2-openwrt.html</guid>
+      <source url="https://codenoob.top/rss.xml">斐讯K2路由器刷openwrt</source>
+      <description>白捡的斐讯K2路由器，还刷机了，刷的openwrt，厉害了</description>
+      <category>文档</category>
+      <pubDate>Mon, 23 Aug 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>本想给家里现有的<code>fast</code>、<code>tp-link</code>路由器刷<code>openwrt</code>系统，可惜硬件不被系统所支持，刚好听说有一款智能路由器可以免费白捡，于是我薅（<mark>hao</mark>）羊毛的精神有发扬了一回，嘻嘻。下面给出链接，大家自行了解 购买。下面才是正题，我的刷机流程，仅供大家参考，交流学习。</p>
+<p><a href="https://union-click.jd.com/jdc?d=zKK1iR" target="_blank" rel="noopener noreferrer">京东购买斐讯K2智能路由器地址</a></p>
+<p>我买的路由器是<code>斐讯K2</code>，硬件版本<code>A5</code>，<code>CPU</code>芯片为<code>mt7620a</code>，我是奔着<code>openwrt</code>来的，所以我在<code>www.openwrt.org</code>找到相应的<code>bin固件</code>，并下载下来准备好</p>
+<p><a href="https://archive.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-mt7620a-squashfs-sysupgrade.bin" target="_blank" rel="noopener noreferrer">Bin固件地址</a></p>
+<p>路由器刚入手，高兴过头了，于是手贱点了一下自动升级最新系统，这个后面的刷固件找了不少麻烦，还好网络是开放共享的，废了好些时间找到了解决方法。主要思路是降级系统，找到官方下架的固件，手机更新上去，然后再刷入<code>breed</code>固件。相关固件这里汇总了一下，需要的朋友拿去。</p>
+<p>接下来是具体步骤，先由最新版本 <mark>V22.6.507.43</mark> ,降级到 <mark>K2_V22.6.506.28.bin</mark>，最新版本没有开启<code>Telnet</code>功能，这个次新版本开启了<code>Telnet</code>功能且不提示不合法固件，处女刷，用的必须要用此功能哦，呵呵，登录路由后台点手动升级，选择下载好的固件。</p>
+<ol>
+<li>
+<p>下载 <code>K2_V22.6.506.28.bin</code>,<a href="https://pan.baidu.com/s/1dGYpUHr" target="_blank" rel="noopener noreferrer">固件链接</a>,密码: 8z3m</p>
+</li>
+<li>
+<p>下载<code>telnet</code> 打开工具<code>RoutAckProV1B2</code>,<a href="https://pan.baidu.com/s/1jJK88qM" target="_blank" rel="noopener noreferrer">链接</a>,密码: qaix</p>
+</li>
+<li>
+<p>下载路由器刷<code>breed Web</code>控制台助手<code>v4.8</code>版本（内含breed固件）,<a href="https://pan.baidu.com/s/1pLXFt2b" target="_blank" rel="noopener noreferrer">链接</a> ,密码: cban</p>
+</li>
+</ol>
+<p>把上面两个工具分别右键管理员身份打开，路由器长按恢复出厂设置按钮<strong>10</strong>秒，红灯状态下点击工具<code>telnet</code>按钮直到出现收到应答信号，紧接着快速点击<strong>breed工具</strong>的开始刷机按钮，（失败很多次的原因都是<code>Telnet</code>开启时间特别短，黄灯亮了<code>telnet</code>就关闭了，两个按钮几乎要同时按下去了），中间什么都不用管，一会就显示成功了拔掉路由器电源，按着复位键插电源，浏览器<code>192.168.1.1</code>进入<code>breed刷机</code>界面（我是手动修改的<code>ip</code>，两次<code>ip</code>不一样，<code>k2控制台</code>管理<code>ip</code>为<code>192.168.2.1</code>）一路默认，要用网线，据说wifi无线网不可以，其他不相干的网卡先禁用掉。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085017151710061744052.png" alt="breed 界面" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085033151710063319001.png" alt="breed 界面" loading="lazy"></p>
+<p>点击<code>是</code>按钮</p>
+<p>切换设置主机<code>ip:192.168.1.12</code></p>
+<p>登录<code>192.168.1.1</code> 登录之前断一下电重启，下面是升级固件的页面（少一张选择固件的页面截图）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085042151710064235458.png" alt="breed 界面" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/4.png" alt="breed 界面" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085101151710066144139.png" alt="breed 界面" loading="lazy"></p>
+<p>刷完之后，再重启一下，访问<code>192.168.1.1</code>若不能访问，恢复出厂设置后再访问。（断电后按键<code>reset</code>键，接通电源，持续按键<code>10s</code>）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085141151710070155198.png" alt="路由器" loading="lazy"></p>
+<p>默认密码<code>admin</code>或者<code>root</code>，进去之后重新设置密码</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085156151710071622467.png" alt="路由器" loading="lazy"></p>
+<p>最后上图是PuTTY工具登录<code>Telnet</code>,</p>
+<p>远程工具<a href="https://pan.baidu.com/s/1jJ4Z48m" target="_blank" rel="noopener noreferrer">下载链接</a>,密码: d4ng</p>
+<p>这就是一台小型的linux主机，系统体积非常的小，只有数M，可以装进智能摄像头、智能家居、小型机器人、电话里等，用途十分广泛，当然这些只是听说，我没有安装过，呵呵，大家多交流吧 qq787940000</p>
+<p>可以使用opkg命令安装相关软件</p>
+<div><pre><code>opkg update # 更新可以获取的软件包列表
+
+opkg upgrade # 对已经安装的软件包升级
+
+opkg list # 获取软件列表
+
+opkg install # 安装指定的软件包
+
+opkg remove # 卸载已经安装的指定的软件包
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>当然，必须先让路由器连上网才行。</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085017151710061744052.png" type="image/png"/>
     </item>
     <item>
       <title>宝塔面板一键部署佰阅发卡</title>
@@ -8468,22 +8468,6 @@ npm init vuepress-theme-hope docs
 ]]></content:encoded>
     </item>
     <item>
-      <title>个人项目列表</title>
-      <link>https://codenoob.top/projects/</link>
-      <guid isPermaLink="false">/projects/</guid>
-      <source url="https://codenoob.top/rss.xml">个人项目列表</source>
-      <description>欢饮来交流啊</description>
-      <pubDate>Sun, 21 Nov 2021 15:21:44 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="个人项目-欢迎交流"> 个人项目，欢迎交流</h2>
-<p>网站头像请保证在外部可以直接打开的，为保证友链质量，申请的友链都将经过筛选，原则上已添加友链不会轻易删除，如遇死链、盗版、破解、网页植入挖矿脚本、极低质量内容、我站都将单方面移除贵站链接，恕不另行通知。
-<br/>
-<br/>
-<br/>
-<projects /></p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>基于逆向工程和3D打印的头盔创新设计</title>
       <link>https://codenoob.top/projects/PapertTranslation.html</link>
       <guid isPermaLink="false">/projects/PapertTranslation.html</guid>
@@ -8696,6 +8680,22 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 </section>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/图片1.png" type="image/png"/>
+    </item>
+    <item>
+      <title>个人项目列表</title>
+      <link>https://codenoob.top/projects/</link>
+      <guid isPermaLink="false">/projects/</guid>
+      <source url="https://codenoob.top/rss.xml">个人项目列表</source>
+      <description>欢饮来交流啊</description>
+      <pubDate>Sun, 21 Nov 2021 15:21:44 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="个人项目-欢迎交流"> 个人项目，欢迎交流</h2>
+<p>网站头像请保证在外部可以直接打开的，为保证友链质量，申请的友链都将经过筛选，原则上已添加友链不会轻易删除，如遇死链、盗版、破解、网页植入挖矿脚本、极低质量内容、我站都将单方面移除贵站链接，恕不另行通知。
+<br/>
+<br/>
+<br/>
+<projects /></p>
+]]></content:encoded>
     </item>
     <item>
       <title>通用(不是docker)</title>
@@ -9432,23 +9432,6 @@ docker-compose up -d
 ]]></content:encoded>
     </item>
     <item>
-      <title>密码提示显示</title>
-      <link>https://codenoob.top/projects/vaultwarden/Configuration/Password-hint-display.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Password-hint-display.html</guid>
-      <source url="https://codenoob.top/rss.xml">密码提示显示</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>通常，密码提示通过电子邮件发送。但由于 Vaultwarden 是针对小型或个人部署而设计的，因此密码提示页面也提供了提示，因此您无需配置电子邮件服务。如果要禁用此功能，可以使用 <code>SHOW_PASSWORD_HINT</code> 变量：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
-  -e <span>SHOW_PASSWORD_HINT</span><span>=</span>false <span>\</span>
-  -v /vw-data/:/data/ <span>\</span>
-  -p <span>80</span>:80 <span>\</span>
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>非 root 用户身份运行容器</title>
       <link>https://codenoob.top/projects/vaultwarden/Configuration/Running-docker-container-with-non-root-user.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Configuration/Running-docker-container-with-non-root-user.html</guid>
@@ -9486,6 +9469,23 @@ docker-compose up -d
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>请注意，端口映射(<code>-p 80:1024</code>)反映了 <code>ROCKET_PORT</code> 设置。</p>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>密码提示显示</title>
+      <link>https://codenoob.top/projects/vaultwarden/Configuration/Password-hint-display.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Password-hint-display.html</guid>
+      <source url="https://codenoob.top/rss.xml">密码提示显示</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>通常，密码提示通过电子邮件发送。但由于 Vaultwarden 是针对小型或个人部署而设计的，因此密码提示页面也提供了提示，因此您无需配置电子邮件服务。如果要禁用此功能，可以使用 <code>SHOW_PASSWORD_HINT</code> 变量：</p>
+<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+  -e <span>SHOW_PASSWORD_HINT</span><span>=</span>false <span>\</span>
+  -v /vw-data/:/data/ <span>\</span>
+  -p <span>80</span>:80 <span>\</span>
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>使用 systemd docker 运行</title>
@@ -9622,6 +9622,136 @@ delete
 <div><pre><code>sqlite3 db.sqlite3 <span>'PRAGMA journal_mode'</span>
 </code></pre>
 <div><span>1</span><br></div></div><p>其中<code>db.sqlite3</code> 是<code>vaultwarden</code> 使用的数据库文件。它应该返回当前使用的模式，所以在我们的例子中它是 <code>wal</code>。禁用的 WAL 通常会报告<code>删除</code>，因为这是默认设置。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>SMTP配置</title>
+      <link>https://codenoob.top/projects/vaultwarden/Configuration/SMTP-Configuration.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Configuration/SMTP-Configuration.html</guid>
+      <source url="https://codenoob.top/rss.xml">SMTP配置</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>您可以将 Vaultwarden 配置为通过 SMTP 代理发送电子邮件：</p>
+<div><pre><code>docker run -d --name vaultwarden \
+  -e SMTP_HOST=&lt;smtp.domain.tld&gt; \
+  -e SMTP_FROM=&lt;vaultwarden@domain.tld&gt; \
+  -e SMTP_PORT=587 \
+  -e SMTP_SSL=true \
+  -e SMTP_USERNAME=&lt;username&gt; \
+  -e SMTP_PASSWORD=&lt;password&gt; \
+  -v /vw-data/:/data/ \
+  -p 80:80 \
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>当 <code>SMTP_SSL</code> 设置为 <code>true</code>(这是默认值)时，只会接受 TLSv1.1 和 TLSv1.2 协议，并且 <code>SMTP_PORT</code> 将默认为 <code>587</code>。如果设置为<code>false</code>，<code>SMTP\_PORT</code>将默认为<code>25</code>，并且将尝试机会加密(在 2020 年 3 月 12 日之前不会尝试使用代码进行加密)。</p>
+<p>这可能非常不安全，仅当您知道自己在做什么时才使用此设置。要以显式模式运行 SMTP，请将 <code>SMTP_EXPLICIT_TLS</code> 设置为 <code>true</code>。如果您无需登录即可发送电子邮件，则可以简单地不设置<code>SMTP\_USERNAME</code>和<code>SMTP\_PASSWORD</code>。</p>
+<p>请注意，如果启用了 SMTP 和邀请，邀请将通过电子邮件发送给新用户。您必须使用 Vaultwarden 实例的基本 URL 设置 <code>DOMAIN</code> 配置选项，才能正确生成邀请链接：</p>
+<div><pre><code>docker run -d --name vaultwarden \
+...
+-e DOMAIN=https://vault.example.com \
+...
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>用户邀请链接的有效期为 5 天，之后需要发送新邀请。</p>
+<h2 id="smtp-服务器"> SMTP 服务器</h2>
+<p>正确配置 SMTP 服务器/中继并非易事。 Vaultwarden 使用的邮件程序库也不是最容易进行故障排除的。因此，除非您对自己进行设置特别感兴趣，否则使用外部服务可能更容易。</p>
+<p>以下是一些具有免费层级的服务，允许每天发送 100-200 封电子邮件(对于大多数用例来说已经足够了)：</p>
+<ul>
+<li><a href="https://sendgrid.com" target="_blank" rel="noopener noreferrer">SendGrid</a></li>
+<li><a href="https://www.mailjet.com" target="_blank" rel="noopener noreferrer">MailJet</a></li>
+</ul>
+<h2 id="这里有一些众所周知的服务的合理默认值"> 这里有一些众所周知的服务的合理默认值</h2>
+<h3 id="一般的"> 一般的</h3>
+<p>邮件服务器侦听端口 25 主要只是为了接受来自其他邮件服务器的邮件，并且仅接收它们作为最终位置的邮件。</p>
+<p>此外，许多互联网提供商会阻止传出端口 25 以防止垃圾邮件。</p>
+<p>大多数邮件服务器需要登录才能使用端口 587 或端口 465。</p>
+<p>端口 587 称为提交端口，大多数时候只能在使用用户名和密码时使用。在客户端和服务器之间的通信期间，端口 587 开始时未加密并升级为 TLS 加密连接。</p>
+<p>端口 465 从一开始就是 SSL 加密的，并且根本没有通过该端口进行纯文本通信。</p>
+<p>每个端口的一些常规设置。</p>
+<ul>
+<li>
+<p>用于使用端口 465 的邮件服务器</p>
+<div><pre><code><span>SMTP_PORT</span><span>=</span><span>465</span>
+<span>SMTP_SSL</span><span>=</span><span>false</span>
+<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
+<li>
+<p>用于使用端口 587(有时为 25)的邮件服务器</p>
+<div><pre><code><span>SMTP_PORT</span><span>=</span><span>587</span>
+<span>SMTP_SSL</span><span>=</span><span>true</span>
+<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
+<li>
+<p>用于根本不支持加密的邮件服务器。</p>
+<div><pre><code><span>SMTP_PORT</span><span>=</span><span>25</span>
+<span>SMTP_SSL</span><span>=</span><span>false</span>
+<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
+</ul>
+<h2 id="google-gmail"> Google/Gmail</h2>
+<p>您需要为 Vaultwarden 生成应用密码才能使用 Gmail。
+请按照此处的步骤操作：<a href="https://support.google.com/accounts/answer/185833?hl=zh-CN&amp;ref_topic=7189145" target="_blank" rel="noopener noreferrer">https://support.google.com/accounts/answer/185833?hl=zh-CN&amp;ref_topic=7189145</a>
+最后你会看到一个密码(中间没有空格，只是为了方便输入)，我们这个密码。</p>
+<p>FullSSL：</p>
+<div><pre><code>  <span># 域：gmail.com、googlemail.com</span>
+  <span>SMTP_HOST</span><span>=</span><span>smtp.gmail.com</span>
+  <span>SMTP_PORT</span><span>=</span><span>465</span>
+  <span>SMTP_SSL</span><span>=</span><span>false</span>
+  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
+  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
+  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;不安全的应用程序密码></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>StartTLS：</p>
+<div><pre><code>  <span># 域：gmail.com、googlemail.com</span>
+  <span>SMTP_HOST</span><span>=</span><span>smtp.gmail.com</span>
+  <span>SMTP_PORT</span><span>=</span><span>587</span>
+  <span>SMTP_SSL</span><span>=</span><span>true</span>
+  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
+  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
+  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;不安全的应用程序密码></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>另见：<a href="https://web.archive.org/web/20210925161633/https://webewizard.com/2019/09/17/Using-Lettre-With-Gmail/" target="_blank" rel="noopener noreferrer">https://web.archive.org/web/20210925161633/https://webewizard.com/2019/09/17/Using-Lettre-With-Gmail/</a></p>
+<h2 id="hotmail-outlook-office365"> Hotmail/Outlook/Office365</h2>
+<div><pre><code>  <span># 域名：hotmail.com、outlook.com、office365.com</span>
+  <span>SMTP_HOST</span><span>=</span><span>smtp-mail.outlook.com</span>
+  <span>SMTP_PORT</span><span>=</span><span>587</span>
+  <span>SMTP_SSL</span><span>=</span><span>true</span>
+  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
+  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
+  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;密码></span>
+  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>Login</span>"</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h2 id="发送网格"> 发送网格</h2>
+<p>将 <code>&lt;full-api-key&gt;</code> 替换为从 SendGrid 生成的以 <code>SG</code> 开头的 API-Key。
+还要确保 API-Key 具有完整的<code>邮件发送</code>权限，否则您无法使用此密钥登录。</p>
+<p>StartTLS：</p>
+<div><pre><code>  <span>SMTP_HOST</span><span>=</span><span>smtp.sendgrid.net</span>
+  <span>SMTP_PORT</span><span>=</span><span>587</span>
+  <span>SMTP_SSL</span><span>=</span><span>true</span>
+  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
+  <span>SMTP_USERNAME</span><span>=</span><span>apikey</span>
+  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;full-api-key></span>
+  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>登录</span>"</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>Full SSL：</p>
+<div><pre><code>  <span>SMTP_HOST</span><span>=</span><span>smtp.sendgrid.net</span>
+  <span>SMTP_PORT</span><span>=</span><span>465</span>
+  <span>SMTP_SSL</span><span>=</span><span>false</span>
+  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
+  <span>SMTP_USERNAME</span><span>=</span><span>apikey</span>
+  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;full-api-key></span>
+  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>登录</span>"</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="带有特殊字符的密码"> 带有特殊字符的密码</h2>
+<p>如果您想在密码中使用一些特殊字符，可能需要对其中一些字符进行转义以免混淆环境变量解析器。
+例如，可以使用<code>\</code> 或<code>'</code> 或<code>&quot;</code>，但有时需要对它们进行转义，以便实际使用。 如果您使用特殊字符，最好总是在密码周围使用单引号。
+我们以下面的密码为例：<code>~^&quot;,a.%\,'}b&amp;@|/c!1(#}</code>
+以下是一些可能会破坏环境变量解析的字符，例如 <code>\</code>、<code>'</code> 和 <code>&quot;</code>。 单个<code>\</code>通常用于转义其他字符，因此如果要使用单个<code>\</code>，则需要键入<code>\\</code>。
+此外，引号 <code>'</code> 和 <code>&quot;</code> 可能会导致一些问题，因此让我们将此密码括在单引号内并转义特殊字符。
+为了让上面的密码起作用，我们需要输入 <code>'~^&quot;,a.%\\,\'}b&amp;@|/c!1(#}'</code>，在这里你看到我们转义了 <code>\</code>和 <code>'</code> 字符并使用单引号将整个密码括起来。 所以：<code>~^&quot;,a.%\,'}b&amp;@|/c!1(#}</code> 变成了<code>'~^&quot;,a.%\\,\'}b&amp;@|/c!1(# }'</code></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -9762,136 +9892,6 @@ WEBSOCKET_ENABLED=true # enable websocket
 ]]></content:encoded>
     </item>
     <item>
-      <title>SMTP配置</title>
-      <link>https://codenoob.top/projects/vaultwarden/Configuration/SMTP-Configuration.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Configuration/SMTP-Configuration.html</guid>
-      <source url="https://codenoob.top/rss.xml">SMTP配置</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>您可以将 Vaultwarden 配置为通过 SMTP 代理发送电子邮件：</p>
-<div><pre><code>docker run -d --name vaultwarden \
-  -e SMTP_HOST=&lt;smtp.domain.tld&gt; \
-  -e SMTP_FROM=&lt;vaultwarden@domain.tld&gt; \
-  -e SMTP_PORT=587 \
-  -e SMTP_SSL=true \
-  -e SMTP_USERNAME=&lt;username&gt; \
-  -e SMTP_PASSWORD=&lt;password&gt; \
-  -v /vw-data/:/data/ \
-  -p 80:80 \
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>当 <code>SMTP_SSL</code> 设置为 <code>true</code>(这是默认值)时，只会接受 TLSv1.1 和 TLSv1.2 协议，并且 <code>SMTP_PORT</code> 将默认为 <code>587</code>。如果设置为<code>false</code>，<code>SMTP\_PORT</code>将默认为<code>25</code>，并且将尝试机会加密(在 2020 年 3 月 12 日之前不会尝试使用代码进行加密)。</p>
-<p>这可能非常不安全，仅当您知道自己在做什么时才使用此设置。要以显式模式运行 SMTP，请将 <code>SMTP_EXPLICIT_TLS</code> 设置为 <code>true</code>。如果您无需登录即可发送电子邮件，则可以简单地不设置<code>SMTP\_USERNAME</code>和<code>SMTP\_PASSWORD</code>。</p>
-<p>请注意，如果启用了 SMTP 和邀请，邀请将通过电子邮件发送给新用户。您必须使用 Vaultwarden 实例的基本 URL 设置 <code>DOMAIN</code> 配置选项，才能正确生成邀请链接：</p>
-<div><pre><code>docker run -d --name vaultwarden \
-...
--e DOMAIN=https://vault.example.com \
-...
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>用户邀请链接的有效期为 5 天，之后需要发送新邀请。</p>
-<h2 id="smtp-服务器"> SMTP 服务器</h2>
-<p>正确配置 SMTP 服务器/中继并非易事。 Vaultwarden 使用的邮件程序库也不是最容易进行故障排除的。因此，除非您对自己进行设置特别感兴趣，否则使用外部服务可能更容易。</p>
-<p>以下是一些具有免费层级的服务，允许每天发送 100-200 封电子邮件(对于大多数用例来说已经足够了)：</p>
-<ul>
-<li><a href="https://sendgrid.com" target="_blank" rel="noopener noreferrer">SendGrid</a></li>
-<li><a href="https://www.mailjet.com" target="_blank" rel="noopener noreferrer">MailJet</a></li>
-</ul>
-<h2 id="这里有一些众所周知的服务的合理默认值"> 这里有一些众所周知的服务的合理默认值</h2>
-<h3 id="一般的"> 一般的</h3>
-<p>邮件服务器侦听端口 25 主要只是为了接受来自其他邮件服务器的邮件，并且仅接收它们作为最终位置的邮件。</p>
-<p>此外，许多互联网提供商会阻止传出端口 25 以防止垃圾邮件。</p>
-<p>大多数邮件服务器需要登录才能使用端口 587 或端口 465。</p>
-<p>端口 587 称为提交端口，大多数时候只能在使用用户名和密码时使用。在客户端和服务器之间的通信期间，端口 587 开始时未加密并升级为 TLS 加密连接。</p>
-<p>端口 465 从一开始就是 SSL 加密的，并且根本没有通过该端口进行纯文本通信。</p>
-<p>每个端口的一些常规设置。</p>
-<ul>
-<li>
-<p>用于使用端口 465 的邮件服务器</p>
-<div><pre><code><span>SMTP_PORT</span><span>=</span><span>465</span>
-<span>SMTP_SSL</span><span>=</span><span>false</span>
-<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
-<li>
-<p>用于使用端口 587(有时为 25)的邮件服务器</p>
-<div><pre><code><span>SMTP_PORT</span><span>=</span><span>587</span>
-<span>SMTP_SSL</span><span>=</span><span>true</span>
-<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
-<li>
-<p>用于根本不支持加密的邮件服务器。</p>
-<div><pre><code><span>SMTP_PORT</span><span>=</span><span>25</span>
-<span>SMTP_SSL</span><span>=</span><span>false</span>
-<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
-</ul>
-<h2 id="google-gmail"> Google/Gmail</h2>
-<p>您需要为 Vaultwarden 生成应用密码才能使用 Gmail。
-请按照此处的步骤操作：<a href="https://support.google.com/accounts/answer/185833?hl=zh-CN&amp;ref_topic=7189145" target="_blank" rel="noopener noreferrer">https://support.google.com/accounts/answer/185833?hl=zh-CN&amp;ref_topic=7189145</a>
-最后你会看到一个密码(中间没有空格，只是为了方便输入)，我们这个密码。</p>
-<p>FullSSL：</p>
-<div><pre><code>  <span># 域：gmail.com、googlemail.com</span>
-  <span>SMTP_HOST</span><span>=</span><span>smtp.gmail.com</span>
-  <span>SMTP_PORT</span><span>=</span><span>465</span>
-  <span>SMTP_SSL</span><span>=</span><span>false</span>
-  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
-  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
-  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;不安全的应用程序密码></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>StartTLS：</p>
-<div><pre><code>  <span># 域：gmail.com、googlemail.com</span>
-  <span>SMTP_HOST</span><span>=</span><span>smtp.gmail.com</span>
-  <span>SMTP_PORT</span><span>=</span><span>587</span>
-  <span>SMTP_SSL</span><span>=</span><span>true</span>
-  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
-  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
-  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;不安全的应用程序密码></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>另见：<a href="https://web.archive.org/web/20210925161633/https://webewizard.com/2019/09/17/Using-Lettre-With-Gmail/" target="_blank" rel="noopener noreferrer">https://web.archive.org/web/20210925161633/https://webewizard.com/2019/09/17/Using-Lettre-With-Gmail/</a></p>
-<h2 id="hotmail-outlook-office365"> Hotmail/Outlook/Office365</h2>
-<div><pre><code>  <span># 域名：hotmail.com、outlook.com、office365.com</span>
-  <span>SMTP_HOST</span><span>=</span><span>smtp-mail.outlook.com</span>
-  <span>SMTP_PORT</span><span>=</span><span>587</span>
-  <span>SMTP_SSL</span><span>=</span><span>true</span>
-  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
-  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
-  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;密码></span>
-  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>Login</span>"</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h2 id="发送网格"> 发送网格</h2>
-<p>将 <code>&lt;full-api-key&gt;</code> 替换为从 SendGrid 生成的以 <code>SG</code> 开头的 API-Key。
-还要确保 API-Key 具有完整的<code>邮件发送</code>权限，否则您无法使用此密钥登录。</p>
-<p>StartTLS：</p>
-<div><pre><code>  <span>SMTP_HOST</span><span>=</span><span>smtp.sendgrid.net</span>
-  <span>SMTP_PORT</span><span>=</span><span>587</span>
-  <span>SMTP_SSL</span><span>=</span><span>true</span>
-  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
-  <span>SMTP_USERNAME</span><span>=</span><span>apikey</span>
-  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;full-api-key></span>
-  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>登录</span>"</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>Full SSL：</p>
-<div><pre><code>  <span>SMTP_HOST</span><span>=</span><span>smtp.sendgrid.net</span>
-  <span>SMTP_PORT</span><span>=</span><span>465</span>
-  <span>SMTP_SSL</span><span>=</span><span>false</span>
-  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
-  <span>SMTP_USERNAME</span><span>=</span><span>apikey</span>
-  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;full-api-key></span>
-  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>登录</span>"</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="带有特殊字符的密码"> 带有特殊字符的密码</h2>
-<p>如果您想在密码中使用一些特殊字符，可能需要对其中一些字符进行转义以免混淆环境变量解析器。
-例如，可以使用<code>\</code> 或<code>'</code> 或<code>&quot;</code>，但有时需要对它们进行转义，以便实际使用。 如果您使用特殊字符，最好总是在密码周围使用单引号。
-我们以下面的密码为例：<code>~^&quot;,a.%\,'}b&amp;@|/c!1(#}</code>
-以下是一些可能会破坏环境变量解析的字符，例如 <code>\</code>、<code>'</code> 和 <code>&quot;</code>。 单个<code>\</code>通常用于转义其他字符，因此如果要使用单个<code>\</code>，则需要键入<code>\\</code>。
-此外，引号 <code>'</code> 和 <code>&quot;</code> 可能会导致一些问题，因此让我们将此密码括在单引号内并转义特殊字符。
-为了让上面的密码起作用，我们需要输入 <code>'~^&quot;,a.%\\,\'}b&amp;@|/c!1(#}'</code>，在这里你看到我们转义了 <code>\</code>和 <code>'</code> 字符并使用单引号将整个密码括起来。 所以：<code>~^&quot;,a.%\,'}b&amp;@|/c!1(#}</code> 变成了<code>'~^&quot;,a.%\\,\'}b&amp;@|/c!1(# }'</code></p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>从 LDAP 同步用户</title>
       <link>https://codenoob.top/projects/vaultwarden/Configuration/Syncing-users-from-LDAP.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Configuration/Syncing-users-from-LDAP.html</guid>
@@ -9960,6 +9960,107 @@ location /my-base-path-2/ {
 <h2 id="反向代理"> 反向代理</h2>
 <p>如果您将 vaultwarden 置于反向代理之后，请确保您的代理配置为将请求路径传递到 vaultwarden，因为 vaultwarden API 路由设置为期望基本目录。</p>
 <p>因此，如果对 <code>https://vaultwarden.example.com/base-dir/api/sync</code> 的请求命中了你的反向代理，然后代理到你的 vaultwarden 监听 <code>localhost:8080</code>，请求必须转到 <code>http ://localhost:8080/base-dir/api/sync</code>，而不是<code>http://localhost:8080/api/sync</code>。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>使用PostgreSQL后端</title>
+      <link>https://codenoob.top/projects/vaultwarden/Configuration/Using-the-PostgreSQL-Backend.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Using-the-PostgreSQL-Backend.html</guid>
+      <source url="https://codenoob.top/rss.xml">使用PostgreSQL后端</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>要使用 PostgreSQL 后端，您可以使用 <a href="https://hub.docker.com/r/vaultwarden/server" target="_blank" rel="noopener noreferrer">官方 Docker 映像</a> 或构建您自己的二进制文件 <a href="./../Deployment/Building-binary.html#postgresql-后端">启用 PostgreSQL</a>。</p>
+<p>要运行二进制文件或容器，请确保设置了 <code>DATABASE_URL</code> 环境变量(即 <code>DATABASE_URL='postgresql://&lt;user&gt;:&lt;password&gt;@postgresql/bitwarden'</code>)</p>
+<p><strong>连接字符串语法：</strong></p>
+<div><pre><code><span>DATABASE_URL</span><span>=</span><span>postgresql://[[user]:[password]@]host[:port][/database]</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>一个示例 docker run 环境变量是：</p>
+<div><pre><code>-e &#39;DATABASE_URL=postgresql://postgresadmin:strongpassword@postgres:5432/vaultwarden&#39;
+</code></pre>
+<div><span>1</span><br></div></div><p>如果您的密码包含特殊字符，则需要使用百分比编码。</p>
+<table>
+<thead>
+<tr>
+<th>!</th>
+<th>#</th>
+<th>$</th>
+<th>%</th>
+<th>&amp;</th>
+<th>'</th>
+<th>(</th>
+<th>)</th>
+<th>*</th>
+<th>+</th>
+<th>,</th>
+<th>/</th>
+<th>:</th>
+<th>;</th>
+<th>=</th>
+<th>?</th>
+<th>@</th>
+<th>[</th>
+<th>]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>%21</td>
+<td>%23</td>
+<td>%24</td>
+<td>%25</td>
+<td>%26</td>
+<td>%27</td>
+<td>%28</td>
+<td>%29</td>
+<td>%2A</td>
+<td>%2B</td>
+<td>%2C</td>
+<td>%2F</td>
+<td>%3A</td>
+<td>%3B</td>
+<td>%3D</td>
+<td>%3F</td>
+<td>%40</td>
+<td>%5B</td>
+<td>%5D</td>
+</tr>
+</tbody>
+</table>
+<p>完整的代码列表可以在<a href="https://en.wikipedia.org/wiki/Percent-encoding#Percent-encoding_reserved_characters" target="_blank" rel="noopener noreferrer">百分比编码的维基百科页面</a>上找到</p>
+<p><strong>从 SQLite 迁移到 PostgreSQL</strong></p>
+<p>有一种从 SQLite 迁移到 PostgreSQL 或 MySQL 的简单方法，但请注意，您 <strong>使用它的风险由您自己承担，强烈建议您备份安装和数据！</strong>。这是<strong>不受支持的</strong>，尚未经过稳健测试。</p>
+<ol>
+<li>为 Vaultwarden 创建一个新的(空)数据库：</li>
+</ol>
+<div><pre><code><span>CREATE</span> <span>DATABASE</span> vaultwarden<span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>2.新建数据库用户并授予数据库权限：</p>
+<div><pre><code><span>CREATE</span> <span>USER</span> vaultwarden <span>WITH</span> ENCRYPTED PASSWORD <span>'yourpassword'</span><span>;</span>
+<span>GRANT</span> <span>all</span> <span>privileges</span> <span>ON</span> <span>database</span> vaultwarden <span>TO</span> vaultwarden<span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><ol start="3">
+<li>配置 Vaultwarden 并启动它，以便diesel 可以运行迁移并正确设置架构。不要做别的。</li>
+<li>停止保管员。</li>
+<li>安装<a href="http://pgloader.io/" target="_blank" rel="noopener noreferrer">pgloader</a></li>
+<li><a href="./Running-without-WAL-enabled.html#_1-在旧数据库上禁用-wal">禁用WAL</a> SQLite 数据库。</li>
+<li>创建文件bitwarden.load，内容如下：</li>
+</ol>
+<div><pre><code>load database
+     from sqlite:///where/you/keep/your/vaultwarden/db.sqlite3 
+     into postgresql://yourpgsqluser:yourpgsqlpassword@yourpgsqlserver:yourpgsqlport/yourpgsqldatabase
+     WITH data only, include no drop, reset sequences
+     EXCLUDING TABLE NAMES LIKE &#39;__diesel_schema_migrations&#39;
+     ALTER SCHEMA &#39;bitwarden&#39; RENAME TO &#39;public&#39;
+;
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><ol start="8">
+<li>运行命令</li>
+</ol>
+<div><pre><code>pgloader bitwarden.load
+</code></pre>
+<div><span>1</span><br></div></div><p>你可能会看到一些警告，但迁移应该成功完成
+9. 再次启动 Vaultwarden。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -10164,107 +10265,6 @@ use vaultwarden
 <div><pre><code>ERROR 1136 (21S01) at line ###: Column count doesn&#39;t match value count at row 1
 </code></pre>
 <div><span>1</span><br></div></div><p>版本跳转可能添加了新的数据库列。首先使用 SQLite 后端升级 vaultwarden 以在 SQLite 数据库上运行迁移，切换到 MariaDB 后端，然后重复上述迁移步骤。或者，查找自您安装的版本以来添加迁移的提交，并使用 <code>sqlite3</code> 手动运行迁移。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>使用PostgreSQL后端</title>
-      <link>https://codenoob.top/projects/vaultwarden/Configuration/Using-the-PostgreSQL-Backend.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Using-the-PostgreSQL-Backend.html</guid>
-      <source url="https://codenoob.top/rss.xml">使用PostgreSQL后端</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>要使用 PostgreSQL 后端，您可以使用 <a href="https://hub.docker.com/r/vaultwarden/server" target="_blank" rel="noopener noreferrer">官方 Docker 映像</a> 或构建您自己的二进制文件 <a href="./../Deployment/Building-binary.html#postgresql-后端">启用 PostgreSQL</a>。</p>
-<p>要运行二进制文件或容器，请确保设置了 <code>DATABASE_URL</code> 环境变量(即 <code>DATABASE_URL='postgresql://&lt;user&gt;:&lt;password&gt;@postgresql/bitwarden'</code>)</p>
-<p><strong>连接字符串语法：</strong></p>
-<div><pre><code><span>DATABASE_URL</span><span>=</span><span>postgresql://[[user]:[password]@]host[:port][/database]</span>
-</code></pre>
-<div><span>1</span><br></div></div><p>一个示例 docker run 环境变量是：</p>
-<div><pre><code>-e &#39;DATABASE_URL=postgresql://postgresadmin:strongpassword@postgres:5432/vaultwarden&#39;
-</code></pre>
-<div><span>1</span><br></div></div><p>如果您的密码包含特殊字符，则需要使用百分比编码。</p>
-<table>
-<thead>
-<tr>
-<th>!</th>
-<th>#</th>
-<th>$</th>
-<th>%</th>
-<th>&amp;</th>
-<th>'</th>
-<th>(</th>
-<th>)</th>
-<th>*</th>
-<th>+</th>
-<th>,</th>
-<th>/</th>
-<th>:</th>
-<th>;</th>
-<th>=</th>
-<th>?</th>
-<th>@</th>
-<th>[</th>
-<th>]</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>%21</td>
-<td>%23</td>
-<td>%24</td>
-<td>%25</td>
-<td>%26</td>
-<td>%27</td>
-<td>%28</td>
-<td>%29</td>
-<td>%2A</td>
-<td>%2B</td>
-<td>%2C</td>
-<td>%2F</td>
-<td>%3A</td>
-<td>%3B</td>
-<td>%3D</td>
-<td>%3F</td>
-<td>%40</td>
-<td>%5B</td>
-<td>%5D</td>
-</tr>
-</tbody>
-</table>
-<p>完整的代码列表可以在<a href="https://en.wikipedia.org/wiki/Percent-encoding#Percent-encoding_reserved_characters" target="_blank" rel="noopener noreferrer">百分比编码的维基百科页面</a>上找到</p>
-<p><strong>从 SQLite 迁移到 PostgreSQL</strong></p>
-<p>有一种从 SQLite 迁移到 PostgreSQL 或 MySQL 的简单方法，但请注意，您 <strong>使用它的风险由您自己承担，强烈建议您备份安装和数据！</strong>。这是<strong>不受支持的</strong>，尚未经过稳健测试。</p>
-<ol>
-<li>为 Vaultwarden 创建一个新的(空)数据库：</li>
-</ol>
-<div><pre><code><span>CREATE</span> <span>DATABASE</span> vaultwarden<span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div><p>2.新建数据库用户并授予数据库权限：</p>
-<div><pre><code><span>CREATE</span> <span>USER</span> vaultwarden <span>WITH</span> ENCRYPTED PASSWORD <span>'yourpassword'</span><span>;</span>
-<span>GRANT</span> <span>all</span> <span>privileges</span> <span>ON</span> <span>database</span> vaultwarden <span>TO</span> vaultwarden<span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><ol start="3">
-<li>配置 Vaultwarden 并启动它，以便diesel 可以运行迁移并正确设置架构。不要做别的。</li>
-<li>停止保管员。</li>
-<li>安装<a href="http://pgloader.io/" target="_blank" rel="noopener noreferrer">pgloader</a></li>
-<li><a href="./Running-without-WAL-enabled.html#_1-在旧数据库上禁用-wal">禁用WAL</a> SQLite 数据库。</li>
-<li>创建文件bitwarden.load，内容如下：</li>
-</ol>
-<div><pre><code>load database
-     from sqlite:///where/you/keep/your/vaultwarden/db.sqlite3 
-     into postgresql://yourpgsqluser:yourpgsqlpassword@yourpgsqlserver:yourpgsqlport/yourpgsqldatabase
-     WITH data only, include no drop, reset sequences
-     EXCLUDING TABLE NAMES LIKE &#39;__diesel_schema_migrations&#39;
-     ALTER SCHEMA &#39;bitwarden&#39; RENAME TO &#39;public&#39;
-;
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><ol start="8">
-<li>运行命令</li>
-</ol>
-<div><pre><code>pgloader bitwarden.load
-</code></pre>
-<div><span>1</span><br></div></div><p>你可能会看到一些警告，但迁移应该成功完成
-9. 再次启动 Vaultwarden。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -10769,37 +10769,6 @@ $ systemctl start container-vaultwarden.service
 ]]></content:encoded>
     </item>
     <item>
-      <title>构建你自己的docker镜像</title>
-      <link>https://codenoob.top/projects/vaultwarden/Deployment/Building-your-own-docker-image.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Deployment/Building-your-own-docker-image.html</guid>
-      <source url="https://codenoob.top/rss.xml">构建你自己的docker镜像</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>克隆存储库，然后从存储库的根目录运行以使用默认的 sqlite 后端构建：</p>
-<div><pre><code><span># 构建docker镜像：</span>
-docker build -t vaultwarden <span>.</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>要使用 MySQL 后端构建，请运行：</p>
-<div><pre><code><span># 构建docker镜像：</span>
-docker build -t Vaultwarden --build-arg <span>DB</span><span>=</span>mysql <span>.</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>要使用 Postgresql 后端构建，请运行：</p>
-<div><pre><code><span># 构建docker镜像：</span>
-docker build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql <span>.</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>在 docker-compose.yml 中它看起来像</p>
-<div><pre><code>  vaultwarden:
-    # 镜像：Vaultwarden/server-postgresql:latest
-    image: vaultwarden
-    build: 
-      context: vaultwarden
-      args: 
-        DB: postgresql
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>构建二进制</title>
       <link>https://codenoob.top/projects/vaultwarden/Deployment/Building-binary.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Deployment/Building-binary.html</guid>
@@ -10925,6 +10894,37 @@ cargo build --features postgresql --release
 ]]></content:encoded>
     </item>
     <item>
+      <title>构建你自己的docker镜像</title>
+      <link>https://codenoob.top/projects/vaultwarden/Deployment/Building-your-own-docker-image.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Deployment/Building-your-own-docker-image.html</guid>
+      <source url="https://codenoob.top/rss.xml">构建你自己的docker镜像</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>克隆存储库，然后从存储库的根目录运行以使用默认的 sqlite 后端构建：</p>
+<div><pre><code><span># 构建docker镜像：</span>
+docker build -t vaultwarden <span>.</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>要使用 MySQL 后端构建，请运行：</p>
+<div><pre><code><span># 构建docker镜像：</span>
+docker build -t Vaultwarden --build-arg <span>DB</span><span>=</span>mysql <span>.</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>要使用 Postgresql 后端构建，请运行：</p>
+<div><pre><code><span># 构建docker镜像：</span>
+docker build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql <span>.</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>在 docker-compose.yml 中它看起来像</p>
+<div><pre><code>  vaultwarden:
+    # 镜像：Vaultwarden/server-postgresql:latest
+    image: vaultwarden
+    build: 
+      context: vaultwarden
+      args: 
+        DB: postgresql
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>部署示例</title>
       <link>https://codenoob.top/projects/vaultwarden/Deployment/Deployment-examples.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Deployment/Deployment-examples.html</guid>
@@ -11016,6 +11016,31 @@ cargo build --features postgresql --release
 <li><a href="https://github.com/umireon/vaultwarden-qnap" target="_blank" rel="noopener noreferrer">https://github.com/umireon/vaultwarden-qnap</a></li>
 </ul>
 <p>您可以使用 Let's Encrypt 将 Vaultwarden 安装到您的安全网络附加存储 (NAS) 中。 由于 QNAP 内置 HTTP(S) 服务器，您无法在标准 HTTP(S) 端口 (80 / 443) 上发布 Vaultwarden。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Kubernetes 部署</title>
+      <link>https://codenoob.top/projects/vaultwarden/Deployment/Kubernetes-deployment.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Deployment/Kubernetes-deployment.html</guid>
+      <source url="https://codenoob.top/rss.xml">Kubernetes 部署</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>警告</p>
+<p>官方已删除此Wiki页</p>
+</div>
+<p>在 Kubernetes 上部署有两种选择：</p>
+<ul>
+<li>原生</li>
+<li>通过 <a href="https://helm.sh/" target="_blank" rel="noopener noreferrer">Helm</a></li>
+</ul>
+<h2 id="本地"> 本地</h2>
+<p>请查看 <a href="https://github.com/icicimov/kubernetes-bitwarden_rs" target="_blank" rel="noopener noreferrer">kubernetes-bitwarden_rs</a> 存储库，例如在 Kubernetes 中的部署。</p>
+<p>它将在 <a href="https://github.com/kubernetes/ingress-nginx" target="_blank" rel="noopener noreferrer">nginx-ingress-controller</a> 和 AWS <a href="https://aws.amazon.com/elasticloadbalancing/features/#Details_for_Elastic_Load_Balancing_Products" target="_blank" rel="noopener noreferrer">ELBv1</a> 后面的 Kubernetes 中设置一个功能齐全且安全的<code>vaultwarden</code>应用程序。它提供的不仅仅是简单的部署，而且您可以根据需要和设置使用全部或部分清单。</p>
+<h2 id="通过头盔​​"> 通过头盔​​</h2>
+<p>请查看 <a href="https://github.com/Skeen/helm-bitwarden_rs" target="_blank" rel="noopener noreferrer">helm-bitwarden_rs</a> 存储库，例如在 Kubernetes 中的部署。</p>
+<p>它将在您选择的 nginx 控制器后面的 Kubernetes 中设置一个功能齐全且安全的<code>Vaultwarden</code>应用程序。它运行良好，并通过 <a href="https://microk8s.io/" target="_blank" rel="noopener noreferrer">microk8s</a> 设置进行了测试。也支持通过 <a href="https://github.com/jetstack/cert-manager" target="_blank" rel="noopener noreferrer">cert-manager</a> 生成 SSL 证书。</p>
+<p>另一个具有同样甚至更多灵活性的选择是：<a href="https://github.com/gissilabs/charts/tree/master/vaultwarden" target="_blank" rel="noopener noreferrer">https://github.com/gissilabs/charts/tree/master/vaultwarden</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -11124,31 +11149,6 @@ verify return:1
 <p>注册域并为 vaultwarden 实例添加 DNS 记录后，登录 Cloudflare 仪表板并选择<code>SSL/TLS</code>，然后选择<code>源服务器</code>。生成原始证书(您可以选择有效期最长为 15 年)并配置 Vaultwarden 以使用它。如果您选择了 15 年有效期，则在可预见的未来您将无需更新此原产地证书。</p>
 <p>请注意，原始证书仅用于保护 Cloudflare 和 Vaultwarden 之间的通信。 Cloudflare 将自动处理用于客户端和 Cloudflare 之间通信的证书的颁发和更新。</p>
 <p>此外，如果您使用的是 vaultwarden 内置的 Rocket HTTPS 服务器，请确保选择<code>RSA</code>作为原始证书的私钥类型，因为 Rocket 目前不支持 ECC/ECDSA 证书。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Kubernetes 部署</title>
-      <link>https://codenoob.top/projects/vaultwarden/Deployment/Kubernetes-deployment.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Deployment/Kubernetes-deployment.html</guid>
-      <source url="https://codenoob.top/rss.xml">Kubernetes 部署</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>警告</p>
-<p>官方已删除此Wiki页</p>
-</div>
-<p>在 Kubernetes 上部署有两种选择：</p>
-<ul>
-<li>原生</li>
-<li>通过 <a href="https://helm.sh/" target="_blank" rel="noopener noreferrer">Helm</a></li>
-</ul>
-<h2 id="本地"> 本地</h2>
-<p>请查看 <a href="https://github.com/icicimov/kubernetes-bitwarden_rs" target="_blank" rel="noopener noreferrer">kubernetes-bitwarden_rs</a> 存储库，例如在 Kubernetes 中的部署。</p>
-<p>它将在 <a href="https://github.com/kubernetes/ingress-nginx" target="_blank" rel="noopener noreferrer">nginx-ingress-controller</a> 和 AWS <a href="https://aws.amazon.com/elasticloadbalancing/features/#Details_for_Elastic_Load_Balancing_Products" target="_blank" rel="noopener noreferrer">ELBv1</a> 后面的 Kubernetes 中设置一个功能齐全且安全的<code>vaultwarden</code>应用程序。它提供的不仅仅是简单的部署，而且您可以根据需要和设置使用全部或部分清单。</p>
-<h2 id="通过头盔​​"> 通过头盔​​</h2>
-<p>请查看 <a href="https://github.com/Skeen/helm-bitwarden_rs" target="_blank" rel="noopener noreferrer">helm-bitwarden_rs</a> 存储库，例如在 Kubernetes 中的部署。</p>
-<p>它将在您选择的 nginx 控制器后面的 Kubernetes 中设置一个功能齐全且安全的<code>Vaultwarden</code>应用程序。它运行良好，并通过 <a href="https://microk8s.io/" target="_blank" rel="noopener noreferrer">microk8s</a> 设置进行了测试。也支持通过 <a href="https://github.com/jetstack/cert-manager" target="_blank" rel="noopener noreferrer">cert-manager</a> 生成 SSL 证书。</p>
-<p>另一个具有同样甚至更多灵活性的选择是：<a href="https://github.com/gissilabs/charts/tree/master/vaultwarden" target="_blank" rel="noopener noreferrer">https://github.com/gissilabs/charts/tree/master/vaultwarden</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -12017,6 +12017,52 @@ export WEBSOCKET_ENABLED=true
       <enclosure url="https://i.imgur.com/BBvy4Yj.png" type="image/png"/>
     </item>
     <item>
+      <title>第三方包</title>
+      <link>https://codenoob.top/projects/vaultwarden/Deployment/Third-party-packages.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Deployment/Third-party-packages.html</guid>
+      <source url="https://codenoob.top/rss.xml">第三方包</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>此页面是第三方 Vaultwarden 软件包的索引。</p>
+<p>由于这些软件包不是由 Vaultwarden 维护或控制的，因此它们可能落后于官方版本，有时甚至明显滞后。</p>
+<p>如果你依赖这些包，你可能想要<a href="https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository" target="_blank" rel="noopener noreferrer">启用观看</a> 用于新的 vaultwarden 版本，并让维护者知道软件包是否没有保持最新。</p>
+<h2 id="arch-linux"> Arch Linux</h2>
+<p>可在 <a href="https://archlinux.org/packages/community/x86_64/vaultwarden/" target="_blank" rel="noopener noreferrer">官方存储库</a> 以及 <a href="https://archlinux.org/packages/community/any/vaultwarden-%E7%BD%91%E7%BB%9C/" target="_blank" rel="noopener noreferrer">web vault</a>。</p>
+<h2 id="debian"> Debian</h2>
+<p>基于 docker 的工具链可用于构建 debian 包：<a href="https://github.com/greizgh/bitwarden_rs-debian" target="_blank" rel="noopener noreferrer">https://github.com/greizgh/bitwarden_rs-debian</a></p>
+<p>它捆绑了服务器和网络密码管理。</p>
+<h2 id="centos7-rhel7"> CentOS7 / RHEL7</h2>
+<p>RPM 存储库由 @MrMEEE 在此处打包：<a href="https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/</a>...这还包括附加包中的网络界面。</p>
+<p>安装说明：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md</a></p>
+<p>RPM 的任何问题都可以在这里报告：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/issues" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/issues</a></p>
+<h2 id="centos-8-rhel-8"> CentOS 8 / RHEL 8</h2>
+<p>构建 RPM 并使用 Docker 将其推送到 COPR 的 repo 的一个分支。</p>
+<p><a href="https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8" target="_blank" rel="noopener noreferrer">https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8</a>
+<a href="https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/</a></p>
+<h2 id="nix-os"> Nix (OS)</h2>
+<p><code>Bitwarden_rs</code> 在 Nix 中包含 4 个包(一个用于 mysql、sqlite 和 postgresql，一个用于 Vault)。对于 NixOS，还有一个模块 (<code>services.bitwarden_rs</code>)，因此 <code>bitwarden_rs</code> 也可以以 NixOS 声明方式进行配置。</p>
+<h2 id="cloudron"> Cloudron</h2>
+<p><a href="https://cloudron.io" target="_blank" rel="noopener noreferrer">Cloudron</a> 是一个可以帮助您在服务器上运行 Web 应用程序的平台。
+使用 Cloudron，您可以轻松地从 <a href="https://cloudron.io/store/com.github.bitwardenrs.html" target="_blank" rel="noopener noreferrer">应用程序库</a> 在自定义域上安装 <code>Bitwarden_rs</code>
+该应用程序包与上游 Web Vault 捆绑在一起，安装后无需任何进一步配置即可开始使用。 Cloudron 团队会跟踪发布并提供自动更新。</p>
+<p>可以在 <a href="https://git.cloudron.io/cloudron/vaultwarden-app" target="_blank" rel="noopener noreferrer">https://git.cloudron.io/cloudron/vaultwarden-app</a> 找到包代码和问题跟踪器</p>
+<h2 id="home-assistant"> Home Assistant</h2>
+<p><a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">家庭助理</a> 是一个开源的家庭自动化平台。 <a href="https://github.com/hassio-addons/addon-bitwarden" target="_blank" rel="noopener noreferrer">https://github.com/hassio-addons/addon-bitwarden</a> 提供了一个 <code>bitwarden_rs</code> 社区插件。</p>
+<h2 id="为-ubuntu-20-04-构建脚本"> 为 Ubuntu 20.04 构建脚本</h2>
+<p><code>Dinger1986</code> 已经创建了一个脚本来在 Ubuntu 20.04 上从源代码安装 <code>bitwarden_rs</code>，参见
+<a href="https://github.com/dinger1986/bitwardenrs_install_script" target="_blank" rel="noopener noreferrer">https://github.com/dinger1986/bitwardenrs_install_script</a></p>
+<h2 id="freebsd"> FreeBSD</h2>
+<p>在 <a href="https://www.freshports.org/security/vaultwarden/" target="_blank" rel="noopener noreferrer">FreeBSD 端口树</a> 中可用，并作为 FreeBSD pkg 存储库中的二进制包提供：<code>pkg install vaultwarden</code></p>
+<h2 id="多个-rpm-和-deb-发行版"> 多个 RPM 和 DEB 发行版</h2>
+<p><code>openSUSE</code> 构建服务项目，支持<code>CentOS、Debian、Fedora、RHEL、SUSE、Ubuntu</code>。</p>
+<p>您可以直接下载软件包或使用可用的存储库。</p>
+<p><strong>警告：</strong> 目前这些包包含预构建的二进制文件，无法使用此构建服务构建 <code>rust-nightly</code> 包。</p>
+<p><a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden" target="_blank" rel="noopener noreferrer">Vaultwarden</a>
+<a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden-webvault" target="_blank" rel="noopener noreferrer">vaultwarden-webvault</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>FAQ</title>
       <link>https://codenoob.top/projects/vaultwarden/Home/FAQs.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Home/FAQs.html</guid>
@@ -12069,52 +12115,6 @@ export WEBSOCKET_ENABLED=true
 <p>好吧，请尝试搜索并点击我们精彩的 <a href="https://github.com/dani-garcia/vaultwarden/wiki" target="_blank" rel="noopener noreferrer">Wiki</a>。 如果这对您没有帮助，请尝试查看 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse.group" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> .</p>
 <p>如果这也导致没有解决方案，您可以尝试搜索开放和封闭的 <a href="https://github.com/dani-garcia/vaultwarden/issues" target="_blank" rel="noopener noreferrer">问题</a>。</p>
 <p>如果您仍然没有找到答案，您可以在 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> 上开始一个主题.group/)，或加入我们的 <a href="https://matrix.to/#/#vaultwarden:matrix.org" target="_blank" rel="noopener noreferrer">聊天室</a>。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>第三方包</title>
-      <link>https://codenoob.top/projects/vaultwarden/Deployment/Third-party-packages.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Deployment/Third-party-packages.html</guid>
-      <source url="https://codenoob.top/rss.xml">第三方包</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>此页面是第三方 Vaultwarden 软件包的索引。</p>
-<p>由于这些软件包不是由 Vaultwarden 维护或控制的，因此它们可能落后于官方版本，有时甚至明显滞后。</p>
-<p>如果你依赖这些包，你可能想要<a href="https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository" target="_blank" rel="noopener noreferrer">启用观看</a> 用于新的 vaultwarden 版本，并让维护者知道软件包是否没有保持最新。</p>
-<h2 id="arch-linux"> Arch Linux</h2>
-<p>可在 <a href="https://archlinux.org/packages/community/x86_64/vaultwarden/" target="_blank" rel="noopener noreferrer">官方存储库</a> 以及 <a href="https://archlinux.org/packages/community/any/vaultwarden-%E7%BD%91%E7%BB%9C/" target="_blank" rel="noopener noreferrer">web vault</a>。</p>
-<h2 id="debian"> Debian</h2>
-<p>基于 docker 的工具链可用于构建 debian 包：<a href="https://github.com/greizgh/bitwarden_rs-debian" target="_blank" rel="noopener noreferrer">https://github.com/greizgh/bitwarden_rs-debian</a></p>
-<p>它捆绑了服务器和网络密码管理。</p>
-<h2 id="centos7-rhel7"> CentOS7 / RHEL7</h2>
-<p>RPM 存储库由 @MrMEEE 在此处打包：<a href="https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/</a>...这还包括附加包中的网络界面。</p>
-<p>安装说明：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md</a></p>
-<p>RPM 的任何问题都可以在这里报告：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/issues" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/issues</a></p>
-<h2 id="centos-8-rhel-8"> CentOS 8 / RHEL 8</h2>
-<p>构建 RPM 并使用 Docker 将其推送到 COPR 的 repo 的一个分支。</p>
-<p><a href="https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8" target="_blank" rel="noopener noreferrer">https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8</a>
-<a href="https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/</a></p>
-<h2 id="nix-os"> Nix (OS)</h2>
-<p><code>Bitwarden_rs</code> 在 Nix 中包含 4 个包(一个用于 mysql、sqlite 和 postgresql，一个用于 Vault)。对于 NixOS，还有一个模块 (<code>services.bitwarden_rs</code>)，因此 <code>bitwarden_rs</code> 也可以以 NixOS 声明方式进行配置。</p>
-<h2 id="cloudron"> Cloudron</h2>
-<p><a href="https://cloudron.io" target="_blank" rel="noopener noreferrer">Cloudron</a> 是一个可以帮助您在服务器上运行 Web 应用程序的平台。
-使用 Cloudron，您可以轻松地从 <a href="https://cloudron.io/store/com.github.bitwardenrs.html" target="_blank" rel="noopener noreferrer">应用程序库</a> 在自定义域上安装 <code>Bitwarden_rs</code>
-该应用程序包与上游 Web Vault 捆绑在一起，安装后无需任何进一步配置即可开始使用。 Cloudron 团队会跟踪发布并提供自动更新。</p>
-<p>可以在 <a href="https://git.cloudron.io/cloudron/vaultwarden-app" target="_blank" rel="noopener noreferrer">https://git.cloudron.io/cloudron/vaultwarden-app</a> 找到包代码和问题跟踪器</p>
-<h2 id="home-assistant"> Home Assistant</h2>
-<p><a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">家庭助理</a> 是一个开源的家庭自动化平台。 <a href="https://github.com/hassio-addons/addon-bitwarden" target="_blank" rel="noopener noreferrer">https://github.com/hassio-addons/addon-bitwarden</a> 提供了一个 <code>bitwarden_rs</code> 社区插件。</p>
-<h2 id="为-ubuntu-20-04-构建脚本"> 为 Ubuntu 20.04 构建脚本</h2>
-<p><code>Dinger1986</code> 已经创建了一个脚本来在 Ubuntu 20.04 上从源代码安装 <code>bitwarden_rs</code>，参见
-<a href="https://github.com/dinger1986/bitwardenrs_install_script" target="_blank" rel="noopener noreferrer">https://github.com/dinger1986/bitwardenrs_install_script</a></p>
-<h2 id="freebsd"> FreeBSD</h2>
-<p>在 <a href="https://www.freshports.org/security/vaultwarden/" target="_blank" rel="noopener noreferrer">FreeBSD 端口树</a> 中可用，并作为 FreeBSD pkg 存储库中的二进制包提供：<code>pkg install vaultwarden</code></p>
-<h2 id="多个-rpm-和-deb-发行版"> 多个 RPM 和 DEB 发行版</h2>
-<p><code>openSUSE</code> 构建服务项目，支持<code>CentOS、Debian、Fedora、RHEL、SUSE、Ubuntu</code>。</p>
-<p>您可以直接下载软件包或使用可用的存储库。</p>
-<p><strong>警告：</strong> 目前这些包包含预构建的二进制文件，无法使用此构建服务构建 <code>rust-nightly</code> 包。</p>
-<p><a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden" target="_blank" rel="noopener noreferrer">Vaultwarden</a>
-<a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden-webvault" target="_blank" rel="noopener noreferrer">vaultwarden-webvault</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -12684,6 +12684,34 @@ DNS.2 = www.bitwarden.local
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/112543-581710.png" type="image/png"/>
     </item>
     <item>
+      <title>工具推荐</title>
+      <link>https://codenoob.top/tools/</link>
+      <guid isPermaLink="false">/tools/</guid>
+      <source url="https://codenoob.top/rss.xml">工具推荐</source>
+      <category>工具</category>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="主要如下"> 主要如下</h2>
+<ul>
+<li>
+<p><a href="./creat/">创作工具</a></p>
+</li>
+<li>
+<p><a href="./Tampermonkey-refreshes-lesson.html">油猴脚本自动刷课</a></p>
+</li>
+<li>
+<p><a href="./TyporaImg-Tool.html">Typora直传图片文件方案</a></p>
+</li>
+<li>
+<p><a href="./Theia.html">Eclipse Theia初体验</a></p>
+</li>
+<li>
+<p><a href="./vuedev-tool.html">Vue Devtools的安装</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>screentogif</title>
       <link>https://codenoob.top/tools/creat/screentogif.html</link>
       <guid isPermaLink="false">/tools/creat/screentogif.html</guid>
@@ -12744,65 +12772,6 @@ DNS.2 = www.bitwarden.local
 <span>?></span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>工具推荐</title>
-      <link>https://codenoob.top/tools/</link>
-      <guid isPermaLink="false">/tools/</guid>
-      <source url="https://codenoob.top/rss.xml">工具推荐</source>
-      <category>工具</category>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="主要如下"> 主要如下</h2>
-<ul>
-<li>
-<p><a href="./creat/">创作工具</a></p>
-</li>
-<li>
-<p><a href="./Tampermonkey-refreshes-lesson.html">油猴脚本自动刷课</a></p>
-</li>
-<li>
-<p><a href="./TyporaImg-Tool.html">Typora直传图片文件方案</a></p>
-</li>
-<li>
-<p><a href="./Theia.html">Eclipse Theia初体验</a></p>
-</li>
-<li>
-<p><a href="./vuedev-tool.html">Vue Devtools的安装</a></p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Eclipse Theia初体验</title>
-      <link>https://codenoob.top/tools/theia.html</link>
-      <guid isPermaLink="false">/tools/theia.html</guid>
-      <source url="https://codenoob.top/rss.xml">Eclipse Theia初体验</source>
-      <description>Eclipse Theia初体验</description>
-      <category>工具</category>
-      <pubDate>Mon, 11 Jan 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
-<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
-<p>至于为什么我说是学习神器，我们先体验一下再说</p>
-<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" loading="lazy"></p>
-<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
-<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
-<div><pre><code><span># Linux, macOS, or PowerShell</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
-
-<span># Windows (cmd.exe)</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
-<p>随便写点东西保存预览，整个流程非常的流畅</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" loading="lazy"></p>
-<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
-<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
-<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
-<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" type="image/png"/>
     </item>
     <item>
       <title>油猴脚本自动刷课</title>
@@ -12979,6 +12948,37 @@ echo $str . "\n";
 <p>成功！</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/152835-547872.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Eclipse Theia初体验</title>
+      <link>https://codenoob.top/tools/theia.html</link>
+      <guid isPermaLink="false">/tools/theia.html</guid>
+      <source url="https://codenoob.top/rss.xml">Eclipse Theia初体验</source>
+      <description>Eclipse Theia初体验</description>
+      <category>工具</category>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
+<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
+<p>至于为什么我说是学习神器，我们先体验一下再说</p>
+<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" loading="lazy"></p>
+<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
+<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
+<div><pre><code><span># Linux, macOS, or PowerShell</span>
+docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
+
+<span># Windows (cmd.exe)</span>
+docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
+<p>随便写点东西保存预览，整个流程非常的流畅</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" loading="lazy"></p>
+<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
+<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
+<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
+<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" type="image/png"/>
     </item>
     <item>
       <title>Vue Devtools的安装</title>
@@ -13244,6 +13244,44 @@ https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
 <p>好的今天的内容就到这里了，对你有帮助的话可以给我一个三连哦！</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/180530-958464.jpeg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Mysql学习手记</title>
+      <link>https://codenoob.top/tutorials/mysql.html</link>
+      <guid isPermaLink="false">/tutorials/mysql.html</guid>
+      <source url="https://codenoob.top/rss.xml">Mysql学习手记</source>
+      <description>Mysql学习手记</description>
+      <category>教程</category>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>说明</p>
+<p>整理一下以前的Mysql学习笔记，还是比较详细的</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>这个分类是Mysql的手记 希望能对你有所帮助</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
+    </item>
+    <item>
+      <title>教程</title>
+      <link>https://codenoob.top/tutorials/</link>
+      <guid isPermaLink="false">/tutorials/</guid>
+      <source url="https://codenoob.top/rss.xml">教程</source>
+      <pubDate>Thu, 18 Nov 2021 06:47:23 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>介绍</p>
+<p>以后写的教程都放这里了！</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>在这个分类里面我主要分享一些教程，希望能对你有所帮助</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
+<div>
+<p><img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
+</div>
+]]></content:encoded>
+      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
       <title>初识TypeScript</title>
@@ -13885,25 +13923,6 @@ jim<span>.</span><span>log</span><span>(</span><span>)</span><span>;</span>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/225245-454354.png" type="image/png"/>
     </item>
     <item>
-      <title>Mysql学习手记</title>
-      <link>https://codenoob.top/tutorials/mysql.html</link>
-      <guid isPermaLink="false">/tutorials/mysql.html</guid>
-      <source url="https://codenoob.top/rss.xml">Mysql学习手记</source>
-      <description>Mysql学习手记</description>
-      <category>教程</category>
-      <pubDate>Thu, 29 Oct 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>说明</p>
-<p>整理一下以前的Mysql学习笔记，还是比较详细的</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>这个分类是Mysql的手记 希望能对你有所帮助</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
-]]></content:encoded>
-      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
-    </item>
-    <item>
       <title>Uniapp的学习手记</title>
       <link>https://codenoob.top/tutorials/uniapp.html</link>
       <guid isPermaLink="false">/tutorials/uniapp.html</guid>
@@ -13919,25 +13938,6 @@ jim<span>.</span><span>log</span><span>(</span><span>)</span><span>;</span>
 <h2 id="我的订阅号"> 我的订阅号</h2>
 <p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
 <img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
-]]></content:encoded>
-      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
-    </item>
-    <item>
-      <title>教程</title>
-      <link>https://codenoob.top/tutorials/</link>
-      <guid isPermaLink="false">/tutorials/</guid>
-      <source url="https://codenoob.top/rss.xml">教程</source>
-      <pubDate>Thu, 18 Nov 2021 06:47:23 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>介绍</p>
-<p>以后写的教程都放这里了！</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>在这个分类里面我主要分享一些教程，希望能对你有所帮助</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
-<div>
-<p><img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
-</div>
 ]]></content:encoded>
       <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
