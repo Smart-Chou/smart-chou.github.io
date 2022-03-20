@@ -6,7 +6,7 @@
   <author>
     <name>ChouCong</name>
   </author>
-  <updated>2022-03-19T15:31:20.295Z</updated>
+  <updated>2022-03-20T05:19:38.659Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://codenoob.top/atom.xml"/>
   <link rel="alternate" href="https://codenoob.top/"/>
@@ -28,6 +28,50 @@
   <contributor>
     <name>Pengwen Wang</name>
   </contributor>
+  <entry>
+    <title type="html">Home</title>
+    <id>/author.html</id>
+    <link href="https://codenoob.top/author.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="简介"> 简介</h1>
+<div><p>介绍</p>
+<p>我是ChouCOng，热爱编程，乐于分享</p>
+<p>现在的个人博客，读者和作者都越来越少，坚持写自己的东西，是一种总结更是一种锻炼，如果别人能懂得我的转述，我才是真的会了</p>
+<p>感谢你的关注，你可点击<a href="/timeline/">时光机</a>来了解我在做什么，也可以点击<a href="/latest.html">最新文章</a>，查看更多的信息 点击查看本站的<a href="/category/">分类</a>结构更为清晰！</p>
+</div>
+<h2 id="我的bilibili"> 我的bilibili</h2>
+<p>在年疫情期间，我上传了我的第一个视屏，是分享一个使用来编写实时疫情界面的教程，第一次收获了点赞和关注 随后我在每周更新自己想要分享的东西，如果你感兴趣可以来我的个人空间瞧一瞧<a href="https://space.bilibili.com/372366303/" target="_blank" rel="noopener noreferrer">ChouCong的个人空间</a></p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
+<p><img src="/assets/img/qr_weixin.png" alt="公众号二维码，扫一扫有惊喜！" loading="lazy"></p>
+<h2 id="目前技术栈"> 目前技术栈</h2>
+<p>本来花了很多的时间学习相关，但是目前从事前端也比较喜欢，所以说就是都会点，也可以说是全都不会
+</br>
+</br>
+特别喜欢移动端的开发，但是生不逢时没有入行，现在也只是爱好</p>
+<h2 id="未来计划"> 未来计划</h2>
+<ul>
+<li>保持学习算法和数据结构</li>
+<li>做一个自己的开源项目</li>
+<li>更新一些简单的教程</li>
+<li>精彩的生活</li>
+</ul>
+<h2 id="联系我"> 联系我</h2>
+<p>有什么好的意见，或者是想要咨询一些事情可以通过以下找到我</p>
+<ul>
+<li>QQ：<a href="https://qm.qq.com/cgi-bin/qm/qr?k=hH6gqBpGrQ80a0kBI-69N6OWXMIJ7825&amp;noverify=0" target="_blank" rel="noopener noreferrer">3518439599</a></li>
+<li>邮箱：<a href="mailto:ChouCong912@gmial.com">ChouCong912@gmial.com</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-18T06:47:23.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
   <entry>
     <title type="html">抛开技术点，前后端你更需要了解的知识！</title>
     <id>/code/front-back.html</id>
@@ -105,50 +149,6 @@
       <name>ChouCong</name>
     </contributor>
     <published>2020-08-22T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">Home</title>
-    <id>/author.html</id>
-    <link href="https://codenoob.top/author.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="简介"> 简介</h1>
-<div><p>介绍</p>
-<p>我是ChouCOng，热爱编程，乐于分享</p>
-<p>现在的个人博客，读者和作者都越来越少，坚持写自己的东西，是一种总结更是一种锻炼，如果别人能懂得我的转述，我才是真的会了</p>
-<p>感谢你的关注，你可点击<a href="/timeline/">时光机</a>来了解我在做什么，也可以点击<a href="/latest.html">最新文章</a>，查看更多的信息 点击查看本站的<a href="/category/">分类</a>结构更为清晰！</p>
-</div>
-<h2 id="我的bilibili"> 我的bilibili</h2>
-<p>在年疫情期间，我上传了我的第一个视屏，是分享一个使用来编写实时疫情界面的教程，第一次收获了点赞和关注 随后我在每周更新自己想要分享的东西，如果你感兴趣可以来我的个人空间瞧一瞧<a href="https://space.bilibili.com/372366303/" target="_blank" rel="noopener noreferrer">ChouCong的个人空间</a></p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
-<p><img src="/assets/img/qr_weixin.png" alt="公众号二维码，扫一扫有惊喜！" loading="lazy"></p>
-<h2 id="目前技术栈"> 目前技术栈</h2>
-<p>本来花了很多的时间学习相关，但是目前从事前端也比较喜欢，所以说就是都会点，也可以说是全都不会
-</br>
-</br>
-特别喜欢移动端的开发，但是生不逢时没有入行，现在也只是爱好</p>
-<h2 id="未来计划"> 未来计划</h2>
-<ul>
-<li>保持学习算法和数据结构</li>
-<li>做一个自己的开源项目</li>
-<li>更新一些简单的教程</li>
-<li>精彩的生活</li>
-</ul>
-<h2 id="联系我"> 联系我</h2>
-<p>有什么好的意见，或者是想要咨询一些事情可以通过以下找到我</p>
-<ul>
-<li>QQ：<a href="https://qm.qq.com/cgi-bin/qm/qr?k=hH6gqBpGrQ80a0kBI-69N6OWXMIJ7825&amp;noverify=0" target="_blank" rel="noopener noreferrer">3518439599</a></li>
-<li>邮箱：<a href="mailto:ChouCong912@gmial.com">ChouCong912@gmial.com</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-18T06:47:23.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -455,41 +455,6 @@
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
-    <id>/code/loop.html</id>
-    <link href="https://codenoob.top/code/loop.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[SpringBoot实战项目]]></summary>
-    <content type="html"><![CDATA[<div><p>说明</p>
-<p>此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
-</div>
-<h2 id="前言"> 前言</h2>
-<p><a href="https://www.bilibili.com/video/BV1av4y1f7o1" target="_blank" rel="noopener noreferrer">视频教程</a></p>
-<p>观众朋友们大家好啊，我来填坑了，去年的时候我发了一些基础的视频，每次都说后面会出项目视频，但是每次都因为各种各样的原因耽搁了</p>
-<p>最近空闲的时间比较多，所以来把这个坑填了，本次的项目是根据我的所学知识和一些日常工作中的经验制作而成，因为时间的关系，这个项目从零开始，每制作一点就发一个视频，所以说这是一个具有很多不确定因素的计划，我也不是一个专业的培训老师，工作经验有限，希望大家多多担待，中途有错误或者大家有更好的思路可以一起讨论</p>
-<p>先说一下此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
-<p>PC端我们使用springboot、thymeleaf来制作混合页面
-管理端我们使用springboot、vue3（待定）来制作前后端分离项目
-移动端我们使用springboot、uniapp来制作前后端分离项目
-中途不限于使用模板引擎、缓存、权限管理、文件转换、消息队列、爬虫、搜索引擎等技术，这是一个相对完整的项目，并不是单纯的为了组装知识点而拼凑的项目，我们从实际业务出发，尽量给各位观众朋友们带来真实的、能够在工作中复用的知识</p>
-<p>此次的项目耗时是相对比较长的，并且是完全免费的，附带文档和源码，大家的三连就是对我最大的支持！</p>
-<h2 id="源码"> 源码</h2>
-<p><a href="https://github.com/lookroot/loop" target="_blank" rel="noopener noreferrer">GitHub</a>大家自取。</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="编程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-01-21T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">PHP还是世界上最好的语言吗</title>
     <id>/code/php-history.html</id>
     <link href="https://codenoob.top/code/php-history.html"/>
@@ -548,6 +513,41 @@
       <name>ChouCong</name>
     </contributor>
     <published>2020-08-04T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
+    <id>/code/loop.html</id>
+    <link href="https://codenoob.top/code/loop.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[SpringBoot实战项目]]></summary>
+    <content type="html"><![CDATA[<div><p>说明</p>
+<p>此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
+</div>
+<h2 id="前言"> 前言</h2>
+<p><a href="https://www.bilibili.com/video/BV1av4y1f7o1" target="_blank" rel="noopener noreferrer">视频教程</a></p>
+<p>观众朋友们大家好啊，我来填坑了，去年的时候我发了一些基础的视频，每次都说后面会出项目视频，但是每次都因为各种各样的原因耽搁了</p>
+<p>最近空闲的时间比较多，所以来把这个坑填了，本次的项目是根据我的所学知识和一些日常工作中的经验制作而成，因为时间的关系，这个项目从零开始，每制作一点就发一个视频，所以说这是一个具有很多不确定因素的计划，我也不是一个专业的培训老师，工作经验有限，希望大家多多担待，中途有错误或者大家有更好的思路可以一起讨论</p>
+<p>先说一下此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
+<p>PC端我们使用springboot、thymeleaf来制作混合页面
+管理端我们使用springboot、vue3（待定）来制作前后端分离项目
+移动端我们使用springboot、uniapp来制作前后端分离项目
+中途不限于使用模板引擎、缓存、权限管理、文件转换、消息队列、爬虫、搜索引擎等技术，这是一个相对完整的项目，并不是单纯的为了组装知识点而拼凑的项目，我们从实际业务出发，尽量给各位观众朋友们带来真实的、能够在工作中复用的知识</p>
+<p>此次的项目耗时是相对比较长的，并且是完全免费的，附带文档和源码，大家的三连就是对我最大的支持！</p>
+<h2 id="源码"> 源码</h2>
+<p><a href="https://github.com/lookroot/loop" target="_blank" rel="noopener noreferrer">GitHub</a>大家自取。</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="编程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-01-21T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -826,257 +826,6 @@ print_lines<span>(</span><span>"-"</span><span>,</span> <span>50</span><span>)</
       <name>ChouCong</name>
     </contributor>
     <published>2020-08-25T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">语法进阶</title>
-    <id>/code/python/python-05-advanced-grammar.html</id>
-    <link href="https://codenoob.top/code/python/python-05-advanced-grammar.html"/>
-    <updated>2022-01-25T13:07:58.000Z</updated>
-    <summary type="html"><![CDATA[Python-05 - 语法进阶]]></summary>
-    <content type="html"><![CDATA[<br>
-<h2 id="语法进阶"> 语法进阶</h2>
-<h3 id="变量的引用"> 变量的引用</h3>
-<ul>
-<li><strong>变量</strong>和<strong>数据</strong>都保存在内存中</li>
-<li>Python 中函数的<strong>参数传递</strong>以及返回值都是靠<strong>引用</strong>传递的</li>
-</ul>
-<h3 id="引用的概念"> 引用的概念</h3>
-<p>Python 中</p>
-<ul>
-<li>变量和数据分开存储</li>
-<li><strong>数据</strong>保存在内存中的一个位置</li>
-<li><strong>变量</strong>中保存着数据在内存中的地址</li>
-<li>变量中<strong>记录数据地址</strong>的动作就叫引用</li>
-<li><code>id()</code> 函数可以查看变量中保存数据的内存地址</li>
-</ul>
-<div><p>相关信息</p>
-<p>如果变量已经被定义，当给一个变量赋值的时候，本质上是修改了<strong>数据的引用</strong></p>
-<ul>
-<li>变量<strong>不再</strong>对之前的数据引用</li>
-<li>变量改为对新赋值的数据引用</li>
-</ul>
-</div>
-<h3 id="函数的参数和返回值的传递"> 函数的参数和返回值的传递</h3>
-<p>Python 中，函数的<strong>实参 / 返回值</strong>都是靠引用传递的</p>
-<ul>
-<li>调用函数，本质上是传递的<strong>实参 / 返回值保存数据的引用</strong>，而不是实参保存的数据</li>
-<li>如果不定义变量接收函数的返回值，程序不会报错，但是无法获得返回结果</li>
-</ul>
-<h3 id="可变类型不可变类型"> 可变类型不可变类型</h3>
-<ul>
-<li>不可变类型，内存中的数据不允许被修改
-<ul>
-<li>数字类型 <code>int</code>, <code>bool</code>, <code>float</code>, <code>complex</code></li>
-<li>字符串 <code>str</code></li>
-<li>元组 <code>tuple</code></li>
-</ul>
-</li>
-<li>可变类型，内存中的数据可以被修改
-<ul>
-<li>列表 <code>list</code></li>
-<li>字典 <code>dict</code> 字典的 <code>key</code> 只能使用<strong>不可变数据类型</strong></li>
-</ul>
-</li>
-</ul>
-<h2 id="局部变量和全局变量"> 局部变量和全局变量</h2>
-<h3 id="局部变量"> 局部变量</h3>
-<ul>
-<li><strong>局部变量</strong>是在函数<strong>内部</strong>定义的变量，只能在函数内部使用</li>
-<li>函数执行结束后，函数内部的局部变量，会被系统<strong>回收</strong></li>
-<li>局部变量的<strong>生命周期</strong>
-<ul>
-<li>生命周期是变量从<strong>被创建</strong>到<strong>被系统回收</strong>的过程</li>
-<li>局部变量在函数<strong>执行</strong>时才会被创建</li>
-<li>局部变量在生命周期内，可以用来存储函数内部临时使用到的数据</li>
-</ul>
-</li>
-</ul>
-<h3 id="全局变量"> 全局变量</h3>
-<ul>
-<li><strong>全局变量</strong>是在函数外部定义的变量，<strong>所有</strong>函数都可以使用</li>
-<li>其他开发语言中<strong>大多不推荐使用全局变量</strong></li>
-<li>不允许在函数内部修改全局变量</li>
-<li>在函数内部重新赋值，只是定义了一个<strong>局部变量</strong></li>
-<li>希望修改全局变量的值 使用 <code>global</code> 声明变量即可</li>
-<li>应该把模块中的所有全局变量定义到<strong>所有函数上方</strong></li>
-<li>全局变量命名前方应加 <code>g_</code> 或 <code>gl_</code> 等与局部变量区分</li>
-<li>如果局部变量和局部变量名称相同，<code>pycharm</code> 会在局部变量下方显示灰色虚线</li>
-</ul>
-<h2 id="参数和返回值"> 参数和返回值</h2>
-<p>函数根据有<strong>没有参数</strong>和有<strong>没有返回值</strong>可以自由组合，共 4 种</p>
-<ol>
-<li>无参数，无返回值</li>
-<li>无参数，有返回值</li>
-<li>有参数，无返回值</li>
-<li>有参数，有返回值</li>
-</ol>
-<ul>
-<li>如果函数<strong>内部处理数据</strong>不确定，可以将外界数据以参数形式传递给函数</li>
-<li>如果希望函数执行完成后，向<strong>外界汇报结果</strong>，可以增加返回值</li>
-</ul>
-<h3 id="函数的返回值-多个返回值"> 函数的返回值 - 多个返回值</h3>
-<ul>
-<li>元组可以包含多个数据，因此可以使用元组让函数一次返回多个值</li>
-<li>如果函数返回的结果是元组，<strong>小括号可以省略</strong></li>
-<li>如果函数的<strong>返回值类型是元组</strong>，需要单独处理元组中的元素可以使用<strong>多个变量</strong>，一次接收函数的返回结果
-<ul>
-<li>注意：使用此方法，变量的个数应该和元组中元素的<strong>个数保持一致</strong></li>
-</ul>
-</li>
-</ul>
-<h3 id="问题-交换两个变量的值"> 问题：交换两个变量的值？</h3>
-<div><pre><code>a <span>=</span> <span>6</span>
-b <span>=</span> <span>100</span>
-<span># 1. 使用其他变量</span>
-<span># c = a</span>
-<span># a = b</span>
-<span># b = c</span>
-   
-<span># 2. 不使用其他变量</span>
-<span># a = a + b</span>
-<span># b = a - b</span>
-<span># a = a - b</span>
-   
-<span># 3. Python 专有</span>
-<span># a, b = (b, a)</span>
-<span># 元组小括号可省略</span>
-a<span>,</span> b <span>=</span> b<span>,</span> a
-<span>print</span><span>(</span>a<span>)</span>
-<span>print</span><span>(</span>b<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br></div></div><h3 id="函数的参数"> 函数的参数</h3>
-<h4 id="不可变和可变参数"> 不可变和可变参数</h4>
-<ul>
-<li>在函数内部，针对参数使用赋值语句不会影响调用函数时传递的实参变量</li>
-<li>无论传递的参数是可变还是不可变</li>
-<li>在函数内部，针对参数使用赋值语句，不会修改外部实参变量</li>
-</ul>
-<div><pre><code><span>def</span> <span>demo</span><span>(</span>num<span>,</span> num_list<span>)</span><span>:</span>
-    <span>print</span><span>(</span><span>"函数内部的代码"</span><span>)</span>
-
-    <span># 在函数内部，针对参数使用赋值语句,不会修改外部实参变量</span>
-    num <span>=</span> <span>100</span>
-    num_list <span>=</span> <span>[</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>]</span>
-
-    <span>print</span><span>(</span>num<span>)</span>
-    <span>print</span><span>(</span>num_list<span>)</span>
-    <span>print</span><span>(</span><span>"函数执行完成"</span><span>)</span>
-
-gl_num <span>=</span> <span>99</span>
-gl_list <span>=</span> <span>[</span><span>4</span><span>,</span> <span>5</span><span>,</span> <span>6</span><span>]</span>
-demo<span>(</span>gl_num<span>,</span> gl_list<span>)</span>
-<span>print</span><span>(</span>gl_num<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><ul>
-<li>如果传递的参数是<strong>可变类型</strong>，在函数内部，使用方法修改了数据的内容，同样会<strong>影响到外部数据</strong></li>
-</ul>
-<div><pre><code><span>def</span> <span>demo</span><span>(</span>num_list<span>)</span><span>:</span>
-    <span>print</span><span>(</span><span>"函数内部代码"</span><span>)</span>
-    num_list<span>.</span>append<span>(</span><span>9</span><span>)</span>
-    <span>print</span><span>(</span>num_list<span>)</span>
-    <span>print</span><span>(</span><span>"函数执行完成"</span><span>)</span>
-
-gl_list <span>=</span> <span>[</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>]</span>
-demo<span>(</span>gl_list<span>)</span>
-<span>print</span><span>(</span>gl_list<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><h3 id="问题"> 问题：-- +=</h3>
-<p>在 Python 中，列表变量调用 <code>+=</code> 本质上是在执行列表变量的 <code>extend</code> 方法，不会修改变量的引用</p>
-<h3 id="缺省参数"> 缺省参数</h3>
-<ul>
-<li>定义函数时，可以给某个参数<strong>指定一个默认值</strong>，具有默认值的参数就叫做缺省参数</li>
-<li>带有默认值的<strong>缺省参数必须在参数列表末尾</strong></li>
-<li>如果有多个缺省值，需要<strong>指定参数名</strong></li>
-</ul>
-<h3 id="多值参数"> 多值参数</h3>
-<ul>
-<li>有可能需要一个函数能够处理的参数个<strong>数是不确定的</strong>，这时使用多指参数</li>
-<li>Python 中有两种多值参数
-<ul>
-<li>参数名前增加一个 <code>*</code>，可以接收元组</li>
-<li>参数名前增加两个 <code>*</code>，可以接收字典</li>
-</ul>
-</li>
-<li>一般在给多指参数命名时，习惯使用以下两个名字
-<ul>
-<li><code>*args</code> -- 存放元组参数，前面一个 <code>*</code></li>
-</ul>
-</li>
-<li><code>**kwargs</code> -- 存放字典参数，前面两个 <code>*</code></li>
-<li><code>args</code> 是 <code>arguments</code> 的缩写，有变量的含义</li>
-<li><code>kw</code> 是 <code>keyword</code> 的缩写，<code>kwargs</code> 可以记忆<strong>键值对参数</strong></li>
-</ul>
-<h3 id="案例-计算任意多个数字的和"> 案例：计算任意多个数字的和</h3>
-<div><pre><code><span>def</span> <span>sum_nums</span><span>(</span><span>*</span>args<span>)</span><span>:</span>
-    num <span>=</span> <span>0</span>
-    <span># 循环遍历</span>
-    <span>for</span> n <span>in</span> args<span>:</span>
-        num <span>+=</span> n
-    <span>return</span> num
-
-result <span>=</span> sum_nums<span>(</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>,</span> <span>4</span><span>,</span> <span>5</span><span>)</span>
-<span>print</span><span>(</span>result<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><ul>
-<li>元组和字典的拆包</li>
-<li>在调用带有多值参数的函数时，如果希望</li>
-<li>将一个<strong>元组</strong>变量，直接传递给 <code>args</code></li>
-<li>将一个<strong>字典</strong>变量，直接传递给 <code>kwargs</code></li>
-<li>可以使用<code>拆包</code>，简化参数的传递，拆包的方式是：
-<ul>
-<li>在<code>元组</code>变量前，增加一个 <code>*</code></li>
-<li>在<code>字典</code>变量前，增加两个 <code>*</code></li>
-</ul>
-</li>
-</ul>
-<h2 id="递归"> 递归</h2>
-<p>递归：函数调用自身</p>
-<h3 id="递归的特点"> 递归的特点</h3>
-<ul>
-<li>一个函数内部调用自己
-<ul>
-<li>函数内部可以调用其他函数，也可以在内部调用自己</li>
-</ul>
-</li>
-</ul>
-<h3 id="代码特点"> 代码特点</h3>
-<ol>
-<li>函数内部的代码是相同的，只是针对参数不同，处理的结果不同</li>
-<li>当参数满足一个条件时，函数不再执行
-<ol>
-<li>被称为递归的出口，否则会造成死循环</li>
-</ol>
-</li>
-</ol>
-<h3 id="案例-计算数字累加"> 案例 -- 计算数字累加</h3>
-<ol>
-<li>定义一个函数 <code>sum_numbers</code></li>
-<li>能够接受一个 <code>num</code> 的整体参数</li>
-<li>计算 <code>1 + 2 ... num</code> 的结果</li>
-</ol>
-<div><pre><code><span>def</span> <span>sum_numbers</span><span>(</span>num<span>)</span><span>:</span>
-
-    <span># 1. 出口</span>
-    <span>if</span> num <span>==</span> <span>1</span><span>:</span>
-        <span>return</span> <span>1</span>
-    <span># 2. 数字累加 num + (num - 1)</span>
-    <span># 假设 sum_numbers 能处理 1到 num -1 的累加</span>
-    temp <span>=</span>sum_numbers<span>(</span>num <span>-</span> <span>1</span><span>)</span>
-    <span>return</span> num <span>+</span> temp
-
-result <span>=</span> sum_numbers<span>(</span><span>100</span><span>)</span>
-<span>print</span><span>(</span>result<span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div>]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="编程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-02-02T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -1733,6 +1482,257 @@ find_name <span>=</span> <span>"张三"</span>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">语法进阶</title>
+    <id>/code/python/python-05-advanced-grammar.html</id>
+    <link href="https://codenoob.top/code/python/python-05-advanced-grammar.html"/>
+    <updated>2022-01-25T13:07:58.000Z</updated>
+    <summary type="html"><![CDATA[Python-05 - 语法进阶]]></summary>
+    <content type="html"><![CDATA[<br>
+<h2 id="语法进阶"> 语法进阶</h2>
+<h3 id="变量的引用"> 变量的引用</h3>
+<ul>
+<li><strong>变量</strong>和<strong>数据</strong>都保存在内存中</li>
+<li>Python 中函数的<strong>参数传递</strong>以及返回值都是靠<strong>引用</strong>传递的</li>
+</ul>
+<h3 id="引用的概念"> 引用的概念</h3>
+<p>Python 中</p>
+<ul>
+<li>变量和数据分开存储</li>
+<li><strong>数据</strong>保存在内存中的一个位置</li>
+<li><strong>变量</strong>中保存着数据在内存中的地址</li>
+<li>变量中<strong>记录数据地址</strong>的动作就叫引用</li>
+<li><code>id()</code> 函数可以查看变量中保存数据的内存地址</li>
+</ul>
+<div><p>相关信息</p>
+<p>如果变量已经被定义，当给一个变量赋值的时候，本质上是修改了<strong>数据的引用</strong></p>
+<ul>
+<li>变量<strong>不再</strong>对之前的数据引用</li>
+<li>变量改为对新赋值的数据引用</li>
+</ul>
+</div>
+<h3 id="函数的参数和返回值的传递"> 函数的参数和返回值的传递</h3>
+<p>Python 中，函数的<strong>实参 / 返回值</strong>都是靠引用传递的</p>
+<ul>
+<li>调用函数，本质上是传递的<strong>实参 / 返回值保存数据的引用</strong>，而不是实参保存的数据</li>
+<li>如果不定义变量接收函数的返回值，程序不会报错，但是无法获得返回结果</li>
+</ul>
+<h3 id="可变类型不可变类型"> 可变类型不可变类型</h3>
+<ul>
+<li>不可变类型，内存中的数据不允许被修改
+<ul>
+<li>数字类型 <code>int</code>, <code>bool</code>, <code>float</code>, <code>complex</code></li>
+<li>字符串 <code>str</code></li>
+<li>元组 <code>tuple</code></li>
+</ul>
+</li>
+<li>可变类型，内存中的数据可以被修改
+<ul>
+<li>列表 <code>list</code></li>
+<li>字典 <code>dict</code> 字典的 <code>key</code> 只能使用<strong>不可变数据类型</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="局部变量和全局变量"> 局部变量和全局变量</h2>
+<h3 id="局部变量"> 局部变量</h3>
+<ul>
+<li><strong>局部变量</strong>是在函数<strong>内部</strong>定义的变量，只能在函数内部使用</li>
+<li>函数执行结束后，函数内部的局部变量，会被系统<strong>回收</strong></li>
+<li>局部变量的<strong>生命周期</strong>
+<ul>
+<li>生命周期是变量从<strong>被创建</strong>到<strong>被系统回收</strong>的过程</li>
+<li>局部变量在函数<strong>执行</strong>时才会被创建</li>
+<li>局部变量在生命周期内，可以用来存储函数内部临时使用到的数据</li>
+</ul>
+</li>
+</ul>
+<h3 id="全局变量"> 全局变量</h3>
+<ul>
+<li><strong>全局变量</strong>是在函数外部定义的变量，<strong>所有</strong>函数都可以使用</li>
+<li>其他开发语言中<strong>大多不推荐使用全局变量</strong></li>
+<li>不允许在函数内部修改全局变量</li>
+<li>在函数内部重新赋值，只是定义了一个<strong>局部变量</strong></li>
+<li>希望修改全局变量的值 使用 <code>global</code> 声明变量即可</li>
+<li>应该把模块中的所有全局变量定义到<strong>所有函数上方</strong></li>
+<li>全局变量命名前方应加 <code>g_</code> 或 <code>gl_</code> 等与局部变量区分</li>
+<li>如果局部变量和局部变量名称相同，<code>pycharm</code> 会在局部变量下方显示灰色虚线</li>
+</ul>
+<h2 id="参数和返回值"> 参数和返回值</h2>
+<p>函数根据有<strong>没有参数</strong>和有<strong>没有返回值</strong>可以自由组合，共 4 种</p>
+<ol>
+<li>无参数，无返回值</li>
+<li>无参数，有返回值</li>
+<li>有参数，无返回值</li>
+<li>有参数，有返回值</li>
+</ol>
+<ul>
+<li>如果函数<strong>内部处理数据</strong>不确定，可以将外界数据以参数形式传递给函数</li>
+<li>如果希望函数执行完成后，向<strong>外界汇报结果</strong>，可以增加返回值</li>
+</ul>
+<h3 id="函数的返回值-多个返回值"> 函数的返回值 - 多个返回值</h3>
+<ul>
+<li>元组可以包含多个数据，因此可以使用元组让函数一次返回多个值</li>
+<li>如果函数返回的结果是元组，<strong>小括号可以省略</strong></li>
+<li>如果函数的<strong>返回值类型是元组</strong>，需要单独处理元组中的元素可以使用<strong>多个变量</strong>，一次接收函数的返回结果
+<ul>
+<li>注意：使用此方法，变量的个数应该和元组中元素的<strong>个数保持一致</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="问题-交换两个变量的值"> 问题：交换两个变量的值？</h3>
+<div><pre><code>a <span>=</span> <span>6</span>
+b <span>=</span> <span>100</span>
+<span># 1. 使用其他变量</span>
+<span># c = a</span>
+<span># a = b</span>
+<span># b = c</span>
+   
+<span># 2. 不使用其他变量</span>
+<span># a = a + b</span>
+<span># b = a - b</span>
+<span># a = a - b</span>
+   
+<span># 3. Python 专有</span>
+<span># a, b = (b, a)</span>
+<span># 元组小括号可省略</span>
+a<span>,</span> b <span>=</span> b<span>,</span> a
+<span>print</span><span>(</span>a<span>)</span>
+<span>print</span><span>(</span>b<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br></div></div><h3 id="函数的参数"> 函数的参数</h3>
+<h4 id="不可变和可变参数"> 不可变和可变参数</h4>
+<ul>
+<li>在函数内部，针对参数使用赋值语句不会影响调用函数时传递的实参变量</li>
+<li>无论传递的参数是可变还是不可变</li>
+<li>在函数内部，针对参数使用赋值语句，不会修改外部实参变量</li>
+</ul>
+<div><pre><code><span>def</span> <span>demo</span><span>(</span>num<span>,</span> num_list<span>)</span><span>:</span>
+    <span>print</span><span>(</span><span>"函数内部的代码"</span><span>)</span>
+
+    <span># 在函数内部，针对参数使用赋值语句,不会修改外部实参变量</span>
+    num <span>=</span> <span>100</span>
+    num_list <span>=</span> <span>[</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>]</span>
+
+    <span>print</span><span>(</span>num<span>)</span>
+    <span>print</span><span>(</span>num_list<span>)</span>
+    <span>print</span><span>(</span><span>"函数执行完成"</span><span>)</span>
+
+gl_num <span>=</span> <span>99</span>
+gl_list <span>=</span> <span>[</span><span>4</span><span>,</span> <span>5</span><span>,</span> <span>6</span><span>]</span>
+demo<span>(</span>gl_num<span>,</span> gl_list<span>)</span>
+<span>print</span><span>(</span>gl_num<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><ul>
+<li>如果传递的参数是<strong>可变类型</strong>，在函数内部，使用方法修改了数据的内容，同样会<strong>影响到外部数据</strong></li>
+</ul>
+<div><pre><code><span>def</span> <span>demo</span><span>(</span>num_list<span>)</span><span>:</span>
+    <span>print</span><span>(</span><span>"函数内部代码"</span><span>)</span>
+    num_list<span>.</span>append<span>(</span><span>9</span><span>)</span>
+    <span>print</span><span>(</span>num_list<span>)</span>
+    <span>print</span><span>(</span><span>"函数执行完成"</span><span>)</span>
+
+gl_list <span>=</span> <span>[</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>]</span>
+demo<span>(</span>gl_list<span>)</span>
+<span>print</span><span>(</span>gl_list<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><h3 id="问题"> 问题：-- +=</h3>
+<p>在 Python 中，列表变量调用 <code>+=</code> 本质上是在执行列表变量的 <code>extend</code> 方法，不会修改变量的引用</p>
+<h3 id="缺省参数"> 缺省参数</h3>
+<ul>
+<li>定义函数时，可以给某个参数<strong>指定一个默认值</strong>，具有默认值的参数就叫做缺省参数</li>
+<li>带有默认值的<strong>缺省参数必须在参数列表末尾</strong></li>
+<li>如果有多个缺省值，需要<strong>指定参数名</strong></li>
+</ul>
+<h3 id="多值参数"> 多值参数</h3>
+<ul>
+<li>有可能需要一个函数能够处理的参数个<strong>数是不确定的</strong>，这时使用多指参数</li>
+<li>Python 中有两种多值参数
+<ul>
+<li>参数名前增加一个 <code>*</code>，可以接收元组</li>
+<li>参数名前增加两个 <code>*</code>，可以接收字典</li>
+</ul>
+</li>
+<li>一般在给多指参数命名时，习惯使用以下两个名字
+<ul>
+<li><code>*args</code> -- 存放元组参数，前面一个 <code>*</code></li>
+</ul>
+</li>
+<li><code>**kwargs</code> -- 存放字典参数，前面两个 <code>*</code></li>
+<li><code>args</code> 是 <code>arguments</code> 的缩写，有变量的含义</li>
+<li><code>kw</code> 是 <code>keyword</code> 的缩写，<code>kwargs</code> 可以记忆<strong>键值对参数</strong></li>
+</ul>
+<h3 id="案例-计算任意多个数字的和"> 案例：计算任意多个数字的和</h3>
+<div><pre><code><span>def</span> <span>sum_nums</span><span>(</span><span>*</span>args<span>)</span><span>:</span>
+    num <span>=</span> <span>0</span>
+    <span># 循环遍历</span>
+    <span>for</span> n <span>in</span> args<span>:</span>
+        num <span>+=</span> n
+    <span>return</span> num
+
+result <span>=</span> sum_nums<span>(</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>,</span> <span>4</span><span>,</span> <span>5</span><span>)</span>
+<span>print</span><span>(</span>result<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><ul>
+<li>元组和字典的拆包</li>
+<li>在调用带有多值参数的函数时，如果希望</li>
+<li>将一个<strong>元组</strong>变量，直接传递给 <code>args</code></li>
+<li>将一个<strong>字典</strong>变量，直接传递给 <code>kwargs</code></li>
+<li>可以使用<code>拆包</code>，简化参数的传递，拆包的方式是：
+<ul>
+<li>在<code>元组</code>变量前，增加一个 <code>*</code></li>
+<li>在<code>字典</code>变量前，增加两个 <code>*</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="递归"> 递归</h2>
+<p>递归：函数调用自身</p>
+<h3 id="递归的特点"> 递归的特点</h3>
+<ul>
+<li>一个函数内部调用自己
+<ul>
+<li>函数内部可以调用其他函数，也可以在内部调用自己</li>
+</ul>
+</li>
+</ul>
+<h3 id="代码特点"> 代码特点</h3>
+<ol>
+<li>函数内部的代码是相同的，只是针对参数不同，处理的结果不同</li>
+<li>当参数满足一个条件时，函数不再执行
+<ol>
+<li>被称为递归的出口，否则会造成死循环</li>
+</ol>
+</li>
+</ol>
+<h3 id="案例-计算数字累加"> 案例 -- 计算数字累加</h3>
+<ol>
+<li>定义一个函数 <code>sum_numbers</code></li>
+<li>能够接受一个 <code>num</code> 的整体参数</li>
+<li>计算 <code>1 + 2 ... num</code> 的结果</li>
+</ol>
+<div><pre><code><span>def</span> <span>sum_numbers</span><span>(</span>num<span>)</span><span>:</span>
+
+    <span># 1. 出口</span>
+    <span>if</span> num <span>==</span> <span>1</span><span>:</span>
+        <span>return</span> <span>1</span>
+    <span># 2. 数字累加 num + (num - 1)</span>
+    <span># 假设 sum_numbers 能处理 1到 num -1 的累加</span>
+    temp <span>=</span>sum_numbers<span>(</span>num <span>-</span> <span>1</span><span>)</span>
+    <span>return</span> num <span>+</span> temp
+
+result <span>=</span> sum_numbers<span>(</span><span>100</span><span>)</span>
+<span>print</span><span>(</span>result<span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div>]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="编程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-02-02T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">面向对象</title>
     <id>/code/python/python-06-object-oriented.html</id>
     <link href="https://codenoob.top/code/python/python-06-object-oriented.html"/>
@@ -2216,44 +2216,6 @@ xusanduo<span>.</span>fire<span>(</span><span>)</span>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">Python 学习记录</title>
-    <id>/code/python/</id>
-    <link href="https://codenoob.top/code/python/"/>
-    <updated>2022-01-25T13:07:58.000Z</updated>
-    <content type="html"><![CDATA[<br>
-<h2 id="主要如下"> 主要如下</h2>
-<ul>
-<li>
-<p><a href="./Python-01-name-and-loop.html">命名和循环</a></p>
-</li>
-<li>
-<p><a href="./Python-02-xun-huan-da-yin-jiu-jiu-cheng-fa-biao.html">循环打印九九乘法表</a></p>
-</li>
-<li>
-<p><a href="./Python-03-Functions.html">函数</a></p>
-</li>
-<li>
-<p><a href="./Python-04-advanced-variable-types.html">高级变量类型</a></p>
-</li>
-<li>
-<p><a href="./Python-05-Advanced-Grammar.html">语法进阶</a></p>
-</li>
-<li>
-<p><a href="./Python-06-Object-Oriented.html">面向对象</a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="Start"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-08-10T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">编程学习记录</title>
     <id>/code/</id>
     <link href="https://codenoob.top/code/"/>
@@ -2289,6 +2251,44 @@ xusanduo<span>.</span>fire<span>(</span><span>)</span>
       <name>ChouCong</name>
     </contributor>
     <published>2020-06-10T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">Python 学习记录</title>
+    <id>/code/python/</id>
+    <link href="https://codenoob.top/code/python/"/>
+    <updated>2022-01-25T13:07:58.000Z</updated>
+    <content type="html"><![CDATA[<br>
+<h2 id="主要如下"> 主要如下</h2>
+<ul>
+<li>
+<p><a href="./Python-01-name-and-loop.html">命名和循环</a></p>
+</li>
+<li>
+<p><a href="./Python-02-xun-huan-da-yin-jiu-jiu-cheng-fa-biao.html">循环打印九九乘法表</a></p>
+</li>
+<li>
+<p><a href="./Python-03-Functions.html">函数</a></p>
+</li>
+<li>
+<p><a href="./Python-04-advanced-variable-types.html">高级变量类型</a></p>
+</li>
+<li>
+<p><a href="./Python-05-Advanced-Grammar.html">语法进阶</a></p>
+</li>
+<li>
+<p><a href="./Python-06-Object-Oriented.html">面向对象</a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="Start"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-08-10T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -2980,6 +2980,55 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">我的学习流水线</title>
+    <id>/daily/studypipeline.html</id>
+    <link href="https://codenoob.top/daily/studypipeline.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[我的学习流水线]]></summary>
+    <content type="html"><![CDATA[<p>大概快一个半月没见面了，多日不见非常想念，今天难得有空，就不谈技术了，和大家分享一下我的日常学习流程</p>
+<p>主要会分享到 学习、开发环境、博客、自媒体之类的杂谈，并不是一个单纯的工具推荐视频</p>
+<h2 id="学习"> 学习</h2>
+<p>程序员保持学习是很正常的事情，特别是我这种刚毕业的学生，面对新知识是如饥似渴的</p>
+<p>学习一个知识点我自己主要是分三次进行</p>
+<p>第一次是看视频或者博客 粗略的快速入门
+第二次就是回顾，然后再更加详细的进一步拓展
+第三次就是分享，自己能懂还不算，如果能让别人也听懂就更好了，我和大家分享一些视频的时候其实也是一个学习过程，加深自己的印象
+目前我的笔记都是使用 Typora 记录的，笔记工具折腾过很多最后还是觉得Typora更舒服，简约而不简单，Typora 和vscode一样也是使用JavaScript编写的，也就是说你能编写插件以及自定义主题</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164520-378275.png" alt="#" loading="lazy"></p>
+<p>比如笔记中的截图，我是使用一个oss的上传插件，将图片上传到云服务的oss存储，没有去折腾一些免费的方案，因为资料对我而言是非常有价值的，截图工具我使用的是<a href="/tools/creat/snipaste.html">snipaste</a>，很方便的做些简单的编辑，如果需要制作GiF动态图，我会使用<a href="/tools/creat/screentogif.html">ScreenToGif</a></p>
+<p>我的笔记是同步到一个Github的私有仓库的，因为其中的很多内容是不成熟的，所以没有公开</p>
+<p>相对而言我的个人博客是我学习第三个阶段的产物没有那么多的问题，我的个人博客是使用vuepress构建的，也是一个非常简单的博客，毕竟内容才是最重要的</p>
+<p>我的个人博客是放到码云上面的，每次我本地更新完成的时候会运行一个简单的脚本，将最新的数据推送到码云上面，然后码云上面我编写了一个hook脚本，会通知我的个人服务器数据更新了，然后我的个人服务器会来码云拉取最新的数据并更新到nginx的项目文件夹，非常的简单也很方便</p>
+<p>当我突然有什么灵感的时候我会在有道云笔记上编写markdown文档或者脑图，因为它是跨平台同步数据的，非常的方便</p>
+<p>我会使用wps来阅读PDF的电子书，而且它自带的脑图支持的自定义项是更加丰富的，在制作视频的时候我会使用到</p>
+<h2 id="开发环境"> 开发环境</h2>
+<p>对程序员来说，一个好的开发环境是非常重要的，就好比是自己的家，里面的装修必须要是自己喜欢的风格并且是实用的</p>
+<p>首先我的桌面图标不是很多，我使用<a href="/tools/creat/utools.html">utools</a>这个工具来启动应用；然后搜索文件、搜索开发文档基本也是使用这个工具</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163505-579802.png" alt="#" loading="lazy"></p>
+<p>我使用win10本机安装了docker，大家需要注意老版本的win10 docker和虚拟机不能共存，一些简单的工具我会使用docker来运行，创建对应的文件夹，然后编写简单的脚本来运行</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163732-468771.png" alt="#" loading="lazy"></p>
+<p>比如redis我就新建一个redis的文件夹，热后新建一个powershell的启动脚本</p>
+<p>我并没有使用win10自带的linux子系统，因为我自己想要控制系统的文件存放位置，所以我使用VMware运行了四个虚拟机，其中三个 centos7足够我练习各种工具的集群搭建，比如mysql、redis、k8s，还有一个ubuntu20系统为了更专注的学习直接使用用来日常的开发和部署测试</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164317-612206.png" alt="#" loading="lazy"></p>
+<p>除此之外我还有个自己的学生机服务器很便宜，续了几年，平时就挂一个博客和模拟部署</p>
+<p>平时我使用<a href="/tools/creat/mobaXterm.html">mobaXterm</a>来连接虚拟机，开一个本地命令行的窗口，然后开三个虚拟机的窗口，整个使用起来就非常的简洁，并且还支持文件传输，ftp工具也省了</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164710-81750.png" alt="#" loading="lazy"></p>
+<h2 id="自媒体"> 自媒体</h2>
+<p>关于制作视频我是非常简陋的，使用pr来剪辑，需要上字幕的视频我都是自己手动使用 arctime 打轴的，偶尔用一用自动生成的，这里我要吐槽一下川普的识别率不高啊！</p>
+<p>最开始我使用的是ev录屏，还挺好用的，就是噪音太大了，后来换成了OBS就很舒服了</p>
+<p>有些时候也会用动画大师来做点动画，但是免费版的分辨率也太低了！</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="日常"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-12-06T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">iOS 订阅管理 APP</title>
     <id>/daily/subscription.html</id>
     <link href="https://codenoob.top/daily/subscription.html"/>
@@ -3263,55 +3312,6 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
       <name>ChouCong</name>
     </contributor>
     <published>2021-02-27T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">我的学习流水线</title>
-    <id>/daily/studypipeline.html</id>
-    <link href="https://codenoob.top/daily/studypipeline.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[我的学习流水线]]></summary>
-    <content type="html"><![CDATA[<p>大概快一个半月没见面了，多日不见非常想念，今天难得有空，就不谈技术了，和大家分享一下我的日常学习流程</p>
-<p>主要会分享到 学习、开发环境、博客、自媒体之类的杂谈，并不是一个单纯的工具推荐视频</p>
-<h2 id="学习"> 学习</h2>
-<p>程序员保持学习是很正常的事情，特别是我这种刚毕业的学生，面对新知识是如饥似渴的</p>
-<p>学习一个知识点我自己主要是分三次进行</p>
-<p>第一次是看视频或者博客 粗略的快速入门
-第二次就是回顾，然后再更加详细的进一步拓展
-第三次就是分享，自己能懂还不算，如果能让别人也听懂就更好了，我和大家分享一些视频的时候其实也是一个学习过程，加深自己的印象
-目前我的笔记都是使用 Typora 记录的，笔记工具折腾过很多最后还是觉得Typora更舒服，简约而不简单，Typora 和vscode一样也是使用JavaScript编写的，也就是说你能编写插件以及自定义主题</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164520-378275.png" alt="#" loading="lazy"></p>
-<p>比如笔记中的截图，我是使用一个oss的上传插件，将图片上传到云服务的oss存储，没有去折腾一些免费的方案，因为资料对我而言是非常有价值的，截图工具我使用的是<a href="/tools/creat/snipaste.html">snipaste</a>，很方便的做些简单的编辑，如果需要制作GiF动态图，我会使用<a href="/tools/creat/screentogif.html">ScreenToGif</a></p>
-<p>我的笔记是同步到一个Github的私有仓库的，因为其中的很多内容是不成熟的，所以没有公开</p>
-<p>相对而言我的个人博客是我学习第三个阶段的产物没有那么多的问题，我的个人博客是使用vuepress构建的，也是一个非常简单的博客，毕竟内容才是最重要的</p>
-<p>我的个人博客是放到码云上面的，每次我本地更新完成的时候会运行一个简单的脚本，将最新的数据推送到码云上面，然后码云上面我编写了一个hook脚本，会通知我的个人服务器数据更新了，然后我的个人服务器会来码云拉取最新的数据并更新到nginx的项目文件夹，非常的简单也很方便</p>
-<p>当我突然有什么灵感的时候我会在有道云笔记上编写markdown文档或者脑图，因为它是跨平台同步数据的，非常的方便</p>
-<p>我会使用wps来阅读PDF的电子书，而且它自带的脑图支持的自定义项是更加丰富的，在制作视频的时候我会使用到</p>
-<h2 id="开发环境"> 开发环境</h2>
-<p>对程序员来说，一个好的开发环境是非常重要的，就好比是自己的家，里面的装修必须要是自己喜欢的风格并且是实用的</p>
-<p>首先我的桌面图标不是很多，我使用<a href="/tools/creat/utools.html">utools</a>这个工具来启动应用；然后搜索文件、搜索开发文档基本也是使用这个工具</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163505-579802.png" alt="#" loading="lazy"></p>
-<p>我使用win10本机安装了docker，大家需要注意老版本的win10 docker和虚拟机不能共存，一些简单的工具我会使用docker来运行，创建对应的文件夹，然后编写简单的脚本来运行</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/163732-468771.png" alt="#" loading="lazy"></p>
-<p>比如redis我就新建一个redis的文件夹，热后新建一个powershell的启动脚本</p>
-<p>我并没有使用win10自带的linux子系统，因为我自己想要控制系统的文件存放位置，所以我使用VMware运行了四个虚拟机，其中三个 centos7足够我练习各种工具的集群搭建，比如mysql、redis、k8s，还有一个ubuntu20系统为了更专注的学习直接使用用来日常的开发和部署测试</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164317-612206.png" alt="#" loading="lazy"></p>
-<p>除此之外我还有个自己的学生机服务器很便宜，续了几年，平时就挂一个博客和模拟部署</p>
-<p>平时我使用<a href="/tools/creat/mobaXterm.html">mobaXterm</a>来连接虚拟机，开一个本地命令行的窗口，然后开三个虚拟机的窗口，整个使用起来就非常的简洁，并且还支持文件传输，ftp工具也省了</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/164710-81750.png" alt="#" loading="lazy"></p>
-<h2 id="自媒体"> 自媒体</h2>
-<p>关于制作视频我是非常简陋的，使用pr来剪辑，需要上字幕的视频我都是自己手动使用 arctime 打轴的，偶尔用一用自动生成的，这里我要吐槽一下川普的识别率不高啊！</p>
-<p>最开始我使用的是ev录屏，还挺好用的，就是噪音太大了，后来换成了OBS就很舒服了</p>
-<p>有些时候也会用动画大师来做点动画，但是免费版的分辨率也太低了！</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="日常"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-12-06T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -4264,6 +4264,78 @@ iw wlp2s0 <span>link</span>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">在 Cloudflare 部署 FODI 后端</title>
+    <id>/document/fodi-cloudflare.html</id>
+    <link href="https://codenoob.top/document/fodi-cloudflare.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[在 Cloudflare 部署 FODI 后端]]></summary>
+    <content type="html"><![CDATA[<p>之前写过一个基于<code>腾讯云 SCF</code> 的 OneDrive 列表程序 <a href="/document/fodi.html">FODI</a>，现在腾讯云要收费了，每月至少 8 毛钱，虽然不多，但既然 Cloudflare 仍是免费的，不如移植一下，反正只是改改入口。</p>
+<div><p>突然白屏</p>
+<p><code>refresh_token</code>有效期 3 个月，如突然无法打开，请 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">重设后端代码</a>。<s>计划使用 Github Action 自动更新，还没开始写，请耐心等待。</s> 现已支持自动续期，请展开下方迟到的自动续期查看（如果是初次部署，请阅读完其它部分再看）。
+迟到的自动续期</p>
+</div>
+<details><summary>迟到的自动续期</summary>
+<p>之前，<code>FODI</code> 每过 3 个月要重设后端代码，原因是 <code>Cloudflare Worker</code> 是 <code>Serverless</code> 环境，不支持持久化存储。刚编写 <code>FODI</code> 时，<code>Cloudflare KV</code> 还处于收费状态，如果使用第三方免费存储则担心可用性和延迟问题。</p>
+<p>考虑过使用 <code>CI</code> 定时更新环境变量但一直没有动工，想着整体重构后一并添加。但现在重构意愿不强了，<code>Cloudflare KV</code> 免费服务也已推出一段时间，于是添加几句代码，让它支持 <code>Token 自动续期</code>。</p>
+<h2 id="重设后端代码"> 重设后端代码</h2>
+<p>首先，打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">部署助手</a>，按照页面上方步骤重设 <code>Worker</code> 代码。</p>
+<h2 id="创建-kv-命名空间"> 创建 KV 命名空间</h2>
+<p>保存好代码后，切换到顶部菜单栏的 KV 标签。在 命名空间名称 下方的输入框中输入 FODI_CACHE，随后点击右边蓝色的 <code>添加</code> 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a64a4c6e8fa445dd91353d75ddd3dc04.png" alt="a64a4c6e8fa445dd91353d75ddd3dc04.png" loading="lazy"></p>
+<h2 id="添加-kv-命名空间"> 添加 KV 命名空间</h2>
+<p>在 Worker 中绑定 KV
+转到 FODI Worker 脚本的 <code>设置</code> 页面，点击页面中部 <code>KV 命名空间绑定</code> 项目右侧的 添加绑定 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/bef907bec3404f89875ee85aa657a563.png" alt="添加命名空间绑定" loading="lazy"></p>
+<p>在 <code>变量名称</code> 下方的输入框键入 <code>FODI_CACHE</code>，<code>KV 命名空间</code> 下拉框也选择 <code>FODI_CACHE</code>，最后点击 <code>保存</code>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ece08d93814a415f8436b6596e35810c.png" alt="设定变量名称" loading="lazy"></p>
+<h2 id="添加续期计划任务"> 添加续期计划任务</h2>
+<p>转到设置左边的 <code>触发器</code> 面板，点击页面右边蓝色的 <code>添加 Cron</code> 触发器 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/d39848e511a743368ae9fb188cf216e5.png" alt="添加触发器" loading="lazy"></p>
+<p>切换到 <code>添加 Cron 触发器</code> 项目的 <code>Cron</code> 标签，在 <strong>Cron</strong> 下方输入框键入 <code>0 0 1 * *</code>，最后点击右下方蓝色的 <code>Add Trigger</code> 按钮。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/91466f9f4d2a45e9a1452d67397839bd.png" alt="保存触发器" loading="lazy"></p>
+<h2 id="验证-token-是否保存"> 验证 Token 是否保存</h2>
+<p>现在打开你的 FODI 前端等待网页列出文件后，再次进入 <code>KV</code> 面板，点击页面中部 <code>FODI_CACHE</code> 右侧的 查看。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/00deeb5a8d0c4911ba64213850669df3.png" alt="查看 KV" loading="lazy"></p>
+<p>当看到 <code>token_data</code> 时，表明代码工作正常，不出意外，以后都不再需要手动续期。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a928638713ce497d9c55c85102a3dc24.png" alt="token_data" loading="lazy"></p>
+</details>
+<h2 id="演示地址"> 演示地址</h2>
+<ul>
+<li><a href="https://logi.im/fodi.html" target="_blank" rel="noopener noreferrer">主页</a></li>
+<li><a href="https://logi.im/fodi.html?path=/Media/Music/Jay%20Chou/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86" target="_blank" rel="noopener noreferrer">图片/音频/视频</a></li>
+</ul>
+<h2 id="注册-cloudflare-并创建-workers"> 注册 Cloudflare 并创建 Workers</h2>
+<p>打开 <a href="https://dash.cloudflare.com/sign-up" target="_blank" rel="noopener noreferrer">Cloudflare 注册页面</a>，输入 <code>邮箱</code> 和 <code>密码</code> 后点击 <code>Create Account</code>，进入下个页面后直接点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，不要进行其他操作。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/feea00008a220626610f" alt="#" loading="lazy"></p>
+<p>进入主页后，点击靠近右下角的 <code>Workers</code>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb20001f67505de8458" alt="#" loading="lazy"></p>
+<p>此时系统会建议你修改子域名，直接点击 Set up，随后点击弹出对话框中的 Confirm。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ff89000099fb8b529539" alt="#" loading="lazy"></p>
+<p>之后会进入套餐选择页面，页面往下拉，找到 Continue with free，点击它。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb100005abae0d840ab" alt="#" loading="lazy"></p>
+<p>完成上述步骤后，系统会发送确认邮件到你的注册邮箱，请自行登录邮箱，找到相关邮件，点击其中的确认链接，完成确认。</p>
+<h2 id="上传-fodi-后端"> 上传 FODI 后端</h2>
+<p>完成邮箱验证后，再次点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，点击右下角的 <code>Workers</code>。</p>
+<p>现在点击页面中间你刚刚创建的函数，进入代码编辑界面，随后打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">FODI Deployment Helper</a>，按照指引生成并复制代码，粘贴到下图的代码编辑器中。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/febe0000b03f9a04a181" alt="#" loading="lazy"></p>
+<p>填写完毕后，点击页面中下部的 <code>Save and Deploy</code>。</p>
+<h2 id="部署-fodi-前端"> 部署 FODI 前端</h2>
+<p>前端部署方法和老文章相同，见 通过 <a href="/document/fodi.html">Github Pages 部署前端</a> 章节。</p>
+<p>唯一不同的是 <code>SCF 网关地址</code> 要换成 <code>Cloudflare</code> 的，右击下图箭头，选择 复制链接地址 即可获得。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/fe95000135f4d98e2270" alt="#" loading="lazy"></p>
+<p>最后如果这个项目帮到了你，不妨到 <a href="https://github.com/vcheckzen/FODI" target="_blank" rel="noopener noreferrer">Github</a> 为我点颗星。</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="文档"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-02T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">FODI，一款 OneDrive 秒级列表程序</title>
     <id>/document/fodi.html</id>
     <link href="https://codenoob.top/document/fodi.html"/>
@@ -4378,66 +4450,56 @@ iw wlp2s0 <span>link</span>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">在 Cloudflare 部署 FODI 后端</title>
-    <id>/document/fodi-cloudflare.html</id>
-    <link href="https://codenoob.top/document/fodi-cloudflare.html"/>
+    <title type="html">斐讯K2路由器刷openwrt</title>
+    <id>/document/k2-openwrt.html</id>
+    <link href="https://codenoob.top/document/k2-openwrt.html"/>
     <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[在 Cloudflare 部署 FODI 后端]]></summary>
-    <content type="html"><![CDATA[<p>之前写过一个基于<code>腾讯云 SCF</code> 的 OneDrive 列表程序 <a href="/document/fodi.html">FODI</a>，现在腾讯云要收费了，每月至少 8 毛钱，虽然不多，但既然 Cloudflare 仍是免费的，不如移植一下，反正只是改改入口。</p>
-<div><p>突然白屏</p>
-<p><code>refresh_token</code>有效期 3 个月，如突然无法打开，请 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">重设后端代码</a>。<s>计划使用 Github Action 自动更新，还没开始写，请耐心等待。</s> 现已支持自动续期，请展开下方迟到的自动续期查看（如果是初次部署，请阅读完其它部分再看）。
-迟到的自动续期</p>
-</div>
-<details><summary>迟到的自动续期</summary>
-<p>之前，<code>FODI</code> 每过 3 个月要重设后端代码，原因是 <code>Cloudflare Worker</code> 是 <code>Serverless</code> 环境，不支持持久化存储。刚编写 <code>FODI</code> 时，<code>Cloudflare KV</code> 还处于收费状态，如果使用第三方免费存储则担心可用性和延迟问题。</p>
-<p>考虑过使用 <code>CI</code> 定时更新环境变量但一直没有动工，想着整体重构后一并添加。但现在重构意愿不强了，<code>Cloudflare KV</code> 免费服务也已推出一段时间，于是添加几句代码，让它支持 <code>Token 自动续期</code>。</p>
-<h2 id="重设后端代码"> 重设后端代码</h2>
-<p>首先，打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">部署助手</a>，按照页面上方步骤重设 <code>Worker</code> 代码。</p>
-<h2 id="创建-kv-命名空间"> 创建 KV 命名空间</h2>
-<p>保存好代码后，切换到顶部菜单栏的 KV 标签。在 命名空间名称 下方的输入框中输入 FODI_CACHE，随后点击右边蓝色的 <code>添加</code> 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a64a4c6e8fa445dd91353d75ddd3dc04.png" alt="a64a4c6e8fa445dd91353d75ddd3dc04.png" loading="lazy"></p>
-<h2 id="添加-kv-命名空间"> 添加 KV 命名空间</h2>
-<p>在 Worker 中绑定 KV
-转到 FODI Worker 脚本的 <code>设置</code> 页面，点击页面中部 <code>KV 命名空间绑定</code> 项目右侧的 添加绑定 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/bef907bec3404f89875ee85aa657a563.png" alt="添加命名空间绑定" loading="lazy"></p>
-<p>在 <code>变量名称</code> 下方的输入框键入 <code>FODI_CACHE</code>，<code>KV 命名空间</code> 下拉框也选择 <code>FODI_CACHE</code>，最后点击 <code>保存</code>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ece08d93814a415f8436b6596e35810c.png" alt="设定变量名称" loading="lazy"></p>
-<h2 id="添加续期计划任务"> 添加续期计划任务</h2>
-<p>转到设置左边的 <code>触发器</code> 面板，点击页面右边蓝色的 <code>添加 Cron</code> 触发器 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/d39848e511a743368ae9fb188cf216e5.png" alt="添加触发器" loading="lazy"></p>
-<p>切换到 <code>添加 Cron 触发器</code> 项目的 <code>Cron</code> 标签，在 <strong>Cron</strong> 下方输入框键入 <code>0 0 1 * *</code>，最后点击右下方蓝色的 <code>Add Trigger</code> 按钮。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/91466f9f4d2a45e9a1452d67397839bd.png" alt="保存触发器" loading="lazy"></p>
-<h2 id="验证-token-是否保存"> 验证 Token 是否保存</h2>
-<p>现在打开你的 FODI 前端等待网页列出文件后，再次进入 <code>KV</code> 面板，点击页面中部 <code>FODI_CACHE</code> 右侧的 查看。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/00deeb5a8d0c4911ba64213850669df3.png" alt="查看 KV" loading="lazy"></p>
-<p>当看到 <code>token_data</code> 时，表明代码工作正常，不出意外，以后都不再需要手动续期。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/a928638713ce497d9c55c85102a3dc24.png" alt="token_data" loading="lazy"></p>
-</details>
-<h2 id="演示地址"> 演示地址</h2>
-<ul>
-<li><a href="https://logi.im/fodi.html" target="_blank" rel="noopener noreferrer">主页</a></li>
-<li><a href="https://logi.im/fodi.html?path=/Media/Music/Jay%20Chou/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86" target="_blank" rel="noopener noreferrer">图片/音频/视频</a></li>
-</ul>
-<h2 id="注册-cloudflare-并创建-workers"> 注册 Cloudflare 并创建 Workers</h2>
-<p>打开 <a href="https://dash.cloudflare.com/sign-up" target="_blank" rel="noopener noreferrer">Cloudflare 注册页面</a>，输入 <code>邮箱</code> 和 <code>密码</code> 后点击 <code>Create Account</code>，进入下个页面后直接点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，不要进行其他操作。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/feea00008a220626610f" alt="#" loading="lazy"></p>
-<p>进入主页后，点击靠近右下角的 <code>Workers</code>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb20001f67505de8458" alt="#" loading="lazy"></p>
-<p>此时系统会建议你修改子域名，直接点击 Set up，随后点击弹出对话框中的 Confirm。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ff89000099fb8b529539" alt="#" loading="lazy"></p>
-<p>之后会进入套餐选择页面，页面往下拉，找到 Continue with free，点击它。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/ffb100005abae0d840ab" alt="#" loading="lazy"></p>
-<p>完成上述步骤后，系统会发送确认邮件到你的注册邮箱，请自行登录邮箱，找到相关邮件，点击其中的确认链接，完成确认。</p>
-<h2 id="上传-fodi-后端"> 上传 FODI 后端</h2>
-<p>完成邮箱验证后，再次点击左上角的 <code>CLOUDFLARE</code> 图标进入控制面板主页，点击右下角的 <code>Workers</code>。</p>
-<p>现在点击页面中间你刚刚创建的函数，进入代码编辑界面，随后打开 <a href="https://logi.im/fodi/get-code/" target="_blank" rel="noopener noreferrer">FODI Deployment Helper</a>，按照指引生成并复制代码，粘贴到下图的代码编辑器中。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/febe0000b03f9a04a181" alt="#" loading="lazy"></p>
-<p>填写完毕后，点击页面中下部的 <code>Save and Deploy</code>。</p>
-<h2 id="部署-fodi-前端"> 部署 FODI 前端</h2>
-<p>前端部署方法和老文章相同，见 通过 <a href="/document/fodi.html">Github Pages 部署前端</a> 章节。</p>
-<p>唯一不同的是 <code>SCF 网关地址</code> 要换成 <code>Cloudflare</code> 的，右击下图箭头，选择 复制链接地址 即可获得。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/fe95000135f4d98e2270" alt="#" loading="lazy"></p>
-<p>最后如果这个项目帮到了你，不妨到 <a href="https://github.com/vcheckzen/FODI" target="_blank" rel="noopener noreferrer">Github</a> 为我点颗星。</p>
+    <summary type="html"><![CDATA[白捡的斐讯K2路由器，还刷机了，刷的openwrt，厉害了]]></summary>
+    <content type="html"><![CDATA[<p>本想给家里现有的<code>fast</code>、<code>tp-link</code>路由器刷<code>openwrt</code>系统，可惜硬件不被系统所支持，刚好听说有一款智能路由器可以免费白捡，于是我薅（<mark>hao</mark>）羊毛的精神有发扬了一回，嘻嘻。下面给出链接，大家自行了解 购买。下面才是正题，我的刷机流程，仅供大家参考，交流学习。</p>
+<p><a href="https://union-click.jd.com/jdc?d=zKK1iR" target="_blank" rel="noopener noreferrer">京东购买斐讯K2智能路由器地址</a></p>
+<p>我买的路由器是<code>斐讯K2</code>，硬件版本<code>A5</code>，<code>CPU</code>芯片为<code>mt7620a</code>，我是奔着<code>openwrt</code>来的，所以我在<code>www.openwrt.org</code>找到相应的<code>bin固件</code>，并下载下来准备好</p>
+<p><a href="https://archive.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-mt7620a-squashfs-sysupgrade.bin" target="_blank" rel="noopener noreferrer">Bin固件地址</a></p>
+<p>路由器刚入手，高兴过头了，于是手贱点了一下自动升级最新系统，这个后面的刷固件找了不少麻烦，还好网络是开放共享的，废了好些时间找到了解决方法。主要思路是降级系统，找到官方下架的固件，手机更新上去，然后再刷入<code>breed</code>固件。相关固件这里汇总了一下，需要的朋友拿去。</p>
+<p>接下来是具体步骤，先由最新版本 <mark>V22.6.507.43</mark> ,降级到 <mark>K2_V22.6.506.28.bin</mark>，最新版本没有开启<code>Telnet</code>功能，这个次新版本开启了<code>Telnet</code>功能且不提示不合法固件，处女刷，用的必须要用此功能哦，呵呵，登录路由后台点手动升级，选择下载好的固件。</p>
+<ol>
+<li>
+<p>下载 <code>K2_V22.6.506.28.bin</code>,<a href="https://pan.baidu.com/s/1dGYpUHr" target="_blank" rel="noopener noreferrer">固件链接</a>,密码: 8z3m</p>
+</li>
+<li>
+<p>下载<code>telnet</code> 打开工具<code>RoutAckProV1B2</code>,<a href="https://pan.baidu.com/s/1jJK88qM" target="_blank" rel="noopener noreferrer">链接</a>,密码: qaix</p>
+</li>
+<li>
+<p>下载路由器刷<code>breed Web</code>控制台助手<code>v4.8</code>版本（内含breed固件）,<a href="https://pan.baidu.com/s/1pLXFt2b" target="_blank" rel="noopener noreferrer">链接</a> ,密码: cban</p>
+</li>
+</ol>
+<p>把上面两个工具分别右键管理员身份打开，路由器长按恢复出厂设置按钮<strong>10</strong>秒，红灯状态下点击工具<code>telnet</code>按钮直到出现收到应答信号，紧接着快速点击<strong>breed工具</strong>的开始刷机按钮，（失败很多次的原因都是<code>Telnet</code>开启时间特别短，黄灯亮了<code>telnet</code>就关闭了，两个按钮几乎要同时按下去了），中间什么都不用管，一会就显示成功了拔掉路由器电源，按着复位键插电源，浏览器<code>192.168.1.1</code>进入<code>breed刷机</code>界面（我是手动修改的<code>ip</code>，两次<code>ip</code>不一样，<code>k2控制台</code>管理<code>ip</code>为<code>192.168.2.1</code>）一路默认，要用网线，据说wifi无线网不可以，其他不相干的网卡先禁用掉。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085017151710061744052.png" alt="breed 界面" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085033151710063319001.png" alt="breed 界面" loading="lazy"></p>
+<p>点击<code>是</code>按钮</p>
+<p>切换设置主机<code>ip:192.168.1.12</code></p>
+<p>登录<code>192.168.1.1</code> 登录之前断一下电重启，下面是升级固件的页面（少一张选择固件的页面截图）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085042151710064235458.png" alt="breed 界面" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/4.png" alt="breed 界面" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085101151710066144139.png" alt="breed 界面" loading="lazy"></p>
+<p>刷完之后，再重启一下，访问<code>192.168.1.1</code>若不能访问，恢复出厂设置后再访问。（断电后按键<code>reset</code>键，接通电源，持续按键<code>10s</code>）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085141151710070155198.png" alt="路由器" loading="lazy"></p>
+<p>默认密码<code>admin</code>或者<code>root</code>，进去之后重新设置密码</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085156151710071622467.png" alt="路由器" loading="lazy"></p>
+<p>最后上图是PuTTY工具登录<code>Telnet</code>,</p>
+<p>远程工具<a href="https://pan.baidu.com/s/1jJ4Z48m" target="_blank" rel="noopener noreferrer">下载链接</a>,密码: d4ng</p>
+<p>这就是一台小型的linux主机，系统体积非常的小，只有数M，可以装进智能摄像头、智能家居、小型机器人、电话里等，用途十分广泛，当然这些只是听说，我没有安装过，呵呵，大家多交流吧 qq787940000</p>
+<p>可以使用opkg命令安装相关软件</p>
+<div><pre><code>opkg update # 更新可以获取的软件包列表
+
+opkg upgrade # 对已经安装的软件包升级
+
+opkg list # 获取软件列表
+
+opkg install # 安装指定的软件包
+
+opkg remove # 卸载已经安装的指定的软件包
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>当然，必须先让路由器连上网才行。</p>
 ]]></content>
     <author>
       <name>ChouCong</name>
@@ -4446,7 +4508,7 @@ iw wlp2s0 <span>link</span>
     <contributor>
       <name>ChouCong</name>
     </contributor>
-    <published>2021-11-02T00:00:00.000Z</published>
+    <published>2021-08-23T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -4600,68 +4662,6 @@ ffprobe
       <name>ChouCong</name>
     </contributor>
     <published>2020-10-13T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">斐讯K2路由器刷openwrt</title>
-    <id>/document/k2-openwrt.html</id>
-    <link href="https://codenoob.top/document/k2-openwrt.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[白捡的斐讯K2路由器，还刷机了，刷的openwrt，厉害了]]></summary>
-    <content type="html"><![CDATA[<p>本想给家里现有的<code>fast</code>、<code>tp-link</code>路由器刷<code>openwrt</code>系统，可惜硬件不被系统所支持，刚好听说有一款智能路由器可以免费白捡，于是我薅（<mark>hao</mark>）羊毛的精神有发扬了一回，嘻嘻。下面给出链接，大家自行了解 购买。下面才是正题，我的刷机流程，仅供大家参考，交流学习。</p>
-<p><a href="https://union-click.jd.com/jdc?d=zKK1iR" target="_blank" rel="noopener noreferrer">京东购买斐讯K2智能路由器地址</a></p>
-<p>我买的路由器是<code>斐讯K2</code>，硬件版本<code>A5</code>，<code>CPU</code>芯片为<code>mt7620a</code>，我是奔着<code>openwrt</code>来的，所以我在<code>www.openwrt.org</code>找到相应的<code>bin固件</code>，并下载下来准备好</p>
-<p><a href="https://archive.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-mt7620a-squashfs-sysupgrade.bin" target="_blank" rel="noopener noreferrer">Bin固件地址</a></p>
-<p>路由器刚入手，高兴过头了，于是手贱点了一下自动升级最新系统，这个后面的刷固件找了不少麻烦，还好网络是开放共享的，废了好些时间找到了解决方法。主要思路是降级系统，找到官方下架的固件，手机更新上去，然后再刷入<code>breed</code>固件。相关固件这里汇总了一下，需要的朋友拿去。</p>
-<p>接下来是具体步骤，先由最新版本 <mark>V22.6.507.43</mark> ,降级到 <mark>K2_V22.6.506.28.bin</mark>，最新版本没有开启<code>Telnet</code>功能，这个次新版本开启了<code>Telnet</code>功能且不提示不合法固件，处女刷，用的必须要用此功能哦，呵呵，登录路由后台点手动升级，选择下载好的固件。</p>
-<ol>
-<li>
-<p>下载 <code>K2_V22.6.506.28.bin</code>,<a href="https://pan.baidu.com/s/1dGYpUHr" target="_blank" rel="noopener noreferrer">固件链接</a>,密码: 8z3m</p>
-</li>
-<li>
-<p>下载<code>telnet</code> 打开工具<code>RoutAckProV1B2</code>,<a href="https://pan.baidu.com/s/1jJK88qM" target="_blank" rel="noopener noreferrer">链接</a>,密码: qaix</p>
-</li>
-<li>
-<p>下载路由器刷<code>breed Web</code>控制台助手<code>v4.8</code>版本（内含breed固件）,<a href="https://pan.baidu.com/s/1pLXFt2b" target="_blank" rel="noopener noreferrer">链接</a> ,密码: cban</p>
-</li>
-</ol>
-<p>把上面两个工具分别右键管理员身份打开，路由器长按恢复出厂设置按钮<strong>10</strong>秒，红灯状态下点击工具<code>telnet</code>按钮直到出现收到应答信号，紧接着快速点击<strong>breed工具</strong>的开始刷机按钮，（失败很多次的原因都是<code>Telnet</code>开启时间特别短，黄灯亮了<code>telnet</code>就关闭了，两个按钮几乎要同时按下去了），中间什么都不用管，一会就显示成功了拔掉路由器电源，按着复位键插电源，浏览器<code>192.168.1.1</code>进入<code>breed刷机</code>界面（我是手动修改的<code>ip</code>，两次<code>ip</code>不一样，<code>k2控制台</code>管理<code>ip</code>为<code>192.168.2.1</code>）一路默认，要用网线，据说wifi无线网不可以，其他不相干的网卡先禁用掉。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085017151710061744052.png" alt="breed 界面" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085033151710063319001.png" alt="breed 界面" loading="lazy"></p>
-<p>点击<code>是</code>按钮</p>
-<p>切换设置主机<code>ip:192.168.1.12</code></p>
-<p>登录<code>192.168.1.1</code> 登录之前断一下电重启，下面是升级固件的页面（少一张选择固件的页面截图）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085042151710064235458.png" alt="breed 界面" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/4.png" alt="breed 界面" loading="lazy"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085101151710066144139.png" alt="breed 界面" loading="lazy"></p>
-<p>刷完之后，再重启一下，访问<code>192.168.1.1</code>若不能访问，恢复出厂设置后再访问。（断电后按键<code>reset</code>键，接通电源，持续按键<code>10s</code>）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085141151710070155198.png" alt="路由器" loading="lazy"></p>
-<p>默认密码<code>admin</code>或者<code>root</code>，进去之后重新设置密码</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20180128085156151710071622467.png" alt="路由器" loading="lazy"></p>
-<p>最后上图是PuTTY工具登录<code>Telnet</code>,</p>
-<p>远程工具<a href="https://pan.baidu.com/s/1jJ4Z48m" target="_blank" rel="noopener noreferrer">下载链接</a>,密码: d4ng</p>
-<p>这就是一台小型的linux主机，系统体积非常的小，只有数M，可以装进智能摄像头、智能家居、小型机器人、电话里等，用途十分广泛，当然这些只是听说，我没有安装过，呵呵，大家多交流吧 qq787940000</p>
-<p>可以使用opkg命令安装相关软件</p>
-<div><pre><code>opkg update # 更新可以获取的软件包列表
-
-opkg upgrade # 对已经安装的软件包升级
-
-opkg list # 获取软件列表
-
-opkg install # 安装指定的软件包
-
-opkg remove # 卸载已经安装的指定的软件包
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>当然，必须先让路由器连上网才行。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="文档"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-08-23T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -8797,6 +8797,29 @@ npm init vuepress-theme-hope docs
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">个人项目列表</title>
+    <id>/projects/</id>
+    <link href="https://codenoob.top/projects/"/>
+    <updated>2022-01-25T13:07:58.000Z</updated>
+    <summary type="html"><![CDATA[欢饮来交流啊]]></summary>
+    <content type="html"><![CDATA[<br>
+<h2 id="个人项目-欢迎交流"> 个人项目，欢迎交流</h2>
+<p>网站头像请保证在外部可以直接打开的，为保证友链质量，申请的友链都将经过筛选，原则上已添加友链不会轻易删除，如遇死链、盗版、破解、网页植入挖矿脚本、极低质量内容、我站都将单方面移除贵站链接，恕不另行通知。
+<br/>
+<br/>
+<br/>
+<projects /></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-21T15:21:44.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">基于逆向工程和3D打印的头盔创新设计</title>
     <id>/projects/PapertTranslation.html</id>
     <link href="https://codenoob.top/projects/PapertTranslation.html"/>
@@ -9015,29 +9038,6 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
     </contributor>
     <published>2021-12-08T00:00:00.000Z</published>
     <rights>Copyright by Pengwen Wang</rights>
-  </entry>
-  <entry>
-    <title type="html">个人项目列表</title>
-    <id>/projects/</id>
-    <link href="https://codenoob.top/projects/"/>
-    <updated>2022-01-25T13:07:58.000Z</updated>
-    <summary type="html"><![CDATA[欢饮来交流啊]]></summary>
-    <content type="html"><![CDATA[<br>
-<h2 id="个人项目-欢迎交流"> 个人项目，欢迎交流</h2>
-<p>网站头像请保证在外部可以直接打开的，为保证友链质量，申请的友链都将经过筛选，原则上已添加友链不会轻易删除，如遇死链、盗版、破解、网页植入挖矿脚本、极低质量内容、我站都将单方面移除贵站链接，恕不另行通知。
-<br/>
-<br/>
-<br/>
-<projects /></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-21T15:21:44.000Z</published>
-    <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
     <title type="html">通用(不是docker)</title>
@@ -9276,6 +9276,43 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">禁止新用户注册</title>
+    <id>/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<p>默认情况下，任何可以访问您的实例的人都可以注册一个新帐户。要禁用此功能，请将 <code>SIGNUPS_ALLOWED</code> 环境变量设置为 <code>false</code>：</p>
+<div><pre><code>docker run -d --name bitwarden <span>\</span>
+  -e <span>SIGNUPS_ALLOWED</span><span>=</span>false <span>\</span>
+  -v /vw-data/:/data/ <span>\</span>
+  -p <span>80</span>:80 <span>\</span>
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，当<code>SIGNUPS_ALLOWED=false</code>时，<code>创建帐户</code>按钮仍将显示在网络密码管理 UI 中，但实际尝试创建帐户将导致错误消息。上游 Bitwarden 并非旨在允许禁用注册，因此无法轻松解决此问题。</p>
+<h2 id="禁用组织邀请"> 禁用组织邀请</h2>
+<p>即使<code>SIGNUPS_ALLOWED=false</code>，作为组织所有者或管理员的现有用户仍然可以邀请新用户。如果您也想禁用此功能，请参阅 <a href="./Disable-invitations.html">禁用邀请</a>。</p>
+<h2 id="限制某些电子邮件域的注册"> 限制某些电子邮件域的注册</h2>
+<p>您可以通过相应地设置<code>SIGNUPS_DOMAINS_WHITELIST</code>来限制注册到来自某些域的电子邮件地址。例如：</p>
+<ul>
+<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com</code>(单域)</li>
+<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com,example.net,example.org</code>(多个域)</li>
+</ul>
+<p>!&gt;  如果设置了<code>SIGNUPS_DOMAINS_WHITELIST</code>，则忽略<code>SIGNUPS_ALLOWED</code> 的值。</p>
+<p>您可能还想设置<code>SIGNUPS_VERIFY=true</code>，这需要在新注册的用户成功登录之前进行电子邮件验证。这将防止有人使用具有正确域的虚假电子邮件地址进行注册。</p>
+<h2 id="通过管理页面的邀请"> 通过管理页面的邀请</h2>
+<p>Vaultwarden 管理员可以通过 <a href="./Enabling-admin-page.html">启用管理页面</a> 邀请任何人，不管上述任何限制。</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">禁用邀请</title>
     <id>/projects/vaultwarden/Configuration/Disable-invitations.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Disable-invitations.html"/>
@@ -9321,43 +9358,6 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
   vaultwarden/server:latest
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，您还可以通过提供带有路径的<code>WEB_VAULT_FOLDER</code>环境变量来更改 vaultwarden 查找静态文件的路径。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="项目"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">禁止新用户注册</title>
-    <id>/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Configuration/Disable-registration-of-new-users.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p>默认情况下，任何可以访问您的实例的人都可以注册一个新帐户。要禁用此功能，请将 <code>SIGNUPS_ALLOWED</code> 环境变量设置为 <code>false</code>：</p>
-<div><pre><code>docker run -d --name bitwarden <span>\</span>
-  -e <span>SIGNUPS_ALLOWED</span><span>=</span>false <span>\</span>
-  -v /vw-data/:/data/ <span>\</span>
-  -p <span>80</span>:80 <span>\</span>
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，当<code>SIGNUPS_ALLOWED=false</code>时，<code>创建帐户</code>按钮仍将显示在网络密码管理 UI 中，但实际尝试创建帐户将导致错误消息。上游 Bitwarden 并非旨在允许禁用注册，因此无法轻松解决此问题。</p>
-<h2 id="禁用组织邀请"> 禁用组织邀请</h2>
-<p>即使<code>SIGNUPS_ALLOWED=false</code>，作为组织所有者或管理员的现有用户仍然可以邀请新用户。如果您也想禁用此功能，请参阅 <a href="./Disable-invitations.html">禁用邀请</a>。</p>
-<h2 id="限制某些电子邮件域的注册"> 限制某些电子邮件域的注册</h2>
-<p>您可以通过相应地设置<code>SIGNUPS_DOMAINS_WHITELIST</code>来限制注册到来自某些域的电子邮件地址。例如：</p>
-<ul>
-<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com</code>(单域)</li>
-<li><code>SIGNUPS_DOMAINS_WHITELIST=example.com,example.net,example.org</code>(多个域)</li>
-</ul>
-<p>!&gt;  如果设置了<code>SIGNUPS_DOMAINS_WHITELIST</code>，则忽略<code>SIGNUPS_ALLOWED</code> 的值。</p>
-<p>您可能还想设置<code>SIGNUPS_VERIFY=true</code>，这需要在新注册的用户成功登录之前进行电子邮件验证。这将防止有人使用具有正确域的虚假电子邮件地址进行注册。</p>
-<h2 id="通过管理页面的邀请"> 通过管理页面的邀请</h2>
-<p>Vaultwarden 管理员可以通过 <a href="./Enabling-admin-page.html">启用管理页面</a> 邀请任何人，不管上述任何限制。</p>
 ]]></content>
     <author>
       <name>ChouCong</name>
@@ -9434,37 +9434,6 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">启用管理页面</title>
-    <id>/projects/vaultwarden/Configuration/Enabling-admin-page.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Configuration/Enabling-admin-page.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p><strong>重要</strong>：强烈建议在启用此功能之前激活 HTTPS，以避免可能的 MITM 攻击。</p>
-<p>此页面允许服务器管理员查看所有注册用户并删除它们。它还允许邀请新用户，即使注册被禁用。</p>
-<p>要启用管理页面，您需要设置身份验证令牌。这个令牌可以是任何东西，但建议使用长的、随机生成的字符串，例如运行<code>openssl rand -base64 48</code>。 <strong>将此令牌保密，这是访问服务器管理区域的密码！</strong></p>
-<p>要设置令牌，请使用<code>ADMIN_TOKEN</code>变量：</p>
-<div><pre><code>docker run -d --name bitwarden <span>\</span>
-  -e <span>ADMIN_TOKEN</span><span>=</span>some_random_token_as_per_above_explanation <span>\</span>
-  -v /vw-data/:/data/ <span>\</span>
-  -p <span>80</span>:80 <span>\</span>
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>之后，该页面将在<code>/admin</code> 子目录中可用。</p>
-<p>您第一次在管理页面中保存设置时，将在您的<code>DATA_FOLDER</code>中生成<code>config.json</code>。此文件中的值将优先于相应的环境变量。</p>
-<p>请注意，在单击<code>保存</code>按钮之前，管理页面中的配置更改不会生效。例如，如果您正在测试 SMTP 设置，并且您更改了<code>SMTP 身份验证机制</code>设置，然后单击<code>发送测试电子邮件</code>来测试更改，这将不会按预期工作——因为您没有单击<code>保存</code> <code>，</code>SMTP Auth 机制` 更改不会生效。</p>
-<p><strong>注意：</strong> 更改 <code>ADMIN_TOKEN</code> 后，当前登录的管理员仍然可以使用他们的旧登录令牌 <a href="https://github.com/dani-garcia/vaultwarden/blob/master/src/api/admin.rs#L87" target="_blank" rel="noopener noreferrer">最多 20 分钟</a>。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="项目"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">开启YubiKey OTP认证</title>
     <id>/projects/vaultwarden/Configuration/Enabling-Yubikey-OTP-authentication.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Enabling-Yubikey-OTP-authentication.html"/>
@@ -9485,6 +9454,37 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
   vaultwarden/server:latest
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">启用管理页面</title>
+    <id>/projects/vaultwarden/Configuration/Enabling-admin-page.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Configuration/Enabling-admin-page.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<p><strong>重要</strong>：强烈建议在启用此功能之前激活 HTTPS，以避免可能的 MITM 攻击。</p>
+<p>此页面允许服务器管理员查看所有注册用户并删除它们。它还允许邀请新用户，即使注册被禁用。</p>
+<p>要启用管理页面，您需要设置身份验证令牌。这个令牌可以是任何东西，但建议使用长的、随机生成的字符串，例如运行<code>openssl rand -base64 48</code>。 <strong>将此令牌保密，这是访问服务器管理区域的密码！</strong></p>
+<p>要设置令牌，请使用<code>ADMIN_TOKEN</code>变量：</p>
+<div><pre><code>docker run -d --name bitwarden <span>\</span>
+  -e <span>ADMIN_TOKEN</span><span>=</span>some_random_token_as_per_above_explanation <span>\</span>
+  -v /vw-data/:/data/ <span>\</span>
+  -p <span>80</span>:80 <span>\</span>
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>之后，该页面将在<code>/admin</code> 子目录中可用。</p>
+<p>您第一次在管理页面中保存设置时，将在您的<code>DATA_FOLDER</code>中生成<code>config.json</code>。此文件中的值将优先于相应的环境变量。</p>
+<p>请注意，在单击<code>保存</code>按钮之前，管理页面中的配置更改不会生效。例如，如果您正在测试 SMTP 设置，并且您更改了<code>SMTP 身份验证机制</code>设置，然后单击<code>发送测试电子邮件</code>来测试更改，这将不会按预期工作——因为您没有单击<code>保存</code> <code>，</code>SMTP Auth 机制` 更改不会生效。</p>
+<p><strong>注意：</strong> 更改 <code>ADMIN_TOKEN</code> 后，当前登录的管理员仍然可以使用他们的旧登录令牌 <a href="https://github.com/dani-garcia/vaultwarden/blob/master/src/api/admin.rs#L87" target="_blank" rel="noopener noreferrer">最多 20 分钟</a>。</p>
+]]></content>
     <author>
       <name>ChouCong</name>
     </author>
@@ -10121,143 +10121,6 @@ delete
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">SMTP配置</title>
-    <id>/projects/vaultwarden/Configuration/SMTP-Configuration.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Configuration/SMTP-Configuration.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p>您可以将 Vaultwarden 配置为通过 SMTP 代理发送电子邮件：</p>
-<div><pre><code>docker run -d --name vaultwarden \
-  -e SMTP_HOST=&lt;smtp.domain.tld&gt; \
-  -e SMTP_FROM=&lt;vaultwarden@domain.tld&gt; \
-  -e SMTP_PORT=587 \
-  -e SMTP_SSL=true \
-  -e SMTP_USERNAME=&lt;username&gt; \
-  -e SMTP_PASSWORD=&lt;password&gt; \
-  -v /vw-data/:/data/ \
-  -p 80:80 \
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>当 <code>SMTP_SSL</code> 设置为 <code>true</code>(这是默认值)时，只会接受 TLSv1.1 和 TLSv1.2 协议，并且 <code>SMTP_PORT</code> 将默认为 <code>587</code>。如果设置为<code>false</code>，<code>SMTP\_PORT</code>将默认为<code>25</code>，并且将尝试机会加密(在 2020 年 3 月 12 日之前不会尝试使用代码进行加密)。</p>
-<p>这可能非常不安全，仅当您知道自己在做什么时才使用此设置。要以显式模式运行 SMTP，请将 <code>SMTP_EXPLICIT_TLS</code> 设置为 <code>true</code>。如果您无需登录即可发送电子邮件，则可以简单地不设置<code>SMTP\_USERNAME</code>和<code>SMTP\_PASSWORD</code>。</p>
-<p>请注意，如果启用了 SMTP 和邀请，邀请将通过电子邮件发送给新用户。您必须使用 Vaultwarden 实例的基本 URL 设置 <code>DOMAIN</code> 配置选项，才能正确生成邀请链接：</p>
-<div><pre><code>docker run -d --name vaultwarden \
-...
--e DOMAIN=https://vault.example.com \
-...
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>用户邀请链接的有效期为 5 天，之后需要发送新邀请。</p>
-<h2 id="smtp-服务器"> SMTP 服务器</h2>
-<p>正确配置 SMTP 服务器/中继并非易事。 Vaultwarden 使用的邮件程序库也不是最容易进行故障排除的。因此，除非您对自己进行设置特别感兴趣，否则使用外部服务可能更容易。</p>
-<p>以下是一些具有免费层级的服务，允许每天发送 100-200 封电子邮件(对于大多数用例来说已经足够了)：</p>
-<ul>
-<li><a href="https://sendgrid.com" target="_blank" rel="noopener noreferrer">SendGrid</a></li>
-<li><a href="https://www.mailjet.com" target="_blank" rel="noopener noreferrer">MailJet</a></li>
-</ul>
-<h2 id="这里有一些众所周知的服务的合理默认值"> 这里有一些众所周知的服务的合理默认值</h2>
-<h3 id="一般的"> 一般的</h3>
-<p>邮件服务器侦听端口 25 主要只是为了接受来自其他邮件服务器的邮件，并且仅接收它们作为最终位置的邮件。</p>
-<p>此外，许多互联网提供商会阻止传出端口 25 以防止垃圾邮件。</p>
-<p>大多数邮件服务器需要登录才能使用端口 587 或端口 465。</p>
-<p>端口 587 称为提交端口，大多数时候只能在使用用户名和密码时使用。在客户端和服务器之间的通信期间，端口 587 开始时未加密并升级为 TLS 加密连接。</p>
-<p>端口 465 从一开始就是 SSL 加密的，并且根本没有通过该端口进行纯文本通信。</p>
-<p>每个端口的一些常规设置。</p>
-<ul>
-<li>
-<p>用于使用端口 465 的邮件服务器</p>
-<div><pre><code><span>SMTP_PORT</span><span>=</span><span>465</span>
-<span>SMTP_SSL</span><span>=</span><span>false</span>
-<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
-<li>
-<p>用于使用端口 587(有时为 25)的邮件服务器</p>
-<div><pre><code><span>SMTP_PORT</span><span>=</span><span>587</span>
-<span>SMTP_SSL</span><span>=</span><span>true</span>
-<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
-<li>
-<p>用于根本不支持加密的邮件服务器。</p>
-<div><pre><code><span>SMTP_PORT</span><span>=</span><span>25</span>
-<span>SMTP_SSL</span><span>=</span><span>false</span>
-<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
-</ul>
-<h2 id="google-gmail"> Google/Gmail</h2>
-<p>您需要为 Vaultwarden 生成应用密码才能使用 Gmail。
-请按照此处的步骤操作：<a href="https://support.google.com/accounts/answer/185833?hl=zh-CN&amp;ref_topic=7189145" target="_blank" rel="noopener noreferrer">https://support.google.com/accounts/answer/185833?hl=zh-CN&amp;ref_topic=7189145</a>
-最后你会看到一个密码(中间没有空格，只是为了方便输入)，我们这个密码。</p>
-<p>FullSSL：</p>
-<div><pre><code>  <span># 域：gmail.com、googlemail.com</span>
-  <span>SMTP_HOST</span><span>=</span><span>smtp.gmail.com</span>
-  <span>SMTP_PORT</span><span>=</span><span>465</span>
-  <span>SMTP_SSL</span><span>=</span><span>false</span>
-  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
-  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
-  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;不安全的应用程序密码></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>StartTLS：</p>
-<div><pre><code>  <span># 域：gmail.com、googlemail.com</span>
-  <span>SMTP_HOST</span><span>=</span><span>smtp.gmail.com</span>
-  <span>SMTP_PORT</span><span>=</span><span>587</span>
-  <span>SMTP_SSL</span><span>=</span><span>true</span>
-  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
-  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
-  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;不安全的应用程序密码></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>另见：<a href="https://web.archive.org/web/20210925161633/https://webewizard.com/2019/09/17/Using-Lettre-With-Gmail/" target="_blank" rel="noopener noreferrer">https://web.archive.org/web/20210925161633/https://webewizard.com/2019/09/17/Using-Lettre-With-Gmail/</a></p>
-<h2 id="hotmail-outlook-office365"> Hotmail/Outlook/Office365</h2>
-<div><pre><code>  <span># 域名：hotmail.com、outlook.com、office365.com</span>
-  <span>SMTP_HOST</span><span>=</span><span>smtp-mail.outlook.com</span>
-  <span>SMTP_PORT</span><span>=</span><span>587</span>
-  <span>SMTP_SSL</span><span>=</span><span>true</span>
-  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
-  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
-  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;密码></span>
-  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>Login</span>"</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h2 id="发送网格"> 发送网格</h2>
-<p>将 <code>&lt;full-api-key&gt;</code> 替换为从 SendGrid 生成的以 <code>SG</code> 开头的 API-Key。
-还要确保 API-Key 具有完整的<code>邮件发送</code>权限，否则您无法使用此密钥登录。</p>
-<p>StartTLS：</p>
-<div><pre><code>  <span>SMTP_HOST</span><span>=</span><span>smtp.sendgrid.net</span>
-  <span>SMTP_PORT</span><span>=</span><span>587</span>
-  <span>SMTP_SSL</span><span>=</span><span>true</span>
-  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
-  <span>SMTP_USERNAME</span><span>=</span><span>apikey</span>
-  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;full-api-key></span>
-  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>登录</span>"</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>Full SSL：</p>
-<div><pre><code>  <span>SMTP_HOST</span><span>=</span><span>smtp.sendgrid.net</span>
-  <span>SMTP_PORT</span><span>=</span><span>465</span>
-  <span>SMTP_SSL</span><span>=</span><span>false</span>
-  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
-  <span>SMTP_USERNAME</span><span>=</span><span>apikey</span>
-  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;full-api-key></span>
-  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>登录</span>"</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="带有特殊字符的密码"> 带有特殊字符的密码</h2>
-<p>如果您想在密码中使用一些特殊字符，可能需要对其中一些字符进行转义以免混淆环境变量解析器。
-例如，可以使用<code>\</code> 或<code>'</code> 或<code>&quot;</code>，但有时需要对它们进行转义，以便实际使用。 如果您使用特殊字符，最好总是在密码周围使用单引号。
-我们以下面的密码为例：<code>~^&quot;,a.%\,'}b&amp;@|/c!1(#}</code>
-以下是一些可能会破坏环境变量解析的字符，例如 <code>\</code>、<code>'</code> 和 <code>&quot;</code>。 单个<code>\</code>通常用于转义其他字符，因此如果要使用单个<code>\</code>，则需要键入<code>\\</code>。
-此外，引号 <code>'</code> 和 <code>&quot;</code> 可能会导致一些问题，因此让我们将此密码括在单引号内并转义特殊字符。
-为了让上面的密码起作用，我们需要输入 <code>'~^&quot;,a.%\\,\'}b&amp;@|/c!1(#}'</code>，在这里你看到我们转义了 <code>\</code>和 <code>'</code> 字符并使用单引号将整个密码括起来。 所以：<code>~^&quot;,a.%\,'}b&amp;@|/c!1(#}</code> 变成了<code>'~^&quot;,a.%\\,\'}b&amp;@|/c!1(# }'</code></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="项目"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">创建systemd服务</title>
     <id>/projects/vaultwarden/Configuration/Setup-as-a-systemd-service.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Setup-as-a-systemd-service.html"/>
@@ -10402,6 +10265,165 @@ WEBSOCKET_ENABLED=true # enable websocket
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">SMTP配置</title>
+    <id>/projects/vaultwarden/Configuration/SMTP-Configuration.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Configuration/SMTP-Configuration.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<p>您可以将 Vaultwarden 配置为通过 SMTP 代理发送电子邮件：</p>
+<div><pre><code>docker run -d --name vaultwarden \
+  -e SMTP_HOST=&lt;smtp.domain.tld&gt; \
+  -e SMTP_FROM=&lt;vaultwarden@domain.tld&gt; \
+  -e SMTP_PORT=587 \
+  -e SMTP_SSL=true \
+  -e SMTP_USERNAME=&lt;username&gt; \
+  -e SMTP_PASSWORD=&lt;password&gt; \
+  -v /vw-data/:/data/ \
+  -p 80:80 \
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>当 <code>SMTP_SSL</code> 设置为 <code>true</code>(这是默认值)时，只会接受 TLSv1.1 和 TLSv1.2 协议，并且 <code>SMTP_PORT</code> 将默认为 <code>587</code>。如果设置为<code>false</code>，<code>SMTP\_PORT</code>将默认为<code>25</code>，并且将尝试机会加密(在 2020 年 3 月 12 日之前不会尝试使用代码进行加密)。</p>
+<p>这可能非常不安全，仅当您知道自己在做什么时才使用此设置。要以显式模式运行 SMTP，请将 <code>SMTP_EXPLICIT_TLS</code> 设置为 <code>true</code>。如果您无需登录即可发送电子邮件，则可以简单地不设置<code>SMTP\_USERNAME</code>和<code>SMTP\_PASSWORD</code>。</p>
+<p>请注意，如果启用了 SMTP 和邀请，邀请将通过电子邮件发送给新用户。您必须使用 Vaultwarden 实例的基本 URL 设置 <code>DOMAIN</code> 配置选项，才能正确生成邀请链接：</p>
+<div><pre><code>docker run -d --name vaultwarden \
+...
+-e DOMAIN=https://vault.example.com \
+...
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>用户邀请链接的有效期为 5 天，之后需要发送新邀请。</p>
+<h2 id="smtp-服务器"> SMTP 服务器</h2>
+<p>正确配置 SMTP 服务器/中继并非易事。 Vaultwarden 使用的邮件程序库也不是最容易进行故障排除的。因此，除非您对自己进行设置特别感兴趣，否则使用外部服务可能更容易。</p>
+<p>以下是一些具有免费层级的服务，允许每天发送 100-200 封电子邮件(对于大多数用例来说已经足够了)：</p>
+<ul>
+<li><a href="https://sendgrid.com" target="_blank" rel="noopener noreferrer">SendGrid</a></li>
+<li><a href="https://www.mailjet.com" target="_blank" rel="noopener noreferrer">MailJet</a></li>
+</ul>
+<h2 id="这里有一些众所周知的服务的合理默认值"> 这里有一些众所周知的服务的合理默认值</h2>
+<h3 id="一般的"> 一般的</h3>
+<p>邮件服务器侦听端口 25 主要只是为了接受来自其他邮件服务器的邮件，并且仅接收它们作为最终位置的邮件。</p>
+<p>此外，许多互联网提供商会阻止传出端口 25 以防止垃圾邮件。</p>
+<p>大多数邮件服务器需要登录才能使用端口 587 或端口 465。</p>
+<p>端口 587 称为提交端口，大多数时候只能在使用用户名和密码时使用。在客户端和服务器之间的通信期间，端口 587 开始时未加密并升级为 TLS 加密连接。</p>
+<p>端口 465 从一开始就是 SSL 加密的，并且根本没有通过该端口进行纯文本通信。</p>
+<p>每个端口的一些常规设置。</p>
+<ul>
+<li>
+<p>用于使用端口 465 的邮件服务器</p>
+<div><pre><code><span>SMTP_PORT</span><span>=</span><span>465</span>
+<span>SMTP_SSL</span><span>=</span><span>false</span>
+<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
+<li>
+<p>用于使用端口 587(有时为 25)的邮件服务器</p>
+<div><pre><code><span>SMTP_PORT</span><span>=</span><span>587</span>
+<span>SMTP_SSL</span><span>=</span><span>true</span>
+<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
+<li>
+<p>用于根本不支持加密的邮件服务器。</p>
+<div><pre><code><span>SMTP_PORT</span><span>=</span><span>25</span>
+<span>SMTP_SSL</span><span>=</span><span>false</span>
+<span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
+</ul>
+<h2 id="google-gmail"> Google/Gmail</h2>
+<p>您需要为 Vaultwarden 生成应用密码才能使用 Gmail。
+请按照此处的步骤操作：<a href="https://support.google.com/accounts/answer/185833?hl=zh-CN&amp;ref_topic=7189145" target="_blank" rel="noopener noreferrer">https://support.google.com/accounts/answer/185833?hl=zh-CN&amp;ref_topic=7189145</a>
+最后你会看到一个密码(中间没有空格，只是为了方便输入)，我们这个密码。</p>
+<p>FullSSL：</p>
+<div><pre><code>  <span># 域：gmail.com、googlemail.com</span>
+  <span>SMTP_HOST</span><span>=</span><span>smtp.gmail.com</span>
+  <span>SMTP_PORT</span><span>=</span><span>465</span>
+  <span>SMTP_SSL</span><span>=</span><span>false</span>
+  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
+  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
+  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;不安全的应用程序密码></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>StartTLS：</p>
+<div><pre><code>  <span># 域：gmail.com、googlemail.com</span>
+  <span>SMTP_HOST</span><span>=</span><span>smtp.gmail.com</span>
+  <span>SMTP_PORT</span><span>=</span><span>587</span>
+  <span>SMTP_SSL</span><span>=</span><span>true</span>
+  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
+  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
+  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;不安全的应用程序密码></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>另见：<a href="https://web.archive.org/web/20210925161633/https://webewizard.com/2019/09/17/Using-Lettre-With-Gmail/" target="_blank" rel="noopener noreferrer">https://web.archive.org/web/20210925161633/https://webewizard.com/2019/09/17/Using-Lettre-With-Gmail/</a></p>
+<h2 id="hotmail-outlook-office365"> Hotmail/Outlook/Office365</h2>
+<div><pre><code>  <span># 域名：hotmail.com、outlook.com、office365.com</span>
+  <span>SMTP_HOST</span><span>=</span><span>smtp-mail.outlook.com</span>
+  <span>SMTP_PORT</span><span>=</span><span>587</span>
+  <span>SMTP_SSL</span><span>=</span><span>true</span>
+  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
+  <span>SMTP_USERNAME</span><span>=</span><span>&lt;邮件地址></span>
+  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;密码></span>
+  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>Login</span>"</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h2 id="发送网格"> 发送网格</h2>
+<p>将 <code>&lt;full-api-key&gt;</code> 替换为从 SendGrid 生成的以 <code>SG</code> 开头的 API-Key。
+还要确保 API-Key 具有完整的<code>邮件发送</code>权限，否则您无法使用此密钥登录。</p>
+<p>StartTLS：</p>
+<div><pre><code>  <span>SMTP_HOST</span><span>=</span><span>smtp.sendgrid.net</span>
+  <span>SMTP_PORT</span><span>=</span><span>587</span>
+  <span>SMTP_SSL</span><span>=</span><span>true</span>
+  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>false</span>
+  <span>SMTP_USERNAME</span><span>=</span><span>apikey</span>
+  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;full-api-key></span>
+  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>登录</span>"</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>Full SSL：</p>
+<div><pre><code>  <span>SMTP_HOST</span><span>=</span><span>smtp.sendgrid.net</span>
+  <span>SMTP_PORT</span><span>=</span><span>465</span>
+  <span>SMTP_SSL</span><span>=</span><span>false</span>
+  <span>SMTP_EXPLICIT_TLS</span><span>=</span><span>true</span>
+  <span>SMTP_USERNAME</span><span>=</span><span>apikey</span>
+  <span>SMTP_PASSWORD</span><span>=</span><span>&lt;full-api-key></span>
+  <span>SMTP_AUTH_MECHANISM</span><span>=</span><span>"<span>登录</span>"</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="带有特殊字符的密码"> 带有特殊字符的密码</h2>
+<p>如果您想在密码中使用一些特殊字符，可能需要对其中一些字符进行转义以免混淆环境变量解析器。
+例如，可以使用<code>\</code> 或<code>'</code> 或<code>&quot;</code>，但有时需要对它们进行转义，以便实际使用。 如果您使用特殊字符，最好总是在密码周围使用单引号。
+我们以下面的密码为例：<code>~^&quot;,a.%\,'}b&amp;@|/c!1(#}</code>
+以下是一些可能会破坏环境变量解析的字符，例如 <code>\</code>、<code>'</code> 和 <code>&quot;</code>。 单个<code>\</code>通常用于转义其他字符，因此如果要使用单个<code>\</code>，则需要键入<code>\\</code>。
+此外，引号 <code>'</code> 和 <code>&quot;</code> 可能会导致一些问题，因此让我们将此密码括在单引号内并转义特殊字符。
+为了让上面的密码起作用，我们需要输入 <code>'~^&quot;,a.%\\,\'}b&amp;@|/c!1(#}'</code>，在这里你看到我们转义了 <code>\</code>和 <code>'</code> 字符并使用单引号将整个密码括起来。 所以：<code>~^&quot;,a.%\,'}b&amp;@|/c!1(#}</code> 变成了<code>'~^&quot;,a.%\\,\'}b&amp;@|/c!1(# }'</code></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">从 LDAP 同步用户</title>
+    <id>/projects/vaultwarden/Configuration/Syncing-users-from-LDAP.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Configuration/Syncing-users-from-LDAP.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<p>LDAP 集成是使用查询 LDAP 并邀请用户加入您的 Vaultwarden 实例的小型服务执行的。该服务毫无创意地命名为 <a href="https://github.com/ViViDboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">vaultwarden_ldap</a>。</p>
+<p>它尚未作为二进制文件分发，但有一个可用的 Docker 镜像 <a href="https://hub.docker.com/r/vividboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">vividboarder/vaultwarden_ldap</a>。</p>
+<p>在部署之前，您必须<a href="./Enabling-admin-page.html">启用管理页面</a>。这将启用 LDAP 同步服务将用于邀请用户的 API。您设置的<code>ADMIN_TOKEN</code>将在配置 LDAP 同步服务时使用。您还必须确保<strong>不</strong>禁用邀请功能。要验证这一点，请仔细检查环境变量<code>INVITATIONS_ALLOWED</code>是否未设置为<code>false</code>。</p>
+<p>还建议从您的 Vaultwarden 实例<a href="./SMTP-Configuration.html">SMTP配置</a>，以便通知您的用户可以创建帐户。如果您不这样做，如果他们使用他们的 LDAP 电子邮件地址，他们仍然可以注册，但您必须自己通知他们。</p>
+<p>完成这些步骤后，您可以配置和部署 LDAP 同步服务。可以在服务 <a href="https://github.com/ViViDboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">Readme</a> 本身上找到最新的说明，但它涉及创建带有连接信息的 <code>config.toml</code> 文件您的 Vaultwarden 实例、您的 LDAP 实例以及您想用来查找用户的 LDAP 查询。</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">使用备用基本目录(子目录)</title>
     <id>/projects/vaultwarden/Configuration/Using-an-alternate-base-dir.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Configuration/Using-an-alternate-base-dir.html"/>
@@ -10453,28 +10475,6 @@ location /my-base-path-2/ {
 <h2 id="反向代理"> 反向代理</h2>
 <p>如果您将 vaultwarden 置于反向代理之后，请确保您的代理配置为将请求路径传递到 vaultwarden，因为 vaultwarden API 路由设置为期望基本目录。</p>
 <p>因此，如果对 <code>https://vaultwarden.example.com/base-dir/api/sync</code> 的请求命中了你的反向代理，然后代理到你的 vaultwarden 监听 <code>localhost:8080</code>，请求必须转到 <code>http ://localhost:8080/base-dir/api/sync</code>，而不是<code>http://localhost:8080/api/sync</code>。</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="项目"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">从 LDAP 同步用户</title>
-    <id>/projects/vaultwarden/Configuration/Syncing-users-from-LDAP.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Configuration/Syncing-users-from-LDAP.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p>LDAP 集成是使用查询 LDAP 并邀请用户加入您的 Vaultwarden 实例的小型服务执行的。该服务毫无创意地命名为 <a href="https://github.com/ViViDboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">vaultwarden_ldap</a>。</p>
-<p>它尚未作为二进制文件分发，但有一个可用的 Docker 镜像 <a href="https://hub.docker.com/r/vividboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">vividboarder/vaultwarden_ldap</a>。</p>
-<p>在部署之前，您必须<a href="./Enabling-admin-page.html">启用管理页面</a>。这将启用 LDAP 同步服务将用于邀请用户的 API。您设置的<code>ADMIN_TOKEN</code>将在配置 LDAP 同步服务时使用。您还必须确保<strong>不</strong>禁用邀请功能。要验证这一点，请仔细检查环境变量<code>INVITATIONS_ALLOWED</code>是否未设置为<code>false</code>。</p>
-<p>还建议从您的 Vaultwarden 实例<a href="./SMTP-Configuration.html">SMTP配置</a>，以便通知您的用户可以创建帐户。如果您不这样做，如果他们使用他们的 LDAP 电子邮件地址，他们仍然可以注册，但您必须自己通知他们。</p>
-<p>完成这些步骤后，您可以配置和部署 LDAP 同步服务。可以在服务 <a href="https://github.com/ViViDboarder/vaultwarden_ldap" target="_blank" rel="noopener noreferrer">Readme</a> 本身上找到最新的说明，但它涉及创建带有连接信息的 <code>config.toml</code> 文件您的 Vaultwarden 实例、您的 LDAP 实例以及您想用来查找用户的 LDAP 查询。</p>
 ]]></content>
     <author>
       <name>ChouCong</name>
@@ -11342,6 +11342,44 @@ $ systemctl start container-vaultwarden.service
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">构建你自己的docker镜像</title>
+    <id>/projects/vaultwarden/Deployment/Building-your-own-docker-image.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Deployment/Building-your-own-docker-image.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<p>克隆存储库，然后从存储库的根目录运行以使用默认的 sqlite 后端构建：</p>
+<div><pre><code><span># 构建docker镜像：</span>
+docker build -t vaultwarden <span>.</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>要使用 MySQL 后端构建，请运行：</p>
+<div><pre><code><span># 构建docker镜像：</span>
+docker build -t Vaultwarden --build-arg <span>DB</span><span>=</span>mysql <span>.</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>要使用 Postgresql 后端构建，请运行：</p>
+<div><pre><code><span># 构建docker镜像：</span>
+docker build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql <span>.</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>在 docker-compose.yml 中它看起来像</p>
+<div><pre><code>  vaultwarden:
+    # 镜像：Vaultwarden/server-postgresql:latest
+    image: vaultwarden
+    build: 
+      context: vaultwarden
+      args: 
+        DB: postgresql
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div>]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">构建二进制</title>
     <id>/projects/vaultwarden/Deployment/Building-binary.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Deployment/Building-binary.html"/>
@@ -11463,44 +11501,6 @@ cargo build --features postgresql --release
 <h2 id="如何从-sqlite-后端迁移到-postgresql-后端-针对开发人员"> 如何从 SQLite 后端迁移到 PostgreSQL 后端(针对开发人员)</h2>
 <p>如果要从 SQLite 迁移，请参阅<a href="./../Configuration/Using-the-PostgreSQL-Backend.html">使用 PostgreSQL 后端</a>。</p>
 ]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="项目"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">构建你自己的docker镜像</title>
-    <id>/projects/vaultwarden/Deployment/Building-your-own-docker-image.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Deployment/Building-your-own-docker-image.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p>克隆存储库，然后从存储库的根目录运行以使用默认的 sqlite 后端构建：</p>
-<div><pre><code><span># 构建docker镜像：</span>
-docker build -t vaultwarden <span>.</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>要使用 MySQL 后端构建，请运行：</p>
-<div><pre><code><span># 构建docker镜像：</span>
-docker build -t Vaultwarden --build-arg <span>DB</span><span>=</span>mysql <span>.</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>要使用 Postgresql 后端构建，请运行：</p>
-<div><pre><code><span># 构建docker镜像：</span>
-docker build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql <span>.</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>在 docker-compose.yml 中它看起来像</p>
-<div><pre><code>  vaultwarden:
-    # 镜像：Vaultwarden/server-postgresql:latest
-    image: vaultwarden
-    build: 
-      context: vaultwarden
-      args: 
-        DB: postgresql
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div>]]></content>
     <author>
       <name>ChouCong</name>
     </author>
@@ -12651,59 +12651,6 @@ export WEBSOCKET_ENABLED=true
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">第三方包</title>
-    <id>/projects/vaultwarden/Deployment/Third-party-packages.html</id>
-    <link href="https://codenoob.top/projects/vaultwarden/Deployment/Third-party-packages.html"/>
-    <updated>2021-11-21T15:45:58.000Z</updated>
-    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
-    <content type="html"><![CDATA[<p>此页面是第三方 Vaultwarden 软件包的索引。</p>
-<p>由于这些软件包不是由 Vaultwarden 维护或控制的，因此它们可能落后于官方版本，有时甚至明显滞后。</p>
-<p>如果你依赖这些包，你可能想要<a href="https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository" target="_blank" rel="noopener noreferrer">启用观看</a> 用于新的 vaultwarden 版本，并让维护者知道软件包是否没有保持最新。</p>
-<h2 id="arch-linux"> Arch Linux</h2>
-<p>可在 <a href="https://archlinux.org/packages/community/x86_64/vaultwarden/" target="_blank" rel="noopener noreferrer">官方存储库</a> 以及 <a href="https://archlinux.org/packages/community/any/vaultwarden-%E7%BD%91%E7%BB%9C/" target="_blank" rel="noopener noreferrer">web vault</a>。</p>
-<h2 id="debian"> Debian</h2>
-<p>基于 docker 的工具链可用于构建 debian 包：<a href="https://github.com/greizgh/bitwarden_rs-debian" target="_blank" rel="noopener noreferrer">https://github.com/greizgh/bitwarden_rs-debian</a></p>
-<p>它捆绑了服务器和网络密码管理。</p>
-<h2 id="centos7-rhel7"> CentOS7 / RHEL7</h2>
-<p>RPM 存储库由 @MrMEEE 在此处打包：<a href="https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/</a>...这还包括附加包中的网络界面。</p>
-<p>安装说明：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md</a></p>
-<p>RPM 的任何问题都可以在这里报告：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/issues" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/issues</a></p>
-<h2 id="centos-8-rhel-8"> CentOS 8 / RHEL 8</h2>
-<p>构建 RPM 并使用 Docker 将其推送到 COPR 的 repo 的一个分支。</p>
-<p><a href="https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8" target="_blank" rel="noopener noreferrer">https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8</a>
-<a href="https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/</a></p>
-<h2 id="nix-os"> Nix (OS)</h2>
-<p><code>Bitwarden_rs</code> 在 Nix 中包含 4 个包(一个用于 mysql、sqlite 和 postgresql，一个用于 Vault)。对于 NixOS，还有一个模块 (<code>services.bitwarden_rs</code>)，因此 <code>bitwarden_rs</code> 也可以以 NixOS 声明方式进行配置。</p>
-<h2 id="cloudron"> Cloudron</h2>
-<p><a href="https://cloudron.io" target="_blank" rel="noopener noreferrer">Cloudron</a> 是一个可以帮助您在服务器上运行 Web 应用程序的平台。
-使用 Cloudron，您可以轻松地从 <a href="https://cloudron.io/store/com.github.bitwardenrs.html" target="_blank" rel="noopener noreferrer">应用程序库</a> 在自定义域上安装 <code>Bitwarden_rs</code>
-该应用程序包与上游 Web Vault 捆绑在一起，安装后无需任何进一步配置即可开始使用。 Cloudron 团队会跟踪发布并提供自动更新。</p>
-<p>可以在 <a href="https://git.cloudron.io/cloudron/vaultwarden-app" target="_blank" rel="noopener noreferrer">https://git.cloudron.io/cloudron/vaultwarden-app</a> 找到包代码和问题跟踪器</p>
-<h2 id="home-assistant"> Home Assistant</h2>
-<p><a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">家庭助理</a> 是一个开源的家庭自动化平台。 <a href="https://github.com/hassio-addons/addon-bitwarden" target="_blank" rel="noopener noreferrer">https://github.com/hassio-addons/addon-bitwarden</a> 提供了一个 <code>bitwarden_rs</code> 社区插件。</p>
-<h2 id="为-ubuntu-20-04-构建脚本"> 为 Ubuntu 20.04 构建脚本</h2>
-<p><code>Dinger1986</code> 已经创建了一个脚本来在 Ubuntu 20.04 上从源代码安装 <code>bitwarden_rs</code>，参见
-<a href="https://github.com/dinger1986/bitwardenrs_install_script" target="_blank" rel="noopener noreferrer">https://github.com/dinger1986/bitwardenrs_install_script</a></p>
-<h2 id="freebsd"> FreeBSD</h2>
-<p>在 <a href="https://www.freshports.org/security/vaultwarden/" target="_blank" rel="noopener noreferrer">FreeBSD 端口树</a> 中可用，并作为 FreeBSD pkg 存储库中的二进制包提供：<code>pkg install vaultwarden</code></p>
-<h2 id="多个-rpm-和-deb-发行版"> 多个 RPM 和 DEB 发行版</h2>
-<p><code>openSUSE</code> 构建服务项目，支持<code>CentOS、Debian、Fedora、RHEL、SUSE、Ubuntu</code>。</p>
-<p>您可以直接下载软件包或使用可用的存储库。</p>
-<p><strong>警告：</strong> 目前这些包包含预构建的二进制文件，无法使用此构建服务构建 <code>rust-nightly</code> 包。</p>
-<p><a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden" target="_blank" rel="noopener noreferrer">Vaultwarden</a>
-<a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden-webvault" target="_blank" rel="noopener noreferrer">vaultwarden-webvault</a></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="项目"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-20T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">FAQ</title>
     <id>/projects/vaultwarden/Home/FAQs.html</id>
     <link href="https://codenoob.top/projects/vaultwarden/Home/FAQs.html"/>
@@ -12754,6 +12701,59 @@ export WEBSOCKET_ENABLED=true
 <p>好吧，请尝试搜索并点击我们精彩的 <a href="https://github.com/dani-garcia/vaultwarden/wiki" target="_blank" rel="noopener noreferrer">Wiki</a>。 如果这对您没有帮助，请尝试查看 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse.group" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> .</p>
 <p>如果这也导致没有解决方案，您可以尝试搜索开放和封闭的 <a href="https://github.com/dani-garcia/vaultwarden/issues" target="_blank" rel="noopener noreferrer">问题</a>。</p>
 <p>如果您仍然没有找到答案，您可以在 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> 上开始一个主题.group/)，或加入我们的 <a href="https://matrix.to/#/#vaultwarden:matrix.org" target="_blank" rel="noopener noreferrer">聊天室</a>。</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="项目"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-20T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">第三方包</title>
+    <id>/projects/vaultwarden/Deployment/Third-party-packages.html</id>
+    <link href="https://codenoob.top/projects/vaultwarden/Deployment/Third-party-packages.html"/>
+    <updated>2021-11-21T15:45:58.000Z</updated>
+    <summary type="html"><![CDATA[最值得信赖的开源密码管理器]]></summary>
+    <content type="html"><![CDATA[<p>此页面是第三方 Vaultwarden 软件包的索引。</p>
+<p>由于这些软件包不是由 Vaultwarden 维护或控制的，因此它们可能落后于官方版本，有时甚至明显滞后。</p>
+<p>如果你依赖这些包，你可能想要<a href="https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository" target="_blank" rel="noopener noreferrer">启用观看</a> 用于新的 vaultwarden 版本，并让维护者知道软件包是否没有保持最新。</p>
+<h2 id="arch-linux"> Arch Linux</h2>
+<p>可在 <a href="https://archlinux.org/packages/community/x86_64/vaultwarden/" target="_blank" rel="noopener noreferrer">官方存储库</a> 以及 <a href="https://archlinux.org/packages/community/any/vaultwarden-%E7%BD%91%E7%BB%9C/" target="_blank" rel="noopener noreferrer">web vault</a>。</p>
+<h2 id="debian"> Debian</h2>
+<p>基于 docker 的工具链可用于构建 debian 包：<a href="https://github.com/greizgh/bitwarden_rs-debian" target="_blank" rel="noopener noreferrer">https://github.com/greizgh/bitwarden_rs-debian</a></p>
+<p>它捆绑了服务器和网络密码管理。</p>
+<h2 id="centos7-rhel7"> CentOS7 / RHEL7</h2>
+<p>RPM 存储库由 @MrMEEE 在此处打包：<a href="https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/mrmeee/bitwarden_rs/</a>...这还包括附加包中的网络界面。</p>
+<p>安装说明：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/blob/master/README.md</a></p>
+<p>RPM 的任何问题都可以在这里报告：<a href="https://github.com/MrMEEE/bitwarden_rs_rpm/issues" target="_blank" rel="noopener noreferrer">https://github.com/MrMEEE/bitwarden_rs_rpm/issues</a></p>
+<h2 id="centos-8-rhel-8"> CentOS 8 / RHEL 8</h2>
+<p>构建 RPM 并使用 Docker 将其推送到 COPR 的 repo 的一个分支。</p>
+<p><a href="https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8" target="_blank" rel="noopener noreferrer">https://github.com/alexpdp7/bitwarden_rs/tree/rpm/packages/centos8</a>
+<a href="https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/" target="_blank" rel="noopener noreferrer">https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/</a></p>
+<h2 id="nix-os"> Nix (OS)</h2>
+<p><code>Bitwarden_rs</code> 在 Nix 中包含 4 个包(一个用于 mysql、sqlite 和 postgresql，一个用于 Vault)。对于 NixOS，还有一个模块 (<code>services.bitwarden_rs</code>)，因此 <code>bitwarden_rs</code> 也可以以 NixOS 声明方式进行配置。</p>
+<h2 id="cloudron"> Cloudron</h2>
+<p><a href="https://cloudron.io" target="_blank" rel="noopener noreferrer">Cloudron</a> 是一个可以帮助您在服务器上运行 Web 应用程序的平台。
+使用 Cloudron，您可以轻松地从 <a href="https://cloudron.io/store/com.github.bitwardenrs.html" target="_blank" rel="noopener noreferrer">应用程序库</a> 在自定义域上安装 <code>Bitwarden_rs</code>
+该应用程序包与上游 Web Vault 捆绑在一起，安装后无需任何进一步配置即可开始使用。 Cloudron 团队会跟踪发布并提供自动更新。</p>
+<p>可以在 <a href="https://git.cloudron.io/cloudron/vaultwarden-app" target="_blank" rel="noopener noreferrer">https://git.cloudron.io/cloudron/vaultwarden-app</a> 找到包代码和问题跟踪器</p>
+<h2 id="home-assistant"> Home Assistant</h2>
+<p><a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">家庭助理</a> 是一个开源的家庭自动化平台。 <a href="https://github.com/hassio-addons/addon-bitwarden" target="_blank" rel="noopener noreferrer">https://github.com/hassio-addons/addon-bitwarden</a> 提供了一个 <code>bitwarden_rs</code> 社区插件。</p>
+<h2 id="为-ubuntu-20-04-构建脚本"> 为 Ubuntu 20.04 构建脚本</h2>
+<p><code>Dinger1986</code> 已经创建了一个脚本来在 Ubuntu 20.04 上从源代码安装 <code>bitwarden_rs</code>，参见
+<a href="https://github.com/dinger1986/bitwardenrs_install_script" target="_blank" rel="noopener noreferrer">https://github.com/dinger1986/bitwardenrs_install_script</a></p>
+<h2 id="freebsd"> FreeBSD</h2>
+<p>在 <a href="https://www.freshports.org/security/vaultwarden/" target="_blank" rel="noopener noreferrer">FreeBSD 端口树</a> 中可用，并作为 FreeBSD pkg 存储库中的二进制包提供：<code>pkg install vaultwarden</code></p>
+<h2 id="多个-rpm-和-deb-发行版"> 多个 RPM 和 DEB 发行版</h2>
+<p><code>openSUSE</code> 构建服务项目，支持<code>CentOS、Debian、Fedora、RHEL、SUSE、Ubuntu</code>。</p>
+<p>您可以直接下载软件包或使用可用的存储库。</p>
+<p><strong>警告：</strong> 目前这些包包含预构建的二进制文件，无法使用此构建服务构建 <code>rust-nightly</code> 包。</p>
+<p><a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden" target="_blank" rel="noopener noreferrer">Vaultwarden</a>
+<a href="https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden-webvault" target="_blank" rel="noopener noreferrer">vaultwarden-webvault</a></p>
 ]]></content>
     <author>
       <name>ChouCong</name>
@@ -13262,7 +13262,7 @@ DNS.2 = www.bitwarden.local
     <title type="html">Home</title>
     <id>/</id>
     <link href="https://codenoob.top/"/>
-    <updated>2022-01-25T13:07:58.000Z</updated>
+    <updated>2022-03-20T05:18:50.000Z</updated>
     <author>
       <name>ChouCong</name>
     </author>
@@ -13413,6 +13413,55 @@ DNS.2 = www.bitwarden.local
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">screentogif</title>
+    <id>/tools/creat/screentogif.html</id>
+    <link href="https://codenoob.top/tools/creat/screentogif.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[screentogif-强大的GIF制作工具]]></summary>
+    <content type="html"><![CDATA[<div><p>相关信息</p>
+<p><strong>screentogif 是一款非常好用的gif制作工具</strong></p>
+</div>
+<h2 id="功能"> 功能</h2>
+<ul>
+<li>录制屏幕gif</li>
+<li>画板gif</li>
+<li>摄像头gif</li>
+<li>编辑器</li>
+</ul>
+<h2 id="优点"> 优点</h2>
+<ul>
+<li>界面清爽</li>
+<li>免费开源</li>
+<li>功能强大</li>
+</ul>
+<h2 id="使用截图"> 使用截图</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/222246-166481.png" alt="screentogif" loading="lazy"></p>
+<h2 id="下载地址"> 下载地址</h2>
+<blockquote>
+<p>如果你的网速不好 我还提供了本地下载</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://www.screentogif.com/" target="_blank" rel="noopener noreferrer">官方网站</a></th>
+<th style="text-align:center"><a href="https://github.com/NickeManarin/ScreenToGif/releases" target="_blank" rel="noopener noreferrer">仓库</a></th>
+<th style="text-align:center"><a href="https://img.lookroot.cn/tool/ScreenToGif-2.20.3.zip" target="_blank" rel="noopener noreferrer">本地下载</a></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-09-03T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">PHP实现随机图片展示</title>
     <id>/tools/php-random-picture.html</id>
     <link href="https://codenoob.top/tools/php-random-picture.html"/>
@@ -13436,31 +13485,6 @@ DNS.2 = www.bitwarden.local
       <name>ChouCong</name>
     </contributor>
     <published>2020-09-28T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">utools</title>
-    <id>/tools/creat/utools.html</id>
-    <link href="https://codenoob.top/tools/creat/utools.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[utools—真效率大师]]></summary>
-    <content type="html"><![CDATA[<div><p>utools</p>
-<p>uTools是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。</p>
-<p>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。</p>
-</div>
-<p>这个软件不用多说，下载来试一试就知道了，真*效率大师，有了它以后，我的桌面就几个图标了，平时用来搜索本地应用、本地文件、系统设置很方便</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/000823-556005.png" alt="image-20200807000822656" loading="lazy"></p>
-<p>最主要的还支持自定义插件，观看开发文档，剪贴板历史，在线翻译...更多请自行了解</p>
-<p><a href="http://www.u.tools/" target="_blank" rel="noopener noreferrer">官网地址</a></p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-09-16T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -13496,6 +13520,43 @@ DNS.2 = www.bitwarden.local
       <name>ChouCong</name>
     </contributor>
     <published>2020-09-09T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">Eclipse Theia初体验</title>
+    <id>/tools/theia.html</id>
+    <link href="https://codenoob.top/tools/theia.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Eclipse Theia初体验]]></summary>
+    <content type="html"><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
+<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
+<p>至于为什么我说是学习神器，我们先体验一下再说</p>
+<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" loading="lazy"></p>
+<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
+<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
+<div><pre><code><span># Linux, macOS, or PowerShell</span>
+docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
+
+<span># Windows (cmd.exe)</span>
+docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
+<p>随便写点东西保存预览，整个流程非常的流畅</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" loading="lazy"></p>
+<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
+<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
+<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
+<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-01-11T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -13687,43 +13748,6 @@ echo $str . "\n";
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">Eclipse Theia初体验</title>
-    <id>/tools/theia.html</id>
-    <link href="https://codenoob.top/tools/theia.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Eclipse Theia初体验]]></summary>
-    <content type="html"><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
-<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
-<p>至于为什么我说是学习神器，我们先体验一下再说</p>
-<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" loading="lazy"></p>
-<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
-<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
-<div><pre><code><span># Linux, macOS, or PowerShell</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
-
-<span># Windows (cmd.exe)</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
-<p>随便写点东西保存预览，整个流程非常的流畅</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" loading="lazy"></p>
-<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
-<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
-<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
-<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-01-11T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
     <title type="html">Vue Devtools的安装</title>
     <id>/tools/vuedev-tool.html</id>
     <link href="https://codenoob.top/tools/vuedev-tool.html"/>
@@ -13823,82 +13847,6 @@ https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
       <name>ChouCong</name>
     </contributor>
     <published>2020-06-25T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">成为一个独立应用开发者</title>
-    <id>/tutorials/indiedeveloper.html</id>
-    <link href="https://codenoob.top/tutorials/indiedeveloper.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[成为一个独立应用开发者，那是梦开始的地方]]></summary>
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/180530-958464.jpeg" alt="#" loading="lazy"></p>
-<h2 id="梦的起源"> 梦的起源</h2>
-<p>很多人都是因为想制作自己的软件和游戏，才想要入行做程序员的，如果你也是 可以扣个1，在国内很多独立开发者制作的应用小而美，比如纯纯写作、 钱迹，最重要的能够带来一定的收入，甚至足够支撑你实现自由职业。</p>
-<p>今天的视频就和大家探讨一下制作独立App的事情，不限于技术和市场，耐心听完肯定会有收获</p>
-<p>我这个年龄很多人的第一款手机都是诺基亚，我也不例外，具体机型我也记不清了，但是这个手机内置了塞班s40平台，内存很小，只能安装几个拓展软件，每个月移动30M的流量，玩的不亦乐乎</p>
-<p>当时很多人将手机能够安装拓展软件定义为智能机，这个不重要，重要的是很多软件的启动页面上都有一杯小咖啡，后来我才知道这是 JavaME，虽然受制于内存大小和性能限制，但是丝毫不影响当时的手机软件非常丰富</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/100923-965661.png" alt="#" loading="lazy"></p>
-<p>真的接触到智能机是一个暑假，我哥淘汰了一个索尼爱立信的r800i手机给我，我很幸运，人生中的第一款智能机就如此优秀，这是一款pspgo外观的安卓手机，当时还是2.3.4的系统，当然这都是题外话，感兴趣的话我可以后面再继续分享</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/215350-457022.png" alt="#" loading="lazy"></p>
-<p>游戏没有玩多少，但是我对编程的爱好正是从这里萌芽，当时很多论坛里面，小工具、小插件、修改UI都是最火热的话题，当时我就暗暗下决心，长大了一定要当程序员</p>
-<p>移动端开发最火热那几年，市场自由，很多创业者拿着一个ppt忽悠一笔投资就做去做app了，还有很多程序员通过快速复制App,简单修改代码，比如 五子棋、拼图、电池保护大师这些软件，快速占领用户的手机，这些应用制作粗糙，夹杂大量广告，甚至要求你下载应用存够积分才能解锁永久使用，这让他们实现了快速敛财</p>
-<h2 id="独立开发的技术路线"> 独立开发的技术路线</h2>
-<p>如今我已经是一名码农，但是很可惜没有从事移动App的开发，其实我大一的时候简单学过原生Android的开发，但是很快就放弃了，转而投入Javaweb的学习中，其原因无非就是原生开发行情不行，人才内卷，要求过高，现在想入行的朋友需要谨慎考虑</p>
-<p>但是作为兴趣是很不错的，现在情况也很好，酷安、少数派、最美应用上面你可以找到很多小而美的独立开发者设计开发的app，很多为了实现制作app的梦想也会去自学编程，我也在坚持的道路中，先给大家分享一下就现在而言你想实现独立开发app可以有哪些路子，<strong>注意本期不是学习路线和资源分享，后面会专门出这个视频</strong></p>
-<p>首先你需要知道这一点，目前移动平台主要是Android和Ios，<strong>不同平台的程序是需要分别开发的</strong></p>
-<h2 id="原生"> 原生</h2>
-<p>如果你想要制作小而美的应用，就必须考虑软件的体积大小、性能和用户体验，所以优先开发原生程序</p>
-<ul>
-<li>在Android端你可以学习Java和kotlin知识，更底层的你需要学习c/c++来完成jni开发，使用Androidstudio或者更老的eclipse来开发程序，甚至你可以在手机上使用Aide来完成程序的开发，现如今Androidx和jetpack统一了很多的开发规范，让你学习起来更加的明确</li>
-<li>在Ios端你可以学习Swift和Objective-C，使用Xcode来进行开发程序</li>
-</ul>
-<h2 id="跨平台"> 跨平台</h2>
-<p>如果你想追求开发速度、节约学习成本或者想开发一套程序多个平台同时运行，你可以使用跨平台技术，但是你需要牺牲掉部分性能和体验，并且可能会遇到很多无法解决的bug</p>
-<p>跨平台开发的实现方式其实很好理解，可以将同样的代码转化为不同平台的需要的页面代码，也可以将应用构建成网页然后使用系统自带的浏览器内核，使用浏览器中渲染这个网页；还有的是自己制作渲染器，在不同平台制作渲染器，然后将代码运行到这个渲染器中，就类似游戏引擎。总的来说应用开发者只需关注业务的具体实现就行了、</p>
-<p>不论什么跨平台框架，如果需要用到手机的功能，比如扫码、蓝牙、应用分享的时候，都是需要调用 native原生接口的，如果你只会跨平台的技术，在这些地方遇到问题你几乎是无法解决的，更重要的是 ios 对跨平台应用的审核是十分严格的，<strong>ios有可能会突然禁止你正在使用的跨平台技术</strong></p>
-<p>下面列举一些跨平台方案，看看有没有你会的技术呢？</p>
-<ul>
-<li>Flutter 是 Google 开源的 UI 工具包，帮助开发者通过一套代码库高效构建多平台精美应用，支持移动、Web、桌面和嵌入式平台，使用flutter你需要学习dart语言，闲鱼就是使用的flutter</li>
-<li>Weex 是JavaScript来开发高性能原生应用的框架，淘宝系很多应用都是使用weex，比如飞猪，使用weex你需要学习前端基础知识和vue.js框架</li>
-<li>React Native让你只使用JavaScript也能编写移动应用，使用它你需要学习前端基础知识和react框架</li>
-<li>Taro 是一个多端统一开发的解决方案，能同时开发小程序平台和react native程序，使用它你需要学习前端和react框架</li>
-<li>uni-app 是一个使用 Vue.js 开发应用的框架,开发者编写一套代码,可发布到iOS、Android、H5多个平台，使用uniapp你需要学习前端的基础知识和vue.js框架</li>
-<li>其他的还有Cordova、Ionic 这里不再多说可以自行了解
-<img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/104729-748384.png" alt="#" loading="lazy"></li>
-</ul>
-<h2 id="混编开发"> 混编开发</h2>
-<p>更多的时候原生和跨平台会一起使用，可以称为混编开发，混编开发使用原生程序来搭建骨架，然后可以使用跨平台技术来增量开发，目前市面上的很多大应用都是这个开发模式，你甚至可以留一些接口在外面，让别人在你的平台开发拓展应用，比如微信小程序、QQ小程序</p>
-<h2 id="服务端"> 服务端</h2>
-<p>虽然很大一部分独立应用并不需要服务端，只需要在应用内部就能够实现效果，但是你仍然需要学习服务端技术，用来实现复杂的效果、维护会员状态和处理跨端数据同步等问题，如果你单纯的在应用里面控制会员状态，你的应用很容易被破解</p>
-<p>如果你是Android原生开发者，你可以继续学习Javaweb的知识用来搭建服务端，如果是使用JavaScript跨平台框架的开发者，你可以继续学习 node.js的知识，如果是使用其他技术的朋友 php和node 都是快速学习的选择</p>
-<p>现如今有很多的serverless平台，你可以将你的服务端部署到第三方平台，减少购买服务器、搭建环境和运维的成本</p>
-<h2 id="设计程序的出发点"> 设计程序的出发点</h2>
-<h3 id="用户体验"> 用户体验</h3>
-<p>我更推荐独立开发者学习原生开发，因为时间和成本的问题，制作小而美的应用更为实际，当然也有一些制作精良的小程序也能获得原生的使用体验</p>
-<p>就像独立游戏开发需要学习音乐、美工等知识一样，独立开发App程序，也需要你掌握UI设计，最好你还有设计和美学功底，这正是我所欠缺的，当你有思路去设计一个应用的时候，一定要先考虑它的存在是否合理，能不能解决用户的某个痛点，这决定了你的应用是否会被用户留存在手机里，毕竟现在越来越多的人都转向使用网页和小程序，不愿意下载更多的App</p>
-<p>我观察过很多火热的独立应用，发现它们都具有 体积小、流畅、美观、实用、有创意这几个特点，如果你想要制作独立应用，可以考虑一下这几个点</p>
-<p>Android和ios的风格是不太一样的，很多应用厂商为了国人的使用体验，会将两个平台的界面设计的一样，独立开发者你完全可以自由发挥，体验不同平台的特色；但是你要注意根据你面向的用户群体，完成对应的设计，比如面向儿童和老年人，你就需要设计的更容易理解和更安全</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/162055-424800.png" alt="#" loading="lazy"></p>
-<h3 id="上架"> 上架</h3>
-<p>在国内移动开发最火热的那几年，不仅开发岗位多，报酬高；最重要的还是市场自由，独立开发者的App应用可以轻松的上架各大应用商店，但是现在不同了，很多的应用商店需要你有企业开发者资质、软件著作权、平台保证函，有些特别应用还要求你具备 网络文化经营许可证 互联网金融牌照 网络出版服务许可等文件</p>
-<p>总的来说，独立开发者想要依靠自己的身份将应用上架到各大平台是困难重重，现在主要的解决方案就是找第三方企业给你代上架，或者你自己注册个体工商户、企业</p>
-<p>你要注意，如果你想制作独立应用，你最好不要涉及 社交、棋牌、灰色产业这些范围</p>
-<h3 id="成本"> 成本</h3>
-<p>一个app的成本不仅是开发和学习成本，后期你还需要维护和升级，特别是遇到平台大更新的时候，并且你要随时注意应用市场的规则变更，稍不注意，你的应用会被系统下架</p>
-<p>特别是Android手机，版本更新快，但是市场的Android版本跨度大，你需要兼容很多版本的系统，你可能还要给不同的刘海屏和水滴屏手机做兼容处理</p>
-<p>开发阶段过后，应用的上架和宣传也是非常麻烦和重要的部分，特别是宣传，即使你的是千里马，还得有伯乐才行，现在市场应用这么多，想要脱颖而出完全靠质量是不行的，还要一些手段，如果你穷，就只能辛苦一下自己到多个平台自推，活跃，积累粉丝；如果你有钱，完全可以找市场竞价和平台付费推广</p>
-<h2 id="end"> end</h2>
-<p>总的来说就目前而言，如果你没有什么好的点子，我建议还是不要贸然走全职独立开发这一步，当你的应用有一定用户量的时候再考虑，可以先在公司磨练一下，积累点经验，利用业余时间开发</p>
-<p>好的今天的内容就到这里了，对你有帮助的话可以给我一个三连哦！</p>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="编程"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-07-30T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -14019,53 +13967,79 @@ https://cdn.jsdelivr.net/gh/vuejs/vue@dev/README.md
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
-    <title type="html">Mysql学习手记</title>
-    <id>/tutorials/mysql.html</id>
-    <link href="https://codenoob.top/tutorials/mysql.html"/>
+    <title type="html">成为一个独立应用开发者</title>
+    <id>/tutorials/indiedeveloper.html</id>
+    <link href="https://codenoob.top/tutorials/indiedeveloper.html"/>
     <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[Mysql学习手记]]></summary>
-    <content type="html"><![CDATA[<div><p>说明</p>
-<p>整理一下以前的Mysql学习笔记，还是比较详细的</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>这个分类是Mysql的手记 希望能对你有所帮助</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
+    <summary type="html"><![CDATA[成为一个独立应用开发者，那是梦开始的地方]]></summary>
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/180530-958464.jpeg" alt="#" loading="lazy"></p>
+<h2 id="梦的起源"> 梦的起源</h2>
+<p>很多人都是因为想制作自己的软件和游戏，才想要入行做程序员的，如果你也是 可以扣个1，在国内很多独立开发者制作的应用小而美，比如纯纯写作、 钱迹，最重要的能够带来一定的收入，甚至足够支撑你实现自由职业。</p>
+<p>今天的视频就和大家探讨一下制作独立App的事情，不限于技术和市场，耐心听完肯定会有收获</p>
+<p>我这个年龄很多人的第一款手机都是诺基亚，我也不例外，具体机型我也记不清了，但是这个手机内置了塞班s40平台，内存很小，只能安装几个拓展软件，每个月移动30M的流量，玩的不亦乐乎</p>
+<p>当时很多人将手机能够安装拓展软件定义为智能机，这个不重要，重要的是很多软件的启动页面上都有一杯小咖啡，后来我才知道这是 JavaME，虽然受制于内存大小和性能限制，但是丝毫不影响当时的手机软件非常丰富</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/100923-965661.png" alt="#" loading="lazy"></p>
+<p>真的接触到智能机是一个暑假，我哥淘汰了一个索尼爱立信的r800i手机给我，我很幸运，人生中的第一款智能机就如此优秀，这是一款pspgo外观的安卓手机，当时还是2.3.4的系统，当然这都是题外话，感兴趣的话我可以后面再继续分享</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/215350-457022.png" alt="#" loading="lazy"></p>
+<p>游戏没有玩多少，但是我对编程的爱好正是从这里萌芽，当时很多论坛里面，小工具、小插件、修改UI都是最火热的话题，当时我就暗暗下决心，长大了一定要当程序员</p>
+<p>移动端开发最火热那几年，市场自由，很多创业者拿着一个ppt忽悠一笔投资就做去做app了，还有很多程序员通过快速复制App,简单修改代码，比如 五子棋、拼图、电池保护大师这些软件，快速占领用户的手机，这些应用制作粗糙，夹杂大量广告，甚至要求你下载应用存够积分才能解锁永久使用，这让他们实现了快速敛财</p>
+<h2 id="独立开发的技术路线"> 独立开发的技术路线</h2>
+<p>如今我已经是一名码农，但是很可惜没有从事移动App的开发，其实我大一的时候简单学过原生Android的开发，但是很快就放弃了，转而投入Javaweb的学习中，其原因无非就是原生开发行情不行，人才内卷，要求过高，现在想入行的朋友需要谨慎考虑</p>
+<p>但是作为兴趣是很不错的，现在情况也很好，酷安、少数派、最美应用上面你可以找到很多小而美的独立开发者设计开发的app，很多为了实现制作app的梦想也会去自学编程，我也在坚持的道路中，先给大家分享一下就现在而言你想实现独立开发app可以有哪些路子，<strong>注意本期不是学习路线和资源分享，后面会专门出这个视频</strong></p>
+<p>首先你需要知道这一点，目前移动平台主要是Android和Ios，<strong>不同平台的程序是需要分别开发的</strong></p>
+<h2 id="原生"> 原生</h2>
+<p>如果你想要制作小而美的应用，就必须考虑软件的体积大小、性能和用户体验，所以优先开发原生程序</p>
+<ul>
+<li>在Android端你可以学习Java和kotlin知识，更底层的你需要学习c/c++来完成jni开发，使用Androidstudio或者更老的eclipse来开发程序，甚至你可以在手机上使用Aide来完成程序的开发，现如今Androidx和jetpack统一了很多的开发规范，让你学习起来更加的明确</li>
+<li>在Ios端你可以学习Swift和Objective-C，使用Xcode来进行开发程序</li>
+</ul>
+<h2 id="跨平台"> 跨平台</h2>
+<p>如果你想追求开发速度、节约学习成本或者想开发一套程序多个平台同时运行，你可以使用跨平台技术，但是你需要牺牲掉部分性能和体验，并且可能会遇到很多无法解决的bug</p>
+<p>跨平台开发的实现方式其实很好理解，可以将同样的代码转化为不同平台的需要的页面代码，也可以将应用构建成网页然后使用系统自带的浏览器内核，使用浏览器中渲染这个网页；还有的是自己制作渲染器，在不同平台制作渲染器，然后将代码运行到这个渲染器中，就类似游戏引擎。总的来说应用开发者只需关注业务的具体实现就行了、</p>
+<p>不论什么跨平台框架，如果需要用到手机的功能，比如扫码、蓝牙、应用分享的时候，都是需要调用 native原生接口的，如果你只会跨平台的技术，在这些地方遇到问题你几乎是无法解决的，更重要的是 ios 对跨平台应用的审核是十分严格的，<strong>ios有可能会突然禁止你正在使用的跨平台技术</strong></p>
+<p>下面列举一些跨平台方案，看看有没有你会的技术呢？</p>
+<ul>
+<li>Flutter 是 Google 开源的 UI 工具包，帮助开发者通过一套代码库高效构建多平台精美应用，支持移动、Web、桌面和嵌入式平台，使用flutter你需要学习dart语言，闲鱼就是使用的flutter</li>
+<li>Weex 是JavaScript来开发高性能原生应用的框架，淘宝系很多应用都是使用weex，比如飞猪，使用weex你需要学习前端基础知识和vue.js框架</li>
+<li>React Native让你只使用JavaScript也能编写移动应用，使用它你需要学习前端基础知识和react框架</li>
+<li>Taro 是一个多端统一开发的解决方案，能同时开发小程序平台和react native程序，使用它你需要学习前端和react框架</li>
+<li>uni-app 是一个使用 Vue.js 开发应用的框架,开发者编写一套代码,可发布到iOS、Android、H5多个平台，使用uniapp你需要学习前端的基础知识和vue.js框架</li>
+<li>其他的还有Cordova、Ionic 这里不再多说可以自行了解
+<img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/104729-748384.png" alt="#" loading="lazy"></li>
+</ul>
+<h2 id="混编开发"> 混编开发</h2>
+<p>更多的时候原生和跨平台会一起使用，可以称为混编开发，混编开发使用原生程序来搭建骨架，然后可以使用跨平台技术来增量开发，目前市面上的很多大应用都是这个开发模式，你甚至可以留一些接口在外面，让别人在你的平台开发拓展应用，比如微信小程序、QQ小程序</p>
+<h2 id="服务端"> 服务端</h2>
+<p>虽然很大一部分独立应用并不需要服务端，只需要在应用内部就能够实现效果，但是你仍然需要学习服务端技术，用来实现复杂的效果、维护会员状态和处理跨端数据同步等问题，如果你单纯的在应用里面控制会员状态，你的应用很容易被破解</p>
+<p>如果你是Android原生开发者，你可以继续学习Javaweb的知识用来搭建服务端，如果是使用JavaScript跨平台框架的开发者，你可以继续学习 node.js的知识，如果是使用其他技术的朋友 php和node 都是快速学习的选择</p>
+<p>现如今有很多的serverless平台，你可以将你的服务端部署到第三方平台，减少购买服务器、搭建环境和运维的成本</p>
+<h2 id="设计程序的出发点"> 设计程序的出发点</h2>
+<h3 id="用户体验"> 用户体验</h3>
+<p>我更推荐独立开发者学习原生开发，因为时间和成本的问题，制作小而美的应用更为实际，当然也有一些制作精良的小程序也能获得原生的使用体验</p>
+<p>就像独立游戏开发需要学习音乐、美工等知识一样，独立开发App程序，也需要你掌握UI设计，最好你还有设计和美学功底，这正是我所欠缺的，当你有思路去设计一个应用的时候，一定要先考虑它的存在是否合理，能不能解决用户的某个痛点，这决定了你的应用是否会被用户留存在手机里，毕竟现在越来越多的人都转向使用网页和小程序，不愿意下载更多的App</p>
+<p>我观察过很多火热的独立应用，发现它们都具有 体积小、流畅、美观、实用、有创意这几个特点，如果你想要制作独立应用，可以考虑一下这几个点</p>
+<p>Android和ios的风格是不太一样的，很多应用厂商为了国人的使用体验，会将两个平台的界面设计的一样，独立开发者你完全可以自由发挥，体验不同平台的特色；但是你要注意根据你面向的用户群体，完成对应的设计，比如面向儿童和老年人，你就需要设计的更容易理解和更安全</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/162055-424800.png" alt="#" loading="lazy"></p>
+<h3 id="上架"> 上架</h3>
+<p>在国内移动开发最火热的那几年，不仅开发岗位多，报酬高；最重要的还是市场自由，独立开发者的App应用可以轻松的上架各大应用商店，但是现在不同了，很多的应用商店需要你有企业开发者资质、软件著作权、平台保证函，有些特别应用还要求你具备 网络文化经营许可证 互联网金融牌照 网络出版服务许可等文件</p>
+<p>总的来说，独立开发者想要依靠自己的身份将应用上架到各大平台是困难重重，现在主要的解决方案就是找第三方企业给你代上架，或者你自己注册个体工商户、企业</p>
+<p>你要注意，如果你想制作独立应用，你最好不要涉及 社交、棋牌、灰色产业这些范围</p>
+<h3 id="成本"> 成本</h3>
+<p>一个app的成本不仅是开发和学习成本，后期你还需要维护和升级，特别是遇到平台大更新的时候，并且你要随时注意应用市场的规则变更，稍不注意，你的应用会被系统下架</p>
+<p>特别是Android手机，版本更新快，但是市场的Android版本跨度大，你需要兼容很多版本的系统，你可能还要给不同的刘海屏和水滴屏手机做兼容处理</p>
+<p>开发阶段过后，应用的上架和宣传也是非常麻烦和重要的部分，特别是宣传，即使你的是千里马，还得有伯乐才行，现在市场应用这么多，想要脱颖而出完全靠质量是不行的，还要一些手段，如果你穷，就只能辛苦一下自己到多个平台自推，活跃，积累粉丝；如果你有钱，完全可以找市场竞价和平台付费推广</p>
+<h2 id="end"> end</h2>
+<p>总的来说就目前而言，如果你没有什么好的点子，我建议还是不要贸然走全职独立开发这一步，当你的应用有一定用户量的时候再考虑，可以先在公司磨练一下，积累点经验，利用业余时间开发</p>
+<p>好的今天的内容就到这里了，对你有帮助的话可以给我一个三连哦！</p>
 ]]></content>
     <author>
       <name>ChouCong</name>
     </author>
-    <category term="教程"/>
+    <category term="编程"/>
     <contributor>
       <name>ChouCong</name>
     </contributor>
-    <published>2020-10-29T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">教程</title>
-    <id>/tutorials/</id>
-    <link href="https://codenoob.top/tutorials/"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <content type="html"><![CDATA[<div><p>介绍</p>
-<p>以后写的教程都放这里了！</p>
-</div>
-<h2 id="说明"> 说明</h2>
-<p>在这个分类里面我主要分享一些教程，希望能对你有所帮助</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
-<div>
-<p><img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
-</div>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2021-11-18T06:47:23.000Z</published>
+    <published>2020-07-30T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -14714,6 +14688,31 @@ jim<span>.</span><span>log</span><span>(</span><span>)</span><span>;</span>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">Mysql学习手记</title>
+    <id>/tutorials/mysql.html</id>
+    <link href="https://codenoob.top/tutorials/mysql.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[Mysql学习手记]]></summary>
+    <content type="html"><![CDATA[<div><p>说明</p>
+<p>整理一下以前的Mysql学习笔记，还是比较详细的</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>这个分类是Mysql的手记 希望能对你有所帮助</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="教程"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-10-29T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">Uniapp的学习手记</title>
     <id>/tutorials/uniapp.html</id>
     <link href="https://codenoob.top/tutorials/uniapp.html"/>
@@ -14736,6 +14735,31 @@ jim<span>.</span><span>log</span><span>(</span><span>)</span><span>;</span>
       <name>ChouCong</name>
     </contributor>
     <published>2020-10-06T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
+    <title type="html">教程</title>
+    <id>/tutorials/</id>
+    <link href="https://codenoob.top/tutorials/"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <content type="html"><![CDATA[<div><p>介绍</p>
+<p>以后写的教程都放这里了！</p>
+</div>
+<h2 id="说明"> 说明</h2>
+<p>在这个分类里面我主要分享一些教程，希望能对你有所帮助</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！</p>
+<div>
+<p><img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
+</div>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2021-11-18T06:47:23.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
@@ -15808,6 +15832,31 @@ module.exports = config({
     <rights>Copyright by ChouCong</rights>
   </entry>
   <entry>
+    <title type="html">utools</title>
+    <id>/tools/creat/utools.html</id>
+    <link href="https://codenoob.top/tools/creat/utools.html"/>
+    <updated>2021-11-18T06:47:23.000Z</updated>
+    <summary type="html"><![CDATA[utools—真效率大师]]></summary>
+    <content type="html"><![CDATA[<div><p>utools</p>
+<p>uTools是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。</p>
+<p>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。</p>
+</div>
+<p>这个软件不用多说，下载来试一试就知道了，真*效率大师，有了它以后，我的桌面就几个图标了，平时用来搜索本地应用、本地文件、系统设置很方便</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/000823-556005.png" alt="image-20200807000822656" loading="lazy"></p>
+<p>最主要的还支持自定义插件，观看开发文档，剪贴板历史，在线翻译...更多请自行了解</p>
+<p><a href="http://www.u.tools/" target="_blank" rel="noopener noreferrer">官网地址</a></p>
+]]></content>
+    <author>
+      <name>ChouCong</name>
+    </author>
+    <category term="工具"/>
+    <contributor>
+      <name>ChouCong</name>
+    </contributor>
+    <published>2020-09-16T00:00:00.000Z</published>
+    <rights>Copyright by ChouCong</rights>
+  </entry>
+  <entry>
     <title type="html">snipaste</title>
     <id>/tools/creat/snipaste.html</id>
     <link href="https://codenoob.top/tools/creat/snipaste.html"/>
@@ -15846,55 +15895,6 @@ module.exports = config({
       <name>ChouCong</name>
     </contributor>
     <published>2020-09-22T00:00:00.000Z</published>
-    <rights>Copyright by ChouCong</rights>
-  </entry>
-  <entry>
-    <title type="html">screentogif</title>
-    <id>/tools/creat/screentogif.html</id>
-    <link href="https://codenoob.top/tools/creat/screentogif.html"/>
-    <updated>2021-11-18T06:47:23.000Z</updated>
-    <summary type="html"><![CDATA[screentogif-强大的GIF制作工具]]></summary>
-    <content type="html"><![CDATA[<div><p>相关信息</p>
-<p><strong>screentogif 是一款非常好用的gif制作工具</strong></p>
-</div>
-<h2 id="功能"> 功能</h2>
-<ul>
-<li>录制屏幕gif</li>
-<li>画板gif</li>
-<li>摄像头gif</li>
-<li>编辑器</li>
-</ul>
-<h2 id="优点"> 优点</h2>
-<ul>
-<li>界面清爽</li>
-<li>免费开源</li>
-<li>功能强大</li>
-</ul>
-<h2 id="使用截图"> 使用截图</h2>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/222246-166481.png" alt="screentogif" loading="lazy"></p>
-<h2 id="下载地址"> 下载地址</h2>
-<blockquote>
-<p>如果你的网速不好 我还提供了本地下载</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th style="text-align:center"><a href="https://www.screentogif.com/" target="_blank" rel="noopener noreferrer">官方网站</a></th>
-<th style="text-align:center"><a href="https://github.com/NickeManarin/ScreenToGif/releases" target="_blank" rel="noopener noreferrer">仓库</a></th>
-<th style="text-align:center"><a href="https://img.lookroot.cn/tool/ScreenToGif-2.20.3.zip" target="_blank" rel="noopener noreferrer">本地下载</a></th>
-</tr>
-</thead>
-<tbody></tbody>
-</table>
-]]></content>
-    <author>
-      <name>ChouCong</name>
-    </author>
-    <category term="工具"/>
-    <contributor>
-      <name>ChouCong</name>
-    </contributor>
-    <published>2020-09-03T00:00:00.000Z</published>
     <rights>Copyright by ChouCong</rights>
   </entry>
 </feed>
