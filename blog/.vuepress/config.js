@@ -253,9 +253,6 @@ module.exports = config({
                 maxSuggestions: 6, // Default: 5
                 //hotKeys: ['Ctrl s'], // Default: ['s', '/']
                 cropLength: 50, // Default: 30
-                //layout: 'simple', // Default: "columns"
-                //debug: true, // Default: false
-                //enableDarkMode: true, // Default: false
             },
         ]
     ],

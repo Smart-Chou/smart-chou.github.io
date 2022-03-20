@@ -1145,10 +1145,10 @@
     valine "^1.4.16"
     vssue "^1.4.8"
 
-"@mr-hope/vuepress-plugin-components@1.28.3":
-  version "1.28.3"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-components/-/vuepress-plugin-components-1.28.3.tgz#4a70d28a5b32b45812c28ab0e1728aa5f693b3cd"
-  integrity sha512-L5NfuwQF7ZQolTUwOtp3TNS3bruFqhYp/PdwrSqDBI9epdToCEaxakTR3gPv75BZo9iJXIY4v15pfQZi3AWr4Q==
+"@mr-hope/vuepress-plugin-components@1.28.4":
+  version "1.28.4"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-components/-/vuepress-plugin-components-1.28.4.tgz#cee83cd86cb0b59c5680fc116df9280307b7edcb"
+  integrity sha512-dOarwlvHSTGITmUMxWSsuLDPTx9fSzQDKW7SucB7X7MnAkODAOrBSGB+J3UFmZnb1db50IBXFmpWLK1c/krTjQ==
   dependencies:
     "@mr-hope/vuepress-shared" "1.28.3"
     "@mr-hope/vuepress-types" "1.28.3"
@@ -5281,11 +5281,6 @@ find-up@^4.0.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-flexsearch@^0.6.32:
-  version "0.6.32"
-  resolved "https://registry.npmjs.org/flexsearch/-/flexsearch-0.6.32.tgz#1e20684d317af65baa445cdd9864a5f5b320f510"
-  integrity sha512-EF1BWkhwoeLtbIlDbY/vDSLBen/E5l/f1Vg7iX5CDymQCamcx1vhlc3tIZxIDplPjgi0jhG37c67idFbjg+v+Q==
-
 flowchart.js@^1.17.1:
   version "1.17.1"
   resolved "https://registry.yarnpkg.com/flowchart.js/-/flowchart.js-1.17.1.tgz#3908ce3778a44b0af5cba1ab31cb61e12dc384a1"
@@ -5757,7 +5752,7 @@ he@0.5.0:
   resolved "https://registry.npmjs.org/he/-/he-0.5.0.tgz#2c05ffaef90b68e860f3fd2b54ef580989277ee2"
   integrity sha1-LAX/rvkLaOhg8/0rVO9YCYknfuI=
 
-he@1.2.x, he@^1.1.0, he@^1.2.0:
+he@1.2.x, he@^1.1.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
@@ -5836,16 +5831,6 @@ html-tags@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/html-tags/-/html-tags-3.1.0.tgz#7b5e6f7e665e9fb41f30007ed9e0d41e97fb2140"
   integrity sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg==
-
-html-to-text@^7.0.0:
-  version "7.1.1"
-  resolved "https://registry.npmjs.org/html-to-text/-/html-to-text-7.1.1.tgz#69de8d85b91646b4bc14fdf4f850e9e046efff15"
-  integrity sha512-c9QWysrfnRZevVpS8MlE7PyOdSuIOjg8Bt8ZE10jMU/BEngA6j3llj4GRfAmtQzcd1FjKE0sWu5IHXRUH9YxIQ==
-  dependencies:
-    deepmerge "^4.2.2"
-    he "^1.2.0"
-    htmlparser2 "^6.1.0"
-    minimist "^1.2.5"
 
 htmlparser2@^6.1.0:
   version "6.1.0"
@@ -6960,7 +6945,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.3, lodash@^4.17.5:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.3, lodash@^4.17.5:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -10369,15 +10354,6 @@ vuepress-plugin-feed@^0.1.8:
     remove-markdown "0.3.0"
     striptags "3.1.1"
 
-vuepress-plugin-fulltext-search@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.npmjs.org/vuepress-plugin-fulltext-search/-/vuepress-plugin-fulltext-search-2.2.1.tgz#f73cddfec3b878aa83b89559e8985be1e1cc50de"
-  integrity sha512-+BOLOdOTvwg7+4z71fmpuZUaHSw+exrw8S9m0kvBUgIVDoe5VS/G3y4hcd+K1hukbkxE/ec10Ikk8hc/3zf2VQ==
-  dependencies:
-    flexsearch "^0.6.32"
-    html-to-text "^7.0.0"
-    lodash "^4.17.19"
-
 vuepress-plugin-mailchimp@^1.4.1:
   version "1.4.2"
   resolved "https://registry.npmjs.org/vuepress-plugin-mailchimp/-/vuepress-plugin-mailchimp-1.4.2.tgz#373fa1df8f03a8993817b09ddfb8bd9d04a1c665"
@@ -10406,7 +10382,7 @@ vuepress-plugin-md-enhance@1.28.3:
     reveal.js "^4.3.0"
     vuepress-plugin-container "^2.1.5"
 
-vuepress-plugin-meilisearch@^0.10.1:
+vuepress-plugin-meilisearch@^0.10.8:
   version "0.10.8"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-meilisearch/-/vuepress-plugin-meilisearch-0.10.8.tgz#c3d3a1e6c499582259cabb7e45a6af063e2a2d5f"
   integrity sha512-skJt2plp8jfbzIfP831iTlHfIxwxkGqq3iTVyclr7JEUf+q0rpmGGWEX/BcewSgSLfXPhPNxsefIbW8lMkWcAQ==
@@ -10445,15 +10421,15 @@ vuepress-plugin-typescript@^0.3.1:
     cache-loader "^3.0.0"
     ts-loader "^7.0.3"
 
-vuepress-theme-hope@^1.28.3:
-  version "1.28.3"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-hope/-/vuepress-theme-hope-1.28.3.tgz#e9f1aac15d09f29c7c2ae105439eff781e8ca606"
-  integrity sha512-GYi2hlzx5/ON6K9Mhi6A9ZWvwu2EIoOBJuvWvbOQl0e0vT7PKhYTDOL3BMkH8SSEq6TvFModoKdhN0H7GVwsxA==
+vuepress-theme-hope@^1.28.4:
+  version "1.28.4"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-hope/-/vuepress-theme-hope-1.28.4.tgz#53a3b67a40b6e3d965618da5fa219a5e29a16458"
+  integrity sha512-VlQwZd24mAp0KYJR2vpfpwQNgjHSDnGtHW6Oq4FfHTGGJ+SPx0mhgqlgYTR/EpbY1j7jcoEbVPpWXC/y7TtMbg==
   dependencies:
     "@docsearch/css" "^3.0.0"
     "@docsearch/js" "^3.0.0"
     "@mr-hope/vuepress-plugin-comment" "1.28.3"
-    "@mr-hope/vuepress-plugin-components" "1.28.3"
+    "@mr-hope/vuepress-plugin-components" "1.28.4"
     "@mr-hope/vuepress-plugin-copy-code" "1.28.3"
     "@mr-hope/vuepress-plugin-feed" "1.28.3"
     "@mr-hope/vuepress-plugin-git" "1.28.3"
