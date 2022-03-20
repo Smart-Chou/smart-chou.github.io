@@ -41,7 +41,6 @@ module.exports = config({
         ['meta', { name: 'baidu-site-verification', content: 'code-E87rwPtGLL' }], //百度验证
         ['meta', { name: 'google-site-verification', content: 'i9llgSGLwQ5xvWGIdJRONZfTeCpJZxhjTPnZxfljuGo' }], //Google验证
         ['meta', { name: 'msvalidate.01', content: 'B9A0C43AD3B1BD529335A2616F235E46' }], //Bing验证
-        //['script', { language: 'javascript', type: 'text/javascript', src: '/assets/js/pgmanor-self.js' }], //search
         [
             'script',
             {},
@@ -63,6 +62,7 @@ module.exports = config({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+
             gtag('config', 'G-P635QZM7FJ');
             `,
         ],
@@ -249,9 +249,9 @@ module.exports = config({
                 hostUrl: 'https://tv.zcily.life',
                 apiKey: '29adf448c68ad007f493e3410df6cf391c1ceb5bd48aedfa90423480776f3bb9',
                 indexUid: 'vuepress',
-                placeholder: '想搜啥，按‘S’！', // Default: ""
+                placeholder: '搜点啥呢？', // Default: ""
                 maxSuggestions: 6, // Default: 5
-                hotKeys: ['s'], // Default: ['s', '/']
+                //hotKeys: ['Ctrl s'], // Default: ['s', '/']
                 cropLength: 50, // Default: 30
                 //layout: 'simple', // Default: "columns"
                 //debug: true, // Default: false

@@ -1,37 +1,67 @@
 name: Deploy blog
 
 on:
-  push:
-    branches:
-      - main
+    push:
+        branches:
+            - main
 
 jobs:
-  deploy-gh-pages:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          submodules: true
-          fetch-depth: 0
-      
-      - uses: actions/cache@v2
-        id: node-modules
-        with:
-          path: node_modules/
-          key: ${{ runner.os }}-node-modules-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-node-modules-
+    deploy-gh-pages:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+              with:
+                  submodules: true
+                  fetch-depth: 0
 
-      - name: Install Blog
-        if: steps.node-modules.outputs.cache-hit != 'true'  
-        run: yarn install
-     
-      - name: Build Blog
-        run: yarn run build
+            - uses: actions/cache@v2
+              id: node-modules
+              with:
+                  path: node_modules/
+                  key: ${{ runner.os }}-node-modules-${{ hashFiles('yarn.lock') }}
+                  restore-keys: |
+                      ${{ runner.os }}-node-modules-
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.5
-        with:
-          branch: gh-pages
-          folder: dist
+            - name: Install Blog
+              if: steps.node-modules.outputs.cache-hit != 'true'
+              run: yarn install
+
+            - name: Build Blog
+              run: yarn run build
+
+            - name: Deploy
+              uses: JamesIves/github-pages-deploy-action@4.1.5
+              with:
+                  branch: gh-pages
+                  folder: dist
+
+    test_website:
+        needs: deploy-gh-pages
+        runs-on: ubuntu-20.04
+        steps:
+            - name: Test Connect
+              run: |
+                  curl https://codenoob.top --connect-timeout 5
+                  curl https://tv.zcily.life/health --connect-timeout 5
+
+    scrape-docs:
+        needs: test_website
+        runs-on: ubuntu-20.04
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v2
+              with:
+                  node-version: 14
+                  registry-url: https://registry.npmjs.org/
+            - name: Run docs-scraper
+              env:
+                  HOST_URL: ${{ secrets.MEILISEARCH_HOST_URL }}
+                  API_KEY: ${{ secrets.MEILISEARCH_API_KEY }}
+                  CONFIG_FILE_PATH: ${{ github.workspace }}/blog/.vuepress/public/data/docs-scraper.json
+              run: |
+                  docker run -t --rm \
+                    -e MEILISEARCH_HOST_URL=$HOST_URL \
+                    -e MEILISEARCH_API_KEY=$API_KEY \
+                    -v $CONFIG_FILE_PATH:/docs-scraper/config.json \
+                    getmeili/docs-scraper:v0.11.0 pipenv run ./docs_scraper config.json
