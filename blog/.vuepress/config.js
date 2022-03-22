@@ -36,7 +36,6 @@ module.exports = config({
     host: '0.0.0.0',
     base: '/',
     dest: './dist',
-
     head: [
         ['meta', { name: 'baidu-site-verification', content: 'code-E87rwPtGLL' }], //百度验证
         ['meta', { name: 'google-site-verification', content: 'i9llgSGLwQ5xvWGIdJRONZfTeCpJZxhjTPnZxfljuGo' }], //Google验证
@@ -62,20 +61,16 @@ module.exports = config({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'G-P635QZM7FJ');
             `,
         ],
     ],
-
     locales: {
         '/': {
             lang: 'zh-CN',
         },
     },
-
     permalink: '/:regular',
-
     themeConfig: {
         logo: '/assets/img/AvatarMaker - y-p120.png',
         darkLogo: '/assets/img/AvatarMaker - tm.png',
@@ -86,25 +81,19 @@ module.exports = config({
         repo: 'https://github.com/Smart-Chou/smart-chou.github.io',
         repoLabel: '查看源码',
         repoDisplay: false,
-
         //docsRepo: "vuejs/vuepress",
         docsDir: 'blog',
         docsBranch: 'main',
         editLinks: true,
         editLinkText: '帮助改善此页面！',
-
         //searchMaxSuggestions: 5,
         //searchPlaceholder: '想搜啥，按‘S’！',
         breadcrumb: true,
         activeHeaderLinks: true,
-
         backToTop: 666,
-
         nav: navBarConfig,
         sidebar: sideBarConfig,
-
         displayAllHeaders: true,
-
         blog: {
             avatar: '/assets/img/AvatarMaker.svg',
             intro: '/author',
@@ -122,7 +111,6 @@ module.exports = config({
                 Gmail: 'mailto:ChouCong912@gmial.com',
             },
         },
-
         comment: {
             type: 'waline',
             serverURL: 'https://waline.codenoob.top/',
@@ -135,23 +123,19 @@ module.exports = config({
             pageSize: '8',
             locale,
         },
-
         copyright: {
             noCopy: false,
             minLength: 30,
             status: 'global',
         },
-
         copyCode: {
             duration: 3000,
             showInMobile: false,
         },
-
         git: {
             contributor: true,
             timezone: 'Asia/Shanghai',
         },
-
         mdEnhance: {
             enableAll: false,
             container: true, //自定义容器
@@ -168,17 +152,14 @@ module.exports = config({
             demo: false, //代码演示
             presentation: false, //ppt
         },
-
         footer: {
             display: true,
             content: '<a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备20006179号</a>',
             copyright: 'ChouCong | Theme-Hope',
         },
-
         sitemap: {
             urls: ['https://codenoob.top/Vaultwarden-Wiki-Chinese/', 'https://codenoob.top/Road2Coding/'],
         },
-
         pwa: {
             favicon: '/favicon.ico',
             cacheHTML: false,
@@ -242,18 +223,17 @@ module.exports = config({
         },
     },
     plugins: [
-        //['fulltext-search'],
         [
             'vuepress-plugin-meilisearch',
             {
                 hostUrl: 'https://tv.zcily.life',
-                apiKey: '29adf448c68ad007f493e3410df6cf391c1ceb5bd48aedfa90423480776f3bb9',
+                apiKey: 'opOU6e6Xa6e95c296386d50d0234b615391764fd386ce5a62dd5da00f6bc862cb206c438',
                 indexUid: 'vuepress',
                 placeholder: '搜点啥呢？', // Default: ""
                 maxSuggestions: 6, // Default: 5
-                //hotKeys: ['Ctrl s'], // Default: ['s', '/']
                 cropLength: 50, // Default: 30
             },
-        ]
+        ],
     ],
+    globalUIComponents: ['V2Notice'],
 });

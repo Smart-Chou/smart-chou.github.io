@@ -1,27 +1,27 @@
 {
-  "name": "codenoobs",
-  "version": "1.0.0",
-  "description": "一个菜鸟学习编程的记录",
-  "main": "index.js",
-  "repository": "codenoob.top",
-  "author": "ChouCong",
-  "license": "MIT",
-  "keywords": [
-    "vuepress",
-    "CodeNoobs",
-    "菜鸟编程"
-  ],
-  "scripts": {
-    "dev": "vuepress dev blog",
-    "clean": "vuepress dev blog --no-cache",
-    "build": "vuepress build blog"
-  },
-  "dependencies": {
-    "vuepress": "^1.9.7",
-    "vuepress-theme-hope": "^1.28.4",
-    "vuepress-plugin-meilisearch": "^0.10.8"
-  },
-  "resolutions": {
-    "vue-router": "3.4.5"
-  }
+    "name": "codenoobs",
+    "version": "1.0.0",
+    "description": "一个菜鸟学习编程的记录",
+    "main": "index.js",
+    "repository": "codenoob.top",
+    "author": "ChouCong",
+    "license": "MIT",
+    "keywords": [
+        "vuepress",
+        "CodeNoobs",
+        "菜鸟编程"
+    ],
+    "scripts": {
+        "dev": "vuepress dev blog",
+        "clean": "vuepress dev blog --no-cache",
+        "build": "vuepress build blog"
+    },
+    "dependencies": {
+        "vuepress-theme-hope": "^1.28.4",
+        "vuepress": "^1.9.7",
+        "vuepress-plugin-meilisearch": "^0.12.1"
+    },
+    "resolutions": {
+        "vue-router": "3.4.5"
+    }
 }

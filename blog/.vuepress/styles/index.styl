@@ -84,7 +84,6 @@ h1
   width: 128px
   height: 128px
   text-align: center
-
   transition-duration: 0.3s
   --transform-translate-x: 0
   --transform-translate-y: 0
@@ -235,3 +234,80 @@ strong
 .suggestions .highlight
   color: #3eaf7c
   font-weight: bold
+
+// Dark theme
+body.theme-dark
+  .meilisearch-autocomplete
+    .dsb-dropdown-menu [class^=dsb-dataset-], .docs-searchbar-suggestion
+      background: $dropdownBgDarkColor
+
+    // Searchbox
+    input
+      color: $textDarkColor
+      border: 1px solid $borderDarkColor
+      background-color: $inputDarkBgColor
+      &:focus
+        border-color: $accentDarkColor
+
+    // Layout "columns"
+    .docs-searchbar-suggestion:not(.suggestion-layout-simple)
+      border-color: $borderDarkColor
+      .docs-searchbar-suggestion--wrapper
+        .docs-searchbar-suggestion--highlight
+          color: $accentDarkColor
+      .docs-searchbar-suggestion--category-header
+        background: $accentDarkColor
+        .docs-searchbar-suggestion--highlight
+          background: lighten($accentDarkColor, 20%)
+      .docs-searchbar-suggestion--title
+        color: $textDarkColor
+      .docs-searchbar-suggestion--subcategory-column
+        border-color: $borderDarkColor // Simple ?
+      .docs-searchbar-suggestion--subcategory-column-text
+        color: $textDarkColor
+      .docs-searchbar-suggestion--text
+        .docs-searchbar-suggestion--highlight
+          box-shadow: inset 0 -2px 0 0 lighten($accentDarkColor, 20%)
+
+    // Layout "simple"
+    .suggestion-layout-simple
+      .docs-searchbar-suggestion--category-header
+        .docs-searchbar-suggestion--category-header-lvl0, .docs-searchbar-suggestion--category-header-lvl1
+          .docs-searchbar-suggestion--highlight
+            box-shadow: inset 0 -2px 0 0 darken($accentDarkColor, 10%)
+        .docs-searchbar-suggestion--title
+          .docs-searchbar-suggestion--highlight
+            color: lighten($accentDarkColor, 20%)
+            background: rgba($accentDarkColor, 10%)
+      .docs-searchbar-suggestion--category-header-lvl0, .docs-searchbar-suggestion--category-header-lvl1
+        .docs-searchbar-suggestion--highlight
+          color: inherit
+
+      // Suggestion on hover
+    .dsb-dropdown-menu .dsb-suggestions .dsb-cursor
+      .docs-searchbar-suggestion.suggestion-layout-simple
+        background-color: rgba($accentDarkColor, 30%)
+      .docs-searchbar-suggestion:not(.suggestion-layout-simple)
+        .docs-searchbar-suggestion--content
+          background-color: rgba($accentDarkColor, 30%)
+
+@media (max-width: $MQMobile)
+  body.theme-dark
+    .meilisearch-search-wrapper
+      .docs-searchbar-suggestion--subcategory-column
+        background: transparent !important
+
+
+//Searchbox style Mobile
+@media (max-width: $MQNarrow)
+  .search-box
+    input
+      cursor: pointer !important
+      width: 0 !important
+      border-color: transparent !important
+      position: relative !important
+      &:focus
+        cursor: text !important
+        left: 0 !important
+        width: 10rem !important
+        background-color: #e5e5e5 !important
