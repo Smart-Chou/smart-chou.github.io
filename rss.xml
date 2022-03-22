@@ -6,8 +6,8 @@
     <link>https://codenoob.top/</link>
     <description>编程菜鸟的自我修养</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 20 Mar 2022 12:13:58 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Mar 2022 12:13:58 GMT</lastBuildDate>
+    <pubDate>Tue, 22 Mar 2022 13:21:28 GMT</pubDate>
+    <lastBuildDate>Tue, 22 Mar 2022 13:21:28 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>ChouCong | Theme-Hope</copyright>
@@ -129,35 +129,6 @@
 <p>所以努力学啊，学不动就只有回家喂猪了</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/215910-449972.gif" type="image/gif"/>
-    </item>
-    <item>
-      <title>SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
-      <link>https://codenoob.top/code/loop.html</link>
-      <guid isPermaLink="false">/code/loop.html</guid>
-      <source url="https://codenoob.top/rss.xml">SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</source>
-      <description>SpringBoot实战项目</description>
-      <category>编程</category>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>说明</p>
-<p>此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
-</div>
-<h2 id="前言"> 前言</h2>
-<p><a href="https://www.bilibili.com/video/BV1av4y1f7o1" target="_blank" rel="noopener noreferrer">视频教程</a></p>
-<p>观众朋友们大家好啊，我来填坑了，去年的时候我发了一些基础的视频，每次都说后面会出项目视频，但是每次都因为各种各样的原因耽搁了</p>
-<p>最近空闲的时间比较多，所以来把这个坑填了，本次的项目是根据我的所学知识和一些日常工作中的经验制作而成，因为时间的关系，这个项目从零开始，每制作一点就发一个视频，所以说这是一个具有很多不确定因素的计划，我也不是一个专业的培训老师，工作经验有限，希望大家多多担待，中途有错误或者大家有更好的思路可以一起讨论</p>
-<p>先说一下此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
-<p>PC端我们使用springboot、thymeleaf来制作混合页面
-管理端我们使用springboot、vue3（待定）来制作前后端分离项目
-移动端我们使用springboot、uniapp来制作前后端分离项目
-中途不限于使用模板引擎、缓存、权限管理、文件转换、消息队列、爬虫、搜索引擎等技术，这是一个相对完整的项目，并不是单纯的为了组装知识点而拼凑的项目，我们从实际业务出发，尽量给各位观众朋友们带来真实的、能够在工作中复用的知识</p>
-<p>此次的项目耗时是相对比较长的，并且是完全免费的，附带文档和源码，大家的三连就是对我最大的支持！</p>
-<h2 id="源码"> 源码</h2>
-<p><a href="https://github.com/lookroot/loop" target="_blank" rel="noopener noreferrer">GitHub</a>大家自取。</p>
-<h2 id="我的订阅号"> 我的订阅号</h2>
-<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
-<img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
-]]></content:encoded>
-      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
       <title>Java分阶段学习路线</title>
@@ -453,6 +424,35 @@
 <li><a href="https://github.com/justjavac/free-programming-books-zh_CN" target="_blank" rel="noopener noreferrer">开源的电子书合集</a></li>
 <li><a href="https://github.com/ruanyf/free-books" target="_blank" rel="noopener noreferrer">免费的电子书合集</a></li>
 </ul>
+]]></content:encoded>
+      <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
+    </item>
+    <item>
+      <title>SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</title>
+      <link>https://codenoob.top/code/loop.html</link>
+      <guid isPermaLink="false">/code/loop.html</guid>
+      <source url="https://codenoob.top/rss.xml">SpringBoot实战项目，从个人博客出发，打造多端知识聚合应用</source>
+      <description>SpringBoot实战项目</description>
+      <category>编程</category>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>说明</p>
+<p>此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
+</div>
+<h2 id="前言"> 前言</h2>
+<p><a href="https://www.bilibili.com/video/BV1av4y1f7o1" target="_blank" rel="noopener noreferrer">视频教程</a></p>
+<p>观众朋友们大家好啊，我来填坑了，去年的时候我发了一些基础的视频，每次都说后面会出项目视频，但是每次都因为各种各样的原因耽搁了</p>
+<p>最近空闲的时间比较多，所以来把这个坑填了，本次的项目是根据我的所学知识和一些日常工作中的经验制作而成，因为时间的关系，这个项目从零开始，每制作一点就发一个视频，所以说这是一个具有很多不确定因素的计划，我也不是一个专业的培训老师，工作经验有限，希望大家多多担待，中途有错误或者大家有更好的思路可以一起讨论</p>
+<p>先说一下此次的学习项目，我命名为“闭环loop”,从一个博客出发慢慢完善成一个知识聚合的项目</p>
+<p>PC端我们使用springboot、thymeleaf来制作混合页面
+管理端我们使用springboot、vue3（待定）来制作前后端分离项目
+移动端我们使用springboot、uniapp来制作前后端分离项目
+中途不限于使用模板引擎、缓存、权限管理、文件转换、消息队列、爬虫、搜索引擎等技术，这是一个相对完整的项目，并不是单纯的为了组装知识点而拼凑的项目，我们从实际业务出发，尽量给各位观众朋友们带来真实的、能够在工作中复用的知识</p>
+<p>此次的项目耗时是相对比较长的，并且是完全免费的，附带文档和源码，大家的三连就是对我最大的支持！</p>
+<h2 id="源码"> 源码</h2>
+<p><a href="https://github.com/lookroot/loop" target="_blank" rel="noopener noreferrer">GitHub</a>大家自取。</p>
+<h2 id="我的订阅号"> 我的订阅号</h2>
+<p>我开通订阅号啦！以后视频发哔哩哔哩，文章发订阅号，当然博客会同步，博客更适合观看文档！
+<img src="/assets/img/qr_weixin.png" alt="公众号" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
@@ -1653,37 +1653,6 @@ result <span>=</span> sum_numbers<span>(</span><span>100</span><span>)</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>Python 学习记录</title>
-      <link>https://codenoob.top/code/python/</link>
-      <guid isPermaLink="false">/code/python/</guid>
-      <source url="https://codenoob.top/rss.xml">Python 学习记录</source>
-      <category>Start</category>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="主要如下"> 主要如下</h2>
-<ul>
-<li>
-<p><a href="./Python-01-name-and-loop.html">命名和循环</a></p>
-</li>
-<li>
-<p><a href="./Python-02-xun-huan-da-yin-jiu-jiu-cheng-fa-biao.html">循环打印九九乘法表</a></p>
-</li>
-<li>
-<p><a href="./Python-03-Functions.html">函数</a></p>
-</li>
-<li>
-<p><a href="./Python-04-advanced-variable-types.html">高级变量类型</a></p>
-</li>
-<li>
-<p><a href="./Python-05-Advanced-Grammar.html">语法进阶</a></p>
-</li>
-<li>
-<p><a href="./Python-06-Object-Oriented.html">面向对象</a></p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>面向对象</title>
       <link>https://codenoob.top/code/python/python-06-object-oriented.html</link>
       <guid isPermaLink="false">/code/python/python-06-object-oriented.html</guid>
@@ -2157,6 +2126,37 @@ xusanduo<span>.</span>fire<span>(</span><span>)</span>
 <blockquote>
 <p>不要使用这种方法访问私有属性和私有方法</p>
 </blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Python 学习记录</title>
+      <link>https://codenoob.top/code/python/</link>
+      <guid isPermaLink="false">/code/python/</guid>
+      <source url="https://codenoob.top/rss.xml">Python 学习记录</source>
+      <category>Start</category>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="主要如下"> 主要如下</h2>
+<ul>
+<li>
+<p><a href="./Python-01-name-and-loop.html">命名和循环</a></p>
+</li>
+<li>
+<p><a href="./Python-02-xun-huan-da-yin-jiu-jiu-cheng-fa-biao.html">循环打印九九乘法表</a></p>
+</li>
+<li>
+<p><a href="./Python-03-Functions.html">函数</a></p>
+</li>
+<li>
+<p><a href="./Python-04-advanced-variable-types.html">高级变量类型</a></p>
+</li>
+<li>
+<p><a href="./Python-05-Advanced-Grammar.html">语法进阶</a></p>
+</li>
+<li>
+<p><a href="./Python-06-Object-Oriented.html">面向对象</a></p>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -3579,18 +3579,18 @@ WantedBy=multi-user.target
 <p>将上一步dist目录下的文件全部拷贝至 <a href="https://github.com/Xhofe/alist" target="_blank" rel="noopener noreferrer">https://github.com/Xhofe/alist</a> 项目下的public目录，然后：</p>
 <div><pre><code>appName<span>=</span><span>"alist"</span>
 builtAt<span>=</span><span>"$(date +'%F %T %z')"</span>
-goVersion<span>=</span>$<span>(</span><span>go</span> version <span>|</span> sed <span>'s/go version //'</span><span>)</span>
-gitAuthor<span>=</span>$<span>(</span>git show <span>-</span>s <span>--</span>format<span>=</span><span>'format:%aN &lt;%ae>'</span> HEAD<span>)</span>
+goVersion<span>=</span>$<span>(</span><span>go</span> version <span>|</span> sed 's<span>/</span><span>go</span> version <span>//')</span>
+gitAuthor<span>=</span>$<span>(</span>git show <span>-</span>s <span>--</span>format<span>=</span>'format<span>:</span><span>%</span>aN <span>&lt;</span><span>%</span>ae<span>></span>' HEAD<span>)</span>
 gitCommit<span>=</span>$<span>(</span>git log <span>--</span>pretty<span>=</span>format<span>:</span><span>"%h"</span> <span>-</span><span>1</span><span>)</span>
 gitTag<span>=</span>$<span>(</span>git describe <span>--</span>long <span>--</span>tags <span>--</span>dirty <span>--</span>always<span>)</span>
-ldflags<span>=</span><span>"\
--w -s \
--X 'github.com/Xhofe/alist/conf.BuiltAt=$builtAt' \
--X 'github.com/Xhofe/alist/conf.GoVersion=$goVersion' \
--X 'github.com/Xhofe/alist/conf.GitAuthor=$gitAuthor' \
--X 'github.com/Xhofe/alist/conf.GitCommit=$gitCommit' \
--X 'github.com/Xhofe/alist/conf.GitTag=$gitTag' \
-"</span>
+ldflags<span>=</span>"\
+<span>-</span>w <span>-</span>s \
+<span>-</span>X 'github<span>.</span>com<span>/</span>Xhofe<span>/</span>alist<span>/</span>conf<span>.</span>BuiltAt<span>=</span>$builtAt' \
+<span>-</span>X 'github<span>.</span>com<span>/</span>Xhofe<span>/</span>alist<span>/</span>conf<span>.</span>GoVersion<span>=</span>$goVersion' \
+<span>-</span>X 'github<span>.</span>com<span>/</span>Xhofe<span>/</span>alist<span>/</span>conf<span>.</span>GitAuthor<span>=</span>$gitAuthor' \
+<span>-</span>X 'github<span>.</span>com<span>/</span>Xhofe<span>/</span>alist<span>/</span>conf<span>.</span>GitCommit<span>=</span>$gitCommit' \
+<span>-</span>X 'github<span>.</span>com<span>/</span>Xhofe<span>/</span>alist<span>/</span>conf<span>.</span>GitTag<span>=</span>$gitTag' \
+"
 <span>go</span> build <span>-</span>ldflags<span>=</span><span>"$ldflags"</span> alist<span>.</span><span>go</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><h2 id="反向代理"> 反向代理</h2>
@@ -3792,9 +3792,9 @@ ldflags<span>=</span><span>"\
 <p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/d23d21a60e849970b31cd624655e86b6.png" alt="修改容器名称" loading="lazy"></p>
 <p><strong>上述步骤也可直接使用命令安装（前提已安装 <code>docker</code>）</strong></p>
 <div><pre><code><span># 安装 vaultwarden/拉取镜像</span>
-docker pull vaultwarden/server:latest
+<span>docker</span> pull vaultwarden/server:latest
 <span># 创建容器</span>
-docker run -d --name vaultwarden -v /www/wwwroot/domain.com/:/data/ -p <span>6789</span>:80 bitwardenrs/server:latest
+<span>docker</span> run -d --name vaultwarden -v /www/wwwroot/domain.com/:/data/ -p <span>6789</span>:80 bitwardenrs/server:latest
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="添加反向代理"> 添加反向代理</h3>
 <p>在站点设置添加反向代理</p>
@@ -3827,7 +3827,7 @@ docker run -d --name vaultwarden -v /www/wwwroot/domain.com/:/data/ -p <span>678
 <ol>
 <li>运行如下命令再次创建容器</li>
 </ol>
-<div><pre><code>docker run -d --name vaultwarden -e <span>SIGNUPS_ALLOWED</span><span>=</span>false -v /www/wwwroot/domain.com/:/data/ -p <span>6789</span>:80 vaultwarden/server:latest
+<div><pre><code><span>docker</span> run -d --name vaultwarden -e <span>SIGNUPS_ALLOWED</span><span>=</span>false -v /www/wwwroot/domain.com/:/data/ -p <span>6789</span>:80 vaultwarden/server:latest
 
 <span># name 后参数为容器名称</span>
 <span># v 后参数为上边填写的容器目录</span>
@@ -3836,8 +3836,8 @@ docker run -d --name vaultwarden -v /www/wwwroot/domain.com/:/data/ -p <span>678
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><ol>
 <li>重新启动一下容器</li>
 </ol>
-<div><pre><code>docker stop vaultwarden
-docker start vaultwarden
+<div><pre><code><span>docker</span> stop vaultwarden
+<span>docker</span> start vaultwarden
 </code></pre>
 <div><span>1</span><br><span>2</span><br></div></div><p>完成后就关闭了注册功能，所以一定要在这步之前注册账号</p>
 <div><p>提示</p>
@@ -3847,13 +3847,13 @@ docker start vaultwarden
 <h2 id="更新"> 更新</h2>
 <p>如果需要更新，直接拉取最新镜像，停止并删除旧容器，创建新容器</p>
 <div><pre><code><span># 拉取最新镜像</span>
-docker pull vaultwarden/server:latest
+<span>docker</span> pull vaultwarden/server:latest
 <span># 停止旧容器</span>
-docker stop vaultwarden
+<span>docker</span> stop vaultwarden
 <span># 删除旧容器</span>
-docker <span>rm</span> vaultwarden
+<span>docker</span> <span>rm</span> vaultwarden
 <span># 创建新容器</span>
-docker run -d --name vaultwarden -e <span>SIGNUPS_ALLOWED</span><span>=</span>false -v /www/wwwroot/domain.com/:/data/ -p <span>6789</span>:80 vaultwarden/server:latest
+<span>docker</span> run -d --name vaultwarden -e <span>SIGNUPS_ALLOWED</span><span>=</span>false -v /www/wwwroot/domain.com/:/data/ -p <span>6789</span>:80 vaultwarden/server:latest
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div>]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/23bb13c6fa48ab4f5e31a1edaecb9183.png" type="image/png"/>
@@ -4523,321 +4523,6 @@ DB_DATABASE=faka
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/yyycode_com20201112151929.png" type="image/png"/>
     </item>
     <item>
-      <title>OpenWrite给VuePress配置博客导流公众号插件</title>
-      <link>https://codenoob.top/document/openwrite-to-vuepress.html</link>
-      <guid isPermaLink="false">/document/openwrite-to-vuepress.html</guid>
-      <source url="https://codenoob.top/rss.xml">OpenWrite给VuePress配置博客导流公众号插件</source>
-      <description>如何用OpenWrite给VuePress配置博客导流公众号插件-公众号获取验证码阅读全文</description>
-      <category>文档</category>
-      <pubDate>Thu, 21 Oct 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="前言"> 前言</h2>
-<p>如今,打开一些网站,发现阅读文章前,先要关注公众号,获取验证码,才能解锁文章,这波操作虽然有点“<mark>流氓</mark>”,但是白嫖的适当付出一点也没有什么,毕竟写文章输出是真的费时间,尊重作者的劳动成果.况且赏杯咖啡,我觉得也是一种激励.</p>
-<p>不信,自己去践行下就知道了的</p>
-<p>在互联网时代,<strong>有流量</strong>,一切皆有可能,在如今竞争激烈的情况下,尽管<strong>微信公众号阅读量</strong>日渐下滑,但不得不承认,它仍然是一个非常强劲有生命力的产品,其价值重视程度不言而喻,凡是离用户有多近的东西都值得深耕细作</p>
-<p>现如今一些自媒体大佬,很多在公众号里赚了不少,论当今自媒体平台,公众号的<strong>商业价值</strong>是最大的,很少有听到抖音,快手等独立的个体融资的,但公众号就有,依靠它活得洒脱,而凭借它实现融资的还真不少. 自己不行,不代表别人也不行,贫穷会限制想象.</p>
-<p>今天跟大家分享一下在<code>vuepress</code>中怎么进行配置实现导流到公众号,实现自动增粉,让每一个阅读产生价值,与用户做朋友,从此在也不用互推了的,只需专心做好内容创作.</p>
-<p>至于<code>Hexo</code>,<code>wordpress</code>网上一搜也能搜到,<code>npm</code>仓库也有相对应的包,可自行查阅</p>
-<h2 id="视频链接"> 视频链接</h2>
-<p>如果您觉得读文章理解起来有些难度,希望以下视频能给你带来一些帮助</p>
-<ol>
-<li>
-<p><a href="https://www.zhihu.com/zvideo/1312527959053000704" target="_blank" rel="noopener noreferrer">视频讲解-vuepress 解锁文章-引流到公众号-添加博客导流工具引言(前)</a></p>
-</li>
-<li>
-<p><a href="https://www.zhihu.com/zvideo/1312526313929437184" target="_blank" rel="noopener noreferrer">视频讲解-vuepress 添加博客导流工具-添加博客设置(上)</a></p>
-</li>
-<li>
-<p><a href="https://www.zhihu.com/zvideo/1312526506603184128" target="_blank" rel="noopener noreferrer">视频讲解-vuepress 添加博客导流工具-实现单篇文章隐藏与整站文章隐藏(中)</a></p>
-</li>
-<li>
-<p><a href="https://www.zhihu.com/zvideo/1312526793459286016" target="_blank" rel="noopener noreferrer">视频讲解-vuepress 添加博客导流工具-可能会遇到的一些问题-结束(下)</a></p>
-</li>
-<li>
-<p><a href="https://space.bilibili.com/267957620" target="_blank" rel="noopener noreferrer">视频讲解-B 站 itclanCoder-Up 主-不定期更新获取新技能</a></p>
-</li>
-</ol>
-<h2 id="使用-openwrite-导流工具"> 使用 openWrite 导流工具</h2>
-<p>这里借用<a href="https://my.openwrite.cn/" target="_blank" rel="noopener noreferrer">openWrite 导流工具</a></p>
-<ol>
-<li>进入 openWrite 网站,找到导航菜单栏下的<strong>免费涨粉神器</strong>,添加博客列表</li>
-</ol>
-<p>输入博客信息以及微信公众号信息,保存即可</p>
-<p>如下所示:</p>
-<div>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/openwrite.png" alt="#" loading="lazy"></p>
-</div>
-<ol start="2">
-<li>返回博客列表中,点击使用</li>
-</ol>
-<div>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/useopenwrite.png" alt="#" loading="lazy"></p>
-</div>
-<ol start="3">
-<li>阅读使用文档</li>
-</ol>
-<p>这里就不搬运了的,直接读文档就好,下面的介绍才是重点</p>
-<div><p>注意</p>
-<p>文档中需要注意最后一句:</p>
-<p>其中<code>id</code>中设置的<code>container</code>需要用户根据文章页面中的文章容器来调整，或者直接将文章最外面的容器设置为该 id</p>
-<p>文档中的<code>readmore.js</code>用 <code>openWrite</code> 的链接也行,直接下载到本地,在头部全局方式引入也可以</p>
-</div>
-<h2 id="博客设置"> 博客设置</h2>
-<p>任选自己的一篇<code>md</code>文档,在文档末尾增加如下一段<code>js</code>代码</p>
-<p>不要问为什么能在<code>md</code>中还能写<code>js</code>,甚至写<code>Vue</code>,<code>React</code>都可以,因为<code>vuepress</code>牛逼~</p>
-<div><pre><code><span>&lt;</span>script src<span>=</span><span>"https://my.openwrite.cn/js/readmore.js"</span> type<span>=</span><span>"text/javascript"</span><span>></span><span>&lt;</span><span>/</span>script<span>></span>
-<span>&lt;</span>script<span>></span>
-    <span>const</span> btw <span>=</span> <span>new</span> <span>BTWPlugin</span><span>(</span><span>)</span><span>;</span>  <span>// 实例化btw插件对象</span>
-    btw<span>.</span><span>init</span><span>(</span><span>{</span>                    <span>// 初始化设置,接收一些参数</span>
-        id<span>:</span> <span>'container'</span><span>,</span>          <span>// 文章最外层的id</span>
-        blogId<span>:</span> <span>'xxxx你自己的博客ID'</span><span>,</span> <span>// 博客网站的id,openWrite会自动生成</span>
-        name<span>:</span> <span>'itclanCoder'</span><span>,</span>         <span>// 博客的名称</span>
-        qrcode<span>:</span> <span>'你自己的公众号二维码xxx.jpg'</span><span>,</span> <span>// 二维码</span>
-        keyword<span>:</span> <span>'验证码'</span><span>,</span>                    <span>// 设置的解锁关键字</span>
-    <span>}</span><span>)</span><span>;</span>
-<span>&lt;</span><span>/</span>script<span>></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><p>当你插入这段代码后,发现控制台报错了</p>
-<div><pre><code>ReferenceError<span>:</span> BTWPlugin is not defined
-</code></pre>
-<div><span>1</span><br></div></div><p><strong>解决办法</strong>:你需要在外面用<code>window.onload</code>包裹起来,必须等待 <code>DOM</code> 网页中所有内容加载完毕后执行这段代码,用<code>$(funciton() {})</code>或<code>$(document).ready(function(){})</code>是不行的</p>
-<p>前者是等网页中的所有 <code>DOM</code> 包扩图片加载完毕后执行,而后者是所有 <code>DOM</code> 结构绘制完毕后,边加载边执行,可能 <code>DOM</code> 元素关联的东西并没有加载完</p>
-<div><pre><code>window<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
-  <span>const</span> btw <span>=</span> <span>new</span> <span>BTWPlugin</span><span>(</span><span>)</span><span>;</span>
-  btw<span>.</span><span>init</span><span>(</span><span>{</span>
-    id<span>:</span> <span>'container'</span><span>,</span>
-    blogId<span>:</span> <span>'xxxx你自己的博客ID'</span><span>,</span>
-    name<span>:</span> <span>'itclanCoder'</span><span>,</span>
-    qrcode<span>:</span> <span>'你自己的公众号二维码xxx.jpg'</span><span>,</span>
-    keyword<span>:</span> <span>'验证码'</span><span>,</span>
-  <span>}</span><span>)</span><span>;</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>解决完报错后,文章依旧没有隐藏起来,根据 openWrite 文章中最后一句设置文章容器的<code>id</code>属性<code>container</code></p>
-<p>现在就是要给文章容器添加 id 属性了,可以用原生 <code>js</code>,也可以使用 <code>JQ</code>动态的添加属性</p>
-<div><p>提示</p>
-<p>直接在<code>md</code>中用<code>div</code>将想要隐藏的部分包裹起来,并在<code>div</code>上添加<code>id=&quot;container&quot;</code>难道不行么</p>
-<p>这种方式我有试过,但不靠谱,实现不了😂,即使能实现,每篇文章都要手动的添加 id,那不是一个懒的程序员应该做的事情</p>
-</div>
-<p>可以在控制台中审查元素,找到文章最外层的那个容器,实在不知道,你找个已经实现了解锁文章的博客作为参照:例如<a href="http://coder.itclan.cn/" target="_blank" rel="noopener noreferrer">itclanCoder 网站</a></p>
-<p>没有添加解锁文章的博客,是没有那个<code>id=&quot;container&quot;</code>属性的</p>
-<p>下面我使用 jQ 查找元素,给页面最外层的容器添加 <code>id</code> 属性,为啥不用原生 <code>js</code>,因为 <code>jQ</code> 写得更少,做得更多哈💯</p>
-<p>此刻,不要动不动满口的<code>vue</code>,<code>React</code>,<code>Angular</code>...JQ 真香,小弟还停留在 JQ 时代🤣,其实 JQ 也很牛逼的,也没有它实现不了的,只是现在,有负往日盛景,风水轮流转嘛</p>
-<div><pre><code>window<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
-  themeDefaultContent <span>=</span> <span>$</span><span>(</span>
-    <span>'#app > .theme-container>.page > .theme-default-content'</span> <span>// 获取最外层的元素</span>
-  <span>)</span><span>;</span>
-
-  themeDefaultContent<span>.</span><span>attr</span><span>(</span><span>'id'</span><span>,</span> <span>'container'</span><span>)</span><span>;</span> <span>// 设置id属性,就是这么牛逼,搞定</span>
-  <span>const</span> btw <span>=</span> <span>new</span> <span>BTWPlugin</span><span>(</span><span>)</span><span>;</span>
-  btw<span>.</span><span>init</span><span>(</span><span>{</span>
-    id<span>:</span> <span>'container'</span><span>,</span> <span>// 这个id后面的值与上面的设置id属性保持一致就行,不一定非地是container</span>
-    blogId<span>:</span> <span>'xxxx你自己的博客ID'</span><span>,</span>
-    name<span>:</span> <span>'itclanCoder'</span><span>,</span>
-    qrcode<span>:</span> <span>'你自己的公众号二维码xxx.jpg'</span><span>,</span>
-    keyword<span>:</span> <span>'验证码'</span><span>,</span>
-  <span>}</span><span>)</span><span>;</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><p>但经自己测试,发现无论是使用 vue 的写法,将上面的代码放到 <code>monted</code> 中,或使用<code>this.$nextTick</code>,发现不是报<code>btw is not defined</code>就是<code>BTWPlugin is not defined</code></p>
-<p>但是页面中的<code>id=&quot;container&quot;</code>确实已经加上去了的,但就是隐藏不了文章,经过排查,查看了一下<code>readmore.js</code>源码,里面使用了<code>document.querySelectorAll</code>以及<code>window</code>等一些方法,当然里面也用了<code>jQ</code>,估计是这个脚本加载顺序有问题</p>
-<p>如果有知道怎么解决的同学,可以告知一下,显然按照文档中的直接在文章底下写那段代码是实现不了文章隐藏的功能的</p>
-<p><strong>解决办法</strong>:把上面的代码单独成一个<code>js</code>,放到<code>.vuepress</code>中公共 js 目录下,<code>/.vuepress/public/js/btwplugin.js</code></p>
-<div><pre><code>window<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
-  themeDefaultContent <span>=</span> <span>$</span><span>(</span>
-    <span>'#app > .theme-container>.page > .theme-default-content'</span>
-  <span>)</span><span>;</span>
-
-  themeDefaultContent<span>.</span><span>attr</span><span>(</span><span>'id'</span><span>,</span> <span>'container'</span><span>)</span><span>;</span>
-  btw <span>=</span> <span>new</span> <span>BTWPlugin</span><span>(</span><span>)</span><span>;</span> <span>// 注意btw需要是个全局变量,把const去掉</span>
-  btw<span>.</span><span>init</span><span>(</span><span>{</span>
-    id<span>:</span> <span>'container'</span><span>,</span>
-    blogId<span>:</span> <span>'xxxx你自己的博客ID'</span><span>,</span>
-    name<span>:</span> <span>'itclanCoder'</span><span>,</span>
-    qrcode<span>:</span> <span>'你自己的公众号二维码xxx.jpg'</span><span>,</span>
-    keyword<span>:</span> <span>'验证码'</span><span>,</span>
-  <span>}</span><span>)</span><span>;</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><p>而把<code>readmore.js</code>
-添加到头部<code>head</code>中,以<code>script</code>方式全局注入</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  head<span>:</span> <span>[</span>
-    <span>[</span>
-      <span>'script'</span><span>,</span>
-      <span>{</span> charset<span>:</span> <span>'utf-8'</span><span>,</span> src<span>:</span> <span>'https://my.openwrite.cn/js/readmore.js'</span> <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>然后在<code>.vuepress</code>自定义组件出<code>./vuepress/components/HideArticle.vue</code></p>
-<div><pre><code><span>&lt;</span>template<span>></span>
-  <span>&lt;</span>div<span>></span>
-
-  <span>&lt;</span><span>/</span>div<span>></span>
-<span>&lt;</span><span>/</span>template<span>></span>
-
-<span>&lt;</span>script<span>></span>
-
-  <span>export</span> <span>default</span> <span>{</span>
-    name<span>:</span> <span>'HideArticle'</span><span>,</span>
-    <span>data</span><span>(</span><span>)</span> <span>{</span>
-      <span>return</span> <span>{</span>
-
-      <span>}</span>
-    <span>}</span><span>,</span>
-
-    <span>mounted</span><span>(</span><span>)</span> <span>{</span>
-
-     <span>import</span><span>(</span><span>'../../public/js/btwplugin'</span><span>)</span>  <span>// 引入那段代码脚本,直接把那段代码写到这里不行?还真不行,依旧会报btw is not defined</span>
-     <span>// 或者使用require('../../public/js/btwplugin');当然最好是在上面定义,monted里面调用</span>
-
-    <span>}</span>
-  <span>}</span>
-<span>&lt;</span><span>/</span>script<span>></span>
-
-<span>&lt;</span>style lang<span>=</span><span>"scss"</span> scoped<span>></span>
-
-<span>&lt;</span><span>/</span>style<span>></span>
-
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br></div></div><p>然后在<code>md</code>文档中以组件的方式在文章末尾引入<code>&lt;HideArticle /&gt;</code>组件</p>
-<p>整个过程没有几行代码</p>
-<p>果然成功了...</p>
-<div><p>注意事项</p>
-<ol>
-<li><code>btwplugin.js</code>中的<code>btw</code>需要是个全局变量,去掉<code>const</code>,那直接<code>new BTWPlugin().init({})</code>不是更好么,还真不行,依旧会报<code>btw is not defined</code>尽管这个<code>bug</code>挺奇葩的</li>
-<li>在<code>btwplugin.js</code>这段代码中,需要使用<code>window.onload</code>包裹,等待所有页面加载完执行这段脚本,不能不包裹,而且也无法使用<code>$(function() {})或者$(document).ready(function() {})</code>,行不行,试一试就知道了的</li>
-<li>如果自定义的组件<code>HideArticle.vue</code>,外面多了一层文件夹例如:<code>./vuepress/components/global/HideArticle.vue</code>,在<code>md</code>引入组件时需要<code>&lt;global-HideArticle /&gt;</code>这种方式引入组件,否则依旧不会生效</li>
-<li>在<code>HideArticle.vue</code>组件内中的<code>monted</code>需要使用<code>import('相对路径')</code>相对路径的方式导入脚本,或者使用<code>require('相对路径')</code>的方式引入,这里用绝对路径不行,如下所示</li>
-</ol>
-<div><pre><code><span>const</span> btwPlugin <span>=</span> <span>require</span><span>(</span><span>'../../public/js/btwplugin'</span><span>)</span><span>;</span>
-<span>export</span> <span>default</span> <span>{</span>
-  name<span>:</span> <span>'HideArticle'</span><span>,</span>
-  <span>data</span><span>(</span><span>)</span> <span>{</span>
-    <span>return</span> <span>{</span><span>}</span><span>;</span>
-  <span>}</span><span>,</span>
-
-  <span>mounted</span><span>(</span><span>)</span> <span>{</span>
-    <span>btwPlugin</span><span>(</span><span>)</span><span>;</span> <span>// 直接调用</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></div>
-<p>以上就实现了单篇文章的隐藏,如下所示</p>
-<div>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/hideArticle.png" alt="#" loading="lazy"></p>
-</div>
-<p>那博客里有很多文章,每篇<code>md</code>文件末尾都引入该组件,挺麻烦的</p>
-<p>在<code>vuepress</code>中提供了全局注入组件,这里介绍两种方式全局注入组件的,一种是以插件的形式注入,另一种是在<code>enhanceApp.js</code>中全局注入</p>
-<h3 id="方式-1-以插件形式全局注入组件"> 方式 1-以插件形式全局注入组件</h3>
-<p>在<code>/.vuepress/</code>中的<code>config.js</code>配置插件中,以插件的方式全局引入的,具体插件的引入可以见文档<a href="https://www.vuepress.cn/plugin/using-a-plugin.html#%E4%BD%BF%E7%94%A8%E6%9D%A5%E8%87%AA%E4%BE%9D%E8%B5%96%E7%9A%84%E6%8F%92%E4%BB%B6" target="_blank" rel="noopener noreferrer">vuepress 使用插件</a></p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span>
-    <span>[</span>
-      <span>{</span>
-        name<span>:</span> <span>'page-plugin'</span><span>,</span>
-        globalUIComponents<span>:</span> <span>[</span><span>'global-HideArticle组件的名称'</span><span>]</span><span>,</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>通过上面的方式,就可以实现在博客中所有文章都实现隐藏了</p>
-<h3 id="方式-2-在-enhanceapp-js-中注入组件"> 方式 2-在 enhanceApp.js 中注入组件</h3>
-<p>在<code>vuepress</code>中的<code>enhanceApp.js</code>,这个文件是需要自己手动创建的,它可以对 <code>VuePress</code> 应用进行拓展配置,这个文件应当 <code>export default</code> 一个钩子函数，并接受一个包含了一些应用级别属性的对象作为参数</p>
-<p>你可以使用这个钩子来安装一些附加的 <code>Vue 插件</code>、<code>注册全局组件</code>，或者增加额外的路由钩子</p>
-<div><pre><code><span>import</span> ElementUI <span>from</span> <span>'element-ui'</span><span>;</span>
-
-<span>// 使用异步函数也是可以的</span>
-<span>export</span> <span>default</span> <span>(</span><span>{</span>
-  Vue<span>,</span> <span>// VuePress 正在使用的 Vue 构造函数</span>
-  options<span>,</span> <span>// 附加到根实例的一些选项</span>
-  router<span>,</span> <span>// 当前应用的路由实例</span>
-  siteData<span>,</span> <span>// 站点元数据</span>
-  isServer<span>,</span> <span>// 当前应用配置是处于 服务端渲染 或 客户端</span>
-<span>}</span><span>)</span> <span>=></span> <span>{</span>
-  <span>// ...做一些其他的应用级别的优化</span>
-  <span>// 全局注入组件</span>
-  Vue<span>.</span><span>use</span><span>(</span>ElementUI<span>)</span><span>;</span>
-  Vue<span>.</span><span>mixin</span><span>(</span><span>{</span>
-    <span>// 混合注入,加载全局文件</span>
-    <span>mounted</span><span>(</span><span>)</span> <span>{</span>
-      <span>import</span><span>(</span><span>'./public/js/btwplugin'</span><span>)</span><span>;</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>)</span><span>;</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div><p>你也可以通过跟上面一样,<code>require</code>的方式引入,在<code>monted</code>中调用,这里不再重复多余,这里借用了<code>Vue.mixin()</code>全局注册使用混入,<a href="https://cn.vuejs.org/v2/api/#Vue-mixin" target="_blank" rel="noopener noreferrer">Vue.mixin 的介绍</a></p>
-<p>如果你不使用<code>Vue.mixin</code>这种方式:编写了自定义组件,不是在插件中处理,直接将自定义组件引入到<code>enhanceApp.js</code>中也是可以的如下所示</p>
-<div><pre><code><span>import</span> HideArticle <span>from</span> <span>"./components/HideArticle.vue"</span> <span>// 引入自定义组件</span>
-<span>// 使用异步函数也是可以的</span>
-<span>export</span> <span>default</span> <span>(</span><span>{</span>
-  Vue<span>,</span> <span>// VuePress 正在使用的 Vue 构造函数</span>
-  options<span>,</span> <span>// 附加到根实例的一些选项</span>
-  router<span>,</span> <span>// 当前应用的路由实例</span>
-  siteData<span>,</span> <span>// 站点元数据</span>
-  isServer<span>,</span> <span>// 当前应用配置是处于 服务端渲染 或 客户端</span>
-<span>}</span><span>)</span> <span>=></span> <span>{</span>
-  <span>// ...做一些其他的应用级别的优化</span>
-  <span>// 全局注入组件</span>
-  Vue<span>.</span><span>use</span><span>(</span>HideArticle<span>)</span><span>;</span>    <span>// 在这里注入全局组件,同样也是可以的</span>
-
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>以上同样能够全局注入,实现全站文章的隐藏</p>
-<h2 id="怎么实现某单篇文章不隐藏"> 怎么实现某单篇文章不隐藏</h2>
-<p>其实上面第一种方式,实现单篇文章的隐藏,那实现指定某一篇文章的不隐藏,同样也很简单,只需要去除<code>id=&quot;container&quot;</code>这个属性就可以了的</p>
-<p>你可以在<code>md</code>下面直接写<code>js</code>,找那个最外层的元素,直接去掉<code>id</code>属性即可</p>
-<p>你也可以封装成一个组件,在全站中哪一篇不想要隐藏,直接调用该组件即可,这里就不重复了的,直接提供核心代码</p>
-<div><pre><code>window<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
-  <span>const</span> themeDefaultContent <span>=</span> <span>$</span><span>(</span>
-    <span>'#app > .theme-container>.page > .theme-default-content'</span>
-  <span>)</span><span>;</span>
-  themeDefaultContent<span>.</span><span>removeAttr</span><span>(</span><span>'id'</span><span>)</span><span>;</span> <span>// 移除掉id属性,就是这么简单,JQ牛逼~</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>上面的代码就是使用<code>jq</code>移除元素上的某个属性,就实现了文章的不隐藏</p>
-<h2 id="可能会遇到的问题"> 可能会遇到的问题</h2>
-<h3 id="本地运行没问题但打包不通过"> 本地运行没问题但打包不通过</h3>
-<p>本地<code>npm run dev</code>没有问题,但是构建打包出现<code>window is not defined</code>或者<code>document is not defined</code></p>
-<p>这是因为使用<code>vuepress</code>所生成的静态<code>HTML</code>时,都需要通过<code>Node.js</code>服务端渲染,而在服务端<code>Node.js</code>的坏境中是没有<code>document</code>以及<code>window</code>对象,这时候访问浏览器/DOM 中的 API,它就会报错</p>
-<p>如果你按照以上的步骤无论是通过<code>import</code>的方式还是通过<code>Vue.mixin</code>的方式,在打包过程中就不会此类问题</p>
-<p>之所以介绍两种方式,那是我踩坑之后,才发现的,本地运行好好的,一打包就出错.算是一个小坑,<a href="http://coder.itclan.cn" target="_blank" rel="noopener noreferrer">itclanCoder 博客</a>里使用的是<code>Vue.mixin()</code>这种方式全局注入组件实现全站文章隐藏的</p>
-<p>你也可以查看<a href="https://coder.itclan.cn//fontend/tools/pack-fail-window-problem" target="_blank" rel="noopener noreferrer">如何解决 vuepress 编译打包失败即 window/document is not defined 问题</a></p>
-<h3 id="二维码不显示问题"> 二维码不显示问题</h3>
-<p>当实现了文章的隐藏后,发现弹出框内的二维码不正常显示,这个时候,你需要查看<code>openWrite</code>博客设置的二维码是否正确的</p>
-<div><p>注意</p>
-<p>图片的链接:需要是<code>http://xxxxgg.jpg</code>网络地址,<code>jpg/png/..</code>图片后缀形式的,直接将图片转换成链接插入是不行的</p>
-</div>
-<p>你可以选择某一个图片存储服务器,只要能拿到图片地止就行,我使用的是又拍云的,当然它的免费的空间资源有限</p>
-<h2 id="额外拓展-不使用插件怎么实现文章部分隐藏"> 额外拓展-不使用插件怎么实现文章部分隐藏</h2>
-<p>通过这个<code>openWrite</code>插件,可以看得出,它只是给最外层添加了一个固定的高度,把超出部分给隐藏了的</p>
-<p>视觉上出现隐藏(css 实现的),通过浏览器审查元素就可以看得出,这并非真正的隐藏,对于前端同学,实现元素的隐藏并不陌生</p>
-<p>不用插件,没有后端服务,也同样可以做到导流到公众号,可以在公众号后台自动回复里添加设置一个固定的值</p>
-<p>在<code>vuepress</code>中同样编写全局组件的方式,获取最外层的元素,然后如同 openWrite 的,提交时,需要输入从公众号后台菜单栏拿到的固定的值,输入正确的值才能解锁文章</p>
-<p>甚至解锁体验还可以优化得更好,给一些用户提示之类的</p>
-<p>在前端代码中,给一个固定的值与用户输入的值做比较,就可以了的,可以把这个输入的值存入<code>sessionStorage</code>中的</p>
-<p>一样可以实现文章的全站部分隐藏,输入验证码解锁文章,只是这个操作有一定的局限,验证码就不能是动态了的</p>
-<p>虽然这种方式是不安全的,但依旧可以达到公众号引流的目的</p>
-<p>想必通过关注个公众号回复一个验证码,就能解锁文章,比自己查看源码的方式拿到验证码,要快得多吧</p>
-<p>对于不熟悉后台,仅仅就是为了实现导流这个目的,这种方式完全是可以实现的,而<code>openWrite</code>这种方式动态实现文章的解锁</p>
-<p>需要自己部署服务器,处理前端请求等一些问题.还得写后端代码,对于后端是一片沙漠的同学,是有一些复杂的.</p>
-<p>如果你不想用<code>openWrite</code>这种插件方式,可以自行一试的,但话说回来,既然有这么好的工具,那就用吧,虽然配置过程中难免会遇到一些坑,但总有人会给你填啊</p>
-<p>腾出这个精力,解决下个人问题,多陪陪女朋友,不是更好?哈哈哈哈....</p>
-<h2 id="结语"> 结语</h2>
-<p>至此,在<code>vuepress</code>中结合<code>openWrite</code>的博客导流工具到公众号,实现全栈文章部分隐藏,以及解锁文章就完美实现了的,实现起来非常简单粗暴</p>
-<p>当然我不知道其他类似用<code>vuepress</code>搭建的博客,实现文章的隐藏是怎么实现的,虽然这个很简单,但是在实现的过程或多或少,会踩到一些坑,如果熟悉<code>vue</code>相关技术栈的,解决也不难</p>
-<p>但基本上应该大同小异,都要先获取最外层元素,然后动态的添加 id 属性</p>
-<p>如果您在实现博客文章部分隐藏功能遇到问题,欢迎提出问题,下方留言,一起讨论</p>
-<h2 id="相关文档"> 相关文档</h2>
-<ul>
-<li><a href="https://my.openwrite.cn/" target="_blank" rel="noopener noreferrer">openWrite 博客导流工具</a></li>
-<li><a href="https://www.upyun.com/" target="_blank" rel="noopener noreferrer">又拍云图片存储</a></li>
-</ul>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/openwrite.png" type="image/png"/>
-    </item>
-    <item>
       <title>做网站怎么赚钱？</title>
       <link>https://codenoob.top/document/make-money.html</link>
       <guid isPermaLink="false">/document/make-money.html</guid>
@@ -4975,6 +4660,321 @@ DB_DATABASE=faka
 <p>关于<strong>网站怎么赚钱</strong>的方式本文介绍了这么多，希望大家都能够做一个能盈利的网站。</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/lian-meng-ying-xiao.png" type="image/png"/>
+    </item>
+    <item>
+      <title>OpenWrite给VuePress配置博客导流公众号插件</title>
+      <link>https://codenoob.top/document/openwrite-to-vuepress.html</link>
+      <guid isPermaLink="false">/document/openwrite-to-vuepress.html</guid>
+      <source url="https://codenoob.top/rss.xml">OpenWrite给VuePress配置博客导流公众号插件</source>
+      <description>如何用OpenWrite给VuePress配置博客导流公众号插件-公众号获取验证码阅读全文</description>
+      <category>文档</category>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="前言"> 前言</h2>
+<p>如今,打开一些网站,发现阅读文章前,先要关注公众号,获取验证码,才能解锁文章,这波操作虽然有点“<mark>流氓</mark>”,但是白嫖的适当付出一点也没有什么,毕竟写文章输出是真的费时间,尊重作者的劳动成果.况且赏杯咖啡,我觉得也是一种激励.</p>
+<p>不信,自己去践行下就知道了的</p>
+<p>在互联网时代,<strong>有流量</strong>,一切皆有可能,在如今竞争激烈的情况下,尽管<strong>微信公众号阅读量</strong>日渐下滑,但不得不承认,它仍然是一个非常强劲有生命力的产品,其价值重视程度不言而喻,凡是离用户有多近的东西都值得深耕细作</p>
+<p>现如今一些自媒体大佬,很多在公众号里赚了不少,论当今自媒体平台,公众号的<strong>商业价值</strong>是最大的,很少有听到抖音,快手等独立的个体融资的,但公众号就有,依靠它活得洒脱,而凭借它实现融资的还真不少. 自己不行,不代表别人也不行,贫穷会限制想象.</p>
+<p>今天跟大家分享一下在<code>vuepress</code>中怎么进行配置实现导流到公众号,实现自动增粉,让每一个阅读产生价值,与用户做朋友,从此在也不用互推了的,只需专心做好内容创作.</p>
+<p>至于<code>Hexo</code>,<code>wordpress</code>网上一搜也能搜到,<code>npm</code>仓库也有相对应的包,可自行查阅</p>
+<h2 id="视频链接"> 视频链接</h2>
+<p>如果您觉得读文章理解起来有些难度,希望以下视频能给你带来一些帮助</p>
+<ol>
+<li>
+<p><a href="https://www.zhihu.com/zvideo/1312527959053000704" target="_blank" rel="noopener noreferrer">视频讲解-vuepress 解锁文章-引流到公众号-添加博客导流工具引言(前)</a></p>
+</li>
+<li>
+<p><a href="https://www.zhihu.com/zvideo/1312526313929437184" target="_blank" rel="noopener noreferrer">视频讲解-vuepress 添加博客导流工具-添加博客设置(上)</a></p>
+</li>
+<li>
+<p><a href="https://www.zhihu.com/zvideo/1312526506603184128" target="_blank" rel="noopener noreferrer">视频讲解-vuepress 添加博客导流工具-实现单篇文章隐藏与整站文章隐藏(中)</a></p>
+</li>
+<li>
+<p><a href="https://www.zhihu.com/zvideo/1312526793459286016" target="_blank" rel="noopener noreferrer">视频讲解-vuepress 添加博客导流工具-可能会遇到的一些问题-结束(下)</a></p>
+</li>
+<li>
+<p><a href="https://space.bilibili.com/267957620" target="_blank" rel="noopener noreferrer">视频讲解-B 站 itclanCoder-Up 主-不定期更新获取新技能</a></p>
+</li>
+</ol>
+<h2 id="使用-openwrite-导流工具"> 使用 openWrite 导流工具</h2>
+<p>这里借用<a href="https://my.openwrite.cn/" target="_blank" rel="noopener noreferrer">openWrite 导流工具</a></p>
+<ol>
+<li>进入 openWrite 网站,找到导航菜单栏下的<strong>免费涨粉神器</strong>,添加博客列表</li>
+</ol>
+<p>输入博客信息以及微信公众号信息,保存即可</p>
+<p>如下所示:</p>
+<div>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/openwrite.png" alt="#" loading="lazy"></p>
+</div>
+<ol start="2">
+<li>返回博客列表中,点击使用</li>
+</ol>
+<div>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/useopenwrite.png" alt="#" loading="lazy"></p>
+</div>
+<ol start="3">
+<li>阅读使用文档</li>
+</ol>
+<p>这里就不搬运了的,直接读文档就好,下面的介绍才是重点</p>
+<div><p>注意</p>
+<p>文档中需要注意最后一句:</p>
+<p>其中<code>id</code>中设置的<code>container</code>需要用户根据文章页面中的文章容器来调整，或者直接将文章最外面的容器设置为该 id</p>
+<p>文档中的<code>readmore.js</code>用 <code>openWrite</code> 的链接也行,直接下载到本地,在头部全局方式引入也可以</p>
+</div>
+<h2 id="博客设置"> 博客设置</h2>
+<p>任选自己的一篇<code>md</code>文档,在文档末尾增加如下一段<code>js</code>代码</p>
+<p>不要问为什么能在<code>md</code>中还能写<code>js</code>,甚至写<code>Vue</code>,<code>React</code>都可以,因为<code>vuepress</code>牛逼~</p>
+<div><pre><code><span>&lt;</span>script src<span>=</span><span>"https://my.openwrite.cn/js/readmore.js"</span> type<span>=</span><span>"text/javascript"</span><span>></span><span>&lt;</span><span>/</span>script<span>></span>
+<span>&lt;</span>script<span>></span>
+    <span>const</span> btw <span>=</span> <span>new</span> <span>BTWPlugin</span><span>(</span><span>)</span><span>;</span>  <span>// 实例化btw插件对象</span>
+    btw<span>.</span><span>init</span><span>(</span><span>{</span>                    <span>// 初始化设置,接收一些参数</span>
+        <span>id</span><span>:</span> <span>'container'</span><span>,</span>          <span>// 文章最外层的id</span>
+        <span>blogId</span><span>:</span> <span>'xxxx你自己的博客ID'</span><span>,</span> <span>// 博客网站的id,openWrite会自动生成</span>
+        <span>name</span><span>:</span> <span>'itclanCoder'</span><span>,</span>         <span>// 博客的名称</span>
+        <span>qrcode</span><span>:</span> <span>'你自己的公众号二维码xxx.jpg'</span><span>,</span> <span>// 二维码</span>
+        <span>keyword</span><span>:</span> <span>'验证码'</span><span>,</span>                    <span>// 设置的解锁关键字</span>
+    <span>}</span><span>)</span><span>;</span>
+<span>&lt;</span><span>/</span>script<span>></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><p>当你插入这段代码后,发现控制台报错了</p>
+<div><pre><code><span>ReferenceError</span><span>:</span> BTWPlugin is not defined
+</code></pre>
+<div><span>1</span><br></div></div><p><strong>解决办法</strong>:你需要在外面用<code>window.onload</code>包裹起来,必须等待 <code>DOM</code> 网页中所有内容加载完毕后执行这段代码,用<code>$(funciton() {})</code>或<code>$(document).ready(function(){})</code>是不行的</p>
+<p>前者是等网页中的所有 <code>DOM</code> 包扩图片加载完毕后执行,而后者是所有 <code>DOM</code> 结构绘制完毕后,边加载边执行,可能 <code>DOM</code> 元素关联的东西并没有加载完</p>
+<div><pre><code>window<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
+  <span>const</span> btw <span>=</span> <span>new</span> <span>BTWPlugin</span><span>(</span><span>)</span><span>;</span>
+  btw<span>.</span><span>init</span><span>(</span><span>{</span>
+    <span>id</span><span>:</span> <span>'container'</span><span>,</span>
+    <span>blogId</span><span>:</span> <span>'xxxx你自己的博客ID'</span><span>,</span>
+    <span>name</span><span>:</span> <span>'itclanCoder'</span><span>,</span>
+    <span>qrcode</span><span>:</span> <span>'你自己的公众号二维码xxx.jpg'</span><span>,</span>
+    <span>keyword</span><span>:</span> <span>'验证码'</span><span>,</span>
+  <span>}</span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>解决完报错后,文章依旧没有隐藏起来,根据 openWrite 文章中最后一句设置文章容器的<code>id</code>属性<code>container</code></p>
+<p>现在就是要给文章容器添加 id 属性了,可以用原生 <code>js</code>,也可以使用 <code>JQ</code>动态的添加属性</p>
+<div><p>提示</p>
+<p>直接在<code>md</code>中用<code>div</code>将想要隐藏的部分包裹起来,并在<code>div</code>上添加<code>id=&quot;container&quot;</code>难道不行么</p>
+<p>这种方式我有试过,但不靠谱,实现不了😂,即使能实现,每篇文章都要手动的添加 id,那不是一个懒的程序员应该做的事情</p>
+</div>
+<p>可以在控制台中审查元素,找到文章最外层的那个容器,实在不知道,你找个已经实现了解锁文章的博客作为参照:例如<a href="http://coder.itclan.cn/" target="_blank" rel="noopener noreferrer">itclanCoder 网站</a></p>
+<p>没有添加解锁文章的博客,是没有那个<code>id=&quot;container&quot;</code>属性的</p>
+<p>下面我使用 jQ 查找元素,给页面最外层的容器添加 <code>id</code> 属性,为啥不用原生 <code>js</code>,因为 <code>jQ</code> 写得更少,做得更多哈💯</p>
+<p>此刻,不要动不动满口的<code>vue</code>,<code>React</code>,<code>Angular</code>...JQ 真香,小弟还停留在 JQ 时代🤣,其实 JQ 也很牛逼的,也没有它实现不了的,只是现在,有负往日盛景,风水轮流转嘛</p>
+<div><pre><code>window<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
+  themeDefaultContent <span>=</span> <span>$</span><span>(</span>
+    <span>'#app > .theme-container>.page > .theme-default-content'</span> <span>// 获取最外层的元素</span>
+  <span>)</span><span>;</span>
+
+  themeDefaultContent<span>.</span><span>attr</span><span>(</span><span>'id'</span><span>,</span> <span>'container'</span><span>)</span><span>;</span> <span>// 设置id属性,就是这么牛逼,搞定</span>
+  <span>const</span> btw <span>=</span> <span>new</span> <span>BTWPlugin</span><span>(</span><span>)</span><span>;</span>
+  btw<span>.</span><span>init</span><span>(</span><span>{</span>
+    <span>id</span><span>:</span> <span>'container'</span><span>,</span> <span>// 这个id后面的值与上面的设置id属性保持一致就行,不一定非地是container</span>
+    <span>blogId</span><span>:</span> <span>'xxxx你自己的博客ID'</span><span>,</span>
+    <span>name</span><span>:</span> <span>'itclanCoder'</span><span>,</span>
+    <span>qrcode</span><span>:</span> <span>'你自己的公众号二维码xxx.jpg'</span><span>,</span>
+    <span>keyword</span><span>:</span> <span>'验证码'</span><span>,</span>
+  <span>}</span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><p>但经自己测试,发现无论是使用 vue 的写法,将上面的代码放到 <code>monted</code> 中,或使用<code>this.$nextTick</code>,发现不是报<code>btw is not defined</code>就是<code>BTWPlugin is not defined</code></p>
+<p>但是页面中的<code>id=&quot;container&quot;</code>确实已经加上去了的,但就是隐藏不了文章,经过排查,查看了一下<code>readmore.js</code>源码,里面使用了<code>document.querySelectorAll</code>以及<code>window</code>等一些方法,当然里面也用了<code>jQ</code>,估计是这个脚本加载顺序有问题</p>
+<p>如果有知道怎么解决的同学,可以告知一下,显然按照文档中的直接在文章底下写那段代码是实现不了文章隐藏的功能的</p>
+<p><strong>解决办法</strong>:把上面的代码单独成一个<code>js</code>,放到<code>.vuepress</code>中公共 js 目录下,<code>/.vuepress/public/js/btwplugin.js</code></p>
+<div><pre><code>window<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
+  themeDefaultContent <span>=</span> <span>$</span><span>(</span>
+    <span>'#app > .theme-container>.page > .theme-default-content'</span>
+  <span>)</span><span>;</span>
+
+  themeDefaultContent<span>.</span><span>attr</span><span>(</span><span>'id'</span><span>,</span> <span>'container'</span><span>)</span><span>;</span>
+  btw <span>=</span> <span>new</span> <span>BTWPlugin</span><span>(</span><span>)</span><span>;</span> <span>// 注意btw需要是个全局变量,把const去掉</span>
+  btw<span>.</span><span>init</span><span>(</span><span>{</span>
+    <span>id</span><span>:</span> <span>'container'</span><span>,</span>
+    <span>blogId</span><span>:</span> <span>'xxxx你自己的博客ID'</span><span>,</span>
+    <span>name</span><span>:</span> <span>'itclanCoder'</span><span>,</span>
+    <span>qrcode</span><span>:</span> <span>'你自己的公众号二维码xxx.jpg'</span><span>,</span>
+    <span>keyword</span><span>:</span> <span>'验证码'</span><span>,</span>
+  <span>}</span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><p>而把<code>readmore.js</code>
+添加到头部<code>head</code>中,以<code>script</code>方式全局注入</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  <span>head</span><span>:</span> <span>[</span>
+    <span>[</span>
+      <span>'script'</span><span>,</span>
+      <span>{</span> <span>charset</span><span>:</span> <span>'utf-8'</span><span>,</span> <span>src</span><span>:</span> <span>'https://my.openwrite.cn/js/readmore.js'</span> <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>然后在<code>.vuepress</code>自定义组件出<code>./vuepress/components/HideArticle.vue</code></p>
+<div><pre><code><span>&lt;</span>template<span>></span>
+  <span>&lt;</span>div<span>></span>
+
+  <span>&lt;</span><span>/</span>div<span>></span>
+<span>&lt;</span><span>/</span>template<span>></span>
+
+<span>&lt;</span>script<span>></span>
+
+  <span>export</span> <span>default</span> <span>{</span>
+    <span>name</span><span>:</span> <span>'HideArticle'</span><span>,</span>
+    <span>data</span><span>(</span><span>)</span> <span>{</span>
+      <span>return</span> <span>{</span>
+
+      <span>}</span>
+    <span>}</span><span>,</span>
+
+    <span>mounted</span><span>(</span><span>)</span> <span>{</span>
+
+     <span>import</span><span>(</span><span>'../../public/js/btwplugin'</span><span>)</span>  <span>// 引入那段代码脚本,直接把那段代码写到这里不行?还真不行,依旧会报btw is not defined</span>
+     <span>// 或者使用require('../../public/js/btwplugin');当然最好是在上面定义,monted里面调用</span>
+
+    <span>}</span>
+  <span>}</span>
+<span>&lt;</span><span>/</span>script<span>></span>
+
+<span>&lt;</span>style lang<span>=</span><span>"scss"</span> scoped<span>></span>
+
+<span>&lt;</span><span>/</span>style<span>></span>
+
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br></div></div><p>然后在<code>md</code>文档中以组件的方式在文章末尾引入<code>&lt;HideArticle /&gt;</code>组件</p>
+<p>整个过程没有几行代码</p>
+<p>果然成功了...</p>
+<div><p>注意事项</p>
+<ol>
+<li><code>btwplugin.js</code>中的<code>btw</code>需要是个全局变量,去掉<code>const</code>,那直接<code>new BTWPlugin().init({})</code>不是更好么,还真不行,依旧会报<code>btw is not defined</code>尽管这个<code>bug</code>挺奇葩的</li>
+<li>在<code>btwplugin.js</code>这段代码中,需要使用<code>window.onload</code>包裹,等待所有页面加载完执行这段脚本,不能不包裹,而且也无法使用<code>$(function() {})或者$(document).ready(function() {})</code>,行不行,试一试就知道了的</li>
+<li>如果自定义的组件<code>HideArticle.vue</code>,外面多了一层文件夹例如:<code>./vuepress/components/global/HideArticle.vue</code>,在<code>md</code>引入组件时需要<code>&lt;global-HideArticle /&gt;</code>这种方式引入组件,否则依旧不会生效</li>
+<li>在<code>HideArticle.vue</code>组件内中的<code>monted</code>需要使用<code>import('相对路径')</code>相对路径的方式导入脚本,或者使用<code>require('相对路径')</code>的方式引入,这里用绝对路径不行,如下所示</li>
+</ol>
+<div><pre><code><span>const</span> btwPlugin <span>=</span> <span>require</span><span>(</span><span>'../../public/js/btwplugin'</span><span>)</span><span>;</span>
+<span>export</span> <span>default</span> <span>{</span>
+  <span>name</span><span>:</span> <span>'HideArticle'</span><span>,</span>
+  <span>data</span><span>(</span><span>)</span> <span>{</span>
+    <span>return</span> <span>{</span><span>}</span><span>;</span>
+  <span>}</span><span>,</span>
+
+  <span>mounted</span><span>(</span><span>)</span> <span>{</span>
+    <span>btwPlugin</span><span>(</span><span>)</span><span>;</span> <span>// 直接调用</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></div>
+<p>以上就实现了单篇文章的隐藏,如下所示</p>
+<div>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/hideArticle.png" alt="#" loading="lazy"></p>
+</div>
+<p>那博客里有很多文章,每篇<code>md</code>文件末尾都引入该组件,挺麻烦的</p>
+<p>在<code>vuepress</code>中提供了全局注入组件,这里介绍两种方式全局注入组件的,一种是以插件的形式注入,另一种是在<code>enhanceApp.js</code>中全局注入</p>
+<h3 id="方式-1-以插件形式全局注入组件"> 方式 1-以插件形式全局注入组件</h3>
+<p>在<code>/.vuepress/</code>中的<code>config.js</code>配置插件中,以插件的方式全局引入的,具体插件的引入可以见文档<a href="https://www.vuepress.cn/plugin/using-a-plugin.html#%E4%BD%BF%E7%94%A8%E6%9D%A5%E8%87%AA%E4%BE%9D%E8%B5%96%E7%9A%84%E6%8F%92%E4%BB%B6" target="_blank" rel="noopener noreferrer">vuepress 使用插件</a></p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  <span>plugins</span><span>:</span> <span>[</span>
+    <span>[</span>
+      <span>{</span>
+        <span>name</span><span>:</span> <span>'page-plugin'</span><span>,</span>
+        <span>globalUIComponents</span><span>:</span> <span>[</span><span>'global-HideArticle组件的名称'</span><span>]</span><span>,</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>通过上面的方式,就可以实现在博客中所有文章都实现隐藏了</p>
+<h3 id="方式-2-在-enhanceapp-js-中注入组件"> 方式 2-在 enhanceApp.js 中注入组件</h3>
+<p>在<code>vuepress</code>中的<code>enhanceApp.js</code>,这个文件是需要自己手动创建的,它可以对 <code>VuePress</code> 应用进行拓展配置,这个文件应当 <code>export default</code> 一个钩子函数，并接受一个包含了一些应用级别属性的对象作为参数</p>
+<p>你可以使用这个钩子来安装一些附加的 <code>Vue 插件</code>、<code>注册全局组件</code>，或者增加额外的路由钩子</p>
+<div><pre><code><span>import</span> ElementUI <span>from</span> <span>'element-ui'</span><span>;</span>
+
+<span>// 使用异步函数也是可以的</span>
+<span>export</span> <span>default</span> <span>(</span><span>{</span>
+  Vue<span>,</span> <span>// VuePress 正在使用的 Vue 构造函数</span>
+  options<span>,</span> <span>// 附加到根实例的一些选项</span>
+  router<span>,</span> <span>// 当前应用的路由实例</span>
+  siteData<span>,</span> <span>// 站点元数据</span>
+  isServer<span>,</span> <span>// 当前应用配置是处于 服务端渲染 或 客户端</span>
+<span>}</span><span>)</span> <span>=></span> <span>{</span>
+  <span>// ...做一些其他的应用级别的优化</span>
+  <span>// 全局注入组件</span>
+  Vue<span>.</span><span>use</span><span>(</span>ElementUI<span>)</span><span>;</span>
+  Vue<span>.</span><span>mixin</span><span>(</span><span>{</span>
+    <span>// 混合注入,加载全局文件</span>
+    <span>mounted</span><span>(</span><span>)</span> <span>{</span>
+      <span>import</span><span>(</span><span>'./public/js/btwplugin'</span><span>)</span><span>;</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div><p>你也可以通过跟上面一样,<code>require</code>的方式引入,在<code>monted</code>中调用,这里不再重复多余,这里借用了<code>Vue.mixin()</code>全局注册使用混入,<a href="https://cn.vuejs.org/v2/api/#Vue-mixin" target="_blank" rel="noopener noreferrer">Vue.mixin 的介绍</a></p>
+<p>如果你不使用<code>Vue.mixin</code>这种方式:编写了自定义组件,不是在插件中处理,直接将自定义组件引入到<code>enhanceApp.js</code>中也是可以的如下所示</p>
+<div><pre><code><span>import</span> HideArticle <span>from</span> <span>"./components/HideArticle.vue"</span> <span>// 引入自定义组件</span>
+<span>// 使用异步函数也是可以的</span>
+<span>export</span> <span>default</span> <span>(</span><span>{</span>
+  Vue<span>,</span> <span>// VuePress 正在使用的 Vue 构造函数</span>
+  options<span>,</span> <span>// 附加到根实例的一些选项</span>
+  router<span>,</span> <span>// 当前应用的路由实例</span>
+  siteData<span>,</span> <span>// 站点元数据</span>
+  isServer<span>,</span> <span>// 当前应用配置是处于 服务端渲染 或 客户端</span>
+<span>}</span><span>)</span> <span>=></span> <span>{</span>
+  <span>// ...做一些其他的应用级别的优化</span>
+  <span>// 全局注入组件</span>
+  Vue<span>.</span><span>use</span><span>(</span>HideArticle<span>)</span><span>;</span>    <span>// 在这里注入全局组件,同样也是可以的</span>
+
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>以上同样能够全局注入,实现全站文章的隐藏</p>
+<h2 id="怎么实现某单篇文章不隐藏"> 怎么实现某单篇文章不隐藏</h2>
+<p>其实上面第一种方式,实现单篇文章的隐藏,那实现指定某一篇文章的不隐藏,同样也很简单,只需要去除<code>id=&quot;container&quot;</code>这个属性就可以了的</p>
+<p>你可以在<code>md</code>下面直接写<code>js</code>,找那个最外层的元素,直接去掉<code>id</code>属性即可</p>
+<p>你也可以封装成一个组件,在全站中哪一篇不想要隐藏,直接调用该组件即可,这里就不重复了的,直接提供核心代码</p>
+<div><pre><code>window<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
+  <span>const</span> themeDefaultContent <span>=</span> <span>$</span><span>(</span>
+    <span>'#app > .theme-container>.page > .theme-default-content'</span>
+  <span>)</span><span>;</span>
+  themeDefaultContent<span>.</span><span>removeAttr</span><span>(</span><span>'id'</span><span>)</span><span>;</span> <span>// 移除掉id属性,就是这么简单,JQ牛逼~</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>上面的代码就是使用<code>jq</code>移除元素上的某个属性,就实现了文章的不隐藏</p>
+<h2 id="可能会遇到的问题"> 可能会遇到的问题</h2>
+<h3 id="本地运行没问题但打包不通过"> 本地运行没问题但打包不通过</h3>
+<p>本地<code>npm run dev</code>没有问题,但是构建打包出现<code>window is not defined</code>或者<code>document is not defined</code></p>
+<p>这是因为使用<code>vuepress</code>所生成的静态<code>HTML</code>时,都需要通过<code>Node.js</code>服务端渲染,而在服务端<code>Node.js</code>的坏境中是没有<code>document</code>以及<code>window</code>对象,这时候访问浏览器/DOM 中的 API,它就会报错</p>
+<p>如果你按照以上的步骤无论是通过<code>import</code>的方式还是通过<code>Vue.mixin</code>的方式,在打包过程中就不会此类问题</p>
+<p>之所以介绍两种方式,那是我踩坑之后,才发现的,本地运行好好的,一打包就出错.算是一个小坑,<a href="http://coder.itclan.cn" target="_blank" rel="noopener noreferrer">itclanCoder 博客</a>里使用的是<code>Vue.mixin()</code>这种方式全局注入组件实现全站文章隐藏的</p>
+<p>你也可以查看<a href="https://coder.itclan.cn//fontend/tools/pack-fail-window-problem" target="_blank" rel="noopener noreferrer">如何解决 vuepress 编译打包失败即 window/document is not defined 问题</a></p>
+<h3 id="二维码不显示问题"> 二维码不显示问题</h3>
+<p>当实现了文章的隐藏后,发现弹出框内的二维码不正常显示,这个时候,你需要查看<code>openWrite</code>博客设置的二维码是否正确的</p>
+<div><p>注意</p>
+<p>图片的链接:需要是<code>http://xxxxgg.jpg</code>网络地址,<code>jpg/png/..</code>图片后缀形式的,直接将图片转换成链接插入是不行的</p>
+</div>
+<p>你可以选择某一个图片存储服务器,只要能拿到图片地止就行,我使用的是又拍云的,当然它的免费的空间资源有限</p>
+<h2 id="额外拓展-不使用插件怎么实现文章部分隐藏"> 额外拓展-不使用插件怎么实现文章部分隐藏</h2>
+<p>通过这个<code>openWrite</code>插件,可以看得出,它只是给最外层添加了一个固定的高度,把超出部分给隐藏了的</p>
+<p>视觉上出现隐藏(css 实现的),通过浏览器审查元素就可以看得出,这并非真正的隐藏,对于前端同学,实现元素的隐藏并不陌生</p>
+<p>不用插件,没有后端服务,也同样可以做到导流到公众号,可以在公众号后台自动回复里添加设置一个固定的值</p>
+<p>在<code>vuepress</code>中同样编写全局组件的方式,获取最外层的元素,然后如同 openWrite 的,提交时,需要输入从公众号后台菜单栏拿到的固定的值,输入正确的值才能解锁文章</p>
+<p>甚至解锁体验还可以优化得更好,给一些用户提示之类的</p>
+<p>在前端代码中,给一个固定的值与用户输入的值做比较,就可以了的,可以把这个输入的值存入<code>sessionStorage</code>中的</p>
+<p>一样可以实现文章的全站部分隐藏,输入验证码解锁文章,只是这个操作有一定的局限,验证码就不能是动态了的</p>
+<p>虽然这种方式是不安全的,但依旧可以达到公众号引流的目的</p>
+<p>想必通过关注个公众号回复一个验证码,就能解锁文章,比自己查看源码的方式拿到验证码,要快得多吧</p>
+<p>对于不熟悉后台,仅仅就是为了实现导流这个目的,这种方式完全是可以实现的,而<code>openWrite</code>这种方式动态实现文章的解锁</p>
+<p>需要自己部署服务器,处理前端请求等一些问题.还得写后端代码,对于后端是一片沙漠的同学,是有一些复杂的.</p>
+<p>如果你不想用<code>openWrite</code>这种插件方式,可以自行一试的,但话说回来,既然有这么好的工具,那就用吧,虽然配置过程中难免会遇到一些坑,但总有人会给你填啊</p>
+<p>腾出这个精力,解决下个人问题,多陪陪女朋友,不是更好?哈哈哈哈....</p>
+<h2 id="结语"> 结语</h2>
+<p>至此,在<code>vuepress</code>中结合<code>openWrite</code>的博客导流工具到公众号,实现全栈文章部分隐藏,以及解锁文章就完美实现了的,实现起来非常简单粗暴</p>
+<p>当然我不知道其他类似用<code>vuepress</code>搭建的博客,实现文章的隐藏是怎么实现的,虽然这个很简单,但是在实现的过程或多或少,会踩到一些坑,如果熟悉<code>vue</code>相关技术栈的,解决也不难</p>
+<p>但基本上应该大同小异,都要先获取最外层元素,然后动态的添加 id 属性</p>
+<p>如果您在实现博客文章部分隐藏功能遇到问题,欢迎提出问题,下方留言,一起讨论</p>
+<h2 id="相关文档"> 相关文档</h2>
+<ul>
+<li><a href="https://my.openwrite.cn/" target="_blank" rel="noopener noreferrer">openWrite 博客导流工具</a></li>
+<li><a href="https://www.upyun.com/" target="_blank" rel="noopener noreferrer">又拍云图片存储</a></li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/openwrite.png" type="image/png"/>
     </item>
     <item>
       <title>文档</title>
@@ -6764,7 +6764,7 @@ git config credential.helper &quot;$helper $options&quot;
 <h2 id="教程开始"> 教程开始</h2>
 <h3 id="去宝塔面板软件商店里安装docker管理器"> 去宝塔面板软件商店里安装Docker管理器</h3>
 <p>默认不出问题安装完成后直接就正常运行。如果运行状态 未运行的话可以使用<code>SSH</code>执行命令</p>
-<div><pre><code><span>sudo</span> systemctl restart docker
+<div><pre><code><span>sudo</span> systemctl restart <span>docker</span>
 </code></pre>
 <div><span>1</span><br></div></div><p>然后在镜像管理- 获取镜像  输入名称: <code>wiznote/wizserver</code> 获取官方镜像</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/20200903-cdfc95cfd4c1c.png-img" alt="插图" loading="lazy"></p>
@@ -6885,13 +6885,13 @@ function add_my_media_button() {
     <span>var</span> formData<span>=</span><span>new</span> <span>FormData</span><span>(</span><span>)</span><span>;</span>
     formData<span>.</span><span>append</span><span>(</span><span>'source'</span><span>,</span>f<span>)</span><span>;</span>
     jQuery<span>.</span><span>ajax</span><span>(</span><span>{</span>
-        async<span>:</span><span>true</span><span>,</span>
-        crossDomain<span>:</span><span>true</span><span>,</span>
-        url<span>:</span><span>'https://<span><span>&lt;?php</span> <span>echo</span> <span>$DOMAIN</span><span>;</span> <span>?></span></span>/api/1/upload/?key=<span><span>&lt;?php</span> <span>echo</span> <span>$APIkey</span><span>;</span> <span>?></span></span>&amp;format=json'</span><span>,</span>
-        type <span>:</span> <span>'POST'</span><span>,</span>
-        processData <span>:</span> <span>false</span><span>,</span>
-        contentType <span>:</span> <span>false</span><span>,</span>
-        data<span>:</span>formData<span>,</span>
+        <span>async</span><span>:</span><span>true</span><span>,</span>
+        <span>crossDomain</span><span>:</span><span>true</span><span>,</span>
+        <span>url</span><span>:</span><span>'https://<span><span>&lt;?php</span> <span>echo</span> <span>$DOMAIN</span><span>;</span> <span>?></span></span>/api/1/upload/?key=<span><span>&lt;?php</span> <span>echo</span> <span>$APIkey</span><span>;</span> <span>?></span></span>&amp;format=json'</span><span>,</span>
+        <span>type</span> <span>:</span> <span>'POST'</span><span>,</span>
+        <span>processData</span> <span>:</span> <span>false</span><span>,</span>
+        <span>contentType</span> <span>:</span> <span>false</span><span>,</span>
+        <span>data</span><span>:</span>formData<span>,</span>
         <span>beforeSend</span><span>:</span> <span>function</span> <span>(</span><span>xhr</span><span>)</span> <span>{</span>
             <span>jQuery</span><span>(</span><span>'#up_img_label'</span><span>)</span><span>.</span><span>html</span><span>(</span><span>'&lt;i aria-hidden="true">&lt;/i> Uploading...'</span><span>)</span><span>;</span>
         <span>}</span><span>,</span>
@@ -6997,13 +6997,13 @@ function add_my_media_button() {
     <span>var</span> formData<span>=</span><span>new</span> <span>FormData</span><span>(</span><span>)</span><span>;</span>
     formData<span>.</span><span>append</span><span>(</span><span>'chevereto_img_file'</span><span>,</span>f<span>)</span><span>;</span>
     jQuery<span>.</span><span>ajax</span><span>(</span><span>{</span>
-        async<span>:</span><span>true</span><span>,</span>
-        crossDomain<span>:</span><span>true</span><span>,</span>
-        url<span>:</span><span>'<span><span>&lt;?php</span> <span>echo</span> <span>rest_url</span><span>(</span><span>"chevereto/v1/image/upload"</span><span>)</span> <span>.</span><span>"?_wpnonce="</span><span>.</span> <span>wp_create_nonce</span><span>(</span><span>"wp_rest"</span><span>)</span><span>;</span> <span>?></span></span>'</span><span>,</span>
-        type <span>:</span> <span>'POST'</span><span>,</span>
-        processData <span>:</span> <span>false</span><span>,</span>
-        contentType <span>:</span> <span>false</span><span>,</span>
-        data<span>:</span>formData<span>,</span>
+        <span>async</span><span>:</span><span>true</span><span>,</span>
+        <span>crossDomain</span><span>:</span><span>true</span><span>,</span>
+        <span>url</span><span>:</span><span>'<span><span>&lt;?php</span> <span>echo</span> <span>rest_url</span><span>(</span><span>"chevereto/v1/image/upload"</span><span>)</span> <span>.</span><span>"?_wpnonce="</span><span>.</span> <span>wp_create_nonce</span><span>(</span><span>"wp_rest"</span><span>)</span><span>;</span> <span>?></span></span>'</span><span>,</span>
+        <span>type</span> <span>:</span> <span>'POST'</span><span>,</span>
+        <span>processData</span> <span>:</span> <span>false</span><span>,</span>
+        <span>contentType</span> <span>:</span> <span>false</span><span>,</span>
+        <span>data</span><span>:</span>formData<span>,</span>
         <span>beforeSend</span><span>:</span> <span>function</span> <span>(</span><span>)</span> <span>{</span>
             <span>jQuery</span><span>(</span><span>'#up_img_label'</span><span>)</span><span>.</span><span>html</span><span>(</span><span>'&lt;i aria-hidden="true">&lt;/i> Uploading...'</span><span>)</span><span>;</span>
         <span>}</span><span>,</span>
@@ -8089,7 +8089,7 @@ $$
 <span><span>export</span> <span>default</span> <span>class</span> <span>App</span> <span>extends</span> <span>React<span>.</span>Component</span> <span>{</span>
   <span>constructor</span><span>(</span><span>props</span><span>)</span> <span>{</span>
     <span>super</span><span>(</span>props<span>)</span><span>;</span>
-    <span>this</span><span>.</span>state <span>=</span> <span>{</span> message<span>:</span> <span>"十分帅"</span> <span>}</span><span>;</span>
+    <span>this</span><span>.</span>state <span>=</span> <span>{</span> <span>message</span><span>:</span> <span>"十分帅"</span> <span>}</span><span>;</span>
   <span>}</span>
   <span>render</span><span>(</span><span>)</span> <span>{</span>
     <span>return</span> <span>(</span>
@@ -8456,6 +8456,18 @@ npm init vuepress-theme-hope docs
 ]]></content:encoded>
     </item>
     <item>
+      <title>欢迎大家在下方留言</title>
+      <link>https://codenoob.top/message.html</link>
+      <guid isPermaLink="false">/message.html</guid>
+      <source url="https://codenoob.top/rss.xml">欢迎大家在下方留言</source>
+      <description>想吐嘈的啥，快留下你的槽点！</description>
+      <pubDate>Thu, 18 Nov 2021 06:47:23 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="想吐嘈的啥-快留下你的槽点"> 想吐嘈的啥，快留下你的槽点</h2>
+<p>可以的话，可以互相交换<a href="/friends.html">友链</a>吗QAQ~</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>基于逆向工程和3D打印的头盔创新设计</title>
       <link>https://codenoob.top/projects/PapertTranslation.html</link>
       <guid isPermaLink="false">/projects/PapertTranslation.html</guid>
@@ -8670,18 +8682,6 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/图片1.png" type="image/png"/>
     </item>
     <item>
-      <title>欢迎大家在下方留言</title>
-      <link>https://codenoob.top/message.html</link>
-      <guid isPermaLink="false">/message.html</guid>
-      <source url="https://codenoob.top/rss.xml">欢迎大家在下方留言</source>
-      <description>想吐嘈的啥，快留下你的槽点！</description>
-      <pubDate>Thu, 18 Nov 2021 06:47:23 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="想吐嘈的啥-快留下你的槽点"> 想吐嘈的啥，快留下你的槽点</h2>
-<p>可以的话，可以互相交换<a href="/friends.html">友链</a>吗QAQ~</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>个人项目列表</title>
       <link>https://codenoob.top/projects/</link>
       <guid isPermaLink="false">/projects/</guid>
@@ -8761,7 +8761,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
       <content:encoded><![CDATA[<br>
 <h2 id="data前缀"> /data前缀</h2>
 <p>默认情况下，所有持久数据都保存在 <code>/data</code> 下，您可以通过设置 <code>DATA_FOLDER</code> 环境变量来覆盖此路径：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
   -e <span>DATA_FOLDER</span><span>=</span>/persistent <span>\</span>
   -v /vw-data/:/persistent/ <span>\</span>
   -p <span>80</span>:80 <span>\</span>
@@ -8770,7 +8770,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，您需要相应地调整卷安装。</p>
 <h2 id="数据库名称和位置"> 数据库名称和位置</h2>
 <p>默认为<code>$DATA_FOLDER/db.sqlite3</code>，你可以使用<code>DATABASE_URL</code>变量来更改专门针对数据库的路径：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
   -e <span>DATABASE_URL</span><span>=</span>/database/vaultwarden.sqlite3 <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -v /vw-database/:/database/ <span>\</span>
@@ -8780,7 +8780,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>请注意，如果数据库和其他持久数据不同，您需要记住为它们安装卷。</p>
 <h2 id="附件位置"> 附件位置</h2>
 <p>默认为 <code>$DATA_FOLDER/attachments</code>，您可以使用 <code>ATTACHMENTS_FOLDER</code> 变量更改路径：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
   -e <span>ATTACHMENTS_FOLDER</span><span>=</span>/attachments <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -v /vw-attachments/:/attachments/ <span>\</span>
@@ -8790,7 +8790,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>请注意，您需要记住为附件和其他持久数据安装卷(如果它们不同)。</p>
 <h2 id="图标缓存"> 图标缓存</h2>
 <p>默认为 <code>$DATA_FOLDER/icon_cache</code>，您可以使用 <code>ICON_CACHE_FOLDER</code> 变量更改路径：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
   -e <span>ICON_CACHE_FOLDER</span><span>=</span>/icon_cache <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -v /icon_cache/ <span>\</span>
@@ -8799,24 +8799,6 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>请注意，在上面的示例中，我们没有在本地挂载卷，这意味着它不会在升级过程中持久化，除非您使用 --volumes-from 使用中间数据容器。这将影响性能，因为 Vaultwarden 将不得不在重新启动时重新下载图标，但可能会使您避免缓存中的陈旧图标，因为它们不会自动清除。</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>改变Worker数量</title>
-      <link>https://codenoob.top/projects/vaultwarden/Configuration/Changing-the-number-of-workers.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Changing-the-number-of-workers.html</guid>
-      <source url="https://codenoob.top/rss.xml">改变Worker数量</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>当你运行 vaultwarden 时，它会产生 <code>2 * &lt;cpu核数&gt;</code> workers 来处理请求。在某些系统上，这可能会导致 worker 数量减少，从而导致性能下降，因此 docker 映像中的默认值更改为产生 10 个线程。您可以通过设置<code>ROCKET_WORKERS</code>变量来覆盖此设置以增加或减少workers的数量。</p>
-<p>在下面的例子中，我们从 20 个 workers 开始：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
-  -e <span>ROCKET_WORKERS</span><span>=</span><span>20</span> <span>\</span>
-  -v /vw-data/:/data/ <span>\</span>
-  -p <span>80</span>:80 <span>\</span>
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>更改API请求大小限制</title>
@@ -8828,8 +8810,26 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
       <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>默认情况下，API 调用限制为 10MB。对于大多数情况，这应该足够了，但是如果您想支持大型导入，这可能会限制您。另一方面，您可能希望将请求大小限制为小于该值以防止 API 滥用和可能的 DOS 攻击，尤其是在资源有限的情况下。</p>
 <p>要设置限制，您可以使用 <code>ROCKET_LIMITS</code> 变量。此处的示例显示了正文中发布的 json 的 10MB 限制(这是默认设置)：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
   -e <span>ROCKET_LIMITS</span><span>=</span><span>{</span>json<span>=</span><span>10485760</span><span>}</span> <span>\</span>
+  -v /vw-data/:/data/ <span>\</span>
+  -p <span>80</span>:80 <span>\</span>
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>改变Worker数量</title>
+      <link>https://codenoob.top/projects/vaultwarden/Configuration/Changing-the-number-of-workers.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Changing-the-number-of-workers.html</guid>
+      <source url="https://codenoob.top/rss.xml">改变Worker数量</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>当你运行 vaultwarden 时，它会产生 <code>2 * &lt;cpu核数&gt;</code> workers 来处理请求。在某些系统上，这可能会导致 worker 数量减少，从而导致性能下降，因此 docker 映像中的默认值更改为产生 10 个线程。您可以通过设置<code>ROCKET_WORKERS</code>变量来覆盖此设置以增加或减少workers的数量。</p>
+<p>在下面的例子中，我们从 20 个 workers 开始：</p>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
+  -e <span>ROCKET_WORKERS</span><span>=</span><span>20</span> <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -p <span>80</span>:80 <span>\</span>
   vaultwarden/server:latest
@@ -8883,7 +8883,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
       <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p><strong>重要</strong>：任何人都可以访问您的管理页面</p>
 <p>如果您想使用另一种方法对 <code>/admin</code> 页面进行身份验证，则可以将 <code>DISABLE_ADMIN_TOKEN</code> 变量设置为 true。这将禁用用于身份验证的内置<code>ADMIN_TOKEN</code>，同时启用管理面板。任何有权访问该 URL 的人都可以访问管理面板。您将需要采取额外的步骤来保护它。这包括外部和本地。</p>
-<div><pre><code>docker run -d --name bitwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name bitwarden <span>\</span>
   -e <span>DISABLE_ADMIN_TOKEN</span><span>=</span>true <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -p <span>80</span>:80 <span>\</span>
@@ -8900,7 +8900,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
       <category>项目</category>
       <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>即使注册被禁用，组织管理员或所有者也可以邀请用户加入组织。在他们被邀请后，即使 <code>SIGNUPS_ALLOWED</code> 实际上设置为 <code>false</code>，他们也可以使用受邀电子邮件进行注册。您可以通过将<code>INVITATIONS_ALLOWED</code>环境变量设置为<code>false</code>来完全禁用此功能：</p>
-<div><pre><code>docker run -d --name bitwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name bitwarden <span>\</span>
   -e <span>SIGNUPS_ALLOWED</span><span>=</span>false <span>\</span>
   -e <span>INVITATIONS_ALLOWED</span><span>=</span>false <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
@@ -8918,7 +8918,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
       <category>项目</category>
       <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>默认情况下，任何可以访问您的实例的人都可以注册一个新帐户。要禁用此功能，请将 <code>SIGNUPS_ALLOWED</code> 环境变量设置为 <code>false</code>：</p>
-<div><pre><code>docker run -d --name bitwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name bitwarden <span>\</span>
   -e <span>SIGNUPS_ALLOWED</span><span>=</span>false <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -p <span>80</span>:80 <span>\</span>
@@ -8948,20 +8948,39 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
       <category>项目</category>
       <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>为方便起见，Vaultwarden 映像还将托管用于 Vault Web 界面的静态文件。您可以通过设置 WEB_VAULT_ENABLED 变量来完全禁用此静态文件托管。</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
   -e <span>WEB_VAULT_ENABLED</span><span>=</span>false <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -p <span>80</span>:80 <span>\</span>
   vaultwarden/server:latest
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>或者，您可以覆盖 Vault 文件并提供您自己的静态文件来托管。您可以通过在容器中的<code>/web-vault</code> 目录上挂载包含文件的路径来实现。只要确保该目录至少包含 <code>index.html</code> 文件。</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
   -v /path/to/static/files_directory:/web-vault <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -p <span>80</span>:80 <span>\</span>
   vaultwarden/server:latest
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，您还可以通过提供带有路径的<code>WEB_VAULT_FOLDER</code>环境变量来更改 vaultwarden 查找静态文件的路径。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>开启U2F认证</title>
+      <link>https://codenoob.top/projects/vaultwarden/Configuration/Enabling-U2F-authentication.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Enabling-U2F-authentication.html</guid>
+      <source url="https://codenoob.top/rss.xml">开启U2F认证</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>要启用 U2F 身份验证，您必须从具有有效证书的 HTTPS 域(使用包含的HTTPS 选项或使用反向代理)。我们建议使用 Let's Encrypt 的免费证书。</p>
+<p>之后，您需要将 <code>DOMAIN</code> 环境变量设置为提供 Vaultwarden 的相同地址：</p>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
+  -e <span>DOMAIN</span><span>=</span>https://vw.domain.tld <span>\</span>
+  -v /vw-data/:/data/ <span>\</span>
+  -p <span>80</span>:80 <span>\</span>
+  vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，该值必须包含 <code>https://</code>，并且在不使用 <code>443</code> 时，它可能会在末尾包含一个端口(格式为 <code>https://vw.domain.tld:port</code>)。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -8985,7 +9004,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 </ul>
 <p>示例配置包含在 <a href="./../Deployment/Proxy-examples.html">代理示例</a> 中。</p>
 <p>然后你需要通过将<code>WEBSOCKET_ENABLED</code>变量设置为<code>true</code>来在Vaultwarden端启用WebSockets协商：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
   -e <span>WEBSOCKET_ENABLED</span><span>=</span>true <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -p <span>80</span>:80 <span>\</span>
@@ -8993,25 +9012,6 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
   vaultwarden/server:latest
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>注意：此解决方法的原因是 Rocket 缺乏对 WebSockets 的支持(尽管 <a href="https://github.com/SergioBenitez/Rocket/issues/90" target="_blank" rel="noopener noreferrer">这是一个计划中的功能</a>)，这迫使我们启动一个辅助服务器在一个单独的端口上。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>开启U2F认证</title>
-      <link>https://codenoob.top/projects/vaultwarden/Configuration/Enabling-U2F-authentication.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Configuration/Enabling-U2F-authentication.html</guid>
-      <source url="https://codenoob.top/rss.xml">开启U2F认证</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>要启用 U2F 身份验证，您必须从具有有效证书的 HTTPS 域(使用包含的HTTPS 选项或使用反向代理)。我们建议使用 Let's Encrypt 的免费证书。</p>
-<p>之后，您需要将 <code>DOMAIN</code> 环境变量设置为提供 Vaultwarden 的相同地址：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
-  -e <span>DOMAIN</span><span>=</span>https://vw.domain.tld <span>\</span>
-  -v /vw-data/:/data/ <span>\</span>
-  -p <span>80</span>:80 <span>\</span>
-  vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>请注意，该值必须包含 <code>https://</code>，并且在不使用 <code>443</code> 时，它可能会在末尾包含一个端口(格式为 <code>https://vw.domain.tld:port</code>)。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -9029,7 +9029,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 <li>为了生成 API 密钥或将 YubiKey 与 OTP 服务器一起使用，必须注册它。在 <a href="https://www.yubico.com/products/services-software/personalization-tools/use/" target="_blank" rel="noopener noreferrer">YubiKey 个性化工具</a> 中配置好您的密钥后，您可以在 <a href="https://upload.yubico.com/" target="_blank" rel="noopener noreferrer">此处</a>。</li>
 <li>由于上游问题，服务器版本 1.6.0 或更早版本的 aarch64 版本不支持 Yubikey 功能 - 请参阅 <a href="https://github.com/dani-garcia/vaultwarden/issues/262" target="_blank" rel="noopener noreferrer">#262</a>。</li>
 </ul>
-<div><pre><code>docker run -d --name bitwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name bitwarden <span>\</span>
   -e <span>YUBICO_CLIENT_ID</span><span>=</span><span>12345</span> <span>\</span>
   -e <span>YUBICO_SECRET_KEY</span><span>=</span>ABCDEABCDEABCDEABCDE<span>=</span> <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
@@ -9050,7 +9050,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 <p>此页面允许服务器管理员查看所有注册用户并删除它们。它还允许邀请新用户，即使注册被禁用。</p>
 <p>要启用管理页面，您需要设置身份验证令牌。这个令牌可以是任何东西，但建议使用长的、随机生成的字符串，例如运行<code>openssl rand -base64 48</code>。 <strong>将此令牌保密，这是访问服务器管理区域的密码！</strong></p>
 <p>要设置令牌，请使用<code>ADMIN_TOKEN</code>变量：</p>
-<div><pre><code>docker run -d --name bitwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name bitwarden <span>\</span>
   -e <span>ADMIN_TOKEN</span><span>=</span>some_random_token_as_per_above_explanation <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -p <span>80</span>:80 <span>\</span>
@@ -9168,7 +9168,7 @@ W. Koch, J.M. Hohlfeld, Safety, efficacy and repeatability of a novel house dust
 <li>使用命令行启动容器</li>
 </ol>
 <div><pre><code><span>cd</span> /volumeX/docker/fail2ban
-docker-compose up -d
+<span>docker-compose</span> up -d
 </code></pre>
 <div><span>1</span><br><span>2</span><br></div></div><p>您应该会看到在 Synology 的 Docker GUI 中运行的容器。配置过滤器和Jail后，您必须重新加载</p>
 <h2 id="网络密码管理的设置"> 网络密码管理的设置</h2>
@@ -9256,7 +9256,7 @@ docker-compose up -d
 <p>现在只需尝试使用任何电子邮件登录Vaultwarden(它不必是有效的电子邮件，只需一种电子邮件格式)
 如果它工作正常并且您的 IP 被禁止，您可以通过运行以下命令取消禁止 IP：</p>
 <div><pre><code><span># With Docker</span>
-<span>sudo</span> docker <span>exec</span> -t fail2ban fail2ban-client <span>set</span> vaultwarden unbanip XX.XX.XX.XX
+<span>sudo</span> <span>docker</span> <span>exec</span> -t fail2ban fail2ban-client <span>set</span> vaultwarden unbanip XX.XX.XX.XX
 <span># Without Docker</span>
 <span>sudo</span> fail2ban-client <span>set</span> vaultwarden unbanip XX.XX.XX.XX
 </code></pre>
@@ -9347,7 +9347,7 @@ docker-compose up -d
       <content:encoded><![CDATA[<p>默认情况下，Vaultwarden 仅记录到 <a href="https://en.wikipedia.org/wiki/Standard_streams#Standard_output_(stdout)" target="_blank" rel="noopener noreferrer">标准输出</a> (stdout)。您还可以将其配置为记录到文件。</p>
 <h2 id="记录到文件"> 记录到文件</h2>
 <p>从版本 1.5.0 开始支持记录到文件。您可以使用<code>LOG_FILE</code>环境变量指定日志文件的路径：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
 <span>..</span>.
   -e <span>LOG_FILE</span><span>=</span>/data/vaultwarden.log <span>\</span>
 <span>..</span>.
@@ -9356,7 +9356,7 @@ docker-compose up -d
 <h2 id="更改日志级别"> 更改日志级别</h2>
 <p>要减少日志消息的数量，您可以将日志级别设置为<code>警告</code>(默认为<code>信息</code>)。 <a href="https://docs.rs/log/0.4.7/log/enum.Level.html#variants" target="_blank" rel="noopener noreferrer">日志级别</a> 可以通过环境变量<code>LOG_LEVEL</code>进行调整，同时还可以设置<code>EXTENDED_LOGGING=true</code>。注意：使用日志级别<code>警告</code>或<code>错误</code>仍然允许 <a href="./Fail2Ban-Setup.html">Fail2Ban</a> 正常工作。</p>
 <p><code>LOG_LEVEL</code> 选项是：<code>trace</code>、<code>debug</code>、<code>info</code>、<code>warn</code>、<code>error</code>或<code>off</code>。</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
 <span>..</span>.
   -e <span>LOG_LEVEL</span><span>=</span>warn -e <span>EXTENDED_LOGGING</span><span>=</span>true <span>\</span>
 <span>..</span>.
@@ -9440,7 +9440,7 @@ docker-compose up -d
       <category>项目</category>
       <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>通常，密码提示通过电子邮件发送。但由于 Vaultwarden 是针对小型或个人部署而设计的，因此密码提示页面也提供了提示，因此您无需配置电子邮件服务。如果要禁用此功能，可以使用 <code>SHOW_PASSWORD_HINT</code> 变量：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
   -e <span>SHOW_PASSWORD_HINT</span><span>=</span>false <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -p <span>80</span>:80 <span>\</span>
@@ -9476,7 +9476,7 @@ docker-compose up -d
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><ol start="2">
 <li>使用适当的参数启动容器。定义用户并确保从设置为<code>1024</code>或更高的端口开始</li>
 </ol>
-<div><pre><code>docker run -d <span>\</span>
+<div><pre><code><span>docker</span> run -d <span>\</span>
   --name vaultwarden <span>\</span>
   --user nobody <span>\</span>
   -e <span>ROCKET_PORT</span><span>=</span><span>1024</span> <span>\</span>
@@ -9610,7 +9610,7 @@ delete
 </ol>
 <h3 id="_2-在-vaultwarden-中禁用-wal"> 2. 在 <code>Vaultwarden</code> 中禁用 WAL</h3>
 <p>要关闭 WAL，您需要将<code>ENABLE_DB_WAL</code>变量设置为<code>false</code>来启动<code>Vaultwarden</code>：</p>
-<div><pre><code>docker run -d --name vaultwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name vaultwarden <span>\</span>
   -e <span>ENABLE_DB_WAL</span><span>=</span>false <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
   -p <span>80</span>:80 <span>\</span>
@@ -9933,7 +9933,7 @@ WEBSOCKET_ENABLED=true # enable websocket
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div></li>
 <li>
 <p>如果您通常通过环境变量配置 Vaultwarden，请更新您的配置文件/脚本以将 <code>DOMAIN</code> 环境变量设置为基本 URL。例如：</p>
-<div><pre><code>docker run -e <span>DOMAIN</span><span>=</span><span>"https://vaultwarden.example.com/base-dir"</span> <span>..</span>.
+<div><pre><code><span>docker</span> run -e <span>DOMAIN</span><span>=</span><span>"https://vaultwarden.example.com/base-dir"</span> <span>..</span>.
 </code></pre>
 <div><span>1</span><br></div></div></li>
 <li>
@@ -10036,14 +10036,14 @@ location /my-base-path-2/ {
 <p>完整的代码列表可以在<a href="https://en.wikipedia.org/wiki/Percent-encoding#Percent-encoding_reserved_characters" target="_blank" rel="noopener noreferrer">百分比编码的维基百科页面</a>上找到</p>
 <h2 id="使用-docker-的示例"> 使用 Docker 的示例</h2>
 <div><pre><code><span># 启动一个mysql容器</span>
-docker run --name mysql --net <span>&lt;</span>some-docker-network<span>></span><span>\</span>
+<span>docker</span> run --name mysql --net <span>&lt;</span>some-docker-network<span>></span><span>\</span>
  -e <span>MYSQL_ROOT_PASSWORD</span><span>=</span><span>&lt;</span>my-secret-pw<span>></span><span>\</span>
  -e <span>MYSQL_DATABASE</span><span>=</span>vaultwarden<span>\</span>
  -e <span>MYSQL_USER</span><span>=</span><span>&lt;</span>vaultwarden_user<span>></span><span>\</span>
  -e <span>MYSQL_PASSWORD</span><span>=</span><span>&lt;</span>vaultwarden_pw<span>></span> -d mysql:5.7
 
 <span># 使用 MySQL Env Vars 设置启动 vaultwarden。</span>
-docker run -d --name vaultwarden --net <span>&lt;</span>some-docker-network<span>></span><span>\</span>
+<span>docker</span> run -d --name vaultwarden --net <span>&lt;</span>some-docker-network<span>></span><span>\</span>
  -v <span><span>$(</span><span>pwd</span><span>)</span></span>/vw-data/:/data/ -v <span>&lt;</span>Path to ssl certs<span>></span>:/ssl/<span>\</span>
  -p <span>443</span>:80 -e <span>ROCKET_TLS</span><span>=</span><span>'{certs="/ssl/&lt;your ssl cert>",key="/ssl/&lt;your ssl key>"}'</span><span>\</span>
  -e <span>RUST_BACKTRACE</span><span>=</span><span>1</span> -e <span>DATABASE_URL</span><span>=</span><span>'mysql://&lt;vaultwarden_user>:&lt;vaultwarden_pw>@mysql/vaultwarden'</span><span>\</span>
@@ -10102,13 +10102,13 @@ mysql://dbuser:yourpassword@192.168.1.10:3306/vaultwarden
 </code></pre>
 <div><span>1</span><br></div></div><p>2a. 创建一个新的数据库用户并授予数据库权限(MariaDB，v8 之前的 MySQL 版本)：</p>
 <div><pre><code><span>CREATE</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>BY</span> <span>'yourpassword'</span><span>;</span>
-<span>GRANT</span> <span>ALL</span> <span>ON</span> <span>`</span>vaultwarden<span>`</span><span>.</span><span>*</span> <span>TO</span> <span>'vaultwarden'</span><span>@'localhost'</span><span>;</span>
+<span>GRANT</span> <span>ALL</span> <span>ON</span> <span><span>`</span>vaultwarden<span>`</span></span><span>.</span><span>*</span> <span>TO</span> <span>'vaultwarden'</span><span>@'localhost'</span><span>;</span>
 FLUSH <span>PRIVILEGES</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>2b. 如果您使用 MySQL v8.x，您需要像这样创建用户：</p>
 <div><pre><code><span>-- Use this on MySQLv8 installations</span>
 <span>CREATE</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>WITH</span> mysql_native_password <span>BY</span> <span>'yourpassword'</span><span>;</span>
-<span>GRANT</span> <span>ALL</span> <span>ON</span> <span>`</span>vaultwarden<span>`</span><span>.</span><span>*</span> <span>TO</span> <span>'vaultwarden'</span><span>@'localhost'</span><span>;</span>
+<span>GRANT</span> <span>ALL</span> <span>ON</span> <span><span>`</span>vaultwarden<span>`</span></span><span>.</span><span>*</span> <span>TO</span> <span>'vaultwarden'</span><span>@'localhost'</span><span>;</span>
 FLUSH <span>PRIVILEGES</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>如果您已经创建了用户并想要更改密码类型：</p>
@@ -10116,7 +10116,7 @@ FLUSH <span>PRIVILEGES</span><span>;</span>
 <span>ALTER</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>WITH</span> mysql_native_password <span>BY</span> <span>'yourpassword'</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br></div></div><p>您可能想尝试一组受限制的赠款：</p>
-<div><pre><code><span>GRANT</span> <span>ALTER</span><span>,</span> <span>CREATE</span><span>,</span> <span>DELETE</span><span>,</span> <span>DROP</span><span>,</span> <span>INDEX</span><span>,</span> <span>INSERT</span><span>,</span> <span>SELECT</span><span>,</span> <span>UPDATE</span> <span>ON</span> <span>`</span>vaultwarden<span>`</span><span>.</span><span>*</span> <span>TO</span> <span>'vaultwarden'</span><span>@'localhost'</span><span>;</span>
+<div><pre><code><span>GRANT</span> <span>ALTER</span><span>,</span> <span>CREATE</span><span>,</span> <span>DELETE</span><span>,</span> <span>DROP</span><span>,</span> <span>INDEX</span><span>,</span> <span>INSERT</span><span>,</span> <span>SELECT</span><span>,</span> <span>UPDATE</span> <span>ON</span> <span><span>`</span>vaultwarden<span>`</span></span><span>.</span><span>*</span> <span>TO</span> <span>'vaultwarden'</span><span>@'localhost'</span><span>;</span>
 FLUSH <span>PRIVILEGES</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br></div></div><h3 id="从-sqlite-迁移到-mysql"> 从 SQLite 迁移到 MySQL</h3>
@@ -10268,6 +10268,55 @@ use vaultwarden
 ]]></content:encoded>
     </item>
     <item>
+      <title>启动一个容器</title>
+      <link>https://codenoob.top/projects/vaultwarden/Container/Starting-a-Container.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Container/Starting-a-Container.html</guid>
+      <source url="https://codenoob.top/rss.xml">启动一个容器</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>请注意，<code>docker run</code> 命令的名称有点误导，因为它会创建一个容器，而不是仅仅启动它，这会导致在停止容器而不删除容器后使用 <code>docker run</code> 时发生冲突。有关简单的开始，请参见下文。</p>
+<h2 id="创建容器"> 创建容器</h2>
+<p>持久化数据存储在容器内部的/data下，因此使用Docker进行持久化部署的唯一要求是在路径上挂载持久化卷：</p>
+<div><pre><code><span># 使用 Docker：</span>
+<span>docker</span> run -d --name vaultwarden -v /vw-data/:/data/ -p <span>80</span>:80 vaultwarden/server:latest
+<span># 使用 Podman 作为非 root：</span>
+<span>podman</span> run -d --name vaultwarden -v /vw-data/:/data/:Z -e <span>ROCKET_PORT</span><span>=</span><span>8080</span> -p <span>8080</span>:8080 vaultwarden/server:latest
+<span># 使用 Podman 作为 root：</span>
+<span>sudo</span> <span>podman</span> run -d --name vaultwarden -v vw-data:/data/:Z -p <span>80</span>:80 vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>这将保留 <code>/vw-data/</code> 下的任何持久数据，您可以将路径调整为适合您的任何内容。</p>
+<p>该服务将在主机端口 80 或 8080 上公开。</p>
+<p>对于非 x86 硬件或运行特定版本，您可以<a href="./Which-container-image-to-use.html">使用哪个容器镜像</a>。</p>
+<p>如果您的 docker/vaultwarden 在具有固定 IP 的设备上运行，您可以将主机端口绑定到该特定 IP，从而防止将主机端口暴露给整个世界或网络。在host-port和container-port前面添加IP地址(例如192.168.0.2)如下：</p>
+<div><pre><code><span># 使用 Docker:</span>
+<span>docker</span> run -d --name vaultwarden -v /vw-data/:/data/ -p <span>192.168</span>.0.2:80:80 vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><h2 id="启动容器"> 启动容器</h2>
+<p>如果容器已被<code>docker stop vaultwarden</code>、重启或任何其他原因停止，您可以使用以下命令重新启动它。</p>
+<div><pre><code><span>docker</span> start vaultwarden
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="自定义容器启动"> 自定义容器启动</h2>
+<p>如果您想在容器启动时运行自定义启动脚本，您可以将单个脚本作为 <code>/etc/vaultwarden.sh</code> 和/或脚本目录安装到容器中作为 <code>/etc/vaultwardend</code>。在后一种情况下，只运行带有<code>.sh</code>扩展名的文件，因此带有其他扩展名的文件(例如，数据/配置文件)可以驻留在同一个目录中。 (请参阅 <a href="https://github.com/dani-garcia/vaultwarden/blob/master/docker/start.sh" target="_blank" rel="noopener noreferrer">start.sh</a>了解其工作原理的详细信息。)</p>
+<p>自定义启动脚本可用于修补 Web Vault 文件或安装附加包、CA 证书等，而无需构建和维护您自己的 Docker 映像。</p>
+<h3 id="例子"> 例子</h3>
+<p>假设您的脚本名为 <code>init.sh</code> 并包含以下内容：</p>
+<div><pre><code><span>echo</span> <span>"starting up"</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>您可以像这样在启动时运行脚本：</p>
+<div><pre><code><span>docker</span> run -d --name vaultwarden -v <span><span>$(</span><span>pwd</span><span>)</span></span>/init.sh:/etc/vaultwarden.sh <span>&lt;</span>other <span>docker</span> args<span>..</span>.<span>></span> vaultwarden/server:latest
+</code></pre>
+<div><span>1</span><br></div></div><p>如果你运行 <code>docker logs vaultwarden</code>，你现在应该看到 <code>starting up</code> 作为输出的第一行。</p>
+<p>请注意，每次容器启动时都会运行 init 脚本(不仅仅是第一次)，因此这些脚本通常应该是幂等的(即，您可以多次运行脚本而不会出现不良/错误行为)。如果您的脚本自然没有此属性，您可以执行以下操作：</p>
+<div><pre><code><span>if</span> <span>[</span> <span>!</span> -e /.init <span>]</span><span>;</span> <span>then</span>
+  <span>touch</span> /.init
+
+  <span># run your init steps...</span>
+<span>fi</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>更新密码管理的管理员图片</title>
       <link>https://codenoob.top/projects/vaultwarden/Container/Updating-the-vaultwarden-image.html</link>
       <guid isPermaLink="false">/projects/vaultwarden/Container/Updating-the-vaultwarden-image.html</guid>
@@ -10277,48 +10326,48 @@ use vaultwarden
       <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>更新很简单，您只需确保保留已安装的卷。如果你在例子中使用了绑定挂载的路径 <a href="./Starting-a-Container.html">here</a>，你只需要<code>pull</code>最新的镜像，<code>stop</code>和<code>rm</code>当前容器，然后启动一个新的一个和以前一样的方式：</p>
 <div><pre><code><span># 拉取最新版本</span>
-docker pull Vaultwarden/server:latest
+<span>docker</span> pull Vaultwarden/server:latest
 
 <span># 停止并移除旧容器</span>
-docker stop vaultwarden
-docker <span>rm</span> vaultwarden
+<span>docker</span> stop vaultwarden
+<span>docker</span> <span>rm</span> vaultwarden
 
 <span># 启动一个挂载数据的新容器</span>
-docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>80</span>:80 vaultwarden/server:latest
+<span>docker</span> run -d --name vaultwarden -v /vw-data/:/data/ -p <span>80</span>:80 vaultwarden/server:latest
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>然后访问 <a href="http://localhost:80" target="_blank" rel="noopener noreferrer">http://localhost:80</a></p>
 <p>如果您没有为持久数据绑定挂载卷，则需要一个中间步骤，使用中间容器保存数据：</p>
 <div><pre><code><span># 拉取最新版本</span>
-docker pull Vaultwarden/server:latest
+<span>docker</span> pull Vaultwarden/server:latest
 
 <span># 创建中间容器来保存数据</span>
-docker run --volumes-from vaultwarden --name vaultwarden_data busybox <span>true</span>
+<span>docker</span> run --volumes-from vaultwarden --name vaultwarden_data busybox <span>true</span>
 
 <span># 停止并移除旧容器</span>
-docker stop vaultwarden
-docker <span>rm</span> vaultwarden
+<span>docker</span> stop vaultwarden
+<span>docker</span> <span>rm</span> vaultwarden
 
 <span># 启动一个挂载数据的新容器</span>
-docker run -d --volumes-from vaultwarden_data --name vaultwarden -p <span>80</span>:80 vaultwarden/server:latest
+<span>docker</span> run -d --volumes-from vaultwarden_data --name vaultwarden -p <span>80</span>:80 vaultwarden/server:latest
 
 <span># 可选地删除中间容器</span>
-docker <span>rm</span> vaultwarden_data
+<span>docker</span> <span>rm</span> vaultwarden_data
 
 <span># 或者，您可以保留数据容器以备将来更新，在这种情况下，您可以跳过最后一步。</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><p>您还可以使用 <a href="https://containrrr.dev/watchtower/" target="_blank" rel="noopener noreferrer">Watchtower</a> 之类的工具来自动执行更新过程。 Watchtower 可以定期检查 Docker 镜像的更新，拉取更新的镜像，并使用更新的镜像重新创建容器。</p>
 <h2 id="使用-docker-compose-时更新"> 使用 docker-compose 时更新</h2>
-<div><pre><code>docker-compose stop
-docker-compose pull
-docker-compose start
+<div><pre><code><span>docker-compose</span> stop
+<span>docker-compose</span> pull
+<span>docker-compose</span> start
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="使用-systemd-服务时更新-在本例中为-debian-raspbian"> 使用 systemd 服务时更新(在本例中为 Debian/Raspbian)</h2>
 <div><pre><code><span>sudo</span> systemctl restart vaultwarden.service
-<span>sudo</span> docker system prune -f
+<span>sudo</span> <span>docker</span> system prune -f
 <span># WARNING 这可能会删除与 Vaultwarden 无关的已停止或未使用的容器等</span>
 <span># 小心，看看你需要哪些容器</span>
 
-docker <span>ps</span> -a
+<span>docker</span> <span>ps</span> -a
 <span>#显示停止的容器</span>
 
 <span># 警告！这将删除：</span>
@@ -10327,7 +10376,7 @@ docker <span>ps</span> -a
 <span>#   - 所有悬空镜像</span>
 <span>#   - 所有悬空构建缓存</span>
 <span>#你可以列出docker镜像</span>
-docker images
+<span>docker</span> images
 <span>#在那里你会看到所有未使用的镜像</span>
 <span>#</span>
 </code></pre>
@@ -10342,55 +10391,6 @@ prune 命令将删除现在的旧容器(-f 代表：不要求确认)。</p>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>使用命令</p>
 <p><code>which docker</code>：如果<code>/usr/bin/docker</code> 不是docker的正确路径</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>启动一个容器</title>
-      <link>https://codenoob.top/projects/vaultwarden/Container/Starting-a-Container.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Container/Starting-a-Container.html</guid>
-      <source url="https://codenoob.top/rss.xml">启动一个容器</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>请注意，<code>docker run</code> 命令的名称有点误导，因为它会创建一个容器，而不是仅仅启动它，这会导致在停止容器而不删除容器后使用 <code>docker run</code> 时发生冲突。有关简单的开始，请参见下文。</p>
-<h2 id="创建容器"> 创建容器</h2>
-<p>持久化数据存储在容器内部的/data下，因此使用Docker进行持久化部署的唯一要求是在路径上挂载持久化卷：</p>
-<div><pre><code><span># 使用 Docker：</span>
-docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>80</span>:80 vaultwarden/server:latest
-<span># 使用 Podman 作为非 root：</span>
-podman run -d --name vaultwarden -v /vw-data/:/data/:Z -e <span>ROCKET_PORT</span><span>=</span><span>8080</span> -p <span>8080</span>:8080 vaultwarden/server:latest
-<span># 使用 Podman 作为 root：</span>
-<span>sudo</span> podman run -d --name vaultwarden -v vw-data:/data/:Z -p <span>80</span>:80 vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>这将保留 <code>/vw-data/</code> 下的任何持久数据，您可以将路径调整为适合您的任何内容。</p>
-<p>该服务将在主机端口 80 或 8080 上公开。</p>
-<p>对于非 x86 硬件或运行特定版本，您可以<a href="./Which-container-image-to-use.html">使用哪个容器镜像</a>。</p>
-<p>如果您的 docker/vaultwarden 在具有固定 IP 的设备上运行，您可以将主机端口绑定到该特定 IP，从而防止将主机端口暴露给整个世界或网络。在host-port和container-port前面添加IP地址(例如192.168.0.2)如下：</p>
-<div><pre><code><span># 使用 Docker:</span>
-docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>192.168</span>.0.2:80:80 vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><h2 id="启动容器"> 启动容器</h2>
-<p>如果容器已被<code>docker stop vaultwarden</code>、重启或任何其他原因停止，您可以使用以下命令重新启动它。</p>
-<div><pre><code>docker start vaultwarden
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="自定义容器启动"> 自定义容器启动</h2>
-<p>如果您想在容器启动时运行自定义启动脚本，您可以将单个脚本作为 <code>/etc/vaultwarden.sh</code> 和/或脚本目录安装到容器中作为 <code>/etc/vaultwardend</code>。在后一种情况下，只运行带有<code>.sh</code>扩展名的文件，因此带有其他扩展名的文件(例如，数据/配置文件)可以驻留在同一个目录中。 (请参阅 <a href="https://github.com/dani-garcia/vaultwarden/blob/master/docker/start.sh" target="_blank" rel="noopener noreferrer">start.sh</a>了解其工作原理的详细信息。)</p>
-<p>自定义启动脚本可用于修补 Web Vault 文件或安装附加包、CA 证书等，而无需构建和维护您自己的 Docker 映像。</p>
-<h3 id="例子"> 例子</h3>
-<p>假设您的脚本名为 <code>init.sh</code> 并包含以下内容：</p>
-<div><pre><code><span>echo</span> <span>"starting up"</span>
-</code></pre>
-<div><span>1</span><br></div></div><p>您可以像这样在启动时运行脚本：</p>
-<div><pre><code>docker run -d --name vaultwarden -v <span><span>$(</span><span>pwd</span><span>)</span></span>/init.sh:/etc/vaultwarden.sh <span>&lt;</span>other docker args<span>..</span>.<span>></span> vaultwarden/server:latest
-</code></pre>
-<div><span>1</span><br></div></div><p>如果你运行 <code>docker logs vaultwarden</code>，你现在应该看到 <code>starting up</code> 作为输出的第一行。</p>
-<p>请注意，每次容器启动时都会运行 init 脚本(不仅仅是第一次)，因此这些脚本通常应该是幂等的(即，您可以多次运行脚本而不会出现不良/错误行为)。如果您的脚本自然没有此属性，您可以执行以下操作：</p>
-<div><pre><code><span>if</span> <span>[</span> <span>!</span> -e /.init <span>]</span><span>;</span> <span>then</span>
-  <span>touch</span> /.init
-
-  <span># run your init steps...</span>
-<span>fi</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>使用Docker Compose</title>
@@ -10462,10 +10462,10 @@ docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>192.168</span>.0.2
 <span>}</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br></div></div><p>运行以下命令以创建和启动容器。这个 <code>docker-compose.yml</code> 文件中的服务的专用网络将自动创建，只有 Caddy 是公开的。</p>
-<div><pre><code>docker-compose up -d
+<div><pre><code><span>docker-compose</span> up -d
 </code></pre>
 <div><span>1</span><br></div></div><p>停止并销毁容器：</p>
-<div><pre><code>docker-compose down
+<div><pre><code><span>docker-compose</span> down
 </code></pre>
 <div><span>1</span><br></div></div><p><a href="https://github.com/sosandroid/docker-bitwarden_rs-caddy-synology" target="_blank" rel="noopener noreferrer">此处</a> 提供了一个类似的基于 Caddy 的 Synology 示例。</p>
 <h2 id="caddy-与-dns-挑战"> Caddy 与 DNS 挑战</h2>
@@ -10532,7 +10532,7 @@ docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>192.168</span>.0.2
 <span>}</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div><p>与 HTTP 质询示例一样，运行</p>
-<div><pre><code>docker-compose up -d
+<div><pre><code><span>docker-compose</span> up -d
 </code></pre>
 <div><span>1</span><br></div></div><p>去创建和启动容器。</p>
 ]]></content:encoded>
@@ -10549,9 +10549,9 @@ docker run -d --name vaultwarden -v /vw-data/:/data/ -p <span>192.168</span>.0.2
 <h2 id="创建systemd服务文件"> 创建systemd服务文件</h2>
 <p>由于其无守护进程的架构，Podman 比 Docker 更容易在 systemd 中运行。它带有一个方便的<a href="http://docs.podman.io/en/latest/markdown/podman-generate-systemd.1.html" target="_blank" rel="noopener noreferrer">生成 systemd 命令</a>，可以生成 systemd 文件。</p>
 <p>这是一篇<a href="https://www.redhat.com/sysadmin/podman-shareable-systemd-services" target="_blank" rel="noopener noreferrer">详细介绍的好文章</a> 以及<a href="https://www.redhat.com/sysadmin/improved-systemd-podman" target="_blank" rel="noopener noreferrer">这篇文章详细介绍了一些最近的更新</a>。</p>
-<div><pre><code>$ podman run -d --name vaultwarden -v /vw-data/:/data/:Z -e <span>ROCKET_PORT</span><span>=</span><span>8080</span> -p <span>8080</span>:8080 vaultwarden/server:latest
+<div><pre><code>$ <span>podman</span> run -d --name vaultwarden -v /vw-data/:/data/:Z -e <span>ROCKET_PORT</span><span>=</span><span>8080</span> -p <span>8080</span>:8080 vaultwarden/server:latest
 54502f309f3092d32b4c496ef3d099b270b2af7b5464e7cb4887bc16a4d38597
-$ podman generate systemd --name vaultwarden
+$ <span>podman</span> generate systemd --name vaultwarden
 <span># container-vaultwarden.service</span>
 <span># autogenerated by Podman 1.6.2</span>
 <span># Tue Nov 19 15:49:15 CET 2019</span>
@@ -10577,7 +10577,7 @@ $ systemctl start container-vaultwarden.service
 </code></pre>
 <div><span>1</span><br><span>2</span><br></div></div><h2 id="每次重启都会新建一个容器"> 每次重启都会新建一个容器</h2>
 <p>如果我们想在每次服务启动时创建一个新的容器，我们可以使用 <code>podman generate systemd --new</code> 命令来生成一个重新创建容器的服务文件</p>
-<div><pre><code>$ podman generate systemd --new --name vaultwarden
+<div><pre><code>$ <span>podman</span> generate systemd --new --name vaultwarden
 </code></pre>
 <div><span>1</span><br></div></div><p>如果您使用的是旧版 Podman，则可以编辑服务文件以包含以下内容：</p>
 <div><pre><code><span>[</span>Unit<span>]</span>
@@ -10903,15 +10903,15 @@ cargo build --features postgresql --release
       <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>克隆存储库，然后从存储库的根目录运行以使用默认的 sqlite 后端构建：</p>
 <div><pre><code><span># 构建docker镜像：</span>
-docker build -t vaultwarden <span>.</span>
+<span>docker</span> build -t vaultwarden <span>.</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br></div></div><p>要使用 MySQL 后端构建，请运行：</p>
 <div><pre><code><span># 构建docker镜像：</span>
-docker build -t Vaultwarden --build-arg <span>DB</span><span>=</span>mysql <span>.</span>
+<span>docker</span> build -t Vaultwarden --build-arg <span>DB</span><span>=</span>mysql <span>.</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br></div></div><p>要使用 Postgresql 后端构建，请运行：</p>
 <div><pre><code><span># 构建docker镜像：</span>
-docker build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql <span>.</span>
+<span>docker</span> build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql <span>.</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br></div></div><p>在 docker-compose.yml 中它看起来像</p>
 <div><pre><code>  vaultwarden:
@@ -11067,7 +11067,7 @@ docker build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql 
 <ul>
 <li>如果在 Docker 下运行，请记住 vaultwarden 在容器内运行时将解析 <code>ROCKET_TLS</code> 值，因此请确保 <code>certs</code> 和 <code>key</code> 路径是它们在容器内的显示方式(这可能与路径不同在 Docker 主机系统上)。</li>
 </ul>
-<div><pre><code>docker run -d --name bitwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name bitwarden <span>\</span>
   -e <span>ROCKET_TLS</span><span>=</span><span>'{certs="/ssl/certs.pem",key="/ssl/key.pem"}'</span> <span>\</span>
   -v /ssl/keys/:/ssl/ <span>\</span>
   -v /vw-data/:/data/ <span>\</span>
@@ -11080,7 +11080,7 @@ docker build -t vaultwarden --build-arg <span>DB</span><span>=</span>postgresql 
 <p>示例：<a href="https://certbot.eff.org/" target="_blank" rel="noopener noreferrer">certbot</a> 将在 <code>/etc/letsencrypt/live/mydomain/</code> 中创建一个文件夹，其中包含所需的 <code>fullchain.pem</code> 和 <code>privkey.pem</code> 文件</p>
 <p>这些文件被符号链接到<code>../../archive/mydomain/privkey.pem</code></p>
 <p>所以要从 bitwarden 容器中使用：</p>
-<div><pre><code>docker run -d --name bitwarden <span>\</span>
+<div><pre><code><span>docker</span> run -d --name bitwarden <span>\</span>
   -e <span>ROCKET_TLS</span><span>=</span><span>'{certs="/ssl/live/mydomain/fullchain.pem",key="/ssl/live/mydomain/privkey.pem"}'</span> <span>\</span>
   -v /etc/letsencrypt/:/ssl/ <span>\</span>
   -v /bw-data/:/data/ <span>\</span>
@@ -11204,14 +11204,14 @@ zgrep -i keyword_search logfile.gz
 <p>每个 Docker 映像还包括一个匹配的 Web Vault 构建(与平台无关)。</p>
 <h2 id="在安装了-docker-的情况下提取二进制文件"> 在安装了 Docker 的情况下提取二进制文件</h2>
 <p>假设您要为正在运行的平台提取二进制文件：</p>
-<div><pre><code>docker pull vaultwarden/server:alpine
-docker create --name vw vaultwarden/server:alpine
-docker <span>cp</span> vw:/vaultwarden <span>.</span>
-docker <span>cp</span> vw:/web-vault <span>.</span>
-docker <span>rm</span> vw
+<div><pre><code><span>docker</span> pull vaultwarden/server:alpine
+<span>docker</span> create --name vw vaultwarden/server:alpine
+<span>docker</span> <span>cp</span> vw:/vaultwarden <span>.</span>
+<span>docker</span> <span>cp</span> vw:/web-vault <span>.</span>
+<span>docker</span> <span>rm</span> vw
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>如果你想要不同平台的二进制文件(例如，你只在 x86-64 机器上安装了 Docker，但你想在 Raspberry Pi 上运行 vaultwarden)，请将 <code>--platform</code> 选项添加到 <code>docker pull</code>命令：</p>
-<div><pre><code>docker pull --platform linux/arm/v7 vaultwarden/server:alpine
+<div><pre><code><span>docker</span> pull --platform linux/arm/v7 vaultwarden/server:alpine
 <span># 像上面一样运行剩余的命令。</span>
 <span># 请注意，`docker create` 命令可能会打印如下消息：</span>
 <span># 警告：请求的镜像平台 (linux/arm/v7) 与检测到的主机平台 (linux/amd64) 不匹配</span>
@@ -12063,6 +12063,61 @@ export WEBSOCKET_ENABLED=true
 ]]></content:encoded>
     </item>
     <item>
+      <title>FAQ</title>
+      <link>https://codenoob.top/projects/vaultwarden/Home/FAQs.html</link>
+      <guid isPermaLink="false">/projects/vaultwarden/Home/FAQs.html</guid>
+      <source url="https://codenoob.top/rss.xml">FAQ</source>
+      <description>最值得信赖的开源密码管理器</description>
+      <category>项目</category>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="vaultwarden-是否与-bitwarden-项目或-8bit-solutions-llc-相关联"> Vaultwarden 是否与 Bitwarden 项目或 8bit Solutions LLC 相关联？</h2>
+<p>简短的回答，<strong>不</strong>。 有时两个项目的开发人员之间有一些联系，但没有合作。 除此之外，Vaultwarden 项目仅使用 8bit Solutions LLC 提供的 Web Vault 和一些补丁来使其与我们的实现一起工作。</p>
+<h2 id="vaultwarden-可以连接到-oracle-mysql-v8-x-数据库吗"> Vaultwarden 可以连接到 Oracle MySQL V8.x 数据库吗？</h2>
+<p>使用 Oracle MySQL v8.x 尝试启动 Vaultwarden 时，您可能会收到以下警告</p>
+<div><pre><code>[vaultwarden::util][WARN] Can&#39;t connect to database, retrying: DieselConError.
+[CAUSE] BadConnection(
+    &quot;Authentication plugin \&#39;caching_sha2_password\&#39; cannot be loaded: /usr/lib/x86_64-linux-gnu/mariadb18/plugin/caching_sha2_password.so: cannot open shared object file: No such file or directory&quot;,
+)
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>Oracle MySQL v8.x 默认使用更安全的密码散列方法，这很好，但目前我们的版本不支持。 您需要以特定方式创建 Vaultwarden 用户，以便它使用旧的本机密码散列。</p>
+<div><pre><code><span>-- 在 MySQLv8 安装上使用它</span>
+<span>CREATE</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>WITH</span> mysql_native_password <span>BY</span> <span>'yourpassword'</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>如果您已经创建了用户并且只想更改散列方法，请使用以下命令：</p>
+<div><pre><code><span>-- 将密码类型从 caching_sha2_password 更改为 native</span>
+<span>ALTER</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>WITH</span> mysql_native_password <span>BY</span> <span>'yourpassword'</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>另请参阅：<a href="./../Configuration/Using-the-MariaDB-Backend.html#创建数据库和用户">使用 MariaDB - 创建数据库和用户</a></p>
+<h2 id="我的客户端-桌面、移动、web-不工作-我无法登录或它抱怨证书无效"> 我的客户端(桌面、移动、Web)不工作，我无法登录或它抱怨证书无效</h2>
+<p>Bitwarden 客户端需要安全连接才能正常工作而不会出现任何问题。尽管有些客户端可以在没有安全连接的情况下工作，但我们不建议这样做。</p>
+<p>大多数情况下，当人们使用证书但仍有问题时，他们使用的是所谓的自签名证书。虽然这些可以提供安全连接，但某些平台不允许或不支持这一点。</p>
+<p>我们建议使用 Lets Encrypt 之类的服务来提供有效且大多数设备默认接受的证书。</p>
+<p>请参阅以下页面：</p>
+<ul>
+<li><a href="./../Deployment/Enabling-HTTPS.html">启用-HTTPS</a></li>
+<li><a href="./../Deployment/Running-a-private-vaultwarden-instance-with-Lets-Encrypt-certs.html">使用 Let's Encrypt 证书运行私有 vaultwarden 实例</a></li>
+</ul>
+<h2 id="为什么我看不到所有密码管理项目的图标"> 为什么我看不到所有密码管理项目的图标？</h2>
+<p>没有显示图标的原因有多种。 如果它只是用于一些密码管理项目，则可能是我们无法提取它。某些站点启用了一些保护，这会导致我们的实施失败。他们中的大多数需要 Javascript 才能工作。</p>
+<p>也可能是 Vaultwarden 服务器无法访问 Internet 或解析 DNS 查询。 您可以检查<code>/admin/diagnostics</code>页面，看看您是否可以解析 DNS 查询并连接到 Internet。 如果确实有效，则可能还有防火墙或传出 Internet 代理可能会阻止这些请求。</p>
+<h2 id="websocket-连接显示错误的-ip-地址"> Websocket 连接显示错误的 IP 地址</h2>
+<p>这不是我们可以解决的问题。我们使用的库不支持任何形式的<code>X-Forwarded-For</code>或<code>Forward</code>标头。</p>
+<p>除非您在没有任何代理的情况下直接运行 vaultwarden 或运行透明代理，否则它会始终显示所使用的反向代理的 IP，这可能会导致它显示正确的 IP。</p>
+<p>这不是记录的重要部分，如果您使用反向代理，您可能还会在其日志中看到此请求，该请求将具有正确的 IP。</p>
+<h2 id="我可以将-vaultwarden-作为-azure-webapp-运行吗"> 我可以将 Vaultwarden 作为 Azure WebApp 运行吗</h2>
+<p>不幸的是，Azure WebApp 使用 CIFS/Samba 作为不支持锁定的卷存储。这会导致 SQLite 数据库文件出现问题。 有两种方法可以解决这个问题。</p>
+<ol>
+<li>不要使用 SQLite，而是使用 MariaDB/MySQL 或 Posgresql 作为数据库后端。</li>
+<li>尝试使用 <code>ENABLE_DB_WAL</code> 环境变量禁用 WAL，方法是将其值设置为 <code>false</code>。这需要在一个新文件上完成，因此您需要删除之前创建的 <code>db.sqlite3</code> 文件并再次重新启动 Vaultwarden 应用程序。</li>
+</ol>
+<h2 id="我在常见问题解答中没有找到我的答案-下一步该怎么做"> 我在常见问题解答中没有找到我的答案，下一步该怎么做？</h2>
+<p>好吧，请尝试搜索并点击我们精彩的 <a href="https://github.com/dani-garcia/vaultwarden/wiki" target="_blank" rel="noopener noreferrer">Wiki</a>。 如果这对您没有帮助，请尝试查看 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse.group" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> .</p>
+<p>如果这也导致没有解决方案，您可以尝试搜索开放和封闭的 <a href="https://github.com/dani-garcia/vaultwarden/issues" target="_blank" rel="noopener noreferrer">问题</a>。</p>
+<p>如果您仍然没有找到答案，您可以在 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> 上开始一个主题.group/)，或加入我们的 <a href="https://matrix.to/#/#vaultwarden:matrix.org" target="_blank" rel="noopener noreferrer">聊天室</a>。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Vaultwarden</title>
       <link>https://codenoob.top/projects/vaultwarden/Home/</link>
       <guid isPermaLink="false">/projects/vaultwarden/Home/</guid>
@@ -12130,61 +12185,6 @@ export WEBSOCKET_ENABLED=true
 <p>要提出问题、提供建议、请求新功能或获得配置或安装软件的帮助，请<a href="https://vaultwarden.discourse.group/" target="_blank" rel="noopener noreferrer">使用论坛</a>。</p>
 <p>如果您发现 Vaultwarden 本身存在任何错误或崩溃，请<a href="https://github.com/dani-garcia/vaultwarden/issues/" target="_blank" rel="noopener noreferrer">创建问题</a>。但是，请确保没有任何类似的问题！</p>
 <p>如果您喜欢聊天，我们通常会在 Matrix 的 <a href="https://matrix.to/#/#vaultwarden:matrix.org" target="_blank" rel="noopener noreferrer">#vaultwarden:matrix.org</a> 房间闲逛。欢迎加入我们！</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>FAQ</title>
-      <link>https://codenoob.top/projects/vaultwarden/Home/FAQs.html</link>
-      <guid isPermaLink="false">/projects/vaultwarden/Home/FAQs.html</guid>
-      <source url="https://codenoob.top/rss.xml">FAQ</source>
-      <description>最值得信赖的开源密码管理器</description>
-      <category>项目</category>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="vaultwarden-是否与-bitwarden-项目或-8bit-solutions-llc-相关联"> Vaultwarden 是否与 Bitwarden 项目或 8bit Solutions LLC 相关联？</h2>
-<p>简短的回答，<strong>不</strong>。 有时两个项目的开发人员之间有一些联系，但没有合作。 除此之外，Vaultwarden 项目仅使用 8bit Solutions LLC 提供的 Web Vault 和一些补丁来使其与我们的实现一起工作。</p>
-<h2 id="vaultwarden-可以连接到-oracle-mysql-v8-x-数据库吗"> Vaultwarden 可以连接到 Oracle MySQL V8.x 数据库吗？</h2>
-<p>使用 Oracle MySQL v8.x 尝试启动 Vaultwarden 时，您可能会收到以下警告</p>
-<div><pre><code>[vaultwarden::util][WARN] Can&#39;t connect to database, retrying: DieselConError.
-[CAUSE] BadConnection(
-    &quot;Authentication plugin \&#39;caching_sha2_password\&#39; cannot be loaded: /usr/lib/x86_64-linux-gnu/mariadb18/plugin/caching_sha2_password.so: cannot open shared object file: No such file or directory&quot;,
-)
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>Oracle MySQL v8.x 默认使用更安全的密码散列方法，这很好，但目前我们的版本不支持。 您需要以特定方式创建 Vaultwarden 用户，以便它使用旧的本机密码散列。</p>
-<div><pre><code><span>-- 在 MySQLv8 安装上使用它</span>
-<span>CREATE</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>WITH</span> mysql_native_password <span>BY</span> <span>'yourpassword'</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>如果您已经创建了用户并且只想更改散列方法，请使用以下命令：</p>
-<div><pre><code><span>-- 将密码类型从 caching_sha2_password 更改为 native</span>
-<span>ALTER</span> <span>USER</span> <span>'vaultwarden'</span><span>@'localhost'</span> IDENTIFIED <span>WITH</span> mysql_native_password <span>BY</span> <span>'yourpassword'</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>另请参阅：<a href="./../Configuration/Using-the-MariaDB-Backend.html#创建数据库和用户">使用 MariaDB - 创建数据库和用户</a></p>
-<h2 id="我的客户端-桌面、移动、web-不工作-我无法登录或它抱怨证书无效"> 我的客户端(桌面、移动、Web)不工作，我无法登录或它抱怨证书无效</h2>
-<p>Bitwarden 客户端需要安全连接才能正常工作而不会出现任何问题。尽管有些客户端可以在没有安全连接的情况下工作，但我们不建议这样做。</p>
-<p>大多数情况下，当人们使用证书但仍有问题时，他们使用的是所谓的自签名证书。虽然这些可以提供安全连接，但某些平台不允许或不支持这一点。</p>
-<p>我们建议使用 Lets Encrypt 之类的服务来提供有效且大多数设备默认接受的证书。</p>
-<p>请参阅以下页面：</p>
-<ul>
-<li><a href="./../Deployment/Enabling-HTTPS.html">启用-HTTPS</a></li>
-<li><a href="./../Deployment/Running-a-private-vaultwarden-instance-with-Lets-Encrypt-certs.html">使用 Let's Encrypt 证书运行私有 vaultwarden 实例</a></li>
-</ul>
-<h2 id="为什么我看不到所有密码管理项目的图标"> 为什么我看不到所有密码管理项目的图标？</h2>
-<p>没有显示图标的原因有多种。 如果它只是用于一些密码管理项目，则可能是我们无法提取它。某些站点启用了一些保护，这会导致我们的实施失败。他们中的大多数需要 Javascript 才能工作。</p>
-<p>也可能是 Vaultwarden 服务器无法访问 Internet 或解析 DNS 查询。 您可以检查<code>/admin/diagnostics</code>页面，看看您是否可以解析 DNS 查询并连接到 Internet。 如果确实有效，则可能还有防火墙或传出 Internet 代理可能会阻止这些请求。</p>
-<h2 id="websocket-连接显示错误的-ip-地址"> Websocket 连接显示错误的 IP 地址</h2>
-<p>这不是我们可以解决的问题。我们使用的库不支持任何形式的<code>X-Forwarded-For</code>或<code>Forward</code>标头。</p>
-<p>除非您在没有任何代理的情况下直接运行 vaultwarden 或运行透明代理，否则它会始终显示所使用的反向代理的 IP，这可能会导致它显示正确的 IP。</p>
-<p>这不是记录的重要部分，如果您使用反向代理，您可能还会在其日志中看到此请求，该请求将具有正确的 IP。</p>
-<h2 id="我可以将-vaultwarden-作为-azure-webapp-运行吗"> 我可以将 Vaultwarden 作为 Azure WebApp 运行吗</h2>
-<p>不幸的是，Azure WebApp 使用 CIFS/Samba 作为不支持锁定的卷存储。这会导致 SQLite 数据库文件出现问题。 有两种方法可以解决这个问题。</p>
-<ol>
-<li>不要使用 SQLite，而是使用 MariaDB/MySQL 或 Posgresql 作为数据库后端。</li>
-<li>尝试使用 <code>ENABLE_DB_WAL</code> 环境变量禁用 WAL，方法是将其值设置为 <code>false</code>。这需要在一个新文件上完成，因此您需要删除之前创建的 <code>db.sqlite3</code> 文件并再次重新启动 Vaultwarden 应用程序。</li>
-</ol>
-<h2 id="我在常见问题解答中没有找到我的答案-下一步该怎么做"> 我在常见问题解答中没有找到我的答案，下一步该怎么做？</h2>
-<p>好吧，请尝试搜索并点击我们精彩的 <a href="https://github.com/dani-garcia/vaultwarden/wiki" target="_blank" rel="noopener noreferrer">Wiki</a>。 如果这对您没有帮助，请尝试查看 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse.group" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> .</p>
-<p>如果这也导致没有解决方案，您可以尝试搜索开放和封闭的 <a href="https://github.com/dani-garcia/vaultwarden/issues" target="_blank" rel="noopener noreferrer">问题</a>。</p>
-<p>如果您仍然没有找到答案，您可以在 <a href="https://github.com/dani-garcia/vaultwarden/discussions" target="_blank" rel="noopener noreferrer">Github 讨论</a> 或 <a href="https://vaultwarden.discourse" target="_blank" rel="noopener noreferrer">Vaultwarden 论坛</a> 上开始一个主题.group/)，或加入我们的 <a href="https://matrix.to/#/#vaultwarden:matrix.org" target="_blank" rel="noopener noreferrer">聊天室</a>。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -12292,7 +12292,7 @@ FROM caddy:latest
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h3 id="构建命令"> 构建命令</h3>
-<div><pre><code>docker build -t <span>[</span>你的名字<span>]</span>/caddycfdns。
+<div><pre><code><span>docker</span> build -t <span>[</span>你的名字<span>]</span>/caddycfdns。
 </code></pre>
 <div><span>1</span><br></div></div><h2 id="caddyfile-作为反向代理"> Caddyfile(作为反向代理)</h2>
 <div><pre><code><span><span>https://[您的域名]:443</span></span> <span>{</span>
@@ -12684,6 +12684,25 @@ DNS.2 = www.bitwarden.local
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto@latest/note/112543-581710.png" type="image/png"/>
     </item>
     <item>
+      <title>PHP实现随机图片展示</title>
+      <link>https://codenoob.top/tools/php-random-picture.html</link>
+      <guid isPermaLink="false">/tools/php-random-picture.html</guid>
+      <source url="https://codenoob.top/rss.xml">PHP实现随机图片展示</source>
+      <description>PHP实现随机图片展示</description>
+      <category>工具</category>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<br>
+<h2 id="主要代码如下"> 主要代码如下</h2>
+<div><pre><code><span><span>&lt;?php</span>
+<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>
+<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>
+<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>
+<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>
+<span>?></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>screentogif</title>
       <link>https://codenoob.top/tools/creat/screentogif.html</link>
       <guid isPermaLink="false">/tools/creat/screentogif.html</guid>
@@ -12753,25 +12772,6 @@ DNS.2 = www.bitwarden.local
 </li>
 </ul>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>PHP实现随机图片展示</title>
-      <link>https://codenoob.top/tools/php-random-picture.html</link>
-      <guid isPermaLink="false">/tools/php-random-picture.html</guid>
-      <source url="https://codenoob.top/rss.xml">PHP实现随机图片展示</source>
-      <description>PHP实现随机图片展示</description>
-      <category>工具</category>
-      <pubDate>Mon, 28 Sep 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<br>
-<h2 id="主要代码如下"> 主要代码如下</h2>
-<div><pre><code><span><span>&lt;?php</span>
-<span>$img_array</span> <span>=</span> <span>glob</span><span>(</span><span>'images/*.{gif,jpg,png,jpeg,webp,bmp}'</span><span>,</span> <span>GLOB_BRACE</span><span>)</span><span>;</span>
-<span>if</span><span>(</span><span>count</span><span>(</span><span>$img_array</span><span>)</span> <span>==</span> <span>0</span><span>)</span> <span>die</span><span>(</span><span>'没有图片文件。请先上传一些图片到 '</span><span>.</span><span>dirname</span><span>(</span><span>__FILE__</span><span>)</span><span>.</span><span>'/images/ 文件夹'</span><span>)</span><span>;</span>
-<span>header</span><span>(</span><span>'Content-Type: image/png'</span><span>)</span><span>;</span>
-<span>echo</span><span>(</span><span>file_get_contents</span><span>(</span><span>$img_array</span><span>[</span><span>array_rand</span><span>(</span><span>$img_array</span><span>)</span><span>]</span><span>)</span><span>)</span><span>;</span>
-<span>?></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>油猴脚本自动刷课</title>
@@ -12863,6 +12863,37 @@ DNS.2 = www.bitwarden.local
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/c76cb09df065af0af780aebf72c0bbaa.png" type="image/png"/>
     </item>
     <item>
+      <title>Eclipse Theia初体验</title>
+      <link>https://codenoob.top/tools/theia.html</link>
+      <guid isPermaLink="false">/tools/theia.html</guid>
+      <source url="https://codenoob.top/rss.xml">Eclipse Theia初体验</source>
+      <description>Eclipse Theia初体验</description>
+      <category>工具</category>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
+<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
+<p>至于为什么我说是学习神器，我们先体验一下再说</p>
+<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" loading="lazy"></p>
+<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
+<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
+<div><pre><code><span># Linux, macOS, or PowerShell</span>
+<span>docker</span> run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
+
+<span># Windows (cmd.exe)</span>
+<span>docker</span> run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
+<p>随便写点东西保存预览，整个流程非常的流畅</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" loading="lazy"></p>
+<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
+<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
+<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
+<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" type="image/png"/>
+    </item>
+    <item>
       <title>Typora直传图片文件方案</title>
       <link>https://codenoob.top/tools/typoraImg-tool.html</link>
       <guid isPermaLink="false">/tools/typoraImg-tool.html</guid>
@@ -12948,37 +12979,6 @@ echo $str . "\n";
 <p>成功！</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/152835-547872.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Eclipse Theia初体验</title>
-      <link>https://codenoob.top/tools/theia.html</link>
-      <guid isPermaLink="false">/tools/theia.html</guid>
-      <source url="https://codenoob.top/rss.xml">Eclipse Theia初体验</source>
-      <description>Eclipse Theia初体验</description>
-      <category>工具</category>
-      <pubDate>Mon, 11 Jan 2021 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>hello大家新的一年好啊！这是我2021年的第一个视频，最近也是比较忙，今天要和大家分享一个非常有趣的开源项目，也就是最近很多人 “扬言” 要替代vscode的IDE工具，全名是 Eclipse Theia（不要纠结我的发音）</p>
-<p>相信大家大学的时候或多或少都体验过Eclipse，玩过的朋友可以打个1；其实严格来说Vscode并不算是一个IDE，而是一个高级的记事本，但是他的拓展实在是多，生态丰富，逐步就成为了一个完善的开发工具</p>
-<p>至于为什么我说是学习神器，我们先体验一下再说</p>
-<p>今天要大家一起体验一下这个Theia，首先来到<a href="https://github.com/eclipse-theia/theia" target="_blank" rel="noopener noreferrer">项目地址</a>可以从标题看到这是一个主打 云端和本地 以及自定义的工具，今天先体验一下云端版本吧！</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" alt="#" loading="lazy"></p>
-<p>看这个界面其实和vscode是差不多的，其实vscode本来就有开源的云端版本<a href="https://github.com/cdr/code-server" target="_blank" rel="noopener noreferrer">code-server</a>,可以从<a href="https://che-incubator.github.io/vscode-theia-comparator/status.html" target="_blank" rel="noopener noreferrer">che-incubator.github.io</a>这个网页相对直观的比较Theia和vscode的区别，废话不多说我们跟着官方文档跑一个项目来试一试吧</p>
-<p>文档提供了Docker的启动方式，这就很舒服了，直接一个命令就跑起来吧</p>
-<div><pre><code><span># Linux, macOS, or PowerShell</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"<span><span>$(</span><span>pwd</span><span>)</span></span>:/home/project:cached"</span> theiaide/theia:next
-
-<span># Windows (cmd.exe)</span>
-docker run -it --init -p <span>3000</span>:3000 -v <span>"%cd%:/home/project:cached"</span> theiaide/theia:next
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>然后直接<code>http://localhost:3000/</code>打开界面，这是web的使用方式</p>
-<p>随便写点东西保存预览，整个流程非常的流畅</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/232429-377426.png" alt="#" loading="lazy"></p>
-<p>里面的拓展和设置都是和vscode一样的，并且是兼容vscode的插件的</p>
-<p>很多人就是会问好好的vscode不用，折腾这些东西干什么，其实我觉得存在即合理</p>
-<p>假如你有一个学生机服务器，或者你们的校园局域网是通的，跑一个服务在服务器或者是自己电脑上面，上机房课再也不用折腾环境了，回到寝室也可以马上继续开发；但是我觉得更多的作用其实是厂家的二次开发，比如小程序开发工具、各种特定语言的开发工具，都可以很方便的进行二次开发和优化；还有一些编程类的网站，放上一个Cloud IDE，调试是不是就更加的方便了呢</p>
-<p>好的今天的内容就到这里，如果视频对你有帮助的话可以给我一个三连！</p>
-]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/image/231937-610701.png" type="image/png"/>
     </item>
     <item>
       <title>Vue Devtools的安装</title>
