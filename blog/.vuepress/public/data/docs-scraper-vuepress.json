@@ -2,7 +2,22 @@
     "index_uid": "vuepress",
     "start_urls": ["https://codenoob.top/"],
     "sitemap_urls": ["https://codenoob.top/sitemap.xml"],
-    "stop_urls": ["https://codenoob.top/rss.xml", "https://codenoob.top/tag", "https://codenoob.top/category", "https://codenoob.top/404.html"],
+    "stop_urls": [
+        "https://codenoob.top/tag", 
+        "https://codenoob.top/category", 
+        "https://codenoob.top/404.html", 
+        "https://codenoob.top/timeline/", 
+        "https://codenoob.top/article", 
+        "https://codenoob.top/star", 
+        "https://codenoob.top/slide", 
+        "https://codenoob.top/encrypt", 
+        "https://codenoob.top/author.html", 
+        "https://codenoob.top/message.html", 
+        "https://codenoob.top/friends.html", 
+        "https://codenoob.top/projects/", 
+        "https://codenoob.top/latest.html", 
+        "https://codenoob.top/home.html"
+    ],
     "selectors": {
         "lvl0": {
             "selector": ".page-title h1 span",
