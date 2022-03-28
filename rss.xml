@@ -6,8 +6,8 @@
     <link>https://codenoob.top/</link>
     <description>编程菜鸟的自我修养</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 26 Mar 2022 03:57:26 GMT</pubDate>
-    <lastBuildDate>Sat, 26 Mar 2022 03:57:26 GMT</lastBuildDate>
+    <pubDate>Mon, 28 Mar 2022 13:12:31 GMT</pubDate>
+    <lastBuildDate>Mon, 28 Mar 2022 13:12:31 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>ChouCong | Theme-Hope</copyright>
@@ -2191,6 +2191,1009 @@ xusanduo<span>.</span>fire<span>(</span><span>)</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>初始化云硬盘</title>
+      <link>https://codenoob.top/daily/Initialize-cloud-disk.html</link>
+      <guid isPermaLink="false">/daily/Initialize-cloud-disk.html</guid>
+      <source url="https://codenoob.top/rss.xml">初始化云硬盘</source>
+      <description>初始化云硬盘</description>
+      <category>日常</category>
+      <pubDate>Tue, 30 Nov 2021 16:07:46 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="操作场景"> 操作场景</h2>
+<p>通过控制台创建的云硬盘在手动挂载后，作为轻量应用服务器的数据盘使用，默认为联机状态。您需登录实例，对数据盘进行格式化、分区及创建文件系统等初始化操作使其可用。本文介绍如何通过轻量应用服务器控制台，进行初始化云硬盘操作。</p>
+
+<h2 id="前提条件"> 前提条件</h2>
+<p>已 <a href="https://cloud.tencent.com/document/product/1207/63926" target="_blank" rel="noopener noreferrer">挂载云硬盘</a> 至轻量应用服务器。</p>
+<h2 id="注意事项"> 注意事项</h2>
+<ul>
+<li>您可先了解 <a href="https://cloud.tencent.com/document/product/362/17819#.E4.BA.91.E7.A1.AC.E7.9B.98.E4.BD.BF.E7.94.A8.E4.B8.8A.E6.9C.89.E4.BB.80.E4.B9.88.E6.B3.A8.E6.84.8F.E4.BA.8B.E9.A1.B9.EF.BC.9F" target="_blank" rel="noopener noreferrer">云硬盘使用注意事项</a> 后再对云硬盘进行相关操作，以免损坏重要数据。</li>
+<li>格式化数据盘会将数据全部清空，请确保数据盘中没有数据或已备份重要数据。</li>
+<li>为避免服务发生异常，格式化前请确保轻量应用服务器已停止对外服务。</li>
+</ul>
+<h2 id="操作步骤"> 操作步骤</h2>
+<h3 id="在裸设备上构建文件系统"> 在裸设备上构建文件系统</h3>
+<div><p>说明</p>
+<p>本文将以 CentOS 8.0 操作系统为例，不同操作系统的格式化操作可能不同，本文仅供参考。</p>
+</div>
+<ol>
+<li>
+<p>登录轻量应用服务器，详情请参见 <a href="https://cloud.tencent.com/document/product/1207/44642" target="_blank" rel="noopener noreferrer">使用 WebShell 方式登录 Linux 实例</a>。</p>
+</li>
+<li>
+<p>执行以下命令，查看磁盘名称。</p>
+<div><pre><code>sudo fdisk -l
+</code></pre>
+<div><span>1</span><br></div></div><p>回显信息类似如下图，表示当前轻量应用服务器有两块磁盘，<code>/dev/vda</code>为 50GB 的系统盘，<code>/dev/vdb</code>是新增数据盘。</p>
+<p><img src="https://cdn.zcily.life/image/aad842b12fec3ca583790bff609c9fb7.png!WebP" alt="磁盘信息" loading="lazy"></p>
+</li>
+<li>
+<p>执行以下命令，对<code>/dev/vdb</code>裸设备直接创建文件系统格式。</p>
+<div><pre><code>sudo mkfs -t &lt;文件系统格式&gt; /dev/vdb
+</code></pre>
+<div><span>1</span><br></div></div><p>不同文件系统支持的分区大小不同，请根据实际需求合理选择文件系统。以设置文件系统为<code>EXT4</code>为例，则执行以下命令：</p>
+<div><pre><code>sudo mkfs -t ext4 /dev/vdb
+</code></pre>
+<div><span>1</span><br></div></div><div><p>注意</p>
+<p>格式化需要等待一段时间，请观察系统运行状态，不要退出。</p>
+</div>
+</li>
+<li>
+<p>执行以下命令，新建挂载点。以新建挂载点<code>/data</code>为例，则执行以下命令：</p>
+<div><pre><code>sudo mkdir /data
+</code></pre>
+<div><span>1</span><br></div></div></li>
+<li>
+<p>执行以下命令，将设备挂载至新建的挂载点。以新建挂载点<code>/data</code>为例，则执行以下命令：</p>
+<div><pre><code>sudo mount /dev/vdb /data
+</code></pre>
+<div><span>1</span><br></div></div></li>
+<li>
+<p>执行以下命令，查看挂载结果。</p>
+<div><pre><code>sudo df -TH
+</code></pre>
+<div><span>1</span><br></div></div><p>返回类似如下图所示信息，表示<code>/dev/vdb</code>已挂载至<code>/data</code>。</p>
+<p>磁盘需在每次开机时挂载至实例，若您需设置开机自动挂载磁盘，请参考</p>
+<p>Linux 实例开机自动挂载磁盘</p>
+<p>进行设置。</p>
+</li>
+</ol>
+<h2 id="相关操作"> 相关操作</h2>
+<h3 id="linux-实例开机自动挂载磁盘"> Linux 实例开机自动挂载磁盘</h3>
+<ol>
+<li>
+<p>确认挂载方式并获取对应信息。</p>
+<p>您可以根据业务需求选择使用文件系统的 UUID（universally unique identifier）或设备名称自动挂载磁盘，相关说明和信息获取方式如下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">挂载方式</th>
+<th style="text-align:left">优缺点</th>
+<th style="text-align:left">信息获取方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">使用文件系统的 UUID</td>
+<td style="text-align:left">可能会因文件系统的 UUID 变化而导致自动挂载设置失效。 例如，重新格式化文件系统后，文件系统的 UUID 将会发生变化。</td>
+<td style="text-align:left">执行以下命令，查看文件系统的 UUID。 <code>sudo blkid /dev/vdb</code></td>
+</tr>
+<tr>
+<td style="text-align:left">使用设备名称</td>
+<td style="text-align:left">可能会因设备名称变化而导致自动挂载设置失效。</td>
+<td style="text-align:left">执行以下命令，查看设备名称。 <code>sudo fdisk -l</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>执行以下命令，备份<code>/etc/fstab</code>文件。以备份到<code>/home</code>目录下为例：</p>
+<div><pre><code>sudo cp -r /etc/fstab /home
+</code></pre>
+<div><span>1</span><br></div></div></li>
+<li>
+<p>执行以下命令，使用 VI 编辑器打开<code>/etc/fstab</code>文件。</p>
+<div><pre><code>sudo vi /etc/fstab
+</code></pre>
+<div><span>1</span><br></div></div></li>
+<li>
+<p>按 <strong>i</strong> 进入编辑模式。</p>
+</li>
+<li>
+<p>将光标移至文件末尾，按<strong>Enter</strong>，添加如下内容。</p>
+<div><pre><code>&lt;设备信息> &lt;挂载点> &lt;文件系统格式> &lt;文件系统安装选项> &lt;文件系统转储频率> &lt;启动时的文件系统检查顺序>
+</code></pre>
+<div><span>1</span><br></div></div><ul>
+<li>
+<p>以使用磁盘分区的 UUID 自动挂载为例，结合前文示例则添加：</p>
+<div><pre><code>UUID=d489ca1c-5057-4536-81cb-ceb2847f9954 /data ext4 defaults 0 0
+</code></pre>
+<div><span>1</span><br></div></div><p>若您需挂载分区，则结合前文示例则添加：</p>
+<div><pre><code>UUID=d489ca1c-5057-4536-81cb-ceb2847f9954 /data/newpart ext4 defaults 0 2
+</code></pre>
+<div><span>1</span><br></div></div></li>
+<li>
+<p>以使用设备名称自动挂载为例，结合前文示例则添加：</p>
+<div><pre><code>/dev/vdb /data ext4 defaults 0 0
+</code></pre>
+<div><span>1</span><br></div></div><p>若您需挂载分区，则结合前文示例则添加：</p>
+<div><pre><code>/dev/vdb1 /data/newpart /data/newpart ext4 defaults 0 2
+</code></pre>
+<div><span>1</span><br></div></div></li>
+</ul>
+</li>
+<li>
+<p>按 <strong>Esc</strong>，输入 <strong>:wq</strong> 并按 <strong>Enter</strong> 保存设置并退出编辑器。</p>
+</li>
+<li>
+<p>执行以下命令，检查</p>
+<p>/etc/fstab</p>
+<p>文件是否写入成功。</p>
+<div><pre><code>sudo mount -a
+</code></pre>
+<div><span>1</span><br></div></div><p>如果运行通过则说明文件写入成功，新建的文件系统会在操作系统启动时自动挂载。</p>
+</li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://cdn.zcily.life/image/aad842b12fec3ca583790bff609c9fb7.png!WebP" type="image/"/>
+    </item>
+    <item>
+      <title>添加看板娘</title>
+      <link>https://codenoob.top/daily/Live2d-added-to-site.html</link>
+      <guid isPermaLink="false">/daily/Live2d-added-to-site.html</guid>
+      <source url="https://codenoob.top/rss.xml">添加看板娘</source>
+      <description>添加看板娘</description>
+      <category>日常</category>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>刚把博客弄好，就开始各种折腾了，一直想加一个可以换装，可以对话的看板娘，于是看了各种教程，各种插件，添加看板娘，感觉都不太满意，自己动手。<a href="https://api.itggg.cn/dome.html" target="_blank" rel="noopener noreferrer">演示页</a></p>
+</blockquote>
+
+<h2 id="环境说明"> 环境说明</h2>
+<ul>
+<li>需要 <a href="http://www.fontawesome.com.cn/" target="_blank" rel="noopener noreferrer">Font Awesome</a> 支持，确保相关样式表已在页面中加载，否则换装等按钮不显示，如果不想要这些按钮就不用引入了（如果网页中已经加载了任何版本的 <code>Font Awesome</code> 就不要重复加载了）</li>
+<li>其他博客或者网站主题将这一行代码加入<code>&lt;head&gt;</code>或 <code>&lt;body&gt;</code>即可。</li>
+<li><code>Handsome</code>用户直接在：设置外观-开发者设置-自定义输出<code>header</code>头部的<code>HTML</code>代码</li>
+<li>最近 <code>jsdelivr</code>的国内速度已经不行了，elemecdn 的可以选择，当然也可以下载放在本地，看各位喜好 (<a href="https://p.tiax.cn/ALIYUN/font-awesome-4.7.0.zip" target="_blank" rel="noopener noreferrer">font-awesome-4.7.0.zip</a>)</li>
+</ul>
+<div><pre><code># jsdelivr
+<span><span><span>&lt;</span>link</span> <span>rel</span><span><span>=</span><span>"</span>stylesheet<span>"</span></span> <span>href</span><span><span>=</span><span>"</span>https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css<span>"</span></span> <span>/></span></span>
+
+# elemecdn
+<span><span><span>&lt;</span>link</span> <span>rel</span><span><span>=</span><span>"</span>stylesheet<span>"</span></span> <span>href</span><span><span>=</span><span>"</span>https://npm.elemecdn.com/font-awesome@4.7.0/css/font-awesome.min.css<span>"</span></span> <span>/></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="看板娘添加到网站"> 看板娘添加到网站</h2>
+<ul>
+<li>其他博客或者网站主题将这一行代码加入<code>&lt;head&gt;</code> 或 <code>&lt;body&gt;</code>就完事。</li>
+<li>Handsome 主题直接在：设置外观-开发者设置-自定义输出<code>body</code>尾部的<code>HTML</code>代码</li>
+</ul>
+<div><p>警告</p>
+<p>注：老版本，2022 年 5 月删除，请使用下方新版**</p>
+</div>
+<h2 id="新版"> <strong>新版</strong></h2>
+<div><pre><code><span><span><span>&lt;</span>script</span> <span>src</span><span><span>=</span><span>"</span>https://api.itggg.cn/live2dnew/left/index.js<span>"</span></span><span>></span></span><span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+<span><span><span>&lt;</span>script</span> <span>src</span><span><span>=</span><span>"</span>https://api.itggg.cn/live2dnew/right/index.js<span>"</span></span><span>></span></span><span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+#可选位置左右或右边
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p><strong>注意</strong>：如果网站启用了 <code>PJAX</code>，看板娘不必每页刷新，因此要注意将相关脚本放到 <code>PJAX</code> 刷新区域之外。</p>
+<h2 id="个性化参数"> 个性化参数</h2>
+<p><strong>1、指定首次加载的模型和皮肤</strong> , <code>JS</code> 传参即可，<code>modelId</code>是模型 ，<code>modelTexturesId</code> 是模型皮肤，模型 ID 和皮肤 ID，可以通过演示页面<code>F12</code>打开控制台日志查看。</p>
+<div><pre><code>localStorage.setItem('modelId', '7'); localStorage.setItem('modelTexturesId', '3');
+</code></pre>
+<div><span>1</span><br></div></div><p><strong>2、自定义看板娘大小</strong>，<code>CSS</code> 自定义即可，类名称 <code>#waifu #live2d</code> ，示例如下； 注意高度和宽度需要一样，因为容器是个正方形，不一致会变形。</p>
+<div><pre><code><span>&lt;style type="text/css">
+    #waifu #live2d</span> <span>{</span>
+        <span>height</span><span>:</span> 500px<span>!important</span><span>;</span>
+        <span>width</span><span>:</span> 500px<span>!important</span><span>;</span>
+    <span>}</span>
+&lt;/style>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p><strong>3、隐藏对话框和对话框高度</strong>，<code>CSS</code> 自定义即可，类名称 <code>#waifu-tips</code> ，示例如下；</p>
+<div><pre><code><span>&lt;style type="text/css">
+    #waifu-tips</span> <span>{</span>
+        <span>top</span><span>:</span> -60px<span>;</span>               #对话框高度
+        <span>display</span><span>:</span>none <span>!important</span><span>;</span>  #隐藏对话框
+    <span>}</span>
+&lt;/style>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><ul>
+<li>个性化演示如下，修改大小并指定首次加载模型；</li>
+</ul>
+<div><pre><code><span><span><span>&lt;</span>style</span> <span>type</span><span><span>=</span><span>"</span>text/css<span>"</span></span><span>></span></span><span><span>
+    <span>#waifu #live2d</span> <span>{</span>
+        <span>height</span><span>:</span> 500px <span>!important</span><span>;</span>
+        <span>width</span><span>:</span> 500px <span>!important</span><span>;</span>
+    <span>}</span>
+    <span>#waifu-tips</span> <span>{</span>
+        <span>top</span><span>:</span> -60px<span>;</span>
+        <span>/*display:none !important;隐藏对话框*/</span>
+    <span>}</span>
+</span></span><span><span><span>&lt;/</span>style</span><span>></span></span>
+<span><span><span>&lt;</span>script</span><span>></span></span><span><span>
+    localStorage<span>.</span><span>setItem</span><span>(</span><span>'modelId'</span><span>,</span> <span>'7'</span><span>)</span><span>;</span>
+    localStorage<span>.</span><span>setItem</span><span>(</span><span>'modelTexturesId'</span><span>,</span> <span>'3'</span><span>)</span><span>;</span>
+</span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><h2 id="插件版本"> 插件版本</h2>
+<p><a href="https://www.itggg.cn/fx/458.html" target="_blank" rel="noopener noreferrer">typecho 博客 Live2D 插件 插件相对于 Paul 的 Pio 插件，简化了很多，并且自动在手机端隐藏（Live2D 在手机端显示在百度站长移...</a></p>
+<h2 id="模型接口"> 模型接口</h2>
+<p>换装的后端和模型<code>API</code>接口由我这边提供，</p>
+<h2 id="移动端"> 移动端</h2>
+<p>移动端默认隐藏，有些手机加载卡的一匹，设备宽度低于<code>768PX</code>时，自动隐藏</p>
+<h2 id="更新记录"> 更新记录</h2>
+<ul>
+<li><code>2020-05-06</code>：修复后端接口初始化，看板娘模型下方有<code>1CM</code>间隔</li>
+<li><code>2020-05-30</code>：随着接口访问量日益巨大，截止<code>5</code>月底，已经请求了<code>600</code>万次了 <a href="https://itggg.cn/8.3/assets/img/emotion/aru/dead.png" target="_blank" rel="noopener noreferrer"><img src="https://cdn.zcily.life/image/dead.png!WebP" alt="img" loading="lazy"></a> 服务器负载天天<code>90%</code>,为了满足大家的需要，现在把接口数据都缓存在百度云<code>CDN</code>的，刷新时间<code>2h</code>，缓存生效后可以达到毫秒换装，请自己体验</li>
+<li><code>2020-05-30</code>：优化 CND 换装，重构前端模型，现在的模型看起来效果更精细</li>
+<li><code>2020-10-29</code>：修复在某些博客隐藏看板娘后，左侧召唤按钮被遮挡的<code>BUG</code></li>
+<li><code>2022-03-10</code>：优化接口速度，精简代码</li>
+<li><code>2022-03-19</code>：新增模型，优化接口速度</li>
+</ul>
+<h2 id="桌面版本"> 桌面版本</h2>
+<p><a href="https://github.com/zenghongtu/PPet" target="_blank" rel="noopener noreferrer">https://github.com/zenghongtu/PPet</a></p>
+<p>这位大佬开发的桌面版本，<code>WIN</code>和<code>MAC</code>都有，<code>Github</code>上不去的可以在网盘<a href="https://p.tiax.cn/ALIYUN/ppet.zip" target="_blank" rel="noopener noreferrer">ppet.zip</a>下载，打开即用，模型链接已经配置好了。</p>
+<p>接口模型<code>json</code>链接如下，模型会不定时更新~</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.zcily.life/image/dead.png!WebP" type="image/"/>
+    </item>
+    <item>
+      <title>VSCode快捷键</title>
+      <link>https://codenoob.top/daily/VSCode-shortcuts.html</link>
+      <guid isPermaLink="false">/daily/VSCode-shortcuts.html</guid>
+      <source url="https://codenoob.top/rss.xml">VSCode快捷键</source>
+      <description>VSCode快捷键</description>
+      <category>日常</category>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>原著作者：<a href="https://home.cnblogs.com/u/jpfss/" target="_blank" rel="noopener noreferrer">星朝</a></p>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl + Shift + P，F1</td>
+<td>显示命令面板 Show Command Palette</td>
+</tr>
+<tr>
+<td>Ctrl + P</td>
+<td>快速打开 Quick Open</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + N</td>
+<td>新窗口/实例 New window/instance</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + W</td>
+<td>关闭窗口/实例 Close window/instance</td>
+</tr>
+</tbody>
+</table>
+<h2 id="基础编辑-basic-editing"> 基础编辑 Basic editing</h2>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl+X</td>
+<td>剪切行（空选定） Cut line (empty selection)</td>
+</tr>
+<tr>
+<td>Ctrl+C</td>
+<td>复制行（空选定）Copy line (empty selection)</td>
+</tr>
+<tr>
+<td>Alt+ ↑ / ↓</td>
+<td>向上/向下移动行 Move line up/down</td>
+</tr>
+<tr>
+<td>Shift+Alt + ↓ / ↑</td>
+<td>向上/向下复制行 Copy line up/down</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+K</td>
+<td>删除行 Delete line</td>
+</tr>
+<tr>
+<td>Ctrl+Enter</td>
+<td>在下面插入行 Insert line below</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+Enter</td>
+<td>在上面插入行 Insert line above</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+\</td>
+<td>跳到匹配的括号 Jump to matching bracket</td>
+</tr>
+<tr>
+<td>Ctrl+] / [</td>
+<td>缩进/缩进行 Indent/outdent line</td>
+</tr>
+<tr>
+<td>Home</td>
+<td>转到行首 Go to beginning of line</td>
+</tr>
+<tr>
+<td>End</td>
+<td>转到行尾 Go to end of line</td>
+</tr>
+<tr>
+<td>Ctrl+Home</td>
+<td>转到文件开头 Go to beginning of file</td>
+</tr>
+<tr>
+<td>Ctrl+End</td>
+<td>转到文件末尾 Go to end of file</td>
+</tr>
+<tr>
+<td>Ctrl+↑ / ↓</td>
+<td>向上/向下滚动行 Scroll line up/down</td>
+</tr>
+<tr>
+<td>Alt+PgUp / PgDown</td>
+<td>向上/向下滚动页面 Scroll page up/down</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+[</td>
+<td>折叠（折叠）区域 Fold (collapse) region</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+]</td>
+<td>展开（未折叠）区域 Unfold (uncollapse) region</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+[</td>
+<td>折叠（未折叠）所有子区域 Fold (collapse) all subregions</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+]</td>
+<td>展开（未折叠）所有子区域 Unfold (uncollapse) all subregions</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+0</td>
+<td>折叠（折叠）所有区域 Fold (collapse) all regions</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+J</td>
+<td>展开（未折叠）所有区域 Unfold (uncollapse) all regions</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+C</td>
+<td>添加行注释 Add line comment</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+U</td>
+<td>删除行注释 Remove line comment</td>
+</tr>
+<tr>
+<td>Ctrl+/</td>
+<td>切换行注释 Toggle line comment</td>
+</tr>
+<tr>
+<td>Shift+Alt+A</td>
+<td>切换块注释 Toggle block comment</td>
+</tr>
+<tr>
+<td>Alt+Z</td>
+<td>切换换行 Toggle word wrap</td>
+</tr>
+</tbody>
+</table>
+<h2 id="导航-navigation"> 导航 Navigation</h2>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl + T</td>
+<td>显示所有符号 Show all Symbols</td>
+</tr>
+<tr>
+<td>Ctrl + G</td>
+<td>转到行... Go to Line...</td>
+</tr>
+<tr>
+<td>Ctrl + P</td>
+<td>转到文件... Go to File...</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + O</td>
+<td>转到符号... Go to Symbol...</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + M</td>
+<td>显示问题面板 Show Problems panel</td>
+</tr>
+<tr>
+<td>F8</td>
+<td>转到下一个错误或警告 Go to next error or warning</td>
+</tr>
+<tr>
+<td>Shift + F8</td>
+<td>转到上一个错误或警告 Go to previous error or warning</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + Tab</td>
+<td>导航编辑器组历史记录 Navigate editor group history</td>
+</tr>
+<tr>
+<td>Alt + ←/→</td>
+<td>返回/前进 Go back / forward</td>
+</tr>
+<tr>
+<td>Ctrl + M</td>
+<td>切换选项卡移动焦点 Toggle Tab moves focus</td>
+</tr>
+</tbody>
+</table>
+<h2 id="搜索和替换-search-and-replace"> 搜索和替换 Search and replace</h2>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl + F</td>
+<td>查找 Find</td>
+</tr>
+<tr>
+<td>Ctrl + H</td>
+<td>替换 Replace</td>
+</tr>
+<tr>
+<td>F3 / Shift + F3</td>
+<td>查找下一个/上一个 Find next/previous</td>
+</tr>
+<tr>
+<td>Alt + Enter</td>
+<td>选择查找匹配的所有出现 Select all occurences of Find match</td>
+</tr>
+<tr>
+<td>Ctrl + D</td>
+<td>将选择添加到下一个查找匹配 Add selection to next Find match</td>
+</tr>
+<tr>
+<td>Ctrl + K Ctrl + D</td>
+<td>将最后一个选择移至下一个查找匹配项 Move last selection to next Find match</td>
+</tr>
+<tr>
+<td>Alt + C / R / W</td>
+<td>切换区分大小写/正则表达式/整个词 Toggle case-sensitive / regex / whole word</td>
+</tr>
+</tbody>
+</table>
+<h2 id="多光标和选择-multi-cursor-and-selection"> 多光标和选择 Multi-cursor and selection</h2>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alt +单击</td>
+<td>插入光标 Insert cursor</td>
+</tr>
+<tr>
+<td>Ctrl + Alt +↑/↓</td>
+<td>在上/下插入光标 Insert cursor above / below</td>
+</tr>
+<tr>
+<td>Ctrl + U</td>
+<td>撤消上一个光标操作 Undo last cursor operation</td>
+</tr>
+<tr>
+<td>Shift + Alt + I</td>
+<td>在选定的每一行的末尾插入光标 Insert cursor at end of each line selected</td>
+</tr>
+<tr>
+<td>Ctrl + I</td>
+<td>选择当前行 Select current line</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + L</td>
+<td>选择当前选择的所有出现 Select all occurrences of current selection</td>
+</tr>
+<tr>
+<td>Ctrl + F2</td>
+<td>选择当前字的所有出现 Select all occurrences of current word</td>
+</tr>
+<tr>
+<td>Shift + Alt + →</td>
+<td>展开选择 Expand selection</td>
+</tr>
+<tr>
+<td>Shift + Alt + ←</td>
+<td>缩小选择 Shrink selection</td>
+</tr>
+<tr>
+<td>Shift + Alt + （拖动鼠标）</td>
+<td>列（框）选择 Column (box) selection</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + Alt +（箭头键）</td>
+<td>列（框）选择 Column (box) selection</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + Alt + PgUp / PgDown</td>
+<td>列（框）选择页上/下 Column (box) selection page up/down</td>
+</tr>
+</tbody>
+</table>
+<h2 id="丰富的语言编辑-rich-languages-editing"> 丰富的语言编辑 Rich languages editing</h2>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl + 空格</td>
+<td>触发建议 Trigger suggestion</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + Space</td>
+<td>触发器参数提示 Trigger parameter hints</td>
+</tr>
+<tr>
+<td>Tab</td>
+<td>Emmet 展开缩写 Emmet expand abbreviation</td>
+</tr>
+<tr>
+<td>Shift + Alt + F</td>
+<td>格式化文档 Format document</td>
+</tr>
+<tr>
+<td>Ctrl + K Ctrl + F</td>
+<td>格式选定区域 Format selection</td>
+</tr>
+<tr>
+<td>F12</td>
+<td>转到定义 Go to Definition</td>
+</tr>
+<tr>
+<td>Alt + F12</td>
+<td>Peek 定义 Peek Definition</td>
+</tr>
+<tr>
+<td>Ctrl + K F12</td>
+<td>打开定义到边 Open Definition to the side</td>
+</tr>
+<tr>
+<td>Ctrl + .</td>
+<td>快速解决 Quick Fix</td>
+</tr>
+<tr>
+<td>Shift + F12</td>
+<td>显示引用 Show References</td>
+</tr>
+<tr>
+<td>F2</td>
+<td>重命名符号 Rename Symbol</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + . /，</td>
+<td>替换为下一个/上一个值 Replace with next/previous value</td>
+</tr>
+<tr>
+<td>Ctrl + K Ctrl + X</td>
+<td>修剪尾随空格 Trim trailing whitespace</td>
+</tr>
+<tr>
+<td>Ctrl + K M</td>
+<td>更改文件语言 Change file language</td>
+</tr>
+</tbody>
+</table>
+<h2 id="编辑器管理-editor-management"> 编辑器管理 Editor management</h2>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl+F4, Ctrl+W</td>
+<td>关闭编辑器 Close editor</td>
+</tr>
+<tr>
+<td>Ctrl+K F</td>
+<td>关闭文件夹 Close folder</td>
+</tr>
+<tr>
+<td>Ctrl+\</td>
+<td>拆分编辑器 Split editor</td>
+</tr>
+<tr>
+<td>Ctrl+ 1 / 2 / 3</td>
+<td>聚焦到第 1，第 2 或第 3 编辑器组 Focus into 1st, 2nd or 3rd editor group</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+ ←/→</td>
+<td>聚焦到上一个/下一个编辑器组 Focus into previous/next editor group</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+PgUp / PgDown</td>
+<td>向左/向右移动编辑器 Move editor left/right</td>
+</tr>
+<tr>
+<td>Ctrl+K ← / →</td>
+<td>移动活动编辑器组 Move active editor group</td>
+</tr>
+</tbody>
+</table>
+<h2 id="文件管理-file-management"> 文件管理 File management</h2>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl+N</td>
+<td>新文件 New File</td>
+</tr>
+<tr>
+<td>Ctrl+O</td>
+<td>打开文件... Open File...</td>
+</tr>
+<tr>
+<td>Ctrl+S</td>
+<td>保存 Save</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+S</td>
+<td>另存为... Save As...</td>
+</tr>
+<tr>
+<td>Ctrl+K S</td>
+<td>全部保存 Save All</td>
+</tr>
+<tr>
+<td>Ctrl+F4</td>
+<td>关闭 Close</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+W</td>
+<td>关闭所有 Close All</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+T</td>
+<td>重新打开关闭的编辑器 Reopen closed editor</td>
+</tr>
+<tr>
+<td>Ctrl+K</td>
+<td>输入保持打开 Enter Keep Open</td>
+</tr>
+<tr>
+<td>Ctrl+Tab</td>
+<td>打开下一个 Open next</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+Tab</td>
+<td>打开上一个 Open previous</td>
+</tr>
+<tr>
+<td>Ctrl+K P</td>
+<td>复制活动文件的路径 Copy path of active file</td>
+</tr>
+<tr>
+<td>Ctrl+K R</td>
+<td>显示资源管理器中的活动文件 Reveal active file in Explorer</td>
+</tr>
+<tr>
+<td>Ctrl+K O</td>
+<td>显示新窗口/实例中的活动文件 Show active file in new window/instance</td>
+</tr>
+</tbody>
+</table>
+<h2 id="显示-display"> 显示 Display</h2>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F11</td>
+<td>切换全屏 Toggle full screen</td>
+</tr>
+<tr>
+<td>Shift+Alt+1</td>
+<td>切换编辑器布局 Toggle editor layout</td>
+</tr>
+<tr>
+<td>Ctrl+ = / -</td>
+<td>放大/缩小 Zoom in/out</td>
+</tr>
+<tr>
+<td>Ctrl+B</td>
+<td>切换侧栏可见性 Toggle Sidebar visibility</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+E</td>
+<td>显示浏览器/切换焦点 Show Explorer / Toggle focus</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+F</td>
+<td>显示搜索 Show Search</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+G</td>
+<td>显示 Git Show Git</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+D</td>
+<td>显示调试 Show Debug</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+X</td>
+<td>显示扩展 Show Extensions</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+H</td>
+<td>替换文件 Replace in files</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+J</td>
+<td>切换搜索详细信息 Toggle Search details</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+C</td>
+<td>打开新命令提示符/终端 Open new command prompt/terminal</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+U</td>
+<td>显示输出面板 Show Output panel</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+V</td>
+<td>切换 Markdown 预览 Toggle Markdown preview</td>
+</tr>
+<tr>
+<td>Ctrl+K V</td>
+<td>从旁边打开 Markdown 预览 Open Markdown preview to the side</td>
+</tr>
+</tbody>
+</table>
+<h2 id="调试-debug"> 调试 Debug</h2>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F9</td>
+<td>切换断点 Toggle breakpoint</td>
+</tr>
+<tr>
+<td>F5</td>
+<td>开始/继续 Start/Continue</td>
+</tr>
+<tr>
+<td>Shift+F5</td>
+<td>停止 Stop</td>
+</tr>
+<tr>
+<td>F11 / Shift+F11</td>
+<td>下一步/上一步 Step into/out</td>
+</tr>
+<tr>
+<td>F10</td>
+<td>跳过 Step over</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+I</td>
+<td>显示悬停 Show hover</td>
+</tr>
+</tbody>
+</table>
+<h2 id="集成终端-integrated-terminal"> 集成终端 Integrated terminal</h2>
+<table>
+<thead>
+<tr>
+<th>按 Press</th>
+<th>功能 Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl+`</td>
+<td>显示集成终端 Show integrated terminal</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+`</td>
+<td>创建新终端 Create new terminal</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+C</td>
+<td>复制选定 Copy selection</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+V</td>
+<td>粘贴到活动端子 Paste into active terminal</td>
+</tr>
+<tr>
+<td>Ctrl+↑ / ↓</td>
+<td>向上/向下滚动 Scroll up/down</td>
+</tr>
+<tr>
+<td>Shift+PgUp / PgDown</td>
+<td>向上/向下滚动页面 Scroll page up/down</td>
+</tr>
+<tr>
+<td>Ctrl+Home / End</td>
+<td>滚动到顶部/底部 Scroll to top/bottom</td>
+</tr>
+</tbody>
+</table>
+<p>参考文档：</p>
+<p><a href="https://www.cnblogs.com/jpfss/p/10956650.html" target="_blank" rel="noopener noreferrer">VScode 快捷键（最全）</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>你想要的微信聊天记录导出，这个免费软件做到了</title>
+      <link>https://codenoob.top/daily/WeChat-record-export.html</link>
+      <guid isPermaLink="false">/daily/WeChat-record-export.html</guid>
+      <source url="https://codenoob.top/rss.xml">你想要的微信聊天记录导出，这个免费软件做到了</source>
+      <description>你想要的微信聊天记录导出，这个免费软件做到了</description>
+      <category>日常</category>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><img src="https://cdn.zcily.life/image/v2-10a28349ad320b874d9c86842d388d2c_1440w.jpg!WebP" alt="你想要的微信聊天记录导出，这个免费软件做到了" loading="lazy"></p>
+<blockquote>
+<p>作者：<a href="https://link.zhihu.com/?target=https%3A//sspai.com/u/gij6gkdt/updates" target="_blank" rel="noopener noreferrer">JohnHarrod</a></p>
+</blockquote>
+<p>在开始写这篇文章之前，我一直都在思考一个问题，怎样才能写一个有趣而又不失严肃的开头。直到我想起来，我也有幸曾和这位「被上帝选中的人」同在一个园区上过班 —— 甚至是隔壁楼，以及我天天都在用的这款「像十年前那样简单小而美的产品」时，我仿佛突然有种油然而生的自豪感。</p>
+
+<p>然而沉浸在这种自豪感中还不到一秒，我的 CleanMyMac 就向我弹出了一条通知，「Mac 存储空间不足」，我才被拉回现实。我奇怪地想，到底是什么东西占据了我这么大的空间？打开 CleanMyMac 一看才发现，噢，原来就是这款小而美软件的聊天记录，刚好在几个小时前，我刚刚备份了聊天记录。</p>
+<p><img src="https://cdn.zcily.life/image/v2-3d0c3380ff3f7555c0417ce80d289d30_r.jpg!WebP" alt="img" loading="lazy"></p>
+<p>小龙哥用超前的产品经理思维告诉我，想要小而美，得加钱，下一次买 Mac，记得上 1TB 以上的硬盘。当然不加钱也有办法，看到左边的选择框了吧？勾选上，点移除就好了。啥？聊天记录？我们从不会看用户聊天记录，当然也不会保存你们的聊天记录了。噢你要导出啊？没这个功能。</p>
+<p>比起我们这群嘴上教小龙哥做产品的人不一样，<a href="https://www.zhihu.com/people/hangcom" target="_blank" rel="noopener noreferrer">hangcom</a> 则是用 WX Backup 微信聊天记录导出这个小工具，来让我们实现微信聊天记录的导出和保存。</p>
+<p><img src="https://cdn.zcily.life/image/v2-295fa5d7ef2b83d1b21ec06627e84529_r.jpg!WebP" alt="img" loading="lazy"></p>
+<h2 id="原理和用法"> 原理和用法</h2>
+<p>和以往使用微信电脑版通过无线备份到电脑不同，微信聊天记录导出通过读取 iOS 设备的本地未加密系统备份数据，来导出微信聊天记录。</p>
+<p>实际体验下来，微信聊天记录导出已经算得上是傻瓜式 App 了。App 支持 Windows 和 macOS，只需要通过访达或 iTunes 对你的 iPhone 做一次不加密备份，打开 App 就能自动获取到备份中的微信聊天数据。如果你有多个 iPhone 的备份或多个微信账号，还可以在上面的选项中进行选择。</p>
+<p>在设备和账号选择栏的下方，就是所有聊天记录的列表。尽管作者没有写各个项目的名称，但也不难猜到。第一二列自然不用说，第三列是群聊或朋友的微信 ID，第四列则是聊天记录的数目。说实话，当我看到有个群有 38 万多条聊天记录时，还是挺震惊的……</p>
+<p><img src="https://cdn.zcily.life/image/v2-df8bfad1c50bb1482fb0425f375f9548_r.jpg!WebP" alt="img" loading="lazy"></p>
+<p>顺带一提，我的微信聊天数据大约有 60GB，但加载的速度仍然非常快，几乎在一秒之内。</p>
+<p>也不知道作者是不是也因为面临和我一样的困境，因此支持了导出的存放目录。这样一来，我们便可以直接将导出的聊天记录写入到外置的硬盘或是 NAS 中，不占用本地的空间，并在需要时能够随时读取。</p>
+<p>设置好存放目录之后，点击对应的聊天选择导出，然后等待进度条跑完，聊天记录就导出完成了。导出的速度也非常快，27 万条聊天记录只需要不到 20 秒就导出完成了。</p>
+<p><img src="https://cdn.zcily.life/image/v2-c949746f53a4c05d06110f6d6fc4c3fd_r.jpg!WebP" alt="img" loading="lazy"></p>
+<p>如果你点击预览，便会进入到一个本地的网页，在这个网页下，你就可以浏览所有导出来的聊天记录了。在聊天记录的右侧，作者还提供了时间轴的选项，精确到月份。我们可以直接点击对应的时间，跳转到对应月份的聊天记录中。</p>
+<p><img src="https://cdn.zcily.life/image/v2-750d0c5873eb870c1c5c8524a706c4b9_r.jpg!WebP" alt="img" loading="lazy"></p>
+<p>从这个备份中可以看出，少数派的作（ge）者（zi）们在不到两年的时间，就创造了 27 万条聊天记录，不愧是一群大（gu）佬（gu）。</p>
+<p>在存放目录下，每个导出的聊天列表都会以「聊天对象_微信ID」为命名的文件夹打包，并分类成语音（audio）、图片（image）、视频（video），以及一些网页文件（css、img、index.html 等）。文字的聊天记录则是存在 <code>js - message.js</code> 文件中。</p>
+<p><img src="https://cdn.zcily.life/image/v2-ed2779425364fabb573a6cbc3bff3401_r.jpg!WebP" alt="img" loading="lazy"></p>
+<p>只要我们能保证这些文件不丢失，那么聊天记录就可以按需永久保存。如果你有足够大的云空间，你甚至可以上传云端，在任意有网络连接的地方进行访问。而手机上一些值得保存但已经很久没更新的聊天记录，也就可以放心删除，避免一直占用着手机空间了。</p>
+<p>对了，在官网的示例中还能发现，导出的聊天记录还会分类图片和视频，并在右上角提供选择。但是在我实际导出的少数派作者群聊天记录中，这两个按钮并没有出现，但文件夹中的图片和视频确实是已经导出来了的，可能是一个小 bug 吧。</p>
+<p><img src="https://cdn.zcily.life/image/v2-f55bfcde8998c6e30f91b0ffdcc8f4d9_r.jpg!WebP" alt="img" loading="lazy"></p>
+<h2 id="缺点和不足"> 缺点和不足</h2>
+<p>总体使用下来，软件的理解和操作并不难，但也有些缺点还是比较影响使用体验的。</p>
+<p>首先，在选择聊天列表时，每次只能选择一个。如果聊天列表不多倒不成问题，但如今相信谁都有好几百个甚至上千条，每导出一个就要重新点选列表操作一次，还是让人很抓狂的。</p>
+<p>其次，浏览页面的时间轴选项只精确到月份，因此当你要找当月中旬的聊天记录时，就会非常痛苦……尽管<code>Cmd ⌘ + F</code> 的网页搜索有一定帮助，但要精准找到某一条聊天记录的话，仍然要耗费不少时间。</p>
+<p>此外还有一个小问题 —— 如果你的聊天记录内容较多，那么每次点开导出记录的网页时，都要等待一定时间去渲染。以上面少数派 27 万多条聊天记录为例，渲染的时间大约需要 25 秒。</p>
+<p>最后，这个小工具只支持 iOS 设备，必须使用 iOS 的系统备份。如果你用的是 Android，那目前暂时无解。</p>
+<p><img src="https://cdn.zcily.life/image/v2-a54a22e6d0312b6f7c7a72d7b430d5c6_r.jpg!WebP" alt="img" loading="lazy"></p>
+<p>不过总的来说，微信聊天记录导出还是给了我们一种更多的选择吧。</p>
+<h2 id="隐私问题"> 隐私问题</h2>
+<p>相信涉及到聊天记录这种的软件，大家最关心的一定是隐私问题。这里我确实也不能保证开发者一定不会「留后门」，如果大家有了解信息安全这一块的朋友，可以从代码的角度看一看。</p>
+<p>不过从另一个角度来说，我想开发者大概也不会这么做吧。毕竟微信作为国民级的通信软件，如果造成了大量的用户隐私数据泄露，或是被黑产、广告商窃取，一旦被发现和举报，那么法律必然也会严惩。</p>
+<h2 id="coda-关于「回忆」的一点小废话"> Coda：关于「回忆」的一点小废话</h2>
+<p>在一段时间来看，个人数据与其说是存储空间的问题，倒不如说是整理的问题。然而人天生具有惰性，每当我们看着这些海量的数据时，却只想着一股脑先丢进去，然后再整理。因此我无数次地想过一个事情：我的照片图库不管是存在百度网盘，存在 Google Photo，存在 iCloud，还是存在本地的 NAS 上，无论在哪，他们都总会有存满的一天。到那一天，我应该怎么办？</p>
+<p>当这些数据越来越庞大，越来越难以寻找的时候，那些曾经我们觉得很重要的对话，很珍贵的照片，很感动的回忆，其实都没有我们所想象的那么具有价值。它们最后的命运，都是被尘封在一个个冰冷的芯片里，或许再也不曾翻起来过，或许在某天无意间被打开，再开始下一次重见天日的漫长等待。</p>
+<p>为了留存真正有价值的东西，人类从竹简碑刻一路走到了 0101。应该高兴的是，这个时代的人们可以有更多的选择，也正是科技带来的便利让每一个人都拥有了留存属于他珍贵回忆的能力。然而，尽管有这样那样的工具帮助我们，但与人，与回忆，与现实或虚拟的断舍离，才是人类永远无法逃离的宿命。</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.zcily.life/image/v2-10a28349ad320b874d9c86842d388d2c_1440w.jpg!WebP" type="image/"/>
+    </item>
+    <item>
+      <title>WechatExporter</title>
+      <link>https://codenoob.top/daily/WechatExporter.html</link>
+      <guid isPermaLink="false">/daily/WechatExporter.html</guid>
+      <source url="https://codenoob.top/rss.xml">WechatExporter</source>
+      <description>WechatExporter</description>
+      <category>日常</category>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p><a href="https://github.com/BlueMatthew/WechatExporter/" target="_blank" rel="noopener noreferrer">最新版本下载</a></p>
+</blockquote>
+<p>BUG!!! 1.8.0.7 以前的版本异步加载方式存在一个比较严重的小白 bug：当设置为滚动到页面底部异步加载时，越靠后面的页码，加载的消息数量越少；设置为页面打开全部消息异步加载时，消息只能加载到一半。如果 iTunes 备份还存在，请使用版本 1.8.0.8 重新导出一遍。如果过往的备份已经清除了，可以下载补丁程序<a href="https://github.com/BlueMatthew/WechatExporter/releases/download/v1.8.0.8/patch_x64_win.zip" target="_blank" rel="noopener noreferrer">Win64 版本</a>/<a href="https://github.com/BlueMatthew/WechatExporter/releases/download/v1.8.0.8/patch_x64_macos.zip" target="_blank" rel="noopener noreferrer">MacOS 64 版本</a>并解压，把wxexpatch.exe/wxexppatch拷贝到导出目录，并执行，来修复已经导出的页面（补丁修复的文件清单可查看日志文件 patch.log）。</p>
+<p>本程序参考 <a href="https://github.com/stomakun/WechatExport-iOS" target="_blank" rel="noopener noreferrer">https://github.com/stomakun/WechatExport-iOS</a> 修改成 C++来实现，便于在各个平台以更少依赖运行。同时增加了聊天群名称的解析支持和更多消息类型的导出支持。导出支持 Text、HTML、PDF 三种格式。</p>
+<ul>
+<li>导出的聊天记录页面可以设置为打开时一次性加载完成（默认方式）、打开时异步加载、页面滑动到底部时加载更多三种方式，可以在菜单“选项”中修改加载方式。</li>
+<li>可以在导出的页面增加过滤功能，功能也需要在菜单“选项”中设置。</li>
+<li>PDF 格式，实质是导出打开时一次性加载完成的 HTML 页面，然后通过 Google Chrome 或者 Microsoft Edge 浏览器的功能转成 PDF 文件，转 PDF 文件耗时较长，请不要关闭自动弹出的命令行窗口。</li>
+<li>增量导出：菜单“选项”中，如果设置了增量导出，则会仅仅导出上一次导出的最后一条消息之后的部分，通过此功能，再一次备份之后，微信中的聊天记录可以删除，下一次导出，可以把同一个聊天群的消息合并在一起。</li>
+</ul>
+<h2 id="操作步骤"> 操作步骤</h2>
+<ol>
+<li>
+<p>通过 iTunes 将手机备份到电脑上(备份时不要选择设置口令)，Windows 操作系统一般位于目录：C:\用户[用户名]\AppData\Roaming\Apple Computer\MobileSync\Backup\。Android 手机可以找一个 iPad/iPhone 设备，把聊天记录迁移到 iPad/iPhone 设备上，然后通过 iTunes 备份到电脑上。</p>
+<p><img src="https://cdn.zcily.life/image/125906418-090d4ac8-a2ba-4a26-9db2-c6dbed4b0a3c.png!WebP" alt="iTunesBackup-960" loading="lazy"></p>
+</li>
+<li>
+<p>下载执行文件（最新版本下载链接见上）。</p>
+</li>
+<li>
+<p>执行解压出来的 WechatExport.exe/WechatExporter.app (Windows 下如果运行报缺少必须的 dll 文件，请安装<a href="https://aka.ms/vs/16/release/vc_redist.x64.exe" target="_blank" rel="noopener noreferrer">Visual C++ 2017 redist</a>后再尝试运行)</p>
+</li>
+<li>
+<p>按界面提示进行操作。<br>
+<img src="https://cdn.zcily.life/image/win.png!WebP" alt="Windows界面截屏" loading="lazy"> <img src="https://cdn.zcily.life/image/mac.png!WebP" alt="MacOS界面截屏" loading="lazy"></p>
+</li>
+<li>
+<p>导出后的页面示例：<br>
+<img src="https://cdn.zcily.life/image/WechatExporter-demo.png!WebP" alt="导出后的页面示例截屏" loading="lazy"></p>
+</li>
+</ol>
+<p><a href="https://src.wakin.org/github/wxexp/demo/" target="_blank" rel="noopener noreferrer">点击链接可打开网页：https://src.wakin.org/github/wxexp/demo/</a></p>
+<h2 id="模版修改"> 模版修改</h2>
+<p>解压目录下的 res\templates(MacOS 版本位于 Contents\Resources\res)子目录里存放了输出聊天记录的 html 页面模版，其中通过两个%包含起来的字符串，譬如，%%NAME%%，不要修改之外，其它页面内容和格式都可以自行调整。</p>
+<p>特别感谢 Chao.M 帮忙优化当前的模版。</p>
+<h2 id="系统依赖"> 系统依赖</h2>
+<p>Windows 版本：Windows 7+(XP 不支持), <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe" target="_blank" rel="noopener noreferrer">Visual C++ 2017 redist</a> at <a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" target="_blank" rel="noopener noreferrer">The latest supported Visual C++ downloads</a><br>
+MacOS 版本：MacOS 10.10(Yosemite)+</p>
+<h2 id="程序编译"> 程序编译</h2>
+<p>程序依赖如下第三方库：</p>
+<ul>
+<li>libxml2: <a href="http://www.xmlsoft.org/" target="_blank" rel="noopener noreferrer">http://www.xmlsoft.org/</a></li>
+<li>libcurl: <a href="https://curl.se/libcurl/" target="_blank" rel="noopener noreferrer">https://curl.se/libcurl/</a></li>
+<li>libsqlite3: <a href="https://www.sqlite.org/index.html" target="_blank" rel="noopener noreferrer">https://www.sqlite.org/index.html</a></li>
+<li>libprotobuf: <a href="https://github.com/protocolbuffers/protobuf" target="_blank" rel="noopener noreferrer">https://github.com/protocolbuffers/protobuf</a></li>
+<li>libjsoncpp: <a href="https://github.com/open-source-parsers/jsoncpp" target="_blank" rel="noopener noreferrer">https://github.com/open-source-parsers/jsoncpp</a></li>
+<li>lame: <a href="http://lame.sourceforge.net/" target="_blank" rel="noopener noreferrer">http://lame.sourceforge.net/</a></li>
+<li>silk: <a href="https://github.com/collects/silk" target="_blank" rel="noopener noreferrer">https://github.com/collects/silk</a> (也参考了： <a href="https://github.com/kn007/silk-v3-decoder" target="_blank" rel="noopener noreferrer">https://github.com/kn007/silk-v3-decoder</a>)</li>
+<li>libplist: <a href="https://github.com/libimobiledevice/libplist" target="_blank" rel="noopener noreferrer">https://github.com/libimobiledevice/libplist</a>, <a href="https://github.com/libimobiledevice-win32/libplist" target="_blank" rel="noopener noreferrer">https://github.com/libimobiledevice-win32/libplist</a></li>
+<li>libiconv(windows only): <a href="https://www.gnu.org/software/libiconv/" target="_blank" rel="noopener noreferrer">https://www.gnu.org/software/libiconv/</a></li>
+<li>openssl(windows only)：<a href="https://github.com/openssl/openssl" target="_blank" rel="noopener noreferrer">https://github.com/openssl/openssl</a></li>
+<li>WTL (windows only)：<a href="https://sourceforge.net/projects/wtl/" target="_blank" rel="noopener noreferrer">https://sourceforge.net/projects/wtl/</a></li>
+</ul>
+<p>MacOS 下，libxml2,libcurl,libsqlite3 直接使用了 Xcode 自带的库，其它第三方库需自行编译。<br>
+libmp3lame 需手动删除文件 include/libmp3lame.sym 中的行：lame_init_old</p>
+<p>Windows 环境下，silk 自带 Visual Studio 工程文件，可以直接利用 Visual Studio 编译，其余除了 libplist 之外，都通过 vcpkg 可以编译。libplist 在 vcpkg 中也存在，但是在编译 x64-windows-static target 的时候报了错，于是直接通过 Visual Studio 建了工程进行编译。</p>
+<p>已测试 iTunes 和微信版本</p>
+<ul>
+<li>iTunes 12.3.3.17 + 微信 6.5.9</li>
+<li>iTunes 12.5.1.21 + 微信 6.3.30</li>
+<li>iTunes 12.10.10.2 + 微信 7.0.2</li>
+<li>iTunes 12.10.9.3 + 微信 7.0.15</li>
+<li>iTunes 12.9.5.5 + 微信 7.0.2</li>
+<li>Windows 10 + iTunes 12.11.0.26(Microsoft Store) + 微信 7.0.2</li>
+<li>Windows 10 + iTunes 12.11.0.26(Microsoft Store) + 微信 8.0.1</li>
+<li>Mac Catalina (Embedded iTunes) + 微信 8.0.1/8.0.2</li>
+<li>Windows 7 + iTunes 12.10.9.3 + 微信版本 8.0.2</li>
+<li>Windows 10 + iTunes 12.11.3.17 + 微信 8.0.7</li>
+<li>Windows 7 + iTunes 12.10.9.3/Mac Catalina (Embedded iTunes) + 微信 7.0.2 + iOS 9.3.5</li>
+<li>Windows + iTunes 12.10.3.1+ 微信 7.0.10 + iOS 13.3 (@lazybug163)</li>
+<li>MacOS 11.6（Embedded iTunes）+ iOS Version: 15.0 + 微信 8.0.9</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://cdn.zcily.life/image/125906418-090d4ac8-a2ba-4a26-9db2-c6dbed4b0a3c.png!WebP" type="image/"/>
+    </item>
+    <item>
       <title>Handsome 美化记录</title>
       <link>https://codenoob.top/daily/handsome-beautify-record.html</link>
       <guid isPermaLink="false">/daily/handsome-beautify-record.html</guid>
@@ -2761,6 +3764,47 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
       <enclosure url="https://codenoob.top/assets/img/qr_weixin.png" type="image/png"/>
     </item>
     <item>
+      <title>重置网络</title>
+      <link>https://codenoob.top/daily/reset-network.html</link>
+      <guid isPermaLink="false">/daily/reset-network.html</guid>
+      <source url="https://codenoob.top/rss.xml">重置网络</source>
+      <description>重置网络</description>
+      <category>日常</category>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="根据描述-大多和网络有关"> 根据描述，大多和网络有关</h2>
+<div><p>警告</p>
+<p>建议合法使用代理</p>
+</div>
+<p>可以尝试更换一个网络运营商（不同地区的同一个网络运营商也可能情况不同），例如链接一下手机数据流量的热点，看下情况。</p>
+<p>同时建议关闭代理，加速器后，重置一下网络</p>
+<h2 id="powershell"> PowerShell</h2>
+<p><code>鼠标右键单击开始菜单</code> → <code>Windows PowerShell (管理员)/WIndows11 中可能显示 Windows 终端（管理员）</code>→ 输入：</p>
+<ol>
+<li>netsh winsock reset
+（按下 Enter 键）</li>
+<li>netsh int ip reset
+（按下 Enter 键）</li>
+<li>ipconfig /release
+（按下 Enter 键）</li>
+<li>ipconfig /renew
+（按下 Enter 键）</li>
+<li>ipconfig /flushdns
+（按下 Enter 键）</li>
+<li>ipconfig /registerdns
+（按下 Enter 键）</li>
+<li>inetcpl.cpl
+▲（按下 Enter 键）（将打开 Internet 属性界面）▲</li>
+<li>ncpa.cpl
+◆（按下 Enter 键）（将打开网络链接面板）◆</li>
+</ol>
+<h2 id="internet-属性界面"> Internet 属性界面</h2>
+<p>▲ 在“Internet 属性界面”点击“高级”，点击“还原高级设置”，然后再点击“重置”（Windows11 中没有“重置”按钮，请忽略此步骤）。</p>
+<p>然后在上述选择框中找到：使用 TLS1.0→→ 使用 TLS1.1→→ 使用 TLS1.2→→ 使用 TLS1.3（实验），这 4 个打上勾，点击确定。▲</p>
+<p>◆ 在 “网络链接面板”，鼠标右键单击需要设置的网络适配器 →“属性””，在“网络”属性窗口中双击 “Internet 协议版本 4 (TCP / IPv4)”。选择“自动获得 IP 地址”，选择“自动获得 DNS 服务器地址”，点击“确定”。◆</p>
+<p>执行完毕上述方案后，重启设备。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>自学编程的疑问速答</title>
       <link>https://codenoob.top/daily/selfstudy.html</link>
       <guid isPermaLink="false">/daily/selfstudy.html</guid>
@@ -3167,6 +4211,140 @@ tags<span>.</span><span>forEach</span><span>(</span><span>tag</span> <span>=></s
 <p>对于这些软件仅仅是一些个人的短期体验，真正要找到合适的应用需要长时间的体验，希望大家都能找到适合自己的软件。</p>
 ]]></content:encoded>
       <enclosure url="https://cdn.jsdelivr.net/gh/Smart-Chou/webphoto/note/1d108b26d8362ddf28849af860be8e93.png" type="image/png"/>
+    </item>
+    <item>
+      <title>vuepress-plugin-meilisearch</title>
+      <link>https://codenoob.top/daily/vuepress-plugin-meilisearch.html</link>
+      <guid isPermaLink="false">/daily/vuepress-plugin-meilisearch.html</guid>
+      <source url="https://codenoob.top/rss.xml">vuepress-plugin-meilisearch</source>
+      <description>vuepress-plugin-meilisearch</description>
+      <category>日常</category>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>该插件用于让 Vuepress 的搜索栏支持全文搜索。</p>
+<ul>
+<li>当用户在搜索栏中输入字符串时，该插件会实时地向 meilisearch 服务器发出 AJAX 形式的查询请求，然后将查询结果显示在搜索栏下方。</li>
+</ul>
+<p>meilisearch 是一个开源的搜索引擎，采用 Rust 语言开发，借鉴了 Algolia 引擎，适合用于实现个人网站的搜索栏。</p>
+
+<ul>
+<li><a href="https://docs.meilisearch.com/" target="_blank" rel="noopener noreferrer">官网(opens new window)</a></li>
+<li>使用 meilisearch 的主要流程如下：
+<ol>
+<li>运行 meilisearch 服务器。</li>
+<li>执行 meilisearch 的 scrape 工具，抓取目标网站的内容信息，并送到 meilisearch 服务器中存储。 每当目标网站的内容更新时，就应该抓取一次。</li>
+<li>向 meilisearch 服务器发出 HTTP 查询请求，搜索某一字符串在目标网站上的位置。</li>
+</ol>
+</li>
+</ul>
+<div><p>着重提示</p>
+<p>插件、服务器、抓取程序，三者的适配（版本）要一致，不然会报错，无数据。可以在<a href="https://github.com/meilisearch" target="_blank" rel="noopener noreferrer">GIthub</a>查看三者版本</p>
+</div>
+<div><p>注</p>
+<p>此时文档所使用的版本：
+meilisearch: v0.26.1
+docs-scraper: v0.12.1
+vuepress-plugin-meilisearch: v0.12.1</p>
+</div>
+<h2 id="使用步骤"> 使用步骤</h2>
+<ol>
+<li>
+<p>启动 meilisearch 服务器：</p>
+<div><pre><code><span>docker</span> run -d --name meilisearch --restart<span>=</span>always <span>\</span>
+    -p <span>7700</span>:7700 <span>\</span>
+    -e <span>MEILI_HTTP_ADDR</span><span>=</span><span>0.0</span>.0.0:7700 <span>\</span>
+    -v /path/to/data.ms:/data.ms <span>\</span>
+    getmeili/meilisearch:v0.26.1
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><ul>
+<li>
+<p>启动 meilisearch 服务器时，默认没有设置密钥，允许用户访问任意 URL 。设置密钥就可以拒绝非法用户的访问。密钥尽量长一些。</p>
+</li>
+<li>
+<p>可以设置环境变量</p>
+<div><pre><code>MEILI_MASTER_KEY=******
+</code></pre>
+<div><span>1</span><br></div></div><p>即；</p>
+<div><pre><code><span>docker</span> run -d --name meilisearch --restart<span>=</span>always <span>\</span>
+-p <span>7700</span>:7700 <span>\</span>
+-e <span>MEILI_MASTER_KEY</span><span>=</span>myMasterKey <span>\</span>
+-e <span>MEILI_HTTP_ADDR</span><span>=</span><span>0.0</span>.0.0:7700 <span>\</span>
+-v /path/to/data.ms:/data.ms <span>\</span>
+getmeili/meilisearch:v0.26.1
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>作为主密钥，此时会自动生成私钥和公钥，发送以下 HTTP 请求即可查询到：</p>
+<div><pre><code><span>[</span>root@CentOS ~<span>]</span><span># curl \</span>
+<span>></span> -X GET <span>'http://ip:7700/keys'</span> <span>\</span>
+<span>></span> -H <span>'Authorization: Bearer myMasterKey'</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>会返回俩个密钥：<code>Default Search API Key</code> 和 <code>Default Admin API Key</code></p>
+</li>
+<li>
+<p>如果用户在发出的 HTTP 查询请求的 headers 中加上 <code>Default Admin API Key</code>（主密钥一般不用于查询），才有权访问除了 <code>/keys</code> 以外的 URL 。如果使用 Default Search API Key，则只有权查询 <code>/indexes</code> 下的部分内容。</p>
+</li>
+<li>
+<p>部署新的 meilisearch 时，索引不能向上兼容，需要清空 <code>/data.ms</code> 目录，重新生成索引。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>执行 meilisearch 的 scrape 工具：</p>
+<div><pre><code><span>docker</span> run -t --rm <span>\</span>
+    --network<span>=</span>host <span>\</span>
+    -e <span>MEILISEARCH_HOST_URL</span><span>=</span><span>'http://ip:7700'</span> <span>\</span>
+    -e <span>MEILISEARCH_API_KEY</span><span>=</span><span>'myMasterKey'</span> <span>\</span>
+    -v /path/to/docs-scraper.json:/docs-scraper/config.json <span>\</span>
+getmeili/docs-scraper:v0.12.1 pipenv run ./docs_scraper config.json
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>这里需要创建 scrape 的配置文件 docs-scraper.json ，如下：</p>
+<div><pre><code><span>{</span>
+    <span>"index_uid"</span><span>:</span> <span>"docs"</span><span>,</span> <span>// 索引 ID ，用于区分不同的抓取结果</span>
+    <span>"sitemap_urls"</span><span>:</span> <span>[</span><span>"http://test.com/sitemap.xml"</span><span>]</span><span>,</span>
+    <span>"start_urls"</span><span>:</span> <span>[</span><span>"http://test.com"</span><span>]</span><span>,</span> <span>// 待抓取的目标网站</span>
+    <span>"selectors"</span><span>:</span> <span>{</span>
+        <span>"lvl0"</span><span>:</span> <span>{</span>
+            <span>"selector"</span><span>:</span> <span>".sidebar-heading.open"</span><span>,</span>
+            <span>"global"</span><span>:</span> <span>true</span><span>,</span>
+            <span>"default_value"</span><span>:</span> <span>"Documentation"</span>
+        <span>}</span><span>,</span>
+        <span>"lvl1"</span><span>:</span> <span>".theme-default-content h1"</span><span>,</span>
+        <span>"lvl2"</span><span>:</span> <span>".theme-default-content h2"</span><span>,</span>
+        <span>"lvl3"</span><span>:</span> <span>".theme-default-content h3"</span><span>,</span>
+        <span>"lvl4"</span><span>:</span> <span>".theme-default-content h4"</span><span>,</span>
+        <span>"lvl5"</span><span>:</span> <span>".theme-default-content h5"</span><span>,</span>
+        <span>"text"</span><span>:</span> <span>".theme-default-content p, .theme-default-content li"</span>
+    <span>}</span><span>,</span>
+    <span>"strip_chars"</span><span>:</span> <span>" .,;:#"</span><span>,</span>
+    <span>"scrap_start_urls"</span><span>:</span> <span>true</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div></li>
+<li>
+<p>安装：<code>yarn add vuepress-plugin-meilisearch</code></p>
+</li>
+<li>
+<p>在 config.js 中添加如下配置：</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+    <span>plugins</span><span>:</span> <span>[</span>
+        <span>[</span>
+            <span>'vuepress-plugin-meilisearch'</span><span>,</span>
+            <span>{</span>
+                <span>hostUrl</span><span>:</span> <span>'http://ip:7700'</span><span>,</span> <span>// 该 URL 应该能在用户的浏览器上被访问，不能为 localhost</span>
+                <span>apiKey</span><span>:</span> <span>'Default Search API Key'</span><span>,</span> <span>// 这里应该使用 Search key</span>
+                <span>indexUid</span><span>:</span> <span>'docs'</span><span>,</span>
+                <span>placeholder</span><span>:</span> <span>'Search as you type...'</span><span>,</span> <span>// 在搜索栏中显示的占位符</span>
+                <span>maxSuggestions</span><span>:</span> <span>5</span><span>,</span> <span>// 最多显示几个搜索结果</span>
+                <span>cropLength</span><span>:</span> <span>30</span><span>,</span> <span>// 每个搜索结果最多显示多少个字符</span>
+            <span>}</span><span>,</span>
+        <span>]</span><span>,</span>
+    <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div></li>
+<li>
+<p>重新编译 Vuepress 网站。</p>
+</li>
+</ol>
+]]></content:encoded>
     </item>
     <item>
       <title>Windows 常见问题</title>
