@@ -32,7 +32,7 @@ const locale = {
 
 module.exports = config({
     title: 'CodeNoobs',
-    description: '编程菜鸟的自我修养',
+    description: '编程菜鸟的自我修养 & 对前端一窍不通，对后端一无所知 & 躺着敲代码是多么舒服的事,热爱一切！',
     host: '0.0.0.0',
     base: '/',
     dest: './dist',
@@ -40,6 +40,7 @@ module.exports = config({
         ['meta', { name: 'baidu-site-verification', content: 'code-E87rwPtGLL' }], //百度验证
         ['meta', { name: 'google-site-verification', content: 'i9llgSGLwQ5xvWGIdJRONZfTeCpJZxhjTPnZxfljuGo' }], //Google验证
         ['meta', { name: 'msvalidate.01', content: 'B9A0C43AD3B1BD529335A2616F235E46' }], //Bing验证
+        ['script', { async:'', defer:'', 'data-website-id':'258eccda-fe25-4677-84bd-8636b7c95eb6',src:'https://tongji.zcily.tk/umami.js'}],
         [
             'script',
             {},

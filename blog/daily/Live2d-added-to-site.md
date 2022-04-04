@@ -38,7 +38,7 @@ icon: live2d
 
 :::
 
-## **新版**
+## 新版
 
 ```html
 <script src="https://api.itggg.cn/live2dnew/left/index.js"></script>
