@@ -12,9 +12,9 @@
         "菜鸟编程"
     ],
     "scripts": {
-        "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev blog",
-        "clean": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev blog --no-cache",
-        "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build blog"
+        "dev": "vuepress dev blog",
+        "clean": "vuepress dev blog --no-cache",
+        "build": "vuepress build blog"
     },
     "dependencies": {
         "vuepress": "^1.9.9",
