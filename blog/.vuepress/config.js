@@ -40,7 +40,7 @@ module.exports = config({
         ['meta', { name: 'baidu-site-verification', content: 'code-E87rwPtGLL' }], //百度验证
         ['meta', { name: 'google-site-verification', content: 'i9llgSGLwQ5xvWGIdJRONZfTeCpJZxhjTPnZxfljuGo' }], //Google验证
         ['meta', { name: 'msvalidate.01', content: 'B9A0C43AD3B1BD529335A2616F235E46' }], //Bing验证
-        ['script', { async:'', defer:'', 'data-website-id':'258eccda-fe25-4677-84bd-8636b7c95eb6',src:'https://tongji.zcily.tk/umami.js'}],
+        ['script', { async:'', defer:'', 'data-website-id':'8fbfc813-98e3-4702-910f-a5d7f27a419d',src:'https://umami.marxchou.com/umami.js'}],
         [
             'script',
             {},
@@ -155,7 +155,7 @@ module.exports = config({
         },
         footer: {
             display: true,
-            content: '<a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备20006179号</a>',
+            content: '<a href="https://umami.marxchou.com/share/Knealdgj/CodeNoobs"><img src="https://cdn.zcily.life/image/umami-logo.svg" alt="Analytics"><span>提供统计</span></a>',
             copyright: 'ChouCong | Theme-Hope',
         },
         sitemap: {
