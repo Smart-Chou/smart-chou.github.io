@@ -28,5 +28,5 @@ project:
     desc: 快来看看吧！
     link: https://github.com/Smart-Chou
     cover: https://cdn.zcily.life/bg-th/3.png
-footer: <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备20006179号</a> | <a href="/author.html">关于</a>
+footer: <a href="https://umami.marxchou.com/share/Knealdgj/CodeNoobs"><img src="https://cdn.zcily.life/image/umami-logo.svg" alt="Analytics"><span>提供统计</span></a> | <a href="/author.html">关于</a>
 ---
