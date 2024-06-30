@@ -1,0 +1,1 @@
+import{S as r,v as e}from"./comment.8vg12Lrz.js";import{c as a}from"./hoisted.BchJIXeg.js";import"./BackToTop.astro_astro_type_script_index_0_lang.C5eaNCl2.js";document.addEventListener("astro:page-load",()=>{const o=a.serverUrl,t=window.location.pathname;r({serverURL:o,path:t}),e({serverURL:o,path:t})});

@@ -1,0 +1,1 @@
+document.addEventListener("astro:page-load",()=>{const o=document.getElementById("back-to-top");if(o){const t=()=>{window.scrollY>1e3?o.classList.add("active"):o.classList.remove("active")},e=()=>{window.scrollTo({top:0,behavior:"smooth"})};window.addEventListener("scroll",t),o.addEventListener("click",e)}});
