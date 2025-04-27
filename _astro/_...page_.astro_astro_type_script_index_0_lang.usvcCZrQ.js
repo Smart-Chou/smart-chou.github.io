@@ -1,0 +1,1 @@
+import{S as t}from"./pageview.C4Z48JRN.js";import{w as a}from"./__vite-browser-external.TQg3ofbU.js";typeof window<"u"&&document.addEventListener("astro:page-load",()=>{const e=a.serverUrl,o=window.location.pathname;try{t({serverURL:e,path:o,selector:".waline-pageview-count",update:!0})}catch(r){console.error("Failed to initialize Waline:",r)}});

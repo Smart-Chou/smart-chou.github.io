@@ -1,0 +1,1 @@
+import{S as o}from"./pageview.C4Z48JRN.js";import{w as a}from"./__vite-browser-external.TQg3ofbU.js";document.addEventListener("astro:page-load",()=>{const e=a.serverUrl,t=window.location.pathname;o({serverURL:e,path:t,selector:".waline-pageview-count",update:!0})});
