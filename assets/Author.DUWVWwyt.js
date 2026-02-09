@@ -1,0 +1,9 @@
+import { b as createComponent, m as maybeRenderHead, e as addAttribute, r as renderComponent, $ as $$Icon, d as renderTemplate } from './vendor.9hQ2Fjcw.js';
+import { b as author, g as categories, h as socialLinks } from './index.x_pSfnCt.js';
+/* empty css                         */
+
+const $$Author = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${maybeRenderHead()}<div class="author" data-astro-cid-2ri7i3m6> <img${addAttribute(`/${author.avatar}`, "src")} alt="Author" class="author__image" width="180" loading="eager" decoding="async" data-astro-cid-2ri7i3m6> <h1 class="author__site-title" data-astro-cid-2ri7i3m6>${author.type}</h1> <p class="author__intro" data-astro-cid-2ri7i3m6>${author.motto}</p> <p class="author__links" data-astro-cid-2ri7i3m6> ${categories.map((categorie) => renderTemplate`<a${addAttribute(categorie.url, "href")}${addAttribute(categorie.title, "title")} rel="noopener noreferrer" class="has-tooltip"${addAttribute(categorie.style, "style")}${addAttribute(categorie.title, "aria-label")} data-astro-cid-2ri7i3m6> ${renderComponent($$result, "Icon", $$Icon, { "name": categorie.svg, "data-astro-cid-2ri7i3m6": true })} </a>`)} </p> <p class="author__links" data-astro-cid-2ri7i3m6> ${socialLinks.map((social) => renderTemplate`<a${addAttribute(`social-${social.title}`, "data-key")}${addAttribute(social.url, "href")} target="_blank"${addAttribute(social.title, "title")} rel="noopener noreferrer" class="has-tooltip"${addAttribute(social.style, "style")}${addAttribute(social.title, "aria-label")} data-astro-cid-2ri7i3m6> ${renderComponent($$result, "Icon", $$Icon, { "name": social.svg, "data-astro-cid-2ri7i3m6": true })} </a>`)} </p> </div> `;
+}, "/home/runner/work/zcblog/zcblog/src/components/Author.astro", void 0);
+
+export { $$Author as $ };

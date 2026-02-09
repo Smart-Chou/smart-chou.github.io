@@ -1,0 +1,1 @@
+import{N as e}from"./ClientRouter.astro_astro_type_script_index_0_lang.B2qYQdMW.js";document.addEventListener("astro:page-load",()=>{e.configure({easing:"ease",speed:500,showSpinner:!1,parent:"#nprogress-container"}),e.set(.1),e.done()});

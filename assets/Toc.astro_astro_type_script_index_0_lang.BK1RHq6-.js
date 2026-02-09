@@ -1,0 +1,1 @@
+import{t}from"./ClientRouter.astro_astro_type_script_index_0_lang.B2qYQdMW.js";document.addEventListener("astro:page-load",()=>{t.init({tocSelector:".toc__content",contentSelector:"#post-content",headingSelector:"h2, h3",headingsOffset:80,scrollSmoothOffset:-80})});
