@@ -1,0 +1,280 @@
+<!DOCTYPE html><html lang="zh-CN" data-beasties-container><head><script>
+(function () {
+            try {
+                const applyThemeImmediately = () => {
+                    // 立即从 localStorage 读取主题偏好
+                    const savedTheme = localStorage.getItem("preferredTheme");
+                    const systemDark = window.matchMedia(
+                        "(prefers-color-scheme: dark)",
+                    ).matches;
+                    const isDark =
+                        savedTheme === "dark" ||
+                        (savedTheme === null && systemDark);
+                    const targetTheme = isDark ? "dark" : "light";
+
+                    const root = document.documentElement;
+                    const currentTheme = root.getAttribute("data-theme");
+
+                    // 如果主题已经正确设置，跳过更新以避免闪烁
+                    if (
+                        currentTheme === targetTheme &&
+                        root.classList.contains("dark") === isDark
+                    ) {
+                        return;
+                    }
+
+                    // 临时禁用过渡以防止闪烁
+                    root.classList.add("theme-no-transition");
+
+                    if (isDark) {
+                        root.classList.add("dark");
+                        root.setAttribute("data-theme", "dark");
+                    } else {
+                        root.classList.remove("dark");
+                        root.setAttribute("data-theme", "light");
+                    }
+
+                    // 强制重绘
+                    void root.offsetHeight;
+
+                    // 在下一帧恢复过渡，确保主题已应用
+                    requestAnimationFrame(() => {
+                        requestAnimationFrame(() => {
+                            root.classList.remove("theme-no-transition");
+
+                            // 更新主题切换按钮状态（如果存在）
+                            try {
+                                const themeBtn =
+                                    document.getElementById("theme-btn");
+                                if (themeBtn) {
+                                    themeBtn.setAttribute(
+                                        "data-theme",
+                                        targetTheme,
+                                    );
+                                }
+                            } catch (e) {
+                                // 静默失败
+                                console.debug("主题按钮更新失败:", e);
+                            }
+
+                            // 标记主题已就绪，供其他组件使用
+                            root.classList.add("theme-ready");
+                        });
+                    });
+                };
+
+                // 检查和修复 post-title 布局
+                const fixPostTitleLayout = () => {
+                    requestAnimationFrame(() => {
+                        const postTitles =
+                            document.querySelectorAll(".post-title");
+                        postTitles.forEach((title) => {
+                            // 强制重新计算布局
+                            void title.offsetHeight;
+
+                            // 检查是否居中
+                            const computedStyle =
+                                window.getComputedStyle(title);
+                            const marginLeft = computedStyle.marginLeft;
+                            const marginRight = computedStyle.marginRight;
+
+                            // 如果边距不是 auto，强制设置为 auto
+                            if (
+                                marginLeft !== "auto" ||
+                                marginRight !== "auto"
+                            ) {
+                                title.style.marginLeft = "auto";
+                                title.style.marginRight = "auto";
+                            }
+
+                            // 确保最大宽度正确
+                            if (computedStyle.maxWidth !== "860px") {
+                                title.style.maxWidth = "860px";
+                            }
+                        });
+                    });
+                };
+
+                // 初始应用 - 在 CSS 解析前设置主题
+                applyThemeImmediately();
+
+                // 初始修复 post-title 布局
+                fixPostTitleLayout();
+
+                // 监听页面加载和交换事件，确保主题正确应用
+                if (typeof document !== "undefined") {
+                    // View Transitions 页面交换后
+                    document.addEventListener("astro:after-swap", () => {
+                        applyThemeImmediately();
+                        fixPostTitleLayout();
+                    });
+                    // 常规页面加载（包括 SPA 导航）
+                    document.addEventListener("astro:page-load", () => {
+                        applyThemeImmediately();
+                        fixPostTitleLayout();
+                    });
+                }
+
+                // 页面加载完成后启用过渡效果
+                const enableTransitions = () => {
+                    document.documentElement.classList.add(
+                        "theme-transitions-enabled",
+                    );
+                    // DOM 加载完成后再次检查布局
+                    fixPostTitleLayout();
+                };
+
+                if (document.readyState === "loading") {
+                    document.addEventListener(
+                        "DOMContentLoaded",
+                        enableTransitions,
+                    );
+                } else {
+                    enableTransitions();
+                }
+
+                // 在页面完全加载后最后检查一次
+                window.addEventListener("load", () => {
+                    requestAnimationFrame(() => {
+                        fixPostTitleLayout();
+                    });
+                });
+            } catch (e) {
+                // 静默失败，后续脚本会处理
+                console.debug("主题快速设置失败:", e);
+            }
+        })();
+</script><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Wechat - Marx's Blog</title><meta name="title" content="Wechat - Marx's Blog"><meta name="description" content="Wechat - Welcome to Marx's Blog, where I share my journey as a noob developer. Here, you'll find insights, tutorials, and musings on programming, technology, and the challenges of learning to code. Join me as I navigate the world of software development and share my experiences along the way."><meta name="keywords" content="Wechat"><meta name="author" content="Marx Chou"><meta name="generator" content="Astro v6.0.2"><meta property="og:title" content="Wechat - Marx's Blog"><meta property="og:description" content="Wechat - Welcome to Marx's Blog, where I share my journey as a noob developer. Here, you'll find insights, tutorials, and musings on programming, technology, and the challenges of learning to code. Join me as I navigate the world of software development and share my experiences along the way."><meta property="og:image" content="https://marxchou.com/cover.png"><meta property="og:image:alt" content="Wechat"><meta property="og:image:width" content="1200"><meta property="og:image:type" content="image/png"><meta property="og:url" content="https://marxchou.com/tag/Wechat/"><meta property="og:secure_url" content="https://marxchou.com/tag/Wechat/"><meta property="og:site_name" content="Marx Chou"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2026-03-15T07:40:34.219Z"><meta property="og:type" content="website"><meta property="article:author" content="Marx Chou"><meta property="article:publisher" content="Marx Chou"><meta property="article:section" content="Marx Chou - A Noob Developer"><meta property="article:tag" content="Wechat"><meta property="article:published_time" content="2026-03-15T07:40:34.219Z"><meta property="article:modified_time" content="2026-03-15T07:40:34.219Z"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Wechat - Marx's Blog"><meta name="twitter:description" content="Wechat - Welcome to Marx's Blog, where I share my journey as a noob developer. Here, you'll find insights, tutorials, and musings on programming, technology, and the challenges of learning to code. Join me as I navigate the world of software development and share my experiences along the way."><meta name="twitter:image" content="https://marxchou.com/cover.png"><meta name="twitter:image:alt" content="Wechat"><meta name="twitter:url" content="https://marxchou.com/tag/Wechat/"><meta name="twitter:creator" content="@marxchou"><meta name="twitter:site" content="@marxchou"><meta name="robots" content="index, follow"><meta http-equiv="Content-Language" content="zh-CN"><meta name="theme-color" content="#ffffff"><meta name="x-astro-vitals-route" content="/"><link rel="sitemap" type="application/xml" href="https://marxchou.com/sitemap-index.xml"><link rel="icon" type="image/svg+xml" href="https://marxchou.com/favicon.svg"><link rel="icon" type="image/x-icon" href="/favicon.ico"><script type="application/ld+json">{"@context":"https://schema.org","@type":"website","headline":"Wechat - Marx's Blog","url":"https://marxchou.com/","dateModified":"2026-03-15T07:40:34.219Z","author":{"@type":"Person","name":"Marx Chou","url":"https://marxchou.com"}}</script><script type="text/partytown" src="https://umami.marxchou.com/script.js" defer data-website-id="73b29141-fccf-4d54-9c2f-f7d0d146f86b" data-domains="marxchou.com"></script><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.BHvkcFCZ.js"></script><link rel="canonical" href="https://marxchou.com/tag/Wechat/"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/rss.xml"><link rel="preconnect" href="https://pic.mcc.im" crossorigin><link rel="dns-prefetch" href="https://pic.mcc.im"><style>@layer reset{a,body,div,footer,h1,h2,header,html,img,kbd,p,span{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}header{display:block}body{line-height:1}}@layer variables{html{--base-font-size:16px;--base-font-family:Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Source Han Sans SC, Noto Sans CJK SC, Sarasa Gothic SC, Microsoft YaHei, sans-serif, Apple Color Emoji, Segoe UI Emoji;--title-font-family:Rubik, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Source Han Sans SC, Noto Sans CJK SC, Sarasa Gothic SC, Microsoft YaHei, sans-serif, Apple Color Emoji, Segoe UI Emoji;--monospace-font-family:IBM Plex Mono, Ubuntu Mono, Consolas, Liberation Mono, Menlo, monospace}html{--bg-color:#fafafa;--bg-color-rgb:250, 250, 250;--bg-content-color:#fff;--bg-content-color-lighten:#ffffffee;--bg-code:#f1f3f4;--text-code:#d400ff;--text-code-block:#37474f;--body-color:#000;--title-color:#000;--link-color:#0070f3;--border-color:rgba(0, 0, 0, .1);--selection-color:#79ffe1;--space:3.5rem;--content-width:860px;--header-height:60px;--radius:5px;--toast-width:400px;--shadow-small:1px 1px 10px 0 rgba(0, 0, 0, .2), 1px 1px 30px 0 rgba(0, 0, 0, .3);--accent-color:#0070f3}@media screen and (max-width:650px){html{--base-font-size:16px;--space:1.3rem;--header-height:60px;--toast-width:280px}}@media screen and (max-width:900px){html{--content-width:90vw}}@media screen and (max-width:480px){html{--space:1rem;--header-height:55px;--radius:4px}}}@layer base{html{font-size:var(--base-font-size);scrollbar-gutter:stable;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:subpixel-antialiased;-webkit-tap-highlight-color:rgba(0,0,0,0);touch-action:manipulation;-webkit-overflow-scrolling:touch}body{font-weight:400}*{box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{background-color:var(--bg-color);color:var(--body-color);transition:color .6s,background-color .6s;font-family:-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;margin:0;padding:0;line-height:1.5;min-height:100vh;display:flex;flex-direction:column}body ::-moz-selection{background-color:var(--selection-color)}body ::selection{background-color:var(--selection-color)}a:not(.button){color:var(--link-color);transition:opacity .2s}a:not(.button):hover{opacity:.8}img{height:auto;max-width:100%}#app{scroll-behavior:smooth;flex:1;display:flex;flex-direction:column}.main{padding:calc(1.5vw + var(--header-height)) 15px 0;flex:1}.content{max-width:var(--content-width);margin-inline:auto}@media screen and (max-width:768px){.main{padding:calc(1.5vw + 50px) 12px 0}.content-box{padding:calc(var(--space) * .75)}}@media screen and (max-width:480px){.main{padding:calc(1.5vw + 48px) 10px 0}}}@layer typography{body,p{font-family:var(--base-font-family)}p{margin-bottom:1.25em}h1,h2{transition:color .6s;color:var(--title-color);margin:2.75rem 0 1rem;font-family:var(--title-font-family);font-weight:600;line-height:1.5}h1{margin-top:0;font-size:1.802em}h2{font-size:1.602em}@media screen and (max-width:650px){h1{font-size:1.562em}h2{font-size:1.461em}}}@layer components{.content-box{background-color:var(--bg-content-color);max-width:var(--content-width);margin:0 auto;transition:background-color .6s;padding:var(--space);border-radius:var(--radius);box-shadow:1px 1px 5px #00000005,1px 1px 15px #00000008;transition:transform .3s,background-color .3s,box-shadow .6s;overflow-x:hidden}.text-center{text-align:center}.space-bottom{margin-bottom:var(--space)}header{display:flex;justify-content:space-between;align-items:center;width:100%}.logo{text-decoration:none;color:var(--body-color);font-size:.9em}.posts{display:flex;flex-direction:column;gap:var(--space);width:100%}.post-meta{font-size:.8em;opacity:.8}.post-meta{font-family:var(--base-font-family)}.post-card{margin-bottom:0;position:relative;content-visibility:auto;contain-intrinsic-size:0 320px}.post-card__title{margin-top:0}.post-card:hover{transform:translateY(-5px);box-shadow:1px 10px 30px #0000001a}.post-card__link{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;overflow:hidden;text-indent:-9999px;z-index:0}.feather.feather-moon,.feather.feather-sun{display:none}a{text-decoration:none}@media screen and (max-width:768px){site-search button[data-open-modal]{min-width:44px;min-height:44px;padding:10px}}}:root{--pagefind-ui-scale:.8;--pagefind-ui-primary:#393939;--pagefind-ui-text:#393939;--pagefind-ui-background:#ffffff;--pagefind-ui-border:#eeeeee;--pagefind-ui-tag:#eeeeee;--pagefind-ui-border-width:2px;--pagefind-ui-border-radius:8px;--pagefind-ui-image-border-radius:8px;--pagefind-ui-image-box-ratio:3 / 2;--pagefind-ui-font:system, -apple-system, "BlinkMacSystemFont", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "Ubuntu", "arial", sans-serif}@layer starlight.base{:root{--sl-color-white:hsl(224, 10%, 10%);--sl-color-gray-1:hsl(224, 14%, 16%);--sl-color-gray-2:hsl(224, 10%, 23%);--sl-color-gray-3:hsl(224, 7%, 36%);--sl-color-gray-4:hsl(224, 6%, 56%);--sl-color-gray-5:hsl(224, 6%, 77%);--sl-color-gray-6:hsl(224, 20%, 94%);--sl-color-black:hsl(0, 0%, 100%);--sl-color-accent-high:hsl(234, 80%, 30%);--sl-color-accent:hsl(234, 90%, 60%);--sl-color-accent-low:hsl(234, 88%, 90%);--sl-color-text:var(--sl-color-gray-2);--sl-color-text-accent:var(--sl-color-accent);--sl-color-text-invert:var(--sl-color-black);--sl-color-backdrop-overlay:hsla(225, 9%, 36%, .66);--sl-shadow-lg:0px 25px 7px rgba(0, 0, 0, .01), 0px 16px 6px hsla(0, 0%, 0%, .03), 0px 9px 5px hsla(223, 13%, 10%, .08), 0px 4px 4px hsla(0, 0%, 0%, .16), 0px 4px 2px hsla(0, 0%, 0%, .04);--sl-text-2xs:.75rem;--sl-text-sm:.875rem;--sl-text-xl:1.25rem;--sl-font-system:ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--__sl-font:var(--sl-font, var(--sl-font-system)), var(--sl-font-system)}}:root{--docsearch-primary-color:rgb(255, 81, 114);--docsearch-text-color:rgb(28, 30, 33);--docsearch-spacing:12px;--docsearch-icon-stroke-width:1.4;--docsearch-highlight-color:var(--docsearch-primary-color);--docsearch-muted-color:rgb(150, 159, 175);--docsearch-modal-container-background:rgba(101, 108, 133, .8);--docsearch-modal-width:560px;--docsearch-modal-height:600px;--docsearch-modal-background:rgb(245, 246, 247);--docsearch-modal-shadow:inset 1px 1px 0 0 rgba(255, 255, 255, .5), 0 3px 8px 0 rgba(85, 90, 100, 1);--docsearch-searchbox-height:56px;--docsearch-searchbox-background:rgb(235, 237, 240);--docsearch-searchbox-focus-background:#fff;--docsearch-searchbox-shadow:inset 0 0 0 2px var(--docsearch-primary-color);--docsearch-hit-height:56px;--docsearch-hit-color:rgb(68, 73, 80);--docsearch-hit-active-color:#fff;--docsearch-hit-background:#fff;--docsearch-hit-shadow:0 1px 3px 0 rgb(212, 217, 225);--docsearch-key-gradient:linear-gradient( -225deg, rgb(213, 219, 228) 0%, rgb(248, 248, 248) 100% );--docsearch-key-shadow:inset 0 -2px 0 0 rgb(205, 205, 230), inset 0 0 1px 1px #fff, 0 1px 2px 1px rgba(30, 35, 90, .4);--docsearch-footer-height:44px;--docsearch-footer-background:#fff;--docsearch-footer-shadow:0 -1px 0 0 rgb(224, 227, 232), 0 -3px 6px 0 rgba(69, 98, 155, .12);--docsearch-icon-color:rgb(21, 21, 21)}site-search{display:contents}button[data-open-modal]{align-items:center;background:var(--docsearch-searchbox-background);border:0;outline:none;border-radius:40px;color:var(--docsearch-muted-color);cursor:pointer;display:flex;font-weight:500;height:36px;padding:0 .5rem;user-select:none;gap:.5rem;font-size:var(--sl-text-xl)}@media(min-width:50rem){button[data-open-modal]{border:1px solid var(--sl-color-gray-5);border-radius:40px;padding:0 16px 0 8px;background:var(--docsearch-searchbox-background);color:var(--docsearch-muted-color);font-size:var(--sl-text-sm);width:100%;max-width:22rem;height:36px;font-weight:500}button[data-open-modal]:hover{border-color:var(--sl-color-gray-2);color:var(--docsearch-muted-color)}button[data-open-modal]>:last-child{margin-inline-start:auto}}button>kbd{border-radius:.25rem;font-size:var(--sl-text-2xs);gap:.25em;padding-inline:.375rem;background-color:var(--sl-color-gray-6)}kbd{font-family:var(--__sl-font)}dialog{margin:0;background-color:var(--sl-color-gray-6);border:1px solid var(--sl-color-gray-5);width:100%;max-width:100%;height:100%;max-height:100%;box-shadow:var(--sl-shadow-lg)}dialog::backdrop{background-color:var(--sl-color-backdrop-overlay);-webkit-backdrop-filter:blur(.25rem);backdrop-filter:blur(.25rem)}.dialog-frame{position:relative;overflow:auto;flex-direction:column;flex-grow:1;gap:1rem;padding:1rem}button[data-close-modal]{position:absolute;z-index:1;align-items:center;align-self:flex-end;height:calc(64px * var(--pagefind-ui-scale));padding:.25rem;border:0;background:transparent;cursor:pointer;color:var(--sl-color-text-accent)}#starlight__search{--pagefind-ui-primary:var(--sl-color-text);--pagefind-ui-text:var(--sl-color-gray-2);--pagefind-ui-font:var(--__sl-font);--pagefind-ui-background:var(--sl-color-black);--pagefind-ui-border:var(--sl-color-gray-5);--pagefind-ui-border-width:1px;--pagefind-ui-tag:var(--sl-color-gray-5);--sl-search-cancel-space:5rem}:root #starlight__search{--pagefind-ui-tag:var(--sl-color-gray-6)}@media(min-width:50rem){#starlight__search{--sl-search-cancel-space:0px}dialog{margin:4rem auto auto;border-radius:.5rem;width:90%;max-width:40rem;height:max-content;min-height:auto;max-height:calc(100% - 8rem)}.dialog-frame{padding:1.5rem}}#starlight__search{--sl-search-result-spacing:calc(1.25rem * var(--pagefind-ui-scale));--sl-search-result-pad-inline-start:calc( 3.75rem * var(--pagefind-ui-scale) );--sl-search-result-pad-inline-end:calc(1.25rem * var(--pagefind-ui-scale));--sl-search-result-pad-block:calc(.9375rem * var(--pagefind-ui-scale));--sl-search-result-nested-pad-block:calc( .625rem * var(--pagefind-ui-scale) );--sl-search-corners:calc(.3125rem * var(--pagefind-ui-scale));--sl-search-page-icon-size:calc(1.875rem * var(--pagefind-ui-scale));--sl-search-page-icon-inline-start:calc( ( var(--sl-search-result-pad-inline-start) - var(--sl-search-page-icon-size) ) / 2 );--sl-search-tree-diagram-size:calc(2.5rem * var(--pagefind-ui-scale));--sl-search-tree-diagram-inline-start:calc( ( var(--sl-search-result-pad-inline-start) - var(--sl-search-tree-diagram-size) ) / 2 )}html{--bg-color:#fafafa;--bg-color-rgb:250, 250, 250;--bg-content-color:#fff;--bg-content-color-lighten:#ffffffee;--bg-code:#f1f3f4;--text-code:#d400ff;--text-code-block:#37474f;--body-color:#000;--title-color:#000;--link-color:#0070f3;--border-color:rgba(0, 0, 0, .1);--selection-color:#79ffe1;--content-width:860px;--space:3.5rem}html,body{transition:none!important}body{background-color:var(--bg-color);color:var(--body-color)}.logo[data-astro-cid-tvrurpns]{margin-left:8px;display:flex;align-items:center}.logo__image[data-astro-cid-tvrurpns]{vertical-align:middle;border-radius:99px;height:2rem;width:2rem;margin-right:.5em}@layer starlight.utils{.sl-hidden[data-astro-cid-otpdt6jm]{display:none}.sl-flex[data-astro-cid-otpdt6jm]{display:flex}@media(min-width:50rem){.md\:sl-hidden[data-astro-cid-otpdt6jm]{display:none}.md\:sl-flex[data-astro-cid-otpdt6jm]{display:flex}.md\:sl-block[data-astro-cid-otpdt6jm]{display:block}}}kbd[data-astro-cid-otpdt6jm] kbd[data-astro-cid-otpdt6jm]{display:flex;align-items:center;justify-content:center;border-radius:3px;border:0px;padding:3px;background:var(--docsearch-key-gradient);box-shadow:var(--docsearch-key-shadow);color:var(--docsearch-muted-color)}.toggle-theme[data-astro-cid-cp4oi4cm]{background:none;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:10px;border-radius:50%;transition:all .3s ease;min-width:44px;min-height:44px}.toggle-theme[data-astro-cid-cp4oi4cm]:focus:not(:focus-visible){outline:none}.toggle-theme[data-astro-cid-cp4oi4cm]:hover{background-color:#0000001a;transform:scale(1.1);opacity:.8}.toggle-theme[data-astro-cid-cp4oi4cm] .feather[data-astro-cid-cp4oi4cm]{transition:all .3s ease}.toggle-theme[data-astro-cid-cp4oi4cm] .feather-sun[data-astro-cid-cp4oi4cm]{display:none;width:30px;height:30px;color:#f59e0b}.toggle-theme[data-astro-cid-cp4oi4cm] .feather-moon[data-astro-cid-cp4oi4cm]{display:block;width:30px;height:24px;color:#3b82f6}#nprogress-container[data-astro-cid-3ef6ksr2]{display:flex;align-items:center;min-height:var(--header-height);padding:0 calc(var(--space) / 2);top:0;left:0;right:0;background-color:#fff9;background-color:rgba(var(--bg-color-rgb),.6);-webkit-backdrop-filter:blur(32px);backdrop-filter:blur(32px);z-index:10;position:fixed;view-transition-name:none;transform:translateZ(0);will-change:transform}@media screen and (min-width:1300px){#nprogress-container[data-astro-cid-3ef6ksr2]{width:100%}}.fullwidth[data-astro-cid-3ef6ksr2]{max-width:var(--content-width);margin:0 auto;display:flex;flex:1;justify-content:space-between;align-items:center}.header__left[data-astro-cid-3ef6ksr2],.header__right[data-astro-cid-3ef6ksr2]{display:flex;align-items:center;font-family:var(--base-font-family)}@media screen and (max-width:768px){#nprogress-container[data-astro-cid-3ef6ksr2]{min-height:50px;padding:0 10px}.header__right[data-astro-cid-3ef6ksr2]{gap:8px}}@media screen and (max-width:480px){#nprogress-container[data-astro-cid-3ef6ksr2]{min-height:48px}}.footer[data-astro-cid-sz7xmlte]{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:var(--space) 15px var(--space);text-align:center;line-height:1.8;font-size:.9em;font-family:var(--base-font-family);margin-top:auto}.footer[data-astro-cid-sz7xmlte] a[data-astro-cid-sz7xmlte]{color:currentColor}.footer[data-astro-cid-sz7xmlte] img[data-astro-cid-sz7xmlte]{height:20px;width:auto}.footer__links[data-astro-cid-sz7xmlte]:has(img),#rss-stats[data-astro-cid-sz7xmlte]{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.35rem;margin-top:.5rem}@media screen and (max-width:768px){.footer[data-astro-cid-sz7xmlte]{padding:calc(var(--space) * .75) 12px calc(var(--space) * .75);font-size:.85em}.footer__links[data-astro-cid-sz7xmlte]:has(img),#rss-stats[data-astro-cid-sz7xmlte]{gap:.25rem}.footer[data-astro-cid-sz7xmlte] img[data-astro-cid-sz7xmlte]{height:18px}}@media screen and (max-width:480px){.footer[data-astro-cid-sz7xmlte]{padding:calc(var(--space) * .6) 10px calc(var(--space) * .6)}.footer__copyright[data-astro-cid-sz7xmlte] span[data-astro-cid-sz7xmlte]{display:block;margin-bottom:.5rem}.footer__links[data-astro-cid-sz7xmlte]:has(img){flex-direction:column;gap:.5rem}.footer[data-astro-cid-sz7xmlte] img[data-astro-cid-sz7xmlte]{height:16px}}</style><link rel="stylesheet" href="/assets/BaseLayout.CUu2bTCY.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/BaseLayout.CUu2bTCY.css"></noscript>
+<link rel="stylesheet" href="/assets/vendor.B63XUrlg.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/vendor.B63XUrlg.css"></noscript><script>!(function(w,p,f,c){if(!window.crossOriginIsolated && !navigator.serviceWorker) return;c=w[p]=Object.assign(w[p]||{},{"lib":"/~partytown/","debug":false});c[f]=(c[f]||[])})(window,'partytown','forward');/* Partytown 0.11.2 - MIT QwikDev */
+const t={preserveBehavior:!1},e=e=>{if("string"==typeof e)return[e,t];const[n,r=t]=e;return[n,{...t,...r}]},n=Object.freeze((t=>{const e=new Set;let n=[];do{Object.getOwnPropertyNames(n).forEach((t=>{"function"==typeof n[t]&&e.add(t)}))}while((n=Object.getPrototypeOf(n))!==Object.prototype);return Array.from(e)})());!function(t,r,o,i,a,s,c,l,d,p,u=t,f){function h(){f||(f=1,"/"==(c=(s.lib||"/~partytown/")+(s.debug?"debug/":""))[0]&&(d=r.querySelectorAll('script[type="text/partytown"]'),i!=t?i.dispatchEvent(new CustomEvent("pt1",{detail:t})):(l=setTimeout(v,(null==s?void 0:s.fallbackTimeout)||1e4),r.addEventListener("pt0",w),a?y(1):o.serviceWorker?o.serviceWorker.register(c+(s.swPath||"partytown-sw.js"),{scope:c}).then((function(t){t.active?y():t.installing&&t.installing.addEventListener("statechange",(function(t){"activated"==t.target.state&&y()}))}),console.error):v())))}function y(e){p=r.createElement(e?"script":"iframe"),t._pttab=Date.now(),e||(p.style.display="block",p.style.width="0",p.style.height="0",p.style.border="0",p.style.visibility="hidden",p.setAttribute("aria-hidden",!0)),p.src=c+"partytown-"+(e?"atomics.js?v=0.11.2":"sandbox-sw.html?"+t._pttab),r.querySelector(s.sandboxParent||"body").appendChild(p)}function v(n,o){for(w(),i==t&&(s.forward||[]).map((function(n){const[r]=e(n);delete t[r.split(".")[0]]})),n=0;n<d.length;n++)(o=r.createElement("script")).innerHTML=d[n].innerHTML,o.nonce=s.nonce,r.head.appendChild(o);p&&p.parentNode.removeChild(p)}function w(){clearTimeout(l)}s=t.partytown||{},i==t&&(s.forward||[]).map((function(r){const[o,{preserveBehavior:i}]=e(r);u=t,o.split(".").map((function(e,r,o){var a;u=u[o[r]]=r+1<o.length?u[o[r]]||(a=o[r+1],n.includes(a)?[]:{}):(()=>{let e=null;if(i){const{methodOrProperty:n,thisObject:r}=((t,e)=>{let n=t;for(let t=0;t<e.length-1;t+=1)n=n[e[t]];return{thisObject:n,methodOrProperty:e.length>0?n[e[e.length-1]]:void 0}})(t,o);"function"==typeof n&&(e=(...t)=>n.apply(r,...t))}return function(){let n;return e&&(n=e(arguments)),(t._ptf=t._ptf||[]).push(o,arguments),n}})()}))})),"complete"==r.readyState?h():(t.addEventListener("DOMContentLoaded",h),t.addEventListener("load",h))}(window,document,navigator,top,window.crossOriginIsolated);;(e=>{e.addEventListener("astro:before-swap",e=>{let r=document.body.querySelector("iframe[src*='/~partytown/']");if(r)e.newDocument.body.append(r)})})(document);</script></head><body><div id="app"><header id="nprogress-container" role="banner" data-astro-cid-3ef6ksr2><div class="fullwidth" data-astro-cid-3ef6ksr2><div class="header__left" data-astro-cid-3ef6ksr2><a class="logo" href="/" data-astro-cid-tvrurpns><span class="logo__text" data-astro-cid-tvrurpns><img src="/assets/logo.BUIc1D8i_Z1NnUcE.svg" alt="Blog Logo" loading="eager" data-astro-cid-tvrurpns="true" decoding="async" width="600" height="600" class="logo__image"> Marx's Blog</span></a></div><div class="header__right" data-astro-cid-3ef6ksr2><site-search data-translations="{&quot;placeholder&quot;:&quot;搜索&quot;}" data-astro-cid-otpdt6jm="true"><button data-open-modal disabled aria-label="搜索" aria-keyshortcuts="Control+K" aria-haspopup="dialog" data-astro-cid-otpdt6jm><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-hidden="true" data-astro-cid-otpdt6jm="true"><title>Search icon</title><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg> <span class="sl-hidden md:sl-block" aria-hidden="true" data-astro-cid-otpdt6jm>搜索</span> <kbd class="sl-hidden md:sl-flex" style="display: none;" data-astro-cid-otpdt6jm><kbd data-astro-cid-otpdt6jm>Ctrl</kbd><kbd data-astro-cid-otpdt6jm>K</kbd></kbd></button><dialog style="padding:0" aria-label="搜索" data-astro-cid-otpdt6jm><div class="dialog-frame sl-flex" data-astro-cid-otpdt6jm><button data-close-modal class="sl-flex md:sl-hidden" data-astro-cid-otpdt6jm>取消</button><div class="search-container" data-astro-cid-otpdt6jm><div id="starlight__search" data-astro-cid-otpdt6jm></div></div></div></dialog></site-search><script type="module" src="/_astro/Search.astro_astro_type_script_index_0_lang.BULtWZmz.js"></script><span style="margin: 0 0.2rem;" data-astro-cid-3ef6ksr2></span> <button id="theme-btn" role="button" aria-label="切换主题" aria-pressed="false" class="toggle-theme" tabindex="0" data-astro-cid-cp4oi4cm><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun" role="img" data-astro-cid-cp4oi4cm="true"><title>Sun icon</title><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon" role="img" data-astro-cid-cp4oi4cm="true"><title>Moon icon</title><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/><path d="M19 3v4"/><path d="M21 5h-4"/></svg></button><script>
+(function () {
+        const STORAGE_KEY = "preferredTheme";
+
+        const getStoredTheme = () => {
+            if (typeof localStorage === "undefined") return null;
+            return localStorage.getItem(STORAGE_KEY);
+        };
+
+        const getSystemTheme = () => {
+            return window.matchMedia("(prefers-color-scheme: dark)").matches
+                ? "dark"
+                : "light";
+        };
+
+        const getCurrentTheme = () => {
+            return getStoredTheme() || getSystemTheme();
+        };
+
+        const setTheme = (theme) => {
+            const root = document.documentElement;
+
+            if (theme === "dark") {
+                root.classList.add("dark");
+                root.setAttribute("data-theme", "dark");
+            } else {
+                root.classList.remove("dark");
+                root.setAttribute("data-theme", "light");
+            }
+
+            if (typeof localStorage !== "undefined") {
+                localStorage.setItem(STORAGE_KEY, theme);
+            }
+
+            updateButton(theme);
+        };
+
+        const updateButton = (theme) => {
+            const btn = document.getElementById("theme-btn");
+            if (!btn) return;
+
+            const isDark = theme === "dark";
+            btn.setAttribute("data-theme", theme);
+            btn.setAttribute(
+                "aria-label",
+                isDark ? "切换为浅色模式" : "切换为深色模式",
+            );
+            btn.setAttribute("aria-pressed", isDark.toString());
+        };
+
+        // 从 DOM 读取当前主题（优先于 localStorage）
+        const getThemeFromDOM = () => {
+            const root = document.documentElement;
+            const domTheme = root.getAttribute("data-theme");
+            if (domTheme === "dark" || domTheme === "light") {
+                return domTheme;
+            }
+            // 回退到 class
+            if (root.classList.contains("dark")) {
+                return "dark";
+            }
+            return getCurrentTheme(); // 最终回退
+        };
+
+        const toggleTheme = () => {
+            const currentTheme = getThemeFromDOM();
+            const newTheme = currentTheme === "dark" ? "light" : "dark";
+            setTheme(newTheme);
+        };
+
+        const initThemeToggle = () => {
+            const btn = document.getElementById("theme-btn");
+            if (!btn) return;
+
+            // 优先使用按钮已有的 data-theme 属性（由 BaseHead 设置）
+            let currentTheme = btn.getAttribute("data-theme");
+
+            if (
+                !currentTheme ||
+                (currentTheme !== "dark" && currentTheme !== "light")
+            ) {
+                // 回退到从 DOM 读取
+                currentTheme = getThemeFromDOM();
+            }
+
+            updateButton(currentTheme);
+
+            if (!btn.dataset.initialized) {
+                btn.addEventListener("click", toggleTheme);
+
+                btn.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        toggleTheme();
+                    }
+                });
+
+                btn.dataset.initialized = "true";
+            }
+        };
+
+        // 使用 window 属性跨页面持久化，防止 View Transitions 导致重复注册监听器
+        if (!window.__themeInitialized) {
+            window
+                .matchMedia("(prefers-color-scheme: dark)")
+                .addEventListener("change", (e) => {
+                    if (!getStoredTheme()) {
+                        setTheme(e.matches ? "dark" : "light");
+                    }
+                });
+            window.__themeInitialized = true;
+        }
+
+        if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", initThemeToggle);
+        } else {
+            initThemeToggle();
+        }
+
+        document.addEventListener("astro:page-load", initThemeToggle);
+    })();
+</script></div></div></header><script type="module" src="/_astro/Header.astro_astro_type_script_index_0_lang.BQQ6HCcg.js"></script><main class="main"><div class="content"><h1 class="tag-title text-center space-bottom"># Wechat</h1><div class="posts"><div class="post-card content-box"><div class="post-card__content"><h2 class="post-card__title">你想要的微信聊天记录导出，这个免费软件做到了</h2><p class="post-card__description">作者：JohnHarrod 在开始写这篇文章之前，我一直都在思考一个问题，怎样才能写一个有趣而又不失严肃的开 头。直到我想起来，...</p><div class="post-meta post-card__meta">
+Posted 2021-12-30.&nbsp;&nbsp;
+<span id="word-count">2164 words.</span>&nbsp;
+<span id="read-time">11 min read.</span>&nbsp;
+<span class="waline-pageview-count" data-path="/article/wechat-record-export/">0</span> <span>views.&nbsp;</span></div><a href="/article/wechat-record-export/" class="post-card__link">
+Link
+</a></div></div></div></div></main><footer class="footer" role="contentinfo" data-astro-cid-sz7xmlte><div class="footer__copyright" data-astro-cid-sz7xmlte><span data-astro-cid-sz7xmlte>
+Copyright 2020 - 2026. All rights reserved.
+</span></div><div class="footer__links" data-astro-cid-sz7xmlte><a href="https://icp.gov.moe/?keyword=20249889" target="_blank" rel="noopener noreferrer" aria-label="ICP 备案信息" data-astro-cid-sz7xmlte><span data-astro-cid-sz7xmlte>萌ICP备20249889号</span></a></div><div class="footer__links" data-astro-cid-sz7xmlte><a data-key="footer-link-Astro" href="//astro.build" target="_blank" rel="noopener noreferrer" aria-label="Astro: Generator" data-astro-cid-sz7xmlte><img src="https://img.shields.io/badge/Astro-Generator-Lime?logo=astro&amp;logoColor=red&amp;labelColor=pink" alt="Astro badge" loading="lazy" data-astro-cid-sz7xmlte="true" decoding="async" width="120" height="20"> </a><a data-key="footer-link-Vercel" href="//vercel.com" target="_blank" rel="noopener noreferrer" aria-label="Vercel: Deploy" data-astro-cid-sz7xmlte><img src="https://img.shields.io/badge/Vercel-Deploy-Lime?logo=vercel&amp;logoColor=white&amp;labelColor=cyan" alt="Vercel badge" loading="lazy" data-astro-cid-sz7xmlte="true" decoding="async" width="120" height="20"></a></div><div id="rss-stats" data-astro-cid-sz7xmlte>
+&nbsp;&nbsp;
+<a href="/rss.xml" data-astro-cid-sz7xmlte><img src="https://img.shields.io/badge/RSS-sky?logo=rss" alt="RSS" loading="lazy" data-astro-cid-sz7xmlte="true" decoding="async" width="80" height="20"> </a><a href="/sitemap-index.xml" data-astro-cid-sz7xmlte><img src="https://img.shields.io/badge/sitemap-%232bb24c?style=flat-square&amp;logo=maplibre&amp;logoColor=%23ffffff&amp;labelColor=%232bb24c&amp;link=https%3A%2F%2Fmarxchou.com%2Fsitemap-index.xml" alt="sitemap" loading="lazy" data-astro-cid-sz7xmlte="true" decoding="async" width="100" height="20"></a></div></footer></div><script type="module" src="/_astro/BaseLayout.astro_astro_type_script_index_0_lang.DZdsyEbN.js"></script><script type="module" src="/_astro/_tag_.astro_astro_type_script_index_0_lang.1ckCqI6P.js"></script></body></html>

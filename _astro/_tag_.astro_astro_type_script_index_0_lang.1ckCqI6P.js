@@ -1,0 +1,1 @@
+import{C as o}from"./waline.CJ_gn_fI.js";import{w as a}from"./index.DnIOlwPU.js";document.addEventListener("astro:page-load",()=>{const e=a.serverUrl,t=window.location.pathname;o({serverURL:e,path:t,selector:".waline-pageview-count",update:!0})});
